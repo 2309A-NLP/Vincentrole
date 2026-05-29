@@ -124,7 +124,8 @@ REDIS_DB=0
 LLM_API_BASE=https://api.deepseek.com
 LLM_MODEL_NAME=deepseek-chat
 # ⚠️ 填写你的 DeepSeek API Key（从 https://platform.deepseek.com/api_keys 获取）
-LLM_API_KEY=sk-your-deepseek-api-key-here
+#     禁止硬编码到代码中，必须通过此环境变量传入
+DEEPSEEK_API_KEY=sk-you...here
 
 # JWT 密钥（首次部署务必修改为随机字符串）
 SECRET_KEY=change-this-to-a-random-secret-string
@@ -315,10 +316,20 @@ start_apps() {
     fi
 
     # 导出环境变量供 config.py 读取
+    export DEEPSEEK_API_KEY="${DEEPSEEK_API_KEY:-}"
     export ROLEPLAY_SECRET_KEY="${SECRET_KEY:-change-this-to-a-random-secret-string}"
     export ROLEPLAY_ACCESS_TOKEN_EXPIRE_MINUTES="${ACCESS_TOKEN_EXPIRE_MINUTES:-1440}"
     export ROLEPLAY_ADMIN_TOKEN="${ADMIN_TOKEN:-}"
     export ROLEPLAY_LOG_LEVEL="${LOG_LEVEL:-INFO}"
+
+    # 检查 DeepSeek API Key
+    if [[ -z "${DEEPSEEK_API_KEY}" ]]; then
+        err "DEEPSEEK_API_KEY 未设置"
+        err "  请执行以下命令之一："
+        err "    1) 编辑 ${ENV_FILE}，填写 DEEPSEEK_API_KEY=sk-xxx"
+        err "    2) 或在外部导出环境变量: export DEEPSEEK_API_KEY=sk-xxx"
+        exit 1
+    fi
 
     # 构造连接字符串（如果 .env 中的值被 source 读了就不需要额外处理）
     info "启动配置:"
