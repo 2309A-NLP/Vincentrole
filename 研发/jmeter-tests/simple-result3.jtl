@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1780022897373,2496,健康检查,502,Bad Gateway,客户端线程 1-1,,false,,124,173,1,1,http://localhost:8080/health,2489,0,7

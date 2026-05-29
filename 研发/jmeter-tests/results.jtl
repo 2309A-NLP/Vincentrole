@@ -1,0 +1,871 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1780022687593,1,1-用户注册,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/register,用户认证流程（注册登录+鉴权API） 2-1,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/register]]]
+
+****** comparison: [[[注册成功              ]]]
+
+/",1121,0,1,3,http:/api/register,0,0,0
+1780022687593,1,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-1,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022687595,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-1,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022687595,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-1,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022687595,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-1,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022687595,1,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-1,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022687596,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-1,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022687596,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-1,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022687596,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-1,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022687596,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-1,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022687596,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-1,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022687595,0,2-用户登录,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/login,用户认证流程（注册登录+鉴权API） 2-1,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/logi]]]n
+
+****** comparison: [[[access_toke   ]]]n
+
+/",1118,0,1,3,http:/api/login,0,0,0
+1780022687607,0,3-获取Bootstrap数据,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/bootstrap,用户认证流程（注册登录+鉴权API） 2-1,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/bootstrap]]]
+
+****** comparison: [[[preferred_role     ]]]
+
+/",1122,0,1,2,http:/api/bootstrap,0,0,0
+1780022687607,0,4-更新角色偏好,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/preferences/active-role,用户认证流程（注册登录+鉴权API） 2-1,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/preferences/active-role]]]
+
+****** comparison: [[[已更新                              ]]]
+
+/",1136,0,1,2,http:/api/preferences/active-role,0,0,0
+1780022687607,0,5-清理角色历史,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/history/doctor_tcm,用户认证流程（注册登录+鉴权API） 2-1,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/history/doctor_tcm]]]
+
+****** comparison: [[[已清空                         ]]]
+
+/",1131,0,1,2,http:/api/history/doctor_tcm,0,0,0
+1780022687608,0,6-聊天接口(RAG对话),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/chat,用户认证流程（注册登录+鉴权API） 2-1,text,false,,1117,0,1,2,http:/api/chat,0,0,0
+1780022687823,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-2,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022687824,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-2,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022687825,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-2,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022687825,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-2,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022687825,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-2,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022687826,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-2,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022687826,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-2,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022687826,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-2,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022687826,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-2,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022687827,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-2,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022688041,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-3,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022688041,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-3,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022688042,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-3,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022688042,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-3,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022688042,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-3,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022688042,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-3,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022688043,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-3,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022688043,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-3,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022688043,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-3,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022688043,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-3,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022688232,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-4,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688233,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-4,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688233,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-4,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688233,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-4,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688234,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-4,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688234,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-4,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688234,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-4,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688234,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-4,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-4,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-4,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-5,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-5,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-5,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-5,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-5,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-5,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-5,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-5,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-5,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688438,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-5,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688107,478,健康检查,502,Bad Gateway,无认证接口 1-2,,false,,124,173,3,4,http://localhost:8080/health,472,0,1
+1780022688586,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-6,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022688587,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-6,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022688587,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-6,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022688588,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-6,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688588,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-6,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688588,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-6,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688588,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-6,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688588,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-6,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688589,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-6,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688589,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-6,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688603,0,1-用户注册,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/register,用户认证流程（注册登录+鉴权API） 2-2,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/register]]]
+
+****** comparison: [[[注册成功              ]]]
+
+/",1121,0,1,3,http:/api/register,0,0,0
+1780022688603,0,2-用户登录,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/login,用户认证流程（注册登录+鉴权API） 2-2,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/logi]]]n
+
+****** comparison: [[[access_toke   ]]]n
+
+/",1118,0,1,3,http:/api/login,0,0,0
+1780022688604,0,3-获取Bootstrap数据,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/bootstrap,用户认证流程（注册登录+鉴权API） 2-2,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/bootstrap]]]
+
+****** comparison: [[[preferred_role     ]]]
+
+/",1122,0,1,3,http:/api/bootstrap,0,0,0
+1780022688604,0,4-更新角色偏好,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/preferences/active-role,用户认证流程（注册登录+鉴权API） 2-2,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/preferences/active-role]]]
+
+****** comparison: [[[已更新                              ]]]
+
+/",1136,0,1,3,http:/api/preferences/active-role,0,0,0
+1780022688604,0,5-清理角色历史,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/history/doctor_tcm,用户认证流程（注册登录+鉴权API） 2-2,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/history/doctor_tcm]]]
+
+****** comparison: [[[已清空                         ]]]
+
+/",1131,0,1,3,http:/api/history/doctor_tcm,0,0,0
+1780022688605,0,6-聊天接口(RAG对话),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/chat,用户认证流程（注册登录+鉴权API） 2-2,text,false,,1117,0,1,3,http:/api/chat,0,0,0
+1780022688837,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-7,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688838,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-7,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688838,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-7,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688838,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-7,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688839,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-7,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688839,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-7,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688839,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-7,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688839,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-7,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688840,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-7,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022688840,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-7,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689037,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-8,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689037,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-8,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689038,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-8,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689038,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-8,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-8,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-8,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-8,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-8,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-8,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689040,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-8,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689237,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-9,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022689238,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-9,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022689238,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-9,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022689238,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-9,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022689238,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-9,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022689238,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-9,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022689239,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-9,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022689239,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-9,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022689239,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-9,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022689240,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-9,text,false,,1115,0,1,4,http:/health,0,0,0
+1780022689133,285,健康检查,502,Bad Gateway,无认证接口 1-4,,false,,124,173,3,3,http://localhost:8080/health,285,0,1
+1780022688575,850,健康检查,502,Bad Gateway,无认证接口 1-3,,false,,124,173,2,2,http://localhost:8080/health,850,0,2
+1780022689435,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-10,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022689435,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-10,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022689435,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-10,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022689435,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-10,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022689436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-10,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022689436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-10,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022689436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-10,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022689436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-10,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022689436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-10,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022689436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-10,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022689628,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-11,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689629,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-11,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689629,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-11,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689630,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-11,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689630,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-11,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689630,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-11,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689631,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-11,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689631,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-11,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689632,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-11,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689632,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-11,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689636,0,1-用户注册,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/register,用户认证流程（注册登录+鉴权API） 2-3,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/register]]]
+
+****** comparison: [[[注册成功              ]]]
+
+/",1121,0,1,3,http:/api/register,0,0,0
+1780022689636,0,2-用户登录,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/login,用户认证流程（注册登录+鉴权API） 2-3,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/logi]]]n
+
+****** comparison: [[[access_toke   ]]]n
+
+/",1118,0,1,3,http:/api/login,0,0,0
+1780022689637,0,3-获取Bootstrap数据,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/bootstrap,用户认证流程（注册登录+鉴权API） 2-3,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/bootstrap]]]
+
+****** comparison: [[[preferred_role     ]]]
+
+/",1122,0,1,3,http:/api/bootstrap,0,0,0
+1780022689637,0,4-更新角色偏好,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/preferences/active-role,用户认证流程（注册登录+鉴权API） 2-3,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/preferences/active-role]]]
+
+****** comparison: [[[已更新                              ]]]
+
+/",1136,0,1,3,http:/api/preferences/active-role,0,0,0
+1780022689638,0,5-清理角色历史,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/history/doctor_tcm,用户认证流程（注册登录+鉴权API） 2-3,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/history/doctor_tcm]]]
+
+****** comparison: [[[已清空                         ]]]
+
+/",1131,0,1,3,http:/api/history/doctor_tcm,0,0,0
+1780022689638,0,6-聊天接口(RAG对话),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/chat,用户认证流程（注册登录+鉴权API） 2-3,text,false,,1117,0,1,3,http:/api/chat,0,0,0
+1780022689839,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-12,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689840,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-12,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689841,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-12,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689841,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-12,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689841,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-12,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689842,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-12,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689842,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-12,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689842,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-12,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689842,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-12,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689842,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-12,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690031,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-13,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690032,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-13,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690032,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-13,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690032,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-13,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690032,1,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-13,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-13,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-13,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-13,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-13,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-13,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022687593,2473,健康检查,502,Bad Gateway,无认证接口 1-1,,false,,124,173,2,2,http://localhost:8080/health,2473,0,13
+1780022690233,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-14,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690233,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-14,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690234,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-14,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690234,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-14,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690234,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-14,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690234,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-14,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690234,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-14,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-14,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-14,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-14,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022689628,702,健康检查,502,Bad Gateway,无认证接口 1-5,,false,,124,173,2,2,http://localhost:8080/health,702,0,2
+1780022690130,295,健康检查,502,Bad Gateway,无认证接口 1-6,,false,,124,173,1,1,http://localhost:8080/health,295,0,1
+1780022690436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-15,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022690436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-15,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022690436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-15,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022690436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-15,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022690437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-15,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022690437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-15,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022690437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-15,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022690437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-15,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022690437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-15,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022690437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-15,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022690629,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-16,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690629,0,1-用户注册,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/register,用户认证流程（注册登录+鉴权API） 2-4,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/register]]]
+
+****** comparison: [[[注册成功              ]]]
+
+/",1121,0,1,3,http:/api/register,0,0,0
+1780022690629,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-16,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690630,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-16,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690630,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-16,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690629,1,2-用户登录,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/login,用户认证流程（注册登录+鉴权API） 2-4,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/logi]]]n
+
+****** comparison: [[[access_toke   ]]]n
+
+/",1118,0,1,3,http:/api/login,0,0,0
+1780022690630,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-16,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690630,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-16,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690630,0,3-获取Bootstrap数据,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/bootstrap,用户认证流程（注册登录+鉴权API） 2-4,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/bootstrap]]]
+
+****** comparison: [[[preferred_role     ]]]
+
+/",1122,0,1,3,http:/api/bootstrap,0,0,0
+1780022690630,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-16,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690633,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-16,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690633,0,4-更新角色偏好,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/preferences/active-role,用户认证流程（注册登录+鉴权API） 2-4,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/preferences/active-role]]]
+
+****** comparison: [[[已更新                              ]]]
+
+/",1136,0,1,3,http:/api/preferences/active-role,0,0,0
+1780022690633,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-16,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690633,0,5-清理角色历史,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/history/doctor_tcm,用户认证流程（注册登录+鉴权API） 2-4,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/history/doctor_tcm]]]
+
+****** comparison: [[[已清空                         ]]]
+
+/",1131,0,1,3,http:/api/history/doctor_tcm,0,0,0
+1780022690633,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-16,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022690634,0,6-聊天接口(RAG对话),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/chat,用户认证流程（注册登录+鉴权API） 2-4,text,false,,1117,0,1,3,http:/api/chat,0,0,0
+1780022690777,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-17,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022690777,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-17,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022690778,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-17,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022690778,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-17,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022690778,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-17,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022690778,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-17,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022690778,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-17,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022690779,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-17,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022690779,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-17,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022690779,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-17,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691041,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-18,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691042,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-18,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691042,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-18,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691042,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-18,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691043,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-18,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691043,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-18,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691043,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-18,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691043,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-18,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691043,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-18,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691043,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-18,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691236,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-19,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691237,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-19,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691237,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-19,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691237,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-19,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691237,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-19,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691237,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-19,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691237,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-19,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691237,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-19,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691237,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-19,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691238,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-19,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691134,297,健康检查,502,Bad Gateway,无认证接口 1-8,,false,,124,173,2,2,http://localhost:8080/health,297,0,1
+1780022690629,802,健康检查,502,Bad Gateway,无认证接口 1-7,,false,,124,173,2,2,http://localhost:8080/health,802,0,1
+1780022691440,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-20,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022691441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-20,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022691441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-20,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022691441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-20,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022691441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-20,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022691441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-20,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022691441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-20,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022691441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-20,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022691441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-20,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022691442,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-20,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022691621,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-21,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691621,0,1-用户注册,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/register,用户认证流程（注册登录+鉴权API） 2-5,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/register]]]
+
+****** comparison: [[[注册成功              ]]]
+
+/",1121,0,1,3,http:/api/register,0,0,0
+1780022691621,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-21,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691621,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-21,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691622,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-21,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691621,0,2-用户登录,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/login,用户认证流程（注册登录+鉴权API） 2-5,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/logi]]]n
+
+****** comparison: [[[access_toke   ]]]n
+
+/",1118,0,1,3,http:/api/login,0,0,0
+1780022691622,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-21,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691622,0,3-获取Bootstrap数据,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/bootstrap,用户认证流程（注册登录+鉴权API） 2-5,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/bootstrap]]]
+
+****** comparison: [[[preferred_role     ]]]
+
+/",1122,0,1,3,http:/api/bootstrap,0,0,0
+1780022691622,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-21,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691623,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-21,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691623,0,4-更新角色偏好,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/preferences/active-role,用户认证流程（注册登录+鉴权API） 2-5,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/preferences/active-role]]]
+
+****** comparison: [[[已更新                              ]]]
+
+/",1136,0,1,3,http:/api/preferences/active-role,0,0,0
+1780022691623,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-21,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691623,0,5-清理角色历史,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/history/doctor_tcm,用户认证流程（注册登录+鉴权API） 2-5,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/history/doctor_tcm]]]
+
+****** comparison: [[[已清空                         ]]]
+
+/",1131,0,1,3,http:/api/history/doctor_tcm,0,0,0
+1780022691624,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-21,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691624,0,6-聊天接口(RAG对话),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/chat,用户认证流程（注册登录+鉴权API） 2-5,text,false,,1117,0,1,3,http:/api/chat,0,0,0
+1780022691624,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-21,text,false,,1115,0,1,3,http:/health,0,0,0
+1780022691841,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-22,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691841,1,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-22,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691842,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-22,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691842,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-22,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691843,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-22,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691843,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-22,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691843,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-22,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691843,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-22,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691843,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-22,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691843,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-22,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022691621,320,健康检查,502,Bad Gateway,无认证接口 1-9,,false,,124,173,1,1,http://localhost:8080/health,320,0,1
+1780022692031,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-23,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692032,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-23,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692032,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-23,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692032,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-23,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692032,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-23,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-23,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-23,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-23,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-23,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-23,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692230,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-24,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022692231,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-24,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022692231,1,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-24,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022692232,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-24,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022692232,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-24,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022692232,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-24,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022692232,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-24,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022692233,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-24,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022692233,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-24,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022692233,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-24,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022692132,284,健康检查,502,Bad Gateway,无认证接口 1-10,,false,,124,173,1,1,http://localhost:8080/health,284,0,1
+1780022692440,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-25,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-25,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-25,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-25,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692442,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-25,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692442,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-25,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692442,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-25,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692442,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-25,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692442,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-25,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692442,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-25,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692635,0,1-用户注册,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/register,用户认证流程（注册登录+鉴权API） 2-6,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/register]]]
+
+****** comparison: [[[注册成功              ]]]
+
+/",1121,0,1,1,http:/api/register,0,0,0
+1780022692635,0,2-用户登录,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/login,用户认证流程（注册登录+鉴权API） 2-6,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/logi]]]n
+
+****** comparison: [[[access_toke   ]]]n
+
+/",1118,0,1,1,http:/api/login,0,0,0
+1780022692636,0,3-获取Bootstrap数据,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/bootstrap,用户认证流程（注册登录+鉴权API） 2-6,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/bootstrap]]]
+
+****** comparison: [[[preferred_role     ]]]
+
+/",1122,0,1,1,http:/api/bootstrap,0,0,0
+1780022692636,0,4-更新角色偏好,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/preferences/active-role,用户认证流程（注册登录+鉴权API） 2-6,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/preferences/active-role]]]
+
+****** comparison: [[[已更新                              ]]]
+
+/",1136,0,1,1,http:/api/preferences/active-role,0,0,0
+1780022692637,0,5-清理角色历史,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/history/doctor_tcm,用户认证流程（注册登录+鉴权API） 2-6,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/history/doctor_tcm]]]
+
+****** comparison: [[[已清空                         ]]]
+
+/",1131,0,1,1,http:/api/history/doctor_tcm,0,0,0
+1780022692637,0,6-聊天接口(RAG对话),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/chat,用户认证流程（注册登录+鉴权API） 2-6,text,false,,1117,0,1,1,http:/api/chat,0,0,0
+1780022692639,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-26,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692639,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-26,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692639,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-26,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692639,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-26,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692639,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-26,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692640,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-26,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692640,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-26,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692640,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-26,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692640,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-26,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692641,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-26,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692835,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-27,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692836,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-27,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692836,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-27,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692836,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-27,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692836,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-27,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692836,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-27,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692836,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-27,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692836,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-27,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692838,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-27,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022692838,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-27,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693034,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-28,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693035,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-28,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693035,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-28,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693035,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-28,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693035,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-28,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693035,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-28,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693035,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-28,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693035,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-28,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693035,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-28,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693035,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-28,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693239,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-29,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693240,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-29,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693240,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-29,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693240,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-29,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693240,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-29,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693240,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-29,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693240,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-29,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693240,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-29,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693240,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-29,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693240,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-29,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693437,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-30,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693438,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-30,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693438,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-30,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693438,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-30,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693439,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-30,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693439,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-30,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693439,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-30,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693439,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-30,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693439,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-30,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693439,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-30,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693616,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-31,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693616,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-31,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693616,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-31,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693617,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-31,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693617,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-31,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693617,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-31,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693617,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-31,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693617,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-31,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693617,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-31,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693617,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-31,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693635,1,1-用户注册,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/register,用户认证流程（注册登录+鉴权API） 2-7,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/register]]]
+
+****** comparison: [[[注册成功              ]]]
+
+/",1121,0,1,1,http:/api/register,0,0,0
+1780022693636,0,2-用户登录,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/login,用户认证流程（注册登录+鉴权API） 2-7,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/logi]]]n
+
+****** comparison: [[[access_toke   ]]]n
+
+/",1118,0,1,1,http:/api/login,0,0,0
+1780022693637,0,3-获取Bootstrap数据,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/bootstrap,用户认证流程（注册登录+鉴权API） 2-7,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/bootstrap]]]
+
+****** comparison: [[[preferred_role     ]]]
+
+/",1122,0,1,1,http:/api/bootstrap,0,0,0
+1780022693637,0,4-更新角色偏好,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/preferences/active-role,用户认证流程（注册登录+鉴权API） 2-7,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/preferences/active-role]]]
+
+****** comparison: [[[已更新                              ]]]
+
+/",1136,0,1,1,http:/api/preferences/active-role,0,0,0
+1780022693637,0,5-清理角色历史,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/history/doctor_tcm,用户认证流程（注册登录+鉴权API） 2-7,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/history/doctor_tcm]]]
+
+****** comparison: [[[已清空                         ]]]
+
+/",1131,0,1,1,http:/api/history/doctor_tcm,0,0,0
+1780022693637,0,6-聊天接口(RAG对话),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/chat,用户认证流程（注册登录+鉴权API） 2-7,text,false,,1117,0,1,1,http:/api/chat,0,0,0
+1780022693826,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-32,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693826,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-32,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693826,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-32,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693827,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-32,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693827,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-32,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693827,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-32,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693827,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-32,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693827,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-32,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693827,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-32,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693827,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-32,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693973,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-33,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693974,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-33,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693974,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-33,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693975,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-33,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693975,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-33,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693975,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-33,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693975,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-33,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693975,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-33,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693975,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-33,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022693976,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-33,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694239,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-34,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694240,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-34,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694241,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-34,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694241,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-34,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694241,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-34,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694241,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-34,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694241,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-34,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694242,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-34,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694242,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-34,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694242,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-34,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694439,1,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-35,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694440,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-35,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694440,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-35,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-35,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-35,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-35,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-35,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-35,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-35,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-35,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694578,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-36,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022694578,0,1-用户注册,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/register,用户认证流程（注册登录+鉴权API） 2-8,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/register]]]
+
+****** comparison: [[[注册成功              ]]]
+
+/",1121,0,1,2,http:/api/register,0,0,0
+1780022694579,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-36,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022694579,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-36,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022694579,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-36,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022694579,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-36,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022694579,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-36,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022694579,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-36,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022694579,0,2-用户登录,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/login,用户认证流程（注册登录+鉴权API） 2-8,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/logi]]]n
+
+****** comparison: [[[access_toke   ]]]n
+
+/",1118,0,1,2,http:/api/login,0,0,0
+1780022694580,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-36,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022694580,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-36,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022694580,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-36,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022694580,0,3-获取Bootstrap数据,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/bootstrap,用户认证流程（注册登录+鉴权API） 2-8,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/bootstrap]]]
+
+****** comparison: [[[preferred_role     ]]]
+
+/",1122,0,1,2,http:/api/bootstrap,0,0,0
+1780022694580,0,4-更新角色偏好,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/preferences/active-role,用户认证流程（注册登录+鉴权API） 2-8,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/preferences/active-role]]]
+
+****** comparison: [[[已更新                              ]]]
+
+/",1136,0,1,2,http:/api/preferences/active-role,0,0,0
+1780022694580,0,5-清理角色历史,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/history/doctor_tcm,用户认证流程（注册登录+鉴权API） 2-8,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/history/doctor_tcm]]]
+
+****** comparison: [[[已清空                         ]]]
+
+/",1131,0,1,1,http:/api/history/doctor_tcm,0,0,0
+1780022694581,0,6-聊天接口(RAG对话),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/chat,用户认证流程（注册登录+鉴权API） 2-8,text,false,,1117,0,1,1,http:/api/chat,0,0,0
+1780022694830,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-37,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694830,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-37,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694830,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-37,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694831,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-37,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694831,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-37,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694831,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-37,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694831,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-37,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694831,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-37,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694831,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-37,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022694831,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-37,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-38,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-38,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-38,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695040,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-38,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695040,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-38,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695040,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-38,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695040,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-38,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695040,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-38,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695040,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-38,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695041,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-38,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695223,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-39,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695223,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-39,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695224,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-39,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695224,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-39,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695224,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-39,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695224,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-39,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695224,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-39,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695224,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-39,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695224,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-39,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695225,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-39,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695440,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-40,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-40,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-40,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-40,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-40,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-40,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-40,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-40,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-40,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695441,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-40,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695635,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-41,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022695635,0,1-用户注册,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/register,用户认证流程（注册登录+鉴权API） 2-9,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/register]]]
+
+****** comparison: [[[注册成功              ]]]
+
+/",1121,0,1,2,http:/api/register,0,0,0
+1780022695635,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-41,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022695635,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-41,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022695636,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-41,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022695636,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-41,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022695636,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-41,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022695635,1,2-用户登录,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/login,用户认证流程（注册登录+鉴权API） 2-9,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/logi]]]n
+
+****** comparison: [[[access_toke   ]]]n
+
+/",1118,0,1,2,http:/api/login,0,0,0
+1780022695636,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-41,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022695636,0,3-获取Bootstrap数据,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/bootstrap,用户认证流程（注册登录+鉴权API） 2-9,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/bootstrap]]]
+
+****** comparison: [[[preferred_role     ]]]
+
+/",1122,0,1,2,http:/api/bootstrap,0,0,0
+1780022695636,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-41,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022695636,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-41,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022695636,0,4-更新角色偏好,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/preferences/active-role,用户认证流程（注册登录+鉴权API） 2-9,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/preferences/active-role]]]
+
+****** comparison: [[[已更新                              ]]]
+
+/",1136,0,1,2,http:/api/preferences/active-role,0,0,0
+1780022695636,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-41,text,false,,1115,0,1,2,http:/health,0,0,0
+1780022695636,0,5-清理角色历史,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/history/doctor_tcm,用户认证流程（注册登录+鉴权API） 2-9,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/history/doctor_tcm]]]
+
+****** comparison: [[[已清空                         ]]]
+
+/",1131,0,1,2,http:/api/history/doctor_tcm,0,0,0
+1780022695637,0,6-聊天接口(RAG对话),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/chat,用户认证流程（注册登录+鉴权API） 2-9,text,false,,1117,0,1,2,http:/api/chat,0,0,0
+1780022695833,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-42,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695833,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-42,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695834,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-42,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695834,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-42,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695834,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-42,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695834,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-42,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695834,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-42,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695834,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-42,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695834,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-42,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022695834,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-42,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696032,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-43,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696032,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-43,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-43,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-43,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-43,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-43,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-43,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-43,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-43,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696033,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-43,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696241,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-44,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696241,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-44,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696241,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-44,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696242,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-44,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696242,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-44,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696242,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-44,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696242,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-44,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696242,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-44,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696242,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-44,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696242,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-44,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-45,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-45,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-45,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696435,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-45,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696435,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-45,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696435,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-45,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696435,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-45,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696435,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-45,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-45,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696436,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-45,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696624,0,1-用户注册,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/register,用户认证流程（注册登录+鉴权API） 2-10,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/register]]]
+
+****** comparison: [[[注册成功              ]]]
+
+/",1121,0,1,1,http:/api/register,0,0,0
+1780022696624,1,2-用户登录,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/login,用户认证流程（注册登录+鉴权API） 2-10,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/logi]]]n
+
+****** comparison: [[[access_toke   ]]]n
+
+/",1118,0,1,1,http:/api/login,0,0,0
+1780022696625,0,3-获取Bootstrap数据,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/bootstrap,用户认证流程（注册登录+鉴权API） 2-10,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/bootstrap]]]
+
+****** comparison: [[[preferred_role     ]]]
+
+/",1122,0,1,1,http:/api/bootstrap,0,0,0
+1780022696625,0,4-更新角色偏好,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/preferences/active-role,用户认证流程（注册登录+鉴权API） 2-10,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/preferences/active-role]]]
+
+****** comparison: [[[已更新                              ]]]
+
+/",1136,0,1,1,http:/api/preferences/active-role,0,0,0
+1780022696626,0,5-清理角色历史,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/history/doctor_tcm,用户认证流程（注册登录+鉴权API） 2-10,text,false,"Test failed: URL expected to equal /
+
+****** received  : [[[http:/api/history/doctor_tcm]]]
+
+****** comparison: [[[已清空                         ]]]
+
+/",1131,0,1,1,http:/api/history/doctor_tcm,0,0,0
+1780022696626,0,6-聊天接口(RAG对话),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/api/chat,用户认证流程（注册登录+鉴权API） 2-10,text,false,,1117,0,1,1,http:/api/chat,0,0,0
+1780022696640,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-46,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696640,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-46,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696640,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-46,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696640,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-46,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696641,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-46,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696641,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-46,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696641,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-46,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696641,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-46,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696641,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-46,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696641,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-46,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696797,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-47,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696797,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-47,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696797,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-47,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696797,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-47,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696798,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-47,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696798,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-47,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696798,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-47,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696798,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-47,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696798,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-47,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022696798,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-47,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697038,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-48,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-48,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-48,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-48,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-48,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-48,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-48,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697039,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-48,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697040,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-48,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697040,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-48,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697234,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-49,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-49,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-49,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-49,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-49,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-49,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-49,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-49,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-49,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697235,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-49,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697433,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-50,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-50,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-50,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-50,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-50,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-50,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-50,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-50,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-50,text,false,,1115,0,1,1,http:/health,0,0,0
+1780022697434,0,健康检查(压力),Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/health,压力测试-健康检查(50线程×10循环) 3-50,text,false,,1115,0,1,1,http:/health,0,0,0

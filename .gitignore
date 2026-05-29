@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+data/app_data.db
+.idea/
+venv/
+.venv/
+knowledge_base/
+__pycache__/
+*.pyc
+
+# JMeter 报告目录（第三方 JS/CSS 不跟踪）
+**/jmeter.log
+**/report/
+**/report2/
+**/report3/
+**/report_final/
+# 运行时数据
+data/
+优化/
+# 运行时数据
+研发/medical_data_/
