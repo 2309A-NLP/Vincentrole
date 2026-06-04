@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>工单3 - 表格解析优化版架构图</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #020617;
+  font-family: 'JetBrains Mono', monospace;
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+.header .pulse {
+  display: inline-block;
+  width: 10px; height: 10px;
+  background: #fbbf24;
+  border-radius: 50%;
+  margin-right: 10px;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.header .subtitle {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 6px;
+}
+.diagram-container {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+.main-svg { display: block; margin: 0 auto; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+  max-width: 1000px;
+  width: 100%;
+}
+.card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 16px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.card-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+}
+.card-dot.amber { background: #fbbf24; }
+.card-dot.emerald { background: #34d399; }
+.card-dot.violet { background: #a78bfa; }
+.card h3 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #e2e8f0;
+}
+.card ul {
+  list-style: none;
+  font-size: 11px;
+  color: #94a3b8;
+  line-height: 1.8;
+}
+.card ul li::before {
+  content: "• ";
+  color: #475569;
+}
+.footer {
+  margin-top: 20px;
+  font-size: 10px;
+  color: #334155;
+  text-align: center;
+}
+.highlight {
+  fill: #fbbf24;
+  font-weight: 600;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span class="pulse"></span>工单3 · PDF智能问答系统 · 表格解析优化版</h1>
+  <div class="subtitle">多文档支持 · 表格感知检索 · 列头匹配 · 加权重排序</div>
+</div>
+
+<div class="diagram-container">
+  <svg class="main-svg" width="960" height="780" viewBox="0 0 960 780" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+      </pattern>
+      <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/>
+      </marker>
+      <marker id="arrow-cyan" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#22d3ee"/>
+      </marker>
+      <marker id="arrow-emerald" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#34d399"/>
+      </marker>
+      <marker id="arrow-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#a78bfa"/>
+      </marker>
+      <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#fbbf24"/>
+      </marker>
+    </defs>
+
+    <rect width="960" height="780" fill="url(#grid)"/>
+
+    <!-- ======== Flow Lines ======== -->
+    
+    <!-- User → Streamlit UI -->
+    <path d="M 160 120 L 280 120" stroke="#22d3ee" stroke-width="1.5" fill="none" marker-end="url(#arrow-cyan)"/>
+    <text x="220" y="112" fill="#64748b" font-size="8" text-anchor="middle">上传多PDF / 提问</text>
+
+    <!-- Streamlit UI → Orchestrator -->
+    <path d="M 420 150 L 420 280" stroke="#22d3ee" stroke-width="1.5" fill="none" marker-end="url(#arrow-cyan)"/>
+    <text x="432" y="220" fill="#64748b" font-size="8">请求</text>
+
+    <!-- Orchestrator → PDF Parser -->
+    <path d="M 300 320 L 100 320" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#arrow-emerald)"/>
+    <text x="200" y="312" fill="#64748b" font-size="8">解析多文档</text>
+
+    <!-- PDF Parser → Chunker -->
+    <path d="M 100 380 L 100 430" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#arrow-emerald)"/>
+    <text x="112" y="410" fill="#64748b" font-size="8">文本+表格</text>
+
+    <!-- Chunker → Embedding -->
+    <path d="M 180 490 L 280 490" stroke="#a78bfa" stroke-width="1.5" fill="none" marker-end="url(#arrow-violet)"/>
+    <text x="230" y="482" fill="#64748b" font-size="8">chunks</text>
+
+    <!-- Embedding → Vector Store -->
+    <path d="M 420 490 L 520 490" stroke="#a78bfa" stroke-width="1.5" fill="none" marker-end="url(#arrow-violet)"/>
+    <text x="470" y="482" fill="#64748b" font-size="8">向量</text>
+
+    <!-- Orchestrator → Query Understanding -->
+    <path d="M 420 320 L 540 320" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#arrow-emerald)"/>
+    <text x="480" y="312" fill="#64748b" font-size="8">理解</text>
+
+    <!-- Query Understanding → Retriever（表格感知） -->
+    <path d="M 640 350 L 640 430" stroke="#fbbf24" stroke-width="2" fill="none" marker-end="url(#arrow-amber)"/>
+    <text x="652" y="395" fill="#fbbf24" font-size="9" font-weight="600">表格感知检索</text>
+
+    <!-- Retriever → Vector Store -->
+    <path d="M 640 490 L 710 490" stroke="#a78bfa" stroke-width="1.5" fill="none" marker-end="url(#arrow-violet)"/>
+    <text x="675" y="482" fill="#64748b" font-size="8">检索</text>
+
+    <!-- Vector Store → Retriever -->
+    <path d="M 710 530 L 640 530" stroke="#a78bfa" stroke-width="1.5" fill="none" marker-end="url(#arrow-violet)"/>
+    <text x="675" y="550" fill="#64748b" font-size="8">结果</text>
+
+    <!-- Retriever → Table Reranker -->
+    <path d="M 640 570 L 640 600" stroke="#fbbf24" stroke-width="2" fill="none" marker-end="url(#arrow-amber)"/>
+    <text x="652" y="590" fill="#fbbf24" font-size="8">加权</text>
+
+    <!-- Table Reranker → Generator -->
+    <path d="M 640 640 L 640 670" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#arrow-emerald)"/>
+    <text x="652" y="660" fill="#64748b" font-size="8">上下文</text>
+
+    <!-- Generator → External LLM -->
+    <path d="M 720 700 L 820 700" stroke="#fb923c" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <text x="770" y="692" fill="#64748b" font-size="8">API请求</text>
+
+    <!-- External LLM → Generator -->
+    <path d="M 820 730 L 720 730" stroke="#fb923c" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <text x="770" y="748" fill="#64748b" font-size="8">回答</text>
+
+    <!-- Generator → Orchestrator -->
+    <path d="M 560 700 L 420 700 L 420 360" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#arrow-emerald)"/>
+    <text x="490" y="715" fill="#64748b" font-size="8">响应</text>
+
+    <!-- Orchestrator → Streamlit UI -->
+    <path d="M 420 380 L 420 190" stroke="#22d3ee" stroke-width="1.5" fill="none" marker-end="url(#arrow-cyan)"/>
+    <text x="400" y="285" fill="#64748b" font-size="8">展示</text>
+
+    <!-- ======== User Layer ======== -->
+    <rect x="60" y="90" width="100" height="60" rx="30" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="110" y="117" fill="#e2e8f0" font-size="12" text-anchor="middle" font-weight="500">👤 用户</text>
+    <text x="110" y="133" fill="#64748b" font-size="8" text-anchor="middle">上传多PDF + 提问</text>
+
+    <!-- ======== Frontend Layer ======== -->
+    <rect x="280" y="90" width="200" height="60" rx="6" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+    <rect x="280" y="90" width="200" height="60" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="280" y="90" width="200" height="60" rx="6" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+    <text x="380" y="117" fill="#22d3ee" font-size="12" text-anchor="middle" font-weight="500">Streamlit 界面</text>
+    <text x="380" y="133" fill="#64748b" font-size="8" text-anchor="middle">多文档上传 + 对比展示</text>
+
+    <!-- ======== Backend Layer ======== -->
+    <!-- Orchestrator -->
+    <rect x="320" y="280" width="200" height="60" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="320" y="280" width="200" height="60" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="320" y="280" width="200" height="60" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="420" y="307" fill="#34d399" font-size="12" text-anchor="middle" font-weight="500">RAG Orchestrator</text>
+    <text x="420" y="323" fill="#64748b" font-size="8" text-anchor="middle">多文档管理 + 调度</text>
+
+    <!-- PDF Parser -->
+    <rect x="20" y="300" width="160" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="20" y="300" width="160" height="50" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="20" y="300" width="160" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="100" y="322" fill="#34d399" font-size="11" text-anchor="middle" font-weight="500">PDF 解析器</text>
+    <text x="100" y="336" fill="#64748b" font-size="8" text-anchor="middle">多文档结构化提取</text>
+
+    <!-- Chunker -->
+    <rect x="20" y="430" width="160" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="20" y="430" width="160" height="50" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="20" y="430" width="160" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="100" y="452" fill="#34d399" font-size="11" text-anchor="middle" font-weight="500">语义分块器</text>
+    <text x="100" y="466" fill="#64748b" font-size="8" text-anchor="middle">表格整体保护</text>
+
+    <!-- Query Understanding -->
+    <rect x="540" y="290" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="540" y="290" width="200" height="50" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="540" y="290" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="640" y="312" fill="#34d399" font-size="11" text-anchor="middle" font-weight="500">Query 理解</text>
+    <text x="640" y="326" fill="#64748b" font-size="8" text-anchor="middle">语言检测 + 意图识别</text>
+
+    <!-- Retriever（表格感知） -->
+    <rect x="520" y="430" width="240" height="55" rx="6" fill="rgba(251, 146, 60, 0.15)" stroke="#fbbf24" stroke-width="2"/>
+    <rect x="520" y="430" width="240" height="55" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="520" y="430" width="240" height="55" rx="6" fill="rgba(251, 146, 60, 0.15)" stroke="#fbbf24" stroke-width="2"/>
+    <text x="640" y="452" fill="#fbbf24" font-size="11" text-anchor="middle" font-weight="600">表格感知检索器</text>
+    <text x="640" y="468" fill="#64748b" font-size="8" text-anchor="middle">FAISS + BM25 + 列名感知</text>
+
+    <!-- Table Reranker -->
+    <rect x="520" y="600" width="240" height="45" rx="6" fill="rgba(251, 146, 60, 0.15)" stroke="#fbbf24" stroke-width="2"/>
+    <rect x="520" y="600" width="240" height="45" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="520" y="600" width="240" height="45" rx="6" fill="rgba(251, 146, 60, 0.15)" stroke="#fbbf24" stroke-width="2"/>
+    <text x="640" y="620" fill="#fbbf24" font-size="11" text-anchor="middle" font-weight="600">表格加权重排序</text>
+    <text x="640" y="634" fill="#64748b" font-size="8" text-anchor="middle">列头匹配(×0.4) · 标题匹配(×0.5) · 表格权重(×0.3)</text>
+
+    <!-- Generator -->
+    <rect x="440" y="670" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="440" y="670" width="200" height="50" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="440" y="670" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="540" y="692" fill="#34d399" font-size="11" text-anchor="middle" font-weight="500">LLM 生成器</text>
+    <text x="540" y="706" fill="#64748b" font-size="8" text-anchor="middle">表格数据提取 Prompt</text>
+
+    <!-- ======== Database Layer ======== -->
+    <!-- Embedding -->
+    <rect x="280" y="460" width="140" height="60" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    <rect x="280" y="460" width="140" height="60" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="280" y="460" width="140" height="60" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="350" y="487" fill="#a78bfa" font-size="11" text-anchor="middle" font-weight="500">Embedding</text>
+    <text x="350" y="503" fill="#64748b" font-size="8" text-anchor="middle">BGE + Sentence-T</text>
+
+    <!-- Vector Store -->
+    <rect x="520" y="460" width="140" height="60" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    <rect x="520" y="460" width="140" height="60" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="520" y="460" width="140" height="60" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="590" y="487" fill="#a78bfa" font-size="11" text-anchor="middle" font-weight="500">FAISS 向量库</text>
+    <text x="590" y="503" fill="#64748b" font-size="8" text-anchor="middle">+ BM25 关键词</text>
+
+    <!-- ======== External Layer ======== -->
+    <rect x="820" y="670" width="120" height="60" rx="6" fill="rgba(251, 146, 60, 0.3)" stroke="#fb923c" stroke-width="1.5"/>
+    <rect x="820" y="670" width="120" height="60" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="820" y="670" width="120" height="60" rx="6" fill="rgba(251, 146, 60, 0.3)" stroke="#fb923c" stroke-width="1.5"/>
+    <text x="880" y="697" fill="#fb923c" font-size="11" text-anchor="middle" font-weight="500">通义千问</text>
+    <text x="880" y="713" fill="#64748b" font-size="8" text-anchor="middle">LLM API</text>
+
+    <!-- ======== Region Boundaries ======== -->
+
+    <!-- 核心引擎 -->
+    <rect x="10" y="270" width="930" height="500" rx="12" fill="none" stroke="#fbbf24" stroke-width="1" stroke-dasharray="8,4" opacity="0.3"/>
+    <text x="30" y="288" fill="#fbbf24" font-size="9" opacity="0.6">RAG 核心引擎（多文档 + 表格感知）</text>
+
+    <!-- 表格优化模块高亮 -->
+    <rect x="510" y="420" width="260" height="240" rx="8" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+    <text x="520" y="440" fill="#fbbf24" font-size="9" opacity="0.8">🆕 表格感知检索模块</text>
+
+    <!-- ======== Legend ======== -->
+    <g transform="translate(30, 745)">
+      <rect x="0" y="0" width="900" height="25" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <circle cx="20" cy="13" r="4" fill="#22d3ee"/>
+      <text x="30" y="17" fill="#94a3b8" font-size="8">前端层</text>
+      <circle cx="120" cy="13" r="4" fill="#34d399"/>
+      <text x="130" y="17" fill="#94a3b8" font-size="8">后端服务层</text>
+      <circle cx="240" cy="13" r="4" fill="#a78bfa"/>
+      <text x="250" y="17" fill="#94a3b8" font-size="8">向量数据库层</text>
+      <circle cx="370" cy="13" r="4" fill="#fbbf24"/>
+      <text x="380" y="17" fill="#fbbf24" font-size="8" font-weight="600">表格感知优化（新增）</text>
+      <circle cx="540" cy="13" r="4" fill="#fb923c"/>
+      <text x="550" y="17" fill="#94a3b8" font-size="8">外部API层</text>
+    </g>
+
+  </svg>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-header">
+      <div class="card-dot amber"></div>
+      <h3>多文档支持</h3>
+    </div>
+    <ul>
+      <li>同时加载多份 PDF（招股书1 + 招股书2）</li>
+      <li>统一分块 → 统一索引 → 跨文档检索</li>
+      <li>对比展示各文档检索结果</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <div class="card-dot amber"></div>
+      <h3>表格感知检索</h3>
+    </div>
+    <ul>
+      <li>列名匹配提升：查询词命中列名时 +0.4</li>
+      <li>表格标题匹配：命中表格标题时 +0.5</li>
+      <li>表格整体保护：表格作为完整chunk不分拆</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <div class="card-dot emerald"></div>
+      <h3>RAG 核心流程</h3>
+    </div>
+    <ul>
+      <li>PDF 解析 → 语义分块 → BGE 向量化</li>
+      <li>FAISS + BM25 混合检索 → RRF 融合</li>
+      <li>表格加权 → LLM 生成 → 结果展示</li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">
+  工单编号: 人工智能NLP-RAG-PDF文档的表格解析及检索优化 · 八维文化与产业研究院
+</div>
+
+</body>
+</html>
