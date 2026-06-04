@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>工单2 - PDF智能问答系统架构图</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #020617;
+  font-family: 'JetBrains Mono', monospace;
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+.header .pulse {
+  display: inline-block;
+  width: 10px; height: 10px;
+  background: #22d3ee;
+  border-radius: 50%;
+  margin-right: 10px;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.header .subtitle {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 6px;
+}
+.diagram-container {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+.main-svg { display: block; margin: 0 auto; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+  max-width: 1000px;
+  width: 100%;
+}
+.card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 16px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.card-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+}
+.card-dot.cyan { background: #22d3ee; }
+.card-dot.emerald { background: #34d399; }
+.card-dot.violet { background: #a78bfa; }
+.card h3 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #e2e8f0;
+}
+.card ul {
+  list-style: none;
+  font-size: 11px;
+  color: #94a3b8;
+  line-height: 1.8;
+}
+.card ul li::before {
+  content: "• ";
+  color: #475569;
+}
+.footer {
+  margin-top: 20px;
+  font-size: 10px;
+  color: #334155;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span class="pulse"></span>工单2 · PDF智能问答系统架构图</h1>
+  <div class="subtitle">RAG (Retrieval-Augmented Generation) · 基于 PDF 文档的智能问答系统</div>
+</div>
+
+<div class="diagram-container">
+  <svg class="main-svg" width="960" height="720" viewBox="0 0 960 720" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Background Grid -->
+    <defs>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+      </pattern>
+      <!-- Arrowhead -->
+      <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/>
+      </marker>
+      <marker id="arrow-cyan" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#22d3ee"/>
+      </marker>
+      <marker id="arrow-emerald" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#34d399"/>
+      </marker>
+      <marker id="arrow-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#a78bfa"/>
+      </marker>
+    </defs>
+
+    <rect width="960" height="720" fill="url(#grid)"/>
+
+    <!-- ======== Flow Lines (drawn early for z-order) ======== -->
+    
+    <!-- User → Streamlit UI -->
+    <path d="M 160 120 L 280 120" stroke="#22d3ee" stroke-width="1.5" fill="none" marker-end="url(#arrow-cyan)"/>
+    <text x="220" y="112" fill="#64748b" font-size="8" text-anchor="middle">上传PDF / 提问</text>
+
+    <!-- Streamlit UI → Orchestrator -->
+    <path d="M 420 150 L 420 240" stroke="#22d3ee" stroke-width="1.5" fill="none" marker-end="url(#arrow-cyan)"/>
+    <text x="432" y="200" fill="#64748b" font-size="8">请求</text>
+
+    <!-- Orchestrator → PDF Parser (PDF input) -->
+    <path d="M 300 280 L 140 280" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#arrow-emerald)"/>
+    <text x="220" y="272" fill="#64748b" font-size="8">解析PDF</text>
+
+    <!-- PDF Parser → Chunker -->
+    <path d="M 140 340 L 140 400" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#arrow-emerald)"/>
+    <text x="152" y="375" fill="#64748b" font-size="8">文本</text>
+
+    <!-- Chunker → Embedding Model -->
+    <path d="M 220 460 L 300 460" stroke="#a78bfa" stroke-width="1.5" fill="none" marker-end="url(#arrow-violet)"/>
+    <text x="260" y="452" fill="#64748b" font-size="8">chunks</text>
+
+    <!-- Embedding Model → Vector Store -->
+    <path d="M 420 460 L 500 460" stroke="#a78bfa" stroke-width="1.5" fill="none" marker-end="url(#arrow-violet)"/>
+    <text x="460" y="452" fill="#64748b" font-size="8">向量</text>
+
+    <!-- Orchestrator → Query Understanding -->
+    <path d="M 420 280 L 540 280" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#arrow-emerald)"/>
+    <text x="480" y="272" fill="#64748b" font-size="8">理解</text>
+
+    <!-- Query Understanding → Retriever -->
+    <path d="M 640 310 L 640 400" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#arrow-emerald)"/>
+    <text x="652" y="360" fill="#64748b" font-size="8">查询</text>
+
+    <!-- Retriever → Vector Store -->
+    <path d="M 640 460 L 700 460" stroke="#a78bfa" stroke-width="1.5" fill="none" marker-end="url(#arrow-violet)"/>
+    <text x="670" y="452" fill="#64748b" font-size="8">检索</text>
+
+    <!-- Vector Store → Retriever -->
+    <path d="M 700 500 L 640 500" stroke="#a78bfa" stroke-width="1.5" fill="none" marker-end="url(#arrow-violet)"/>
+    <text x="670" y="520" fill="#64748b" font-size="8">结果</text>
+
+    <!-- Retriever → Generator -->
+    <path d="M 640 540 L 640 590" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#arrow-emerald)"/>
+    <text x="652" y="570" fill="#64748b" font-size="8">上下文</text>
+
+    <!-- Generator → External LLM -->
+    <path d="M 720 640 L 820 640" stroke="#fb923c" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <text x="770" y="632" fill="#64748b" font-size="8">API请求</text>
+
+    <!-- External LLM → Generator -->
+    <path d="M 820 665 L 720 665" stroke="#fb923c" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <text x="770" y="680" fill="#64748b" font-size="8">回答</text>
+
+    <!-- Generator → Orchestrator -->
+    <path d="M 560 640 L 420 640 L 420 320" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#arrow-emerald)"/>
+    <text x="490" y="655" fill="#64748b" font-size="8">响应</text>
+
+    <!-- Orchestrator → Streamlit UI -->
+    <path d="M 420 300 L 420 190" stroke="#22d3ee" stroke-width="1.5" fill="none" marker-end="url(#arrow-cyan)"/>
+    <text x="400" y="245" fill="#64748b" font-size="8">展示</text>
+
+    <!-- ======== User Layer ======== -->
+    <!-- User icon -->
+    <rect x="60" y="90" width="100" height="60" rx="30" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="110" y="117" fill="#e2e8f0" font-size="12" text-anchor="middle" font-weight="500">👤 用户</text>
+    <text x="110" y="133" fill="#64748b" font-size="8" text-anchor="middle">上传PDF + 提问</text>
+
+    <!-- ======== Frontend Layer ======== -->
+    <rect x="280" y="90" width="200" height="60" rx="6" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+    <rect x="280" y="90" width="200" height="60" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="280" y="90" width="200" height="60" rx="6" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+    <text x="380" y="117" fill="#22d3ee" font-size="12" text-anchor="middle" font-weight="500">Streamlit 界面</text>
+    <text x="380" y="133" fill="#64748b" font-size="8" text-anchor="middle">app/ui.py</text>
+
+    <!-- ======== Backend Layer ======== -->
+    <!-- Orchestrator -->
+    <rect x="320" y="240" width="200" height="60" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="320" y="240" width="200" height="60" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="320" y="240" width="200" height="60" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="420" y="267" fill="#34d399" font-size="12" text-anchor="middle" font-weight="500">RAG Orchestrator</text>
+    <text x="420" y="283" fill="#64748b" font-size="8" text-anchor="middle">qa_engine/orchestrator.py</text>
+
+    <!-- PDF Parser -->
+    <rect x="40" y="260" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="40" y="260" width="200" height="50" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="40" y="260" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="140" y="282" fill="#34d399" font-size="11" text-anchor="middle" font-weight="500">PDF 解析器</text>
+    <text x="140" y="296" fill="#64748b" font-size="8" text-anchor="middle">pdf_parser/parser.py</text>
+
+    <!-- Chunker -->
+    <rect x="40" y="400" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="40" y="400" width="200" height="50" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="40" y="400" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="140" y="422" fill="#34d399" font-size="11" text-anchor="middle" font-weight="500">文本分块器</text>
+    <text x="140" y="436" fill="#64748b" font-size="8" text-anchor="middle">pdf_parser/chunker.py</text>
+
+    <!-- Query Understanding -->
+    <rect x="540" y="250" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="540" y="250" width="200" height="50" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="540" y="250" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="640" y="272" fill="#34d399" font-size="11" text-anchor="middle" font-weight="500">Query 理解</text>
+    <text x="640" y="286" fill="#64748b" font-size="8" text-anchor="middle">qa_engine/query_understanding.py</text>
+
+    <!-- Retriever -->
+    <rect x="540" y="400" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="540" y="400" width="200" height="50" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="540" y="400" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="640" y="422" fill="#34d399" font-size="11" text-anchor="middle" font-weight="500">语义检索器</text>
+    <text x="640" y="436" fill="#64748b" font-size="8" text-anchor="middle">qa_engine/retriever.py</text>
+
+    <!-- Generator -->
+    <rect x="460" y="590" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="460" y="590" width="200" height="50" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="460" y="590" width="200" height="50" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="560" y="612" fill="#34d399" font-size="11" text-anchor="middle" font-weight="500">LLM 生成器</text>
+    <text x="560" y="626" fill="#64748b" font-size="8" text-anchor="middle">qa_engine/generator.py</text>
+
+    <!-- ======== Database Layer ======== -->
+    <!-- Embedding Model -->
+    <rect x="300" y="430" width="120" height="60" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    <rect x="300" y="430" width="120" height="60" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="300" y="430" width="120" height="60" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="360" y="457" fill="#a78bfa" font-size="11" text-anchor="middle" font-weight="500">Embedding</text>
+    <text x="360" y="473" fill="#64748b" font-size="8" text-anchor="middle">BGE + Sentence-T</text>
+
+    <!-- Vector Store -->
+    <rect x="500" y="430" width="140" height="60" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    <rect x="500" y="430" width="140" height="60" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="500" y="430" width="140" height="60" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="570" y="457" fill="#a78bfa" font-size="11" text-anchor="middle" font-weight="500">FAISS 向量库</text>
+    <text x="570" y="473" fill="#64748b" font-size="8" text-anchor="middle">knowledge_base/</text>
+
+    <!-- ======== External Layer ======== -->
+    <!-- LLM API -->
+    <rect x="820" y="610" width="120" height="60" rx="6" fill="rgba(251, 146, 60, 0.3)" stroke="#fb923c" stroke-width="1.5"/>
+    <rect x="820" y="610" width="120" height="60" rx="6" fill="#0f172a" opacity="0.95"/>
+    <rect x="820" y="610" width="120" height="60" rx="6" fill="rgba(251, 146, 60, 0.3)" stroke="#fb923c" stroke-width="1.5"/>
+    <text x="880" y="637" fill="#fb923c" font-size="11" text-anchor="middle" font-weight="500">通义千问</text>
+    <text x="880" y="653" fill="#64748b" font-size="8" text-anchor="middle">LLM API</text>
+
+    <!-- ======== Region Boundaries ======== -->
+
+    <!-- 核心引擎边界 -->
+    <rect x="15" y="230" width="930" height="440" rx="12" fill="none" stroke="#fbbf24" stroke-width="1" stroke-dasharray="8,4" opacity="0.3"/>
+    <text x="35" y="248" fill="#fbbf24" font-size="9" opacity="0.6">RAG 核心引擎</text>
+
+    <!-- 数据层边界 -->
+    <rect x="275" y="410" width="390" height="100" rx="12" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4,4" opacity="0.25"/>
+    <text x="295" y="428" fill="#a78bfa" font-size="9" opacity="0.5">向量知识库层</text>
+
+    <!-- ======== Legend ======== -->
+    <g transform="translate(30, 680)">
+      <rect x="0" y="0" width="900" height="30" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <circle cx="20" cy="15" r="4" fill="#22d3ee"/>
+      <text x="30" y="19" fill="#94a3b8" font-size="8">前端层</text>
+      <circle cx="120" cy="15" r="4" fill="#34d399"/>
+      <text x="130" y="19" fill="#94a3b8" font-size="8">后端服务层</text>
+      <circle cx="240" cy="15" r="4" fill="#a78bfa"/>
+      <text x="250" y="19" fill="#94a3b8" font-size="8">向量数据库层</text>
+      <circle cx="360" cy="15" r="4" fill="#fb923c"/>
+      <text x="370" y="19" fill="#94a3b8" font-size="8">外部API层</text>
+      <circle cx="470" cy="15" r="4" fill="#94a3b8"/>
+      <text x="480" y="19" fill="#94a3b8" font-size="8">用户交互</text>
+    </g>
+
+  </svg>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-header">
+      <div class="card-dot cyan"></div>
+      <h3>前端展示</h3>
+    </div>
+    <ul>
+      <li>Streamlit Web 界面 (app/ui.py)</li>
+      <li>PDF 上传 & 实时问答</li>
+      <li>RAG vs 纯LLM 对比展示</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <div class="card-dot emerald"></div>
+      <h3>RAG 核心流程</h3>
+    </div>
+    <ul>
+      <li>PDF 解析 → 语义分块 → 向量化</li>
+      <li>混合检索 (向量 + BM25 + RRF)</li>
+      <li>重排序 → LLM 生成回答</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <div class="card-dot violet"></div>
+      <h3>知识库 & 检索</h3>
+    </div>
+    <ul>
+      <li>BGE Embedding 向量化</li>
+      <li>FAISS 向量存储 + 相似度检索</li>
+      <li>关键词匹配 + 标题奖励重排</li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">
+  工单编号: 人工智能NLP-RAG-基于PDF文档的问答系统优化 · 八维文化与产业研究院
+</div>
+
+</body>
+</html>
