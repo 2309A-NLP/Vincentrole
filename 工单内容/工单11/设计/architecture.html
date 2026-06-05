@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>工单11 - Embedding微调+RAG评估系统架构图</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #020617;
+  font-family: 'JetBrains Mono', monospace;
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+.header { text-align: center; margin-bottom: 24px; }
+.header h1 { font-size: 22px; font-weight: 600; color: #f1f5f9; }
+.header .subtitle { font-size: 13px; color: #64748b; margin-top: 4px; }
+.diagram-container {
+  background: #0f172a; border: 1px solid #1e293b;
+  border-radius: 12px; padding: 16px;
+  max-width: 960px; width: 100%;
+}
+.main-svg { display: block; margin: 0 auto; }
+.cards {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 14px; margin-top: 20px; max-width: 960px; width: 100%;
+}
+.card {
+  background: #0f172a; border: 1px solid #1e293b;
+  border-radius: 10px; padding: 14px;
+}
+.card-header { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
+.card-dot { width: 8px; height: 8px; border-radius: 50%; }
+.card-dot.violet { background: #a78bfa; }
+.card-dot.emerald { background: #34d399; }
+.card-dot.rose { background: #fb7185; }
+.card h3 { font-size: 12px; font-weight: 500; color: #e2e8f0; }
+.card ul { list-style: none; font-size: 10px; color: #94a3b8; line-height: 1.7; }
+.card ul li::before { content: "• "; color: #475569; }
+.footer { margin-top: 16px; font-size: 10px; color: #334155; text-align: center; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>工单11 · Embedding微调 + RAG评估系统</h1>
+  <div class="subtitle">微调流水线 · A/B对比 · 评估闭环 · 双模块架构</div>
+</div>
+<div class="diagram-container">
+  <svg class="main-svg" width="920" height="700" viewBox="0 0 920 700" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/></pattern>
+      <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+    </defs>
+    <rect width="920" height="700" fill="url(#grid)"/>
+
+    <!-- ============ LEFT COLUMN: 微调流水线 ============ -->
+    <rect x="20" y="25" width="380" height="640" rx="12" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="8,4" opacity="0.4"/>
+    <text x="35" y="45" fill="#a78bfa" font-size="12" font-weight="600">🆕 Embedding 微调流水线</text>
+
+    <!-- 原始文档 -->
+    <rect x="60" y="60" width="160" height="36" rx="6" fill="rgba(251,113,133,0.15)" stroke="#fb7185" stroke-width="1.5"/>
+    <text x="140" y="82" fill="#fb7185" font-size="10" text-anchor="middle" font-weight="500">原始PDF文档</text>
+    <path d="M 140 96 L 140 120" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- QA生成 -->
+    <rect x="60" y="120" width="160" height="36" rx="6" fill="rgba(251,113,133,0.15)" stroke="#fb7185" stroke-width="1.5"/>
+    <text x="140" y="142" fill="#fb7185" font-size="10" text-anchor="middle" font-weight="500">🆕 QA对生成</text>
+    <text x="140" y="152" fill="#64748b" font-size="7" text-anchor="middle">generate_qa_pairs.py</text>
+    <path d="M 140 156 L 140 180" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- 训练数据 -->
+    <rect x="60" y="180" width="160" height="36" rx="6" fill="rgba(251,113,133,0.15)" stroke="#fb7185" stroke-width="1.5"/>
+    <text x="140" y="202" fill="#fb7185" font-size="10" text-anchor="middle" font-weight="500">🆕 训练数据集</text>
+    <text x="140" y="212" fill="#64748b" font-size="7" text-anchor="middle">training_data.json (1.1MB)</text>
+    <path d="M 140 216 L 140 240" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- 微调训练 -->
+    <rect x="60" y="240" width="160" height="36" rx="6" fill="rgba(251,113,133,0.15)" stroke="#fb7185" stroke-width="1.5"/>
+    <text x="140" y="262" fill="#fb7185" font-size="10" text-anchor="middle" font-weight="500">🆕 Embedding微调</text>
+    <text x="140" y="272" fill="#64748b" font-size="7" text-anchor="middle">finetune_embedding.py</text>
+    <path d="M 140 276 L 140 300" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- 微调模型 -->
+    <rect x="60" y="300" width="160" height="36" rx="6" fill="rgba(251,113,133,0.15)" stroke="#fb7185" stroke-width="1.5"/>
+    <text x="140" y="322" fill="#fb7185" font-size="10" text-anchor="middle" font-weight="500">🆕 微调后模型</text>
+    <text x="140" y="332" fill="#64748b" font-size="7" text-anchor="middle">finetuned-bge-base-zh-v1.5</text>
+
+    <!-- 三个分支箭头 -->
+    <path d="M 140 336 L 140 370" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <path d="M 140 336 L 270 370" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrow)" stroke-dasharray="4,3"/>
+    <path d="M 140 336 L 10 370" stroke="#64748b" stroke-width="1" fill="none"/>
+
+    <!-- A/B对比 -->
+    <rect x="180" y="370" width="180" height="36" rx="8" fill="rgba(34,211,238,0.15)" stroke="#22d3ee" stroke-width="2"/>
+    <text x="270" y="392" fill="#22d3ee" font-size="10" text-anchor="middle" font-weight="600">🆕 A/B 模型对比</text>
+    <text x="270" y="402" fill="#64748b" font-size="7" text-anchor="middle">test_models.py → 8/8 微调胜出</text>
+    <path d="M 270 406 L 270 440" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- 评估结果 -->
+    <rect x="180" y="440" width="180" height="36" rx="6" fill="rgba(251,113,133,0.15)" stroke="#fb7185" stroke-width="1.5"/>
+    <text x="270" y="462" fill="#fb7185" font-size="10" text-anchor="middle" font-weight="500">🆕 评估结果</text>
+    <text x="270" y="472" fill="#64748b" font-size="7" text-anchor="middle">evaluation_results.json</text>
+
+    <!-- 总结 -->
+    <path d="M 270 476 L 270 510" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <rect x="180" y="510" width="180" height="36" rx="6" fill="rgba(251,113,133,0.15)" stroke="#fb7185" stroke-width="1.5"/>
+    <text x="270" y="532" fill="#fb7185" font-size="10" text-anchor="middle" font-weight="500">🆕 完成总结</text>
+    <text x="270" y="542" fill="#64748b" font-size="7" text-anchor="middle">完成总结.md</text>
+
+    <!-- ============ RIGHT COLUMN: RAG系统 ============ -->
+    <rect x="440" y="25" width="460" height="640" rx="12" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="8,4" opacity="0.4"/>
+    <text x="455" y="45" fill="#34d399" font-size="12" font-weight="600">RAG 问答评估系统</text>
+
+    <!-- RAG核心组件 - 继承工单7 -->
+    <rect x="470" y="60" width="200" height="36" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="570" y="82" fill="#34d399" font-size="10" text-anchor="middle" font-weight="500">多格式文件扫描</text>
+    <text x="570" y="92" fill="#64748b" font-size="7" text-anchor="middle">PDF + TXT 自动发现</text>
+    <path d="M 570 96 L 570 120" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <rect x="470" y="120" width="200" height="36" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="570" y="142" fill="#34d399" font-size="10" text-anchor="middle" font-weight="500">PDF解析 + 分块</text>
+    <text x="570" y="152" fill="#64748b" font-size="7" text-anchor="middle">pymupdf + 语义分块</text>
+    <path d="M 570 156 L 570 180" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- Embedding - 可选择微调模型 -->
+    <rect x="470" y="180" width="200" height="36" rx="8" fill="rgba(192,132,252,0.2)" stroke="#a78bfa" stroke-width="2"/>
+    <text x="570" y="202" fill="#a78bfa" font-size="10" text-anchor="middle" font-weight="600">🆕 可切换 Embedding</text>
+    <text x="570" y="212" fill="#64748b" font-size="7" text-anchor="middle">bge-base(原版) / 微调版</text>
+    <path d="M 570 216 L 570 240" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <rect x="470" y="240" width="200" height="36" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="570" y="262" fill="#a78bfa" font-size="10" text-anchor="middle" font-weight="500">Milvus 向量库</text>
+    <text x="570" y="272" fill="#64748b" font-size="7" text-anchor="middle">768维向量存储</text>
+    <path d="M 570 276 L 570 300" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- 检索+重排 -->
+    <rect x="470" y="300" width="200" height="36" rx="6" fill="rgba(251,191,36,0.2)" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="570" y="322" fill="#fbbf24" font-size="10" text-anchor="middle" font-weight="500">混合检索 + 重排</text>
+    <text x="570" y="332" fill="#64748b" font-size="7" text-anchor="middle">Whoosh + CrossEncoder</text>
+    <path d="M 570 336 L 570 370" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- LLM生成 -->
+    <rect x="470" y="370" width="200" height="36" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="570" y="392" fill="#34d399" font-size="10" text-anchor="middle" font-weight="500">LLM 生成</text>
+    <text x="570" y="402" fill="#64748b" font-size="7" text-anchor="middle">通义千问 qwen-plus</text>
+    <path d="M 570 406 L 570 440" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- 评估模块 -->
+    <rect x="470" y="440" width="200" height="36" rx="6" fill="rgba(251,113,133,0.15)" stroke="#fb7185" stroke-width="1.5"/>
+    <text x="570" y="462" fill="#fb7185" font-size="10" text-anchor="middle" font-weight="500">评估模块</text>
+    <text x="570" y="472" fill="#64748b" font-size="7" text-anchor="middle">RAGEvaluator</text>
+
+    <!-- 评估结果反馈 -->
+    <path d="M 670 458 L 720 458 L 720 392 L 670 392" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrow)" stroke-dasharray="4,3"/>
+    <text x="700" y="430" fill="#64748b" font-size="7">反馈优化</text>
+
+    <!-- 右侧：LLM API -->
+    <rect x="720" y="370" width="90" height="36" rx="6" fill="rgba(251,146,60,0.3)" stroke="#fb923c" stroke-width="1.5"/>
+    <text x="765" y="392" fill="#fb923c" font-size="10" text-anchor="middle" font-weight="500">LLM</text>
+    <text x="765" y="402" fill="#64748b" font-size="7" text-anchor="middle">API</text>
+    <path d="M 670 388 L 720 388" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <path d="M 720 406 L 670 406" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- ===== 左右连接：微调模型 → RAG Embedding ===== -->
+    <path d="M 220 318 L 380 318 L 380 198 L 470 198" stroke="#a78bfa" stroke-width="2" fill="none" marker-end="url(#arrow)" stroke-dasharray="6,3"/>
+    <text x="380" y="260" fill="#a78bfa" font-size="8" text-anchor="middle">微调模型注入RAG</text>
+
+    <!-- 对比结果反馈 -->
+    <path d="M 360 550 L 470 550 L 470 476" stroke="#22d3ee" stroke-width="1" fill="none" marker-end="url(#arrow)" stroke-dasharray="4,3"/>
+    <text x="420" y="515" fill="#22d3ee" font-size="7" text-anchor="middle">对比结论</text>
+
+    <!-- ===== 底部总结 ===== -->
+    <rect x="180" y="570" width="540" height="50" rx="8" fill="rgba(251,113,133,0.1)" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="6,3"/>
+    <text x="450" y="592" fill="#fb7185" font-size="11" text-anchor="middle" font-weight="600">评估闭环：训练数据生成 → 微调 → A/B对比 → RAG集成 → 再评估</text>
+    <text x="450" y="608" fill="#64748b" font-size="8" text-anchor="middle">A/B 结果：微调模型 8/8 胜出，平均 Top1 分数 +39%</text>
+
+    <!-- ===== LEGEND ===== -->
+    <g transform="translate(20, 640)">
+      <rect x="0" y="0" width="880" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <circle cx="16" cy="11" r="3" fill="#fb7185"/><text x="24" y="15" fill="#fb7185" font-size="7" font-weight="600">🆕 微调</text>
+      <circle cx="110" cy="11" r="3" fill="#a78bfa"/><text x="118" y="15" fill="#64748b" font-size="7">Embedding</text>
+      <circle cx="210" cy="11" r="3" fill="#34d399"/><text x="218" y="15" fill="#64748b" font-size="7">RAG</text>
+      <circle cx="290" cy="11" r="3" fill="#22d3ee"/><text x="298" y="15" fill="#64748b" font-size="7">对比</text>
+      <circle cx="370" cy="11" r="3" fill="#fbbf24"/><text x="378" y="15" fill="#64748b" font-size="7">检索</text>
+      <circle cx="450" cy="11" r="3" fill="#fb923c"/><text x="458" y="15" fill="#64748b" font-size="7">API</text>
+      <text x="540" y="15" fill="#475569" font-size="7">虚线=数据/模型流向</text>
+    </g>
+  </svg>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-header"><div class="card-dot rose"></div><h3>🆕 Embedding微调</h3></div>
+    <ul>
+      <li>QA对生成 → 训练数据集 (1.1MB)</li>
+      <li>基于 bge-base-zh-v1.5 微调</li>
+      <li>输出微调模型 finetuned-bge-base-zh</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header"><div class="card-dot cyan"></div><h3>🆕 A/B 对比</h3></div>
+    <ul>
+      <li>对比原版 bge-base vs 微调版</li>
+      <li>微调模型 8/8 胜出</li>
+      <li>平均 Top1 分数 +39%</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header"><div class="card-dot violet"></div><h3>双模块架构</h3></div>
+    <ul>
+      <li>左：微调流水线（离线训练）</li>
+      <li>右：RAG评估系统（在线服务）</li>
+      <li>微调模型可注入 RAG 使用</li>
+    </ul>
+  </div>
+</div>
+<div class="footer">
+  工单编号: 人工智能NLP-RAG-Embedding微调 + RAG评估 · 八维文化与产业研究院
+</div>
+</body>
+</html>

@@ -1,0 +1,314 @@
+{
+  "summary": {
+    "total": 16,
+    "pass": 6,
+    "fail": 10,
+    "pass_rate": 37.5,
+    "avg_response_time": 7.22,
+    "avg_top_score": 0.7476,
+    "xingtu_pass": 1,
+    "xingtu_total": 10,
+    "liyuan_pass": 5,
+    "liyuan_total": 6,
+    "image_question_pass": 1,
+    "image_question_total": 2,
+    "image_count": 134
+  },
+  "image_stats": {
+    "示意图": 75,
+    "柱状图": 7,
+    "流程图": 42,
+    "组织结构图": 8,
+    "饼图": 2
+  },
+  "results": [
+    {
+      "id": 260,
+      "question": "报告期内，武汉兴图新科电子股份有限公司来自军用领域的收入分别是多少？",
+      "source": "招股说明书1.pdf",
+      "category": "财务数据",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.6291,
+      "elapsed_s": 7.743,
+      "has_answer": false,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "文档中未找到相关信息。"
+    },
+    {
+      "id": 95,
+      "question": "武汉兴图新科电子股份有限公司参与制定了哪个技术标准？",
+      "source": "招股说明书1.pdf",
+      "category": "公司信息",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.3891,
+      "elapsed_s": 8.749,
+      "has_answer": false,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "文档中未找到相关信息。"
+    },
+    {
+      "id": 33,
+      "question": "报告期内，武汉兴图新科电子股份有限公司来自军用领域的收入占主营业务收入的比重分别是多少？",
+      "source": "招股说明书1.pdf",
+      "category": "财务数据",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.5732,
+      "elapsed_s": 7.018,
+      "has_answer": false,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "文档中未找到相关信息。"
+    },
+    {
+      "id": 34,
+      "question": "根据武汉兴图新科电子股份有限公司招股意向书，电子信息行业的上游涉及哪些企业？",
+      "source": "招股说明书1.pdf",
+      "category": "行业分析",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.5201,
+      "elapsed_s": 4.19,
+      "has_answer": true,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "根据武汉兴图新科电子股份有限公司招股意向书，电子信息行业的上游涉及的企业是IC原厂。具体信息如下：\n\n- 根据片段3中的描述，IC分销行业的上游企业是IC原厂，该行业属于资金密集型和技术密集型行业，其主要特点之一是市场份额高度集中。根据is"
+    },
+    {
+      "id": 957,
+      "question": "武汉兴图新科电子股份有限公司在哪个领域已经成为重要供应商？",
+      "source": "招股说明书1.pdf",
+      "category": "公司信息",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.4319,
+      "elapsed_s": 9.918,
+      "has_answer": false,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "文档中未找到相关信息。"
+    },
+    {
+      "id": 793,
+      "question": "根据武汉兴图新科电子股份有限公司招股意向书，电子信息行业的下游主要包括哪些行业？",
+      "source": "招股说明书1.pdf",
+      "category": "行业分析",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.7042,
+      "elapsed_s": 9.764,
+      "has_answer": false,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "文档中未找到相关信息。"
+    },
+    {
+      "id": 795,
+      "question": "武汉兴图新科电子股份有限公司参与的哪个工程荣获了国家科技进步一等奖？",
+      "source": "招股说明书1.pdf",
+      "category": "公司信息",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.4327,
+      "elapsed_s": 9.888,
+      "has_answer": false,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "文档中未找到相关信息。"
+    },
+    {
+      "id": 543,
+      "question": "武汉兴图新科电子股份有限公司注册资本是多少？",
+      "source": "招股说明书1.pdf",
+      "category": "公司信息",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.6321,
+      "elapsed_s": 7.82,
+      "has_answer": false,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "文档中未找到相关信息。"
+    },
+    {
+      "id": 531,
+      "question": "武汉兴图新科电子股份有限公司法定代表人是谁？",
+      "source": "招股说明书1.pdf",
+      "category": "公司信息",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.6246,
+      "elapsed_s": 9.242,
+      "has_answer": false,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "文档中未找到相关信息。"
+    },
+    {
+      "id": 207,
+      "question": "武汉兴图新科电子股份有限公司计划使用本次发行募集资金的多少用于补充流动资金？",
+      "source": "招股说明书1.pdf",
+      "category": "募资用途",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.4297,
+      "elapsed_s": 8.447,
+      "has_answer": false,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "文档中未找到关于武汉兴图新科电子股份有限公司募集资金用于补充流动资金的相关信息。提供的文档内容均指向武汉力源信息技术股份有限公司，而非问题所问公司。"
+    },
+    {
+      "id": 1,
+      "question": "武汉力源信息技术股份有限公司本次发行股数是多少，占发行后总股本的比例是多少？",
+      "source": "招股说明书2.pdf",
+      "category": "股本结构",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.8878,
+      "elapsed_s": 1.979,
+      "has_answer": true,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "武汉力源信息技术股份有限公司本次发行股数是1,670万股，占发行后总股本的比例为25.04%。"
+    },
+    {
+      "id": 2,
+      "question": "武汉力源信息技术股份有限公司本次募集资金拟投资哪些项目？",
+      "source": "招股说明书2.pdf",
+      "category": "募投项目",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 0.895,
+      "elapsed_s": 3.557,
+      "has_answer": true,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "武汉力源信息技术股份有限公司本次募集资金拟投资以下项目：\n\n1. 仓储及物流中心：项目总投资为3,393.40万元。\n2. 研发中心：项目总投资为1,526.38万元。\n3. 电子商务平台：项目总投资为2,492.78万元。\n4. 扩充产品"
+    },
+    {
+      "id": 3,
+      "question": "与武汉力源信息技术股份有限公司存在控制关系的关联方是谁，持股比例和本公司关系是什么？",
+      "source": "招股说明书2.pdf",
+      "category": "关联方",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 1.7308,
+      "elapsed_s": 2.548,
+      "has_answer": true,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "与武汉力源信息技术股份有限公司存在控制关系的关联方是赵马克，持股比例为42.35%，与本公司关系为公司控股股东。"
+    },
+    {
+      "id": 4,
+      "question": "与武汉力源信息技术股份有限公司不存在控制关系的关联方企业有哪些？",
+      "source": "招股说明书2.pdf",
+      "category": "关联方",
+      "is_image_question": false,
+      "image_type": "",
+      "num_chunks": 8,
+      "top_score": 1.7255,
+      "elapsed_s": 3.575,
+      "has_answer": true,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 0,
+      "answer_preview": "与武汉力源信息技术股份有限公司不存在控制关系的关联方企业有：\n\n1. 融冰投资（持有公司股份5%以上的股东）\n2. 武汉博润（持有公司股份5%以上的股东）\n3. 上海博润（持有公司股份5%以上的股东）\n4. 听音投资（持有公司股份5%以上的"
+    },
+    {
+      "id": 5,
+      "question": "武汉力源信息技术股份有限公司组织结构图中，销售部有几个部门构成，其中大客户销售部有几个销售处构成？",
+      "source": "招股说明书2.pdf",
+      "category": "图像问题",
+      "is_image_question": true,
+      "image_type": "组织结构图",
+      "num_chunks": 8,
+      "top_score": 0.7271,
+      "elapsed_s": 11.293,
+      "has_answer": false,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 3,
+      "answer_preview": "销售部由四个部门构成：渠道销售部、电话及网络销售部、大客户销售部和国际贸易部。文档中未找到大客户销售部设有几个销售处的相关信息。"
+    },
+    {
+      "id": 6,
+      "question": "武汉力源信息技术股份有限公司招股意向书中，从2008年中国IC市场应用结构与增长图中可以看出，增长率最快的是哪个行业？负增长的是哪个行业？",
+      "source": "招股说明书2.pdf",
+      "category": "图像问题",
+      "is_image_question": true,
+      "image_type": "IC市场应用结构与增长图",
+      "num_chunks": 8,
+      "top_score": 0.6289,
+      "elapsed_s": 9.826,
+      "has_answer": true,
+      "source_files": [
+        "招股说明书2.pdf"
+      ],
+      "error": null,
+      "image_results": 3,
+      "answer_preview": "根据文档内容，仅提及2008年国内IC市场中工业控制领域增长率达10.5%，在所有应用行业中位列第二，仅次于汽车电子。文档未提供各行业完整的增长率数据，因此无法确定增长率最快的具体行业，也未提及负增长行业。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "baseline_score": 0.8279181088312547,
+  "final_score": 0.8659657575598688,
+  "improvement": 0.0380476487286141,
+  "improvement_percent": 4.595581171950054,
+  "training_samples": 1320,
+  "validation_samples": 330,
+  "epochs": 3,
+  "batch_size": 16,
+  "learning_rate": 2e-05
+}
