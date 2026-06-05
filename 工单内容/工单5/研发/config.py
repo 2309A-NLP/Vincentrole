@@ -159,7 +159,7 @@ LLM_CONFIG = {
     "提供商": "custom",
     "模型": "qwen-plus",
     "API地址": "https://dashscope.aliyuncs.com/compatible-mode/v1",
-    "API密钥": "sk-173...de15",
+    "API密钥": "sk-your-api-key-here",
     "最大Token数": 1024,
     "温度": 0.1,
     "超时": 15,
@@ -171,7 +171,7 @@ LLM_CONFIG = {
 KIMI_CONFIG = {
     "模型": "moonshot-v1-8k-vision-preview",  # 视觉模型，支持图像输入
     "API地址": "https://api.moonshot.cn/v1",
-    "API密钥": "sk-173...de15",
+    "API密钥": "sk-your-api-key-here",
     "最大Token数": 2048,
     "温度": 0.1,
     "超时": 30,

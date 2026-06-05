@@ -173,7 +173,7 @@ LLM_CONFIG = {
     "提供商": "deepseek",
     "模型": "deepseek-v4-flash",
     "API地址": "https://api.deepseek.com/v1",
-    "API密钥": "sk-13c...6164",
+    "API密钥": "sk-your-api-key-here",
     "最大Token数": 1024,
     "温度": 0.1,
     "超时": 15,
@@ -186,7 +186,7 @@ LLM_CONFIG = {
 KIMI_CONFIG = {
     "模型": "moonshot-v1-8k-vision-preview",
     "API地址": "https://api.moonshot.cn/v1",
-    "API密钥": "sk-bZ5...fIKx",
+    "API密钥": "sk-your-api-key-here",
     "最大Token数": 2048,
     "温度": 0.1,
     "超时": 30,
