@@ -1,0 +1,215 @@
+[
+  {
+    "id": 260,
+    "question": "报告期内，武汉兴图新科电子股份有限公司来自军用领域的收入分别是多少？",
+    "source": "招股说明书1.pdf",
+    "category": "财务数据",
+    "num_chunks": 5,
+    "top_score": 0.048399687743950044,
+    "elapsed_s": 1.863,
+    "has_answer": false,
+    "source_files": [
+      "招股说明书1.pdf"
+    ],
+    "table_type": "收入数据",
+    "error": null
+  },
+  {
+    "id": 95,
+    "question": "武汉兴图新科电子股份有限公司参与制定了哪个技术标准？",
+    "source": "招股说明书1.pdf",
+    "category": "公司信息",
+    "num_chunks": 5,
+    "top_score": 0.032266458495966696,
+    "elapsed_s": 1.989,
+    "has_answer": true,
+    "source_files": [
+      "招股说明书1.pdf"
+    ],
+    "table_type": "技术标准",
+    "error": null
+  },
+  {
+    "id": 33,
+    "question": "报告期内，武汉兴图新科电子股份有限公司来自军用领域的收入占主营业务收入的比重分别是多少？",
+    "source": "招股说明书1.pdf",
+    "category": "财务数据",
+    "num_chunks": 5,
+    "top_score": 0.047317436661698964,
+    "elapsed_s": 1.567,
+    "has_answer": false,
+    "source_files": [
+      "招股说明书1.pdf"
+    ],
+    "table_type": "收入结构",
+    "error": null
+  },
+  {
+    "id": 34,
+    "question": "根据武汉兴图新科电子股份有限公司招股意向书，电子信息行业的上游涉及哪些企业？",
+    "source": "招股说明书1.pdf",
+    "category": "行业分析",
+    "num_chunks": 5,
+    "top_score": 0.3163934426229508,
+    "elapsed_s": 1.681,
+    "has_answer": false,
+    "source_files": [
+      "招股说明书1.pdf"
+    ],
+    "table_type": "",
+    "error": null
+  },
+  {
+    "id": 957,
+    "question": "武汉兴图新科电子股份有限公司在哪个领域已经成为重要供应商？",
+    "source": "招股说明书1.pdf",
+    "category": "公司信息",
+    "num_chunks": 5,
+    "top_score": 0.3163934426229508,
+    "elapsed_s": 1.597,
+    "has_answer": false,
+    "source_files": [
+      "招股说明书1.pdf"
+    ],
+    "table_type": "",
+    "error": null
+  },
+  {
+    "id": 793,
+    "question": "根据武汉兴图新科电子股份有限公司招股意向书，电子信息行业的下游主要包括哪些行业？",
+    "source": "招股说明书1.pdf",
+    "category": "行业分析",
+    "num_chunks": 5,
+    "top_score": 0.3163934426229508,
+    "elapsed_s": 1.563,
+    "has_answer": false,
+    "source_files": [
+      "招股说明书2.pdf",
+      "招股说明书1.pdf"
+    ],
+    "table_type": "",
+    "error": null
+  },
+  {
+    "id": 795,
+    "question": "武汉兴图新科电子股份有限公司参与的哪个工程荣获了国家科技进步一等奖？",
+    "source": "招股说明书1.pdf",
+    "category": "公司信息",
+    "num_chunks": 5,
+    "top_score": 0.03252247488101534,
+    "elapsed_s": 1.649,
+    "has_answer": true,
+    "source_files": [
+      "招股说明书1.pdf"
+    ],
+    "table_type": "",
+    "error": null
+  },
+  {
+    "id": 543,
+    "question": "武汉兴图新科电子股份有限公司注册资本是多少？",
+    "source": "招股说明书1.pdf",
+    "category": "公司信息",
+    "num_chunks": 5,
+    "top_score": 0.3255167958656331,
+    "elapsed_s": 1.165,
+    "has_answer": true,
+    "source_files": [
+      "招股说明书1.pdf"
+    ],
+    "table_type": "",
+    "error": null
+  },
+  {
+    "id": 531,
+    "question": "武汉兴图新科电子股份有限公司法定代表人是谁？",
+    "source": "招股说明书1.pdf",
+    "category": "公司信息",
+    "num_chunks": 5,
+    "top_score": 0.3304147465437788,
+    "elapsed_s": 3.726,
+    "has_answer": true,
+    "source_files": [
+      "招股说明书1.pdf"
+    ],
+    "table_type": "",
+    "error": null
+  },
+  {
+    "id": 207,
+    "question": "武汉兴图新科电子股份有限公司计划使用本次发行募集资金的多少用于补充流动资金？",
+    "source": "招股说明书1.pdf",
+    "category": "募资用途",
+    "num_chunks": 5,
+    "top_score": 0.03225806451612903,
+    "elapsed_s": 1.142,
+    "has_answer": true,
+    "source_files": [
+      "招股说明书1.pdf"
+    ],
+    "table_type": "股本结构",
+    "error": null
+  },
+  {
+    "id": 1,
+    "question": "武汉力源信息技术股份有限公司本次发行股数是多少，占发行后总股本的比例是多少？",
+    "source": "招股说明书2.pdf",
+    "category": "股本结构",
+    "num_chunks": 5,
+    "top_score": 0.5235587583148559,
+    "elapsed_s": 1.672,
+    "has_answer": true,
+    "source_files": [
+      "招股说明书2.pdf",
+      "招股说明书1.pdf"
+    ],
+    "table_type": "股本结构",
+    "error": null
+  },
+  {
+    "id": 2,
+    "question": "武汉力源信息技术股份有限公司本次募集资金拟投资哪些项目？",
+    "source": "招股说明书2.pdf",
+    "category": "募投项目",
+    "num_chunks": 5,
+    "top_score": 0.515625,
+    "elapsed_s": 2.095,
+    "has_answer": true,
+    "source_files": [
+      "招股说明书2.pdf"
+    ],
+    "table_type": "募投项目",
+    "error": null
+  },
+  {
+    "id": 3,
+    "question": "与武汉力源信息技术股份有限公司存在控制关系的关联方是谁，持股比例和本公司关系是什么？",
+    "source": "招股说明书2.pdf",
+    "category": "关联方",
+    "num_chunks": 5,
+    "top_score": 1.7325224748810153,
+    "elapsed_s": 2.316,
+    "has_answer": true,
+    "source_files": [
+      "招股说明书2.pdf",
+      "招股说明书1.pdf"
+    ],
+    "table_type": "关联方",
+    "error": null
+  },
+  {
+    "id": 4,
+    "question": "与武汉力源信息技术股份有限公司不存在控制关系的关联方企业有哪些？",
+    "source": "招股说明书2.pdf",
+    "category": "关联方",
+    "num_chunks": 5,
+    "top_score": 1.7287179487179487,
+    "elapsed_s": 2.849,
+    "has_answer": true,
+    "source_files": [
+      "招股说明书2.pdf"
+    ],
+    "table_type": "关联方",
+    "error": null
+  }
+]
