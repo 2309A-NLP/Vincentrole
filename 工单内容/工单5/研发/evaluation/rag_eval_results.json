@@ -1,0 +1,97 @@
+[
+  {
+    "id": 260,
+    "question": "报告期内，武汉兴图新科电子股份有限公司来自军用领域的收入分别是多少？",
+    "evaluation": {
+      "faithfulness": {
+        "score": 0.95,
+        "details": "LLM评估"
+      },
+      "relevancy": {
+        "score": 0.7,
+        "details": "LLM评估"
+      },
+      "context_precision": {
+        "score": 1.0,
+        "details": "前5个结果中5个相关"
+      },
+      "overall": 0.86
+    }
+  },
+  {
+    "id": 95,
+    "question": "武汉兴图新科电子股份有限公司参与制定了哪个技术标准？",
+    "evaluation": {
+      "faithfulness": {
+        "score": 1.0,
+        "details": "LLM评估"
+      },
+      "relevancy": {
+        "score": 1.0,
+        "details": "LLM评估"
+      },
+      "context_precision": {
+        "score": 1.0,
+        "details": "前5个结果中5个相关"
+      },
+      "overall": 1.0
+    }
+  },
+  {
+    "id": 33,
+    "question": "报告期内，武汉兴图新科电子股份有限公司来自军用领域的收入占主营业务收入的比重分别是多少？",
+    "evaluation": {
+      "faithfulness": {
+        "score": 0.0,
+        "details": "LLM评估"
+      },
+      "relevancy": {
+        "score": 0.4,
+        "details": "LLM评估"
+      },
+      "context_precision": {
+        "score": 1.0,
+        "details": "前5个结果中5个相关"
+      },
+      "overall": 0.36
+    }
+  },
+  {
+    "id": 34,
+    "question": "根据武汉兴图新科电子股份有限公司招股意向书，电子信息行业的上游涉及哪些企业？",
+    "evaluation": {
+      "faithfulness": {
+        "score": 0.156,
+        "details": "基于规则（数字覆盖:0.00, 短语覆盖:0.31）"
+      },
+      "relevancy": {
+        "score": 0.8,
+        "details": "LLM评估"
+      },
+      "context_precision": {
+        "score": 0.8,
+        "details": "前5个结果中4个相关"
+      },
+      "overall": 0.542
+    }
+  },
+  {
+    "id": 957,
+    "question": "武汉兴图新科电子股份有限公司在哪个领域已经成为重要供应商？",
+    "evaluation": {
+      "faithfulness": {
+        "score": 0.625,
+        "details": "基于规则（数字覆盖:1.00, 短语覆盖:0.25）"
+      },
+      "relevancy": {
+        "score": 1.0,
+        "details": "LLM评估"
+      },
+      "context_precision": {
+        "score": 0.8,
+        "details": "前5个结果中4个相关"
+      },
+      "overall": 0.81
+    }
+  }
+]
