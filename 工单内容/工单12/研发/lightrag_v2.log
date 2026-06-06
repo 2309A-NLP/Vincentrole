@@ -1,0 +1,296 @@
+==================================================
+LightRAG查询（bge-base-zh-v1.5真实embedding）
+==================================================
+INFO: [] Loaded graph from /Users/suwente/Desktop/PDF智能问答RAG项目合集/工单13/output/graph_chunk_entity_relation.graphml with 1364 nodes, 1308 edges
+INFO:nano-vectordb:Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/suwente/Desktop/PDF智能问答RAG项目合集/工单13/output/vdb_entities.json'} 0 data
+INFO:nano-vectordb:Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/suwente/Desktop/PDF智能问答RAG项目合集/工单13/output/vdb_relationships.json'} 0 data
+INFO:nano-vectordb:Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/suwente/Desktop/PDF智能问答RAG项目合集/工单13/output/vdb_chunks.json'} 0 data
+初始化存储...
+INFO: [] Process 86589 KV load full_docs with 2 records
+INFO: [] Process 86589 KV load text_chunks with 1702 records
+INFO: [] Process 86589 KV load full_entities with 2 records
+INFO: [] Process 86589 KV load full_relations with 2 records
+INFO: [] Process 86589 KV load entity_chunks with 1364 records
+INFO: [] Process 86589 KV load relation_chunks with 1308 records
+INFO: [] Process 86589 KV load llm_response_cache with 307 records
+INFO: [] Process 86589 doc status load doc_status with 2 records
+向量索引不存在，重新构建...
+  处理: 招股说明书1.pdf
+    文本长度: 519296 字符
+WARNING: Duplicate document detected: doc-8fb8646ffe4af17f86234ca5c0173389 (/Users/suwente/Desktop/专高六学习资料/RAG 工单/附件/招股说明书1.pdf)
+INFO: Created 1 duplicate document records with track_id: insert_20260531_200029_26f273d8
+WARNING: No new unique documents were found.
+INFO: Preserving 1 failed document entries for manual review
+INFO: No valid documents to process after consistency check
+INFO: Enqueued document processing pipeline stopped
+  处理: 招股说明书2.pdf
+    文本长度: 322665 字符
+WARNING: Duplicate document detected: doc-7cfe7c1e9a6c71999633730b2ea59c99 (/Users/suwente/Desktop/专高六学习资料/RAG 工单/附件/招股说明书2.pdf)
+INFO: Created 1 duplicate document records with track_id: insert_20260531_200029_f2a208b6
+WARNING: No new unique documents were found.
+INFO: Preserving 2 failed document entries for manual review
+INFO: No valid documents to process after consistency check
+INFO: Enqueued document processing pipeline stopped
+知识图谱构建完成!
+
+开始查询...
+
+[ID=5] 武汉力源信息技术股份有限公司组织结构图中，销售部有几个部门构成，其中大客户销售部...
+INFO: Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.460273666: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 销售部构成, 大客户销售部, 销售处 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.4846755: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=6] 武汉力源信息技术股份有限公司招股意向书中，从2008年中国IC市场应用结构与增长...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.485619666: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 2008年, 行业增长, 行业衰退 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.486315333: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=1] 武汉力源信息技术股份有限公司本次发行股数是多少，占发行后总股本的比例是多少？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.48709325: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 本次发行, 股数, 发行后总股本 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.48790925: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=2] 武汉力源信息技术股份有限公司本次募集资金拟投资哪些项目？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.488684708: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 信息技术, 股份有限公司, 募集, 资金, 项目投资 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.489338916: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=3] 与武汉力源信息技术股份有限公司存在控制关系的关联方是谁，持股比例和本公司关系是什...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.490087083: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 武汉力源信息技术股份有限公司, 本公司关系 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.490711125: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=4] 与武汉力源信息技术股份有限公司不存在控制关系的关联方企业有哪些？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.491440125: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 武汉力源信息技术股份有限公司 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.492070333: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=260] 报告期内，武汉兴图新科电子股份有限公司来自军用领域的收入分别是多少？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.492781125: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 武汉兴图新科电子股份有限公司, 报告期内 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.493409541: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=95] 武汉兴图新科电子股份有限公司参与制定了哪个技术标准？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.494243541: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 武汉兴图新科电子股份有限公司 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.494870333: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=33] 报告期内，武汉兴图新科电子股份有限公司来自军用领域的收入占主营业务收入的比重分别...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.495598916: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 武汉兴图新科电子股份有限公司, 报告期内 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.496219875: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=34] 根据武汉兴图新科电子股份有限公司招股意向书，电子信息行业的上游涉及哪些企业？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.496953083: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 武汉兴图新科电子股份有限公司, 招股意向书 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.497572625: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=957] 武汉兴图新科电子股份有限公司在哪个领域已经成为重要供应商？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.49827375: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 电子, 股份有限公司 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.498885916: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=793] 根据武汉兴图新科电子股份有限公司招股意向书，电子信息行业的下游主要包括哪些行业？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.499590041: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 武汉兴图新科电子股份有限公司, 招股意向书 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.500196583: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=795] 武汉兴图新科电子股份有限公司参与的哪个工程荣获了国家科技进步一等奖？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.501043208: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 参与工程 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.501664416: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=543] 武汉兴图新科电子股份有限公司注册资本是多少？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.50237375: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 武汉兴图新科电子股份有限公司 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.502991708: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=531] 武汉兴图新科电子股份有限公司法定代表人是谁？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.50369875: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 武汉兴图新科电子股份有限公司 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.504320708: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+
+[ID=207] 武汉兴图新科电子股份有限公司计划使用本次发行募集资金的多少用于补充流动资金？...
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.505031791: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+WARNING: Failed to batch pre-compute embeddings: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+INFO: Query nodes: 发行, 资金使用计划 (top_k:40, cosine:0.2)
+INFO:sentence_transformers.base.model:No modules.json found for BAAI/bge-base-zh-v1.5, initializing a new SentenceTransformer model.
+WARNING:sentence_transformers.util.decorators:The Transformer `cache_dir` argument is deprecated. Please pass `cache_dir` via `model_kwargs`, `processor_kwargs`, and/or `config_kwargs` instead.
+ERROR: Embedding func: Error in decorated function for task 4937948112_345777.505649833: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+ERROR: Query failed: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+  查询失败: 'NoneType' object is not subscriptable
+INFO: Successfully finalized 12 storages
+
+结果已保存到: comparison/lightrag.json

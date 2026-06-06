@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>工单12 - LightRAG对比评估系统架构图</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #020617;
+  font-family: 'JetBrains Mono', monospace;
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+.header { text-align: center; margin-bottom: 24px; }
+.header h1 { font-size: 22px; font-weight: 600; color: #f1f5f9; }
+.header .subtitle { font-size: 13px; color: #64748b; margin-top: 4px; }
+.diagram-container {
+  background: #0f172a; border: 1px solid #1e293b;
+  border-radius: 12px; padding: 16px;
+  max-width: 960px; width: 100%;
+}
+.main-svg { display: block; margin: 0 auto; }
+.cards {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 14px; margin-top: 20px; max-width: 960px; width: 100%;
+}
+.card {
+  background: #0f172a; border: 1px solid #1e293b;
+  border-radius: 10px; padding: 14px;
+}
+.card-header { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
+.card-dot { width: 8px; height: 8px; border-radius: 50%; }
+.card-dot.cyan { background: #22d3ee; }
+.card-dot.emerald { background: #34d399; }
+.card-dot.purple { background: #a78bfa; }
+.card h3 { font-size: 12px; font-weight: 500; color: #e2e8f0; }
+.card ul { list-style: none; font-size: 10px; color: #94a3b8; line-height: 1.7; }
+.card ul li::before { content: "• "; color: #475569; }
+.footer { margin-top: 16px; font-size: 10px; color: #334155; text-align: center; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>工单12 · LightRAG 对比评估系统</h1>
+  <div class="subtitle">传统RAG vs LightRAG · 知识图谱 · 双管道对比 · 评估闭环</div>
+</div>
+<div class="diagram-container">
+  <svg class="main-svg" width="920" height="680" viewBox="0 0 920 680" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/></pattern>
+      <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+    </defs>
+    <rect width="920" height="680" fill="url(#grid)"/>
+
+    <!-- ===== LAYER 1: USER ===== -->
+    <rect x="370" y="15" width="120" height="36" rx="18" fill="rgba(30,41,59,0.5)" stroke="#64748b" stroke-width="1.5"/>
+    <text x="430" y="38" fill="#e2e8f0" font-size="12" text-anchor="middle">👤 用户</text>
+    <path d="M 430 51 L 430 75" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- ===== LAYER 2: UI ===== -->
+    <rect x="330" y="75" width="200" height="36" rx="6" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+    <text x="430" y="97" fill="#22d3ee" font-size="11" text-anchor="middle" font-weight="500">Streamlit 对比界面</text>
+    <text x="430" y="107" fill="#64748b" font-size="7" text-anchor="middle">双栏对比 · Tab切换 · 来源展示</text>
+    <path d="M 430 111 L 430 140" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- ===== LAYER 3: 路由层 ===== -->
+    <rect x="330" y="140" width="200" height="36" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="430" y="162" fill="#34d399" font-size="11" text-anchor="middle" font-weight="500">查询路由器</text>
+    <text x="430" y="172" fill="#64748b" font-size="7" text-anchor="middle">单引擎 / 对比模式</text>
+
+    <!-- 路由 → 传统RAG -->
+    <path d="M 330 158 L 220 158 L 220 195" stroke="#22d3ee" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <text x="270" y="178" fill="#22d3ee" font-size="8">传统RAG</text>
+
+    <!-- 路由 → LightRAG -->
+    <path d="M 530 158 L 640 158 L 640 195" stroke="#a78bfa" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <text x="590" y="178" fill="#a78bfa" font-size="8">LightRAG</text>
+
+    <!-- ===== LEFT: 传统RAG ===== -->
+    <rect x="70" y="195" width="300" height="36" rx="8" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="2"/>
+    <text x="220" y="217" fill="#22d3ee" font-size="12" text-anchor="middle" font-weight="700">传统 RAG 管道</text>
+    <path d="M 220 231 L 220 260" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- Milvus检索 -->
+    <rect x="70" y="260" width="300" height="36" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="220" y="282" fill="#34d399" font-size="10" text-anchor="middle" font-weight="500">Milvus 向量检索</text>
+    <text x="220" y="292" fill="#64748b" font-size="7" text-anchor="middle">bge-base-zh-v1.5 · 768维 · COSINE</text>
+    <path d="M 220 296 L 220 325" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <rect x="70" y="325" width="300" height="36" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="220" y="347" fill="#34d399" font-size="10" text-anchor="middle" font-weight="500">LLM 生成回答</text>
+    <text x="220" y="357" fill="#64748b" font-size="7" text-anchor="middle">通义千问 qwen-plus · 200RPM</text>
+    <path d="M 220 361 L 220 390" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <rect x="70" y="390" width="300" height="30" rx="6" fill="rgba(251,113,133,0.1)" stroke="#fb7185" stroke-width="1"/>
+    <text x="220" y="409" fill="#fb7185" font-size="9" text-anchor="middle">输出：rag_answer + source_chunks</text>
+
+    <!-- ===== RIGHT: LightRAG ===== -->
+    <rect x="490" y="195" width="300" height="36" rx="8" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="2"/>
+    <text x="640" y="217" fill="#a78bfa" font-size="12" text-anchor="middle" font-weight="700">LightRAG 知识图谱管道</text>
+    <path d="M 640 231 L 640 260" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- 知识图谱构建 -->
+    <rect x="490" y="260" width="300" height="36" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="640" y="282" fill="#a78bfa" font-size="10" text-anchor="middle" font-weight="500">知识图谱构建</text>
+    <text x="640" y="292" fill="#64748b" font-size="7" text-anchor="middle">实体抽取 · 关系抽取 · 去重</text>
+    <path d="M 640 296 L 640 325" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- 知识图谱 -->
+    <rect x="490" y="325" width="300" height="36" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="640" y="347" fill="#a78bfa" font-size="10" text-anchor="middle" font-weight="500">知识图谱检索</text>
+    <text x="640" y="357" fill="#64748b" font-size="7" text-anchor="middle">BGE实体相似度 · networkx图遍历</text>
+    <path d="M 640 361 L 640 390" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <rect x="490" y="390" width="300" height="30" rx="6" fill="rgba(251,113,133,0.1)" stroke="#fb7185" stroke-width="1"/>
+    <text x="640" y="409" fill="#fb7185" font-size="9" text-anchor="middle">输出：graphml(14MB) + vdb + kv_store</text>
+
+    <!-- ===== 对比评估 ===== -->
+    <path d="M 220 420 L 220 451 L 430 451" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <path d="M 640 420 L 640 451 L 430 451" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <rect x="330" y="455" width="200" height="36" rx="8" fill="rgba(251,191,36,0.2)" stroke="#fbbf24" stroke-width="2"/>
+    <text x="430" y="477" fill="#fbbf24" font-size="11" text-anchor="middle" font-weight="600">对比评估模块</text>
+    <text x="430" y="487" fill="#64748b" font-size="7" text-anchor="middle">comparison/traditional_rag.json + lightrag.json</text>
+
+    <path d="M 430 491 L 430 515" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <rect x="330" y="515" width="200" height="50" rx="6" fill="rgba(251,113,133,0.1)" stroke="#fb7185" stroke-width="1"/>
+    <text x="430" y="535" fill="#fb7185" font-size="10" text-anchor="middle" font-weight="500">对比结果</text>
+    <text x="430" y="550" fill="#64748b" font-size="7" text-anchor="middle">传统RAG 14/16  vs  LightRAG 2/16</text>
+
+    <!-- ===== 底部LLM ===== -->
+    <path d="M 370 565 L 370 590 L 430 590" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <rect x="430" y="590" width="200" height="36" rx="6" fill="rgba(251,146,60,0.3)" stroke="#fb923c" stroke-width="1.5"/>
+    <text x="530" y="612" fill="#fb923c" font-size="11" text-anchor="middle" font-weight="500">通义千问 qwen-plus</text>
+    <text x="530" y="622" fill="#64748b" font-size="7" text-anchor="middle">200 RPM · dashscope API</text>
+
+    <!-- ===== LEGEND ===== -->
+    <g transform="translate(20, 640)">
+      <rect x="0" y="0" width="880" height="28" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <circle cx="16" cy="14" r="3" fill="#22d3ee"/><text x="24" y="18" fill="#64748b" font-size="7">传统RAG</text>
+      <circle cx="110" cy="14" r="3" fill="#a78bfa"/><text x="118" y="18" fill="#64748b" font-size="7">LightRAG</text>
+      <circle cx="210" cy="14" r="3" fill="#34d399"/><text x="218" y="18" fill="#64748b" font-size="7">后端</text>
+      <circle cx="290" cy="14" r="3" fill="#fbbf24"/><text x="298" y="18" fill="#64748b" font-size="7">对比</text>
+      <circle cx="370" cy="14" r="3" fill="#fb923c"/><text x="378" y="18" fill="#64748b" font-size="7">LLM</text>
+      <text x="460" y="18" fill="#475569" font-size="7">output/目录：graphml 14MB · 1364实体 · 1308关系</text>
+    </g>
+  </svg>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-header"><div class="card-dot cyan"></div><h3>传统 RAG</h3></div>
+    <ul>
+      <li>Milvus 向量检索（bge-base 768维）</li>
+      <li>PDF 全文分块 + 语义检索</li>
+      <li>通义千问 qwen-plus 生成回答</li>
+      <li>准确率：14/16 (87.5%)</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header"><div class="card-dot purple"></div><h3>LightRAG</h3></div>
+    <ul>
+      <li>知识图谱构建（实体+关系）</li>
+      <li>1364 实体 / 1308 关系</li>
+      <li>networkx 图遍历 + BGE 相似度</li>
+      <li>准确率受限：MD5 非语义 embedding</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header"><div class="card-dot amber"></div><h3>对比评估</h3></div>
+    <ul>
+      <li>双管道并行 / 切换对比</li>
+      <li>16 个测试问题对比</li>
+      <li>comparison/ 目录持久化结果</li>
+      <li>结论：传统RAG >> LightRAG</li>
+    </ul>
+  </div>
+</div>
+<div class="footer">
+  工单编号: 人工智能NLP-RAG-LightRAG对比评估 · 八维文化与产业研究院
+</div>
+</body>
+</html>
