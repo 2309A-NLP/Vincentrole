@@ -1,0 +1,10 @@
+# 工单编号: 人工智能NLP-RAG-基于PDF文档的问答系统优化
+streamlit>=1.28
+pymupdf>=1.23
+pypdf>=3.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+numpy>=1.24
+scikit-learn>=1.3
+requests>=2.31
+rank-bm25>=0.2.2

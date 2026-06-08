@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>工单13 架构</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0d1117;display:flex;justify-content:center;padding:40px;font-family:'SF Pro','Segoe UI',sans-serif}
+svg{width:960px;height:700px}
+text{font-family:'SF Pro','Segoe UI',sans-serif}
+.node{fill:#1a2332;stroke:#30363d;stroke-width:2;rx:8;ry:8}
+.node-title{fill:#58a6ff;font-size:16px;font-weight:600}
+.node-desc{fill:#8b949e;font-size:12px}
+.arrow{stroke:#58a6ff;stroke-width:2;fill:none;marker-end:url(#arrowhead)}
+.arrow-red{stroke:#f85149;stroke-width:2;fill:none;stroke-dasharray:5,3;marker-end:url(#arrowhead-red)}
+.arrow-green{stroke:#3fb950;stroke-width:2;fill:none;marker-end:url(#arrowhead-green)}
+.label{fill:#8b949e;font-size:11px}
+.bottleneck{fill:#f85149;font-size:13px;font-weight:600}
+.optimized{fill:#3fb950;font-size:13px;font-weight:600}
+</style>
+</head>
+<body>
+<svg viewBox="0 0 960 700">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#58a6ff"/>
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f85149"/>
+    </marker>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3fb950"/>
+    </marker>
+  </defs>
+
+  <!-- 基线流程 -->
+  <text x="30" y="40" fill="#f85149" font-size="18" font-weight="700">❌ 优化前 (4,558ms)</text>
+
+  <!-- 步骤1: Query -->
+  <rect class="node" x="30" y="60" width="160" height="70"/>
+  <text class="node-title" x="110" y="88" text-anchor="middle">Query</text>
+  <text class="node-desc" x="110" y="108" text-anchor="middle">用户提问</text>
+  <text class="label" x="110" y="123" text-anchor="middle">-</text>
+
+  <!-- 步骤2: Embedding -->
+  <rect class="node" x="240" y="60" width="160" height="70"/>
+  <text class="node-title" x="320" y="88" text-anchor="middle">Embedding</text>
+  <text class="node-desc" x="320" y="108" text-anchor="middle">bge-base-zh-v1.5</text>
+  <text class="label" x="320" y="123" text-anchor="middle">374ms</text>
+
+  <!-- 步骤3: 检索 -->
+  <rect class="node" x="450" y="60" width="160" height="70"/>
+  <text class="node-title" x="530" y="88" text-anchor="middle">检索融合</text>
+  <text class="node-desc" x="530" y="108" text-anchor="middle">FAISS+Whoosh+RRF</text>
+  <text class="label" x="530" y="123" text-anchor="middle">114ms</text>
+
+  <!-- 步骤4: 重排 -->
+  <rect class="node" x="450" y="170" width="160" height="70" stroke="#f85149" stroke-width="3"/>
+  <text class="node-title" x="530" y="198" text-anchor="middle" fill="#f85149">CrossEncoder重排</text>
+  <text class="node-desc" x="530" y="218" text-anchor="middle">bge-reranker-v2-m3</text>
+  <text class="bottleneck" x="530" y="233" text-anchor="middle">🔴 1,958ms 瓶颈</text>
+
+  <!-- 步骤5: LLM -->
+  <rect class="node" x="660" y="170" width="160" height="70" stroke="#f85149" stroke-width="3"/>
+  <text class="node-title" x="740" y="198" text-anchor="middle" fill="#f85149">LLM生成</text>
+  <text class="node-desc" x="740" y="218" text-anchor="middle">qwen-plus</text>
+  <text class="bottleneck" x="740" y="233" text-anchor="middle">🔴 2,112ms 瓶颈</text>
+
+  <!-- 答案 -->
+  <rect class="node" x="660" y="60" width="160" height="70"/>
+  <text class="node-title" x="740" y="88" text-anchor="middle">回答</text>
+  <text class="node-desc" x="740" y="108" text-anchor="middle">输出答案</text>
+  <text class="label" x="740" y="123" text-anchor="middle">-</text>
+
+  <!-- 箭头（基线） -->
+  <line class="arrow" x1="190" y1="95" x2="235" y2="95"/>
+  <line class="arrow" x1="400" y1="95" x2="445" y2="95"/>
+  <line class="arrow" x1="610" y1="95" x2="655" y2="95"/>
+  <line class="arrow" x1="530" y1="130" x2="530" y2="165"/>
+  <line class="arrow" x1="610" y1="205" x2="655" y2="205"/>
+
+  <!-- 优化后流程 -->
+  <text x="30" y="300" fill="#3fb950" font-size="18" font-weight="700">✅ 优化后 (595ms)</text>
+
+  <!-- 步骤1: Query -->
+  <rect class="node" x="30" y="320" width="160" height="70"/>
+  <text class="node-title" x="110" y="348" text-anchor="middle">Query</text>
+  <text class="node-desc" x="110" y="368" text-anchor="middle">用户提问</text>
+  <text class="label" x="110" y="383" text-anchor="middle">-</text>
+
+  <!-- 步骤2: Embedding -->
+  <rect class="node" x="240" y="320" width="160" height="70"/>
+  <text class="node-title" x="320" y="348" text-anchor="middle">Embedding</text>
+  <text class="node-desc" x="320" y="368" text-anchor="middle">bge-base-zh-v1.5</text>
+  <text class="label" x="320" y="383" text-anchor="middle">69ms</text>
+
+  <!-- 步骤3: 检索 -->
+  <rect class="node" x="450" y="320" width="160" height="70"/>
+  <text class="node-title" x="530" y="348" text-anchor="middle">检索融合</text>
+  <text class="node-desc" x="530" y="368" text-anchor="middle">FAISS+Whoosh+RRF</text>
+  <text class="label" x="530" y="383" text-anchor="middle">0ms</text>
+
+  <!-- 步骤4: TF-IDF -->
+  <rect class="node" x="450" y="430" width="160" height="70" stroke="#3fb950" stroke-width="3"/>
+  <text class="node-title" x="530" y="458" text-anchor="middle" fill="#3fb950">TF-IDF重排</text>
+  <text class="node-desc" x="530" y="478" text-anchor="middle">轻量文本重排</text>
+  <text class="optimized" x="530" y="493" text-anchor="middle">✅ ~10ms</text>
+
+  <!-- 步骤5: LLM -->
+  <rect class="node" x="660" y="430" width="160" height="70" stroke="#3fb950" stroke-width="3"/>
+  <text class="node-title" x="740" y="458" text-anchor="middle" fill="#3fb950">LLM生成</text>
+  <text class="node-desc" x="740" y="478" text-anchor="middle">qwen-turbo</text>
+  <text class="optimized" x="740" y="493" text-anchor="middle">✅ 526ms</text>
+
+  <!-- 答案 -->
+  <rect class="node" x="660" y="320" width="160" height="70"/>
+  <text class="node-title" x="740" y="348" text-anchor="middle">回答</text>
+  <text class="node-desc" x="740" y="368" text-anchor="middle">3秒内返回</text>
+  <text class="label" x="740" y="383" text-anchor="middle">✅</text>
+
+  <!-- 箭头 -->
+  <line class="arrow-green" x1="190" y1="355" x2="235" y2="355"/>
+  <line class="arrow-green" x1="400" y1="355" x2="445" y2="355"/>
+  <line class="arrow-green" x1="610" y1="355" x2="655" y2="355"/>
+  <line class="arrow-green" x1="530" y1="390" x2="530" y2="425"/>
+  <line class="arrow-green" x1="610" y1="465" x2="655" y2="465"/>
+
+  <!-- 优化措施标注 -->
+  <rect x="30" y="540" width="900" height="140" fill="none" stroke="#30363d" rx="8" ry="8"/>
+  <text x="50" y="568" fill="#58a6ff" font-size="15" font-weight="600">🔧 优化措施</text>
+  <text x="50" y="594" fill="#8b949e" font-size="13">❶ 重排器: CrossEncoder(bge-reranker-v2-m3, ~2s) → TF-IDF (~10ms)，省 1.9s</text>
+  <text x="50" y="618" fill="#8b949e" font-size="13">❷ LLM: qwen-plus (~2.1s) → qwen-turbo (~0.5s)，省 1.6s</text>
+  <text x="50" y="642" fill="#8b949e" font-size="13">❸ top_k: 8→5 + max_tokens: 1024→512，减少 LLM 处理量</text>
+  <text x="50" y="666" fill="#8b949e" font-size="13">❹ 关闭冗余检索链路，只用 FAISS（Milvus 下线）</text>
+</svg>
+</body>
+</html>
