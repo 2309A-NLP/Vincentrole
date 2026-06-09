@@ -1,0 +1,44 @@
+### model
+model_name_or_path: /Users/suwente/.cache/modelscope/hub/models/Qwen/Qwen2-VL-2B-Instruct
+image_max_pixels: 131072
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 4
+lora_target: all
+loraplus_lr_ratio: 16.0
+
+### dataset
+dataset: vlm_train
+template: qwen2_vl
+cutoff_len: 1024
+max_samples: 500
+preprocessing_num_workers: 4
+dataloader_num_workers: 2
+
+### output
+output_dir: saves/qwen2-vl-2b/lora/sft
+logging_steps: 5
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+learning_rate: 2.0e-4
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: false
+fp16: false
+resume_from_checkpoint: null
+
+### eval
+val_size: 0.1
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 50
