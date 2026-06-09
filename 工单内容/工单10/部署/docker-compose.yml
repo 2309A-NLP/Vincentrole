@@ -1,0 +1,16 @@
+services:
+  finance-qa:
+    build: .
+    image: finance-qa:latest
+    container_name: finance-qa
+    ports:
+      - "8520:8501"
+    environment:
+      - DASHSCOPE_API_KEY=${DASHSCOPE_API_KEY:-}
+      - LLM_MODEL=qwen-turbo
+    volumes:
+      - finance-qa-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  finance-qa-data:
