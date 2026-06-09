@@ -1,0 +1,23 @@
+services:
+  finance-qa:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: w13-finance-qa:latest
+    container_name: finance-qa
+    ports:
+      - "8501:8501"
+    environment:
+      - DASHSCOPE_API_KEY=${DASHSCOPE_API_KEY:-}
+      - LLM_MODEL=qwen-turbo
+    volumes:
+      - finance-qa-data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  finance-qa-data:

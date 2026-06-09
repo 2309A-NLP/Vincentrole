@@ -1,42 +1,36 @@
-# 工单13 — RAG 性能瓶颈识别与优化
+# 部署目录
 
-## 项目结构
+## 文件说明
 
-```
-工单13/
-├── 性能基线测试.py          # 基线测试脚本（计时10个问题各阶段）
-├── 优化方案对比.py           # 6种配置交叉对比
-├── 基线测试结果.json          # 基线测试原始数据
-├── 优化对比结果.json          # 6种方案对比数据
-├── 优化前后对比报告.md        # 完整优化报告
-└── 设计/
-    └── 架构图.html            # 优化前后架构对比图
-```
+| 文件 | 说明 |
+|------|------|
+| `Dockerfile` | 容器构建文件（基于 python:3.11-slim） |
+| `docker-compose.yml` | Docker Compose 编排配置 |
+| `config_docker.py` | 容器内使用的配置文件（API Key 通过环境变量注入） |
+| `部署文档.md` | 完整部署手册（含架构图、网络配置、数据管理） |
 
-## 结果总览
+## 构建说明
 
-| 指标 | 优化前 | 优化后 | 提升 |
-|------|:------:|:------:|:----:|
-| 总耗时 | 4,558ms | **595ms** | **✅ 87%** |
-| 重排器 | CrossEncoder (~2s) | TF-IDF (~10ms) | ✅ |
-| LLM | qwen-plus (~2.1s) | qwen-turbo (~0.5s) | ✅ |
-| 3秒达标 | ❌ 超52% | ✅ 达标 | — |
+**注意：** 国内网络无法直接拉取 Docker Hub，建议在云服务器上构建。
 
-## 优化配置
+```bash
+# 构建
+docker build -t w13-finance-qa:latest .
 
-优化后的配置文件已保存到：
-```
-~/Desktop/工单6/研发/config_优化.py
+# 运行
+docker run -d --name finance-qa -p 8501:8501 \
+  -e DASHSCOPE_API_KEY="sk-your-api-key-here" \
+  w13-finance-qa:latest
+
+# 访问
+open http://localhost:8501
 ```
 
-核心变更：
-1. 重排器: CrossEncoder → TF-IDF
-2. LLM: qwen-plus → qwen-turbo
-3. top_k: 8 → 5
-4. max_tokens: 1024 → 512
+## 本地运行（无需 Docker）
 
-## 测试方法
+```bash
+cd ../研发
+streamlit run app/ui.py --server.port 8501
+```
 
-对10个 QA 问题用 `time.perf_counter()` 埋点逐阶段测量：
-- 无缓存预热，全部为真实RAG管道耗时
-- 每个结果取1次运行（已剔除首次加载影响）
+*工单编号: 人工智能NLP-RAG-金融问答系统部署*
