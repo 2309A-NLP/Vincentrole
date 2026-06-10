@@ -1,0 +1,19 @@
+{
+  "scenario": "场景A",
+  "timestamp": "2026-06-10T16:36:18.327795",
+  "duration_seconds": 76.88,
+  "total_requests": 14,
+  "successful_requests": 14,
+  "failed_requests": 0,
+  "success_rate": 100.0,
+  "throughput_rps": 0.18,
+  "latency": {
+    "min_ms": 9534.36,
+    "max_ms": 25823.56,
+    "avg_ms": 17674.76,
+    "median_ms": 18249.27,
+    "p95_ms": 25823.56,
+    "p99_ms": 25823.56
+  },
+  "errors": {}
+}

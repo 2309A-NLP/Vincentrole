@@ -1,0 +1,23 @@
+{
+  "scenario": "场景A",
+  "timestamp": "2026-06-10T18:41:32.133158",
+  "duration_seconds": 640.97,
+  "total_requests": 1051,
+  "successful_requests": 751,
+  "failed_requests": 300,
+  "success_rate": 71.46,
+  "throughput_rps": 1.64,
+  "latency": {
+    "min_ms": 386.53,
+    "max_ms": 50161.33,
+    "avg_ms": 9938.68,
+    "median_ms": 10033.29,
+    "p95_ms": 16720.62,
+    "p99_ms": 32945.0
+  },
+  "errors": {
+    "HTTP200|{\"code\":100,\"data\":null,\"message\":\"ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\\\'dashsc": 280,
+    "HTTP200|{\"code\":100,\"data\":null,\"message\":\"SSLError(MaxRetryError(\\\"HTTPSConnectionPool(host='dashscope.aliy": 9,
+    "HTTP200|{\"code\":100,\"data\":null,\"message\":\"ConnectionError(ProtocolError('Connection aborted.', RemoteDiscon": 11
+  }
+}

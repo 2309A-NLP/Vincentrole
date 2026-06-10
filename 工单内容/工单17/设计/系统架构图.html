@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAGFlow API 并发优化架构图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 40px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2rem;
+            background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .arch-diagram {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 30px;
+            align-items: center;
+        }
+        .layer {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 24px;
+            backdrop-filter: blur(10px);
+        }
+        .layer-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #00d2ff;
+            border-bottom: 1px solid rgba(0,210,255,0.3);
+            padding-bottom: 8px;
+        }
+        .component {
+            background: rgba(255,255,255,0.08);
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 12px;
+            transition: all 0.3s ease;
+        }
+        .component:hover {
+            background: rgba(255,255,255,0.15);
+            transform: translateY(-2px);
+        }
+        .comp-name {
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        .comp-desc {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.7);
+        }
+        .arrow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #3a7bd5;
+            font-size: 2rem;
+        }
+        .arrow-label {
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.6);
+            margin-top: 4px;
+        }
+        .center-panel {
+            grid-column: 2;
+        }
+        .flow-steps {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .step-num {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+        .step-content {
+            flex: 1;
+            background: rgba(255,255,255,0.08);
+            border-radius: 8px;
+            padding: 12px;
+        }
+        .step-title {
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        .step-desc {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.7);
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            margin-top: 30px;
+        }
+        .metric-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+        }
+        .metric-value {
+            font-size: 1.8rem;
+            font-weight: 600;
+            background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .metric-label {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.6);
+            margin-top: 4px;
+        }
+        .legend {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+        }
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+        .dot-original {
+            background: #ff6b6b;
+        }
+        .dot-optimized {
+            background: #51cf66;
+        }
+        .dot-external {
+            background: #ffd43b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RAGFlow API 并发优化架构图</h1>
+        
+        <div class="arch-diagram">
+            <!-- 左侧：客户端层 -->
+            <div class="layer">
+                <div class="layer-title">客户端层</div>
+                <div class="component">
+                    <div class="comp-name">📱 Web客户端</div>
+                    <div class="comp-desc">用户浏览器</div>
+                </div>
+                <div class="component">
+                    <div class="comp-name">🔌 API客户端</div>
+                    <div class="comp-desc">第三方应用集成</div>
+                </div>
+                <div class="component">
+                    <div class="comp-name">🤖 自动化脚本</div>
+                    <div class="comp-desc">压测工具/批量处理</div>
+                </div>
+            </div>
+
+            <!-- 中间：RAGFlow服务层 -->
+            <div class="layer center-panel">
+                <div class="layer-title">RAGFlow 服务层 (Docker)</div>
+                <div class="flow-steps">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <div class="step-content">
+                            <div class="step-title">Nginx 反向代理</div>
+                            <div class="step-desc">负载均衡, SSL终端, 请求路由</div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <div class="step-content">
+                            <div class="step-title">API服务 (ragflow-cpu)</div>
+                            <div class="step-desc">FastAPI应用, 请求处理, 业务逻辑</div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <div class="step-content">
+                            <div class="step-title">🔍 向量检索</div>
+                            <div class="step-desc">Elasticsearch + Embedding模型</div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">4</div>
+                        <div class="step-content">
+                            <div class="step-title">🧠 LLM推理</div>
+                            <div class="step-desc">qwen3-max via DashScope API</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 16px; padding: 12px; background: rgba(81,207,102,0.2); border-radius: 8px; border: 1px solid rgba(81,207,102,0.3);">
+                    <div style="font-weight: 500; color: #51cf66; margin-bottom: 4px;">✅ 优化层 (新增)</div>
+                    <div style="font-size: 0.85rem; color: rgba(255,255,255,0.7);">
+                        连接池 · 请求限流 · 响应缓存 · 自动重试
+                    </div>
+                </div>
+            </div>
+
+            <!-- 右侧：数据层 -->
+            <div class="layer">
+                <div class="layer-title">数据层</div>
+                <div class="component">
+                    <div class="comp-name">📦 Elasticsearch</div>
+                    <div class="comp-desc">向量索引, 全文检索</div>
+                </div>
+                <div class="component">
+                    <div class="comp-name">🗄️ MySQL</div>
+                    <div class="comp-desc">元数据, 用户配置</div>
+                </div>
+                <div class="component">
+                    <div class="comp-name">⚡ Redis</div>
+                    <div class="comp-desc">缓存, 消息队列</div>
+                </div>
+                <div class="component">
+                    <div class="comp-name">📁 MinIO</div>
+                    <div class="comp-desc">文件存储, 文档管理</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 性能指标 -->
+        <div class="metrics">
+            <div class="metric-card">
+                <div class="metric-value">100%</div>
+                <div class="metric-label">优化后成功率</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">0.85</div>
+                <div class="metric-label">请求/秒 (吞吐量)</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">32.8s</div>
+                <div class="metric-label">P95延迟 (20并发)</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">5.5%</div>
+                <div class="metric-label">10分钟内存增长</div>
+            </div>
+        </div>
+
+        <!-- 图例 -->
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-dot dot-original"></div>
+                <span>原始瓶颈 (LLM API)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-dot dot-optimized"></div>
+                <span>优化方案</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-dot dot-external"></div>
+                <span>外部依赖</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

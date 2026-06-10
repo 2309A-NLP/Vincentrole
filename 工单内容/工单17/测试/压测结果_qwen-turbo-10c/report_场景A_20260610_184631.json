@@ -1,0 +1,21 @@
+{
+  "scenario": "场景A",
+  "timestamp": "2026-06-10T18:46:31.856317",
+  "duration_seconds": 94.63,
+  "total_requests": 103,
+  "successful_requests": 102,
+  "failed_requests": 1,
+  "success_rate": 99.03,
+  "throughput_rps": 1.09,
+  "latency": {
+    "min_ms": 1446.54,
+    "max_ms": 14231.73,
+    "avg_ms": 5705.07,
+    "median_ms": 5203.16,
+    "p95_ms": 10115.44,
+    "p99_ms": 13688.33
+  },
+  "errors": {
+    "HTTP200|{\"code\":100,\"data\":null,\"message\":\"ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\\\'dashsc": 1
+  }
+}
