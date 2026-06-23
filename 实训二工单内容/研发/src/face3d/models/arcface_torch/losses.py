@@ -1,1 +1,42 @@
-aW1wb3J0IHRvcmNoCmZyb20gdG9yY2ggaW1wb3J0IG5uCgoKZGVmIGdldF9sb3NzKG5hbWUpOgogICAgaWYgbmFtZSA9PSAiY29zZmFjZSI6CiAgICAgICAgcmV0dXJuIENvc0ZhY2UoKQogICAgZWxpZiBuYW1lID09ICJhcmNmYWNlIjoKICAgICAgICByZXR1cm4gQXJjRmFjZSgpCiAgICBlbHNlOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoKQoKCmNsYXNzIENvc0ZhY2Uobm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzPTY0LjAsIG09MC40MCk6CiAgICAgICAgc3VwZXIoQ29zRmFjZSwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYucyA9IHMKICAgICAgICBzZWxmLm0gPSBtCgogICAgZGVmIGZvcndhcmQoc2VsZiwgY29zaW5lLCBsYWJlbCk6CiAgICAgICAgaW5kZXggPSB0b3JjaC53aGVyZShsYWJlbCAhPSAtMSlbMF0KICAgICAgICBtX2hvdCA9IHRvcmNoLnplcm9zKGluZGV4LnNpemUoKVswXSwgY29zaW5lLnNpemUoKVsxXSwgZGV2aWNlPWNvc2luZS5kZXZpY2UpCiAgICAgICAgbV9ob3Quc2NhdHRlcl8oMSwgbGFiZWxbaW5kZXgsIE5vbmVdLCBzZWxmLm0pCiAgICAgICAgY29zaW5lW2luZGV4XSAtPSBtX2hvdAogICAgICAgIHJldCA9IGNvc2luZSAqIHNlbGYucwogICAgICAgIHJldHVybiByZXQKCgpjbGFzcyBBcmNGYWNlKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgcz02NC4wLCBtPTAuNSk6CiAgICAgICAgc3VwZXIoQXJjRmFjZSwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYucyA9IHMKICAgICAgICBzZWxmLm0gPSBtCgogICAgZGVmIGZvcndhcmQoc2VsZiwgY29zaW5lOiB0b3JjaC5UZW5zb3IsIGxhYmVsKToKICAgICAgICBpbmRleCA9IHRvcmNoLndoZXJlKGxhYmVsICE9IC0xKVswXQogICAgICAgIG1faG90ID0gdG9yY2guemVyb3MoaW5kZXguc2l6ZSgpWzBdLCBjb3NpbmUuc2l6ZSgpWzFdLCBkZXZpY2U9Y29zaW5lLmRldmljZSkKICAgICAgICBtX2hvdC5zY2F0dGVyXygxLCBsYWJlbFtpbmRleCwgTm9uZV0sIHNlbGYubSkKICAgICAgICBjb3NpbmUuYWNvc18oKQogICAgICAgIGNvc2luZVtpbmRleF0gKz0gbV9ob3QKICAgICAgICBjb3NpbmUuY29zXygpLm11bF8oc2VsZi5zKQogICAgICAgIHJldHVybiBjb3NpbmUK
+import torch
+from torch import nn
+
+
+def get_loss(name):
+    if name == "cosface":
+        return CosFace()
+    elif name == "arcface":
+        return ArcFace()
+    else:
+        raise ValueError()
+
+
+class CosFace(nn.Module):
+    def __init__(self, s=64.0, m=0.40):
+        super(CosFace, self).__init__()
+        self.s = s
+        self.m = m
+
+    def forward(self, cosine, label):
+        index = torch.where(label != -1)[0]
+        m_hot = torch.zeros(index.size()[0], cosine.size()[1], device=cosine.device)
+        m_hot.scatter_(1, label[index, None], self.m)
+        cosine[index] -= m_hot
+        ret = cosine * self.s
+        return ret
+
+
+class ArcFace(nn.Module):
+    def __init__(self, s=64.0, m=0.5):
+        super(ArcFace, self).__init__()
+        self.s = s
+        self.m = m
+
+    def forward(self, cosine: torch.Tensor, label):
+        index = torch.where(label != -1)[0]
+        m_hot = torch.zeros(index.size()[0], cosine.size()[1], device=cosine.device)
+        m_hot.scatter_(1, label[index, None], self.m)
+        cosine.acos_()
+        cosine[index] += m_hot
+        cosine.cos_().mul_(self.s)
+        return cosine

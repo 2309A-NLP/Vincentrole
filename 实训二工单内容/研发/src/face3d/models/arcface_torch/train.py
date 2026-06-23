@@ -1,1 +1,141 @@
-aW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBsb2dnaW5nCmltcG9ydCBvcwoKaW1wb3J0IHRvcmNoCmltcG9ydCB0b3JjaC5kaXN0cmlidXRlZCBhcyBkaXN0CmltcG9ydCB0b3JjaC5ubi5mdW5jdGlvbmFsIGFzIEYKaW1wb3J0IHRvcmNoLnV0aWxzLmRhdGEuZGlzdHJpYnV0ZWQKZnJvbSB0b3JjaC5ubi51dGlscyBpbXBvcnQgY2xpcF9ncmFkX25vcm1fCgppbXBvcnQgbG9zc2VzCmZyb20gYmFja2JvbmVzIGltcG9ydCBnZXRfbW9kZWwKZnJvbSBkYXRhc2V0IGltcG9ydCBNWEZhY2VEYXRhc2V0LCBTeW50aGV0aWNEYXRhc2V0LCBEYXRhTG9hZGVyWApmcm9tIHBhcnRpYWxfZmMgaW1wb3J0IFBhcnRpYWxGQwpmcm9tIHV0aWxzLnV0aWxzX2FtcCBpbXBvcnQgTWF4Q2xpcEdyYWRTY2FsZXIKZnJvbSB1dGlscy51dGlsc19jYWxsYmFja3MgaW1wb3J0IENhbGxCYWNrVmVyaWZpY2F0aW9uLCBDYWxsQmFja0xvZ2dpbmcsIENhbGxCYWNrTW9kZWxDaGVja3BvaW50CmZyb20gdXRpbHMudXRpbHNfY29uZmlnIGltcG9ydCBnZXRfY29uZmlnCmZyb20gdXRpbHMudXRpbHNfbG9nZ2luZyBpbXBvcnQgQXZlcmFnZU1ldGVyLCBpbml0X2xvZ2dpbmcKCgpkZWYgbWFpbihhcmdzKToKICAgIGNmZyA9IGdldF9jb25maWcoYXJncy5jb25maWcpCiAgICB0cnk6CiAgICAgICAgd29ybGRfc2l6ZSA9IGludChvcy5lbnZpcm9uWydXT1JMRF9TSVpFJ10pCiAgICAgICAgcmFuayA9IGludChvcy5lbnZpcm9uWydSQU5LJ10pCiAgICAgICAgZGlzdC5pbml0X3Byb2Nlc3NfZ3JvdXAoJ25jY2wnKQogICAgZXhjZXB0IEtleUVycm9yOgogICAgICAgIHdvcmxkX3NpemUgPSAxCiAgICAgICAgcmFuayA9IDAKICAgICAgICBkaXN0LmluaXRfcHJvY2Vzc19ncm91cChiYWNrZW5kPSduY2NsJywgaW5pdF9tZXRob2Q9InRjcDovLzEyNy4wLjAuMToxMjU4NCIsIHJhbms9cmFuaywgd29ybGRfc2l6ZT13b3JsZF9zaXplKQoKICAgIGxvY2FsX3JhbmsgPSBhcmdzLmxvY2FsX3JhbmsKICAgIHRvcmNoLmN1ZGEuc2V0X2RldmljZShsb2NhbF9yYW5rKQogICAgb3MubWFrZWRpcnMoY2ZnLm91dHB1dCwgZXhpc3Rfb2s9VHJ1ZSkKICAgIGluaXRfbG9nZ2luZyhyYW5rLCBjZmcub3V0cHV0KQoKICAgIGlmIGNmZy5yZWMgPT0gInN5bnRoZXRpYyI6CiAgICAgICAgdHJhaW5fc2V0ID0gU3ludGhldGljRGF0YXNldChsb2NhbF9yYW5rPWxvY2FsX3JhbmspCiAgICBlbHNlOgogICAgICAgIHRyYWluX3NldCA9IE1YRmFjZURhdGFzZXQocm9vdF9kaXI9Y2ZnLnJlYywgbG9jYWxfcmFuaz1sb2NhbF9yYW5rKQoKICAgIHRyYWluX3NhbXBsZXIgPSB0b3JjaC51dGlscy5kYXRhLmRpc3RyaWJ1dGVkLkRpc3RyaWJ1dGVkU2FtcGxlcih0cmFpbl9zZXQsIHNodWZmbGU9VHJ1ZSkKICAgIHRyYWluX2xvYWRlciA9IERhdGFMb2FkZXJYKAogICAgICAgIGxvY2FsX3Jhbms9bG9jYWxfcmFuaywgZGF0YXNldD10cmFpbl9zZXQsIGJhdGNoX3NpemU9Y2ZnLmJhdGNoX3NpemUsCiAgICAgICAgc2FtcGxlcj10cmFpbl9zYW1wbGVyLCBudW1fd29ya2Vycz0yLCBwaW5fbWVtb3J5PVRydWUsIGRyb3BfbGFzdD1UcnVlKQogICAgYmFja2JvbmUgPSBnZXRfbW9kZWwoY2ZnLm5ldHdvcmssIGRyb3BvdXQ9MC4wLCBmcDE2PWNmZy5mcDE2LCBudW1fZmVhdHVyZXM9Y2ZnLmVtYmVkZGluZ19zaXplKS50byhsb2NhbF9yYW5rKQoKICAgIGlmIGNmZy5yZXN1bWU6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBiYWNrYm9uZV9wdGggPSBvcy5wYXRoLmpvaW4oY2ZnLm91dHB1dCwgImJhY2tib25lLnB0aCIpCiAgICAgICAgICAgIGJhY2tib25lLmxvYWRfc3RhdGVfZGljdCh0b3JjaC5sb2FkKGJhY2tib25lX3B0aCwgbWFwX2xvY2F0aW9uPXRvcmNoLmRldmljZShsb2NhbF9yYW5rKSkpCiAgICAgICAgICAgIGlmIHJhbmsgPT0gMDoKICAgICAgICAgICAgICAgIGxvZ2dpbmcuaW5mbygiYmFja2JvbmUgcmVzdW1lIHN1Y2Nlc3NmdWxseSEiKQogICAgICAgIGV4Y2VwdCAoRmlsZU5vdEZvdW5kRXJyb3IsIEtleUVycm9yLCBJbmRleEVycm9yLCBSdW50aW1lRXJyb3IpOgogICAgICAgICAgICBpZiByYW5rID09IDA6CiAgICAgICAgICAgICAgICBsb2dnaW5nLmluZm8oInJlc3VtZSBmYWlsLCBiYWNrYm9uZSBpbml0IHN1Y2Nlc3NmdWxseSEiKQoKICAgIGJhY2tib25lID0gdG9yY2gubm4ucGFyYWxsZWwuRGlzdHJpYnV0ZWREYXRhUGFyYWxsZWwoCiAgICAgICAgbW9kdWxlPWJhY2tib25lLCBicm9hZGNhc3RfYnVmZmVycz1GYWxzZSwgZGV2aWNlX2lkcz1bbG9jYWxfcmFua10pCiAgICBiYWNrYm9uZS50cmFpbigpCiAgICBtYXJnaW5fc29mdG1heCA9IGxvc3Nlcy5nZXRfbG9zcyhjZmcubG9zcykKICAgIG1vZHVsZV9wYXJ0aWFsX2ZjID0gUGFydGlhbEZDKAogICAgICAgIHJhbms9cmFuaywgbG9jYWxfcmFuaz1sb2NhbF9yYW5rLCB3b3JsZF9zaXplPXdvcmxkX3NpemUsIHJlc3VtZT1jZmcucmVzdW1lLAogICAgICAgIGJhdGNoX3NpemU9Y2ZnLmJhdGNoX3NpemUsIG1hcmdpbl9zb2Z0bWF4PW1hcmdpbl9zb2Z0bWF4LCBudW1fY2xhc3Nlcz1jZmcubnVtX2NsYXNzZXMsCiAgICAgICAgc2FtcGxlX3JhdGU9Y2ZnLnNhbXBsZV9yYXRlLCBlbWJlZGRpbmdfc2l6ZT1jZmcuZW1iZWRkaW5nX3NpemUsIHByZWZpeD1jZmcub3V0cHV0KQoKICAgIG9wdF9iYWNrYm9uZSA9IHRvcmNoLm9wdGltLlNHRCgKICAgICAgICBwYXJhbXM9W3sncGFyYW1zJzogYmFja2JvbmUucGFyYW1ldGVycygpfV0sCiAgICAgICAgbHI9Y2ZnLmxyIC8gNTEyICogY2ZnLmJhdGNoX3NpemUgKiB3b3JsZF9zaXplLAogICAgICAgIG1vbWVudHVtPTAuOSwgd2VpZ2h0X2RlY2F5PWNmZy53ZWlnaHRfZGVjYXkpCiAgICBvcHRfcGZjID0gdG9yY2gub3B0aW0uU0dEKAogICAgICAgIHBhcmFtcz1beydwYXJhbXMnOiBtb2R1bGVfcGFydGlhbF9mYy5wYXJhbWV0ZXJzKCl9XSwKICAgICAgICBscj1jZmcubHIgLyA1MTIgKiBjZmcuYmF0Y2hfc2l6ZSAqIHdvcmxkX3NpemUsCiAgICAgICAgbW9tZW50dW09MC45LCB3ZWlnaHRfZGVjYXk9Y2ZnLndlaWdodF9kZWNheSkKCiAgICBudW1faW1hZ2UgPSBsZW4odHJhaW5fc2V0KQogICAgdG90YWxfYmF0Y2hfc2l6ZSA9IGNmZy5iYXRjaF9zaXplICogd29ybGRfc2l6ZQogICAgY2ZnLndhcm11cF9zdGVwID0gbnVtX2ltYWdlIC8vIHRvdGFsX2JhdGNoX3NpemUgKiBjZmcud2FybXVwX2Vwb2NoCiAgICBjZmcudG90YWxfc3RlcCA9IG51bV9pbWFnZSAvLyB0b3RhbF9iYXRjaF9zaXplICogY2ZnLm51bV9lcG9jaAoKICAgIGRlZiBscl9zdGVwX2Z1bmMoY3VycmVudF9zdGVwKToKICAgICAgICBjZmcuZGVjYXlfc3RlcCA9IFt4ICogbnVtX2ltYWdlIC8vIHRvdGFsX2JhdGNoX3NpemUgZm9yIHggaW4gY2ZnLmRlY2F5X2Vwb2NoXQogICAgICAgIGlmIGN1cnJlbnRfc3RlcCA8IGNmZy53YXJtdXBfc3RlcDoKICAgICAgICAgICAgcmV0dXJuIGN1cnJlbnRfc3RlcCAvIGNmZy53YXJtdXBfc3RlcAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiAwLjEgKiogbGVuKFttIGZvciBtIGluIGNmZy5kZWNheV9zdGVwIGlmIG0gPD0gY3VycmVudF9zdGVwXSkKCiAgICBzY2hlZHVsZXJfYmFja2JvbmUgPSB0b3JjaC5vcHRpbS5scl9zY2hlZHVsZXIuTGFtYmRhTFIoCiAgICAgICAgb3B0aW1pemVyPW9wdF9iYWNrYm9uZSwgbHJfbGFtYmRhPWxyX3N0ZXBfZnVuYykKICAgIHNjaGVkdWxlcl9wZmMgPSB0b3JjaC5vcHRpbS5scl9zY2hlZHVsZXIuTGFtYmRhTFIoCiAgICAgICAgb3B0aW1pemVyPW9wdF9wZmMsIGxyX2xhbWJkYT1scl9zdGVwX2Z1bmMpCgogICAgZm9yIGtleSwgdmFsdWUgaW4gY2ZnLml0ZW1zKCk6CiAgICAgICAgbnVtX3NwYWNlID0gMjUgLSBsZW4oa2V5KQogICAgICAgIGxvZ2dpbmcuaW5mbygiOiAiICsga2V5ICsgIiAiICogbnVtX3NwYWNlICsgc3RyKHZhbHVlKSkKCiAgICB2YWxfdGFyZ2V0ID0gY2ZnLnZhbF90YXJnZXRzCiAgICBjYWxsYmFja192ZXJpZmljYXRpb24gPSBDYWxsQmFja1ZlcmlmaWNhdGlvbigyMDAwLCByYW5rLCB2YWxfdGFyZ2V0LCBjZmcucmVjKQogICAgY2FsbGJhY2tfbG9nZ2luZyA9IENhbGxCYWNrTG9nZ2luZyg1MCwgcmFuaywgY2ZnLnRvdGFsX3N0ZXAsIGNmZy5iYXRjaF9zaXplLCB3b3JsZF9zaXplLCBOb25lKQogICAgY2FsbGJhY2tfY2hlY2twb2ludCA9IENhbGxCYWNrTW9kZWxDaGVja3BvaW50KHJhbmssIGNmZy5vdXRwdXQpCgogICAgbG9zcyA9IEF2ZXJhZ2VNZXRlcigpCiAgICBzdGFydF9lcG9jaCA9IDAKICAgIGdsb2JhbF9zdGVwID0gMAogICAgZ3JhZF9hbXAgPSBNYXhDbGlwR3JhZFNjYWxlcihjZmcuYmF0Y2hfc2l6ZSwgMTI4ICogY2ZnLmJhdGNoX3NpemUsIGdyb3d0aF9pbnRlcnZhbD0xMDApIGlmIGNmZy5mcDE2IGVsc2UgTm9uZQogICAgZm9yIGVwb2NoIGluIHJhbmdlKHN0YXJ0X2Vwb2NoLCBjZmcubnVtX2Vwb2NoKToKICAgICAgICB0cmFpbl9zYW1wbGVyLnNldF9lcG9jaChlcG9jaCkKICAgICAgICBmb3Igc3RlcCwgKGltZywgbGFiZWwpIGluIGVudW1lcmF0ZSh0cmFpbl9sb2FkZXIpOgogICAgICAgICAgICBnbG9iYWxfc3RlcCArPSAxCiAgICAgICAgICAgIGZlYXR1cmVzID0gRi5ub3JtYWxpemUoYmFja2JvbmUoaW1nKSkKICAgICAgICAgICAgeF9ncmFkLCBsb3NzX3YgPSBtb2R1bGVfcGFydGlhbF9mYy5mb3J3YXJkX2JhY2t3YXJkKGxhYmVsLCBmZWF0dXJlcywgb3B0X3BmYykKICAgICAgICAgICAgaWYgY2ZnLmZwMTY6CiAgICAgICAgICAgICAgICBmZWF0dXJlcy5iYWNrd2FyZChncmFkX2FtcC5zY2FsZSh4X2dyYWQpKQogICAgICAgICAgICAgICAgZ3JhZF9hbXAudW5zY2FsZV8ob3B0X2JhY2tib25lKQogICAgICAgICAgICAgICAgY2xpcF9ncmFkX25vcm1fKGJhY2tib25lLnBhcmFtZXRlcnMoKSwgbWF4X25vcm09NSwgbm9ybV90eXBlPTIpCiAgICAgICAgICAgICAgICBncmFkX2FtcC5zdGVwKG9wdF9iYWNrYm9uZSkKICAgICAgICAgICAgICAgIGdyYWRfYW1wLnVwZGF0ZSgpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBmZWF0dXJlcy5iYWNrd2FyZCh4X2dyYWQpCiAgICAgICAgICAgICAgICBjbGlwX2dyYWRfbm9ybV8oYmFja2JvbmUucGFyYW1ldGVycygpLCBtYXhfbm9ybT01LCBub3JtX3R5cGU9MikKICAgICAgICAgICAgICAgIG9wdF9iYWNrYm9uZS5zdGVwKCkKCiAgICAgICAgICAgIG9wdF9wZmMuc3RlcCgpCiAgICAgICAgICAgIG1vZHVsZV9wYXJ0aWFsX2ZjLnVwZGF0ZSgpCiAgICAgICAgICAgIG9wdF9iYWNrYm9uZS56ZXJvX2dyYWQoKQogICAgICAgICAgICBvcHRfcGZjLnplcm9fZ3JhZCgpCiAgICAgICAgICAgIGxvc3MudXBkYXRlKGxvc3NfdiwgMSkKICAgICAgICAgICAgY2FsbGJhY2tfbG9nZ2luZyhnbG9iYWxfc3RlcCwgbG9zcywgZXBvY2gsIGNmZy5mcDE2LCBzY2hlZHVsZXJfYmFja2JvbmUuZ2V0X2xhc3RfbHIoKVswXSwgZ3JhZF9hbXApCiAgICAgICAgICAgIGNhbGxiYWNrX3ZlcmlmaWNhdGlvbihnbG9iYWxfc3RlcCwgYmFja2JvbmUpCiAgICAgICAgICAgIHNjaGVkdWxlcl9iYWNrYm9uZS5zdGVwKCkKICAgICAgICAgICAgc2NoZWR1bGVyX3BmYy5zdGVwKCkKICAgICAgICBjYWxsYmFja19jaGVja3BvaW50KGdsb2JhbF9zdGVwLCBiYWNrYm9uZSwgbW9kdWxlX3BhcnRpYWxfZmMpCiAgICBkaXN0LmRlc3Ryb3lfcHJvY2Vzc19ncm91cCgpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHRvcmNoLmJhY2tlbmRzLmN1ZG5uLmJlbmNobWFyayA9IFRydWUKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKGRlc2NyaXB0aW9uPSdQeVRvcmNoIEFyY0ZhY2UgVHJhaW5pbmcnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnY29uZmlnJywgdHlwZT1zdHIsIGhlbHA9J3B5IGNvbmZpZyBmaWxlJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tbG9jYWxfcmFuaycsIHR5cGU9aW50LCBkZWZhdWx0PTAsIGhlbHA9J2xvY2FsX3JhbmsnKQogICAgbWFpbihwYXJzZXIucGFyc2VfYXJncygpKQo=
+import argparse
+import logging
+import os
+
+import torch
+import torch.distributed as dist
+import torch.nn.functional as F
+import torch.utils.data.distributed
+from torch.nn.utils import clip_grad_norm_
+
+import losses
+from backbones import get_model
+from dataset import MXFaceDataset, SyntheticDataset, DataLoaderX
+from partial_fc import PartialFC
+from utils.utils_amp import MaxClipGradScaler
+from utils.utils_callbacks import CallBackVerification, CallBackLogging, CallBackModelCheckpoint
+from utils.utils_config import get_config
+from utils.utils_logging import AverageMeter, init_logging
+
+
+def main(args):
+    cfg = get_config(args.config)
+    try:
+        world_size = int(os.environ['WORLD_SIZE'])
+        rank = int(os.environ['RANK'])
+        dist.init_process_group('nccl')
+    except KeyError:
+        world_size = 1
+        rank = 0
+        dist.init_process_group(backend='nccl', init_method="tcp://127.0.0.1:12584", rank=rank, world_size=world_size)
+
+    local_rank = args.local_rank
+    torch.cuda.set_device(local_rank)
+    os.makedirs(cfg.output, exist_ok=True)
+    init_logging(rank, cfg.output)
+
+    if cfg.rec == "synthetic":
+        train_set = SyntheticDataset(local_rank=local_rank)
+    else:
+        train_set = MXFaceDataset(root_dir=cfg.rec, local_rank=local_rank)
+
+    train_sampler = torch.utils.data.distributed.DistributedSampler(train_set, shuffle=True)
+    train_loader = DataLoaderX(
+        local_rank=local_rank, dataset=train_set, batch_size=cfg.batch_size,
+        sampler=train_sampler, num_workers=2, pin_memory=True, drop_last=True)
+    backbone = get_model(cfg.network, dropout=0.0, fp16=cfg.fp16, num_features=cfg.embedding_size).to(local_rank)
+
+    if cfg.resume:
+        try:
+            backbone_pth = os.path.join(cfg.output, "backbone.pth")
+            backbone.load_state_dict(torch.load(backbone_pth, map_location=torch.device(local_rank)))
+            if rank == 0:
+                logging.info("backbone resume successfully!")
+        except (FileNotFoundError, KeyError, IndexError, RuntimeError):
+            if rank == 0:
+                logging.info("resume fail, backbone init successfully!")
+
+    backbone = torch.nn.parallel.DistributedDataParallel(
+        module=backbone, broadcast_buffers=False, device_ids=[local_rank])
+    backbone.train()
+    margin_softmax = losses.get_loss(cfg.loss)
+    module_partial_fc = PartialFC(
+        rank=rank, local_rank=local_rank, world_size=world_size, resume=cfg.resume,
+        batch_size=cfg.batch_size, margin_softmax=margin_softmax, num_classes=cfg.num_classes,
+        sample_rate=cfg.sample_rate, embedding_size=cfg.embedding_size, prefix=cfg.output)
+
+    opt_backbone = torch.optim.SGD(
+        params=[{'params': backbone.parameters()}],
+        lr=cfg.lr / 512 * cfg.batch_size * world_size,
+        momentum=0.9, weight_decay=cfg.weight_decay)
+    opt_pfc = torch.optim.SGD(
+        params=[{'params': module_partial_fc.parameters()}],
+        lr=cfg.lr / 512 * cfg.batch_size * world_size,
+        momentum=0.9, weight_decay=cfg.weight_decay)
+
+    num_image = len(train_set)
+    total_batch_size = cfg.batch_size * world_size
+    cfg.warmup_step = num_image // total_batch_size * cfg.warmup_epoch
+    cfg.total_step = num_image // total_batch_size * cfg.num_epoch
+
+    def lr_step_func(current_step):
+        cfg.decay_step = [x * num_image // total_batch_size for x in cfg.decay_epoch]
+        if current_step < cfg.warmup_step:
+            return current_step / cfg.warmup_step
+        else:
+            return 0.1 ** len([m for m in cfg.decay_step if m <= current_step])
+
+    scheduler_backbone = torch.optim.lr_scheduler.LambdaLR(
+        optimizer=opt_backbone, lr_lambda=lr_step_func)
+    scheduler_pfc = torch.optim.lr_scheduler.LambdaLR(
+        optimizer=opt_pfc, lr_lambda=lr_step_func)
+
+    for key, value in cfg.items():
+        num_space = 25 - len(key)
+        logging.info(": " + key + " " * num_space + str(value))
+
+    val_target = cfg.val_targets
+    callback_verification = CallBackVerification(2000, rank, val_target, cfg.rec)
+    callback_logging = CallBackLogging(50, rank, cfg.total_step, cfg.batch_size, world_size, None)
+    callback_checkpoint = CallBackModelCheckpoint(rank, cfg.output)
+
+    loss = AverageMeter()
+    start_epoch = 0
+    global_step = 0
+    grad_amp = MaxClipGradScaler(cfg.batch_size, 128 * cfg.batch_size, growth_interval=100) if cfg.fp16 else None
+    for epoch in range(start_epoch, cfg.num_epoch):
+        train_sampler.set_epoch(epoch)
+        for step, (img, label) in enumerate(train_loader):
+            global_step += 1
+            features = F.normalize(backbone(img))
+            x_grad, loss_v = module_partial_fc.forward_backward(label, features, opt_pfc)
+            if cfg.fp16:
+                features.backward(grad_amp.scale(x_grad))
+                grad_amp.unscale_(opt_backbone)
+                clip_grad_norm_(backbone.parameters(), max_norm=5, norm_type=2)
+                grad_amp.step(opt_backbone)
+                grad_amp.update()
+            else:
+                features.backward(x_grad)
+                clip_grad_norm_(backbone.parameters(), max_norm=5, norm_type=2)
+                opt_backbone.step()
+
+            opt_pfc.step()
+            module_partial_fc.update()
+            opt_backbone.zero_grad()
+            opt_pfc.zero_grad()
+            loss.update(loss_v, 1)
+            callback_logging(global_step, loss, epoch, cfg.fp16, scheduler_backbone.get_last_lr()[0], grad_amp)
+            callback_verification(global_step, backbone)
+            scheduler_backbone.step()
+            scheduler_pfc.step()
+        callback_checkpoint(global_step, backbone, module_partial_fc)
+    dist.destroy_process_group()
+
+
+if __name__ == "__main__":
+    torch.backends.cudnn.benchmark = True
+    parser = argparse.ArgumentParser(description='PyTorch ArcFace Training')
+    parser.add_argument('config', type=str, help='py config file')
+    parser.add_argument('--local_rank', type=int, default=0, help='local_rank')
+    main(parser.parse_args())

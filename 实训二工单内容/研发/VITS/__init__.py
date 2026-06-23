@@ -1,1 +1,20 @@
-dHJ5OgogICAgZnJvbSAuR1BUX1NvVklUUyBpbXBvcnQgR1BUX1NvVklUUwogICAgcHJpbnQoIkdQVF9Tb1ZJVFPlr7zlhaXmiJDlip8iKQpleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICBwcmludCgiR1BUX1NvVklUU+WvvOWFpeWksei0pe+8jOWOn+WboO+8miIsIGUpCiAgICBwcmludCgi5L2/55SoR1BULVNvVklUU+ivremfs+WFi+mahuWJjemcgOimgeWuieijheWvueW6lOeahOeOr+Wig++8jOivt+aJp+ihjCBwaXAgaW5zdGFsbCAtciBWSVRTL3JlcXVpcmVtZW50c192aXRzLnR4dCIpCgp0cnk6CiAgICBmcm9tIC5Db3N5Vm9pY2UgaW1wb3J0IENvc3lWb2ljZVRUUwogICAgcHJpbnQoIkNvc3lWb2ljZeWvvOWFpeaIkOWKnyIpCmV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgIHByaW50KCJDb3N5Vm9pY2Xlr7zlhaXlpLHotKXvvIzljp/lm6DvvJoiLCBlKQogICAgcHJpbnQoIuS9v+eUqENvc3lWb2ljZeivremfs+WFi+mahuWJjemcgOimgeWuieijheWvueW6lOeahOeOr+WigyIpCgojIHRyeToKIyAgICAgZnJvbSAuWFRUUyBpbXBvcnQgWFRUUwojICAgICBwcmludCgiWFRUU+WvvOWFpeaIkOWKnyIpCiMgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgojICAgICBwcmludCgiWFRUU+WvvOWFpeWksei0pe+8jOWOn+WboO+8miIsIGUpCiMgICAgIHByaW50KCLkvb/nlKhYVFRT6K+t6Z+z5YWL6ZqG5YmN6ZyA6KaB5a6J6KOF5a+55bqU55qE546v5aKD77yM6K+35omn6KGMIHBpcCBpbnN0YWxsIC1yIFZJVFMvcmVxdWlyZW1lbnRzX3h0dHMudHh0Iil4Mnh3
+try:
+    from .GPT_SoVITS import GPT_SoVITS
+    print("GPT_SoVITS导入成功")
+except Exception as e:
+    print("GPT_SoVITS导入失败，原因：", e)
+    print("使用GPT-SoVITS语音克隆前需要安装对应的环境，请执行 pip install -r VITS/requirements_vits.txt")
+
+try:
+    from .CosyVoice import CosyVoiceTTS
+    print("CosyVoice导入成功")
+except Exception as e:
+    print("CosyVoice导入失败，原因：", e)
+    print("使用CosyVoice语音克隆前需要安装对应的环境")
+
+# try:
+#     from .XTTS import XTTS
+#     print("XTTS导入成功")
+# except Exception as e:
+#     print("XTTS导入失败，原因：", e)
+#     print("使用XTTS语音克隆前需要安装对应的环境，请执行 pip install -r VITS/requirements_xtts.txt")x2xw

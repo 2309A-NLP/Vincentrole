@@ -1,1 +1,47 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi55SoIGJnZS1zbWFsbC16aCDlnKjmnKzlnLBHUFXmiorljLvnlpfpl67nrZTlupPlkJHph4/ljJbvvIzlrZjmiJAgbnB5ICsganNvbuOAgiIiIgppbXBvcnQganNvbiwgdGltZQppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IHRvcmNoCmZyb20gdHJhbnNmb3JtZXJzIGltcG9ydCBBdXRvVG9rZW5pemVyLCBBdXRvTW9kZWwKCkJHRV9ESVIgID0gIi9yb290Ly5jYWNoZS9tb2RlbHNjb3BlL2h1Yi9BSS1Nb2RlbFNjb3BlL2JnZS1zbWFsbC16aC12MV9fXzUiCktCICAgICAgID0gIi9yb290L0xpbmx5LVRhbGtlci9rYl9zY29yZTUuanNvbmwiCk9VVF9FTUIgID0gIi9yb290L0xpbmx5LVRhbGtlci9rYl9lbWIubnB5IgpPVVRfTUVUQSA9ICIvcm9vdC9MaW5seS1UYWxrZXIva2JfbWV0YS5qc29uIgpCQVRDSCAgICA9IDI1NgpNQVhMRU4gICA9IDI1NgoKZGV2aWNlID0gImN1ZGEiIGlmIHRvcmNoLmN1ZGEuaXNfYXZhaWxhYmxlKCkgZWxzZSAiY3B1IgpwcmludCgiZGV2aWNlOiIsIGRldmljZSkKCnRvayA9IEF1dG9Ub2tlbml6ZXIuZnJvbV9wcmV0cmFpbmVkKEJHRV9ESVIpCm1vZGVsID0gQXV0b01vZGVsLmZyb21fcHJldHJhaW5lZChCR0VfRElSKS50byhkZXZpY2UpLmV2YWwoKS5oYWxmKCkKCm1ldGEsIHRleHRzID0gW10sIFtdCmZvciBsaW5lIGluIG9wZW4oS0IsIGVuY29kaW5nPSJ1dGYtOCIpOgogICAgbGluZSA9IGxpbmUuc3RyaXAoKQogICAgaWYgbm90IGxpbmU6CiAgICAgICAgY29udGludWUKICAgIGQgPSBqc29uLmxvYWRzKGxpbmUpCiAgICBtZXRhLmFwcGVuZChkKQogICAgdGV4dHMuYXBwZW5kKGRbInEiXSkgICAgICAgICAgIyDmo4DntKLnlKjpl67popjlrZfmrrUKcHJpbnQoIuW+heWQkemHj+WMluadoeaVsDoiLCBsZW4odGV4dHMpKQoKZW1icyA9IFtdCnQwID0gdGltZS50aW1lKCkKZm9yIGkgaW4gcmFuZ2UoMCwgbGVuKHRleHRzKSwgQkFUQ0gpOgogICAgYmF0Y2ggPSB0ZXh0c1tpOmkgKyBCQVRDSF0KICAgIGVuYyA9IHRvayhiYXRjaCwgcGFkZGluZz1UcnVlLCB0cnVuY2F0aW9uPVRydWUsIG1heF9sZW5ndGg9TUFYTEVOLCByZXR1cm5fdGVuc29ycz0icHQiKS50byhkZXZpY2UpCiAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICBvdXQgPSBtb2RlbCgqKmVuYykKICAgICAgICBlID0gb3V0Lmxhc3RfaGlkZGVuX3N0YXRlWzosIDBdICAgICAgICAgICAgICAgICAgICAgICAjIGJnZSDnlKggQ0xTIHBvb2xpbmcKICAgICAgICBlID0gdG9yY2gubm4uZnVuY3Rpb25hbC5ub3JtYWxpemUoZS5mbG9hdCgpLCBwPTIsIGRpbT0xKQogICAgZW1icy5hcHBlbmQoZS5jcHUoKS5udW1weSgpKQogICAgaWYgKGkgLy8gQkFUQ0gpICUgMTAgPT0gMDoKICAgICAgICBwcmludChmIiAge2l9L3tsZW4odGV4dHMpfSAge3RpbWUudGltZSgpLXQwOi4wZn1zIiwgZmx1c2g9VHJ1ZSkKCmVtYiA9IG5wLmNvbmNhdGVuYXRlKGVtYnMsIGF4aXM9MCkuYXN0eXBlKCJmbG9hdDMyIikKbnAuc2F2ZShPVVRfRU1CLCBlbWIpCmpzb24uZHVtcChtZXRhLCBvcGVuKE9VVF9NRVRBLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpLCBlbnN1cmVfYXNjaWk9RmFsc2UpCnByaW50KCJET05FIHNoYXBlPSIsIGVtYi5zaGFwZSwgIueUqOaXtiIsIHJvdW5kKHRpbWUudGltZSgpIC0gdDAsIDEpLCAicyIpCg==
+# -*- coding: utf-8 -*-
+"""用 bge-small-zh 在本地GPU把医疗问答库向量化，存成 npy + json。"""
+import json, time
+import numpy as np
+import torch
+from transformers import AutoTokenizer, AutoModel
+
+BGE_DIR  = "/root/.cache/modelscope/hub/AI-ModelScope/bge-small-zh-v1___5"
+KB       = "/root/Linly-Talker/kb_score5.jsonl"
+OUT_EMB  = "/root/Linly-Talker/kb_emb.npy"
+OUT_META = "/root/Linly-Talker/kb_meta.json"
+BATCH    = 256
+MAXLEN   = 256
+
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print("device:", device)
+
+tok = AutoTokenizer.from_pretrained(BGE_DIR)
+model = AutoModel.from_pretrained(BGE_DIR).to(device).eval().half()
+
+meta, texts = [], []
+for line in open(KB, encoding="utf-8"):
+    line = line.strip()
+    if not line:
+        continue
+    d = json.loads(line)
+    meta.append(d)
+    texts.append(d["q"])          # 检索用问题字段
+print("待向量化条数:", len(texts))
+
+embs = []
+t0 = time.time()
+for i in range(0, len(texts), BATCH):
+    batch = texts[i:i + BATCH]
+    enc = tok(batch, padding=True, truncation=True, max_length=MAXLEN, return_tensors="pt").to(device)
+    with torch.no_grad():
+        out = model(**enc)
+        e = out.last_hidden_state[:, 0]                       # bge 用 CLS pooling
+        e = torch.nn.functional.normalize(e.float(), p=2, dim=1)
+    embs.append(e.cpu().numpy())
+    if (i // BATCH) % 10 == 0:
+        print(f"  {i}/{len(texts)}  {time.time()-t0:.0f}s", flush=True)
+
+emb = np.concatenate(embs, axis=0).astype("float32")
+np.save(OUT_EMB, emb)
+json.dump(meta, open(OUT_META, "w", encoding="utf-8"), ensure_ascii=False)
+print("DONE shape=", emb.shape, "用时", round(time.time() - t0, 1), "s")

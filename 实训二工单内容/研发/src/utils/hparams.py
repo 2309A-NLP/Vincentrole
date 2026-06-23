@@ -1,1 +1,160 @@
-ZnJvbSBnbG9iIGltcG9ydCBnbG9iCmltcG9ydCBvcwoKY2xhc3MgSFBhcmFtczoKCWRlZiBfX2luaXRfXyhzZWxmLCAqKmt3YXJncyk6CgkJc2VsZi5kYXRhID0ge30KCgkJZm9yIGtleSwgdmFsdWUgaW4ga3dhcmdzLml0ZW1zKCk6CgkJCXNlbGYuZGF0YVtrZXldID0gdmFsdWUKCglkZWYgX19nZXRhdHRyX18oc2VsZiwga2V5KToKCQlpZiBrZXkgbm90IGluIHNlbGYuZGF0YToKCQkJcmFpc2UgQXR0cmlidXRlRXJyb3IoIidIUGFyYW1zJyBvYmplY3QgaGFzIG5vIGF0dHJpYnV0ZSAlcyIgJSBrZXkpCgkJcmV0dXJuIHNlbGYuZGF0YVtrZXldCgoJZGVmIHNldF9ocGFyYW0oc2VsZiwga2V5LCB2YWx1ZSk6CgkJc2VsZi5kYXRhW2tleV0gPSB2YWx1ZQoKCiMgRGVmYXVsdCBoeXBlcnBhcmFtZXRlcnMKaHBhcmFtcyA9IEhQYXJhbXMoCgludW1fbWVscz04MCwgICMgTnVtYmVyIG9mIG1lbC1zcGVjdHJvZ3JhbSBjaGFubmVscyBhbmQgbG9jYWwgY29uZGl0aW9uaW5nIGRpbWVuc2lvbmFsaXR5CgkjICBuZXR3b3JrCglyZXNjYWxlPVRydWUsICAjIFdoZXRoZXIgdG8gcmVzY2FsZSBhdWRpbyBwcmlvciB0byBwcmVwcm9jZXNzaW5nCglyZXNjYWxpbmdfbWF4PTAuOSwgICMgUmVzY2FsaW5nIHZhbHVlCgkKCSMgVXNlIExXUyAoaHR0cHM6Ly9naXRodWIuY29tL0pvbmF0aGFuLUxlUm91eC9sd3MpIGZvciBTVEZUIGFuZCBwaGFzZSByZWNvbnN0cnVjdGlvbgoJIyBJdCJzIHByZWZlcnJlZCB0byBzZXQgVHJ1ZSB0byB1c2Ugd2l0aCBodHRwczovL2dpdGh1Yi5jb20vcjl5OS93YXZlbmV0X3ZvY29kZXIKCSMgRG9lcyBub3Qgd29yayBpZiBuX2ZmaXQgaXMgbm90IG11bHRpcGxlIG9mIGhvcF9zaXplISEKCXVzZV9sd3M9RmFsc2UsCgkKCW5fZmZ0PTgwMCwgICMgRXh0cmEgd2luZG93IHNpemUgaXMgZmlsbGVkIHdpdGggMCBwYWRkaW5ncyB0byBtYXRjaCB0aGlzIHBhcmFtZXRlcgoJaG9wX3NpemU9MjAwLCAgIyBGb3IgMTYwMDBIeiwgMjAwID0gMTIuNSBtcyAoMC4wMTI1ICogc2FtcGxlX3JhdGUpCgl3aW5fc2l6ZT04MDAsICAjIEZvciAxNjAwMEh6LCA4MDAgPSA1MCBtcyAoSWYgTm9uZSwgd2luX3NpemUgPSBuX2ZmdCkgKDAuMDUgKiBzYW1wbGVfcmF0ZSkKCXNhbXBsZV9yYXRlPTE2MDAwLCAgIyAxNjAwMEh6IChjb3JyZXNwb25kaW5nIHRvIGxpYnJpc3BlZWNoKSAoc294IC0taSA8ZmlsZW5hbWU+KQoJCglmcmFtZV9zaGlmdF9tcz1Ob25lLCAgIyBDYW4gcmVwbGFjZSBob3Bfc2l6ZSBwYXJhbWV0ZXIuIChSZWNvbW1lbmRlZDogMTIuNSkKCQoJIyBNZWwgYW5kIExpbmVhciBzcGVjdHJvZ3JhbXMgbm9ybWFsaXphdGlvbi9zY2FsaW5nIGFuZCBjbGlwcGluZwoJc2lnbmFsX25vcm1hbGl6YXRpb249VHJ1ZSwKCSMgV2hldGhlciB0byBub3JtYWxpemUgbWVsIHNwZWN0cm9ncmFtcyB0byBzb21lIHByZWRlZmluZWQgcmFuZ2UgKGZvbGxvd2luZyBiZWxvdyBwYXJhbWV0ZXJzKQoJYWxsb3dfY2xpcHBpbmdfaW5fbm9ybWFsaXphdGlvbj1UcnVlLCAgIyBPbmx5IHJlbGV2YW50IGlmIG1lbF9ub3JtYWxpemF0aW9uID0gVHJ1ZQoJc3ltbWV0cmljX21lbHM9VHJ1ZSwKCSMgV2hldGhlciB0byBzY2FsZSB0aGUgZGF0YSB0byBiZSBzeW1tZXRyaWMgYXJvdW5kIDAuIChBbHNvIG11bHRpcGxpZXMgdGhlIG91dHB1dCByYW5nZSBieSAyLCAKCSMgZmFzdGVyIGFuZCBjbGVhbmVyIGNvbnZlcmdlbmNlKQoJbWF4X2Fic192YWx1ZT00LiwKCSMgbWF4IGFic29sdXRlIHZhbHVlIG9mIGRhdGEuIElmIHN5bW1ldHJpYywgZGF0YSB3aWxsIGJlIFstbWF4LCBtYXhdIGVsc2UgWzAsIG1heF0gKE11c3Qgbm90IAoJIyBiZSB0b28gYmlnIHRvIGF2b2lkIGdyYWRpZW50IGV4cGxvc2lvbiwgCgkjIG5vdCB0b28gc21hbGwgZm9yIGZhc3QgY29udmVyZ2VuY2UpCgkjIENvbnRyaWJ1dGlvbiBieSBAYmVnZWVrbXlmcmllbmQKCSMgU3BlY3Ryb2dyYW0gUHJlLUVtcGhhc2lzIChMZmlsdGVyOiBSZWR1Y2Ugc3BlY3Ryb2dyYW0gbm9pc2UgYW5kIGhlbHBzIG1vZGVsIGNlcnRpdHVkZSAKCSMgbGV2ZWxzLiBBbHNvIGFsbG93cyBmb3IgYmV0dGVyIEcmTCBwaGFzZSByZWNvbnN0cnVjdGlvbikKCXByZWVtcGhhc2l6ZT1UcnVlLCAgIyB3aGV0aGVyIHRvIGFwcGx5IGZpbHRlcgoJcHJlZW1waGFzaXM9MC45NywgICMgZmlsdGVyIGNvZWZmaWNpZW50LgoJCgkjIExpbWl0cwoJbWluX2xldmVsX2RiPS0xMDAsCglyZWZfbGV2ZWxfZGI9MjAsCglmbWluPTU1LAoJIyBTZXQgdGhpcyB0byA1NSBpZiB5b3VyIHNwZWFrZXIgaXMgbWFsZSEgaWYgZmVtYWxlLCA5NSBzaG91bGQgaGVscCB0YWtpbmcgb2ZmIG5vaXNlLiAoVG8gCgkjIHRlc3QgZGVwZW5kaW5nIG9uIGRhdGFzZXQuIFBpdGNoIGluZm86IG1hbGV+WzY1LCAyNjBdLCBmZW1hbGV+WzEwMCwgNTI1XSkKCWZtYXg9NzYwMCwgICMgVG8gYmUgaW5jcmVhc2VkL3JlZHVjZWQgZGVwZW5kaW5nIG9uIGRhdGEuCgoJIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyBPdXIgdHJhaW5pbmcgcGFyYW1ldGVycyAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKCWltZ19zaXplPTk2LAoJZnBzPTI1LAoJCgliYXRjaF9zaXplPTE2LAoJaW5pdGlhbF9sZWFybmluZ19yYXRlPTFlLTQsCgluZXBvY2hzPTMwMDAwMCwgICMjIyBjdHJsICsgYywgc3RvcCB3aGVuZXZlciBldmFsIGxvc3MgaXMgY29uc2lzdGVudGx5IGdyZWF0ZXIgdGhhbiB0cmFpbiBsb3NzIGZvciB+MTAgZXBvY2hzCgludW1fd29ya2Vycz0yMCwKCWNoZWNrcG9pbnRfaW50ZXJ2YWw9MzAwMCwKCWV2YWxfaW50ZXJ2YWw9MzAwMCwKCXdyaXRlcl9pbnRlcnZhbD0zMDAsCiAgICBzYXZlX29wdGltaXplcl9zdGF0ZT1UcnVlLAoKICAgIHN5bmNuZXRfd3Q9MC4wLCAjIGlzIGluaXRpYWxseSB6ZXJvLCB3aWxsIGJlIHNldCBhdXRvbWF0aWNhbGx5IHRvIDAuMDMgbGF0ZXIuIExlYWRzIHRvIGZhc3RlciBjb252ZXJnZW5jZS4gCglzeW5jbmV0X2JhdGNoX3NpemU9NjQsCglzeW5jbmV0X2xyPTFlLTQsCglzeW5jbmV0X2V2YWxfaW50ZXJ2YWw9MTAwMCwKCXN5bmNuZXRfY2hlY2twb2ludF9pbnRlcnZhbD0xMDAwMCwKCglkaXNjX3d0PTAuMDcsCglkaXNjX2luaXRpYWxfbGVhcm5pbmdfcmF0ZT0xZS00LAopCgoKCiMgRGVmYXVsdCBoeXBlcnBhcmFtZXRlcnMKaHBhcmFtc2RlYnVnID0gSFBhcmFtcygKCW51bV9tZWxzPTgwLCAgIyBOdW1iZXIgb2YgbWVsLXNwZWN0cm9ncmFtIGNoYW5uZWxzIGFuZCBsb2NhbCBjb25kaXRpb25pbmcgZGltZW5zaW9uYWxpdHkKCSMgIG5ldHdvcmsKCXJlc2NhbGU9VHJ1ZSwgICMgV2hldGhlciB0byByZXNjYWxlIGF1ZGlvIHByaW9yIHRvIHByZXByb2Nlc3NpbmcKCXJlc2NhbGluZ19tYXg9MC45LCAgIyBSZXNjYWxpbmcgdmFsdWUKCQoJIyBVc2UgTFdTIChodHRwczovL2dpdGh1Yi5jb20vSm9uYXRoYW4tTGVSb3V4L2x3cykgZm9yIFNURlQgYW5kIHBoYXNlIHJlY29uc3RydWN0aW9uCgkjIEl0InMgcHJlZmVycmVkIHRvIHNldCBUcnVlIHRvIHVzZSB3aXRoIGh0dHBzOi8vZ2l0aHViLmNvbS9yOXk5L3dhdmVuZXRfdm9jb2RlcgoJIyBEb2VzIG5vdCB3b3JrIGlmIG5fZmZpdCBpcyBub3QgbXVsdGlwbGUgb2YgaG9wX3NpemUhIQoJdXNlX2x3cz1GYWxzZSwKCQoJbl9mZnQ9ODAwLCAgIyBFeHRyYSB3aW5kb3cgc2l6ZSBpcyBmaWxsZWQgd2l0aCAwIHBhZGRpbmdzIHRvIG1hdGNoIHRoaXMgcGFyYW1ldGVyCglob3Bfc2l6ZT0yMDAsICAjIEZvciAxNjAwMEh6LCAyMDAgPSAxMi41IG1zICgwLjAxMjUgKiBzYW1wbGVfcmF0ZSkKCXdpbl9zaXplPTgwMCwgICMgRm9yIDE2MDAwSHosIDgwMCA9IDUwIG1zIChJZiBOb25lLCB3aW5fc2l6ZSA9IG5fZmZ0KSAoMC4wNSAqIHNhbXBsZV9yYXRlKQoJc2FtcGxlX3JhdGU9MTYwMDAsICAjIDE2MDAwSHogKGNvcnJlc3BvbmRpbmcgdG8gbGlicmlzcGVlY2gpIChzb3ggLS1pIDxmaWxlbmFtZT4pCgkKCWZyYW1lX3NoaWZ0X21zPU5vbmUsICAjIENhbiByZXBsYWNlIGhvcF9zaXplIHBhcmFtZXRlci4gKFJlY29tbWVuZGVkOiAxMi41KQoJCgkjIE1lbCBhbmQgTGluZWFyIHNwZWN0cm9ncmFtcyBub3JtYWxpemF0aW9uL3NjYWxpbmcgYW5kIGNsaXBwaW5nCglzaWduYWxfbm9ybWFsaXphdGlvbj1UcnVlLAoJIyBXaGV0aGVyIHRvIG5vcm1hbGl6ZSBtZWwgc3BlY3Ryb2dyYW1zIHRvIHNvbWUgcHJlZGVmaW5lZCByYW5nZSAoZm9sbG93aW5nIGJlbG93IHBhcmFtZXRlcnMpCglhbGxvd19jbGlwcGluZ19pbl9ub3JtYWxpemF0aW9uPVRydWUsICAjIE9ubHkgcmVsZXZhbnQgaWYgbWVsX25vcm1hbGl6YXRpb24gPSBUcnVlCglzeW1tZXRyaWNfbWVscz1UcnVlLAoJIyBXaGV0aGVyIHRvIHNjYWxlIHRoZSBkYXRhIHRvIGJlIHN5bW1ldHJpYyBhcm91bmQgMC4gKEFsc28gbXVsdGlwbGllcyB0aGUgb3V0cHV0IHJhbmdlIGJ5IDIsIAoJIyBmYXN0ZXIgYW5kIGNsZWFuZXIgY29udmVyZ2VuY2UpCgltYXhfYWJzX3ZhbHVlPTQuLAoJIyBtYXggYWJzb2x1dGUgdmFsdWUgb2YgZGF0YS4gSWYgc3ltbWV0cmljLCBkYXRhIHdpbGwgYmUgWy1tYXgsIG1heF0gZWxzZSBbMCwgbWF4XSAoTXVzdCBub3QgCgkjIGJlIHRvbyBiaWcgdG8gYXZvaWQgZ3JhZGllbnQgZXhwbG9zaW9uLCAKCSMgbm90IHRvbyBzbWFsbCBmb3IgZmFzdCBjb252ZXJnZW5jZSkKCSMgQ29udHJpYnV0aW9uIGJ5IEBiZWdlZWtteWZyaWVuZAoJIyBTcGVjdHJvZ3JhbSBQcmUtRW1waGFzaXMgKExmaWx0ZXI6IFJlZHVjZSBzcGVjdHJvZ3JhbSBub2lzZSBhbmQgaGVscHMgbW9kZWwgY2VydGl0dWRlIAoJIyBsZXZlbHMuIEFsc28gYWxsb3dzIGZvciBiZXR0ZXIgRyZMIHBoYXNlIHJlY29uc3RydWN0aW9uKQoJcHJlZW1waGFzaXplPVRydWUsICAjIHdoZXRoZXIgdG8gYXBwbHkgZmlsdGVyCglwcmVlbXBoYXNpcz0wLjk3LCAgIyBmaWx0ZXIgY29lZmZpY2llbnQuCgkKCSMgTGltaXRzCgltaW5fbGV2ZWxfZGI9LTEwMCwKCXJlZl9sZXZlbF9kYj0yMCwKCWZtaW49NTUsCgkjIFNldCB0aGlzIHRvIDU1IGlmIHlvdXIgc3BlYWtlciBpcyBtYWxlISBpZiBmZW1hbGUsIDk1IHNob3VsZCBoZWxwIHRha2luZyBvZmYgbm9pc2UuIChUbyAKCSMgdGVzdCBkZXBlbmRpbmcgb24gZGF0YXNldC4gUGl0Y2ggaW5mbzogbWFsZX5bNjUsIDI2MF0sIGZlbWFsZX5bMTAwLCA1MjVdKQoJZm1heD03NjAwLCAgIyBUbyBiZSBpbmNyZWFzZWQvcmVkdWNlZCBkZXBlbmRpbmcgb24gZGF0YS4KCgkjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIE91ciB0cmFpbmluZyBwYXJhbWV0ZXJzICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwoJaW1nX3NpemU9OTYsCglmcHM9MjUsCgkKCWJhdGNoX3NpemU9MiwKCWluaXRpYWxfbGVhcm5pbmdfcmF0ZT0xZS0zLAoJbmVwb2Nocz0xMDAwMDAsICAjIyMgY3RybCArIGMsIHN0b3Agd2hlbmV2ZXIgZXZhbCBsb3NzIGlzIGNvbnNpc3RlbnRseSBncmVhdGVyIHRoYW4gdHJhaW4gbG9zcyBmb3IgfjEwIGVwb2NocwoJbnVtX3dvcmtlcnM9MCwKCWNoZWNrcG9pbnRfaW50ZXJ2YWw9MTAwMDAsCglldmFsX2ludGVydmFsPTEwLAoJd3JpdGVyX2ludGVydmFsPTUsCiAgICBzYXZlX29wdGltaXplcl9zdGF0ZT1UcnVlLAoKICAgIHN5bmNuZXRfd3Q9MC4wLCAjIGlzIGluaXRpYWxseSB6ZXJvLCB3aWxsIGJlIHNldCBhdXRvbWF0aWNhbGx5IHRvIDAuMDMgbGF0ZXIuIExlYWRzIHRvIGZhc3RlciBjb252ZXJnZW5jZS4gCglzeW5jbmV0X2JhdGNoX3NpemU9NjQsCglzeW5jbmV0X2xyPTFlLTQsCglzeW5jbmV0X2V2YWxfaW50ZXJ2YWw9MTAwMDAsCglzeW5jbmV0X2NoZWNrcG9pbnRfaW50ZXJ2YWw9MTAwMDAsCgoJZGlzY193dD0wLjA3LAoJZGlzY19pbml0aWFsX2xlYXJuaW5nX3JhdGU9MWUtNCwKKQoKCmRlZiBocGFyYW1zX2RlYnVnX3N0cmluZygpOgoJdmFsdWVzID0gaHBhcmFtcy52YWx1ZXMoKQoJaHAgPSBbIiAgJXM6ICVzIiAlIChuYW1lLCB2YWx1ZXNbbmFtZV0pIGZvciBuYW1lIGluIHNvcnRlZCh2YWx1ZXMpIGlmIG5hbWUgIT0gInNlbnRlbmNlcyJdCglyZXR1cm4gIkh5cGVycGFyYW1ldGVyczpcbiIgKyAiXG4iLmpvaW4oaHApCg==
+from glob import glob
+import os
+
+class HParams:
+	def __init__(self, **kwargs):
+		self.data = {}
+
+		for key, value in kwargs.items():
+			self.data[key] = value
+
+	def __getattr__(self, key):
+		if key not in self.data:
+			raise AttributeError("'HParams' object has no attribute %s" % key)
+		return self.data[key]
+
+	def set_hparam(self, key, value):
+		self.data[key] = value
+
+
+# Default hyperparameters
+hparams = HParams(
+	num_mels=80,  # Number of mel-spectrogram channels and local conditioning dimensionality
+	#  network
+	rescale=True,  # Whether to rescale audio prior to preprocessing
+	rescaling_max=0.9,  # Rescaling value
+	
+	# Use LWS (https://github.com/Jonathan-LeRoux/lws) for STFT and phase reconstruction
+	# It"s preferred to set True to use with https://github.com/r9y9/wavenet_vocoder
+	# Does not work if n_ffit is not multiple of hop_size!!
+	use_lws=False,
+	
+	n_fft=800,  # Extra window size is filled with 0 paddings to match this parameter
+	hop_size=200,  # For 16000Hz, 200 = 12.5 ms (0.0125 * sample_rate)
+	win_size=800,  # For 16000Hz, 800 = 50 ms (If None, win_size = n_fft) (0.05 * sample_rate)
+	sample_rate=16000,  # 16000Hz (corresponding to librispeech) (sox --i <filename>)
+	
+	frame_shift_ms=None,  # Can replace hop_size parameter. (Recommended: 12.5)
+	
+	# Mel and Linear spectrograms normalization/scaling and clipping
+	signal_normalization=True,
+	# Whether to normalize mel spectrograms to some predefined range (following below parameters)
+	allow_clipping_in_normalization=True,  # Only relevant if mel_normalization = True
+	symmetric_mels=True,
+	# Whether to scale the data to be symmetric around 0. (Also multiplies the output range by 2, 
+	# faster and cleaner convergence)
+	max_abs_value=4.,
+	# max absolute value of data. If symmetric, data will be [-max, max] else [0, max] (Must not 
+	# be too big to avoid gradient explosion, 
+	# not too small for fast convergence)
+	# Contribution by @begeekmyfriend
+	# Spectrogram Pre-Emphasis (Lfilter: Reduce spectrogram noise and helps model certitude 
+	# levels. Also allows for better G&L phase reconstruction)
+	preemphasize=True,  # whether to apply filter
+	preemphasis=0.97,  # filter coefficient.
+	
+	# Limits
+	min_level_db=-100,
+	ref_level_db=20,
+	fmin=55,
+	# Set this to 55 if your speaker is male! if female, 95 should help taking off noise. (To 
+	# test depending on dataset. Pitch info: male~[65, 260], female~[100, 525])
+	fmax=7600,  # To be increased/reduced depending on data.
+
+	###################### Our training parameters #################################
+	img_size=96,
+	fps=25,
+	
+	batch_size=16,
+	initial_learning_rate=1e-4,
+	nepochs=300000,  ### ctrl + c, stop whenever eval loss is consistently greater than train loss for ~10 epochs
+	num_workers=20,
+	checkpoint_interval=3000,
+	eval_interval=3000,
+	writer_interval=300,
+    save_optimizer_state=True,
+
+    syncnet_wt=0.0, # is initially zero, will be set automatically to 0.03 later. Leads to faster convergence. 
+	syncnet_batch_size=64,
+	syncnet_lr=1e-4,
+	syncnet_eval_interval=1000,
+	syncnet_checkpoint_interval=10000,
+
+	disc_wt=0.07,
+	disc_initial_learning_rate=1e-4,
+)
+
+
+
+# Default hyperparameters
+hparamsdebug = HParams(
+	num_mels=80,  # Number of mel-spectrogram channels and local conditioning dimensionality
+	#  network
+	rescale=True,  # Whether to rescale audio prior to preprocessing
+	rescaling_max=0.9,  # Rescaling value
+	
+	# Use LWS (https://github.com/Jonathan-LeRoux/lws) for STFT and phase reconstruction
+	# It"s preferred to set True to use with https://github.com/r9y9/wavenet_vocoder
+	# Does not work if n_ffit is not multiple of hop_size!!
+	use_lws=False,
+	
+	n_fft=800,  # Extra window size is filled with 0 paddings to match this parameter
+	hop_size=200,  # For 16000Hz, 200 = 12.5 ms (0.0125 * sample_rate)
+	win_size=800,  # For 16000Hz, 800 = 50 ms (If None, win_size = n_fft) (0.05 * sample_rate)
+	sample_rate=16000,  # 16000Hz (corresponding to librispeech) (sox --i <filename>)
+	
+	frame_shift_ms=None,  # Can replace hop_size parameter. (Recommended: 12.5)
+	
+	# Mel and Linear spectrograms normalization/scaling and clipping
+	signal_normalization=True,
+	# Whether to normalize mel spectrograms to some predefined range (following below parameters)
+	allow_clipping_in_normalization=True,  # Only relevant if mel_normalization = True
+	symmetric_mels=True,
+	# Whether to scale the data to be symmetric around 0. (Also multiplies the output range by 2, 
+	# faster and cleaner convergence)
+	max_abs_value=4.,
+	# max absolute value of data. If symmetric, data will be [-max, max] else [0, max] (Must not 
+	# be too big to avoid gradient explosion, 
+	# not too small for fast convergence)
+	# Contribution by @begeekmyfriend
+	# Spectrogram Pre-Emphasis (Lfilter: Reduce spectrogram noise and helps model certitude 
+	# levels. Also allows for better G&L phase reconstruction)
+	preemphasize=True,  # whether to apply filter
+	preemphasis=0.97,  # filter coefficient.
+	
+	# Limits
+	min_level_db=-100,
+	ref_level_db=20,
+	fmin=55,
+	# Set this to 55 if your speaker is male! if female, 95 should help taking off noise. (To 
+	# test depending on dataset. Pitch info: male~[65, 260], female~[100, 525])
+	fmax=7600,  # To be increased/reduced depending on data.
+
+	###################### Our training parameters #################################
+	img_size=96,
+	fps=25,
+	
+	batch_size=2,
+	initial_learning_rate=1e-3,
+	nepochs=100000,  ### ctrl + c, stop whenever eval loss is consistently greater than train loss for ~10 epochs
+	num_workers=0,
+	checkpoint_interval=10000,
+	eval_interval=10,
+	writer_interval=5,
+    save_optimizer_state=True,
+
+    syncnet_wt=0.0, # is initially zero, will be set automatically to 0.03 later. Leads to faster convergence. 
+	syncnet_batch_size=64,
+	syncnet_lr=1e-4,
+	syncnet_eval_interval=10000,
+	syncnet_checkpoint_interval=10000,
+
+	disc_wt=0.07,
+	disc_initial_learning_rate=1e-4,
+)
+
+
+def hparams_debug_string():
+	values = hparams.values()
+	hp = ["  %s: %s" % (name, values[name]) for name in sorted(values) if name != "sentences"]
+	return "Hyperparameters:\n" + "\n".join(hp)

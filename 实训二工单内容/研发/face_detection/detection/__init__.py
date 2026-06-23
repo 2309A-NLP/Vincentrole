@@ -1,1 +1,1 @@
-ZnJvbSAuY29yZSBpbXBvcnQgRmFjZURldGVjdG9y
+from .core import FaceDetector

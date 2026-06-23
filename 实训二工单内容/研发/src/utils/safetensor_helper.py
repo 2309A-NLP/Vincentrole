@@ -1,1 +1,8 @@
-CgpkZWYgbG9hZF94X2Zyb21fc2FmZXRlbnNvcihjaGVja3BvaW50LCBrZXkpOgogICAgeF9nZW5lcmF0b3IgPSB7fQogICAgZm9yIGssdiBpbiBjaGVja3BvaW50Lml0ZW1zKCk6CiAgICAgICAgaWYga2V5IGluIGs6CiAgICAgICAgICAgIHhfZ2VuZXJhdG9yW2sucmVwbGFjZShrZXkrJy4nLCAnJyldID0gdgogICAgcmV0dXJuIHhfZ2VuZXJhdG9y
+
+
+def load_x_from_safetensor(checkpoint, key):
+    x_generator = {}
+    for k,v in checkpoint.items():
+        if key in k:
+            x_generator[k.replace(key+'.', '')] = v
+    return x_generator

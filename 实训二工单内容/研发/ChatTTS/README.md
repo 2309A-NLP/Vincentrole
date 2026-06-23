@@ -1,1 +1,132 @@
-IyBDaGF0VFRTClsqKkVuZ2xpc2gqKl0oLi9SRUFETUUubWQpIHwgWyoq5Lit5paH566A5L2TKipdKC4vUkVBRE1FX0NOLm1kKQoKQ2hhdFRUUyBpcyBhIHRleHQtdG8tc3BlZWNoIG1vZGVsIGRlc2lnbmVkIHNwZWNpZmljYWxseSBmb3IgZGlhbG9ndWUgc2NlbmFyaW8gc3VjaCBhcyBMTE0gYXNzaXN0YW50LiBJdCBzdXBwb3J0cyBib3RoIEVuZ2xpc2ggYW5kIENoaW5lc2UgbGFuZ3VhZ2VzLiBPdXIgbW9kZWwgaXMgdHJhaW5lZCB3aXRoIDEwMCwwMDArIGhvdXJzIGNvbXBvc2VkIG9mIGNoaW5lc2UgYW5kIGVuZ2xpc2guIFRoZSBvcGVuLXNvdXJjZSB2ZXJzaW9uIG9uICoqW0h1Z2dpbmdGYWNlXShodHRwczovL2h1Z2dpbmdmYWNlLmNvLzJOb2lzZS9DaGF0VFRTKSoqIGlzIGEgNDAsMDAwIGhvdXJzIHByZSB0cmFpbmVkIG1vZGVsIHdpdGhvdXQgU0ZULgoKRm9yIGZvcm1hbCBpbnF1aXJpZXMgYWJvdXQgbW9kZWwgYW5kIHJvYWRtYXAsIHBsZWFzZSBjb250YWN0IHVzIGF0ICoqb3Blbi1zb3VyY2VAMm5vaXNlLmNvbSoqLiBZb3UgY291bGQgam9pbiBvdXIgUVEgZ3JvdXA6IH5+ODA4MzY0MjE1IChGdWxsKX5+IDIzMDY5NjY5NCAoR3JvdXAgMikgZm9yIGRpc2N1c3Npb24uIEFkZGluZyBnaXRodWIgaXNzdWVzIGlzIGFsd2F5cyB3ZWxjb21lZC4KCi0tLQojIyBIaWdobGlnaHRzCjEuICoqQ29udmVyc2F0aW9uYWwgVFRTKio6IENoYXRUVFMgaXMgb3B0aW1pemVkIGZvciBkaWFsb2d1ZS1iYXNlZCB0YXNrcywgZW5hYmxpbmcgbmF0dXJhbCBhbmQgZXhwcmVzc2l2ZSBzcGVlY2ggc3ludGhlc2lzLiBJdCBzdXBwb3J0cyBtdWx0aXBsZSBzcGVha2VycywgZmFjaWxpdGF0aW5nIGludGVyYWN0aXZlIGNvbnZlcnNhdGlvbnMuCjIuICoqRmluZS1ncmFpbmVkIENvbnRyb2wqKjogVGhlIG1vZGVsIGNvdWxkIHByZWRpY3QgYW5kIGNvbnRyb2wgZmluZS1ncmFpbmVkIHByb3NvZGljIGZlYXR1cmVzLCBpbmNsdWRpbmcgbGF1Z2h0ZXIsIHBhdXNlcywgYW5kIGludGVyamVjdGlvbnMuIAozLiAqKkJldHRlciBQcm9zb2R5Kio6IENoYXRUVFMgc3VycGFzc2VzIG1vc3Qgb2Ygb3Blbi1zb3VyY2UgVFRTIG1vZGVscyBpbiB0ZXJtcyBvZiBwcm9zb2R5LiBXZSBwcm92aWRlIHByZXRyYWluZWQgbW9kZWxzIHRvIHN1cHBvcnQgZnVydGhlciByZXNlYXJjaCBhbmQgZGV2ZWxvcG1lbnQuCgpGb3IgdGhlIGRldGFpbGVkIGRlc2NyaXB0aW9uIG9mIHRoZSBtb2RlbCwgeW91IGNhbiByZWZlciB0byAqKlt2aWRlbyBvbiBCaWxpYmlsaV0oaHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXpuNHkxbzdpVikqKgoKLS0tCgojIyBEaXNjbGFpbWVyCgpUaGlzIHJlcG8gaXMgZm9yIGFjYWRlbWljIHB1cnBvc2VzIG9ubHkuIEl0IGlzIGludGVuZGVkIGZvciBlZHVjYXRpb25hbCBhbmQgcmVzZWFyY2ggdXNlLCBhbmQgc2hvdWxkIG5vdCBiZSB1c2VkIGZvciBhbnkgY29tbWVyY2lhbCBvciBsZWdhbCBwdXJwb3Nlcy4gVGhlIGF1dGhvcnMgZG8gbm90IGd1YXJhbnRlZSB0aGUgYWNjdXJhY3ksIGNvbXBsZXRlbmVzcywgb3IgcmVsaWFiaWxpdHkgb2YgdGhlIGluZm9ybWF0aW9uLiBUaGUgaW5mb3JtYXRpb24gYW5kIGRhdGEgdXNlZCBpbiB0aGlzIHJlcG8sIGFyZSBmb3IgYWNhZGVtaWMgYW5kIHJlc2VhcmNoIHB1cnBvc2VzIG9ubHkuIFRoZSBkYXRhIG9idGFpbmVkIGZyb20gcHVibGljbHkgYXZhaWxhYmxlIHNvdXJjZXMsIGFuZCB0aGUgYXV0aG9ycyBkbyBub3QgY2xhaW0gYW55IG93bmVyc2hpcCBvciBjb3B5cmlnaHQgb3ZlciB0aGUgZGF0YS4KCkNoYXRUVFMgaXMgYSBwb3dlcmZ1bCB0ZXh0LXRvLXNwZWVjaCBzeXN0ZW0uIEhvd2V2ZXIsIGl0IGlzIHZlcnkgaW1wb3J0YW50IHRvIHV0aWxpemUgdGhpcyB0ZWNobm9sb2d5IHJlc3BvbnNpYmx5IGFuZCBldGhpY2FsbHkuIFRvIGxpbWl0IHRoZSB1c2Ugb2YgQ2hhdFRUUywgd2UgYWRkZWQgYSBzbWFsbCBhbW91bnQgb2YgaGlnaC1mcmVxdWVuY3kgbm9pc2UgZHVyaW5nIHRoZSB0cmFpbmluZyBvZiB0aGUgNDAsMDAwLWhvdXIgbW9kZWwsIGFuZCBjb21wcmVzc2VkIHRoZSBhdWRpbyBxdWFsaXR5IGFzIG11Y2ggYXMgcG9zc2libGUgdXNpbmcgTVAzIGZvcm1hdCwgdG8gcHJldmVudCBtYWxpY2lvdXMgYWN0b3JzIGZyb20gcG90ZW50aWFsbHkgdXNpbmcgaXQgZm9yIGNyaW1pbmFsIHB1cnBvc2VzLiBBdCB0aGUgc2FtZSB0aW1lLCB3ZSBoYXZlIGludGVybmFsbHkgdHJhaW5lZCBhIGRldGVjdGlvbiBtb2RlbCBhbmQgcGxhbiB0byBvcGVuLXNvdXJjZSBpdCBpbiB0aGUgZnV0dXJlLgoKCi0tLQojIyBVc2FnZQoKPGg0PkJhc2ljIHVzYWdlPC9oND4KCmBgYHB5dGhvbgppbXBvcnQgQ2hhdFRUUwpmcm9tIElQeXRob24uZGlzcGxheSBpbXBvcnQgQXVkaW8KCmNoYXQgPSBDaGF0VFRTLkNoYXQoKQpjaGF0LmxvYWRfbW9kZWxzKGNvbXBpbGU9RmFsc2UpICMgU2V0IHRvIFRydWUgZm9yIGJldHRlciBwZXJmb3JtYW5jZQoKdGV4dHMgPSBbIlBVVCBZT1VSIFRFWFQgSEVSRSIsXQoKd2F2cyA9IGNoYXQuaW5mZXIodGV4dHMsICkKCnRvcmNoYXVkaW8uc2F2ZSgib3V0cHV0MS53YXYiLCB0b3JjaC5mcm9tX251bXB5KHdhdnNbMF0pLCAyNDAwMCkKYGBgCgo8aDQ+QWR2YW5jZWQgdXNhZ2U8L2g0PgoKYGBgcHl0aG9uCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjCiMgU2FtcGxlIGEgc3BlYWtlciBmcm9tIEdhdXNzaWFuLgoKcmFuZF9zcGsgPSBjaGF0LnNhbXBsZV9yYW5kb21fc3BlYWtlcigpCgpwYXJhbXNfaW5mZXJfY29kZSA9IHsKICAnc3BrX2VtYic6IHJhbmRfc3BrLCAjIGFkZCBzYW1wbGVkIHNwZWFrZXIgCiAgJ3RlbXBlcmF0dXJlJzogLjMsICMgdXNpbmcgY3VzdG9tIHRlbXBlcmF0dXJlCiAgJ3RvcF9QJzogMC43LCAjIHRvcCBQIGRlY29kZQogICd0b3BfSyc6IDIwLCAjIHRvcCBLIGRlY29kZQp9CgojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIEZvciBzZW50ZW5jZSBsZXZlbCBtYW51YWwgY29udHJvbC4KCiMgdXNlIG9yYWxfKDAtOSksIGxhdWdoXygwLTIpLCBicmVha18oMC03KSAKIyB0byBnZW5lcmF0ZSBzcGVjaWFsIHRva2VuIGluIHRleHQgdG8gc3ludGhlc2l6ZS4KcGFyYW1zX3JlZmluZV90ZXh0ID0gewogICdwcm9tcHQnOiAnW29yYWxfMl1bbGF1Z2hfMF1bYnJlYWtfNl0nCn0gCgp3YXYgPSBjaGF0LmluZmVyKHRleHRzLCBwYXJhbXNfcmVmaW5lX3RleHQ9cGFyYW1zX3JlZmluZV90ZXh0LCBwYXJhbXNfaW5mZXJfY29kZT1wYXJhbXNfaW5mZXJfY29kZSkKCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjCiMgRm9yIHdvcmQgbGV2ZWwgbWFudWFsIGNvbnRyb2wuCnRleHQgPSAnV2hhdCBpcyBbdXZfYnJlYWtdeW91ciBmYXZvcml0ZSBlbmdsaXNoIGZvb2Q/W2xhdWdoXVtsYnJlYWtdJwp3YXYgPSBjaGF0LmluZmVyKHRleHQsIHNraXBfcmVmaW5lX3RleHQ9VHJ1ZSwgcGFyYW1zX3JlZmluZV90ZXh0PXBhcmFtc19yZWZpbmVfdGV4dCwgIHBhcmFtc19pbmZlcl9jb2RlPXBhcmFtc19pbmZlcl9jb2RlKQp0b3JjaGF1ZGlvLnNhdmUoIm91dHB1dDIud2F2IiwgdG9yY2guZnJvbV9udW1weSh3YXZzWzBdKSwgMjQwMDApCmBgYAoKPGRldGFpbHMgb3Blbj4KICA8c3VtbWFyeT48aDQ+RXhhbXBsZTogc2VsZiBpbnRyb2R1Y3Rpb248L2g0Pjwvc3VtbWFyeT4KCmBgYHB5dGhvbgppbnB1dHNfZW4gPSAiIiIKY2hhdCBUIFQgUyBpcyBhIHRleHQgdG8gc3BlZWNoIG1vZGVsIGRlc2lnbmVkIGZvciBkaWFsb2d1ZSBhcHBsaWNhdGlvbnMuIApbdXZfYnJlYWtdaXQgc3VwcG9ydHMgbWl4ZWQgbGFuZ3VhZ2UgaW5wdXQgW3V2X2JyZWFrXWFuZCBvZmZlcnMgbXVsdGkgc3BlYWtlciAKY2FwYWJpbGl0aWVzIHdpdGggcHJlY2lzZSBjb250cm9sIG92ZXIgcHJvc29kaWMgZWxlbWVudHMgW2xhdWdoXWxpa2UgbGlrZSAKW3V2X2JyZWFrXWxhdWdodGVyW2xhdWdoXSwgW3V2X2JyZWFrXXBhdXNlcywgW3V2X2JyZWFrXWFuZCBpbnRvbmF0aW9uLiAKW3V2X2JyZWFrXWl0IGRlbGl2ZXJzIG5hdHVyYWwgYW5kIGV4cHJlc3NpdmUgc3BlZWNoLFt1dl9icmVha11zbyBwbGVhc2UKW3V2X2JyZWFrXSB1c2UgdGhlIHByb2plY3QgcmVzcG9uc2libHkgYXQgeW91ciBvd24gcmlzay5bdXZfYnJlYWtdCiIiIi5yZXBsYWNlKCdcbicsICcnKSAjIEVuZ2xpc2ggaXMgc3RpbGwgZXhwZXJpbWVudGFsLgoKcGFyYW1zX3JlZmluZV90ZXh0ID0gewogICdwcm9tcHQnOiAnW29yYWxfMl1bbGF1Z2hfMF1bYnJlYWtfNF0nCn0gCiMgYXVkaW9fYXJyYXlfY24gPSBjaGF0LmluZmVyKGlucHV0c19jbiwgcGFyYW1zX3JlZmluZV90ZXh0PXBhcmFtc19yZWZpbmVfdGV4dCkKYXVkaW9fYXJyYXlfZW4gPSBjaGF0LmluZmVyKGlucHV0c19lbiwgcGFyYW1zX3JlZmluZV90ZXh0PXBhcmFtc19yZWZpbmVfdGV4dCkKdG9yY2hhdWRpby5zYXZlKCJvdXRwdXQzLndhdiIsIHRvcmNoLmZyb21fbnVtcHkoYXVkaW9fYXJyYXlfZW5bMF0pLCAyNDAwMCkKYGBgClttYWxlIHNwZWFrZXJdKGh0dHBzOi8vZ2l0aHViLmNvbS8ybm9pc2UvQ2hhdFRUUy9hc3NldHMvMTMwNjMxOTYzL2UwZjUxMjUxLWRiN2YtNGQzOS1hMGU5LTNlMDk1YmI2NWRlMSkKCltmZW1hbGUgc3BlYWtlcl0oaHR0cHM6Ly9naXRodWIuY29tLzJub2lzZS9DaGF0VFRTL2Fzc2V0cy8xMzA2MzE5NjMvZjVkY2RkMDEtMTA5MS00N2M1LTgyNDEtYzRmNmFhYWE4YmJkKQo8L2RldGFpbHM+CgotLS0KIyMgUm9hZG1hcAotIFt4XSBPcGVuLXNvdXJjZSB0aGUgNDBrIGhvdXIgYmFzZSBtb2RlbCBhbmQgc3BrX3N0YXRzIGZpbGUKLSBbIF0gT3Blbi1zb3VyY2UgVlEgZW5jb2RlciBhbmQgTG9yYSB0cmFpbmluZyBjb2RlCi0gWyBdIFN0cmVhbWluZyBhdWRpbyBnZW5lcmF0aW9uIHdpdGhvdXQgcmVmaW5pbmcgdGhlIHRleHQqCi0gWyBdIE9wZW4tc291cmNlIHRoZSA0MGsgaG91ciB2ZXJzaW9uIHdpdGggbXVsdGktZW1vdGlvbiBjb250cm9sCi0gWyBdIENoYXRUVFMuY3BwIG1heWJlPyAoUFIgb3IgbmV3IHJlcG8gYXJlIHdlbGNvbWVkLikKIAotLS0tCiMjIEZBUQoKIyMjIyMgSG93IG11Y2ggVlJBTSBkbyBJIG5lZWQ/IEhvdyBhYm91dCBpbmZlciBzcGVlZD8KRm9yIGEgMzAtc2Vjb25kIGF1ZGlvIGNsaXAsIGF0IGxlYXN0IDRHQiBvZiBHUFUgbWVtb3J5IGlzIHJlcXVpcmVkLiBGb3IgdGhlIDQwOTAgR1BVLCBpdCBjYW4gZ2VuZXJhdGUgYXVkaW8gY29ycmVzcG9uZGluZyB0byBhcHByb3hpbWF0ZWx5IDcgc2VtYW50aWMgdG9rZW5zIHBlciBzZWNvbmQuIFRoZSBSZWFsLVRpbWUgRmFjdG9yIChSVEYpIGlzIGFyb3VuZCAwLjMuCgojIyMjIyBtb2RlbCBzdGFiaWxpdHkgaXMgbm90IGdvb2QgZW5vdWdoLCB3aXRoIGlzc3VlcyBzdWNoIGFzIG11bHRpIHNwZWFrZXJzIG9yIHBvb3IgYXVkaW8gcXVhbGl0eS4KClRoaXMgaXMgYSBwcm9ibGVtIHRoYXQgdHlwaWNhbGx5IG9jY3VycyB3aXRoIGF1dG9yZWdyZXNzaXZlIG1vZGVscyhmb3IgYmFyayBhbmQgdmFsbGUpLiBJdCdzIGdlbmVyYWxseSBkaWZmaWN1bHQgdG8gYXZvaWQuIE9uZSBjYW4gdHJ5IG11bHRpcGxlIHNhbXBsZXMgdG8gZmluZCBhIHN1aXRhYmxlIHJlc3VsdC4KCiMjIyMjIEJlc2lkZXMgbGF1Z2h0ZXIsIGNhbiB3ZSBjb250cm9sIGFueXRoaW5nIGVsc2U/IENhbiB3ZSBjb250cm9sIG90aGVyIGVtb3Rpb25zPwoKSW4gdGhlIGN1cnJlbnQgcmVsZWFzZWQgbW9kZWwsIHRoZSBvbmx5IHRva2VuLWxldmVsIGNvbnRyb2wgdW5pdHMgYXJlIFtsYXVnaF0sIFt1dl9icmVha10sIGFuZCBbbGJyZWFrXS4gSW4gZnV0dXJlIHZlcnNpb25zLCB3ZSBtYXkgb3Blbi1zb3VyY2UgbW9kZWxzIHdpdGggYWRkaXRpb25hbCBlbW90aW9uYWwgY29udHJvbCBjYXBhYmlsaXRpZXMuCgotLS0KIyMgQWNrbm93bGVkZ2VtZW50cwotIFtiYXJrXShodHRwczovL2dpdGh1Yi5jb20vc3Vuby1haS9iYXJrKSwgW1hUVFN2Ml0oaHR0cHM6Ly9naXRodWIuY29tL2NvcXVpLWFpL1RUUykgYW5kIFt2YWxsZV0oaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDEuMDIxMTEpIGRlbW9zdHJhdGUgYSByZW1hcmthYmxlIFRUUyByZXN1bHQgYnkgYSBhdXRvcmVncmVzc2l2ZS1zdHlsZSBzeXN0ZW0uCi0gW2Zpc2gtc3BlZWNoXShodHRwczovL2dpdGh1Yi5jb20vZmlzaGF1ZGlvL2Zpc2gtc3BlZWNoKSByZXZlYWxzIGNhcGFiaWxpdHkgb2YgR1ZRIGFzIGF1ZGlvIHRva2VuaXplciBmb3IgTExNIG1vZGVsaW5nLgotIFt2b2Nvc10oaHR0cHM6Ly9naXRodWIuY29tL2dlbWVsby1haS92b2Nvcykgd2hpY2ggaXMgdXNlZCBhcyBhIHByZXRyYWluZWQgdm9jb2Rlci4KCi0tLQojIyBTcGVjaWFsIEFwcHJlY2lhdGlvbgotIFt3bHUtYXVkaW8gbGFiXShodHRwczovL2F1ZGlvLndlc3RsYWtlLmVkdS5jbi8pIGZvciBlYXJseSBhbGdvcml0aG0gZXhwZXJpbWVudHMuCg==
+# ChatTTS
+[**English**](./README.md) | [**中文简体**](./README_CN.md)
+
+ChatTTS is a text-to-speech model designed specifically for dialogue scenario such as LLM assistant. It supports both English and Chinese languages. Our model is trained with 100,000+ hours composed of chinese and english. The open-source version on **[HuggingFace](https://huggingface.co/2Noise/ChatTTS)** is a 40,000 hours pre trained model without SFT.
+
+For formal inquiries about model and roadmap, please contact us at **open-source@2noise.com**. You could join our QQ group: ~~808364215 (Full)~~ 230696694 (Group 2) for discussion. Adding github issues is always welcomed.
+
+---
+## Highlights
+1. **Conversational TTS**: ChatTTS is optimized for dialogue-based tasks, enabling natural and expressive speech synthesis. It supports multiple speakers, facilitating interactive conversations.
+2. **Fine-grained Control**: The model could predict and control fine-grained prosodic features, including laughter, pauses, and interjections. 
+3. **Better Prosody**: ChatTTS surpasses most of open-source TTS models in terms of prosody. We provide pretrained models to support further research and development.
+
+For the detailed description of the model, you can refer to **[video on Bilibili](https://www.bilibili.com/video/BV1zn4y1o7iV)**
+
+---
+
+## Disclaimer
+
+This repo is for academic purposes only. It is intended for educational and research use, and should not be used for any commercial or legal purposes. The authors do not guarantee the accuracy, completeness, or reliability of the information. The information and data used in this repo, are for academic and research purposes only. The data obtained from publicly available sources, and the authors do not claim any ownership or copyright over the data.
+
+ChatTTS is a powerful text-to-speech system. However, it is very important to utilize this technology responsibly and ethically. To limit the use of ChatTTS, we added a small amount of high-frequency noise during the training of the 40,000-hour model, and compressed the audio quality as much as possible using MP3 format, to prevent malicious actors from potentially using it for criminal purposes. At the same time, we have internally trained a detection model and plan to open-source it in the future.
+
+
+---
+## Usage
+
+<h4>Basic usage</h4>
+
+```python
+import ChatTTS
+from IPython.display import Audio
+
+chat = ChatTTS.Chat()
+chat.load_models(compile=False) # Set to True for better performance
+
+texts = ["PUT YOUR TEXT HERE",]
+
+wavs = chat.infer(texts, )
+
+torchaudio.save("output1.wav", torch.from_numpy(wavs[0]), 24000)
+```
+
+<h4>Advanced usage</h4>
+
+```python
+###################################
+# Sample a speaker from Gaussian.
+
+rand_spk = chat.sample_random_speaker()
+
+params_infer_code = {
+  'spk_emb': rand_spk, # add sampled speaker 
+  'temperature': .3, # using custom temperature
+  'top_P': 0.7, # top P decode
+  'top_K': 20, # top K decode
+}
+
+###################################
+# For sentence level manual control.
+
+# use oral_(0-9), laugh_(0-2), break_(0-7) 
+# to generate special token in text to synthesize.
+params_refine_text = {
+  'prompt': '[oral_2][laugh_0][break_6]'
+} 
+
+wav = chat.infer(texts, params_refine_text=params_refine_text, params_infer_code=params_infer_code)
+
+###################################
+# For word level manual control.
+text = 'What is [uv_break]your favorite english food?[laugh][lbreak]'
+wav = chat.infer(text, skip_refine_text=True, params_refine_text=params_refine_text,  params_infer_code=params_infer_code)
+torchaudio.save("output2.wav", torch.from_numpy(wavs[0]), 24000)
+```
+
+<details open>
+  <summary><h4>Example: self introduction</h4></summary>
+
+```python
+inputs_en = """
+chat T T S is a text to speech model designed for dialogue applications. 
+[uv_break]it supports mixed language input [uv_break]and offers multi speaker 
+capabilities with precise control over prosodic elements [laugh]like like 
+[uv_break]laughter[laugh], [uv_break]pauses, [uv_break]and intonation. 
+[uv_break]it delivers natural and expressive speech,[uv_break]so please
+[uv_break] use the project responsibly at your own risk.[uv_break]
+""".replace('\n', '') # English is still experimental.
+
+params_refine_text = {
+  'prompt': '[oral_2][laugh_0][break_4]'
+} 
+# audio_array_cn = chat.infer(inputs_cn, params_refine_text=params_refine_text)
+audio_array_en = chat.infer(inputs_en, params_refine_text=params_refine_text)
+torchaudio.save("output3.wav", torch.from_numpy(audio_array_en[0]), 24000)
+```
+[male speaker](https://github.com/2noise/ChatTTS/assets/130631963/e0f51251-db7f-4d39-a0e9-3e095bb65de1)
+
+[female speaker](https://github.com/2noise/ChatTTS/assets/130631963/f5dcdd01-1091-47c5-8241-c4f6aaaa8bbd)
+</details>
+
+---
+## Roadmap
+- [x] Open-source the 40k hour base model and spk_stats file
+- [ ] Open-source VQ encoder and Lora training code
+- [ ] Streaming audio generation without refining the text*
+- [ ] Open-source the 40k hour version with multi-emotion control
+- [ ] ChatTTS.cpp maybe? (PR or new repo are welcomed.)
+ 
+----
+## FAQ
+
+##### How much VRAM do I need? How about infer speed?
+For a 30-second audio clip, at least 4GB of GPU memory is required. For the 4090 GPU, it can generate audio corresponding to approximately 7 semantic tokens per second. The Real-Time Factor (RTF) is around 0.3.
+
+##### model stability is not good enough, with issues such as multi speakers or poor audio quality.
+
+This is a problem that typically occurs with autoregressive models(for bark and valle). It's generally difficult to avoid. One can try multiple samples to find a suitable result.
+
+##### Besides laughter, can we control anything else? Can we control other emotions?
+
+In the current released model, the only token-level control units are [laugh], [uv_break], and [lbreak]. In future versions, we may open-source models with additional emotional control capabilities.
+
+---
+## Acknowledgements
+- [bark](https://github.com/suno-ai/bark), [XTTSv2](https://github.com/coqui-ai/TTS) and [valle](https://arxiv.org/abs/2301.02111) demostrate a remarkable TTS result by a autoregressive-style system.
+- [fish-speech](https://github.com/fishaudio/fish-speech) reveals capability of GVQ as audio tokenizer for LLM modeling.
+- [vocos](https://github.com/gemelo-ai/vocos) which is used as a pretrained vocoder.
+
+---
+## Special Appreciation
+- [wlu-audio lab](https://audio.westlake.edu.cn/) for early algorithm experiments.

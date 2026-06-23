@@ -1,1 +1,106 @@
-aW1wb3J0IG9zCmltcG9ydCBjdjIKaW1wb3J0IG51bXB5IGFzIG5wCmZyb20gc2NpcHkuaW8gaW1wb3J0IGxvYWRtYXQKaW1wb3J0IHRlbnNvcmZsb3cgYXMgdGYKZnJvbSB1dGlsLnByZXByb2Nlc3MgaW1wb3J0IGFsaWduX2Zvcl9sbQpmcm9tIHNodXRpbCBpbXBvcnQgbW92ZQoKbWVhbl9mYWNlID0gbnAubG9hZHR4dCgndXRpbC90ZXN0X21lYW5fZmFjZS50eHQnKQptZWFuX2ZhY2UgPSBtZWFuX2ZhY2UucmVzaGFwZShbNjgsIDJdKQoKZGVmIHNhdmVfbGFiZWwobGFiZWxzLCBzYXZlX3BhdGgpOgogICAgbnAuc2F2ZXR4dChzYXZlX3BhdGgsIGxhYmVscykKCmRlZiBkcmF3X2xhbmRtYXJrcyhpbWcsIGxhbmRtYXJrLCBzYXZlX25hbWUpOgogICAgbGFuZG1hcmsgPSBsYW5kbWFyawogICAgbG1faW1nID0gbnAuemVyb3MoW2ltZy5zaGFwZVswXSwgaW1nLnNoYXBlWzFdLCAzXSkKICAgIGxtX2ltZ1s6XSA9IGltZy5hc3R5cGUobnAuZmxvYXQzMikKICAgIGxhbmRtYXJrID0gbnAucm91bmQobGFuZG1hcmspLmFzdHlwZShucC5pbnQzMikKCiAgICBmb3IgaSBpbiByYW5nZShsZW4obGFuZG1hcmspKToKICAgICAgICBmb3IgaiBpbiByYW5nZSgtMSwgMSk6CiAgICAgICAgICAgIGZvciBrIGluIHJhbmdlKC0xLCAxKToKICAgICAgICAgICAgICAgIGlmIGltZy5zaGFwZVswXSAtIDEgLSBsYW5kbWFya1tpLCAxXStqID4gMCBhbmQgXAogICAgICAgICAgICAgICAgICAgICAgICBpbWcuc2hhcGVbMF0gLSAxIC0gbGFuZG1hcmtbaSwgMV0raiA8IGltZy5zaGFwZVswXSBhbmQgXAogICAgICAgICAgICAgICAgICAgICAgICBsYW5kbWFya1tpLCAwXStrID4gMCBhbmQgXAogICAgICAgICAgICAgICAgICAgICAgICBsYW5kbWFya1tpLCAwXStrIDwgaW1nLnNoYXBlWzFdOgogICAgICAgICAgICAgICAgICAgIGxtX2ltZ1tpbWcuc2hhcGVbMF0gLSAxIC0gbGFuZG1hcmtbaSwgMV0raiwgbGFuZG1hcmtbaSwgMF0raywKICAgICAgICAgICAgICAgICAgICAgICAgICAgOl0gPSBucC5hcnJheShbMCwgMCwgMjU1XSkKICAgIGxtX2ltZyA9IGxtX2ltZy5hc3R5cGUobnAudWludDgpCgogICAgY3YyLmltd3JpdGUoc2F2ZV9uYW1lLCBsbV9pbWcpCgoKZGVmIGxvYWRfZGF0YShpbWdfbmFtZSwgdHh0X25hbWUpOgogICAgcmV0dXJuIGN2Mi5pbXJlYWQoaW1nX25hbWUpLCBucC5sb2FkdHh0KHR4dF9uYW1lKQoKIyBjcmVhdGUgdGVuc29yZmxvdyBncmFwaCBmb3IgbGFuZG1hcmsgZGV0ZWN0b3IKZGVmIGxvYWRfbG1fZ3JhcGgoZ3JhcGhfZmlsZW5hbWUpOgogICAgd2l0aCB0Zi5nZmlsZS5HRmlsZShncmFwaF9maWxlbmFtZSwgJ3JiJykgYXMgZjoKICAgICAgICBncmFwaF9kZWYgPSB0Zi5HcmFwaERlZigpCiAgICAgICAgZ3JhcGhfZGVmLlBhcnNlRnJvbVN0cmluZyhmLnJlYWQoKSkKCiAgICB3aXRoIHRmLkdyYXBoKCkuYXNfZGVmYXVsdCgpIGFzIGdyYXBoOgogICAgICAgIHRmLmltcG9ydF9ncmFwaF9kZWYoZ3JhcGhfZGVmLCBuYW1lPSduZXQnKQogICAgICAgIGltZ18yMjQgPSBncmFwaC5nZXRfdGVuc29yX2J5X25hbWUoJ25ldC9pbnB1dF9pbWdzOjAnKQogICAgICAgIG91dHB1dF9sbSA9IGdyYXBoLmdldF90ZW5zb3JfYnlfbmFtZSgnbmV0L2xtOjAnKQogICAgICAgIGxtX3Nlc3MgPSB0Zi5TZXNzaW9uKGdyYXBoPWdyYXBoKQoKICAgIHJldHVybiBsbV9zZXNzLGltZ18yMjQsb3V0cHV0X2xtCgojIGxhbmRtYXJrIGRldGVjdGlvbgpkZWYgZGV0ZWN0XzY4cChpbWdfcGF0aCxzZXNzLGlucHV0X29wLG91dHB1dF9vcCk6CiAgICBwcmludCgnZGV0ZWN0aW5nIGxhbmRtYXJrcy4uLi4uLicpCiAgICBuYW1lcyA9IFtpIGZvciBpIGluIHNvcnRlZChvcy5saXN0ZGlyKAogICAgICAgIGltZ19wYXRoKSkgaWYgJ2pwZycgaW4gaSBvciAncG5nJyBpbiBpIG9yICdqcGVnJyBpbiBpIG9yICdQTkcnIGluIGldCiAgICB2aXNfcGF0aCA9IG9zLnBhdGguam9pbihpbWdfcGF0aCwgJ3ZpcycpCiAgICByZW1vdmVfcGF0aCA9IG9zLnBhdGguam9pbihpbWdfcGF0aCwgJ3JlbW92ZScpCiAgICBzYXZlX3BhdGggPSBvcy5wYXRoLmpvaW4oaW1nX3BhdGgsICdsYW5kbWFya3MnKQogICAgaWYgbm90IG9zLnBhdGguaXNkaXIodmlzX3BhdGgpOgogICAgICAgIG9zLm1ha2VkaXJzKHZpc19wYXRoKQogICAgaWYgbm90IG9zLnBhdGguaXNkaXIocmVtb3ZlX3BhdGgpOgogICAgICAgIG9zLm1ha2VkaXJzKHJlbW92ZV9wYXRoKQogICAgaWYgbm90IG9zLnBhdGguaXNkaXIoc2F2ZV9wYXRoKToKICAgICAgICBvcy5tYWtlZGlycyhzYXZlX3BhdGgpCgogICAgZm9yIGkgaW4gcmFuZ2UoMCwgbGVuKG5hbWVzKSk6CiAgICAgICAgbmFtZSA9IG5hbWVzW2ldCiAgICAgICAgcHJpbnQoJyUwNWQnICUgKGkpLCAnICcsIG5hbWUpCiAgICAgICAgZnVsbF9pbWFnZV9uYW1lID0gb3MucGF0aC5qb2luKGltZ19wYXRoLCBuYW1lKQogICAgICAgIHR4dF9uYW1lID0gJy4nLmpvaW4obmFtZS5zcGxpdCgnLicpWzotMV0pICsgJy50eHQnCiAgICAgICAgZnVsbF90eHRfbmFtZSA9IG9zLnBhdGguam9pbihpbWdfcGF0aCwgJ2RldGVjdGlvbnMnLCB0eHRfbmFtZSkgIyA1IGZhY2lhbCBsYW5kbWFyayBwYXRoIGZvciBlYWNoIGltYWdlCgogICAgICAgICMgaWYgYW4gaW1hZ2UgZG9lcyBub3QgaGF2ZSBkZXRlY3RlZCA1IGZhY2lhbCBsYW5kbWFya3MsIHJlbW92ZSBpdCBmcm9tIHRoZSB0cmFpbmluZyBsaXN0CiAgICAgICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKGZ1bGxfdHh0X25hbWUpOgogICAgICAgICAgICBtb3ZlKGZ1bGxfaW1hZ2VfbmFtZSwgb3MucGF0aC5qb2luKHJlbW92ZV9wYXRoLCBuYW1lKSkKICAgICAgICAgICAgY29udGludWUgCgogICAgICAgICMgbG9hZCBkYXRhCiAgICAgICAgaW1nLCBmaXZlX3BvaW50cyA9IGxvYWRfZGF0YShmdWxsX2ltYWdlX25hbWUsIGZ1bGxfdHh0X25hbWUpCiAgICAgICAgaW5wdXRfaW1nLCBzY2FsZSwgYmJveCA9IGFsaWduX2Zvcl9sbShpbWcsIGZpdmVfcG9pbnRzKSAjIGFsaWduIGZvciA2OCBsYW5kbWFyayBkZXRlY3Rpb24gCgogICAgICAgICMgaWYgdGhlIGFsaWdubWVudCBmYWlscywgcmVtb3ZlIGNvcnJlc3BvbmRpbmcgaW1hZ2UgZnJvbSB0aGUgdHJhaW5pbmcgbGlzdAogICAgICAgIGlmIHNjYWxlID09IDA6CiAgICAgICAgICAgIG1vdmUoZnVsbF90eHRfbmFtZSwgb3MucGF0aC5qb2luKAogICAgICAgICAgICAgICAgcmVtb3ZlX3BhdGgsIHR4dF9uYW1lKSkKICAgICAgICAgICAgbW92ZShmdWxsX2ltYWdlX25hbWUsIG9zLnBhdGguam9pbihyZW1vdmVfcGF0aCwgbmFtZSkpCiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICMgZGV0ZWN0IGxhbmRtYXJrcwogICAgICAgIGlucHV0X2ltZyA9IG5wLnJlc2hhcGUoCiAgICAgICAgICAgIGlucHV0X2ltZywgWzEsIDIyNCwgMjI0LCAzXSkuYXN0eXBlKG5wLmZsb2F0MzIpCiAgICAgICAgbGFuZG1hcmsgPSBzZXNzLnJ1bigKICAgICAgICAgICAgb3V0cHV0X29wLCBmZWVkX2RpY3Q9e2lucHV0X29wOiBpbnB1dF9pbWd9KQoKICAgICAgICAjIHRyYW5zZm9ybSBiYWNrIHRvIG9yaWdpbmFsIGltYWdlIGNvb3JkaW5hdGUKICAgICAgICBsYW5kbWFyayA9IGxhbmRtYXJrLnJlc2hhcGUoWzY4LCAyXSkgKyBtZWFuX2ZhY2UKICAgICAgICBsYW5kbWFya1s6LCAxXSA9IDIyMyAtIGxhbmRtYXJrWzosIDFdCiAgICAgICAgbGFuZG1hcmsgPSBsYW5kbWFyayAvIHNjYWxlCiAgICAgICAgbGFuZG1hcmtbOiwgMF0gPSBsYW5kbWFya1s6LCAwXSArIGJib3hbMF0KICAgICAgICBsYW5kbWFya1s6LCAxXSA9IGxhbmRtYXJrWzosIDFdICsgYmJveFsxXQogICAgICAgIGxhbmRtYXJrWzosIDFdID0gaW1nLnNoYXBlWzBdIC0gMSAtIGxhbmRtYXJrWzosIDFdCgogICAgICAgIGlmIGkgJSAxMDAgPT0gMDoKICAgICAgICAgICAgZHJhd19sYW5kbWFya3MoaW1nLCBsYW5kbWFyaywgb3MucGF0aC5qb2luKHZpc19wYXRoLCBuYW1lKSkKICAgICAgICBzYXZlX2xhYmVsKGxhbmRtYXJrLCBvcy5wYXRoLmpvaW4oc2F2ZV9wYXRoLCB0eHRfbmFtZSkpCg==
+import os
+import cv2
+import numpy as np
+from scipy.io import loadmat
+import tensorflow as tf
+from util.preprocess import align_for_lm
+from shutil import move
+
+mean_face = np.loadtxt('util/test_mean_face.txt')
+mean_face = mean_face.reshape([68, 2])
+
+def save_label(labels, save_path):
+    np.savetxt(save_path, labels)
+
+def draw_landmarks(img, landmark, save_name):
+    landmark = landmark
+    lm_img = np.zeros([img.shape[0], img.shape[1], 3])
+    lm_img[:] = img.astype(np.float32)
+    landmark = np.round(landmark).astype(np.int32)
+
+    for i in range(len(landmark)):
+        for j in range(-1, 1):
+            for k in range(-1, 1):
+                if img.shape[0] - 1 - landmark[i, 1]+j > 0 and \
+                        img.shape[0] - 1 - landmark[i, 1]+j < img.shape[0] and \
+                        landmark[i, 0]+k > 0 and \
+                        landmark[i, 0]+k < img.shape[1]:
+                    lm_img[img.shape[0] - 1 - landmark[i, 1]+j, landmark[i, 0]+k,
+                           :] = np.array([0, 0, 255])
+    lm_img = lm_img.astype(np.uint8)
+
+    cv2.imwrite(save_name, lm_img)
+
+
+def load_data(img_name, txt_name):
+    return cv2.imread(img_name), np.loadtxt(txt_name)
+
+# create tensorflow graph for landmark detector
+def load_lm_graph(graph_filename):
+    with tf.gfile.GFile(graph_filename, 'rb') as f:
+        graph_def = tf.GraphDef()
+        graph_def.ParseFromString(f.read())
+
+    with tf.Graph().as_default() as graph:
+        tf.import_graph_def(graph_def, name='net')
+        img_224 = graph.get_tensor_by_name('net/input_imgs:0')
+        output_lm = graph.get_tensor_by_name('net/lm:0')
+        lm_sess = tf.Session(graph=graph)
+
+    return lm_sess,img_224,output_lm
+
+# landmark detection
+def detect_68p(img_path,sess,input_op,output_op):
+    print('detecting landmarks......')
+    names = [i for i in sorted(os.listdir(
+        img_path)) if 'jpg' in i or 'png' in i or 'jpeg' in i or 'PNG' in i]
+    vis_path = os.path.join(img_path, 'vis')
+    remove_path = os.path.join(img_path, 'remove')
+    save_path = os.path.join(img_path, 'landmarks')
+    if not os.path.isdir(vis_path):
+        os.makedirs(vis_path)
+    if not os.path.isdir(remove_path):
+        os.makedirs(remove_path)
+    if not os.path.isdir(save_path):
+        os.makedirs(save_path)
+
+    for i in range(0, len(names)):
+        name = names[i]
+        print('%05d' % (i), ' ', name)
+        full_image_name = os.path.join(img_path, name)
+        txt_name = '.'.join(name.split('.')[:-1]) + '.txt'
+        full_txt_name = os.path.join(img_path, 'detections', txt_name) # 5 facial landmark path for each image
+
+        # if an image does not have detected 5 facial landmarks, remove it from the training list
+        if not os.path.isfile(full_txt_name):
+            move(full_image_name, os.path.join(remove_path, name))
+            continue 
+
+        # load data
+        img, five_points = load_data(full_image_name, full_txt_name)
+        input_img, scale, bbox = align_for_lm(img, five_points) # align for 68 landmark detection 
+
+        # if the alignment fails, remove corresponding image from the training list
+        if scale == 0:
+            move(full_txt_name, os.path.join(
+                remove_path, txt_name))
+            move(full_image_name, os.path.join(remove_path, name))
+            continue
+
+        # detect landmarks
+        input_img = np.reshape(
+            input_img, [1, 224, 224, 3]).astype(np.float32)
+        landmark = sess.run(
+            output_op, feed_dict={input_op: input_img})
+
+        # transform back to original image coordinate
+        landmark = landmark.reshape([68, 2]) + mean_face
+        landmark[:, 1] = 223 - landmark[:, 1]
+        landmark = landmark / scale
+        landmark[:, 0] = landmark[:, 0] + bbox[0]
+        landmark[:, 1] = landmark[:, 1] + bbox[1]
+        landmark[:, 1] = img.shape[0] - 1 - landmark[:, 1]
+
+        if i % 100 == 0:
+            draw_landmarks(img, landmark, os.path.join(vis_path, name))
+        save_label(landmark, os.path.join(save_path, txt_name))

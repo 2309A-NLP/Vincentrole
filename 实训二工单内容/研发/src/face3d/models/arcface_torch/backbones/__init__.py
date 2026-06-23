@@ -1,1 +1,25 @@
-ZnJvbSAuaXJlc25ldCBpbXBvcnQgaXJlc25ldDE4LCBpcmVzbmV0MzQsIGlyZXNuZXQ1MCwgaXJlc25ldDEwMCwgaXJlc25ldDIwMApmcm9tIC5tb2JpbGVmYWNlbmV0IGltcG9ydCBnZXRfbWJmCgoKZGVmIGdldF9tb2RlbChuYW1lLCAqKmt3YXJncyk6CiAgICAjIHJlc25ldAogICAgaWYgbmFtZSA9PSAicjE4IjoKICAgICAgICByZXR1cm4gaXJlc25ldDE4KEZhbHNlLCAqKmt3YXJncykKICAgIGVsaWYgbmFtZSA9PSAicjM0IjoKICAgICAgICByZXR1cm4gaXJlc25ldDM0KEZhbHNlLCAqKmt3YXJncykKICAgIGVsaWYgbmFtZSA9PSAicjUwIjoKICAgICAgICByZXR1cm4gaXJlc25ldDUwKEZhbHNlLCAqKmt3YXJncykKICAgIGVsaWYgbmFtZSA9PSAicjEwMCI6CiAgICAgICAgcmV0dXJuIGlyZXNuZXQxMDAoRmFsc2UsICoqa3dhcmdzKQogICAgZWxpZiBuYW1lID09ICJyMjAwIjoKICAgICAgICByZXR1cm4gaXJlc25ldDIwMChGYWxzZSwgKiprd2FyZ3MpCiAgICBlbGlmIG5hbWUgPT0gInIyMDYwIjoKICAgICAgICBmcm9tIC5pcmVzbmV0MjA2MCBpbXBvcnQgaXJlc25ldDIwNjAKICAgICAgICByZXR1cm4gaXJlc25ldDIwNjAoRmFsc2UsICoqa3dhcmdzKQogICAgZWxpZiBuYW1lID09ICJtYmYiOgogICAgICAgIGZwMTYgPSBrd2FyZ3MuZ2V0KCJmcDE2IiwgRmFsc2UpCiAgICAgICAgbnVtX2ZlYXR1cmVzID0ga3dhcmdzLmdldCgibnVtX2ZlYXR1cmVzIiwgNTEyKQogICAgICAgIHJldHVybiBnZXRfbWJmKGZwMTY9ZnAxNiwgbnVtX2ZlYXR1cmVzPW51bV9mZWF0dXJlcykKICAgIGVsc2U6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigp
+from .iresnet import iresnet18, iresnet34, iresnet50, iresnet100, iresnet200
+from .mobilefacenet import get_mbf
+
+
+def get_model(name, **kwargs):
+    # resnet
+    if name == "r18":
+        return iresnet18(False, **kwargs)
+    elif name == "r34":
+        return iresnet34(False, **kwargs)
+    elif name == "r50":
+        return iresnet50(False, **kwargs)
+    elif name == "r100":
+        return iresnet100(False, **kwargs)
+    elif name == "r200":
+        return iresnet200(False, **kwargs)
+    elif name == "r2060":
+        from .iresnet2060 import iresnet2060
+        return iresnet2060(False, **kwargs)
+    elif name == "mbf":
+        fp16 = kwargs.get("fp16", False)
+        num_features = kwargs.get("num_features", 512)
+        return get_mbf(fp16=fp16, num_features=num_features)
+    else:
+        raise ValueError()

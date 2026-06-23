@@ -1,1 +1,239 @@
-aW1wb3J0IG9zCmltcG9ydCByYW5kb20gCmltcG9ydCBncmFkaW8gYXMgZ3IKCmZyb20gc3JjLmNvc3RfdGltZSBpbXBvcnQgY2FsY3VsYXRlX3RpbWUKCmZyb20gY29uZmlncyBpbXBvcnQgKgpvcy5lbnZpcm9uWyJHUkFESU9fVEVNUF9ESVIiXT0gJy4vdGVtcCcKCmRlc2NyaXB0aW9uID0gIiIiPHAgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlcjsgZm9udC13ZWlnaHQ6IGJvbGQ7Ij4KICAgIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDI4cHg7Ij5MaW5seSDmmbrog73lr7nor53ns7vnu58gKExpbmx5LVRhbGtlcik8L3NwYW4+CiAgICA8YnI+CiAgICA8c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxOHB4OyIgaWQ9InBhcGVyLWluZm8iPgogICAgICAgIFs8YSBocmVmPSJodHRwczovL3podWFubGFuLnpoaWh1LmNvbS9wLzY3MTAwNjk5OCIgdGFyZ2V0PSJfYmxhbmsiPuefpeS5jjwvYT5dCiAgICAgICAgWzxhIGhyZWY9Imh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFyTjR5MWE3NngvIiB0YXJnZXQ9Il9ibGFuayI+YmlsaWJpbGk8L2E+XQogICAgICAgIFs8YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vS2VkcmVhbWl4L0xpbmx5LVRhbGtlciIgdGFyZ2V0PSJfYmxhbmsiPkdpdEh1YjwvYT5dCiAgICAgICAgWzxhIGhlcmY9Imh0dHBzOi8va2VkcmVhbWl4LmdpdGh1Yi5pby8iIHRhcmdldD0iX2JsYW5rIj7kuKrkurrkuLvpobU8L2E+XQogICAgPC9zcGFuPgogICAgPGJyPiAKICAgIDxzcGFuPkxpbmx5LVRhbGtlciDmmK/kuIDmrL7mmbrog70gQUkg5a+56K+d57O757uf77yM57uT5ZCI5LqG5aSn5Z6L6K+t6KiA5qih5Z6LIChMTE1zKSDkuI7op4bop4nmqKHlnovvvIzmmK/kuIDnp43mlrDpopbnmoTkurrlt6Xmmbrog73kuqTkupLmlrnlvI/jgII8L3NwYW4+CjwvcD4KIiIiCgojIOiuvuWumum7mOiupOWPguaVsOWAvO+8jOWPr+S/ruaUuQojIHNvdXJjZV9pbWFnZSA9IHInZXhhbXBsZS5wbmcnCmJsaW5rX2V2ZXJ5ID0gVHJ1ZQpzaXplX29mX2ltYWdlID0gMjU2CnByZXByb2Nlc3NfdHlwZSA9ICdjcm9wJwpmYWNlcmVuZGVyID0gJ2ZhY2V2aWQydmlkJwplbmhhbmNlciA9IEZhbHNlCmlzX3N0aWxsX21vZGUgPSBGYWxzZQoKZXhwX3dlaWdodCA9IDEKCnVzZV9yZWZfdmlkZW8gPSBGYWxzZQpyZWZfdmlkZW8gPSBOb25lCnJlZl9pbmZvID0gJ3Bvc2UnCnVzZV9pZGxlX21vZGUgPSBGYWxzZQpsZW5ndGhfb2ZfYXVkaW8gPSA1CgpAY2FsY3VsYXRlX3RpbWUKZGVmIFRUU19yZXNwb25zZSh0ZXh0LCAKICAgICAgICAgICAgICAgICB2b2ljZSwgcmF0ZSwgdm9sdW1lLCBwaXRjaCwKICAgICAgICAgICAgICAgICBhbSwgdm9jLCBsYW5nLCBtYWxlLAogICAgICAgICAgICAgICAgIHR0c19tZXRob2QgPSAnUGFkZGxlVFRTJywgc2F2ZV9wYXRoID0gJ2Fuc3dlci53YXYnKToKICAgIHByaW50KHRleHQsIHZvaWNlLCByYXRlLCB2b2x1bWUsIHBpdGNoLCBhbSwgdm9jLCBsYW5nLCBtYWxlLCB0dHNfbWV0aG9kLCBzYXZlX3BhdGgpCiAgICBpZiB0dHNfbWV0aG9kID09ICdFZGdlLVRUUyc6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBlZGdldHRzLnByZWRpY3QodGV4dCwgdm9pY2UsIHJhdGUsIHZvbHVtZSwgcGl0Y2ggLCAnYW5zd2VyLndhdicsICdhbnN3ZXIudnR0JykKICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgIG9zLnN5c3RlbShmJ2VkZ2UtdHRzIC0tdGV4dCAie3RleHR9IiAtLXZvaWNlIHt2b2ljZX0gLS13cml0ZS1tZWRpYSBhbnN3ZXIud2F2JykKICAgICAgICByZXR1cm4gJ2Fuc3dlci53YXYnCiAgICBlbGlmIHR0c19tZXRob2QgPT0gJ1BhZGRsZVRUUyc6CiAgICAgICAgcGFkZGxldHRzLnByZWRpY3QodGV4dCwgYW0sIHZvYywgbGFuZyA9IGxhbmcsIG1hbGU9bWFsZSwgc2F2ZV9wYXRoID0gc2F2ZV9wYXRoKQogICAgICAgIHJldHVybiBzYXZlX3BhdGgKCkBjYWxjdWxhdGVfdGltZQpkZWYgVGFsa2VyX3Jlc3BvbnNlKHNvdXJjZV9pbWFnZSwgc291cmNlX3ZpZGVvLCBtZXRob2QgPSAnU2FkVGFsa2VyJywgZHJpdmVuX2F1ZGlvID0gJycsIGJhdGNoX3NpemUgPSAyKToKICAgICMgcHJpbnQoc291cmNlX2ltYWdlLCBtZXRob2QgLCBkcml2ZW5fYXVkaW8sIGJhdGNoX3NpemUpCiAgICBpZiBzb3VyY2VfdmlkZW86CiAgICAgICAgc291cmNlX2ltYWdlID0gc291cmNlX3ZpZGVvCiAgICBwcmludChzb3VyY2VfaW1hZ2UsIG1ldGhvZCAsIGRyaXZlbl9hdWRpbywgYmF0Y2hfc2l6ZSkKICAgIHBvc2Vfc3R5bGUgPSByYW5kb20ucmFuZGludCgwLCA0NSkKICAgIGlmIG1ldGhvZCA9PSAnU2FkVGFsa2VyJzoKICAgICAgICB2aWRlbyA9IHNhZHRhbGtlci50ZXN0Mihzb3VyY2VfaW1hZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgIGRyaXZlbl9hdWRpbywKICAgICAgICAgICAgICAgICAgICAgICAgcHJlcHJvY2Vzc190eXBlLAogICAgICAgICAgICAgICAgICAgICAgICBpc19zdGlsbF9tb2RlLAogICAgICAgICAgICAgICAgICAgICAgICBlbmhhbmNlciwKICAgICAgICAgICAgICAgICAgICAgICAgYmF0Y2hfc2l6ZSwgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIHNpemVfb2ZfaW1hZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgIHBvc2Vfc3R5bGUsCiAgICAgICAgICAgICAgICAgICAgICAgIGZhY2VyZW5kZXIsCiAgICAgICAgICAgICAgICAgICAgICAgIGV4cF93ZWlnaHQsCiAgICAgICAgICAgICAgICAgICAgICAgIHVzZV9yZWZfdmlkZW8sCiAgICAgICAgICAgICAgICAgICAgICAgIHJlZl92aWRlbywKICAgICAgICAgICAgICAgICAgICAgICAgcmVmX2luZm8sCiAgICAgICAgICAgICAgICAgICAgICAgIHVzZV9pZGxlX21vZGUsCiAgICAgICAgICAgICAgICAgICAgICAgIGxlbmd0aF9vZl9hdWRpbywKICAgICAgICAgICAgICAgICAgICAgICAgYmxpbmtfZXZlcnksCiAgICAgICAgICAgICAgICAgICAgICAgIGZwcz0yMCkKICAgIGVsaWYgbWV0aG9kID09ICdXYXYyTGlwJzoKICAgICAgICB2aWRlbyA9IHdhdjJsaXAucHJlZGljdChzb3VyY2VfaW1hZ2UsIGRyaXZlbl9hdWRpbywgYmF0Y2hfc2l6ZSkKICAgIGVsaWYgbWV0aG9kID09ICdOZVJGVGFsayc6CiAgICAgICAgdmlkZW8gPSBuZXJmdGFsay5wcmVkaWN0KGRyaXZlbl9hdWRpbykKICAgIGVsc2U6CiAgICAgICAgZ3IuV2FybmluZygi5LiN5pSv5oyB55qE5pa55rOV77yaIiArIG1ldGhvZCkKICAgICAgICByZXR1cm4gTm9uZQogICAgcmV0dXJuIHZpZGVvCgpkZWYgbWFpbigpOgogICAgd2l0aCBnci5CbG9ja3MoYW5hbHl0aWNzX2VuYWJsZWQ9RmFsc2UsIHRpdGxlID0gJ0xpbmx5LVRhbGtlcicpIGFzIGluZmVyZW5jZToKICAgICAgICBnci5IVE1MKGRlc2NyaXB0aW9uKQogICAgICAgIHdpdGggZ3IuUm93KGVxdWFsX2hlaWdodD1GYWxzZSk6CiAgICAgICAgICAgIHdpdGggZ3IuQ29sdW1uKHZhcmlhbnQ9J3BhbmVsJyk6IAogICAgICAgICAgICAgICAgd2l0aCBnci5UYWJzKCk6CiAgICAgICAgICAgICAgICAgICAgd2l0aCBnci5UYWIoIuWbvueJh+S6uueJqSIpOgogICAgICAgICAgICAgICAgICAgICAgICBzb3VyY2VfaW1hZ2UgPSBnci5JbWFnZShsYWJlbD0nU291cmNlIGltYWdlJywgdHlwZSA9ICdmaWxlcGF0aCcpCiAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIHdpdGggZ3IuVGFiKCLop4bpopHkurrniakiKToKICAgICAgICAgICAgICAgICAgICAgICAgc291cmNlX3ZpZGVvID0gZ3IuVmlkZW8obGFiZWw9IlNvdXJjZSB2aWRlbyIpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIHdpdGggZ3IuVGFicygpOgogICAgICAgICAgICAgICAgICAgIGlucHV0X2F1ZGlvID0gZ3IuQXVkaW8oc291cmNlcz1bJ3VwbG9hZCcsICdtaWNyb3Bob25lJ10sIHR5cGU9ImZpbGVwYXRoIiwgbGFiZWwgPSAn6K+t6Z+zJykKICAgICAgICAgICAgICAgICAgICBpbnB1dF90ZXh0ID0gZ3IuVGV4dGJveChsYWJlbD0iSW5wdXQgVGV4dCIsIGxpbmVzPTMpCiAgICAgICAgICAgICAgICAgICAgd2l0aCBnci5Db2x1bW4oKToKICAgICAgICAgICAgICAgICAgICAgICAgdHRzX21ldGhvZCA9IGdyLlJhZGlvKFsiRWRnZS1UVFMiLCAiUGFkZGxlVFRTIl0sIGxhYmVsPSJUZXh0IFRvIFNwZWVjaCBNZXRob2QgKEVkZ2UtVFRT5Yip55So5b6u6L2v55qEVFRT77yMUGFkZGxlU3BlZWNo5piv56a757q/55qEVFRT77yM5LiN6L+H56ys5LiA5qyh6L+Q6KGM5Lya6Ieq5Yqo5LiL6L295qih5Z6LKSIsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSAnRWRnZS1UVFMnKQogICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIHdpdGggZ3IuVGFicygiVFRTIE1ldGhvZCIpOgogICAgICAgICAgICAgICAgICAgICMgd2l0aCBnci5BY2NvcmRpb24oIkFkdmFuY2VkIFNldHRpbmdzKOmrmOe6p+iuvue9ruivremfs+WPguaVsCkgIiwgb3Blbj1GYWxzZSk6CiAgICAgICAgICAgICAgICAgICAgd2l0aCBnci5UYWIoIkVkZ2UtVFRTIik6CiAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICB2b2ljZSA9IGdyLkRyb3Bkb3duKGVkZ2V0dHMuU1VQUE9SVEVEX1ZPSUNFLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT0nemgtQ04tWGlhb3hpYW9OZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJlbD0iVm9pY2UiKQogICAgICAgICAgICAgICAgICAgICAgICByYXRlID0gZ3IuU2xpZGVyKG1pbmltdW09LTEwMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhpbXVtPTEwMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT0wLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZXA9MS4wLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsPSdSYXRlJykKICAgICAgICAgICAgICAgICAgICAgICAgdm9sdW1lID0gZ3IuU2xpZGVyKG1pbmltdW09MCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4aW11bT0xMDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPTEwMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RlcD0xLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJlbD0nVm9sdW1lJykKICAgICAgICAgICAgICAgICAgICAgICAgcGl0Y2ggPSBnci5TbGlkZXIobWluaW11bT0tMTAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heGltdW09MTAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RlcD0xLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsPSdQaXRjaCcpCiAgICAgICAgICAgICAgICAgICAgd2l0aCBnci5UYWIoIlBhZGRsZVRUUyIpOgogICAgICAgICAgICAgICAgICAgICAgICBhbSA9IGdyLkRyb3Bkb3duKFsiRmFzdFNwZWVjaDIiXSwgbGFiZWw9IuWjsOWtpuaooeWei+mAieaLqSIsIHZhbHVlID0gJ0Zhc3RTcGVlY2gyJykKICAgICAgICAgICAgICAgICAgICAgICAgdm9jID0gZ3IuRHJvcGRvd24oWyJQV0dhbiIsICJIaWZpR2FuIl0sIGxhYmVsPSLlo7DnoIHlmajpgInmi6kiLCB2YWx1ZSA9ICdQV0dhbicpCiAgICAgICAgICAgICAgICAgICAgICAgIGxhbmcgPSBnci5Ecm9wZG93bihbInpoIiwgImVuIiwgIm1peCIsICJjYW50b24iXSwgbGFiZWw9IuivreiogOmAieaLqSIsIHZhbHVlID0gJ3poJykKICAgICAgICAgICAgICAgICAgICAgICAgbWFsZSA9IGdyLkNoZWNrYm94KGxhYmVsPSLnlLflo7AoTWFsZSkiLCB2YWx1ZT1GYWxzZSkKICAgICAgICAgICAgICAgICAgICB3aXRoIGdyLkNvbHVtbih2YXJpYW50PSdwYW5lbCcpOiAKICAgICAgICAgICAgICAgICAgICAgICAgYmF0Y2hfc2l6ZSA9IGdyLlNsaWRlcihtaW5pbXVtPTEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4aW11bT0xMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT0yLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZXA9MSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJlbD0nVGFsa2VyIEJhdGNoIHNpemUnKQogICAgICAgICAgICAgICAgYnV0dG9uX3RleHQgPSBnci5CdXR0b24oJ+ivremfs+eUn+aIkCcpCiAgICAgICAgICAgICAgICBidXR0b25fdGV4dC5jbGljayhmbj1UVFNfcmVzcG9uc2UsaW5wdXRzPVtpbnB1dF90ZXh0LCB2b2ljZSwgcmF0ZSwgdm9sdW1lLCBwaXRjaCwgYW0sIHZvYywgbGFuZywgbWFsZSwgdHRzX21ldGhvZF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdXRwdXRzPVtpbnB1dF9hdWRpb10pCiAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICB3aXRoIGdyLkNvbHVtbih2YXJpYW50PSdwYW5lbCcpOiAKICAgICAgICAgICAgICAgIHdpdGggZ3IuVGFicygpOgogICAgICAgICAgICAgICAgICAgIHdpdGggZ3IuVGFiSXRlbSgn5pWw5a2X5Lq66Zeu562UJyk6CiAgICAgICAgICAgICAgICAgICAgICAgIG1ldGhvZCA9IGdyLlJhZGlvKGNob2ljZXMgPSBbJ1NhZFRhbGtlcicsICdXYXYyTGlwJywgJ05lUkZUYWxrJ10sIHZhbHVlID0gJ1NhZFRhbGtlcicsIGxhYmVsID0gJ+aooeWei+mAieaLqScpCiAgICAgICAgICAgICAgICAgICAgICAgIGdlbl92aWRlbyA9IGdyLlZpZGVvKGxhYmVsPSJHZW5lcmF0ZWQgdmlkZW8iLCBmb3JtYXQ9Im1wNCIsIHNjYWxlPTEsIGF1dG9wbGF5PVRydWUpCiAgICAgICAgICAgICAgICB2aWRlb19idXR0b24gPSBnci5CdXR0b24oIuaPkOS6pCIsIHZhcmlhbnQ9J3ByaW1hcnknKQoKICAgICAgICAgICAgdmlkZW9fYnV0dG9uLmNsaWNrKGZuPVRhbGtlcl9yZXNwb25zZSxpbnB1dHM9W3NvdXJjZV9pbWFnZSwgc291cmNlX3ZpZGVvLCBtZXRob2QsIGlucHV0X2F1ZGlvLCBiYXRjaF9zaXplXSAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdXRwdXRzPVtnZW5fdmlkZW9dKQogICAgICAgICAgICAKICAgICAgICB3aXRoIGdyLlJvdygpOgogICAgICAgICAgICBleGFtcGxlcyA9IFsKICAgICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgICAgICAnZXhhbXBsZXMvc291cmNlX2ltYWdlL2Z1bGxfYm9keV8yLnBuZycsCiAgICAgICAgICAgICAgICAgICAgJ+W6lOWvueWOi+WKm+acgOacieaViOeahOaWueazleaYr+S7gOS5iO+8nycsCiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgICAgICdleGFtcGxlcy9zb3VyY2VfaW1hZ2UvZnVsbF9ib2R5XzEucG5nJywKICAgICAgICAgICAgICAgICAgICAn5aaC5L2V6L+b6KGM5pe26Ze0566h55CG77yfJywKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAgICAgJ2V4YW1wbGVzL3NvdXJjZV9pbWFnZS9mdWxsMy5wbmcnLAogICAgICAgICAgICAgICAgICAgICfkuLrku4DkuYjmnInkupvkurrpgInmi6nkvb/nlKjnurjotKjlnLDlm77miJblr7vmsYLmlrnlkJHvvIzogIzkuI3mmK/kvp3otZZHUFPorr7lpIfmiJbmmbrog73miYvmnLrlupTnlKjnqIvluo/vvJ8nLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgICAgICAnZXhhbXBsZXMvc291cmNlX2ltYWdlL2Z1bGw0LmpwZWcnLAogICAgICAgICAgICAgICAgICAgICfov5Hml6XvvIzoi7nmnpzlhazlj7jotbfor4npq5jpgJrlhazlj7jvvIznirblkYrlhbbmnKrmjInnhafnm7jlhbPlkIjnuqbov5vooYzlkIjkvZzvvIzpq5jpgJrmlrnpnaLlsJrmnKrlm57lupTjgILov5nlj6Xor53kuK3igJzlhbbigJ3mjIfnmoTmmK/osIHvvJ8nLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgICAgICAnZXhhbXBsZXMvc291cmNlX2ltYWdlL2FydF8xMy5wbmcnLAogICAgICAgICAgICAgICAgICAgICfkuInlubTnuqflkIzlrabnp43moJE4MOmil++8jOWbm+OAgeS6lOW5tOe6p+enjeeahOajteagkeavlOS4ieW5tOe6p+enjeeahDLlgI3lpJoxNOajte+8jOS4ieS4quW5tOe6p+WFseenjeagkeWkmuWwkeajtT8nLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgICAgICAnZXhhbXBsZXMvc291cmNlX2ltYWdlL2FydF81LnBuZycsCiAgICAgICAgICAgICAgICAgICAgJ+aSsOWGmeS4gOevh+S6pOWTjeS5kOmfs+S5kOS8muivhOiuuu+8jOiuqOiuuuS5kOWboueahOihqOa8lOWSjOinguS8l+eahOaVtOS9k+S9k+mqjOOAgicsCiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICBdCiAgICAgICAgICAgIGdyLkV4YW1wbGVzKGV4YW1wbGVzPWV4YW1wbGVzLAogICAgICAgICAgICAgICAgICAgICAgICBpbnB1dHM9WwogICAgICAgICAgICAgICAgICAgICAgICAgICAgc291cmNlX2ltYWdlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRfdGV4dCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sIAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICByZXR1cm4gaW5mZXJlbmNlCiAgICAKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHRyeToKICAgICAgICBmcm9tIFRGRyBpbXBvcnQgU2FkVGFsa2VyCiAgICAgICAgc2FkdGFsa2VyID0gU2FkVGFsa2VyKGxhenlfbG9hZD1UcnVlKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KCJTYWRUYWxrZXIgRXJyb3I6ICIsIGUpCiAgICAgICAgcHJpbnQoIuWmguaenOS9v+eUqFNhZFRhbGtlcu+8jOivt+WFiOS4i+i9vVNhZFRhbGtlcuaooeWeiyIpCgogICAgdHJ5OgogICAgICAgIGZyb20gVEZHIGltcG9ydCBXYXYyTGlwCiAgICAgICAgd2F2MmxpcCA9IFdhdjJMaXAoImNoZWNrcG9pbnRzL3dhdjJsaXBfZ2FuLnB0aCIpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQoIldhdjJMaXAgRXJyb3I6ICIsIGUpCiAgICAgICAgcHJpbnQoIuWmguaenOS9v+eUqFdhdjJMaXDvvIzor7flhYjkuIvovb1XYXYyTGlw5qih5Z6LIikKICAgICAgICAKICAgIHRyeToKICAgICAgICBmcm9tIFRGRyBpbXBvcnQgTmVSRlRhbGsKICAgICAgICBuZXJmdGFsayA9IE5lUkZUYWxrKCkKICAgICAgICBuZXJmdGFsay5pbml0X21vZGVsKCdjaGVja3BvaW50cy9PYmFtYV9hdmUucHRoJywgJ2NoZWNrcG9pbnRzL09iYW1hLmpzb24nKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KCJFUk5lUkYgRXJyb3I6ICIsIGUpCiAgICAgICAgcHJpbnQoIuWmguaenOS9v+eUqEVSTmVSRu+8jOivt+WFiOS4i+i9vUVSTmVSRuaooeWeiyIpCiAgICAKICAgIHRyeToKICAgICAgICBmcm9tIFRUUyBpbXBvcnQgRWRnZVRUUwogICAgICAgIGVkZ2V0dHMgPSBFZGdlVFRTKCkKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludCgiRWRnZVRUUyBFcnJvcjogIiwgZSkKICAgICAgICBwcmludCgi5aaC5p6c5L2/55SoRWRnZVRUU++8jOivt+WFiOS4i+i9vUVkZ2VUVFPmqKHlnosiKQogICAgCiAgICB0cnk6CiAgICAgICAgZnJvbSBUVFMgaW1wb3J0IFBhZGRsZVRUUwogICAgICAgIHBhZGRsZXR0cyA9IFBhZGRsZVRUUygpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQoIlBhZGRsZVRUUyBFcnJvcjogIiwgZSkKICAgICAgICBwcmludCgi5aaC5p6c5L2/55SoUGFkZGxlVFRT77yM6K+35YWI5LiL6L29UGFkZGxlVFRT5qih5Z6LIikKICAgICAgICAKICAgIGdyLmNsb3NlX2FsbCgpCiAgICBkZW1vID0gbWFpbigpCiAgICBkZW1vLnF1ZXVlKCkKICAgICMgZGVtby5sYXVuY2goKQogICAgZGVtby5sYXVuY2goc2VydmVyX25hbWU9aXAsICMg5pys5Zyw56uv5Y+jbG9jYWxob3N0OjEyNy4wLjAuMSDlhajlsYDnq6/lj6Povazlj5E6IjAuMC4wLjAiCiAgICAgICAgICAgICAgICBzZXJ2ZXJfcG9ydD1wb3J0LAogICAgICAgICAgICAgICAgIyDkvLzkuY7lnKhHcmFkaW80LjDku6XkuIrniYjmnKzlj6/ku6XkuI3kvb/nlKjor4HkuabkuZ/lj6/ku6Xov5vooYzpuqblhYvpo47lr7nor50KICAgICAgICAgICAgICAgIHNzbF9jZXJ0ZmlsZT1zc2xfY2VydGZpbGUsCiAgICAgICAgICAgICAgICBzc2xfa2V5ZmlsZT1zc2xfa2V5ZmlsZSwKICAgICAgICAgICAgICAgIHNzbF92ZXJpZnk9RmFsc2UsCiAgICAgICAgICAgICAgICBkZWJ1Zz1UcnVlKQ==
+import os
+import random 
+import gradio as gr
+
+from src.cost_time import calculate_time
+
+from configs import *
+os.environ["GRADIO_TEMP_DIR"]= './temp'
+
+description = """<p style="text-align: center; font-weight: bold;">
+    <span style="font-size: 28px;">Linly 智能对话系统 (Linly-Talker)</span>
+    <br>
+    <span style="font-size: 18px;" id="paper-info">
+        [<a href="https://zhuanlan.zhihu.com/p/671006998" target="_blank">知乎</a>]
+        [<a href="https://www.bilibili.com/video/BV1rN4y1a76x/" target="_blank">bilibili</a>]
+        [<a href="https://github.com/Kedreamix/Linly-Talker" target="_blank">GitHub</a>]
+        [<a herf="https://kedreamix.github.io/" target="_blank">个人主页</a>]
+    </span>
+    <br> 
+    <span>Linly-Talker 是一款智能 AI 对话系统，结合了大型语言模型 (LLMs) 与视觉模型，是一种新颖的人工智能交互方式。</span>
+</p>
+"""
+
+# 设定默认参数值，可修改
+# source_image = r'example.png'
+blink_every = True
+size_of_image = 256
+preprocess_type = 'crop'
+facerender = 'facevid2vid'
+enhancer = False
+is_still_mode = False
+
+exp_weight = 1
+
+use_ref_video = False
+ref_video = None
+ref_info = 'pose'
+use_idle_mode = False
+length_of_audio = 5
+
+@calculate_time
+def TTS_response(text, 
+                 voice, rate, volume, pitch,
+                 am, voc, lang, male,
+                 tts_method = 'PaddleTTS', save_path = 'answer.wav'):
+    print(text, voice, rate, volume, pitch, am, voc, lang, male, tts_method, save_path)
+    if tts_method == 'Edge-TTS':
+        try:
+            edgetts.predict(text, voice, rate, volume, pitch , 'answer.wav', 'answer.vtt')
+        except:
+            os.system(f'edge-tts --text "{text}" --voice {voice} --write-media answer.wav')
+        return 'answer.wav'
+    elif tts_method == 'PaddleTTS':
+        paddletts.predict(text, am, voc, lang = lang, male=male, save_path = save_path)
+        return save_path
+
+@calculate_time
+def Talker_response(source_image, source_video, method = 'SadTalker', driven_audio = '', batch_size = 2):
+    # print(source_image, method , driven_audio, batch_size)
+    if source_video:
+        source_image = source_video
+    print(source_image, method , driven_audio, batch_size)
+    pose_style = random.randint(0, 45)
+    if method == 'SadTalker':
+        video = sadtalker.test2(source_image,
+                        driven_audio,
+                        preprocess_type,
+                        is_still_mode,
+                        enhancer,
+                        batch_size,                            
+                        size_of_image,
+                        pose_style,
+                        facerender,
+                        exp_weight,
+                        use_ref_video,
+                        ref_video,
+                        ref_info,
+                        use_idle_mode,
+                        length_of_audio,
+                        blink_every,
+                        fps=20)
+    elif method == 'Wav2Lip':
+        video = wav2lip.predict(source_image, driven_audio, batch_size)
+    elif method == 'NeRFTalk':
+        video = nerftalk.predict(driven_audio)
+    else:
+        gr.Warning("不支持的方法：" + method)
+        return None
+    return video
+
+def main():
+    with gr.Blocks(analytics_enabled=False, title = 'Linly-Talker') as inference:
+        gr.HTML(description)
+        with gr.Row(equal_height=False):
+            with gr.Column(variant='panel'): 
+                with gr.Tabs():
+                    with gr.Tab("图片人物"):
+                        source_image = gr.Image(label='Source image', type = 'filepath')
+                        
+                    with gr.Tab("视频人物"):
+                        source_video = gr.Video(label="Source video")
+                
+                with gr.Tabs():
+                    input_audio = gr.Audio(sources=['upload', 'microphone'], type="filepath", label = '语音')
+                    input_text = gr.Textbox(label="Input Text", lines=3)
+                    with gr.Column():
+                        tts_method = gr.Radio(["Edge-TTS", "PaddleTTS"], label="Text To Speech Method (Edge-TTS利用微软的TTS，PaddleSpeech是离线的TTS，不过第一次运行会自动下载模型)", 
+                                              value = 'Edge-TTS')
+                        
+                with gr.Tabs("TTS Method"):
+                    # with gr.Accordion("Advanced Settings(高级设置语音参数) ", open=False):
+                    with gr.Tab("Edge-TTS"):
+                        
+                        voice = gr.Dropdown(edgetts.SUPPORTED_VOICE, 
+                                            value='zh-CN-XiaoxiaoNeural', 
+                                            label="Voice")
+                        rate = gr.Slider(minimum=-100,
+                                            maximum=100,
+                                            value=0,
+                                            step=1.0,
+                                            label='Rate')
+                        volume = gr.Slider(minimum=0,
+                                                maximum=100,
+                                                value=100,
+                                                step=1,
+                                                label='Volume')
+                        pitch = gr.Slider(minimum=-100,
+                                            maximum=100,
+                                            value=0,
+                                            step=1,
+                                            label='Pitch')
+                    with gr.Tab("PaddleTTS"):
+                        am = gr.Dropdown(["FastSpeech2"], label="声学模型选择", value = 'FastSpeech2')
+                        voc = gr.Dropdown(["PWGan", "HifiGan"], label="声码器选择", value = 'PWGan')
+                        lang = gr.Dropdown(["zh", "en", "mix", "canton"], label="语言选择", value = 'zh')
+                        male = gr.Checkbox(label="男声(Male)", value=False)
+                    with gr.Column(variant='panel'): 
+                        batch_size = gr.Slider(minimum=1,
+                                            maximum=10,
+                                            value=2,
+                                            step=1,
+                                            label='Talker Batch size')
+                button_text = gr.Button('语音生成')
+                button_text.click(fn=TTS_response,inputs=[input_text, voice, rate, volume, pitch, am, voc, lang, male, tts_method],
+                                  outputs=[input_audio])
+                        
+            with gr.Column(variant='panel'): 
+                with gr.Tabs():
+                    with gr.TabItem('数字人问答'):
+                        method = gr.Radio(choices = ['SadTalker', 'Wav2Lip', 'NeRFTalk'], value = 'SadTalker', label = '模型选择')
+                        gen_video = gr.Video(label="Generated video", format="mp4", scale=1, autoplay=True)
+                video_button = gr.Button("提交", variant='primary')
+
+            video_button.click(fn=Talker_response,inputs=[source_image, source_video, method, input_audio, batch_size] ,
+                               outputs=[gen_video])
+            
+        with gr.Row():
+            examples = [
+                [
+                    'examples/source_image/full_body_2.png',
+                    '应对压力最有效的方法是什么？',
+                ],
+                [
+                    'examples/source_image/full_body_1.png',
+                    '如何进行时间管理？',
+                ],
+                [
+                    'examples/source_image/full3.png',
+                    '为什么有些人选择使用纸质地图或寻求方向，而不是依赖GPS设备或智能手机应用程序？',
+                ],
+                [
+                    'examples/source_image/full4.jpeg',
+                    '近日，苹果公司起诉高通公司，状告其未按照相关合约进行合作，高通方面尚未回应。这句话中“其”指的是谁？',
+                ],
+                [
+                    'examples/source_image/art_13.png',
+                    '三年级同学种树80颗，四、五年级种的棵树比三年级种的2倍多14棵，三个年级共种树多少棵?',
+                ],
+                [
+                    'examples/source_image/art_5.png',
+                    '撰写一篇交响乐音乐会评论，讨论乐团的表演和观众的整体体验。',
+                ],
+            ]
+            gr.Examples(examples=examples,
+                        inputs=[
+                            source_image,
+                            input_text,
+                            ], 
+                        )
+    return inference
+    
+if __name__ == "__main__":
+    try:
+        from TFG import SadTalker
+        sadtalker = SadTalker(lazy_load=True)
+    except Exception as e:
+        print("SadTalker Error: ", e)
+        print("如果使用SadTalker，请先下载SadTalker模型")
+
+    try:
+        from TFG import Wav2Lip
+        wav2lip = Wav2Lip("checkpoints/wav2lip_gan.pth")
+    except Exception as e:
+        print("Wav2Lip Error: ", e)
+        print("如果使用Wav2Lip，请先下载Wav2Lip模型")
+        
+    try:
+        from TFG import NeRFTalk
+        nerftalk = NeRFTalk()
+        nerftalk.init_model('checkpoints/Obama_ave.pth', 'checkpoints/Obama.json')
+    except Exception as e:
+        print("ERNeRF Error: ", e)
+        print("如果使用ERNeRF，请先下载ERNeRF模型")
+    
+    try:
+        from TTS import EdgeTTS
+        edgetts = EdgeTTS()
+    except Exception as e:
+        print("EdgeTTS Error: ", e)
+        print("如果使用EdgeTTS，请先下载EdgeTTS模型")
+    
+    try:
+        from TTS import PaddleTTS
+        paddletts = PaddleTTS()
+    except Exception as e:
+        print("PaddleTTS Error: ", e)
+        print("如果使用PaddleTTS，请先下载PaddleTTS模型")
+        
+    gr.close_all()
+    demo = main()
+    demo.queue()
+    # demo.launch()
+    demo.launch(server_name=ip, # 本地端口localhost:127.0.0.1 全局端口转发:"0.0.0.0"
+                server_port=port,
+                # 似乎在Gradio4.0以上版本可以不使用证书也可以进行麦克风对话
+                ssl_certfile=ssl_certfile,
+                ssl_keyfile=ssl_keyfile,
+                ssl_verify=False,
+                debug=True)

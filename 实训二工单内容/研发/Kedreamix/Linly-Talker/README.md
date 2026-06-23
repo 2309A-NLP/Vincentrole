@@ -1,1 +1,344 @@
-IyDmlbDlrZfkurrmmbrog73lr7nor53ns7vnu58gLSBMaW5seS1UYWxrZXIg4oCUIOKAnOaVsOWtl+S6uuS6pOS6ku+8jOS4juiZmuaLn+eahOiHquW3seS6kuWKqOKAnQoKPGRpdiBhbGlnbj0iY2VudGVyIj4KPGgxPkxpbmx5LVRhbGtlciBXZWJVSTwvaDE+CgoKWyFbbWFkZXdpdGhsb3ZlXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL21hZGVfd2l0aC0lRTIlOUQlQTQtcmVkP3N0eWxlPWZvci10aGUtYmFkZ2UmbGFiZWxDb2xvcj1vcmFuZ2UpXShodHRwczovL2dpdGh1Yi5jb20vS2VkcmVhbWl4L0xpbmx5LVRhbGtlcikKCjxpbWcgc3JjPSJodHRwczovL2dpdGh1Yi5jb20vS2VkcmVhbWl4L0xpbmx5LVRhbGtlci9yYXcvbWFpbi9kb2NzL2xpbmx5X2xvZ28ucG5nIiAvPjxicj4KClshW09wZW4gSW4gQ29sYWJdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvQ29sYWItRjlBQjAwP3N0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1nb29nbGVjb2xhYiZjb2xvcj01MjUyNTIpXShodHRwczovL2NvbGFiLnJlc2VhcmNoLmdvb2dsZS5jb20vZ2l0aHViL0tlZHJlYW1peC9MaW5seS1UYWxrZXIvYmxvYi9tYWluL2NvbGFiX3dlYnVpLmlweW5iKQpbIVtMaWNlbmNlXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0xJQ0VOU0UtTUlULWdyZWVuLnN2Zz9zdHlsZT1mb3ItdGhlLWJhZGdlKV0oaHR0cHM6Ly9naXRodWIuY29tL0tlZHJlYW1peC9MaW5seS1UYWxrZXIvYmxvYi9tYWluL0xJQ0VOU0UpClshW0h1Z2dpbmdmYWNlXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL/CfpJclMjAtTW9kZWxzJTIwUmVwby15ZWxsb3cuc3ZnP3N0eWxlPWZvci10aGUtYmFkZ2UpXShodHRwczovL2h1Z2dpbmdmYWNlLmNvL0tlZHJlYW1peC9MaW5seS1UYWxrZXIpCgpbKipFbmdsaXNoKipdKGh0dHBzOi8vZ2l0aHViLmNvbS9LZWRyZWFtaXgvTGlubHktVGFsa2VyL2Jsb2IvbWFpbi9SRUFETUUubWQpIHwgWyoq5Lit5paH566A5L2TKipdKGh0dHBzOi8vZ2l0aHViLmNvbS9LZWRyZWFtaXgvTGlubHktVGFsa2VyL2Jsb2IvbWFpbi9SRUFETUVfemgubWQpCgo8L2Rpdj4KCgoqKjIwMjMuMTIg5pu05pawKiog8J+ThgoKKirnlKjmiLflj6/ku6XkuIrkvKDku7vmhI/lm77niYfov5vooYzlr7nor50qKgoKKioyMDI0LjAxIOabtOaWsCoqIPCfk4YKCi0gKirku6TkurrlhbTlpYvnmoTmtojmga/vvIHmiJHnjrDlnKjlt7Lnu4/lsIblvLrlpKfnmoRHZW1pbmlQcm/lkoxRd2Vu5aSn5qih5Z6L6J6N5YWl5Yiw5oiR5Lus55qE5a+56K+d5Zy65pmv5Lit44CC55So5oi3546w5Zyo5Y+v5Lul5Zyo5a+56K+d5Lit5LiK5Lyg5Lu75L2V5Zu+54mH77yM5Li65oiR5Lus55qE5LqS5Yqo5aKe5re75LqG5YWo5paw55qE5bGC6Z2i44CCKioKLSAqKuabtOaWsOS6hkZhc3RBUEnnmoTpg6jnvbLosIPnlKjmlrnms5XjgIIqKiAKLSAqKuabtOaWsOS6huW+rui9r1RUU+eahOmrmOe6p+iuvue9rumAiemhue+8jOWinuWKoOWjsOmfs+enjeexu+eahOWkmuagt+aAp++8jOS7peWPiuWKoOWFpeinhumikeWtl+W5leWKoOW8uuWPr+inhuWMluOAgioqCi0gKirmm7TmlrDkuoZHUFTlpJrova7lr7nor53ns7vnu5/vvIzkvb/lvpflr7nor53mnInkuIrkuIvmlofogZTns7vvvIzmj5Dpq5jmlbDlrZfkurrnmoTkuqTkupLmgKflkoznnJ/lrp7mhJ/jgIIqKgoKKioyMDI0LjAyIOabtOaWsCoqIPCfk4YKCi0gKirmm7TmlrDkuoZHcmFkaW/nmoTniYjmnKzkuLrmnIDmlrDniYjmnKw0LjE2LjDvvIzkvb/lvpfnlYzpnaLmi6XmnInmm7TlpJrnmoTlip/og73vvIzmr5TlpoLlj6/ku6XmkYTlg4/lpLTmi43mkYTlm77niYfmnoTlu7rmlbDlrZfkurrnrYnjgIIqKgotICoq5pu05paw5LqGQVNS5ZKMVEhH77yM5YW25LitQVNS5Yqg5YWl5LqG6Zi/6YeM55qERnVuQVNS77yM5YW35L2T5pu05b+r55qE6YCf5bqm77ybVEhH6YOo5YiG5Yqg5YWl5LqGV2F2MkxpcOaooeWei++8jEVSLU5lUkblnKjlh4blpIfkuK0oQ29tbWluZyBTb29uKeOAgioqCi0gKirliqDlhaXkuobor63pn7PlhYvpmobmlrnms5VHUFQtU29WSVRT5qih5Z6L77yM6IO95aSf6YCa6L+H5b6u6LCD5LiA5YiG6ZKf5a+55bqU5Lq655qE6K+t5paZ6L+b6KGM5YWL6ZqG77yM5pWI5p6c6L+Y5piv55u45b2T5LiN6ZSZ55qE77yM5YC85b6X5o6o6I2Q44CCKioKLSAqKumbhuaIkOS4gOS4qldlYlVJ55WM6Z2i77yM6IO95aSf5pu05aW955qE6L+Q6KGMTGlubHktVGFsa2Vy44CCKioKCioqMjAyNC4wNCDmm7TmlrAqKiDwn5OGCgotICoq5pu05paw5LqG6ZmkIEVkZ2UgVFRT55qEIFBhZGRsZSBUVFPnmoTnprvnur/mlrnlvI/jgIIqKgotICoq5pu05paw5LqGRVItTmVSRuS9nOS4ukF2YXRhcueUn+aIkOeahOmAieaLqeS5i+S4gOOAgioqCi0gKirmm7TmlrDkuoZhcHBfdGFsay5wee+8jOWcqOS4jeWfuuS6juWvueivneWcuuaZr+WPr+iHqueUseS4iuS8oOivremfs+WSjOWbvueJh+inhumikeeUn+aIkOOAgioqCgotLS0KCjxkZXRhaWxzPgo8c3VtbWFyeT7nm67lvZU8L3N1bW1hcnk+CgoKPCEtLSBUT0MgLS0+CgotIFvmlbDlrZfkurrlr7nor53ns7vnu58gLSBMaW5seS1UYWxrZXIg4oCU4oCUIOKAnOaVsOWtl+S6uuS6pOS6ku+8jOS4juiZmuaLn+eahOiHquW3seS6kuWKqOKAnV0oI+aVsOWtl+S6uuWvueivneezu+e7ny0tLWxpbmx5LXRhbGtlci0t5pWw5a2X5Lq65Lqk5LqS5LiO6Jma5ouf55qE6Ieq5bex5LqS5YqoKQogIC0gW+S7i+e7jV0oI+S7i+e7jSkKICAtIFtUTyBETyBMSVNUXSgjdG8tZG8tbGlzdCkKICAtIFvnpLrkvotdKCPnpLrkvospCiAgLSBb5Yib5bu6546v5aKDXSgj5Yib5bu6546v5aKDKQogIC0gW0FTUiAtIFNwZWVjaCBSZWNvZ25pdGlvbl0oI2Fzci0tLXNwZWVjaC1yZWNvZ25pdGlvbikKICAgIC0gW1doaXNwZXJdKCN3aGlzcGVyKQogICAgLSBbRnVuQVNSXSgjZnVuYXNyKQogIC0gW1RUUyAtIEVkZ2UgVFRTXSgjdHRzLS0tZWRnZS10dHMpCiAgLSBbVm9pY2UgQ2xvbmVdKCN2b2ljZS1jbG9uZSkKICAgIC0gW0dQVC1Tb1ZJVFPvvIjmjqjojZDvvIldKCNncHQtc292aXRz5o6o6I2QKQogICAgLSBbWFRUU10oI3h0dHMpCiAgLSBbVEhHIC0gQXZhdGFyXSgjdGhnLS0tYXZhdGFyKQogICAgLSBbU2FkVGFsa2VyXSgjc2FkdGFsa2VyKQogICAgLSBbV2F2MkxpcF0oI3dhdjJsaXApCiAgICAtIFtFUi1OZVJG77yIQ29tbWluZyBTb29u77yJXSgjZXItbmVyZmNvbW1pbmctc29vbikKICAtIFtMTE0gLSBDb252ZXJzYXRpb25dKCNsbG0tLS1jb252ZXJzYXRpb24pCiAgICAtIFtMaW5seS1BSV0oI2xpbmx5LWFpKQogICAgLSBbUXdlbl0oI3F3ZW4pCiAgICAtIFtHZW1pbmktUHJvXSgjZ2VtaW5pLXBybykKICAgIC0gW0xMTSDlpJrmqKHlnovpgInmi6ldKCNsbG0t5aSa5qih5Z6L6YCJ5oupKQogIC0gW+S8mOWMll0oI+S8mOWMlikKICAtIFtHcmFkaW9dKCNncmFkaW8pCiAgLSBb5ZCv5YqoV2ViVUldKCPlkK/liqh3ZWJ1aSkKICAtIFvmlofku7blpLnnu5PmnoRdKCPmlofku7blpLnnu5PmnoQpCiAgLSBb5Y+C6ICDXSgj5Y+C6ICDKQogIC0gW1N0YXIgSGlzdG9yeV0oI3N0YXItaGlzdG9yeSkKCjwhLS0gL1RPQyAtLT4KCjwvZGV0YWlscz4KCgoKIyMg5LuL57uNCgpMaW5seS1UYWxrZXLmmK/kuIDmrL7liJvmlrDnmoTmlbDlrZfkurrlr7nor53ns7vnu5/vvIzlroPono3lkIjkuobmnIDmlrDnmoTkurrlt6Xmmbrog73mioDmnK/vvIzljIXmi6zlpKflnovor63oqIDmqKHlnovvvIhMTE3vvInjgIHoh6rliqjor63pn7Por4bliKvvvIhBU1LvvInjgIHmlofmnKzliLDor63pn7PovazmjaLvvIhUVFPvvInlkozor63pn7PlhYvpmobmioDmnK/jgILov5nkuKrns7vnu5/pgJrov4dHcmFkaW/lubPlj7Dmj5DkvpvkuobkuIDkuKrkuqTkupLlvI/nmoRXZWLnlYzpnaLvvIzlhYHorrjnlKjmiLfkuIrkvKDlm77niYfkuI5BSei/m+ihjOS4quaAp+WMlueahOWvueivneS6pOa1geOAggoK57O757uf55qE5qC45b+D54m554K55YyF5ous77yaCgoxLiAqKuWkmuaooeWei+mbhuaIkCoq77yaTGlubHktVGFsa2Vy5pW05ZCI5LqGTGlubHnjgIFHZW1pbmlQcm/jgIFRd2Vu562J5aSn5qih5Z6L77yM5Lul5Y+KV2hpc3BlcuOAgVNhZFRhbGtlcuetieinhuinieaooeWei++8jOWunueOsOS6humrmOi0qOmHj+eahOWvueivneWSjOinhuinieeUn+aIkOOAggoyLiAqKuWkmui9ruWvueivneiDveWKmyoq77ya6YCa6L+HR1BU5qih5Z6L55qE5aSa6L2u5a+56K+d57O757uf77yMTGlubHktVGFsa2Vy6IO95aSf55CG6Kej5bm257u05oyB5LiK5LiL5paH55u45YWz55qE6L+e6LSv5a+56K+d77yM5p6B5aSn5Zyw5o+Q5Y2H5LqG5Lqk5LqS55qE55yf5a6e5oSf44CCCjMuICoq6K+t6Z+z5YWL6ZqGKirvvJrliKnnlKhHUFQtU29WSVRT562J5oqA5pyv77yM55So5oi35Y+v5Lul5LiK5Lyg5LiA5YiG6ZKf55qE6K+t6Z+z5qC35pys6L+b6KGM5b6u6LCD77yM57O757uf5bCG5YWL6ZqG55So5oi355qE5aOw6Z+z77yM5L2/5b6X5pWw5a2X5Lq66IO95aSf5Lul55So5oi355qE5aOw6Z+z6L+b6KGM5a+56K+d44CCCjQuICoq5a6e5pe25LqS5YqoKirvvJrns7vnu5/mlK/mjIHlrp7ml7bor63pn7Por4bliKvlkozop4bpopHlrZfluZXvvIzkvb/lvpfnlKjmiLflj6/ku6XpgJrov4for63pn7PkuI7mlbDlrZfkurrov5vooYzoh6rnhLbnmoTkuqTmtYHjgIIKNS4gKirop4bop4nlop7lvLoqKu+8mumAmui/h+aVsOWtl+S6uueUn+aIkOetieaKgOacr++8jExpbmx5LVRhbGtlcuiDveWkn+eUn+aIkOmAvOecn+eahOaVsOWtl+S6uuW9ouixoe+8jOaPkOS+m+abtOWKoOayiea1uOW8j+eahOS9k+mqjOOAggoKTGlubHktVGFsa2Vy55qE6K6+6K6h55CG5b+15piv5Yib6YCg5LiA56eN5YWo5paw55qE5Lq65py65Lqk5LqS5pa55byP77yM5LiN5LuF5LuF5piv566A5Y2V55qE6Zeu562U77yM6ICM5piv6YCa6L+H6auY5bqm6ZuG5oiQ55qE5oqA5pyv77yM5o+Q5L6b5LiA5Liq6IO95aSf55CG6Kej44CB5ZON5bqU5bm25qih5ouf5Lq657G75Lqk5rWB55qE5pm66IO95pWw5a2X5Lq644CCCgohW1RoZSBzeXN0ZW0gYXJjaGl0ZWN0dXJlIG9mIG11bHRpbW9kYWwgaHVtYW7igJNjb21wdXRlciBpbnRlcmFjdGlvbi5dKGh0dHBzOi8vZ2l0aHViLmNvbS9LZWRyZWFtaXgvTGlubHktVGFsa2VyL3Jhdy9tYWluL2RvY3MvSE9JLnBuZykKCj4g5p+l55yL5oiR5Lus55qE5LuL57uN6KeG6aKRIFtkZW1vIHZpZGVvXShodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxck40eTFhNzZ4LykKPgo+IOWcqELnq5nkuIrmiJHlvZXkuobkuIDns7vliJfop4bpopHvvIzkuZ/ku6PooajmiJHmm7TmlrDnmoTmr4/kuIDmraXkuI7kvb/nlKjmlrnms5XvvIzor6bnu4bmn6XnnItb5pWw5a2X5Lq65pm66IO95a+56K+d57O757ufIC0gTGlubHktVGFsa2Vy5ZCI6ZuGXShodHRwczovL3NwYWNlLmJpbGliaWxpLmNvbS8yNDEyODYyNTcvY2hhbm5lbC9jb2xsZWN0aW9uZGV0YWlsP3NpZD0yMDY1NzUzKQo+Cj4gLSAgW/CflKXwn5Sl8J+UpeaVsOWtl+S6uuWvueivneezu+e7nyBMaW5seS1UYWxrZXLwn5Sl8J+UpfCflKVdKGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFyTjR5MWE3NngvKQo+IC0gW/CfmoDmlbDlrZfkurrnmoTmnKrmnaXvvJpMaW5seS1UYWxrZXIrR1BULVNvVklU6K+t6Z+z5YWL6ZqG5oqA5pyv55qE6LWL6IO95LmL6YGTXShodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxUzQ0MjFBN2doLykKPiAtIFtBdXRvREzlubPlj7Dpg6jnvbJMaW5seS1UYWxrZXIgKDDln7rnoYDlsI/nmb3otoXor6bnu4bmlZnnqIspXShodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxdVQ0MjFtNzR6LykKPiAtIFtMaW5seS1UYWxrZXIg5pu05paw56a757q/VFRT6ZuG5oiQ5Y+K5a6a5Yi25pWw5a2X5Lq65pa55qGIXShodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxTXI0MjF1N05OLykKCiMjIFRPIERPIExJU1QKCi0gW3hdIOWfuuacrOWujOaIkOWvueivneezu+e7n+a1geeoi++8jOiDveWkn2Dor63pn7Plr7nor51gCi0gW3hdIOWKoOWFpeS6hkxMTeWkp+aooeWei++8jOWMheaLrGBMaW5seWDvvIxgUXdlbmDlkoxgR2VtaW5pUHJvYOeahOS9v+eUqAotIFt4XSDlj6/kuIrkvKBg5Lu75oSP5pWw5a2X5Lq654Wn54mHYOi/m+ihjOWvueivnQotIFt4XSBMaW5seeWKoOWFpWBGYXN0QVBJYOiwg+eUqOaWueW8jwotIFt4XSDliKnnlKjlvq7ova9gVFRTYOWKoOWFpemrmOe6p+mAiemhue+8jOWPr+iuvue9ruWvueW6lOS6uuWjsOS7peWPiumfs+iwg+etieWPguaVsO+8jOWinuWKoOWjsOmfs+eahOWkmuagt+aApwotIFt4XSDop4bpopHnlJ/miJDliqDlhaVg5a2X5bmVYO+8jOiDveWkn+abtOWlveeahOi/m+ihjOWPr+inhuWMlgotIFt4XSBHUFRg5aSa6L2u5a+56K+dYOezu+e7n++8iOaPkOmrmOaVsOWtl+S6uueahOS6pOS6kuaAp+WSjOecn+WunuaEn++8jOWinuW8uuaVsOWtl+S6uueahOaZuuiDve+8iQotIFt4XSDkvJjljJZHcmFkaW/nlYzpnaLvvIzliqDlhaXmm7TlpJrmqKHlnovvvIzlpoJXYXYyTGlw77yMRnVuQVNS562JCi0gW3hdIGDor63pn7PlhYvpmoZg5oqA5pyv77yM5Yqg5YWlR1BULVNvVklUU++8jOWPqumcgOimgeS4gOWIhumSn+eahOivremfs+eugOWNleW+ruiwg+WNs+WPr++8iOivremfs+WFi+mahuWQiOaIkOiHquW3seWjsOmfs++8jOaPkOmrmOaVsOWtl+S6uuWIhui6q+eahOecn+WunuaEn+WSjOS6kuWKqOS9k+mqjO+8iQotIFt4XSDliqDlhaXnprvnur9UVFPku6Xlj4pOZVJGLWJhc2Vk55qE5pa55rOV5ZKM5qih5Z6LCi0gWyBdIGDlrp7ml7Zg6K+t6Z+z6K+G5Yir77yI5Lq65LiO5pWw5a2X5Lq65LmL6Ze05bCx5Y+v5Lul6YCa6L+H6K+t6Z+z6L+b6KGM5a+56K+d5Lqk5rWBKQoK8J+UhiDor6Xpobnnm64gTGlubHktVGFsa2VyIOato+WcqOi/m+ihjOS4rSAtIOasoui/juaPkOWHulBS6K+35rGC77yB5aaC5p6c5oKo5pyJ5Lu75L2V5YWz5LqO5paw55qE5qih5Z6L5pa55rOV44CB56CU56m244CB5oqA5pyv5oiW5Y+R546w6L+Q6KGM6ZSZ6K+v55qE5bu66K6u77yM6K+36ZqP5pe257yW6L6R5bm25o+Q5LqkIFBS44CC5oKo5Lmf5Y+v5Lul5omT5byA5LiA5Liq6Zeu6aKY5oiW6YCa6L+H55S15a2Q6YKu5Lu255u05o6l6IGU57O75oiR44CC8J+TqeKtkCDlpoLmnpzmgqjlj5HnjrDov5nkuKpHaXRodWIgUHJvamVjdOacieeUqO+8jOivt+e7meWug+eCueS4quaYn++8gfCfpKkKCj4g5aaC5p6c5Zyo6YOo572y55qE5pe25YCZ5pyJ5Lu75L2V55qE6Zeu6aKY77yM5Y+v5Lul5YWz5rOoW+W4uOingemXrumimOaxh+aAuy5tZF0oaHR0cHM6Ly9naXRodWIuY29tL0tlZHJlYW1peC9MaW5seS1UYWxrZXIvYmxvYi9tYWluL+W4uOingemXrumimOaxh+aAuy5tZCnpg6jliIbvvIzmiJHlt7Lnu4/mlbTnkIbkuoblj6/og73lh7rnjrDnmoTmiYDmnInpl67popjvvIzlj6blpJbkuqTmtYHnvqTkuZ/lnKjov5nph4zvvIzmiJHkvJrlrprml7bmm7TmlrDvvIzmhJ/osKLlpKflrrbnmoTlhbPms6jkuI7kvb/nlKjvvIHvvIHvvIEKCiMjIyMjIyDmqKHlnovmlofku7blkozmnYPph43vvIzor7fmtY/op4jigJzmqKHlnovmlofku7bigJ3pobXpnaLojrflj5bjgIIKCgrmjqXkuIvmnaXov5jpnIDopoHlronoo4Xlr7nlupTnmoTmqKHlnovvvIzmnInku6XkuIvkuIvovb3mlrnlvI/vvIzkuIvovb3lkI7lronoo4Xmlofku7bmnrbnu5PmnoTmlL7nva7vvIzmlofku7blpLnnu5PmnoTlnKjmnKzmlofmnIDlkI7mnInor7TmmI7jgIIKCi0gW0JhaWR1ICjnmb7luqbkupHnm5gpXShodHRwczovL3Bhbi5iYWlkdS5jb20vcy8xZUYxM08tOHd5dzRCM010ZXNjdFF5Zz9wd2Q9bGlubCkgKFBhc3N3b3JkOiBgbGlubGApCi0gW2h1Z2dpbmdmYWNlXShodHRwczovL2h1Z2dpbmdmYWNlLmNvL0tlZHJlYW1peC9MaW5seS1UYWxrZXIpCi0gW21vZGVsc2NvcGVdKGh0dHBzOi8vd3d3Lm1vZGVsc2NvcGUuY24vbW9kZWxzL0tlZHJlYW1peC9MaW5seS1UYWxrZXIvc3VtbWFyeSkgCgoqKkh1Z2dpbmdGYWNl5LiL6L29KioKCuWmguaenOmAn+W6puWkquaFouWPr+S7peiAg+iZkemVnOWDj++8jOWPguiAg1vnroDkvr/lv6vmjbfojrflj5YgSHVnZ2luZyBGYWNlIOaooeWei++8iOS9v+eUqOmVnOWDj+ermeeCue+8iV0oaHR0cHM6Ly9rZWRyZWFtaXguZ2l0aHViLmlvLzIwMjQvMDEvMDUvTm90ZS9IdWdnaW5nRmFjZS8/aGlnaGxpZ2h0PemVnOWDjykKCmBgYGJhc2gKIyDku45odWdnaW5nZmFjZeS4i+i9vemihOiuree7g+aooeWeiwpnaXQgbGZzIGluc3RhbGwKZ2l0IGNsb25lIGh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vS2VkcmVhbWl4L0xpbmx5LVRhbGtlcgpgYGAKCioqTW9kZWxTY29wZeS4i+i9vSoqCgpgYGBiYXNoCiMg5LuObW9kZWxzY29wZeS4i+i9vemihOiuree7g+aooeWeiwojIDEuIGdpdCDmlrnms5UKZ2l0IGxmcyBpbnN0YWxsCmdpdCBjbG9uZSBodHRwczovL3d3dy5tb2RlbHNjb3BlLmNuL0tlZHJlYW1peC9MaW5seS1UYWxrZXIuZ2l0CgojIDIuIFB5dGhvbiDku6PnoIHkuIvovb0KcGlwIGluc3RhbGwgbW9kZWxzY29wZQpmcm9tIG1vZGVsc2NvcGUgaW1wb3J0IHNuYXBzaG90X2Rvd25sb2FkCm1vZGVsX2RpciA9IHNuYXBzaG90X2Rvd25sb2FkKCdLZWRyZWFtaXgvTGlubHktVGFsa2VyJykKYGBgCgoqKuenu+WKqOaJgOacieaooeWei+WIsOW9k+WJjeebruW9lSoqCgrlpoLmnpznmb7luqbnvZHnm5jkuIvovb3lkI7vvIzlj6/ku6Xlj4LogIPmlofmoaPmnIDlkI7nm67lvZXnu5PmnoTmnaXnp7vliqgKCmBgYGJhc2gKIyDnp7vliqjmiYDmnInmqKHlnovliLDlvZPliY3nm67lvZUKIyBjaGVja3BvaW505Lit5ZCr5pyJU2FkVGFsa2Vy5ZKMV2F2MkxpcAptdiBMaW5seS1UYWxrZXIvY2hlY2twb2ludHMvKiAuL2NoZWNrcG9pbnRzCgojIFNhZFRhbGtlcueahOWinuW8ukdGUEdBTgojIHBpcCBpbnN0YWxsIGdmcGdhbgojIG12IExpbmx5LVRhbGtlci9nZnBhbiAuLwoKIyDor63pn7PlhYvpmobmqKHlnosKbXYgTGlubHktVGFsa2VyL0dQVF9Tb1ZJVFMvcHJldHJhaW5lZF9tb2RlbHMvKiAuL0dQVF9Tb1ZJVFMvcHJldHJhaW5lZF9tb2RlbHMvCgojIFF3ZW7lpKfmqKHlnosKbXYgTGlubHktVGFsa2VyL1F3ZW4gLi8KYGBgCgrkuLrkuoblpKflrrbnmoTpg6jnvbLkvb/nlKjmlrnkvr/vvIzmm7TmlrDkuobkuIDkuKpgY29uZmlncy5weWDmlofku7bvvIzlj6/ku6Xlr7nlhbbov5vooYzkuIDkupvotoXlj4LmlbDkv67mlLnljbPlj68KCmBgYGJhc2gKIyDorr7lpIfov5DooYznq6/lj6MgKERldmljZSBydW5uaW5nIHBvcnQpCnBvcnQgPSA3ODYwCiMgYXBp6L+Q6KGM56uv5Y+j5Y+KSVAgKEFQSSBydW5uaW5nIHBvcnQgYW5kIElQKQptb2RlID0gJ2FwaScgIyBhcGkg6ZyA6KaB5YWI6L+Q6KGMTGlubHktYXBpLWZhc3QucHnvvIzmmoLml7bku4Xku4XpgILnlKjkuo5MaW5seQoKIyDmnKzlnLDnq6/lj6Nsb2NhbGhvc3Q6MTI3LjAuMC4xIOWFqOWxgOerr+WPo+i9rOWPkToiMC4wLjAuMCIKaXAgPSAnMTI3LjAuMC4xJyAKYXBpX3BvcnQgPSA3ODcxCgojIEzmqKHlnovot6/lvoQgKExpbmx5IG1vZGVsIHBhdGgpCm1vZGUgPSAnb2ZmbGluZScKbW9kZWxfcGF0aCA9ICdRd2VuL1F3ZW4tMV84Qi1DaGF0JwoKIyBzc2zor4HkuaYgKFNTTCBjZXJ0aWZpY2F0ZSkg6bqm5YWL6aOO5a+56K+d6ZyA6KaB5q2k5Y+C5pWwCiMg5pyA5aW96LCD5pW05Li657ud5a+56Lev5b6ECnNzbF9jZXJ0ZmlsZSA9ICIuL2h0dHBzX2NlcnQvY2VydC5wZW0iCnNzbF9rZXlmaWxlID0gIi4vaHR0cHNfY2VydC9rZXkucGVtIgpgYGAKCiMjIOWQr+WKqFdlYlVJCgrkuYvliY3miJHlsIblvojlpJrkuKrniYjmnKzpg73mmK/liIblvIDmnaXnmoTvvIzlrp7pmYXkuIrov5DooYzlpJrkuKrkvJrmr5TovoPpurvng6bvvIzmiYDku6XlkI7nu63miJHlop7liqDkuoblj5jmiJBXZWJVSeS4gOS4queVjOmdouWNs+WPr+S9k+mqjO+8jOWQjue7reS5n+S8muS4jeaWreabtOaWsAoK546w5Zyo5bey5Yqg5YWlV2ViVUnnmoTlip/og73lpoLkuIsKCi0gW3hdIOaWh+acrC/or63pn7PmlbDlrZfkurrlr7nor53vvIjlm7rlrprmlbDlrZfkurrvvIzliIbnlLflpbPop5LoibLvvIkKLSBbeF0g5Lu75oSP5Zu+54mH5pWw5a2X5Lq65a+56K+d77yI5Y+v5LiK5Lyg5Lu75oSP5pWw5a2X5Lq677yJCi0gW3hdIOWkmui9rkdQVOWvueivne+8iOWKoOWFpeWOhuWPsuWvueivneaVsOaNru+8jOmTvuaOpeS4iuS4i+aWh++8iQotIFt4XSDor63pn7PlhYvpmoblr7nor53vvIjln7rkuo5HUFQtU29WSVRT6K6+572u6L+b6KGM6K+t6Z+z5YWL6ZqG77yM5YaF572u54Of5ZeT6Z+z77yM5Y+v5qC55o2u6K+t6Z+z5a+56K+d55qE5aOw6Z+z6L+b6KGM5YWL6ZqG77yJCgpgYGBiYXNoCiMgV2ViVUkKcHl0aG9uIHdlYnVpLnB5CmBgYAoKIVtdKGh0dHBzOi8vZ2l0aHViLmNvbS9LZWRyZWFtaXgvTGlubHktVGFsa2VyL3Jhdy9tYWluL2RvY3MvV2ViVUkucG5nKQoKCgrnjrDlnKjnmoTlkK/liqjkuIDlhbHmnInlh6Dnp43mqKHlvI/vvIzlj6/ku6XpgInmi6nnibnlrprnmoTlnLrmma/ov5vooYzorr7nva4KCuesrOS4gOenjeWPquacieWbuuWumuS6huS6uueJqemXruetlO+8jOiuvue9ruWlveS6huS6uueJqe+8jOecgeWOu+S6humihOWkhOeQhuaXtumXtAoKYGBgYmFzaApweXRob24gYXBwLnB5CmBgYAoKIVtdKGh0dHBzOi8vZ2l0aHViLmNvbS9LZWRyZWFtaXgvTGlubHktVGFsa2VyL3Jhdy9tYWluL2RvY3MvVUkucG5nKQoK5pyA6L+R5pu05paw5LqG56ys5LiA56eN5qih5byP77yM5Yqg5YWl5LqGV2F2MkxpcOaooeWei+i/m+ihjOWvueivnQoKYGBgYmFzaApweXRob24gYXBwdjIucHkKYGBgCgrnrKzkuoznp43mmK/lj6/ku6Xku7vmhI/kuIrkvKDlm77niYfov5vooYzlr7nor50KCmBgYGJhc2gKcHl0aG9uIGFwcF9pbWcucHkKYGBgCgohW10oaHR0cHM6Ly9naXRodWIuY29tL0tlZHJlYW1peC9MaW5seS1UYWxrZXIvcmF3L21haW4vZG9jcy9VSTIucG5nKQoK56ys5LiJ56eN5piv5Zyo56ys5LiA56eN55qE5Z+656GA5LiK5Yqg5YWl5LqG5aSn6K+t6KiA5qih5Z6L77yM5Yqg5YWl5LqG5aSa6L2u55qER1BU5a+56K+dCgpgYGBiYXNoCnB5dGhvbiBhcHBfbXVsdGkucHkKYGBgCgohW10oaHR0cHM6Ly9naXRodWIuY29tL0tlZHJlYW1peC9MaW5seS1UYWxrZXIvcmF3L21haW4vZG9jcy9VSTMucG5nKQoK546w5Zyo5Yqg5YWl5LqG6K+t6Z+z5YWL6ZqG55qE6YOo5YiG77yM5Y+v5Lul6Ieq55Sx5YiH5o2i6Ieq5bex5YWL6ZqG55qE5aOw6Z+z5qih5Z6L5ZKM5a+55bqU55qE5Lq65Zu+54mH6L+b6KGM5a6e546w77yM6L+Z6YeM5oiR6YCJ5oup5LqG5LiA5Liq54Of5ZeT6Z+z5ZKM55S355Sf5Zu+54mHCgpgYGBiYXNoCnB5dGhvbiBhcHBfdml0cy5weQpgYGAKCuWKoOWFpeS6huesrOWbm+enjeaWueW8j++8jOS4jeWbuuWumuWcuuaZr+i/m+ihjOWvueivne+8jOebtOaOpei+k+WFpeivremfs+aIluiAheeUn+aIkOivremfs+i/m+ihjOaVsOWtl+S6uueUn+aIkO+8jOWGhee9ruS6hlNhZHRhbGtlcu+8jFdhdjJMaXDvvIxFUi1OZVJG562J5pa55byPCgo+IEVSLU5lUkbmmK/pkojlr7nljZXni6zkuIDkuKrkurrnmoTop4bpopHov5vooYzorq3nu4PnmoTvvIzmiYDku6XpnIDopoHmm7/mjaLnibnlrprnmoTmqKHlnovmiY3og73ov5vooYzmuLLmn5PlvpfliLDmraPnoa7nmoTnu5PmnpzvvIzlhoXnva7kuoZPYmFtYeeahOadg+mHje+8jOWPr+ebtOaOpeeUqAoKYGBgYmFzaApweXRob24gYXBwX3RhbGsucHkKYGBgCgohW10oaHR0cHM6Ly9naXRodWIuY29tL0tlZHJlYW1peC9MaW5seS1UYWxrZXIvcmF3L21haW4vZG9jcy9VSTQucG5nKQoKIyMg5paH5Lu25aS557uT5p6ECgrmiYDmnInnmoTmnYPph43pg6jliIblj6/ku6Xku47ov5nkuIvovb0KCi0gW0JhaWR1ICjnmb7luqbkupHnm5gpXShodHRwczovL3Bhbi5iYWlkdS5jb20vcy8xZUYxM08tOHd5dzRCM010ZXNjdFF5Zz9wd2Q9bGlubCkgKFBhc3N3b3JkOiBgbGlubGApCi0gW2h1Z2dpbmdmYWNlXShodHRwczovL2h1Z2dpbmdmYWNlLmNvL0tlZHJlYW1peC9MaW5seS1UYWxrZXIpCi0gW21vZGVsc2NvcGVdKGh0dHBzOi8vd3d3Lm1vZGVsc2NvcGUuY24vbW9kZWxzL0tlZHJlYW1peC9MaW5seS1UYWxrZXIvZmlsZXMpIGNvbW1pbmcgc29vbgoK5p2D6YeN5paH5Lu25aS557uT5p6E5aaC5LiLCgpgYGBiYXNoCkxpbmx5LVRhbGtlci8gCuKUnOKUgOKUgCBjaGVja3BvaW50cwrilILCoMKgIOKUnOKUgOKUgCBodWIK4pSCwqDCoCDilILCoMKgIOKUlOKUgOKUgCBjaGVja3BvaW50cwrilILCoMKgIOKUgsKgwqAgICAgIOKUlOKUgOKUgCBzM2ZkLTYxOWEzMTY4MTIucHRoCuKUgsKgwqAg4pSc4pSA4pSAIGxpcHN5bmNfZXhwZXJ0LnB0aArilILCoMKgIOKUnOKUgOKUgCBtYXBwaW5nXzAwMTA5LW1vZGVsLnB0aC50YXIK4pSCwqDCoCDilJzilIDilIAgbWFwcGluZ18wMDIyOS1tb2RlbC5wdGgudGFyCuKUgsKgwqAg4pSc4pSA4pSAIFNhZFRhbGtlcl9WMC4wLjJfMjU2LnNhZmV0ZW5zb3JzCuKUgsKgwqAg4pSc4pSA4pSAIHZpc3VhbF9xdWFsaXR5X2Rpc2MucHRoCuKUgsKgwqAg4pSc4pSA4pSAIHdhdjJsaXBfZ2FuLnB0aArilILCoMKgIOKUlOKUgOKUgCB3YXYybGlwLnB0aArilJzilIDilIAgZ2ZwZ2FuCuKUgsKgwqAg4pSU4pSA4pSAIHdlaWdodHMK4pSCwqDCoCAgICAg4pSc4pSA4pSAIGFsaWdubWVudF9XRkxXXzRIRy5wdGgK4pSCwqDCoCAgICAg4pSU4pSA4pSAIGRldGVjdGlvbl9SZXNuZXQ1MF9GaW5hbC5wdGgK4pSc4pSA4pSAIEdQVF9Tb1ZJVFMK4pSCwqDCoCDilJTilIDilIAgcHJldHJhaW5lZF9tb2RlbHMK4pSCwqDCoCAgICAg4pSc4pSA4pSAIGNoaW5lc2UtaHViZXJ0LWJhc2UK4pSCwqDCoCAgICAg4pSCwqDCoCDilJzilIDilIAgY29uZmlnLmpzb24K4pSCwqDCoCAgICAg4pSCwqDCoCDilJzilIDilIAgcHJlcHJvY2Vzc29yX2NvbmZpZy5qc29uCuKUgsKgwqAgICAgIOKUgsKgwqAg4pSU4pSA4pSAIHB5dG9yY2hfbW9kZWwuYmluCuKUgsKgwqAgICAgIOKUnOKUgOKUgCBjaGluZXNlLXJvYmVydGEtd3dtLWV4dC1sYXJnZQrilILCoMKgICAgICDilILCoMKgIOKUnOKUgOKUgCBjb25maWcuanNvbgrilILCoMKgICAgICDilILCoMKgIOKUnOKUgOKUgCBweXRvcmNoX21vZGVsLmJpbgrilILCoMKgICAgICDilILCoMKgIOKUlOKUgOKUgCB0b2tlbml6ZXIuanNvbgrilILCoMKgICAgICDilJzilIDilIAgUkVBRE1FLm1kCuKUgsKgwqAgICAgIOKUnOKUgOKUgCBzMWJlcnQyNWh6LTJraC1sb25nZXItZXBvY2g9NjhlLXN0ZXA9NTAyMzIuY2twdArilILCoMKgICAgICDilJzilIDilIAgczJENDg4ay5wdGgK4pSCwqDCoCAgICAg4pSc4pSA4pSAIHMyRzQ4OGsucHRoCuKUgsKgwqAgICAgIOKUlOKUgOKUgCBzcGVlY2hfcGFyYWZvcm1lci1sYXJnZV9hc3JfbmF0LXpoLWNuLTE2ay1jb21tb24tdm9jYWI4NDA0LXB5dG9yY2gK4pSc4pSA4pSAIFF3ZW4K4pSCwqDCoCDilJTilIDilIAgUXdlbi0xXzhCLUNoYXQK4pSCwqDCoCAgICAg4pSc4pSA4pSAIGFzc2V0cwrilILCoMKgICAgICDilILCoMKgIOKUnOKUgOKUgCBsb2dvLmpwZwrilILCoMKgICAgICDilILCoMKgIOKUnOKUgOKUgCBxd2VuX3Rva2VuaXplci5wbmcK4pSCwqDCoCAgICAg4pSCwqDCoCDilJzilIDilIAgcmVhY3Rfc2hvd2Nhc2VfMDAxLnBuZwrilILCoMKgICAgICDilILCoMKgIOKUnOKUgOKUgCByZWFjdF9zaG93Y2FzZV8wMDIucG5nCuKUgsKgwqAgICAgIOKUgsKgwqAg4pSU4pSA4pSAIHdlY2hhdC5wbmcK4pSCwqDCoCAgICAg4pSc4pSA4pSAIGNhY2hlX2F1dG9ncHRxX2N1ZGFfMjU2LmNwcArilILCoMKgICAgICDilJzilIDilIAgY2FjaGVfYXV0b2dwdHFfY3VkYV9rZXJuZWxfMjU2LmN1CuKUgsKgwqAgICAgIOKUnOKUgOKUgCBjb25maWcuanNvbgrilILCoMKgICAgICDilJzilIDilIAgY29uZmlndXJhdGlvbl9xd2VuLnB5CuKUgsKgwqAgICAgIOKUnOKUgOKUgCBjcHBfa2VybmVscy5weQrilILCoMKgICAgICDilJzilIDilIAgZXhhbXBsZXMK4pSCwqDCoCAgICAg4pSCwqDCoCDilJTilIDilIAgcmVhY3RfcHJvbXB0Lm1kCuKUgsKgwqAgICAgIOKUnOKUgOKUgCBnZW5lcmF0aW9uX2NvbmZpZy5qc29uCuKUgsKgwqAgICAgIOKUnOKUgOKUgCBMSUNFTlNFCuKUgsKgwqAgICAgIOKUnOKUgOKUgCBtb2RlbC0wMDAwMS1vZi0wMDAwMi5zYWZldGVuc29ycwrilILCoMKgICAgICDilJzilIDilIAgbW9kZWwtMDAwMDItb2YtMDAwMDIuc2FmZXRlbnNvcnMK4pSCwqDCoCAgICAg4pSc4pSA4pSAIG1vZGVsaW5nX3F3ZW4ucHkK4pSCwqDCoCAgICAg4pSc4pSA4pSAIG1vZGVsLnNhZmV0ZW5zb3JzLmluZGV4Lmpzb24K4pSCwqDCoCAgICAg4pSc4pSA4pSAIE5PVElDRQrilILCoMKgICAgICDilJzilIDilIAgcXdlbl9nZW5lcmF0aW9uX3V0aWxzLnB5CuKUgsKgwqAgICAgIOKUnOKUgOKUgCBxd2VuLnRpa3Rva2VuCuKUgsKgwqAgICAgIOKUnOKUgOKUgCBSRUFETUUubWQK4pSCwqDCoCAgICAg4pSc4pSA4pSAIHRva2VuaXphdGlvbl9xd2VuLnB5CuKUgsKgwqAgICAgIOKUlOKUgOKUgCB0b2tlbml6ZXJfY29uZmlnLmpzb24K4pSU4pSA4pSAIFJFQURNRS5tZApgYGAKCgo=
+# 数字人智能对话系统 - Linly-Talker — “数字人交互，与虚拟的自己互动”
+
+<div align="center">
+<h1>Linly-Talker WebUI</h1>
+
+
+[![madewithlove](https://img.shields.io/badge/made_with-%E2%9D%A4-red?style=for-the-badge&labelColor=orange)](https://github.com/Kedreamix/Linly-Talker)
+
+<img src="https://github.com/Kedreamix/Linly-Talker/raw/main/docs/linly_logo.png" /><br>
+
+[![Open In Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/github/Kedreamix/Linly-Talker/blob/main/colab_webui.ipynb)
+[![Licence](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=for-the-badge)](https://github.com/Kedreamix/Linly-Talker/blob/main/LICENSE)
+[![Huggingface](https://img.shields.io/badge/🤗%20-Models%20Repo-yellow.svg?style=for-the-badge)](https://huggingface.co/Kedreamix/Linly-Talker)
+
+[**English**](https://github.com/Kedreamix/Linly-Talker/blob/main/README.md) | [**中文简体**](https://github.com/Kedreamix/Linly-Talker/blob/main/README_zh.md)
+
+</div>
+
+
+**2023.12 更新** 📆
+
+**用户可以上传任意图片进行对话**
+
+**2024.01 更新** 📆
+
+- **令人兴奋的消息！我现在已经将强大的GeminiPro和Qwen大模型融入到我们的对话场景中。用户现在可以在对话中上传任何图片，为我们的互动增添了全新的层面。**
+- **更新了FastAPI的部署调用方法。** 
+- **更新了微软TTS的高级设置选项，增加声音种类的多样性，以及加入视频字幕加强可视化。**
+- **更新了GPT多轮对话系统，使得对话有上下文联系，提高数字人的交互性和真实感。**
+
+**2024.02 更新** 📆
+
+- **更新了Gradio的版本为最新版本4.16.0，使得界面拥有更多的功能，比如可以摄像头拍摄图片构建数字人等。**
+- **更新了ASR和THG，其中ASR加入了阿里的FunASR，具体更快的速度；THG部分加入了Wav2Lip模型，ER-NeRF在准备中(Comming Soon)。**
+- **加入了语音克隆方法GPT-SoVITS模型，能够通过微调一分钟对应人的语料进行克隆，效果还是相当不错的，值得推荐。**
+- **集成一个WebUI界面，能够更好的运行Linly-Talker。**
+
+**2024.04 更新** 📆
+
+- **更新了除 Edge TTS的 Paddle TTS的离线方式。**
+- **更新了ER-NeRF作为Avatar生成的选择之一。**
+- **更新了app_talk.py，在不基于对话场景可自由上传语音和图片视频生成。**
+
+---
+
+<details>
+<summary>目录</summary>
+
+
+<!-- TOC -->
+
+- [数字人对话系统 - Linly-Talker —— “数字人交互，与虚拟的自己互动”](#数字人对话系统---linly-talker--数字人交互与虚拟的自己互动)
+  - [介绍](#介绍)
+  - [TO DO LIST](#to-do-list)
+  - [示例](#示例)
+  - [创建环境](#创建环境)
+  - [ASR - Speech Recognition](#asr---speech-recognition)
+    - [Whisper](#whisper)
+    - [FunASR](#funasr)
+  - [TTS - Edge TTS](#tts---edge-tts)
+  - [Voice Clone](#voice-clone)
+    - [GPT-SoVITS（推荐）](#gpt-sovits推荐)
+    - [XTTS](#xtts)
+  - [THG - Avatar](#thg---avatar)
+    - [SadTalker](#sadtalker)
+    - [Wav2Lip](#wav2lip)
+    - [ER-NeRF（Comming Soon）](#er-nerfcomming-soon)
+  - [LLM - Conversation](#llm---conversation)
+    - [Linly-AI](#linly-ai)
+    - [Qwen](#qwen)
+    - [Gemini-Pro](#gemini-pro)
+    - [LLM 多模型选择](#llm-多模型选择)
+  - [优化](#优化)
+  - [Gradio](#gradio)
+  - [启动WebUI](#启动webui)
+  - [文件夹结构](#文件夹结构)
+  - [参考](#参考)
+  - [Star History](#star-history)
+
+<!-- /TOC -->
+
+</details>
+
+
+
+## 介绍
+
+Linly-Talker是一款创新的数字人对话系统，它融合了最新的人工智能技术，包括大型语言模型（LLM）、自动语音识别（ASR）、文本到语音转换（TTS）和语音克隆技术。这个系统通过Gradio平台提供了一个交互式的Web界面，允许用户上传图片与AI进行个性化的对话交流。
+
+系统的核心特点包括：
+
+1. **多模型集成**：Linly-Talker整合了Linly、GeminiPro、Qwen等大模型，以及Whisper、SadTalker等视觉模型，实现了高质量的对话和视觉生成。
+2. **多轮对话能力**：通过GPT模型的多轮对话系统，Linly-Talker能够理解并维持上下文相关的连贯对话，极大地提升了交互的真实感。
+3. **语音克隆**：利用GPT-SoVITS等技术，用户可以上传一分钟的语音样本进行微调，系统将克隆用户的声音，使得数字人能够以用户的声音进行对话。
+4. **实时互动**：系统支持实时语音识别和视频字幕，使得用户可以通过语音与数字人进行自然的交流。
+5. **视觉增强**：通过数字人生成等技术，Linly-Talker能够生成逼真的数字人形象，提供更加沉浸式的体验。
+
+Linly-Talker的设计理念是创造一种全新的人机交互方式，不仅仅是简单的问答，而是通过高度集成的技术，提供一个能够理解、响应并模拟人类交流的智能数字人。
+
+![The system architecture of multimodal human–computer interaction.](https://github.com/Kedreamix/Linly-Talker/raw/main/docs/HOI.png)
+
+> 查看我们的介绍视频 [demo video](https://www.bilibili.com/video/BV1rN4y1a76x/)
+>
+> 在B站上我录了一系列视频，也代表我更新的每一步与使用方法，详细查看[数字人智能对话系统 - Linly-Talker合集](https://space.bilibili.com/241286257/channel/collectiondetail?sid=2065753)
+>
+> -  [🔥🔥🔥数字人对话系统 Linly-Talker🔥🔥🔥](https://www.bilibili.com/video/BV1rN4y1a76x/)
+> - [🚀数字人的未来：Linly-Talker+GPT-SoVIT语音克隆技术的赋能之道](https://www.bilibili.com/video/BV1S4421A7gh/)
+> - [AutoDL平台部署Linly-Talker (0基础小白超详细教程)](https://www.bilibili.com/video/BV1uT421m74z/)
+> - [Linly-Talker 更新离线TTS集成及定制数字人方案](https://www.bilibili.com/video/BV1Mr421u7NN/)
+
+## TO DO LIST
+
+- [x] 基本完成对话系统流程，能够`语音对话`
+- [x] 加入了LLM大模型，包括`Linly`，`Qwen`和`GeminiPro`的使用
+- [x] 可上传`任意数字人照片`进行对话
+- [x] Linly加入`FastAPI`调用方式
+- [x] 利用微软`TTS`加入高级选项，可设置对应人声以及音调等参数，增加声音的多样性
+- [x] 视频生成加入`字幕`，能够更好的进行可视化
+- [x] GPT`多轮对话`系统（提高数字人的交互性和真实感，增强数字人的智能）
+- [x] 优化Gradio界面，加入更多模型，如Wav2Lip，FunASR等
+- [x] `语音克隆`技术，加入GPT-SoVITS，只需要一分钟的语音简单微调即可（语音克隆合成自己声音，提高数字人分身的真实感和互动体验）
+- [x] 加入离线TTS以及NeRF-based的方法和模型
+- [ ] `实时`语音识别（人与数字人之间就可以通过语音进行对话交流)
+
+🔆 该项目 Linly-Talker 正在进行中 - 欢迎提出PR请求！如果您有任何关于新的模型方法、研究、技术或发现运行错误的建议，请随时编辑并提交 PR。您也可以打开一个问题或通过电子邮件直接联系我。📩⭐ 如果您发现这个Github Project有用，请给它点个星！🤩
+
+> 如果在部署的时候有任何的问题，可以关注[常见问题汇总.md](https://github.com/Kedreamix/Linly-Talker/blob/main/常见问题汇总.md)部分，我已经整理了可能出现的所有问题，另外交流群也在这里，我会定时更新，感谢大家的关注与使用！！！
+
+###### 模型文件和权重，请浏览“模型文件”页面获取。
+
+
+接下来还需要安装对应的模型，有以下下载方式，下载后安装文件架结构放置，文件夹结构在本文最后有说明。
+
+- [Baidu (百度云盘)](https://pan.baidu.com/s/1eF13O-8wyw4B3MtesctQyg?pwd=linl) (Password: `linl`)
+- [huggingface](https://huggingface.co/Kedreamix/Linly-Talker)
+- [modelscope](https://www.modelscope.cn/models/Kedreamix/Linly-Talker/summary) 
+
+**HuggingFace下载**
+
+如果速度太慢可以考虑镜像，参考[简便快捷获取 Hugging Face 模型（使用镜像站点）](https://kedreamix.github.io/2024/01/05/Note/HuggingFace/?highlight=镜像)
+
+```bash
+# 从huggingface下载预训练模型
+git lfs install
+git clone https://huggingface.co/Kedreamix/Linly-Talker
+```
+
+**ModelScope下载**
+
+```bash
+# 从modelscope下载预训练模型
+# 1. git 方法
+git lfs install
+git clone https://www.modelscope.cn/Kedreamix/Linly-Talker.git
+
+# 2. Python 代码下载
+pip install modelscope
+from modelscope import snapshot_download
+model_dir = snapshot_download('Kedreamix/Linly-Talker')
+```
+
+**移动所有模型到当前目录**
+
+如果百度网盘下载后，可以参考文档最后目录结构来移动
+
+```bash
+# 移动所有模型到当前目录
+# checkpoint中含有SadTalker和Wav2Lip
+mv Linly-Talker/checkpoints/* ./checkpoints
+
+# SadTalker的增强GFPGAN
+# pip install gfpgan
+# mv Linly-Talker/gfpan ./
+
+# 语音克隆模型
+mv Linly-Talker/GPT_SoVITS/pretrained_models/* ./GPT_SoVITS/pretrained_models/
+
+# Qwen大模型
+mv Linly-Talker/Qwen ./
+```
+
+为了大家的部署使用方便，更新了一个`configs.py`文件，可以对其进行一些超参数修改即可
+
+```bash
+# 设备运行端口 (Device running port)
+port = 7860
+# api运行端口及IP (API running port and IP)
+mode = 'api' # api 需要先运行Linly-api-fast.py，暂时仅仅适用于Linly
+
+# 本地端口localhost:127.0.0.1 全局端口转发:"0.0.0.0"
+ip = '127.0.0.1' 
+api_port = 7871
+
+# L模型路径 (Linly model path)
+mode = 'offline'
+model_path = 'Qwen/Qwen-1_8B-Chat'
+
+# ssl证书 (SSL certificate) 麦克风对话需要此参数
+# 最好调整为绝对路径
+ssl_certfile = "./https_cert/cert.pem"
+ssl_keyfile = "./https_cert/key.pem"
+```
+
+## 启动WebUI
+
+之前我将很多个版本都是分开来的，实际上运行多个会比较麻烦，所以后续我增加了变成WebUI一个界面即可体验，后续也会不断更新
+
+现在已加入WebUI的功能如下
+
+- [x] 文本/语音数字人对话（固定数字人，分男女角色）
+- [x] 任意图片数字人对话（可上传任意数字人）
+- [x] 多轮GPT对话（加入历史对话数据，链接上下文）
+- [x] 语音克隆对话（基于GPT-SoVITS设置进行语音克隆，内置烟嗓音，可根据语音对话的声音进行克隆）
+
+```bash
+# WebUI
+python webui.py
+```
+
+![](https://github.com/Kedreamix/Linly-Talker/raw/main/docs/WebUI.png)
+
+
+
+现在的启动一共有几种模式，可以选择特定的场景进行设置
+
+第一种只有固定了人物问答，设置好了人物，省去了预处理时间
+
+```bash
+python app.py
+```
+
+![](https://github.com/Kedreamix/Linly-Talker/raw/main/docs/UI.png)
+
+最近更新了第一种模式，加入了Wav2Lip模型进行对话
+
+```bash
+python appv2.py
+```
+
+第二种是可以任意上传图片进行对话
+
+```bash
+python app_img.py
+```
+
+![](https://github.com/Kedreamix/Linly-Talker/raw/main/docs/UI2.png)
+
+第三种是在第一种的基础上加入了大语言模型，加入了多轮的GPT对话
+
+```bash
+python app_multi.py
+```
+
+![](https://github.com/Kedreamix/Linly-Talker/raw/main/docs/UI3.png)
+
+现在加入了语音克隆的部分，可以自由切换自己克隆的声音模型和对应的人图片进行实现，这里我选择了一个烟嗓音和男生图片
+
+```bash
+python app_vits.py
+```
+
+加入了第四种方式，不固定场景进行对话，直接输入语音或者生成语音进行数字人生成，内置了Sadtalker，Wav2Lip，ER-NeRF等方式
+
+> ER-NeRF是针对单独一个人的视频进行训练的，所以需要替换特定的模型才能进行渲染得到正确的结果，内置了Obama的权重，可直接用
+
+```bash
+python app_talk.py
+```
+
+![](https://github.com/Kedreamix/Linly-Talker/raw/main/docs/UI4.png)
+
+## 文件夹结构
+
+所有的权重部分可以从这下载
+
+- [Baidu (百度云盘)](https://pan.baidu.com/s/1eF13O-8wyw4B3MtesctQyg?pwd=linl) (Password: `linl`)
+- [huggingface](https://huggingface.co/Kedreamix/Linly-Talker)
+- [modelscope](https://www.modelscope.cn/models/Kedreamix/Linly-Talker/files) comming soon
+
+权重文件夹结构如下
+
+```bash
+Linly-Talker/ 
+├── checkpoints
+│   ├── hub
+│   │   └── checkpoints
+│   │       └── s3fd-619a316812.pth
+│   ├── lipsync_expert.pth
+│   ├── mapping_00109-model.pth.tar
+│   ├── mapping_00229-model.pth.tar
+│   ├── SadTalker_V0.0.2_256.safetensors
+│   ├── visual_quality_disc.pth
+│   ├── wav2lip_gan.pth
+│   └── wav2lip.pth
+├── gfpgan
+│   └── weights
+│       ├── alignment_WFLW_4HG.pth
+│       └── detection_Resnet50_Final.pth
+├── GPT_SoVITS
+│   └── pretrained_models
+│       ├── chinese-hubert-base
+│       │   ├── config.json
+│       │   ├── preprocessor_config.json
+│       │   └── pytorch_model.bin
+│       ├── chinese-roberta-wwm-ext-large
+│       │   ├── config.json
+│       │   ├── pytorch_model.bin
+│       │   └── tokenizer.json
+│       ├── README.md
+│       ├── s1bert25hz-2kh-longer-epoch=68e-step=50232.ckpt
+│       ├── s2D488k.pth
+│       ├── s2G488k.pth
+│       └── speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch
+├── Qwen
+│   └── Qwen-1_8B-Chat
+│       ├── assets
+│       │   ├── logo.jpg
+│       │   ├── qwen_tokenizer.png
+│       │   ├── react_showcase_001.png
+│       │   ├── react_showcase_002.png
+│       │   └── wechat.png
+│       ├── cache_autogptq_cuda_256.cpp
+│       ├── cache_autogptq_cuda_kernel_256.cu
+│       ├── config.json
+│       ├── configuration_qwen.py
+│       ├── cpp_kernels.py
+│       ├── examples
+│       │   └── react_prompt.md
+│       ├── generation_config.json
+│       ├── LICENSE
+│       ├── model-00001-of-00002.safetensors
+│       ├── model-00002-of-00002.safetensors
+│       ├── modeling_qwen.py
+│       ├── model.safetensors.index.json
+│       ├── NOTICE
+│       ├── qwen_generation_utils.py
+│       ├── qwen.tiktoken
+│       ├── README.md
+│       ├── tokenization_qwen.py
+│       └── tokenizer_config.json
+└── README.md
+```
+
+

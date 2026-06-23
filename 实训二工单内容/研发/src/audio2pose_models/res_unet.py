@@ -1,1 +1,65 @@
-aW1wb3J0IHRvcmNoCmltcG9ydCB0b3JjaC5ubiBhcyBubgpmcm9tIHNyYy5hdWRpbzJwb3NlX21vZGVscy5uZXR3b3JrcyBpbXBvcnQgUmVzaWR1YWxDb252LCBVcHNhbXBsZQoKCmNsYXNzIFJlc1VuZXQobm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjaGFubmVsPTEsIGZpbHRlcnM9WzMyLCA2NCwgMTI4LCAyNTZdKToKICAgICAgICBzdXBlcihSZXNVbmV0LCBzZWxmKS5fX2luaXRfXygpCgogICAgICAgIHNlbGYuaW5wdXRfbGF5ZXIgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICBubi5Db252MmQoY2hhbm5lbCwgZmlsdGVyc1swXSwga2VybmVsX3NpemU9MywgcGFkZGluZz0xKSwKICAgICAgICAgICAgbm4uQmF0Y2hOb3JtMmQoZmlsdGVyc1swXSksCiAgICAgICAgICAgIG5uLlJlTFUoKSwKICAgICAgICAgICAgbm4uQ29udjJkKGZpbHRlcnNbMF0sIGZpbHRlcnNbMF0sIGtlcm5lbF9zaXplPTMsIHBhZGRpbmc9MSksCiAgICAgICAgKQogICAgICAgIHNlbGYuaW5wdXRfc2tpcCA9IG5uLlNlcXVlbnRpYWwoCiAgICAgICAgICAgIG5uLkNvbnYyZChjaGFubmVsLCBmaWx0ZXJzWzBdLCBrZXJuZWxfc2l6ZT0zLCBwYWRkaW5nPTEpCiAgICAgICAgKQoKICAgICAgICBzZWxmLnJlc2lkdWFsX2NvbnZfMSA9IFJlc2lkdWFsQ29udihmaWx0ZXJzWzBdLCBmaWx0ZXJzWzFdLCBzdHJpZGU9KDIsMSksIHBhZGRpbmc9MSkKICAgICAgICBzZWxmLnJlc2lkdWFsX2NvbnZfMiA9IFJlc2lkdWFsQ29udihmaWx0ZXJzWzFdLCBmaWx0ZXJzWzJdLCBzdHJpZGU9KDIsMSksIHBhZGRpbmc9MSkKCiAgICAgICAgc2VsZi5icmlkZ2UgPSBSZXNpZHVhbENvbnYoZmlsdGVyc1syXSwgZmlsdGVyc1szXSwgc3RyaWRlPSgyLDEpLCBwYWRkaW5nPTEpCgogICAgICAgIHNlbGYudXBzYW1wbGVfMSA9IFVwc2FtcGxlKGZpbHRlcnNbM10sIGZpbHRlcnNbM10sIGtlcm5lbD0oMiwxKSwgc3RyaWRlPSgyLDEpKQogICAgICAgIHNlbGYudXBfcmVzaWR1YWxfY29udjEgPSBSZXNpZHVhbENvbnYoZmlsdGVyc1szXSArIGZpbHRlcnNbMl0sIGZpbHRlcnNbMl0sIHN0cmlkZT0xLCBwYWRkaW5nPTEpCgogICAgICAgIHNlbGYudXBzYW1wbGVfMiA9IFVwc2FtcGxlKGZpbHRlcnNbMl0sIGZpbHRlcnNbMl0sIGtlcm5lbD0oMiwxKSwgc3RyaWRlPSgyLDEpKQogICAgICAgIHNlbGYudXBfcmVzaWR1YWxfY29udjIgPSBSZXNpZHVhbENvbnYoZmlsdGVyc1syXSArIGZpbHRlcnNbMV0sIGZpbHRlcnNbMV0sIHN0cmlkZT0xLCBwYWRkaW5nPTEpCgogICAgICAgIHNlbGYudXBzYW1wbGVfMyA9IFVwc2FtcGxlKGZpbHRlcnNbMV0sIGZpbHRlcnNbMV0sIGtlcm5lbD0oMiwxKSwgc3RyaWRlPSgyLDEpKQogICAgICAgIHNlbGYudXBfcmVzaWR1YWxfY29udjMgPSBSZXNpZHVhbENvbnYoZmlsdGVyc1sxXSArIGZpbHRlcnNbMF0sIGZpbHRlcnNbMF0sIHN0cmlkZT0xLCBwYWRkaW5nPTEpCgogICAgICAgIHNlbGYub3V0cHV0X2xheWVyID0gbm4uU2VxdWVudGlhbCgKICAgICAgICAgICAgbm4uQ29udjJkKGZpbHRlcnNbMF0sIDEsIDEsIDEpLAogICAgICAgICAgICBubi5TaWdtb2lkKCksCiAgICAgICAgKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgICMgRW5jb2RlCiAgICAgICAgeDEgPSBzZWxmLmlucHV0X2xheWVyKHgpICsgc2VsZi5pbnB1dF9za2lwKHgpCiAgICAgICAgeDIgPSBzZWxmLnJlc2lkdWFsX2NvbnZfMSh4MSkKICAgICAgICB4MyA9IHNlbGYucmVzaWR1YWxfY29udl8yKHgyKQogICAgICAgICMgQnJpZGdlCiAgICAgICAgeDQgPSBzZWxmLmJyaWRnZSh4MykKCiAgICAgICAgIyBEZWNvZGUKICAgICAgICB4NCA9IHNlbGYudXBzYW1wbGVfMSh4NCkKICAgICAgICB4NSA9IHRvcmNoLmNhdChbeDQsIHgzXSwgZGltPTEpCgogICAgICAgIHg2ID0gc2VsZi51cF9yZXNpZHVhbF9jb252MSh4NSkKCiAgICAgICAgeDYgPSBzZWxmLnVwc2FtcGxlXzIoeDYpCiAgICAgICAgeDcgPSB0b3JjaC5jYXQoW3g2LCB4Ml0sIGRpbT0xKQoKICAgICAgICB4OCA9IHNlbGYudXBfcmVzaWR1YWxfY29udjIoeDcpCgogICAgICAgIHg4ID0gc2VsZi51cHNhbXBsZV8zKHg4KQogICAgICAgIHg5ID0gdG9yY2guY2F0KFt4OCwgeDFdLCBkaW09MSkKCiAgICAgICAgeDEwID0gc2VsZi51cF9yZXNpZHVhbF9jb252Myh4OSkKCiAgICAgICAgb3V0cHV0ID0gc2VsZi5vdXRwdXRfbGF5ZXIoeDEwKQoKICAgICAgICByZXR1cm4gb3V0cHV0
+import torch
+import torch.nn as nn
+from src.audio2pose_models.networks import ResidualConv, Upsample
+
+
+class ResUnet(nn.Module):
+    def __init__(self, channel=1, filters=[32, 64, 128, 256]):
+        super(ResUnet, self).__init__()
+
+        self.input_layer = nn.Sequential(
+            nn.Conv2d(channel, filters[0], kernel_size=3, padding=1),
+            nn.BatchNorm2d(filters[0]),
+            nn.ReLU(),
+            nn.Conv2d(filters[0], filters[0], kernel_size=3, padding=1),
+        )
+        self.input_skip = nn.Sequential(
+            nn.Conv2d(channel, filters[0], kernel_size=3, padding=1)
+        )
+
+        self.residual_conv_1 = ResidualConv(filters[0], filters[1], stride=(2,1), padding=1)
+        self.residual_conv_2 = ResidualConv(filters[1], filters[2], stride=(2,1), padding=1)
+
+        self.bridge = ResidualConv(filters[2], filters[3], stride=(2,1), padding=1)
+
+        self.upsample_1 = Upsample(filters[3], filters[3], kernel=(2,1), stride=(2,1))
+        self.up_residual_conv1 = ResidualConv(filters[3] + filters[2], filters[2], stride=1, padding=1)
+
+        self.upsample_2 = Upsample(filters[2], filters[2], kernel=(2,1), stride=(2,1))
+        self.up_residual_conv2 = ResidualConv(filters[2] + filters[1], filters[1], stride=1, padding=1)
+
+        self.upsample_3 = Upsample(filters[1], filters[1], kernel=(2,1), stride=(2,1))
+        self.up_residual_conv3 = ResidualConv(filters[1] + filters[0], filters[0], stride=1, padding=1)
+
+        self.output_layer = nn.Sequential(
+            nn.Conv2d(filters[0], 1, 1, 1),
+            nn.Sigmoid(),
+        )
+
+    def forward(self, x):
+        # Encode
+        x1 = self.input_layer(x) + self.input_skip(x)
+        x2 = self.residual_conv_1(x1)
+        x3 = self.residual_conv_2(x2)
+        # Bridge
+        x4 = self.bridge(x3)
+
+        # Decode
+        x4 = self.upsample_1(x4)
+        x5 = torch.cat([x4, x3], dim=1)
+
+        x6 = self.up_residual_conv1(x5)
+
+        x6 = self.upsample_2(x6)
+        x7 = torch.cat([x6, x2], dim=1)
+
+        x8 = self.up_residual_conv2(x7)
+
+        x8 = self.upsample_3(x8)
+        x9 = torch.cat([x8, x1], dim=1)
+
+        x10 = self.up_residual_conv3(x9)
+
+        output = self.output_layer(x10)
+
+        return output

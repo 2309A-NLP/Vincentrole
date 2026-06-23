@@ -1,1 +1,53 @@
-IiIiVGhpcyBzY3JpcHQgY29udGFpbnMgdGhlIHRyYWluaW5nIG9wdGlvbnMgZm9yIERlZXAzREZhY2VSZWNvbl9weXRvcmNoCiIiIgoKZnJvbSAuYmFzZV9vcHRpb25zIGltcG9ydCBCYXNlT3B0aW9ucwpmcm9tIHV0aWwgaW1wb3J0IHV0aWwKCmNsYXNzIFRyYWluT3B0aW9ucyhCYXNlT3B0aW9ucyk6CiAgICAiIiJUaGlzIGNsYXNzIGluY2x1ZGVzIHRyYWluaW5nIG9wdGlvbnMuCgogICAgSXQgYWxzbyBpbmNsdWRlcyBzaGFyZWQgb3B0aW9ucyBkZWZpbmVkIGluIEJhc2VPcHRpb25zLgogICAgIiIiCgogICAgZGVmIGluaXRpYWxpemUoc2VsZiwgcGFyc2VyKToKICAgICAgICBwYXJzZXIgPSBCYXNlT3B0aW9ucy5pbml0aWFsaXplKHNlbGYsIHBhcnNlcikKICAgICAgICAjIGRhdGFzZXQgcGFyYW1ldGVycwogICAgICAgICMgZm9yIHRyYWluCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1kYXRhX3Jvb3QnLCB0eXBlPXN0ciwgZGVmYXVsdD0nLi8nLCBoZWxwPSdkYXRhc2V0IHJvb3QnKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tZmxpc3QnLCB0eXBlPXN0ciwgZGVmYXVsdD0nZGF0YWxpc3QvdHJhaW4vbWFza3MudHh0JywgaGVscD0nbGlzdCBvZiBtYXNrIG5hbWVzIG9mIHRyYWluaW5nIHNldCcpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1iYXRjaF9zaXplJywgdHlwZT1pbnQsIGRlZmF1bHQ9MzIpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1kYXRhc2V0X21vZGUnLCB0eXBlPXN0ciwgZGVmYXVsdD0nZmxpc3QnLCBoZWxwPSdjaG9vc2VzIGhvdyBkYXRhc2V0cyBhcmUgbG9hZGVkLiBbTm9uZSB8IGZsaXN0XScpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1zZXJpYWxfYmF0Y2hlcycsIGFjdGlvbj0nc3RvcmVfdHJ1ZScsIGhlbHA9J2lmIHRydWUsIHRha2VzIGltYWdlcyBpbiBvcmRlciB0byBtYWtlIGJhdGNoZXMsIG90aGVyd2lzZSB0YWtlcyB0aGVtIHJhbmRvbWx5JykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLW51bV90aHJlYWRzJywgZGVmYXVsdD00LCB0eXBlPWludCwgaGVscD0nIyB0aHJlYWRzIGZvciBsb2FkaW5nIGRhdGEnKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tbWF4X2RhdGFzZXRfc2l6ZScsIHR5cGU9aW50LCBkZWZhdWx0PWZsb2F0KCJpbmYiKSwgaGVscD0nTWF4aW11bSBudW1iZXIgb2Ygc2FtcGxlcyBhbGxvd2VkIHBlciBkYXRhc2V0LiBJZiB0aGUgZGF0YXNldCBkaXJlY3RvcnkgY29udGFpbnMgbW9yZSB0aGFuIG1heF9kYXRhc2V0X3NpemUsIG9ubHkgYSBzdWJzZXQgaXMgbG9hZGVkLicpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1wcmVwcm9jZXNzJywgdHlwZT1zdHIsIGRlZmF1bHQ9J3NoaWZ0X3NjYWxlX3JvdF9mbGlwJywgaGVscD0nc2NhbGluZyBhbmQgY3JvcHBpbmcgb2YgaW1hZ2VzIGF0IGxvYWQgdGltZSBbc2hpZnRfc2NhbGVfcm90X2ZsaXAgfCBzaGlmdF9zY2FsZSB8IHNoaWZ0IHwgc2hpZnRfcm90X2ZsaXAgXScpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS11c2VfYXVnJywgdHlwZT11dGlsLnN0cjJib29sLCBuYXJncz0nPycsIGNvbnN0PVRydWUsIGRlZmF1bHQ9VHJ1ZSwgaGVscD0nd2hldGhlciB1c2UgZGF0YSBhdWdtZW50YXRpb24nKQoKICAgICAgICAjIGZvciB2YWwKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWZsaXN0X3ZhbCcsIHR5cGU9c3RyLCBkZWZhdWx0PSdkYXRhbGlzdC92YWwvbWFza3MudHh0JywgaGVscD0nbGlzdCBvZiBtYXNrIG5hbWVzIG9mIHZhbCBzZXQnKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tYmF0Y2hfc2l6ZV92YWwnLCB0eXBlPWludCwgZGVmYXVsdD0zMikKCgogICAgICAgICMgdmlzdWFsaXphdGlvbiBwYXJhbWV0ZXJzCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1kaXNwbGF5X2ZyZXEnLCB0eXBlPWludCwgZGVmYXVsdD0xMDAwLCBoZWxwPSdmcmVxdWVuY3kgb2Ygc2hvd2luZyB0cmFpbmluZyByZXN1bHRzIG9uIHNjcmVlbicpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1wcmludF9mcmVxJywgdHlwZT1pbnQsIGRlZmF1bHQ9MTAwLCBoZWxwPSdmcmVxdWVuY3kgb2Ygc2hvd2luZyB0cmFpbmluZyByZXN1bHRzIG9uIGNvbnNvbGUnKQogICAgICAgIAogICAgICAgICMgbmV0d29yayBzYXZpbmcgYW5kIGxvYWRpbmcgcGFyYW1ldGVycwogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tc2F2ZV9sYXRlc3RfZnJlcScsIHR5cGU9aW50LCBkZWZhdWx0PTUwMDAsIGhlbHA9J2ZyZXF1ZW5jeSBvZiBzYXZpbmcgdGhlIGxhdGVzdCByZXN1bHRzJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXNhdmVfZXBvY2hfZnJlcScsIHR5cGU9aW50LCBkZWZhdWx0PTEsIGhlbHA9J2ZyZXF1ZW5jeSBvZiBzYXZpbmcgY2hlY2twb2ludHMgYXQgdGhlIGVuZCBvZiBlcG9jaHMnKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tZXZhbHVhdGlvbl9mcmVxJywgdHlwZT1pbnQsIGRlZmF1bHQ9NTAwMCwgaGVscD0nZXZhbHVhdGlvbiBmcmVxJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXNhdmVfYnlfaXRlcicsIGFjdGlvbj0nc3RvcmVfdHJ1ZScsIGhlbHA9J3doZXRoZXIgc2F2ZXMgbW9kZWwgYnkgaXRlcmF0aW9uJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWNvbnRpbnVlX3RyYWluJywgYWN0aW9uPSdzdG9yZV90cnVlJywgaGVscD0nY29udGludWUgdHJhaW5pbmc6IGxvYWQgdGhlIGxhdGVzdCBtb2RlbCcpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1lcG9jaF9jb3VudCcsIHR5cGU9aW50LCBkZWZhdWx0PTEsIGhlbHA9J3RoZSBzdGFydGluZyBlcG9jaCBjb3VudCwgd2Ugc2F2ZSB0aGUgbW9kZWwgYnkgPGVwb2NoX2NvdW50PiwgPGVwb2NoX2NvdW50Pis8c2F2ZV9sYXRlc3RfZnJlcT4sIC4uLicpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1waGFzZScsIHR5cGU9c3RyLCBkZWZhdWx0PSd0cmFpbicsIGhlbHA9J3RyYWluLCB2YWwsIHRlc3QsIGV0YycpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1wcmV0cmFpbmVkX25hbWUnLCB0eXBlPXN0ciwgZGVmYXVsdD1Ob25lLCBoZWxwPSdyZXN1bWUgdHJhaW5pbmcgZnJvbSBhbm90aGVyIGNoZWNrcG9pbnQnKQoKICAgICAgICAjIHRyYWluaW5nIHBhcmFtZXRlcnMKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLW5fZXBvY2hzJywgdHlwZT1pbnQsIGRlZmF1bHQ9MjAsIGhlbHA9J251bWJlciBvZiBlcG9jaHMgd2l0aCB0aGUgaW5pdGlhbCBsZWFybmluZyByYXRlJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWxyJywgdHlwZT1mbG9hdCwgZGVmYXVsdD0wLjAwMDEsIGhlbHA9J2luaXRpYWwgbGVhcm5pbmcgcmF0ZSBmb3IgYWRhbScpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1scl9wb2xpY3knLCB0eXBlPXN0ciwgZGVmYXVsdD0nc3RlcCcsIGhlbHA9J2xlYXJuaW5nIHJhdGUgcG9saWN5LiBbbGluZWFyIHwgc3RlcCB8IHBsYXRlYXUgfCBjb3NpbmVdJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWxyX2RlY2F5X2Vwb2NocycsIHR5cGU9aW50LCBkZWZhdWx0PTEwLCBoZWxwPSdtdWx0aXBseSBieSBhIGdhbW1hIGV2ZXJ5IGxyX2RlY2F5X2Vwb2NocyBlcG9jaGVzJykKCiAgICAgICAgc2VsZi5pc1RyYWluID0gVHJ1ZQogICAgICAgIHJldHVybiBwYXJzZXIK
+"""This script contains the training options for Deep3DFaceRecon_pytorch
+"""
+
+from .base_options import BaseOptions
+from util import util
+
+class TrainOptions(BaseOptions):
+    """This class includes training options.
+
+    It also includes shared options defined in BaseOptions.
+    """
+
+    def initialize(self, parser):
+        parser = BaseOptions.initialize(self, parser)
+        # dataset parameters
+        # for train
+        parser.add_argument('--data_root', type=str, default='./', help='dataset root')
+        parser.add_argument('--flist', type=str, default='datalist/train/masks.txt', help='list of mask names of training set')
+        parser.add_argument('--batch_size', type=int, default=32)
+        parser.add_argument('--dataset_mode', type=str, default='flist', help='chooses how datasets are loaded. [None | flist]')
+        parser.add_argument('--serial_batches', action='store_true', help='if true, takes images in order to make batches, otherwise takes them randomly')
+        parser.add_argument('--num_threads', default=4, type=int, help='# threads for loading data')
+        parser.add_argument('--max_dataset_size', type=int, default=float("inf"), help='Maximum number of samples allowed per dataset. If the dataset directory contains more than max_dataset_size, only a subset is loaded.')
+        parser.add_argument('--preprocess', type=str, default='shift_scale_rot_flip', help='scaling and cropping of images at load time [shift_scale_rot_flip | shift_scale | shift | shift_rot_flip ]')
+        parser.add_argument('--use_aug', type=util.str2bool, nargs='?', const=True, default=True, help='whether use data augmentation')
+
+        # for val
+        parser.add_argument('--flist_val', type=str, default='datalist/val/masks.txt', help='list of mask names of val set')
+        parser.add_argument('--batch_size_val', type=int, default=32)
+
+
+        # visualization parameters
+        parser.add_argument('--display_freq', type=int, default=1000, help='frequency of showing training results on screen')
+        parser.add_argument('--print_freq', type=int, default=100, help='frequency of showing training results on console')
+        
+        # network saving and loading parameters
+        parser.add_argument('--save_latest_freq', type=int, default=5000, help='frequency of saving the latest results')
+        parser.add_argument('--save_epoch_freq', type=int, default=1, help='frequency of saving checkpoints at the end of epochs')
+        parser.add_argument('--evaluation_freq', type=int, default=5000, help='evaluation freq')
+        parser.add_argument('--save_by_iter', action='store_true', help='whether saves model by iteration')
+        parser.add_argument('--continue_train', action='store_true', help='continue training: load the latest model')
+        parser.add_argument('--epoch_count', type=int, default=1, help='the starting epoch count, we save the model by <epoch_count>, <epoch_count>+<save_latest_freq>, ...')
+        parser.add_argument('--phase', type=str, default='train', help='train, val, test, etc')
+        parser.add_argument('--pretrained_name', type=str, default=None, help='resume training from another checkpoint')
+
+        # training parameters
+        parser.add_argument('--n_epochs', type=int, default=20, help='number of epochs with the initial learning rate')
+        parser.add_argument('--lr', type=float, default=0.0001, help='initial learning rate for adam')
+        parser.add_argument('--lr_policy', type=str, default='step', help='learning rate policy. [linear | step | plateau | cosine]')
+        parser.add_argument('--lr_decay_epochs', type=int, default=10, help='multiply by a gamma every lr_decay_epochs epoches')
+
+        self.isTrain = True
+        return parser

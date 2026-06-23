@@ -1,1 +1,12 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIyBGaWxlICAgOiBfX2luaXRfXy5weQojIEF1dGhvciA6IEppYXl1YW4gTWFvCiMgRW1haWwgIDogbWFvamlheXVhbkBnbWFpbC5jb20KIyBEYXRlICAgOiAyNy8wMS8yMDE4CiMgCiMgVGhpcyBmaWxlIGlzIHBhcnQgb2YgU3luY2hyb25pemVkLUJhdGNoTm9ybS1QeVRvcmNoLgojIGh0dHBzOi8vZ2l0aHViLmNvbS92YWNhbmN5L1N5bmNocm9uaXplZC1CYXRjaE5vcm0tUHlUb3JjaAojIERpc3RyaWJ1dGVkIHVuZGVyIE1JVCBMaWNlbnNlLgoKZnJvbSAuYmF0Y2hub3JtIGltcG9ydCBTeW5jaHJvbml6ZWRCYXRjaE5vcm0xZCwgU3luY2hyb25pemVkQmF0Y2hOb3JtMmQsIFN5bmNocm9uaXplZEJhdGNoTm9ybTNkCmZyb20gLnJlcGxpY2F0ZSBpbXBvcnQgRGF0YVBhcmFsbGVsV2l0aENhbGxiYWNrLCBwYXRjaF9yZXBsaWNhdGlvbl9jYWxsYmFjawo=
+# -*- coding: utf-8 -*-
+# File   : __init__.py
+# Author : Jiayuan Mao
+# Email  : maojiayuan@gmail.com
+# Date   : 27/01/2018
+# 
+# This file is part of Synchronized-BatchNorm-PyTorch.
+# https://github.com/vacancy/Synchronized-BatchNorm-PyTorch
+# Distributed under MIT License.
+
+from .batchnorm import SynchronizedBatchNorm1d, SynchronizedBatchNorm2d, SynchronizedBatchNorm3d
+from .replicate import DataParallelWithCallback, patch_replication_callback

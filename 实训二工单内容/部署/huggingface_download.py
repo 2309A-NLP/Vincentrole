@@ -1,1 +1,11 @@
-IyBwaXAgaW5zdGFsbCBodWdnaW5nZmFjZV9odWIKIyBodHRwczovL2h1Z2dpbmdmYWNlLmNvL0tlZHJlYW1peC9MaW5seS1UYWxrZXIKZnJvbSBodWdnaW5nZmFjZV9odWIgaW1wb3J0IHNuYXBzaG90X2Rvd25sb2FkCgpzbmFwc2hvdF9kb3dubG9hZCgKICByZXBvX2lkPSJLZWRyZWFtaXgvTGlubHktVGFsa2VyIiwKICByZXN1bWVfZG93bmxvYWQ9VHJ1ZSwKICBsb2NhbF9kaXI9IktlZHJlYW1peC9MaW5seS1UYWxrZXIiLAogIGxvY2FsX2Rpcl91c2Vfc3ltbGlua3M9RmFsc2UsCiMgICBwcm94aWVzPXsiaHR0cHMiOiAiaHR0cDovL2xvY2FsaG9zdDo3ODkwIn0KKQ==
+# pip install huggingface_hub
+# https://huggingface.co/Kedreamix/Linly-Talker
+from huggingface_hub import snapshot_download
+
+snapshot_download(
+  repo_id="Kedreamix/Linly-Talker",
+  resume_download=True,
+  local_dir="Kedreamix/Linly-Talker",
+  local_dir_use_symlinks=False,
+#   proxies={"https": "http://localhost:7890"}
+)

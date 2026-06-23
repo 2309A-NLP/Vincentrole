@@ -1,1 +1,56 @@
-ZnJvbSBlYXN5ZGljdCBpbXBvcnQgRWFzeURpY3QgYXMgZWRpY3QKCiMgbWFrZSB0cmFpbmluZyBmYXN0ZXIKIyBvdXIgUkFNIGlzIDI1NkcKIyBtb3VudCAtdCB0bXBmcyAtbyBzaXplPTE0MEcgIHRtcGZzIC90cmFpbl90bXAKCmNvbmZpZyA9IGVkaWN0KCkKY29uZmlnLmxvc3MgPSAiYXJjZmFjZSIKY29uZmlnLm5ldHdvcmsgPSAicjUwIgpjb25maWcucmVzdW1lID0gRmFsc2UKY29uZmlnLm91dHB1dCA9ICJtczFtdjNfYXJjZmFjZV9yNTAiCgpjb25maWcuZGF0YXNldCA9ICJtczFtLXJldGluYWZhY2UtdDEiCmNvbmZpZy5lbWJlZGRpbmdfc2l6ZSA9IDUxMgpjb25maWcuc2FtcGxlX3JhdGUgPSAxCmNvbmZpZy5mcDE2ID0gRmFsc2UKY29uZmlnLm1vbWVudHVtID0gMC45CmNvbmZpZy53ZWlnaHRfZGVjYXkgPSA1ZS00CmNvbmZpZy5iYXRjaF9zaXplID0gMTI4CmNvbmZpZy5sciA9IDAuMSAgIyBiYXRjaCBzaXplIGlzIDUxMgoKaWYgY29uZmlnLmRhdGFzZXQgPT0gImVtb3JlIjoKICAgIGNvbmZpZy5yZWMgPSAiL3RyYWluX3RtcC9mYWNlc19lbW9yZSIKICAgIGNvbmZpZy5udW1fY2xhc3NlcyA9IDg1NzQyCiAgICBjb25maWcubnVtX2ltYWdlID0gNTgyMjY1MwogICAgY29uZmlnLm51bV9lcG9jaCA9IDE2CiAgICBjb25maWcud2FybXVwX2Vwb2NoID0gLTEKICAgIGNvbmZpZy5kZWNheV9lcG9jaCA9IFs4LCAxNCwgXQogICAgY29uZmlnLnZhbF90YXJnZXRzID0gWyJsZnciLCBdCgplbGlmIGNvbmZpZy5kYXRhc2V0ID09ICJtczFtLXJldGluYWZhY2UtdDEiOgogICAgY29uZmlnLnJlYyA9ICIvdHJhaW5fdG1wL21zMW0tcmV0aW5hZmFjZS10MSIKICAgIGNvbmZpZy5udW1fY2xhc3NlcyA9IDkzNDMxCiAgICBjb25maWcubnVtX2ltYWdlID0gNTE3OTUxMAogICAgY29uZmlnLm51bV9lcG9jaCA9IDI1CiAgICBjb25maWcud2FybXVwX2Vwb2NoID0gLTEKICAgIGNvbmZpZy5kZWNheV9lcG9jaCA9IFsxMSwgMTcsIDIyXQogICAgY29uZmlnLnZhbF90YXJnZXRzID0gWyJsZnciLCAiY2ZwX2ZwIiwgImFnZWRiXzMwIl0KCmVsaWYgY29uZmlnLmRhdGFzZXQgPT0gImdsaW50MzYwayI6CiAgICBjb25maWcucmVjID0gIi90cmFpbl90bXAvZ2xpbnQzNjBrIgogICAgY29uZmlnLm51bV9jbGFzc2VzID0gMzYwMjMyCiAgICBjb25maWcubnVtX2ltYWdlID0gMTcwOTE2NTcKICAgIGNvbmZpZy5udW1fZXBvY2ggPSAyMAogICAgY29uZmlnLndhcm11cF9lcG9jaCA9IC0xCiAgICBjb25maWcuZGVjYXlfZXBvY2ggPSBbOCwgMTIsIDE1LCAxOF0KICAgIGNvbmZpZy52YWxfdGFyZ2V0cyA9IFsibGZ3IiwgImNmcF9mcCIsICJhZ2VkYl8zMCJdCgplbGlmIGNvbmZpZy5kYXRhc2V0ID09ICJ3ZWJmYWNlIjoKICAgIGNvbmZpZy5yZWMgPSAiL3RyYWluX3RtcC9mYWNlc193ZWJmYWNlXzExMngxMTIiCiAgICBjb25maWcubnVtX2NsYXNzZXMgPSAxMDU3MgogICAgY29uZmlnLm51bV9pbWFnZSA9ICJmb3JnZXQiCiAgICBjb25maWcubnVtX2Vwb2NoID0gMzQKICAgIGNvbmZpZy53YXJtdXBfZXBvY2ggPSAtMQogICAgY29uZmlnLmRlY2F5X2Vwb2NoID0gWzIwLCAyOCwgMzJdCiAgICBjb25maWcudmFsX3RhcmdldHMgPSBbImxmdyIsICJjZnBfZnAiLCAiYWdlZGJfMzAiXQo=
+from easydict import EasyDict as edict
+
+# make training faster
+# our RAM is 256G
+# mount -t tmpfs -o size=140G  tmpfs /train_tmp
+
+config = edict()
+config.loss = "arcface"
+config.network = "r50"
+config.resume = False
+config.output = "ms1mv3_arcface_r50"
+
+config.dataset = "ms1m-retinaface-t1"
+config.embedding_size = 512
+config.sample_rate = 1
+config.fp16 = False
+config.momentum = 0.9
+config.weight_decay = 5e-4
+config.batch_size = 128
+config.lr = 0.1  # batch size is 512
+
+if config.dataset == "emore":
+    config.rec = "/train_tmp/faces_emore"
+    config.num_classes = 85742
+    config.num_image = 5822653
+    config.num_epoch = 16
+    config.warmup_epoch = -1
+    config.decay_epoch = [8, 14, ]
+    config.val_targets = ["lfw", ]
+
+elif config.dataset == "ms1m-retinaface-t1":
+    config.rec = "/train_tmp/ms1m-retinaface-t1"
+    config.num_classes = 93431
+    config.num_image = 5179510
+    config.num_epoch = 25
+    config.warmup_epoch = -1
+    config.decay_epoch = [11, 17, 22]
+    config.val_targets = ["lfw", "cfp_fp", "agedb_30"]
+
+elif config.dataset == "glint360k":
+    config.rec = "/train_tmp/glint360k"
+    config.num_classes = 360232
+    config.num_image = 17091657
+    config.num_epoch = 20
+    config.warmup_epoch = -1
+    config.decay_epoch = [8, 12, 15, 18]
+    config.val_targets = ["lfw", "cfp_fp", "agedb_30"]
+
+elif config.dataset == "webface":
+    config.rec = "/train_tmp/faces_webface_112x112"
+    config.num_classes = 10572
+    config.num_image = "forget"
+    config.num_epoch = 34
+    config.warmup_epoch = -1
+    config.decay_epoch = [20, 28, 32]
+    config.val_targets = ["lfw", "cfp_fp", "agedb_30"]

@@ -1,1 +1,21 @@
-IiIiVGhpcyBzY3JpcHQgY29udGFpbnMgdGhlIHRlc3Qgb3B0aW9ucyBmb3IgRGVlcDNERmFjZVJlY29uX3B5dG9yY2gKIiIiCgpmcm9tIC5iYXNlX29wdGlvbnMgaW1wb3J0IEJhc2VPcHRpb25zCgoKY2xhc3MgVGVzdE9wdGlvbnMoQmFzZU9wdGlvbnMpOgogICAgIiIiVGhpcyBjbGFzcyBpbmNsdWRlcyB0ZXN0IG9wdGlvbnMuCgogICAgSXQgYWxzbyBpbmNsdWRlcyBzaGFyZWQgb3B0aW9ucyBkZWZpbmVkIGluIEJhc2VPcHRpb25zLgogICAgIiIiCgogICAgZGVmIGluaXRpYWxpemUoc2VsZiwgcGFyc2VyKToKICAgICAgICBwYXJzZXIgPSBCYXNlT3B0aW9ucy5pbml0aWFsaXplKHNlbGYsIHBhcnNlcikgICMgZGVmaW5lIHNoYXJlZCBvcHRpb25zCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1waGFzZScsIHR5cGU9c3RyLCBkZWZhdWx0PSd0ZXN0JywgaGVscD0ndHJhaW4sIHZhbCwgdGVzdCwgZXRjJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWRhdGFzZXRfbW9kZScsIHR5cGU9c3RyLCBkZWZhdWx0PU5vbmUsIGhlbHA9J2Nob29zZXMgaG93IGRhdGFzZXRzIGFyZSBsb2FkZWQuIFtOb25lIHwgZmxpc3RdJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWltZ19mb2xkZXInLCB0eXBlPXN0ciwgZGVmYXVsdD0nZXhhbXBsZXMnLCBoZWxwPSdmb2xkZXIgZm9yIHRlc3QgaW1hZ2VzLicpCgogICAgICAgICMgRHJvcG91dCBhbmQgQmF0Y2hub3JtIGhhcyBkaWZmZXJlbnQgYmVoYXZpb3IgZHVyaW5nIHRyYWluaW5nIGFuZCB0ZXN0LgogICAgICAgIHNlbGYuaXNUcmFpbiA9IEZhbHNlCiAgICAgICAgcmV0dXJuIHBhcnNlcgo=
+"""This script contains the test options for Deep3DFaceRecon_pytorch
+"""
+
+from .base_options import BaseOptions
+
+
+class TestOptions(BaseOptions):
+    """This class includes test options.
+
+    It also includes shared options defined in BaseOptions.
+    """
+
+    def initialize(self, parser):
+        parser = BaseOptions.initialize(self, parser)  # define shared options
+        parser.add_argument('--phase', type=str, default='test', help='train, val, test, etc')
+        parser.add_argument('--dataset_mode', type=str, default=None, help='chooses how datasets are loaded. [None | flist]')
+        parser.add_argument('--img_folder', type=str, default='examples', help='folder for test images.')
+
+        # Dropout and Batchnorm has different behavior during training and test.
+        self.isTrain = False
+        return parser

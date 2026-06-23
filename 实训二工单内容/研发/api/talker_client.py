@@ -1,1 +1,92 @@
-aW1wb3J0IG9zCmltcG9ydCByZXF1ZXN0cwoKIyBTZXQgdGhlIGhvc3QgYW5kIHBvcnQgb2YgdGhlIHNlcnZpY2UKdGFsa2VyX3NlcnZpY2VfaG9zdCA9IG9zLmVudmlyb24uZ2V0KCJUQUxLRVJfU0VSVklDRV9IT1NUIiwgImxvY2FsaG9zdCIpCnRhbGtlcl9zZXJ2aWNlX3BvcnQgPSBvcy5lbnZpcm9uLmdldCgiVEFMS0VSX1NFUlZJQ0VfUE9SVCIsIDgwMDMpCgojIEFQSSBlbmRwb2ludCBVUkxzCkNIQU5HRV9NT0RFTF9VUkwgPSBmImh0dHA6Ly97dGFsa2VyX3NlcnZpY2VfaG9zdH06e3RhbGtlcl9zZXJ2aWNlX3BvcnR9L3RhbGtlcl9jaGFuZ2VfbW9kZWwvIgpUQUxLRVJfUkVTUE9OU0VfVVJMID0gZiJodHRwOi8ve3RhbGtlcl9zZXJ2aWNlX2hvc3R9Ont0YWxrZXJfc2VydmljZV9wb3J0fS90YWxrZXJfcmVzcG9uc2UvIgoKZGVmIGNoYW5nZV90YWxrZXJfbW9kZWwobW9kZWxfbmFtZSk6CiAgICAiIiJSZXF1ZXN0IHRvIGNoYW5nZSB0aGUgVGFsa2VyIG1vZGVsLiIiIgogICAgcGFyYW1zID0geyJtb2RlbF9uYW1lIjogbW9kZWxfbmFtZX0KICAgIHRyeToKICAgICAgICByZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QoQ0hBTkdFX01PREVMX1VSTCwgcGFyYW1zPXBhcmFtcykKICAgICAgICByZXNwb25zZS5yYWlzZV9mb3Jfc3RhdHVzKCkgICMgUmFpc2UgYW4gZXhjZXB0aW9uIGZvciBIVFRQIGVycm9ycwogICAgICAgIHByaW50KGYiTW9kZWwgY2hhbmdlIHN1Y2Nlc3NmdWw6IHtyZXNwb25zZS5qc29uKCl9IikKICAgIGV4Y2VwdCByZXF1ZXN0cy5SZXF1ZXN0RXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQoZiJNb2RlbCBjaGFuZ2UgZmFpbGVkOiB7ZX0iKQoKZGVmIHJlcXVlc3RfdGFsa2VyX3Jlc3BvbnNlKHNvdXJjZV9pbWFnZV9wYXRoLCBkcml2ZW5fYXVkaW9fcGF0aCwgcGF5bG9hZCwgb3V0cHV0X3ZpZGVvX3BhdGgpOgogICAgIiIiUmVxdWVzdCBUYWxrZXIgdG8gZ2VuZXJhdGUgdmlkZW8uIiIiCiAgICAKICAgICMgUHJlcGFyZSBwYXlsb2FkIGFzIGZvcm0gZGF0YSAoZW5zdXJlIGFsbCB2YWx1ZXMgYXJlIHN0cmluZ3MpCiAgICBkYXRhID0gewogICAgICAgICdwcmVwcm9jZXNzX3R5cGUnOiBwYXlsb2FkLmdldCgncHJlcHJvY2Vzc190eXBlJywgJ2Nyb3AnKSwKICAgICAgICAnaXNfc3RpbGxfbW9kZSc6IHN0cihwYXlsb2FkLmdldCgnaXNfc3RpbGxfbW9kZScsIEZhbHNlKSksCiAgICAgICAgJ2VuaGFuY2VyJzogc3RyKHBheWxvYWQuZ2V0KCdlbmhhbmNlcicsIEZhbHNlKSksCiAgICAgICAgJ2JhdGNoX3NpemUnOiBzdHIocGF5bG9hZC5nZXQoJ2JhdGNoX3NpemUnLCA0KSksCiAgICAgICAgJ3NpemVfb2ZfaW1hZ2UnOiBzdHIocGF5bG9hZC5nZXQoJ3NpemVfb2ZfaW1hZ2UnLCAyNTYpKSwKICAgICAgICAncG9zZV9zdHlsZSc6IHN0cihwYXlsb2FkLmdldCgncG9zZV9zdHlsZScsIDApKSwKICAgICAgICAnZmFjZXJlbmRlcic6IHBheWxvYWQuZ2V0KCdmYWNlcmVuZGVyJywgJ2ZhY2V2aWQydmlkJyksCiAgICAgICAgJ2V4cF93ZWlnaHQnOiBzdHIocGF5bG9hZC5nZXQoJ2V4cF93ZWlnaHQnLCAxLjApKSwKICAgICAgICAnYmxpbmtfZXZlcnknOiBzdHIocGF5bG9hZC5nZXQoJ2JsaW5rX2V2ZXJ5JywgVHJ1ZSkpLAogICAgICAgICd0YWxrZXJfbWV0aG9kJzogcGF5bG9hZC5nZXQoJ3RhbGtlcl9tZXRob2QnLCAnU2FkVGFsa2VyJyksCiAgICAgICAgJ2Zwcyc6IHN0cihwYXlsb2FkLmdldCgnZnBzJywgMzApKSwKICAgIH0KCiAgICAjIFByZXBhcmUgZmlsZXMgZm9yIHVwbG9hZAogICAgd2l0aCBvcGVuKHNvdXJjZV9pbWFnZV9wYXRoLCAncmInKSBhcyBpbWFnZV9maWxlLCBvcGVuKGRyaXZlbl9hdWRpb19wYXRoLCAncmInKSBhcyBhdWRpb19maWxlOgogICAgICAgIGZpbGVzID0gewogICAgICAgICAgICAnc291cmNlX2ltYWdlJzogKG9zLnBhdGguYmFzZW5hbWUoc291cmNlX2ltYWdlX3BhdGgpLCBpbWFnZV9maWxlLCAnaW1hZ2UvanBlZycpLCAgIyBBZGp1c3QgTUlNRSB0eXBlIGlmIG5lY2Vzc2FyeQogICAgICAgICAgICAnZHJpdmVuX2F1ZGlvJzogKG9zLnBhdGguYmFzZW5hbWUoZHJpdmVuX2F1ZGlvX3BhdGgpLCBhdWRpb19maWxlLCAnYXVkaW8vd2F2JyksICAjIEFkanVzdCBNSU1FIHR5cGUgaWYgbmVjZXNzYXJ5CiAgICAgICAgfQoKICAgICAgICB0cnk6CiAgICAgICAgICAgICMgU2VuZGluZyBQT1NUIHJlcXVlc3QgdG8gdGhlIHNlcnZlciB3aXRoIGZvcm0gZGF0YSBhbmQgZmlsZXMKICAgICAgICAgICAgcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KFRBTEtFUl9SRVNQT05TRV9VUkwsIGRhdGE9ZGF0YSwgZmlsZXM9ZmlsZXMpCiAgICAgICAgICAgIHJlc3BvbnNlLnJhaXNlX2Zvcl9zdGF0dXMoKSAgIyBSYWlzZSBhbiBleGNlcHRpb24gZm9yIEhUVFAgZXJyb3JzCgogICAgICAgICAgICB3aXRoIG9wZW4ob3V0cHV0X3ZpZGVvX3BhdGgsICd3YicpIGFzIHZpZGVvX2ZpbGU6CiAgICAgICAgICAgICAgICB2aWRlb19maWxlLndyaXRlKHJlc3BvbnNlLmNvbnRlbnQpCiAgICAgICAgICAgIHByaW50KGYiVGFsa2VyIHJlc3BvbnNlIHN1Y2Nlc3NmdWwsIHZpZGVvIHNhdmVkIGFzOiB7b3V0cHV0X3ZpZGVvX3BhdGh9IikKICAgICAgICBleGNlcHQgcmVxdWVzdHMuUmVxdWVzdEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBwcmludChmIlRhbGtlciByZXNwb25zZSBmYWlsZWQ6IHtlfSIpCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgIyBNb2RlbHMgdG8gdGVzdAogICAgbW9kZWxzID0gWwogICAgICAgICJTYWRUYWxrZXIiLAogICAgICAgICJXYXYyTGlwIiwKICAgICAgICAiV2F2MkxpcHYyIiwKICAgICAgICAiTmVSRlRhbGsiLAogICAgXQogICAgcmVzdWx0X2RpciA9ICJvdXRwdXRzIgogICAgb3MubWFrZWRpcnMocmVzdWx0X2RpciwgZXhpc3Rfb2s9VHJ1ZSkKICAgICMgTG9vcCB0byBjaGFuZ2UgbW9kZWwgYW5kIGdlbmVyYXRlIFRhbGtlciByZXNwb25zZQogICAgZm9yIG1vZGVsX25hbWUgaW4gbW9kZWxzOgogICAgICAgIHByaW50KGYiU3dpdGNoaW5nIHRvIG1vZGVsOiB7bW9kZWxfbmFtZX0iKQogICAgICAgIGNoYW5nZV90YWxrZXJfbW9kZWwobW9kZWxfbmFtZSkKCiAgICAgICAgIyBSZXF1ZXN0IFRhbGtlciB0byBnZW5lcmF0ZSB2aWRlbwogICAgICAgIHBheWxvYWQgPSB7CiAgICAgICAgICAgICJwcmVwcm9jZXNzX3R5cGUiOiAiY3JvcCIsCiAgICAgICAgICAgICJpc19zdGlsbF9tb2RlIjogRmFsc2UsCiAgICAgICAgICAgICJlbmhhbmNlciI6IEZhbHNlLAogICAgICAgICAgICAiYmF0Y2hfc2l6ZSI6IDQsCiAgICAgICAgICAgICJzaXplX29mX2ltYWdlIjogMjU2LAogICAgICAgICAgICAicG9zZV9zdHlsZSI6IDAsCiAgICAgICAgICAgICJmYWNlcmVuZGVyIjogImZhY2V2aWQydmlkIiwKICAgICAgICAgICAgImV4cF93ZWlnaHQiOiAxLjAsCiAgICAgICAgICAgICJibGlua19ldmVyeSI6IFRydWUsCiAgICAgICAgICAgICJ0YWxrZXJfbWV0aG9kIjogbW9kZWxfbmFtZSwKICAgICAgICAgICAgImZwcyI6IDMwLAogICAgICAgIH0KICAgICAgICByZXF1ZXN0X3RhbGtlcl9yZXNwb25zZSgKICAgICAgICAgICAgImlucHV0cy9leGFtcGxlLnBuZyIsCiAgICAgICAgICAgICJhbnN3ZXIud2F2IiwgICMg56Gu5L+d6Z+z6aKR5paH5Lu26Lev5b6E5q2j56GuCiAgICAgICAgICAgIHBheWxvYWQsIG9zLnBhdGguam9pbihyZXN1bHRfZGlyLCBmIm91dHB1dF92aWRlb197bW9kZWxfbmFtZX0ubXA0IikKICAgICAgICApCiAgICAgICAgcHJpbnQoIlxuIiArICItIiAqIDUwICsgIlxuIikK
+import os
+import requests
+
+# Set the host and port of the service
+talker_service_host = os.environ.get("TALKER_SERVICE_HOST", "localhost")
+talker_service_port = os.environ.get("TALKER_SERVICE_PORT", 8003)
+
+# API endpoint URLs
+CHANGE_MODEL_URL = f"http://{talker_service_host}:{talker_service_port}/talker_change_model/"
+TALKER_RESPONSE_URL = f"http://{talker_service_host}:{talker_service_port}/talker_response/"
+
+def change_talker_model(model_name):
+    """Request to change the Talker model."""
+    params = {"model_name": model_name}
+    try:
+        response = requests.post(CHANGE_MODEL_URL, params=params)
+        response.raise_for_status()  # Raise an exception for HTTP errors
+        print(f"Model change successful: {response.json()}")
+    except requests.RequestException as e:
+        print(f"Model change failed: {e}")
+
+def request_talker_response(source_image_path, driven_audio_path, payload, output_video_path):
+    """Request Talker to generate video."""
+    
+    # Prepare payload as form data (ensure all values are strings)
+    data = {
+        'preprocess_type': payload.get('preprocess_type', 'crop'),
+        'is_still_mode': str(payload.get('is_still_mode', False)),
+        'enhancer': str(payload.get('enhancer', False)),
+        'batch_size': str(payload.get('batch_size', 4)),
+        'size_of_image': str(payload.get('size_of_image', 256)),
+        'pose_style': str(payload.get('pose_style', 0)),
+        'facerender': payload.get('facerender', 'facevid2vid'),
+        'exp_weight': str(payload.get('exp_weight', 1.0)),
+        'blink_every': str(payload.get('blink_every', True)),
+        'talker_method': payload.get('talker_method', 'SadTalker'),
+        'fps': str(payload.get('fps', 30)),
+    }
+
+    # Prepare files for upload
+    with open(source_image_path, 'rb') as image_file, open(driven_audio_path, 'rb') as audio_file:
+        files = {
+            'source_image': (os.path.basename(source_image_path), image_file, 'image/jpeg'),  # Adjust MIME type if necessary
+            'driven_audio': (os.path.basename(driven_audio_path), audio_file, 'audio/wav'),  # Adjust MIME type if necessary
+        }
+
+        try:
+            # Sending POST request to the server with form data and files
+            response = requests.post(TALKER_RESPONSE_URL, data=data, files=files)
+            response.raise_for_status()  # Raise an exception for HTTP errors
+
+            with open(output_video_path, 'wb') as video_file:
+                video_file.write(response.content)
+            print(f"Talker response successful, video saved as: {output_video_path}")
+        except requests.RequestException as e:
+            print(f"Talker response failed: {e}")
+
+if __name__ == "__main__":
+    # Models to test
+    models = [
+        "SadTalker",
+        "Wav2Lip",
+        "Wav2Lipv2",
+        "NeRFTalk",
+    ]
+    result_dir = "outputs"
+    os.makedirs(result_dir, exist_ok=True)
+    # Loop to change model and generate Talker response
+    for model_name in models:
+        print(f"Switching to model: {model_name}")
+        change_talker_model(model_name)
+
+        # Request Talker to generate video
+        payload = {
+            "preprocess_type": "crop",
+            "is_still_mode": False,
+            "enhancer": False,
+            "batch_size": 4,
+            "size_of_image": 256,
+            "pose_style": 0,
+            "facerender": "facevid2vid",
+            "exp_weight": 1.0,
+            "blink_every": True,
+            "talker_method": model_name,
+            "fps": 30,
+        }
+        request_talker_response(
+            "inputs/example.png",
+            "answer.wav",  # 确保音频文件路径正确
+            payload, os.path.join(result_dir, f"output_video_{model_name}.mp4")
+        )
+        print("\n" + "-" * 50 + "\n")

@@ -1,1 +1,125 @@
-IiIiVGhpcyBtb2R1bGUgaW1wbGVtZW50cyBhbiBhYnN0cmFjdCBiYXNlIGNsYXNzIChBQkMpICdCYXNlRGF0YXNldCcgZm9yIGRhdGFzZXRzLgoKSXQgYWxzbyBpbmNsdWRlcyBjb21tb24gdHJhbnNmb3JtYXRpb24gZnVuY3Rpb25zIChlLmcuLCBnZXRfdHJhbnNmb3JtLCBfX3NjYWxlX3dpZHRoKSwgd2hpY2ggY2FuIGJlIGxhdGVyIHVzZWQgaW4gc3ViY2xhc3Nlcy4KIiIiCmltcG9ydCByYW5kb20KaW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCB0b3JjaC51dGlscy5kYXRhIGFzIGRhdGEKZnJvbSBQSUwgaW1wb3J0IEltYWdlCmltcG9ydCB0b3JjaHZpc2lvbi50cmFuc2Zvcm1zIGFzIHRyYW5zZm9ybXMKZnJvbSBhYmMgaW1wb3J0IEFCQywgYWJzdHJhY3RtZXRob2QKCgpjbGFzcyBCYXNlRGF0YXNldChkYXRhLkRhdGFzZXQsIEFCQyk6CiAgICAiIiJUaGlzIGNsYXNzIGlzIGFuIGFic3RyYWN0IGJhc2UgY2xhc3MgKEFCQykgZm9yIGRhdGFzZXRzLgoKICAgIFRvIGNyZWF0ZSBhIHN1YmNsYXNzLCB5b3UgbmVlZCB0byBpbXBsZW1lbnQgdGhlIGZvbGxvd2luZyBmb3VyIGZ1bmN0aW9uczoKICAgIC0tIDxfX2luaXRfXz46ICAgICAgICAgICAgICAgICAgICAgIGluaXRpYWxpemUgdGhlIGNsYXNzLCBmaXJzdCBjYWxsIEJhc2VEYXRhc2V0Ll9faW5pdF9fKHNlbGYsIG9wdCkuCiAgICAtLSA8X19sZW5fXz46ICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gdGhlIHNpemUgb2YgZGF0YXNldC4KICAgIC0tIDxfX2dldGl0ZW1fXz46ICAgICAgICAgICAgICAgICAgIGdldCBhIGRhdGEgcG9pbnQuCiAgICAtLSA8bW9kaWZ5X2NvbW1hbmRsaW5lX29wdGlvbnM+OiAgICAob3B0aW9uYWxseSkgYWRkIGRhdGFzZXQtc3BlY2lmaWMgb3B0aW9ucyBhbmQgc2V0IGRlZmF1bHQgb3B0aW9ucy4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBvcHQpOgogICAgICAgICIiIkluaXRpYWxpemUgdGhlIGNsYXNzOyBzYXZlIHRoZSBvcHRpb25zIGluIHRoZSBjbGFzcwoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBvcHQgKE9wdGlvbiBjbGFzcyktLSBzdG9yZXMgYWxsIHRoZSBleHBlcmltZW50IGZsYWdzOyBuZWVkcyB0byBiZSBhIHN1YmNsYXNzIG9mIEJhc2VPcHRpb25zCiAgICAgICAgIiIiCiAgICAgICAgc2VsZi5vcHQgPSBvcHQKICAgICAgICAjIHNlbGYucm9vdCA9IG9wdC5kYXRhcm9vdAogICAgICAgIHNlbGYuY3VycmVudF9lcG9jaCA9IDAKCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgbW9kaWZ5X2NvbW1hbmRsaW5lX29wdGlvbnMocGFyc2VyLCBpc190cmFpbik6CiAgICAgICAgIiIiQWRkIG5ldyBkYXRhc2V0LXNwZWNpZmljIG9wdGlvbnMsIGFuZCByZXdyaXRlIGRlZmF1bHQgdmFsdWVzIGZvciBleGlzdGluZyBvcHRpb25zLgoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBwYXJzZXIgICAgICAgICAgLS0gb3JpZ2luYWwgb3B0aW9uIHBhcnNlcgogICAgICAgICAgICBpc190cmFpbiAoYm9vbCkgLS0gd2hldGhlciB0cmFpbmluZyBwaGFzZSBvciB0ZXN0IHBoYXNlLiBZb3UgY2FuIHVzZSB0aGlzIGZsYWcgdG8gYWRkIHRyYWluaW5nLXNwZWNpZmljIG9yIHRlc3Qtc3BlY2lmaWMgb3B0aW9ucy4KCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgdGhlIG1vZGlmaWVkIHBhcnNlci4KICAgICAgICAiIiIKICAgICAgICByZXR1cm4gcGFyc2VyCgogICAgQGFic3RyYWN0bWV0aG9kCiAgICBkZWYgX19sZW5fXyhzZWxmKToKICAgICAgICAiIiJSZXR1cm4gdGhlIHRvdGFsIG51bWJlciBvZiBpbWFnZXMgaW4gdGhlIGRhdGFzZXQuIiIiCiAgICAgICAgcmV0dXJuIDAKCiAgICBAYWJzdHJhY3RtZXRob2QKICAgIGRlZiBfX2dldGl0ZW1fXyhzZWxmLCBpbmRleCk6CiAgICAgICAgIiIiUmV0dXJuIGEgZGF0YSBwb2ludCBhbmQgaXRzIG1ldGFkYXRhIGluZm9ybWF0aW9uLgoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBpbmRleCAtIC0gYSByYW5kb20gaW50ZWdlciBmb3IgZGF0YSBpbmRleGluZwoKICAgICAgICBSZXR1cm5zOgogICAgICAgICAgICBhIGRpY3Rpb25hcnkgb2YgZGF0YSB3aXRoIHRoZWlyIG5hbWVzLiBJdCB1c3VzYWxseSBjb250YWlucyB0aGUgZGF0YSBpdHNlbGYgYW5kIGl0cyBtZXRhZGF0YSBpbmZvcm1hdGlvbi4KICAgICAgICAiIiIKICAgICAgICBwYXNzCgoKZGVmIGdldF90cmFuc2Zvcm0oZ3JheXNjYWxlPUZhbHNlKToKICAgIHRyYW5zZm9ybV9saXN0ID0gW10KICAgIGlmIGdyYXlzY2FsZToKICAgICAgICB0cmFuc2Zvcm1fbGlzdC5hcHBlbmQodHJhbnNmb3Jtcy5HcmF5c2NhbGUoMSkpCiAgICB0cmFuc2Zvcm1fbGlzdCArPSBbdHJhbnNmb3Jtcy5Ub1RlbnNvcigpXQogICAgcmV0dXJuIHRyYW5zZm9ybXMuQ29tcG9zZSh0cmFuc2Zvcm1fbGlzdCkKCmRlZiBnZXRfYWZmaW5lX21hdChvcHQsIHNpemUpOgogICAgc2hpZnRfeCwgc2hpZnRfeSwgc2NhbGUsIHJvdF9hbmdsZSwgZmxpcCA9IDAuLCAwLiwgMS4sIDAuLCBGYWxzZQogICAgdywgaCA9IHNpemUKCiAgICBpZiAnc2hpZnQnIGluIG9wdC5wcmVwcm9jZXNzOgogICAgICAgIHNoaWZ0X3BpeHMgPSBpbnQob3B0LnNoaWZ0X3BpeHMpCiAgICAgICAgc2hpZnRfeCA9IHJhbmRvbS5yYW5kaW50KC1zaGlmdF9waXhzLCBzaGlmdF9waXhzKQogICAgICAgIHNoaWZ0X3kgPSByYW5kb20ucmFuZGludCgtc2hpZnRfcGl4cywgc2hpZnRfcGl4cykKICAgIGlmICdzY2FsZScgaW4gb3B0LnByZXByb2Nlc3M6CiAgICAgICAgc2NhbGUgPSAxICsgb3B0LnNjYWxlX2RlbHRhICogKDIgKiByYW5kb20ucmFuZG9tKCkgLSAxKQogICAgaWYgJ3JvdCcgaW4gb3B0LnByZXByb2Nlc3M6CiAgICAgICAgcm90X2FuZ2xlID0gb3B0LnJvdF9hbmdsZSAqICgyICogcmFuZG9tLnJhbmRvbSgpIC0gMSkKICAgICAgICByb3RfcmFkID0gLXJvdF9hbmdsZSAqIG5wLnBpLzE4MAogICAgaWYgJ2ZsaXAnIGluIG9wdC5wcmVwcm9jZXNzOgogICAgICAgIGZsaXAgPSByYW5kb20ucmFuZG9tKCkgPiAwLjUKCiAgICBzaGlmdF90b19vcmlnaW4gPSBucC5hcnJheShbMSwgMCwgLXcvLzIsIDAsIDEsIC1oLy8yLCAwLCAwLCAxXSkucmVzaGFwZShbMywgM10pCiAgICBmbGlwX21hdCA9IG5wLmFycmF5KFstMSBpZiBmbGlwIGVsc2UgMSwgMCwgMCwgMCwgMSwgMCwgMCwgMCwgMV0pLnJlc2hhcGUoWzMsIDNdKQogICAgc2hpZnRfbWF0ID0gbnAuYXJyYXkoWzEsIDAsIHNoaWZ0X3gsIDAsIDEsIHNoaWZ0X3ksIDAsIDAsIDFdKS5yZXNoYXBlKFszLCAzXSkKICAgIHJvdF9tYXQgPSBucC5hcnJheShbbnAuY29zKHJvdF9yYWQpLCBucC5zaW4ocm90X3JhZCksIDAsIC1ucC5zaW4ocm90X3JhZCksIG5wLmNvcyhyb3RfcmFkKSwgMCwgMCwgMCwgMV0pLnJlc2hhcGUoWzMsIDNdKQogICAgc2NhbGVfbWF0ID0gbnAuYXJyYXkoW3NjYWxlLCAwLCAwLCAwLCBzY2FsZSwgMCwgMCwgMCwgMV0pLnJlc2hhcGUoWzMsIDNdKQogICAgc2hpZnRfdG9fY2VudGVyID0gbnAuYXJyYXkoWzEsIDAsIHcvLzIsIDAsIDEsIGgvLzIsIDAsIDAsIDFdKS5yZXNoYXBlKFszLCAzXSkKICAgIAogICAgYWZmaW5lID0gc2hpZnRfdG9fY2VudGVyIEAgc2NhbGVfbWF0IEAgcm90X21hdCBAIHNoaWZ0X21hdCBAIGZsaXBfbWF0IEAgc2hpZnRfdG9fb3JpZ2luICAgIAogICAgYWZmaW5lX2ludiA9IG5wLmxpbmFsZy5pbnYoYWZmaW5lKQogICAgcmV0dXJuIGFmZmluZSwgYWZmaW5lX2ludiwgZmxpcAoKZGVmIGFwcGx5X2ltZ19hZmZpbmUoaW1nLCBhZmZpbmVfaW52LCBtZXRob2Q9SW1hZ2UuQklDVUJJQyk6CiAgICByZXR1cm4gaW1nLnRyYW5zZm9ybShpbWcuc2l6ZSwgSW1hZ2UuQUZGSU5FLCBkYXRhPWFmZmluZV9pbnYuZmxhdHRlbigpWzo2XSwgcmVzYW1wbGU9SW1hZ2UuQklDVUJJQykKCmRlZiBhcHBseV9sbV9hZmZpbmUobGFuZG1hcmssIGFmZmluZSwgZmxpcCwgc2l6ZSk6CiAgICBfLCBoID0gc2l6ZQogICAgbG0gPSBsYW5kbWFyay5jb3B5KCkKICAgIGxtWzosIDFdID0gaCAtIDEgLSBsbVs6LCAxXQogICAgbG0gPSBucC5jb25jYXRlbmF0ZSgobG0sIG5wLm9uZXMoW2xtLnNoYXBlWzBdLCAxXSkpLCAtMSkKICAgIGxtID0gbG0gQCBucC50cmFuc3Bvc2UoYWZmaW5lKQogICAgbG1bOiwgOjJdID0gbG1bOiwgOjJdIC8gbG1bOiwgMjpdCiAgICBsbSA9IGxtWzosIDoyXQogICAgbG1bOiwgMV0gPSBoIC0gMSAtIGxtWzosIDFdCiAgICBpZiBmbGlwOgogICAgICAgIGxtXyA9IGxtLmNvcHkoKQogICAgICAgIGxtX1s6MTddID0gbG1bMTY6Oi0xXQogICAgICAgIGxtX1sxNzoyMl0gPSBsbVsyNjoyMTotMV0KICAgICAgICBsbV9bMjI6MjddID0gbG1bMjE6MTY6LTFdCiAgICAgICAgbG1fWzMxOjM2XSA9IGxtWzM1OjMwOi0xXQogICAgICAgIGxtX1szNjo0MF0gPSBsbVs0NTo0MTotMV0KICAgICAgICBsbV9bNDA6NDJdID0gbG1bNDc6NDU6LTFdCiAgICAgICAgbG1fWzQyOjQ2XSA9IGxtWzM5OjM1Oi0xXQogICAgICAgIGxtX1s0Njo0OF0gPSBsbVs0MTozOTotMV0KICAgICAgICBsbV9bNDg6NTVdID0gbG1bNTQ6NDc6LTFdCiAgICAgICAgbG1fWzU1OjYwXSA9IGxtWzU5OjU0Oi0xXQogICAgICAgIGxtX1s2MDo2NV0gPSBsbVs2NDo1OTotMV0KICAgICAgICBsbV9bNjU6NjhdID0gbG1bNjc6NjQ6LTFdCiAgICAgICAgbG0gPSBsbV8KICAgIHJldHVybiBsbQo=
+"""This module implements an abstract base class (ABC) 'BaseDataset' for datasets.
+
+It also includes common transformation functions (e.g., get_transform, __scale_width), which can be later used in subclasses.
+"""
+import random
+import numpy as np
+import torch.utils.data as data
+from PIL import Image
+import torchvision.transforms as transforms
+from abc import ABC, abstractmethod
+
+
+class BaseDataset(data.Dataset, ABC):
+    """This class is an abstract base class (ABC) for datasets.
+
+    To create a subclass, you need to implement the following four functions:
+    -- <__init__>:                      initialize the class, first call BaseDataset.__init__(self, opt).
+    -- <__len__>:                       return the size of dataset.
+    -- <__getitem__>:                   get a data point.
+    -- <modify_commandline_options>:    (optionally) add dataset-specific options and set default options.
+    """
+
+    def __init__(self, opt):
+        """Initialize the class; save the options in the class
+
+        Parameters:
+            opt (Option class)-- stores all the experiment flags; needs to be a subclass of BaseOptions
+        """
+        self.opt = opt
+        # self.root = opt.dataroot
+        self.current_epoch = 0
+
+    @staticmethod
+    def modify_commandline_options(parser, is_train):
+        """Add new dataset-specific options, and rewrite default values for existing options.
+
+        Parameters:
+            parser          -- original option parser
+            is_train (bool) -- whether training phase or test phase. You can use this flag to add training-specific or test-specific options.
+
+        Returns:
+            the modified parser.
+        """
+        return parser
+
+    @abstractmethod
+    def __len__(self):
+        """Return the total number of images in the dataset."""
+        return 0
+
+    @abstractmethod
+    def __getitem__(self, index):
+        """Return a data point and its metadata information.
+
+        Parameters:
+            index - - a random integer for data indexing
+
+        Returns:
+            a dictionary of data with their names. It ususally contains the data itself and its metadata information.
+        """
+        pass
+
+
+def get_transform(grayscale=False):
+    transform_list = []
+    if grayscale:
+        transform_list.append(transforms.Grayscale(1))
+    transform_list += [transforms.ToTensor()]
+    return transforms.Compose(transform_list)
+
+def get_affine_mat(opt, size):
+    shift_x, shift_y, scale, rot_angle, flip = 0., 0., 1., 0., False
+    w, h = size
+
+    if 'shift' in opt.preprocess:
+        shift_pixs = int(opt.shift_pixs)
+        shift_x = random.randint(-shift_pixs, shift_pixs)
+        shift_y = random.randint(-shift_pixs, shift_pixs)
+    if 'scale' in opt.preprocess:
+        scale = 1 + opt.scale_delta * (2 * random.random() - 1)
+    if 'rot' in opt.preprocess:
+        rot_angle = opt.rot_angle * (2 * random.random() - 1)
+        rot_rad = -rot_angle * np.pi/180
+    if 'flip' in opt.preprocess:
+        flip = random.random() > 0.5
+
+    shift_to_origin = np.array([1, 0, -w//2, 0, 1, -h//2, 0, 0, 1]).reshape([3, 3])
+    flip_mat = np.array([-1 if flip else 1, 0, 0, 0, 1, 0, 0, 0, 1]).reshape([3, 3])
+    shift_mat = np.array([1, 0, shift_x, 0, 1, shift_y, 0, 0, 1]).reshape([3, 3])
+    rot_mat = np.array([np.cos(rot_rad), np.sin(rot_rad), 0, -np.sin(rot_rad), np.cos(rot_rad), 0, 0, 0, 1]).reshape([3, 3])
+    scale_mat = np.array([scale, 0, 0, 0, scale, 0, 0, 0, 1]).reshape([3, 3])
+    shift_to_center = np.array([1, 0, w//2, 0, 1, h//2, 0, 0, 1]).reshape([3, 3])
+    
+    affine = shift_to_center @ scale_mat @ rot_mat @ shift_mat @ flip_mat @ shift_to_origin    
+    affine_inv = np.linalg.inv(affine)
+    return affine, affine_inv, flip
+
+def apply_img_affine(img, affine_inv, method=Image.BICUBIC):
+    return img.transform(img.size, Image.AFFINE, data=affine_inv.flatten()[:6], resample=Image.BICUBIC)
+
+def apply_lm_affine(landmark, affine, flip, size):
+    _, h = size
+    lm = landmark.copy()
+    lm[:, 1] = h - 1 - lm[:, 1]
+    lm = np.concatenate((lm, np.ones([lm.shape[0], 1])), -1)
+    lm = lm @ np.transpose(affine)
+    lm[:, :2] = lm[:, :2] / lm[:, 2:]
+    lm = lm[:, :2]
+    lm[:, 1] = h - 1 - lm[:, 1]
+    if flip:
+        lm_ = lm.copy()
+        lm_[:17] = lm[16::-1]
+        lm_[17:22] = lm[26:21:-1]
+        lm_[22:27] = lm[21:16:-1]
+        lm_[31:36] = lm[35:30:-1]
+        lm_[36:40] = lm[45:41:-1]
+        lm_[40:42] = lm[47:45:-1]
+        lm_[42:46] = lm[39:35:-1]
+        lm_[46:48] = lm[41:39:-1]
+        lm_[48:55] = lm[54:47:-1]
+        lm_[55:60] = lm[59:54:-1]
+        lm_[60:65] = lm[64:59:-1]
+        lm_[65:68] = lm[67:64:-1]
+        lm = lm_
+    return lm

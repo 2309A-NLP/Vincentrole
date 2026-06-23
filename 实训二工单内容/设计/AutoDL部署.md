@@ -1,1 +1,215 @@
-IyDlnKhBdXRvREzlubPlj7Dpg6jnvbJMaW5seS1UYWxrZXIgKDDln7rnoYDlsI/nmb3otoXor6bnu4bmlZnnqIspCgo8IS0tIFRPQyAtLT4KCi0gW+WcqEF1dG9ETOW5s+WPsOmDqOe9skxpbmx5LVRhbGtlciAw5Z+656GA5bCP55m96LaF6K+m57uG5pWZ56iLXSgjJUU1JTlDJUE4YXV0b2RsJUU1JUI5JUIzJUU1JThGJUIwJUU5JTgzJUE4JUU3JUJEJUIybGlubHktdGFsa2VyLTAlRTUlOUYlQkElRTclQTElODAlRTUlQjAlOEYlRTclOTklQkQlRTglQjYlODUlRTglQUYlQTYlRTclQkIlODYlRTYlOTUlOTklRTclQTglOEIpCiAgICAtIFvlv6vpgJ/kuIrmiYvnm7TmjqXkvb/nlKjplZzlg4/ku6XkuIvlronoo4Xmk43kvZzlhajlhY1dKCMlRTUlQkYlQUIlRTklODAlOUYlRTQlQjglOEElRTYlODklOEIlRTclOUIlQjQlRTYlOEUlQTUlRTQlQkQlQkYlRTclOTQlQTglRTklOTUlOUMlRTUlODMlOEYlRTQlQkIlQTUlRTQlQjglOEIlRTUlQUUlODklRTglQTMlODUlRTYlOTMlOEQlRTQlQkQlOUMlRTUlODUlQTglRTUlODUlOEQpCiAgICAtIFvkuIDjgIHms6jlhoxBdXRvRExdKCMlRTQlQjglODAlRTYlQjMlQTglRTUlODYlOENhdXRvZGwpCiAgICAtIFvkuozjgIHliJvlu7rlrp7kvotdKCMlRTQlQkElOEMlRTUlODglOUIlRTUlQkIlQkElRTUlQUUlOUUlRTQlQkUlOEIpCiAgICAgICAgLSBb55m75b2VQXV0b0RM77yM6L+b5YWl566X5Yqb5biC5Zy677yM6YCJ5oup5py65ZmoXSgjJUU3JTk5JUJCJUU1JUJEJTk1YXV0b2RsJUU4JUJGJTlCJUU1JTg1JUE1JUU3JUFFJTk3JUU1JThBJTlCJUU1JUI4JTgyJUU1JTlDJUJBJUU5JTgwJTg5JUU2JThCJUE5JUU2JTlDJUJBJUU1JTk5JUE4KQogICAgICAgIC0gW+mFjee9ruWfuuehgOmVnOWDj10oIyVFOSU4NSU4RCVFNyVCRCVBRSVFNSU5RiVCQSVFNyVBMSU4MCVFOSU5NSU5QyVFNSU4MyU4RikKICAgICAgICAtIFvml6DljaHmqKHlvI/lvIDmnLpdKCMlRTYlOTclQTAlRTUlOEQlQTElRTYlQTglQTElRTUlQkMlOEYlRTUlQkMlODAlRTYlOUMlQkEpCiAgICAtIFvkuInjgIHpg6jnvbLnjq/looNdKCMlRTQlQjglODklRTklODMlQTglRTclQkQlQjIlRTclOEUlQUYlRTUlQTIlODMpCiAgICAgICAgLSBb6L+b5YWl57uI56uvXSgjJUU4JUJGJTlCJUU1JTg1JUE1JUU3JUJCJTg4JUU3JUFCJUFGKQogICAgICAgIC0gW+S4i+i9veS7o+eggeaWh+S7tl0oIyVFNCVCOCU4QiVFOCVCRCVCRCVFNCVCQiVBMyVFNyVBMCU4MSVFNiU5NiU4NyVFNCVCQiVCNikKICAgICAgICAtIFvkuIvovb3mqKHlnovmlofku7ZdKCMlRTQlQjglOEIlRTglQkQlQkQlRTYlQTglQTElRTUlOUUlOEIlRTYlOTYlODclRTQlQkIlQjYpCiAgICAtIFvlm5vjgIFMaW5seS1UYWxrZXLpobnnm65dKCMlRTUlOUIlOUJsaW5seS10YWxrZXIlRTklQTElQjklRTclOUIlQUUpCiAgICAgICAgLSBb546v5aKD5a6J6KOFXSgjJUU3JThFJUFGJUU1JUEyJTgzJUU1JUFFJTg5JUU4JUEzJTg1KQogICAgICAgIC0gW+err+WPo+iuvue9rl0oIyVFNyVBQiVBRiVFNSU4RiVBMyVFOCVBRSVCRSVFNyVCRCVBRSkKICAgICAgICAtIFvmnInljaHlvIDmnLpdKCMlRTYlOUMlODklRTUlOEQlQTElRTUlQkMlODAlRTYlOUMlQkEpCiAgICAgICAgLSBb6L+Q6KGM572R6aG154mI5a+56K+dd2VidWldKCMlRTglQkYlOTAlRTglQTElOEMlRTclQkQlOTElRTklQTElQjUlRTclODklODglRTUlQUYlQjklRTglQUYlOUR3ZWJ1aSkKICAgICAgICAtIFvnq6/lj6PmmKDlsIRdKCMlRTclQUIlQUYlRTUlOEYlQTMlRTYlOTglQTAlRTUlQjAlODQpCiAgICAgICAgLSBb5L2T6aqMTGlubHktVGFsa2Vy77yI5oiQ5Yqf77yJXSgjJUU0JUJEJTkzJUU5JUFBJThDbGlubHktdGFsa2VyJUU2JTg4JTkwJUU1JThBJTlGKQoKPCEtLSAvVE9DIC0tPgoKCgojIyDlv6vpgJ/kuIrmiYvnm7TmjqXkvb/nlKjplZzlg48o5Lul5LiL5a6J6KOF5pON5L2c5YWo5YWNKQoK6Iul5L2/55So5oiR6K6+5a6a5aW955qE6ZWc5YOP77yM5Y+v5Lul55u05o6l6L+Q6KGM5Y2z5Y+v77yM5LiN6ZyA6KaB5a6J6KOF546v5aKD77yM55u05o6l6L+Q6KGMd2VidWkucHnmiJbogIXmmK9hcHBfdGFsay5weeWNs+WPr+S9k+mqjO+8jOS4jemcgOimgeWuieijheS7u+S9leeOr+Wig++8jOWPr+ebtOaOpei3s+WIsDQuNOWNs+WPrwoK6K6/6Zeu5ZCO5Zyo6Ieq5a6a5LmJ6K6+572u6YeM6Z2i5omT5byA56uv5Y+j77yM6buY6K6k5pivNjAwNuerr+WPo++8jOebtOaOpeS9v+eUqOi/kOihjOWNs+WPr++8gQoKYGBgYmFzaApweXRob24gd2VidWkucHkKcHl0aG9uIGFwcF90YWxrLnB5CmBgYAoK546v5aKD5qih5Z6L6YO95a6J6KOF5aW95LqG77yM55u05o6l5L2/55So5Y2z5Y+v77yM6ZWc5YOP5Zyw5Z2A5Zyo77yaW2h0dHBzOi8vd3d3LmNvZGV3aXRoZ3B1LmNvbS9pL0tlZHJlYW1peC9MaW5seS1UYWxrZXIvS2VkcmVhbWl4LUxpbmx5LVRhbGtlcl0oaHR0cHM6Ly93d3cuY29kZXdpdGhncHUuY29tL2kvS2VkcmVhbWl4L0xpbmx5LVRhbGtlci9LZWRyZWFtaXgtTGlubHktVGFsa2VyKe+8jOaEn+iwouWkp+WutueahOaUr+aMgQoKCgojIyDkuIDjgIHms6jlhoxBdXRvREwKCltBdXRvREzlrpjnvZFdKGh0dHBzOi8vd3d3LmF1dG9kbC5jb20vaG9tZSkg5rOo5YaM6LSm5oi35aW95bm25YWF5YC877yM6Ieq5bex6YCJ5oup5py65Zmo77yM5oiR6KeJ5b6X5aaC5p6c5q2j5bi46LeR5LiA5LiL77yMNeWFg+W3sue7j+Wkn+S6hgoKIVvms6jlhoxBdXRvRExdKGh0dHBzOi8vcGljMS56aGltZy5jb20vdjItMjEwYTNlODNjN2Q5ZDU2OTAwZTFlNDk2NzEwNjgzMmYucG5nKQoKIyMg5LqM44CB5Yib5bu65a6e5L6LCgojIyMgMi4xIOeZu+W9lUF1dG9ETO+8jOi/m+WFpeeul+WKm+W4guWcuu+8jOmAieaLqeacuuWZqAoK6L+Z5LiA6YOo5YiG5a6e6ZmF5LiK5oiR6KeJ5b6XMTJn6YO9T0vnmoTvvIzml6DpnZ7mmK/pgJ/luqbpl67popjogIzlt7IKCiFb6YCJ5oupUlRYIDMwOTDmnLrlmahdKGh0dHBzOi8vcGljMS56aGltZy5jb20vdjItYTljMDc3ZGJkNDJkMGMxZDAxOGRiOTQyYTM0MGY4MWIucG5nKQoKCgojIyMgMi4yIOmFjee9ruWfuuehgOmVnOWDjwoK6YCJ5oup6ZWc5YOP77yM5pyA5aW96YCJ5oupMi4w5Lul5LiK5Y+v5Lul5L2T6aqM5YWL6ZqG5aOw6Z+z5Yqf6IO977yM5YW25LuW5peg5omA6LCTCgohW+mFjee9ruWfuuehgOmVnOWDj10oaHR0cHM6Ly9waWN4LnpoaW1nLmNvbS92Mi0wYTc3NzBkZDJlMTQ0OWEwOTdmNzJjYzhkN2U2ODBjMC5wbmcpCgoKCiMjIyAyLjMg5peg5Y2h5qih5byP5byA5py6CgrliJvlu7rmiJDlip/lkI7kuLrkuobnnIHpkrHlhYjlhbPmnLrvvIznhLblkI7kvb/nlKjml6DljaHmqKHlvI/lvIDmnLrjgIIK5peg5Y2h5qih5byP5LiA5Liq5bCP5pe25Y+q6ZyA6KaBMC4x5YWD77yM5q+U6L6D6YCC5ZCI6YOo572y546v5aKD44CCCgohW+aXoOWNoeaooeW8j+W8gOacul0oaHR0cHM6Ly9waWN4LnpoaW1nLmNvbS92Mi03OTI3OTcxNjRmNTI3ZjEwMzkwMjk0OWQyYjU1YTAzNi5wbmcpCgojIyDkuInjgIHpg6jnvbLnjq/looMKCiMjIyAzLjEg6L+b5YWl57uI56uvCgrmiZPlvIBqdXB5dGVyTGFi77yM6L+b5YWl5pWw5o2u55uY77yIYXV0b2RsLXRtcO+8ie+8jOaJk+W8gOe7iOerr++8jOWwhkxpbmx5LVRhbGtlcuaooeWei+S4i+i9veWIsOaVsOaNruebmOS4reOAggoKIVvov5vlhaXnu4jnq69dKGh0dHBzOi8vcGljMS56aGltZy5jb20vdjItYWIwYmIzZDRjMWRjYWRhNTRhM2NhZTIwODYwYTk4MWIucG5nKQoKCgojIyMgMy4yIOS4i+i9veS7o+eggeaWh+S7tgoK5qC55o2uR2l0aHVi5LiK55qE6K+05piO77yM5L2/55So5ZG95Luk6KGM5LiL6L295qih5Z6L5paH5Lu25ZKM5Luj56CB5paH5Lu277yM5Yip55So5a2m5pyv5Yqg6YCf5Lya5b+r5LiA54K5CgpgYGBiYXNoCiMg5byA5ZCv5a2m5pyv6ZWc5YOP77yM5pu05b+r55qEY2xvbmXku6PnoIEg5Y+C6ICDIGh0dHBzOi8vd3d3LmF1dG9kbC5jb20vZG9jcy9uZXR3b3JrX3R1cmJvLwpzb3VyY2UgL2V0Yy9uZXR3b3JrX3R1cmJvCgpjZCAvcm9vdC9hdXRvZGwtdG1wLwojIOS4i+i9veS7o+eggQpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL0tlZHJlYW1peC9MaW5seS1UYWxrZXIuZ2l0IC0tZGVwdGggMQoKIyDlj5bmtojlrabmnK/liqDpgJ8KdW5zZXQgaHR0cF9wcm94eSAmJiB1bnNldCBodHRwc19wcm94eQpgYGAKCgoKIyMjIDMuMyDkuIvovb3mqKHlnovmlofku7YKCuaIkeWItuS9nOS4gOS4quiEmuacrOWPr+S7peWujOaIkOS4i+i/sOaJgOacieaooeWei+eahOS4i+i9ve+8jOaXoOmcgOeUqOaIt+i/h+WkmuaTjeS9nOOAgui/meenjeaWueW8j+mAguWQiOe9kee7nOeos+WumueahOaDheWGte+8jOW5tuS4lOeJueWIq+mAguWQiCBMaW51eCDnlKjmiLfjgILlr7nkuo4gV2luZG93cyDnlKjmiLfvvIzkuZ/lj6/ku6Xkvb/nlKggR2l0IOadpeS4i+i9veaooeWei+OAguWmguaenOe9kee7nOeOr+Wig+S4jeeos+Wumu+8jOeUqOaIt+WPr+S7pemAieaLqeS9v+eUqOaJi+WKqOS4i+i9veaWueazle+8jOaIluiAheWwneivlei/kOihjCBTaGVsbCDohJrmnKzmnaXlrozmiJDkuIvovb3jgILohJrmnKzlhbfmnInku6XkuIvlip/og73jgIIKCjEuICoq6YCJ5oup5LiL6L295pa55byPKio6IOeUqOaIt+WPr+S7pemAieaLqeS7juS4ieenjeS4jeWQjOeahOa6kOS4i+i9veaooeWei++8mk1vZGVsU2NvcGXjgIFIdWdnaW5nZmFjZSDmiJYgSHVnZ2luZ2ZhY2Ug6ZWc5YOP56uZ54K544CCCjIuICoq5LiL6L295qih5Z6LKio6IOagueaNrueUqOaIt+eahOmAieaLqe+8jOaJp+ihjOebuOW6lOeahOS4i+i9veWRveS7pOOAggozLiAqKuenu+WKqOaooeWei+aWh+S7tioqOiDkuIvovb3lrozmiJDlkI7vvIzlsIbmqKHlnovmlofku7bnp7vliqjliLDmjIflrprnmoTnm67lvZXjgIIKNC4gKirplJnor6/lpITnkIYqKjog5Zyo5q+P5LiA5q2l5pON5L2c5Lit5Yqg5YWl5LqG6ZSZ6K+v5qOA5p+l77yM5aaC5p6c5pON5L2c5aSx6LSl77yM6ISa5pys5Lya6L6T5Ye66ZSZ6K+v5L+h5oGv5bm25YGc5q2i5omn6KGM44CCCgrpgInmi6nkvb/nlKhgbW9kZWxzY29wZWDmnaXkuIvovb3kvJrlv6vkuIDngrnvvIzkuI3pnIDopoHlvIDlrabmnK/liqDpgJ/vvIzorrDlvpfpppblhYjpnIDopoHlhYjlronoo4Vtb2RlbHNjb3Bl5bqTCgpgYGBzaAojIOS4i+i9vW1vZGVsc2NvcGUKcGlwIGluc3RhbGwgbW9kZWxzY29wZSAtaSBodHRwczovL3B5cGkudHVuYS50c2luZ2h1YS5lZHUuY24vc2ltcGxlCmNkIC9yb290L2F1dG9kbC10bXAvTGlubHktVGFsa2VyCnNoIHNjcmlwdHMvZG93bmxvYWRfbW9kZWxzLnNoCmBgYAoKIVvkuIvovb3mlofku7ZdKGh0dHBzOi8vcGljMS56aGltZy5jb20vdjItNWYxZWRjYzdmMTM1Nzk3ZjEzMGRiZTE1NjVlNGU4ODkucG5nKQoK562J5b6F5LiA5q615pe26Ze05LiL6L295a6M5Lul5ZCO77yM6ISa5pys5Lya6Ieq5Yqo56e75Yqo5Yiw5a+55bqU55qE55uu5b2VCgohW+iHquWKqOenu+WKqOebruW9lV0oaHR0cHM6Ly9waWMxLnpoaW1nLmNvbS92Mi03ZWQ0NjU3YThiNDVlZjUyOWJjNjJjNDlhZDExZWFhMi5wbmcpCgojIyDlm5vjgIFMaW5seS1UYWxrZXLpobnnm64KCiMjIyA0LjEg546v5aKD5a6J6KOFCgrov5vlhaXku6PnoIHot6/lvoTvvIzov5vooYzlronoo4Xnjq/looPvvIznlLHkuo7pgInkuobplZzlg4/mmK/lkKvmnIlweXRvcmNo55qE77yM5omA5Lul5Y+q6ZyA6KaB6L+b6KGM5a6J6KOF5YW25LuW5L6d6LWW5Y2z5Y+v77yM5Y+v6IO96ZyA6KaB6Iqx5LiA5a6a55qE5pe26Ze077yM5bu66K6u55u05o6l5L2/55So5a6J6KOF5aW955qE6ZWc5YOPCgpgYGBiYXNoCmNkIC9yb290L2F1dG9kbC10bXAvTGlubHktVGFsa2VyCgpjb25kYSBpbnN0YWxsIGZmbXBlZz09NC4yLjIgIyBmZm1wZWc9PTQuMi4yCgojIOWNh+e6p3BpcApweXRob24gLW0gcGlwIGluc3RhbGwgLS11cGdyYWRlIHBpcAojIOabtOaNoiBweXBpIOa6kOWKoOmAn+W6k+eahOWuieijhQpwaXAgY29uZmlnIHNldCBnbG9iYWwuaW5kZXgtdXJsIGh0dHBzOi8vcHlwaS50dW5hLnRzaW5naHVhLmVkdS5jbi9zaW1wbGUKCnBpcCBpbnN0YWxsIHRiLW5pZ2h0bHkgLWkgaHR0cHM6Ly9taXJyb3JzLmFsaXl1bi5jb20vcHlwaS9zaW1wbGUKcGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzX3dlYnVpLnR4dAoKIyDlronoo4XmnInlhbNtdXNldGFsa+S+nei1lgpwaXAgaW5zdGFsbCAtLW5vLWNhY2hlLWRpciAtVSAgb3Blbm1pbQptaW0gaW5zdGFsbCBtbWVuZ2luZSAKbWltIGluc3RhbGwgIm1tY3Y+PTIuMC4xIiAKbWltIGluc3RhbGwgIm1tZGV0Pj0zLjEuMCIgCm1pbSBpbnN0YWxsICJtbXBvc2U+PTEuMS4wIiAKCiMg5a6J6KOFTmVSRi1iYXNlZOS+nei1lu+8jOWPr+iDvemXrumimOi+g+Wkmu+8jOWPr+S7peWFiOaUvuW8gwojIOS6sua1i+mcgOimgeacieWNoeW8gOacuuWQjuWGjei3kei/meS4qnB5dG9yY2gzZO+8jOmcgOimgeS4gOWumueahOWGheWtmOadpee8luivkQpwaXAgaW5zdGFsbCAiZ2l0K2h0dHBzOi8vZ2l0aHViLmNvbS9mYWNlYm9va3Jlc2VhcmNoL3B5dG9yY2gzZC5naXQiCgojIOiLpXB5YXVkaW/lh7rnjrDpl67popjvvIzlj6/lronoo4Xlr7nlupTkvp3otZYKc3VkbyBhcHQtZ2V0IHVwZGF0ZQpzdWRvIGFwdC1nZXQgaW5zdGFsbCBsaWJhc291bmQtZGV2IHBvcnRhdWRpbzE5LWRldiBsaWJwb3J0YXVkaW8yIGxpYnBvcnRhdWRpb2NwcDAKcGlwIGluc3RhbGwgLXIgVEZHL3JlcXVpcmVtZW50c19uZXJmLnR4dApgYGAKCgoKIyMjIDQuMiDmnInljaHlvIDmnLoKCui/m+WFpWF1dG9kbOWuueWZqOWunuS+i+eVjOmdou+8jOaJp+ihjOWFs+acuuaTjeS9nO+8jOeEtuWQjui/m+ihjOacieWNoeW8gOacuu+8jOW8gOacuuWQjuaJk+W8gGp1cHl0ZXJMYWLjgIIKCuafpeeci+mFjee9rgoKYGBgYmFzaApudmlkaWEtc21pCmBgYAoKIVvmnInljaHlvIDmnLpdKGh0dHBzOi8vcGljMS56aGltZy5jb20vdjItYzJiM2U2ZWQyZDM5YmI4YTFlMjM3YjA0YjA1ZTA0ODAucG5nKQoKCgojIyMgNC4zIOi/kOihjOe9kemhteeJiOWvueivnXdlYnVpCgrpnIDopoHmnInljaHmqKHlvI/lvIDmnLrvvIzmiafooYzkuIvovrnlkb3ku6TvvIzov5nph4zpnaLlsLHot5/ku6PnoIHmmK/kuIDmqKHkuIDmoLfnmoTkuoYKCmBgYGJhc2gKY2QgL3Jvb3QvYXV0b2RsLXRtcC9MaW5seS1UYWxrZXIKIyDnrKzkuIDmrKHov5DooYzlj6/og73kvJrkuIvovb3pg6jliIZubHRr77yM5Y+v5Lul5L2/55So5LiA5LiL5a2m5pyv5Yqg6YCfCnNvdXJjZSAvZXRjL25ldHdvcmtfdHVyYm8KcHl0aG9uIHdlYnVpLnB5CmBgYAoKIVvov5DooYznvZHpobXniYjlr7nor513ZWJ1aV0oaHR0cHM6Ly9waWNhLnpoaW1nLmNvbS92Mi00NzJjMzIyYTU3ZGM5ZTMwZjVjODZiMjUzMTI0ZGU4Ny5wbmcpCgojIyMgNC40IOerr+WPo+aYoOWwhAoK6L+Z5Y+v5Lul55u05o6l5omT5byAYXV0b2Rs55qE6Ieq5a6a5LmJ5pyN5Yqh77yM6buY6K6k5pivNjAwNuerr+WPo++8jOaIkeS7rOW3sue7j+iuvue9ruS6hu+8jOaJgOS7peebtOaOpeS9v+eUqOWNs+WPrwoKIVvnq6/lj6PmmKDlsIRdKGh0dHBzOi8vcGljMS56aGltZy5jb20vdjItYzI1Yzg0MDUzZGM5NzFjOGI4MjU4Y2U4ZmRiMzY2N2UucG5nKQoK5Y+m5aSW6L+Y5pyJ5LiA56eN56uv5Y+j5pig5bCE5pa55byP77yM5piv6YCa6L+H6L6T5YWlc3No6LSm5a+G5a6e546w55qE77yM5q2l6aqk5piv5LiA5qC355qECgo+IHNzaOerr+WPo+aYoOWwhOW3peWFt++8mndpbmRvd3PvvJpbaHR0cHM6Ly9hdXRvZGwtcHVibGljLmtzMy1jbi1iZWlqaW5nLmtzeXVuY3MuY29tL3Rvb2wvQXV0b0RMLVNTSC1Ub29scy56aXBdKGh0dHBzOi8vYXV0b2RsLXB1YmxpYy5rczMtY24tYmVpamluZy5rc3l1bmNzLmNvbS90b29sL0F1dG9ETC1TU0gtVG9vbHMuemlwKQoKIyMjIDQuNSDkvZPpqoxMaW5seS1UYWxrZXLvvIjmiJDlip/vvIkKCueCueW8gOe9kemhte+8jOWNs+WPr+ato+ehruaJp+ihjExpbmx5LVRhbGtlcu+8jOi/meS4gOmDqOWIhuWwsei3n+inhumikeS4gOaooeS4gOagt+S6hgoKIVvkvZPpqoxMaW5seS1UYWxrZXJdKGh0dHBzOi8vcGljeC56aGltZy5jb20vdjItMTU1OWE1ZTNhZjc2MTk4ZTQ5NGJhYjI5YzU1NzRiMmQucG5nKQoKCgohW011c2VUYWxrXShodHRwczovL3BpY3guemhpbWcuY29tL3YyLTliOTk3ZWNiOGQ2NjI1MGM5YzIyODcwMmYzZjU0YWIzLnBuZykKCgoKKirvvIHvvIHvvIHms6jmhI/vvJrkuI3nlKjkuobvvIzkuIDlrpropoHljrvmjqfliLblj7A944CL5a655Zmo5a6e5L6L77yM5oqK6ZWc5YOP5a6e5L6L5YWz5py677yM5a6D5piv5oyJ5pe25pS26LS555qE77yM5LiN5YWz5py65Lya5LiA55u05omj6LS555qE44CCKioKCioq5bu66K6u6YCJ5YyX5Lqs5Yy655qE77yM56iN5b6u5L6/5a6c5LiA5Lqb44CC5Y+v5Lul5pma5LiK6YOo572y77yM572R6YCf5b+r77yM5L6/5a6c55qER1BV5Lmf5YWF6Laz44CC55m95aSp6YOo572y77yM5YyX5Lqs5Yy655qER1BV5a655piT5rKh5pyJ44CCKio=
+# 在AutoDL平台部署Linly-Talker (0基础小白超详细教程)
+
+<!-- TOC -->
+
+- [在AutoDL平台部署Linly-Talker 0基础小白超详细教程](#%E5%9C%A8autodl%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2linly-talker-0%E5%9F%BA%E7%A1%80%E5%B0%8F%E7%99%BD%E8%B6%85%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)
+    - [快速上手直接使用镜像以下安装操作全免](#%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%9B%B4%E6%8E%A5%E4%BD%BF%E7%94%A8%E9%95%9C%E5%83%8F%E4%BB%A5%E4%B8%8B%E5%AE%89%E8%A3%85%E6%93%8D%E4%BD%9C%E5%85%A8%E5%85%8D)
+    - [一、注册AutoDL](#%E4%B8%80%E6%B3%A8%E5%86%8Cautodl)
+    - [二、创建实例](#%E4%BA%8C%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B)
+        - [登录AutoDL，进入算力市场，选择机器](#%E7%99%BB%E5%BD%95autodl%E8%BF%9B%E5%85%A5%E7%AE%97%E5%8A%9B%E5%B8%82%E5%9C%BA%E9%80%89%E6%8B%A9%E6%9C%BA%E5%99%A8)
+        - [配置基础镜像](#%E9%85%8D%E7%BD%AE%E5%9F%BA%E7%A1%80%E9%95%9C%E5%83%8F)
+        - [无卡模式开机](#%E6%97%A0%E5%8D%A1%E6%A8%A1%E5%BC%8F%E5%BC%80%E6%9C%BA)
+    - [三、部署环境](#%E4%B8%89%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83)
+        - [进入终端](#%E8%BF%9B%E5%85%A5%E7%BB%88%E7%AB%AF)
+        - [下载代码文件](#%E4%B8%8B%E8%BD%BD%E4%BB%A3%E7%A0%81%E6%96%87%E4%BB%B6)
+        - [下载模型文件](#%E4%B8%8B%E8%BD%BD%E6%A8%A1%E5%9E%8B%E6%96%87%E4%BB%B6)
+    - [四、Linly-Talker项目](#%E5%9B%9Blinly-talker%E9%A1%B9%E7%9B%AE)
+        - [环境安装](#%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85)
+        - [端口设置](#%E7%AB%AF%E5%8F%A3%E8%AE%BE%E7%BD%AE)
+        - [有卡开机](#%E6%9C%89%E5%8D%A1%E5%BC%80%E6%9C%BA)
+        - [运行网页版对话webui](#%E8%BF%90%E8%A1%8C%E7%BD%91%E9%A1%B5%E7%89%88%E5%AF%B9%E8%AF%9Dwebui)
+        - [端口映射](#%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84)
+        - [体验Linly-Talker（成功）](#%E4%BD%93%E9%AA%8Clinly-talker%E6%88%90%E5%8A%9F)
+
+<!-- /TOC -->
+
+
+
+## 快速上手直接使用镜像(以下安装操作全免)
+
+若使用我设定好的镜像，可以直接运行即可，不需要安装环境，直接运行webui.py或者是app_talk.py即可体验，不需要安装任何环境，可直接跳到4.4即可
+
+访问后在自定义设置里面打开端口，默认是6006端口，直接使用运行即可！
+
+```bash
+python webui.py
+python app_talk.py
+```
+
+环境模型都安装好了，直接使用即可，镜像地址在：[https://www.codewithgpu.com/i/Kedreamix/Linly-Talker/Kedreamix-Linly-Talker](https://www.codewithgpu.com/i/Kedreamix/Linly-Talker/Kedreamix-Linly-Talker)，感谢大家的支持
+
+
+
+## 一、注册AutoDL
+
+[AutoDL官网](https://www.autodl.com/home) 注册账户好并充值，自己选择机器，我觉得如果正常跑一下，5元已经够了
+
+![注册AutoDL](https://pic1.zhimg.com/v2-210a3e83c7d9d56900e1e4967106832f.png)
+
+## 二、创建实例
+
+### 2.1 登录AutoDL，进入算力市场，选择机器
+
+这一部分实际上我觉得12g都OK的，无非是速度问题而已
+
+![选择RTX 3090机器](https://pic1.zhimg.com/v2-a9c077dbd42d0c1d018db942a340f81b.png)
+
+
+
+### 2.2 配置基础镜像
+
+选择镜像，最好选择2.0以上可以体验克隆声音功能，其他无所谓
+
+![配置基础镜像](https://picx.zhimg.com/v2-0a7770dd2e1449a097f72cc8d7e680c0.png)
+
+
+
+### 2.3 无卡模式开机
+
+创建成功后为了省钱先关机，然后使用无卡模式开机。
+无卡模式一个小时只需要0.1元，比较适合部署环境。
+
+![无卡模式开机](https://picx.zhimg.com/v2-792797164f527f103902949d2b55a036.png)
+
+## 三、部署环境
+
+### 3.1 进入终端
+
+打开jupyterLab，进入数据盘（autodl-tmp），打开终端，将Linly-Talker模型下载到数据盘中。
+
+![进入终端](https://pic1.zhimg.com/v2-ab0bb3d4c1dcada54a3cae20860a981b.png)
+
+
+
+### 3.2 下载代码文件
+
+根据Github上的说明，使用命令行下载模型文件和代码文件，利用学术加速会快一点
+
+```bash
+# 开启学术镜像，更快的clone代码 参考 https://www.autodl.com/docs/network_turbo/
+source /etc/network_turbo
+
+cd /root/autodl-tmp/
+# 下载代码
+git clone https://github.com/Kedreamix/Linly-Talker.git --depth 1
+
+# 取消学术加速
+unset http_proxy && unset https_proxy
+```
+
+
+
+### 3.3 下载模型文件
+
+我制作一个脚本可以完成下述所有模型的下载，无需用户过多操作。这种方式适合网络稳定的情况，并且特别适合 Linux 用户。对于 Windows 用户，也可以使用 Git 来下载模型。如果网络环境不稳定，用户可以选择使用手动下载方法，或者尝试运行 Shell 脚本来完成下载。脚本具有以下功能。
+
+1. **选择下载方式**: 用户可以选择从三种不同的源下载模型：ModelScope、Huggingface 或 Huggingface 镜像站点。
+2. **下载模型**: 根据用户的选择，执行相应的下载命令。
+3. **移动模型文件**: 下载完成后，将模型文件移动到指定的目录。
+4. **错误处理**: 在每一步操作中加入了错误检查，如果操作失败，脚本会输出错误信息并停止执行。
+
+选择使用`modelscope`来下载会快一点，不需要开学术加速，记得首先需要先安装modelscope库
+
+```sh
+# 下载modelscope
+pip install modelscope -i https://pypi.tuna.tsinghua.edu.cn/simple
+cd /root/autodl-tmp/Linly-Talker
+sh scripts/download_models.sh
+```
+
+![下载文件](https://pic1.zhimg.com/v2-5f1edcc7f135797f130dbe1565e4e889.png)
+
+等待一段时间下载完以后，脚本会自动移动到对应的目录
+
+![自动移动目录](https://pic1.zhimg.com/v2-7ed4657a8b45ef529bc62c49ad11eaa2.png)
+
+## 四、Linly-Talker项目
+
+### 4.1 环境安装
+
+进入代码路径，进行安装环境，由于选了镜像是含有pytorch的，所以只需要进行安装其他依赖即可，可能需要花一定的时间，建议直接使用安装好的镜像
+
+```bash
+cd /root/autodl-tmp/Linly-Talker
+
+conda install ffmpeg==4.2.2 # ffmpeg==4.2.2
+
+# 升级pip
+python -m pip install --upgrade pip
+# 更换 pypi 源加速库的安装
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+pip install tb-nightly -i https://mirrors.aliyun.com/pypi/simple
+pip install -r requirements_webui.txt
+
+# 安装有关musetalk依赖
+pip install --no-cache-dir -U  openmim
+mim install mmengine 
+mim install "mmcv>=2.0.1" 
+mim install "mmdet>=3.1.0" 
+mim install "mmpose>=1.1.0" 
+
+# 安装NeRF-based依赖，可能问题较多，可以先放弃
+# 亲测需要有卡开机后再跑这个pytorch3d，需要一定的内存来编译
+pip install "git+https://github.com/facebookresearch/pytorch3d.git"
+
+# 若pyaudio出现问题，可安装对应依赖
+sudo apt-get update
+sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+pip install -r TFG/requirements_nerf.txt
+```
+
+
+
+### 4.2 有卡开机
+
+进入autodl容器实例界面，执行关机操作，然后进行有卡开机，开机后打开jupyterLab。
+
+查看配置
+
+```bash
+nvidia-smi
+```
+
+![有卡开机](https://pic1.zhimg.com/v2-c2b3e6ed2d39bb8a1e237b04b05e0480.png)
+
+
+
+### 4.3 运行网页版对话webui
+
+需要有卡模式开机，执行下边命令，这里面就跟代码是一模一样的了
+
+```bash
+cd /root/autodl-tmp/Linly-Talker
+# 第一次运行可能会下载部分nltk，可以使用一下学术加速
+source /etc/network_turbo
+python webui.py
+```
+
+![运行网页版对话webui](https://pica.zhimg.com/v2-472c322a57dc9e30f5c86b253124de87.png)
+
+### 4.4 端口映射
+
+这可以直接打开autodl的自定义服务，默认是6006端口，我们已经设置了，所以直接使用即可
+
+![端口映射](https://pic1.zhimg.com/v2-c25c84053dc971c8b8258ce8fdb3667e.png)
+
+另外还有一种端口映射方式，是通过输入ssh账密实现的，步骤是一样的
+
+> ssh端口映射工具：windows：[https://autodl-public.ks3-cn-beijing.ksyuncs.com/tool/AutoDL-SSH-Tools.zip](https://autodl-public.ks3-cn-beijing.ksyuncs.com/tool/AutoDL-SSH-Tools.zip)
+
+### 4.5 体验Linly-Talker（成功）
+
+点开网页，即可正确执行Linly-Talker，这一部分就跟视频一模一样了
+
+![体验Linly-Talker](https://picx.zhimg.com/v2-1559a5e3af76198e494bab29c5574b2d.png)
+
+
+
+![MuseTalk](https://picx.zhimg.com/v2-9b997ecb8d66250c9c228702f3f54ab3.png)
+
+
+
+**！！！注意：不用了，一定要去控制台=》容器实例，把镜像实例关机，它是按时收费的，不关机会一直扣费的。**
+
+**建议选北京区的，稍微便宜一些。可以晚上部署，网速快，便宜的GPU也充足。白天部署，北京区的GPU容易没有。**

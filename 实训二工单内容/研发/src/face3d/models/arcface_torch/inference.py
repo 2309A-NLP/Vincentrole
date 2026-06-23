@@ -1,1 +1,35 @@
-aW1wb3J0IGFyZ3BhcnNlCgppbXBvcnQgY3YyCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgdG9yY2gKCmZyb20gYmFja2JvbmVzIGltcG9ydCBnZXRfbW9kZWwKCgpAdG9yY2gubm9fZ3JhZCgpCmRlZiBpbmZlcmVuY2Uod2VpZ2h0LCBuYW1lLCBpbWcpOgogICAgaWYgaW1nIGlzIE5vbmU6CiAgICAgICAgaW1nID0gbnAucmFuZG9tLnJhbmRpbnQoMCwgMjU1LCBzaXplPSgxMTIsIDExMiwgMyksIGR0eXBlPW5wLnVpbnQ4KQogICAgZWxzZToKICAgICAgICBpbWcgPSBjdjIuaW1yZWFkKGltZykKICAgICAgICBpbWcgPSBjdjIucmVzaXplKGltZywgKDExMiwgMTEyKSkKCiAgICBpbWcgPSBjdjIuY3Z0Q29sb3IoaW1nLCBjdjIuQ09MT1JfQkdSMlJHQikKICAgIGltZyA9IG5wLnRyYW5zcG9zZShpbWcsICgyLCAwLCAxKSkKICAgIGltZyA9IHRvcmNoLmZyb21fbnVtcHkoaW1nKS51bnNxdWVlemUoMCkuZmxvYXQoKQogICAgaW1nLmRpdl8oMjU1KS5zdWJfKDAuNSkuZGl2XygwLjUpCiAgICBuZXQgPSBnZXRfbW9kZWwobmFtZSwgZnAxNj1GYWxzZSkKICAgIG5ldC5sb2FkX3N0YXRlX2RpY3QodG9yY2gubG9hZCh3ZWlnaHQpKQogICAgbmV0LmV2YWwoKQogICAgZmVhdCA9IG5ldChpbWcpLm51bXB5KCkKICAgIHByaW50KGZlYXQpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKGRlc2NyaXB0aW9uPSdQeVRvcmNoIEFyY0ZhY2UgVHJhaW5pbmcnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1uZXR3b3JrJywgdHlwZT1zdHIsIGRlZmF1bHQ9J3I1MCcsIGhlbHA9J2JhY2tib25lIG5ldHdvcmsnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS13ZWlnaHQnLCB0eXBlPXN0ciwgZGVmYXVsdD0nJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0taW1nJywgdHlwZT1zdHIsIGRlZmF1bHQ9Tm9uZSkKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCiAgICBpbmZlcmVuY2UoYXJncy53ZWlnaHQsIGFyZ3MubmV0d29yaywgYXJncy5pbWcpCg==
+import argparse
+
+import cv2
+import numpy as np
+import torch
+
+from backbones import get_model
+
+
+@torch.no_grad()
+def inference(weight, name, img):
+    if img is None:
+        img = np.random.randint(0, 255, size=(112, 112, 3), dtype=np.uint8)
+    else:
+        img = cv2.imread(img)
+        img = cv2.resize(img, (112, 112))
+
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    img = np.transpose(img, (2, 0, 1))
+    img = torch.from_numpy(img).unsqueeze(0).float()
+    img.div_(255).sub_(0.5).div_(0.5)
+    net = get_model(name, fp16=False)
+    net.load_state_dict(torch.load(weight))
+    net.eval()
+    feat = net(img).numpy()
+    print(feat)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='PyTorch ArcFace Training')
+    parser.add_argument('--network', type=str, default='r50', help='backbone network')
+    parser.add_argument('--weight', type=str, default='')
+    parser.add_argument('--img', type=str, default=None)
+    args = parser.parse_args()
+    inference(args.weight, args.network, args.img)

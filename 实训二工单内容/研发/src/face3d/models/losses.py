@@ -1,1 +1,113 @@
-aW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCB0b3JjaAppbXBvcnQgdG9yY2gubm4gYXMgbm4KZnJvbSBrb3JuaWEuZ2VvbWV0cnkgaW1wb3J0IHdhcnBfYWZmaW5lCmltcG9ydCB0b3JjaC5ubi5mdW5jdGlvbmFsIGFzIEYKCmRlZiByZXNpemVfbl9jcm9wKGltYWdlLCBNLCBkc2l6ZT0xMTIpOgogICAgIyBpbWFnZTogKGIsIGMsIGgsIHcpCiAgICAjIE0gICA6ICAoYiwgMiwgMykKICAgIHJldHVybiB3YXJwX2FmZmluZShpbWFnZSwgTSwgZHNpemU9KGRzaXplLCBkc2l6ZSksIGFsaWduX2Nvcm5lcnM9VHJ1ZSkKCiMjIyBwZXJjZXB0dWFsIGxldmVsIGxvc3MKY2xhc3MgUGVyY2VwdHVhbExvc3Mobm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCByZWNvZ19uZXQsIGlucHV0X3NpemU9MTEyKToKICAgICAgICBzdXBlcihQZXJjZXB0dWFsTG9zcywgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYucmVjb2dfbmV0ID0gcmVjb2dfbmV0CiAgICAgICAgc2VsZi5wcmVwcm9jZXNzID0gbGFtYmRhIHg6IDIgKiB4IC0gMQogICAgICAgIHNlbGYuaW5wdXRfc2l6ZT1pbnB1dF9zaXplCiAgICBkZWYgZm9yd2FyZChpbWFnZUEsIGltYWdlQiwgTSk6CiAgICAgICAgIiIiCiAgICAgICAgMSAtIGNvc2luZSBkaXN0YW5jZQogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIGltYWdlQSAgICAgICAtLXRvcmNoLnRlbnNvciAoQiwgMywgSCwgVyksIHJhbmdlICgwLCAxKSAsIFJHQiBvcmRlcgogICAgICAgICAgICBpbWFnZUIgICAgICAgLS1zYW1lIGFzIGltYWdlQQogICAgICAgICIiIgoKICAgICAgICBpbWFnZUEgPSBzZWxmLnByZXByb2Nlc3MocmVzaXplX25fY3JvcChpbWFnZUEsIE0sIHNlbGYuaW5wdXRfc2l6ZSkpCiAgICAgICAgaW1hZ2VCID0gc2VsZi5wcmVwcm9jZXNzKHJlc2l6ZV9uX2Nyb3AoaW1hZ2VCLCBNLCBzZWxmLmlucHV0X3NpemUpKQoKICAgICAgICAjIGZyZWV6ZSBibgogICAgICAgIHNlbGYucmVjb2dfbmV0LmV2YWwoKQogICAgICAgIAogICAgICAgIGlkX2ZlYXR1cmVBID0gRi5ub3JtYWxpemUoc2VsZi5yZWNvZ19uZXQoaW1hZ2VBKSwgZGltPS0xLCBwPTIpCiAgICAgICAgaWRfZmVhdHVyZUIgPSBGLm5vcm1hbGl6ZShzZWxmLnJlY29nX25ldChpbWFnZUIpLCBkaW09LTEsIHA9MikgIAogICAgICAgIGNvc2luZV9kID0gdG9yY2guc3VtKGlkX2ZlYXR1cmVBICogaWRfZmVhdHVyZUIsIGRpbT0tMSkKICAgICAgICAjIGFzc2VydCB0b3JjaC5zdW0oKGNvc2luZV9kID4gMSkuZmxvYXQoKSkgPT0gMAogICAgICAgIHJldHVybiB0b3JjaC5zdW0oMSAtIGNvc2luZV9kKSAvIGNvc2luZV9kLnNoYXBlWzBdICAgICAgICAKCmRlZiBwZXJjZXB0dWFsX2xvc3MoaWRfZmVhdHVyZUEsIGlkX2ZlYXR1cmVCKToKICAgIGNvc2luZV9kID0gdG9yY2guc3VtKGlkX2ZlYXR1cmVBICogaWRfZmVhdHVyZUIsIGRpbT0tMSkKICAgICAgICAjIGFzc2VydCB0b3JjaC5zdW0oKGNvc2luZV9kID4gMSkuZmxvYXQoKSkgPT0gMAogICAgcmV0dXJuIHRvcmNoLnN1bSgxIC0gY29zaW5lX2QpIC8gY29zaW5lX2Quc2hhcGVbMF0gIAoKIyMjIGltYWdlIGxldmVsIGxvc3MKZGVmIHBob3RvX2xvc3MoaW1hZ2VBLCBpbWFnZUIsIG1hc2ssIGVwcz0xZS02KToKICAgICIiIgogICAgbDIgbm9ybSAod2l0aCBzcXJ0LCB0byBlbnN1cmUgYmFja3dhcmQgc3RhYmlsaWx0eSwgdXNlIGVwcywgb3RoZXJ3aXNlIE5hbiBtYXkgb2NjdXIpCiAgICBQYXJhbWV0ZXJzOgogICAgICAgIGltYWdlQSAgICAgICAtLXRvcmNoLnRlbnNvciAoQiwgMywgSCwgVyksIHJhbmdlICgwLCAxKSwgUkdCIG9yZGVyIAogICAgICAgIGltYWdlQiAgICAgICAtLXNhbWUgYXMgaW1hZ2VBCiAgICAiIiIKICAgIGxvc3MgPSB0b3JjaC5zcXJ0KGVwcyArIHRvcmNoLnN1bSgoaW1hZ2VBIC0gaW1hZ2VCKSAqKiAyLCBkaW09MSwga2VlcGRpbXM9VHJ1ZSkpICogbWFzawogICAgbG9zcyA9IHRvcmNoLnN1bShsb3NzKSAvIHRvcmNoLm1heCh0b3JjaC5zdW0obWFzayksIHRvcmNoLnRlbnNvcigxLjApLnRvKG1hc2suZGV2aWNlKSkKICAgIHJldHVybiBsb3NzCgpkZWYgbGFuZG1hcmtfbG9zcyhwcmVkaWN0X2xtLCBndF9sbSwgd2VpZ2h0PU5vbmUpOgogICAgIiIiCiAgICB3ZWlnaHRlZCBtc2UgbG9zcwogICAgUGFyYW1ldGVyczoKICAgICAgICBwcmVkaWN0X2xtICAgIC0tdG9yY2gudGVuc29yIChCLCA2OCwgMikKICAgICAgICBndF9sbSAgICAgICAgIC0tdG9yY2gudGVuc29yIChCLCA2OCwgMikKICAgICAgICB3ZWlnaHQgICAgICAgIC0tbnVtcHkuYXJyYXkgKDEsIDY4KQogICAgIiIiCiAgICBpZiBub3Qgd2VpZ2h0OgogICAgICAgIHdlaWdodCA9IG5wLm9uZXMoWzY4XSkKICAgICAgICB3ZWlnaHRbMjg6MzFdID0gMjAKICAgICAgICB3ZWlnaHRbLTg6XSA9IDIwCiAgICAgICAgd2VpZ2h0ID0gbnAuZXhwYW5kX2RpbXMod2VpZ2h0LCAwKQogICAgICAgIHdlaWdodCA9IHRvcmNoLnRlbnNvcih3ZWlnaHQpLnRvKHByZWRpY3RfbG0uZGV2aWNlKQogICAgbG9zcyA9IHRvcmNoLnN1bSgocHJlZGljdF9sbSAtIGd0X2xtKSoqMiwgZGltPS0xKSAqIHdlaWdodAogICAgbG9zcyA9IHRvcmNoLnN1bShsb3NzKSAvIChwcmVkaWN0X2xtLnNoYXBlWzBdICogcHJlZGljdF9sbS5zaGFwZVsxXSkKICAgIHJldHVybiBsb3NzCgoKIyMjIHJlZ3VsaXphdGlvbgpkZWYgcmVnX2xvc3MoY29lZmZzX2RpY3QsIG9wdD1Ob25lKToKICAgICIiIgogICAgbDIgbm9ybSB3aXRob3V0IHRoZSBzcXJ0LCBmcm9tIHl1J3MgaW1wbGVtZW50YXRpb24gKG1zZSkKICAgIHRmLm5uLmwyX2xvc3MgaHR0cHM6Ly93d3cudGVuc29yZmxvdy5vcmcvYXBpX2RvY3MvcHl0aG9uL3RmL25uL2wyX2xvc3MKICAgIFBhcmFtZXRlcnM6CiAgICAgICAgY29lZmZzX2RpY3QgICAgIC0tIGEgIGRpY3Qgb2YgdG9yY2gudGVuc29ycyAsIGtleXM6IGlkLCBleHAsIHRleCwgYW5nbGUsIGdhbW1hLCB0cmFucwoKICAgICIiIgogICAgIyBjb2VmZmljaWVudCByZWd1bGFyaXphdGlvbiB0byBlbnN1cmUgcGxhdXNpYmxlIDNkIGZhY2VzCiAgICBpZiBvcHQ6CiAgICAgICAgd19pZCwgd19leHAsIHdfdGV4ID0gb3B0LndfaWQsIG9wdC53X2V4cCwgb3B0LndfdGV4CiAgICBlbHNlOgogICAgICAgIHdfaWQsIHdfZXhwLCB3X3RleCA9IDEsIDEsIDEsIDEKICAgIGNyZWdfbG9zcyA9IHdfaWQgKiB0b3JjaC5zdW0oY29lZmZzX2RpY3RbJ2lkJ10gKiogMikgKyAgXAogICAgICAgICAgIHdfZXhwICogdG9yY2guc3VtKGNvZWZmc19kaWN0WydleHAnXSAqKiAyKSArIFwKICAgICAgICAgICB3X3RleCAqIHRvcmNoLnN1bShjb2VmZnNfZGljdFsndGV4J10gKiogMikKICAgIGNyZWdfbG9zcyA9IGNyZWdfbG9zcyAvIGNvZWZmc19kaWN0WydpZCddLnNoYXBlWzBdCgogICAgIyBnYW1tYSByZWd1bGFyaXphdGlvbiB0byBlbnN1cmUgYSBuZWFybHktbW9ub2Nocm9tYXRpYyBsaWdodAogICAgZ2FtbWEgPSBjb2VmZnNfZGljdFsnZ2FtbWEnXS5yZXNoYXBlKFstMSwgMywgOV0pCiAgICBnYW1tYV9tZWFuID0gdG9yY2gubWVhbihnYW1tYSwgZGltPTEsIGtlZXBkaW1zPVRydWUpCiAgICBnYW1tYV9sb3NzID0gdG9yY2gubWVhbigoZ2FtbWEgLSBnYW1tYV9tZWFuKSAqKiAyKQoKICAgIHJldHVybiBjcmVnX2xvc3MsIGdhbW1hX2xvc3MKCmRlZiByZWZsZWN0YW5jZV9sb3NzKHRleHR1cmUsIG1hc2spOgogICAgIiIiCiAgICBtaW5pbWl6ZSB0ZXh0dXJlIHZhcmlhbmNlIChtc2UpLCBhbGJlZG8gcmVndWxhcml6YXRpb24gdG8gZW5zdXJlIGFuIHVuaWZvcm0gc2tpbiBhbGJlZG8KICAgIFBhcmFtZXRlcnM6CiAgICAgICAgdGV4dHVyZSAgICAgICAtLXRvcmNoLnRlbnNvciwgKEIsIE4sIDMpCiAgICAgICAgbWFzayAgICAgICAgICAtLXRvcmNoLnRlbnNvciwgKE4pLCAxIG9yIDAKCiAgICAiIiIKICAgIG1hc2sgPSBtYXNrLnJlc2hhcGUoWzEsIG1hc2suc2hhcGVbMF0sIDFdKQogICAgdGV4dHVyZV9tZWFuID0gdG9yY2guc3VtKG1hc2sgKiB0ZXh0dXJlLCBkaW09MSwga2VlcGRpbXM9VHJ1ZSkgLyB0b3JjaC5zdW0obWFzaykKICAgIGxvc3MgPSB0b3JjaC5zdW0oKCh0ZXh0dXJlIC0gdGV4dHVyZV9tZWFuKSAqIG1hc2spKioyKSAvICh0ZXh0dXJlLnNoYXBlWzBdICogdG9yY2guc3VtKG1hc2spKQogICAgcmV0dXJuIGxvc3MKCg==
+import numpy as np
+import torch
+import torch.nn as nn
+from kornia.geometry import warp_affine
+import torch.nn.functional as F
+
+def resize_n_crop(image, M, dsize=112):
+    # image: (b, c, h, w)
+    # M   :  (b, 2, 3)
+    return warp_affine(image, M, dsize=(dsize, dsize), align_corners=True)
+
+### perceptual level loss
+class PerceptualLoss(nn.Module):
+    def __init__(self, recog_net, input_size=112):
+        super(PerceptualLoss, self).__init__()
+        self.recog_net = recog_net
+        self.preprocess = lambda x: 2 * x - 1
+        self.input_size=input_size
+    def forward(imageA, imageB, M):
+        """
+        1 - cosine distance
+        Parameters:
+            imageA       --torch.tensor (B, 3, H, W), range (0, 1) , RGB order
+            imageB       --same as imageA
+        """
+
+        imageA = self.preprocess(resize_n_crop(imageA, M, self.input_size))
+        imageB = self.preprocess(resize_n_crop(imageB, M, self.input_size))
+
+        # freeze bn
+        self.recog_net.eval()
+        
+        id_featureA = F.normalize(self.recog_net(imageA), dim=-1, p=2)
+        id_featureB = F.normalize(self.recog_net(imageB), dim=-1, p=2)  
+        cosine_d = torch.sum(id_featureA * id_featureB, dim=-1)
+        # assert torch.sum((cosine_d > 1).float()) == 0
+        return torch.sum(1 - cosine_d) / cosine_d.shape[0]        
+
+def perceptual_loss(id_featureA, id_featureB):
+    cosine_d = torch.sum(id_featureA * id_featureB, dim=-1)
+        # assert torch.sum((cosine_d > 1).float()) == 0
+    return torch.sum(1 - cosine_d) / cosine_d.shape[0]  
+
+### image level loss
+def photo_loss(imageA, imageB, mask, eps=1e-6):
+    """
+    l2 norm (with sqrt, to ensure backward stabililty, use eps, otherwise Nan may occur)
+    Parameters:
+        imageA       --torch.tensor (B, 3, H, W), range (0, 1), RGB order 
+        imageB       --same as imageA
+    """
+    loss = torch.sqrt(eps + torch.sum((imageA - imageB) ** 2, dim=1, keepdims=True)) * mask
+    loss = torch.sum(loss) / torch.max(torch.sum(mask), torch.tensor(1.0).to(mask.device))
+    return loss
+
+def landmark_loss(predict_lm, gt_lm, weight=None):
+    """
+    weighted mse loss
+    Parameters:
+        predict_lm    --torch.tensor (B, 68, 2)
+        gt_lm         --torch.tensor (B, 68, 2)
+        weight        --numpy.array (1, 68)
+    """
+    if not weight:
+        weight = np.ones([68])
+        weight[28:31] = 20
+        weight[-8:] = 20
+        weight = np.expand_dims(weight, 0)
+        weight = torch.tensor(weight).to(predict_lm.device)
+    loss = torch.sum((predict_lm - gt_lm)**2, dim=-1) * weight
+    loss = torch.sum(loss) / (predict_lm.shape[0] * predict_lm.shape[1])
+    return loss
+
+
+### regulization
+def reg_loss(coeffs_dict, opt=None):
+    """
+    l2 norm without the sqrt, from yu's implementation (mse)
+    tf.nn.l2_loss https://www.tensorflow.org/api_docs/python/tf/nn/l2_loss
+    Parameters:
+        coeffs_dict     -- a  dict of torch.tensors , keys: id, exp, tex, angle, gamma, trans
+
+    """
+    # coefficient regularization to ensure plausible 3d faces
+    if opt:
+        w_id, w_exp, w_tex = opt.w_id, opt.w_exp, opt.w_tex
+    else:
+        w_id, w_exp, w_tex = 1, 1, 1, 1
+    creg_loss = w_id * torch.sum(coeffs_dict['id'] ** 2) +  \
+           w_exp * torch.sum(coeffs_dict['exp'] ** 2) + \
+           w_tex * torch.sum(coeffs_dict['tex'] ** 2)
+    creg_loss = creg_loss / coeffs_dict['id'].shape[0]
+
+    # gamma regularization to ensure a nearly-monochromatic light
+    gamma = coeffs_dict['gamma'].reshape([-1, 3, 9])
+    gamma_mean = torch.mean(gamma, dim=1, keepdims=True)
+    gamma_loss = torch.mean((gamma - gamma_mean) ** 2)
+
+    return creg_loss, gamma_loss
+
+def reflectance_loss(texture, mask):
+    """
+    minimize texture variance (mse), albedo regularization to ensure an uniform skin albedo
+    Parameters:
+        texture       --torch.tensor, (B, N, 3)
+        mask          --torch.tensor, (N), 1 or 0
+
+    """
+    mask = mask.reshape([1, mask.shape[0], 1])
+    texture_mean = torch.sum(mask * texture, dim=1, keepdims=True) / torch.sum(mask)
+    loss = torch.sum(((texture - texture_mean) * mask)**2) / (texture.shape[0] * torch.sum(mask))
+    return loss
+

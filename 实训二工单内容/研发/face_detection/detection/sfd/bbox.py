@@ -1,1 +1,129 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBwcmludF9mdW5jdGlvbgppbXBvcnQgb3MKaW1wb3J0IHN5cwppbXBvcnQgY3YyCmltcG9ydCByYW5kb20KaW1wb3J0IGRhdGV0aW1lCmltcG9ydCB0aW1lCmltcG9ydCBtYXRoCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IHRvcmNoCgp0cnk6CiAgICBmcm9tIGlvdSBpbXBvcnQgSU9VCmV4Y2VwdCBCYXNlRXhjZXB0aW9uOgogICAgIyBJT1UgY3l0aG9uIHNwZWVkdXAgMTB4CiAgICBkZWYgSU9VKGF4MSwgYXkxLCBheDIsIGF5MiwgYngxLCBieTEsIGJ4MiwgYnkyKToKICAgICAgICBzYSA9IGFicygoYXgyIC0gYXgxKSAqIChheTIgLSBheTEpKQogICAgICAgIHNiID0gYWJzKChieDIgLSBieDEpICogKGJ5MiAtIGJ5MSkpCiAgICAgICAgeDEsIHkxID0gbWF4KGF4MSwgYngxKSwgbWF4KGF5MSwgYnkxKQogICAgICAgIHgyLCB5MiA9IG1pbihheDIsIGJ4MiksIG1pbihheTIsIGJ5MikKICAgICAgICB3ID0geDIgLSB4MQogICAgICAgIGggPSB5MiAtIHkxCiAgICAgICAgaWYgdyA8IDAgb3IgaCA8IDA6CiAgICAgICAgICAgIHJldHVybiAwLjAKICAgICAgICBlbHNlOgogICAgICAgICAgICByZXR1cm4gMS4wICogdyAqIGggLyAoc2EgKyBzYiAtIHcgKiBoKQoKCmRlZiBiYm94bG9nKHgxLCB5MSwgeDIsIHkyLCBheGMsIGF5YywgYXd3LCBhaGgpOgogICAgeGMsIHljLCB3dywgaGggPSAoeDIgKyB4MSkgLyAyLCAoeTIgKyB5MSkgLyAyLCB4MiAtIHgxLCB5MiAtIHkxCiAgICBkeCwgZHkgPSAoeGMgLSBheGMpIC8gYXd3LCAoeWMgLSBheWMpIC8gYWhoCiAgICBkdywgZGggPSBtYXRoLmxvZyh3dyAvIGF3dyksIG1hdGgubG9nKGhoIC8gYWhoKQogICAgcmV0dXJuIGR4LCBkeSwgZHcsIGRoCgoKZGVmIGJib3hsb2dpbnYoZHgsIGR5LCBkdywgZGgsIGF4YywgYXljLCBhd3csIGFoaCk6CiAgICB4YywgeWMgPSBkeCAqIGF3dyArIGF4YywgZHkgKiBhaGggKyBheWMKICAgIHd3LCBoaCA9IG1hdGguZXhwKGR3KSAqIGF3dywgbWF0aC5leHAoZGgpICogYWhoCiAgICB4MSwgeDIsIHkxLCB5MiA9IHhjIC0gd3cgLyAyLCB4YyArIHd3IC8gMiwgeWMgLSBoaCAvIDIsIHljICsgaGggLyAyCiAgICByZXR1cm4geDEsIHkxLCB4MiwgeTIKCgpkZWYgbm1zKGRldHMsIHRocmVzaCk6CiAgICBpZiAwID09IGxlbihkZXRzKToKICAgICAgICByZXR1cm4gW10KICAgIHgxLCB5MSwgeDIsIHkyLCBzY29yZXMgPSBkZXRzWzosIDBdLCBkZXRzWzosIDFdLCBkZXRzWzosIDJdLCBkZXRzWzosIDNdLCBkZXRzWzosIDRdCiAgICBhcmVhcyA9ICh4MiAtIHgxICsgMSkgKiAoeTIgLSB5MSArIDEpCiAgICBvcmRlciA9IHNjb3Jlcy5hcmdzb3J0KClbOjotMV0KCiAgICBrZWVwID0gW10KICAgIHdoaWxlIG9yZGVyLnNpemUgPiAwOgogICAgICAgIGkgPSBvcmRlclswXQogICAgICAgIGtlZXAuYXBwZW5kKGkpCiAgICAgICAgeHgxLCB5eTEgPSBucC5tYXhpbXVtKHgxW2ldLCB4MVtvcmRlclsxOl1dKSwgbnAubWF4aW11bSh5MVtpXSwgeTFbb3JkZXJbMTpdXSkKICAgICAgICB4eDIsIHl5MiA9IG5wLm1pbmltdW0oeDJbaV0sIHgyW29yZGVyWzE6XV0pLCBucC5taW5pbXVtKHkyW2ldLCB5MltvcmRlclsxOl1dKQoKICAgICAgICB3LCBoID0gbnAubWF4aW11bSgwLjAsIHh4MiAtIHh4MSArIDEpLCBucC5tYXhpbXVtKDAuMCwgeXkyIC0geXkxICsgMSkKICAgICAgICBvdnIgPSB3ICogaCAvIChhcmVhc1tpXSArIGFyZWFzW29yZGVyWzE6XV0gLSB3ICogaCkKCiAgICAgICAgaW5kcyA9IG5wLndoZXJlKG92ciA8PSB0aHJlc2gpWzBdCiAgICAgICAgb3JkZXIgPSBvcmRlcltpbmRzICsgMV0KCiAgICByZXR1cm4ga2VlcAoKCmRlZiBlbmNvZGUobWF0Y2hlZCwgcHJpb3JzLCB2YXJpYW5jZXMpOgogICAgIiIiRW5jb2RlIHRoZSB2YXJpYW5jZXMgZnJvbSB0aGUgcHJpb3Jib3ggbGF5ZXJzIGludG8gdGhlIGdyb3VuZCB0cnV0aCBib3hlcwogICAgd2UgaGF2ZSBtYXRjaGVkIChiYXNlZCBvbiBqYWNjYXJkIG92ZXJsYXApIHdpdGggdGhlIHByaW9yIGJveGVzLgogICAgQXJnczoKICAgICAgICBtYXRjaGVkOiAodGVuc29yKSBDb29yZHMgb2YgZ3JvdW5kIHRydXRoIGZvciBlYWNoIHByaW9yIGluIHBvaW50LWZvcm0KICAgICAgICAgICAgU2hhcGU6IFtudW1fcHJpb3JzLCA0XS4KICAgICAgICBwcmlvcnM6ICh0ZW5zb3IpIFByaW9yIGJveGVzIGluIGNlbnRlci1vZmZzZXQgZm9ybQogICAgICAgICAgICBTaGFwZTogW251bV9wcmlvcnMsNF0uCiAgICAgICAgdmFyaWFuY2VzOiAobGlzdFtmbG9hdF0pIFZhcmlhbmNlcyBvZiBwcmlvcmJveGVzCiAgICBSZXR1cm46CiAgICAgICAgZW5jb2RlZCBib3hlcyAodGVuc29yKSwgU2hhcGU6IFtudW1fcHJpb3JzLCA0XQogICAgIiIiCgogICAgIyBkaXN0IGIvdCBtYXRjaCBjZW50ZXIgYW5kIHByaW9yJ3MgY2VudGVyCiAgICBnX2N4Y3kgPSAobWF0Y2hlZFs6LCA6Ml0gKyBtYXRjaGVkWzosIDI6XSkgLyAyIC0gcHJpb3JzWzosIDoyXQogICAgIyBlbmNvZGUgdmFyaWFuY2UKICAgIGdfY3hjeSAvPSAodmFyaWFuY2VzWzBdICogcHJpb3JzWzosIDI6XSkKICAgICMgbWF0Y2ggd2ggLyBwcmlvciB3aAogICAgZ193aCA9IChtYXRjaGVkWzosIDI6XSAtIG1hdGNoZWRbOiwgOjJdKSAvIHByaW9yc1s6LCAyOl0KICAgIGdfd2ggPSB0b3JjaC5sb2coZ193aCkgLyB2YXJpYW5jZXNbMV0KICAgICMgcmV0dXJuIHRhcmdldCBmb3Igc21vb3RoX2wxX2xvc3MKICAgIHJldHVybiB0b3JjaC5jYXQoW2dfY3hjeSwgZ193aF0sIDEpICAjIFtudW1fcHJpb3JzLDRdCgoKZGVmIGRlY29kZShsb2MsIHByaW9ycywgdmFyaWFuY2VzKToKICAgICIiIkRlY29kZSBsb2NhdGlvbnMgZnJvbSBwcmVkaWN0aW9ucyB1c2luZyBwcmlvcnMgdG8gdW5kbwogICAgdGhlIGVuY29kaW5nIHdlIGRpZCBmb3Igb2Zmc2V0IHJlZ3Jlc3Npb24gYXQgdHJhaW4gdGltZS4KICAgIEFyZ3M6CiAgICAgICAgbG9jICh0ZW5zb3IpOiBsb2NhdGlvbiBwcmVkaWN0aW9ucyBmb3IgbG9jIGxheWVycywKICAgICAgICAgICAgU2hhcGU6IFtudW1fcHJpb3JzLDRdCiAgICAgICAgcHJpb3JzICh0ZW5zb3IpOiBQcmlvciBib3hlcyBpbiBjZW50ZXItb2Zmc2V0IGZvcm0uCiAgICAgICAgICAgIFNoYXBlOiBbbnVtX3ByaW9ycyw0XS4KICAgICAgICB2YXJpYW5jZXM6IChsaXN0W2Zsb2F0XSkgVmFyaWFuY2VzIG9mIHByaW9yYm94ZXMKICAgIFJldHVybjoKICAgICAgICBkZWNvZGVkIGJvdW5kaW5nIGJveCBwcmVkaWN0aW9ucwogICAgIiIiCgogICAgYm94ZXMgPSB0b3JjaC5jYXQoKAogICAgICAgIHByaW9yc1s6LCA6Ml0gKyBsb2NbOiwgOjJdICogdmFyaWFuY2VzWzBdICogcHJpb3JzWzosIDI6XSwKICAgICAgICBwcmlvcnNbOiwgMjpdICogdG9yY2guZXhwKGxvY1s6LCAyOl0gKiB2YXJpYW5jZXNbMV0pKSwgMSkKICAgIGJveGVzWzosIDoyXSAtPSBib3hlc1s6LCAyOl0gLyAyCiAgICBib3hlc1s6LCAyOl0gKz0gYm94ZXNbOiwgOjJdCiAgICByZXR1cm4gYm94ZXMKCmRlZiBiYXRjaF9kZWNvZGUobG9jLCBwcmlvcnMsIHZhcmlhbmNlcyk6CiAgICAiIiJEZWNvZGUgbG9jYXRpb25zIGZyb20gcHJlZGljdGlvbnMgdXNpbmcgcHJpb3JzIHRvIHVuZG8KICAgIHRoZSBlbmNvZGluZyB3ZSBkaWQgZm9yIG9mZnNldCByZWdyZXNzaW9uIGF0IHRyYWluIHRpbWUuCiAgICBBcmdzOgogICAgICAgIGxvYyAodGVuc29yKTogbG9jYXRpb24gcHJlZGljdGlvbnMgZm9yIGxvYyBsYXllcnMsCiAgICAgICAgICAgIFNoYXBlOiBbbnVtX3ByaW9ycyw0XQogICAgICAgIHByaW9ycyAodGVuc29yKTogUHJpb3IgYm94ZXMgaW4gY2VudGVyLW9mZnNldCBmb3JtLgogICAgICAgICAgICBTaGFwZTogW251bV9wcmlvcnMsNF0uCiAgICAgICAgdmFyaWFuY2VzOiAobGlzdFtmbG9hdF0pIFZhcmlhbmNlcyBvZiBwcmlvcmJveGVzCiAgICBSZXR1cm46CiAgICAgICAgZGVjb2RlZCBib3VuZGluZyBib3ggcHJlZGljdGlvbnMKICAgICIiIgoKICAgIGJveGVzID0gdG9yY2guY2F0KCgKICAgICAgICBwcmlvcnNbOiwgOiwgOjJdICsgbG9jWzosIDosIDoyXSAqIHZhcmlhbmNlc1swXSAqIHByaW9yc1s6LCA6LCAyOl0sCiAgICAgICAgcHJpb3JzWzosIDosIDI6XSAqIHRvcmNoLmV4cChsb2NbOiwgOiwgMjpdICogdmFyaWFuY2VzWzFdKSksIDIpCiAgICBib3hlc1s6LCA6LCA6Ml0gLT0gYm94ZXNbOiwgOiwgMjpdIC8gMgogICAgYm94ZXNbOiwgOiwgMjpdICs9IGJveGVzWzosIDosIDoyXQogICAgcmV0dXJuIGJveGVzCg==
+from __future__ import print_function
+import os
+import sys
+import cv2
+import random
+import datetime
+import time
+import math
+import argparse
+import numpy as np
+import torch
+
+try:
+    from iou import IOU
+except BaseException:
+    # IOU cython speedup 10x
+    def IOU(ax1, ay1, ax2, ay2, bx1, by1, bx2, by2):
+        sa = abs((ax2 - ax1) * (ay2 - ay1))
+        sb = abs((bx2 - bx1) * (by2 - by1))
+        x1, y1 = max(ax1, bx1), max(ay1, by1)
+        x2, y2 = min(ax2, bx2), min(ay2, by2)
+        w = x2 - x1
+        h = y2 - y1
+        if w < 0 or h < 0:
+            return 0.0
+        else:
+            return 1.0 * w * h / (sa + sb - w * h)
+
+
+def bboxlog(x1, y1, x2, y2, axc, ayc, aww, ahh):
+    xc, yc, ww, hh = (x2 + x1) / 2, (y2 + y1) / 2, x2 - x1, y2 - y1
+    dx, dy = (xc - axc) / aww, (yc - ayc) / ahh
+    dw, dh = math.log(ww / aww), math.log(hh / ahh)
+    return dx, dy, dw, dh
+
+
+def bboxloginv(dx, dy, dw, dh, axc, ayc, aww, ahh):
+    xc, yc = dx * aww + axc, dy * ahh + ayc
+    ww, hh = math.exp(dw) * aww, math.exp(dh) * ahh
+    x1, x2, y1, y2 = xc - ww / 2, xc + ww / 2, yc - hh / 2, yc + hh / 2
+    return x1, y1, x2, y2
+
+
+def nms(dets, thresh):
+    if 0 == len(dets):
+        return []
+    x1, y1, x2, y2, scores = dets[:, 0], dets[:, 1], dets[:, 2], dets[:, 3], dets[:, 4]
+    areas = (x2 - x1 + 1) * (y2 - y1 + 1)
+    order = scores.argsort()[::-1]
+
+    keep = []
+    while order.size > 0:
+        i = order[0]
+        keep.append(i)
+        xx1, yy1 = np.maximum(x1[i], x1[order[1:]]), np.maximum(y1[i], y1[order[1:]])
+        xx2, yy2 = np.minimum(x2[i], x2[order[1:]]), np.minimum(y2[i], y2[order[1:]])
+
+        w, h = np.maximum(0.0, xx2 - xx1 + 1), np.maximum(0.0, yy2 - yy1 + 1)
+        ovr = w * h / (areas[i] + areas[order[1:]] - w * h)
+
+        inds = np.where(ovr <= thresh)[0]
+        order = order[inds + 1]
+
+    return keep
+
+
+def encode(matched, priors, variances):
+    """Encode the variances from the priorbox layers into the ground truth boxes
+    we have matched (based on jaccard overlap) with the prior boxes.
+    Args:
+        matched: (tensor) Coords of ground truth for each prior in point-form
+            Shape: [num_priors, 4].
+        priors: (tensor) Prior boxes in center-offset form
+            Shape: [num_priors,4].
+        variances: (list[float]) Variances of priorboxes
+    Return:
+        encoded boxes (tensor), Shape: [num_priors, 4]
+    """
+
+    # dist b/t match center and prior's center
+    g_cxcy = (matched[:, :2] + matched[:, 2:]) / 2 - priors[:, :2]
+    # encode variance
+    g_cxcy /= (variances[0] * priors[:, 2:])
+    # match wh / prior wh
+    g_wh = (matched[:, 2:] - matched[:, :2]) / priors[:, 2:]
+    g_wh = torch.log(g_wh) / variances[1]
+    # return target for smooth_l1_loss
+    return torch.cat([g_cxcy, g_wh], 1)  # [num_priors,4]
+
+
+def decode(loc, priors, variances):
+    """Decode locations from predictions using priors to undo
+    the encoding we did for offset regression at train time.
+    Args:
+        loc (tensor): location predictions for loc layers,
+            Shape: [num_priors,4]
+        priors (tensor): Prior boxes in center-offset form.
+            Shape: [num_priors,4].
+        variances: (list[float]) Variances of priorboxes
+    Return:
+        decoded bounding box predictions
+    """
+
+    boxes = torch.cat((
+        priors[:, :2] + loc[:, :2] * variances[0] * priors[:, 2:],
+        priors[:, 2:] * torch.exp(loc[:, 2:] * variances[1])), 1)
+    boxes[:, :2] -= boxes[:, 2:] / 2
+    boxes[:, 2:] += boxes[:, :2]
+    return boxes
+
+def batch_decode(loc, priors, variances):
+    """Decode locations from predictions using priors to undo
+    the encoding we did for offset regression at train time.
+    Args:
+        loc (tensor): location predictions for loc layers,
+            Shape: [num_priors,4]
+        priors (tensor): Prior boxes in center-offset form.
+            Shape: [num_priors,4].
+        variances: (list[float]) Variances of priorboxes
+    Return:
+        decoded bounding box predictions
+    """
+
+    boxes = torch.cat((
+        priors[:, :, :2] + loc[:, :, :2] * variances[0] * priors[:, :, 2:],
+        priors[:, :, 2:] * torch.exp(loc[:, :, 2:] * variances[1])), 2)
+    boxes[:, :, :2] -= boxes[:, :, 2:] / 2
+    boxes[:, :, 2:] += boxes[:, :, :2]
+    return boxes

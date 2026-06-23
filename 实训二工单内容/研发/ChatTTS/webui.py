@@ -1,1 +1,113 @@
-aW1wb3J0IG9zCmltcG9ydCByYW5kb20KaW1wb3J0IGFyZ3BhcnNlCgppbXBvcnQgdG9yY2gKaW1wb3J0IGdyYWRpbyBhcyBncgppbXBvcnQgbnVtcHkgYXMgbnAKCmltcG9ydCBDaGF0VFRTCgoKZGVmIGdlbmVyYXRlX3NlZWQoKToKICAgIG5ld19zZWVkID0gcmFuZG9tLnJhbmRpbnQoMSwgMTAwMDAwMDAwKQogICAgcmV0dXJuIHsKICAgICAgICAiX190eXBlX18iOiAidXBkYXRlIiwKICAgICAgICAidmFsdWUiOiBuZXdfc2VlZAogICAgICAgIH0KCgpkZWYgZ2VuZXJhdGVfYXVkaW8odGV4dCwgdGVtcGVyYXR1cmUsIHRvcF9QLCB0b3BfSywgYXVkaW9fc2VlZF9pbnB1dCwgdGV4dF9zZWVkX2lucHV0LCByZWZpbmVfdGV4dF9mbGFnKToKCiAgICB0b3JjaC5tYW51YWxfc2VlZChhdWRpb19zZWVkX2lucHV0KQogICAgcmFuZF9zcGsgPSBjaGF0LnNhbXBsZV9yYW5kb21fc3BlYWtlcigpCiAgICBwYXJhbXNfaW5mZXJfY29kZSA9IHsKICAgICAgICAnc3BrX2VtYic6IHJhbmRfc3BrLCAKICAgICAgICAndGVtcGVyYXR1cmUnOiB0ZW1wZXJhdHVyZSwKICAgICAgICAndG9wX1AnOiB0b3BfUCwKICAgICAgICAndG9wX0snOiB0b3BfSywKICAgICAgICB9CiAgICBwYXJhbXNfcmVmaW5lX3RleHQgPSB7J3Byb21wdCc6ICdbb3JhbF8yXVtsYXVnaF8wXVticmVha182XSd9CiAgICAKICAgIHRvcmNoLm1hbnVhbF9zZWVkKHRleHRfc2VlZF9pbnB1dCkKCiAgICBpZiByZWZpbmVfdGV4dF9mbGFnOgogICAgICAgIHRleHQgPSBjaGF0LmluZmVyKHRleHQsIAogICAgICAgICAgICAgICAgICAgICAgICAgIHNraXBfcmVmaW5lX3RleHQ9RmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgcmVmaW5lX3RleHRfb25seT1UcnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtc19yZWZpbmVfdGV4dD1wYXJhbXNfcmVmaW5lX3RleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1zX2luZmVyX2NvZGU9cGFyYW1zX2luZmVyX2NvZGUKICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAKICAgIHdhdiA9IGNoYXQuaW5mZXIodGV4dCwgCiAgICAgICAgICAgICAgICAgICAgIHNraXBfcmVmaW5lX3RleHQ9VHJ1ZSwgCiAgICAgICAgICAgICAgICAgICAgIHBhcmFtc19yZWZpbmVfdGV4dD1wYXJhbXNfcmVmaW5lX3RleHQsIAogICAgICAgICAgICAgICAgICAgICBwYXJhbXNfaW5mZXJfY29kZT1wYXJhbXNfaW5mZXJfY29kZQogICAgICAgICAgICAgICAgICAgICApCiAgICAKICAgIGF1ZGlvX2RhdGEgPSBucC5hcnJheSh3YXZbMF0pLmZsYXR0ZW4oKQogICAgc2FtcGxlX3JhdGUgPSAyNDAwMAogICAgdGV4dF9kYXRhID0gdGV4dFswXSBpZiBpc2luc3RhbmNlKHRleHQsIGxpc3QpIGVsc2UgdGV4dAoKICAgIHJldHVybiBbKHNhbXBsZV9yYXRlLCBhdWRpb19kYXRhKSwgdGV4dF9kYXRhXQoKCmRlZiBtYWluKCk6CgogICAgd2l0aCBnci5CbG9ja3MoKSBhcyBkZW1vOgogICAgICAgIGdyLk1hcmtkb3duKCIjIENoYXRUVFMgV2VidWkiKQogICAgICAgIGdyLk1hcmtkb3duKCJDaGF0VFRTIE1vZGVsOiBbMm5vaXNlL0NoYXRUVFNdKGh0dHBzOi8vZ2l0aHViLmNvbS8ybm9pc2UvQ2hhdFRUUykiKQoKICAgICAgICBkZWZhdWx0X3RleHQgPSAi5Zub5bed576O6aOf56Gu5a6e5Lul6L6j6Ze75ZCN77yM5L2G5Lmf5pyJ5LiN6L6j55qE6YCJ5oup44CC5q+U5aaC55Sc5rC06Z2i44CB6LWW5rGk5ZyG44CB6JuL54OY57OV44CB5Y+25YS/57KR562J77yM6L+Z5Lqb5bCP5ZCD5Y+j5ZGz5rip5ZKM77yM55Sc6ICM5LiN6IW777yM5Lmf5b6I5Y+X5qyi6L+O44CCIiAgICAgICAgCiAgICAgICAgdGV4dF9pbnB1dCA9IGdyLlRleHRib3gobGFiZWw9IklucHV0IFRleHQiLCBsaW5lcz00LCBwbGFjZWhvbGRlcj0iUGxlYXNlIElucHV0IFRleHQuLi4iLCB2YWx1ZT1kZWZhdWx0X3RleHQpCgogICAgICAgIHdpdGggZ3IuUm93KCk6CiAgICAgICAgICAgIHJlZmluZV90ZXh0X2NoZWNrYm94ID0gZ3IuQ2hlY2tib3gobGFiZWw9IlJlZmluZSB0ZXh0IiwgdmFsdWU9VHJ1ZSkKICAgICAgICAgICAgdGVtcGVyYXR1cmVfc2xpZGVyID0gZ3IuU2xpZGVyKG1pbmltdW09MC4wMDAwMSwgbWF4aW11bT0xLjAsIHN0ZXA9MC4wMDAwMSwgdmFsdWU9MC4zLCBsYWJlbD0iQXVkaW8gdGVtcGVyYXR1cmUiKQogICAgICAgICAgICB0b3BfcF9zbGlkZXIgPSBnci5TbGlkZXIobWluaW11bT0wLjEsIG1heGltdW09MC45LCBzdGVwPTAuMDUsIHZhbHVlPTAuNywgbGFiZWw9InRvcF9QIikKICAgICAgICAgICAgdG9wX2tfc2xpZGVyID0gZ3IuU2xpZGVyKG1pbmltdW09MSwgbWF4aW11bT0yMCwgc3RlcD0xLCB2YWx1ZT0yMCwgbGFiZWw9InRvcF9LIikKCiAgICAgICAgd2l0aCBnci5Sb3coKToKICAgICAgICAgICAgYXVkaW9fc2VlZF9pbnB1dCA9IGdyLk51bWJlcih2YWx1ZT0yLCBsYWJlbD0iQXVkaW8gU2VlZCIpCiAgICAgICAgICAgIGdlbmVyYXRlX2F1ZGlvX3NlZWQgPSBnci5CdXR0b24oIlxVMDAwMUYzQjIiKQogICAgICAgICAgICB0ZXh0X3NlZWRfaW5wdXQgPSBnci5OdW1iZXIodmFsdWU9NDIsIGxhYmVsPSJUZXh0IFNlZWQiKQogICAgICAgICAgICBnZW5lcmF0ZV90ZXh0X3NlZWQgPSBnci5CdXR0b24oIlxVMDAwMUYzQjIiKQoKICAgICAgICBnZW5lcmF0ZV9idXR0b24gPSBnci5CdXR0b24oIkdlbmVyYXRlIikKICAgICAgICAKICAgICAgICB0ZXh0X291dHB1dCA9IGdyLlRleHRib3gobGFiZWw9Ik91dHB1dCBUZXh0IiwgaW50ZXJhY3RpdmU9RmFsc2UpCiAgICAgICAgYXVkaW9fb3V0cHV0ID0gZ3IuQXVkaW8obGFiZWw9Ik91dHB1dCBBdWRpbyIpCgogICAgICAgIGdlbmVyYXRlX2F1ZGlvX3NlZWQuY2xpY2soZ2VuZXJhdGVfc2VlZCwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnB1dHM9W10sIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3V0cHV0cz1hdWRpb19zZWVkX2lucHV0KQogICAgICAgIAogICAgICAgIGdlbmVyYXRlX3RleHRfc2VlZC5jbGljayhnZW5lcmF0ZV9zZWVkLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRzPVtdLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3V0cHV0cz10ZXh0X3NlZWRfaW5wdXQpCiAgICAgICAgCiAgICAgICAgZ2VuZXJhdGVfYnV0dG9uLmNsaWNrKGdlbmVyYXRlX2F1ZGlvLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRzPVt0ZXh0X2lucHV0LCB0ZW1wZXJhdHVyZV9zbGlkZXIsIHRvcF9wX3NsaWRlciwgdG9wX2tfc2xpZGVyLCBhdWRpb19zZWVkX2lucHV0LCB0ZXh0X3NlZWRfaW5wdXQsIHJlZmluZV90ZXh0X2NoZWNrYm94XSwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG91dHB1dHM9W2F1ZGlvX291dHB1dCwgdGV4dF9vdXRwdXRdKQoKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKGRlc2NyaXB0aW9uPSdDaGF0VFRTIGRlbW8gTGF1bmNoJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tc2VydmVyX25hbWUnLCB0eXBlPXN0ciwgZGVmYXVsdD0nMC4wLjAuMCcsIGhlbHA9J1NlcnZlciBuYW1lJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tc2VydmVyX3BvcnQnLCB0eXBlPWludCwgZGVmYXVsdD04MDgwLCBoZWxwPSdTZXJ2ZXIgcG9ydCcpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWxvY2FsX3BhdGgnLCB0eXBlPXN0ciwgZGVmYXVsdD1Ob25lLCBoZWxwPSd0aGUgbG9jYWxfcGF0aCBpZiBuZWVkJykKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCgogICAgcHJpbnQoImxvYWRpbmcgQ2hhdFRUUyBtb2RlbC4uLiIpCiAgICBnbG9iYWwgY2hhdAogICAgY2hhdCA9IENoYXRUVFMuQ2hhdCgpCgogICAgaWYgYXJncy5sb2NhbF9wYXRoID09IE5vbmU6CiAgICAgICAgY2hhdC5sb2FkX21vZGVscygpCiAgICBlbHNlOgogICAgICAgIHByaW50KCdsb2NhbCBtb2RlbCBwYXRoOicsIGFyZ3MubG9jYWxfcGF0aCkKICAgICAgICBjaGF0LmxvYWRfbW9kZWxzKCdsb2NhbCcsIGxvY2FsX3BhdGg9YXJncy5sb2NhbF9wYXRoKQoKICAgIGRlbW8ubGF1bmNoKHNlcnZlcl9uYW1lPWFyZ3Muc2VydmVyX25hbWUsIHNlcnZlcl9wb3J0PWFyZ3Muc2VydmVyX3BvcnQsIGluYnJvd3Nlcj1UcnVlKQoKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICBtYWluKCk=
+import os
+import random
+import argparse
+
+import torch
+import gradio as gr
+import numpy as np
+
+import ChatTTS
+
+
+def generate_seed():
+    new_seed = random.randint(1, 100000000)
+    return {
+        "__type__": "update",
+        "value": new_seed
+        }
+
+
+def generate_audio(text, temperature, top_P, top_K, audio_seed_input, text_seed_input, refine_text_flag):
+
+    torch.manual_seed(audio_seed_input)
+    rand_spk = chat.sample_random_speaker()
+    params_infer_code = {
+        'spk_emb': rand_spk, 
+        'temperature': temperature,
+        'top_P': top_P,
+        'top_K': top_K,
+        }
+    params_refine_text = {'prompt': '[oral_2][laugh_0][break_6]'}
+    
+    torch.manual_seed(text_seed_input)
+
+    if refine_text_flag:
+        text = chat.infer(text, 
+                          skip_refine_text=False,
+                          refine_text_only=True,
+                          params_refine_text=params_refine_text,
+                          params_infer_code=params_infer_code
+                          )
+    
+    wav = chat.infer(text, 
+                     skip_refine_text=True, 
+                     params_refine_text=params_refine_text, 
+                     params_infer_code=params_infer_code
+                     )
+    
+    audio_data = np.array(wav[0]).flatten()
+    sample_rate = 24000
+    text_data = text[0] if isinstance(text, list) else text
+
+    return [(sample_rate, audio_data), text_data]
+
+
+def main():
+
+    with gr.Blocks() as demo:
+        gr.Markdown("# ChatTTS Webui")
+        gr.Markdown("ChatTTS Model: [2noise/ChatTTS](https://github.com/2noise/ChatTTS)")
+
+        default_text = "四川美食确实以辣闻名，但也有不辣的选择。比如甜水面、赖汤圆、蛋烘糕、叶儿粑等，这些小吃口味温和，甜而不腻，也很受欢迎。"        
+        text_input = gr.Textbox(label="Input Text", lines=4, placeholder="Please Input Text...", value=default_text)
+
+        with gr.Row():
+            refine_text_checkbox = gr.Checkbox(label="Refine text", value=True)
+            temperature_slider = gr.Slider(minimum=0.00001, maximum=1.0, step=0.00001, value=0.3, label="Audio temperature")
+            top_p_slider = gr.Slider(minimum=0.1, maximum=0.9, step=0.05, value=0.7, label="top_P")
+            top_k_slider = gr.Slider(minimum=1, maximum=20, step=1, value=20, label="top_K")
+
+        with gr.Row():
+            audio_seed_input = gr.Number(value=2, label="Audio Seed")
+            generate_audio_seed = gr.Button("\U0001F3B2")
+            text_seed_input = gr.Number(value=42, label="Text Seed")
+            generate_text_seed = gr.Button("\U0001F3B2")
+
+        generate_button = gr.Button("Generate")
+        
+        text_output = gr.Textbox(label="Output Text", interactive=False)
+        audio_output = gr.Audio(label="Output Audio")
+
+        generate_audio_seed.click(generate_seed, 
+                                  inputs=[], 
+                                  outputs=audio_seed_input)
+        
+        generate_text_seed.click(generate_seed, 
+                                 inputs=[], 
+                                 outputs=text_seed_input)
+        
+        generate_button.click(generate_audio, 
+                              inputs=[text_input, temperature_slider, top_p_slider, top_k_slider, audio_seed_input, text_seed_input, refine_text_checkbox], 
+                              outputs=[audio_output, text_output])
+
+    parser = argparse.ArgumentParser(description='ChatTTS demo Launch')
+    parser.add_argument('--server_name', type=str, default='0.0.0.0', help='Server name')
+    parser.add_argument('--server_port', type=int, default=8080, help='Server port')
+    parser.add_argument('--local_path', type=str, default=None, help='the local_path if need')
+    args = parser.parse_args()
+
+    print("loading ChatTTS model...")
+    global chat
+    chat = ChatTTS.Chat()
+
+    if args.local_path == None:
+        chat.load_models()
+    else:
+        print('local model path:', args.local_path)
+        chat.load_models('local', local_path=args.local_path)
+
+    demo.launch(server_name=args.server_name, server_port=args.server_port, inbrowser=True)
+
+
+if __name__ == '__main__':
+    main()

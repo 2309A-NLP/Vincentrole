@@ -1,1 +1,12 @@
-aW1wb3J0IHN5cwppbXBvcnQgdG9yY2gKaW1wb3J0IHN1YnByb2Nlc3MKCnB5dF92ZXJzaW9uX3N0cj10b3JjaC5fX3ZlcnNpb25fXy5zcGxpdCgiKyIpWzBdLnJlcGxhY2UoIi4iLCAiIikKdmVyc2lvbl9zdHI9IiIuam9pbihbCiAgICBmInB5M3tzeXMudmVyc2lvbl9pbmZvLm1pbm9yfV9jdSIsCiAgICB0b3JjaC52ZXJzaW9uLmN1ZGEucmVwbGFjZSgiLiIsIiIpLAogICAgZiJfcHl0e3B5dF92ZXJzaW9uX3N0cn0iCl0pCnN1YnByb2Nlc3MucnVuKFsicGlwIiwgImluc3RhbGwiLCAiZnZjb3JlIiwgImlvcGF0aCJdKQpzdWJwcm9jZXNzLnJ1bihbInBpcCIsICJpbnN0YWxsIiwgZiItLW5vLWluZGV4IiwgZiItLW5vLWNhY2hlLWRpciIsIGYicHl0b3JjaDNkIiwgZiItZiIsIGYiaHR0cHM6Ly9kbC5mYmFpcHVibGljZmlsZXMuY29tL3B5dG9yY2gzZC9wYWNrYWdpbmcvd2hlZWxzL3t2ZXJzaW9uX3N0cn0vZG93bmxvYWQuaHRtbCJdKQ==
+import sys
+import torch
+import subprocess
+
+pyt_version_str=torch.__version__.split("+")[0].replace(".", "")
+version_str="".join([
+    f"py3{sys.version_info.minor}_cu",
+    torch.version.cuda.replace(".",""),
+    f"_pyt{pyt_version_str}"
+])
+subprocess.run(["pip", "install", "fvcore", "iopath"])
+subprocess.run(["pip", "install", f"--no-index", f"--no-cache-dir", f"pytorch3d", f"-f", f"https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/{version_str}/download.html"])

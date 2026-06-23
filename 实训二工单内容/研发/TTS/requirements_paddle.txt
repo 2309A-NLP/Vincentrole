@@ -1,1 +1,3 @@
-cGFkZGxlcGFkZGxlPT0yLjUuMgpwYWRkbGVzcGVlY2g9PTEuNC4xCm9wZW5jYz09MS4xLjE=
+paddlepaddle==2.5.2
+paddlespeech==1.4.1
+opencc==1.1.1

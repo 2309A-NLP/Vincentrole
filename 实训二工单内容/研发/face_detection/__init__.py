@@ -1,1 +1,7 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KCl9fYXV0aG9yX18gPSAiIiJBZHJpYW4gQnVsYXQiIiIKX19lbWFpbF9fID0gJ2Fkcmlhbi5idWxhdEBub3R0aW5naGFtLmFjLnVrJwpfX3ZlcnNpb25fXyA9ICcxLjAuMScKCmZyb20gLmFwaSBpbXBvcnQgRmFjZUFsaWdubWVudCwgTGFuZG1hcmtzVHlwZSwgTmV0d29ya1NpemUK
+# -*- coding: utf-8 -*-
+
+__author__ = """Adrian Bulat"""
+__email__ = 'adrian.bulat@nottingham.ac.uk'
+__version__ = '1.0.1'
+
+from .api import FaceAlignment, LandmarksType, NetworkSize

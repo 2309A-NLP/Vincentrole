@@ -1,1 +1,15 @@
-IyDorr7lpIfov5DooYznq6/lj6MgKERldmljZSBydW5uaW5nIHBvcnQpCnBvcnQgPSA2MDA2CiMgYXBp6L+Q6KGM56uv5Y+j5Y+KSVAgKEFQSSBydW5uaW5nIHBvcnQgYW5kIElQKQptb2RlID0gJ2FwaScgIyBhcGkg6ZyA6KaB5YWI6L+Q6KGMTGlubHktYXBpLWZhc3QucHnvvIzmmoLml7bku4Xku4XpgILnlKjkuo5MaW5seQppcCA9ICcxMjcuMC4wLjEnIAphcGlfcG9ydCA9IDc4NzEKCiMgTOaooeWei+i3r+W+hCAoTGlubHkgbW9kZWwgcGF0aCkg5bey5LiN55So5LqGCm1vZGUgPSAnb2ZmbGluZScKbW9kZWxfcGF0aCA9ICdRd2VuL1F3ZW4tMV84Qi1DaGF0JwoKIyBzc2zor4HkuaYgKFNTTCBjZXJ0aWZpY2F0ZSkg6bqm5YWL6aOO5a+56K+d6ZyA6KaB5q2k5Y+C5pWwCiMg5pyA5aW96LCD5pW05Li657ud5a+56Lev5b6ECnNzbF9jZXJ0ZmlsZSA9ICIuL2h0dHBzX2NlcnQvY2VydC5wZW0iCnNzbF9rZXlmaWxlID0gIi4vaHR0cHNfY2VydC9rZXkucGVtIg==
+# 设备运行端口 (Device running port)
+port = 6006
+# api运行端口及IP (API running port and IP)
+mode = 'api' # api 需要先运行Linly-api-fast.py，暂时仅仅适用于Linly
+ip = '127.0.0.1' 
+api_port = 7871
+
+# L模型路径 (Linly model path) 已不用了
+mode = 'offline'
+model_path = 'Qwen/Qwen-1_8B-Chat'
+
+# ssl证书 (SSL certificate) 麦克风对话需要此参数
+# 最好调整为绝对路径
+ssl_certfile = "./https_cert/cert.pem"
+ssl_keyfile = "./https_cert/key.pem"

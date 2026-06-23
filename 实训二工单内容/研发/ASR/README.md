@@ -1,1 +1,77 @@
-IyMgQVNSIOWQjOaVsOWtl+S6uuayn+mAmueahOahpeaigQoKIyMjIFdoaXNwZXIgT3BlbkFJCgpXaGlzcGVyIOaYr+S4gOS4quiHquWKqOivremfs+ivhuWIqyAoQVNSKSDns7vnu5/vvIzlroPkvb/nlKjku47nvZHnu5zkuIrmlLbpm4bnmoQgNjgwLDAwMCDlsI/ml7blpJror63oqIDlkozlpJrku7vliqHnm5HnnaPmlbDmja7ov5vooYzorq3nu4PjgILkvb/nlKjlpoLmraTlup7lpKfkuJTlpJrmoLfljJbnmoTmlbDmja7pm4blj6/ku6Xmj5Dpq5jlr7nlj6Ppn7PjgIHog4zmma/lmarpn7PlkozmioDmnK/or63oqIDnmoTpsoHmo5LmgKfjgILmraTlpJbvvIzlroPov5jmlK/mjIHlpJrnp43or63oqIDnmoTovazlvZXvvIzku6Xlj4rlsIbov5nkupvor63oqIDnv7vor5HmiJDoi7Hor63jgIIKCuS9v+eUqOaWueazleW+iOeugOWNle+8jOaIkeS7rOWPquimgeWuieijheS7peS4i+W6k++8jOWQjue7reaooeWei+S8muiHquWKqOS4i+i9vQoKYGBgYmFzaApwaXAgaW5zdGFsbCAtVSBvcGVuYWktd2hpc3BlcgpgYGAKCuWAn+mJtE9wZW5BSeeahFdoaXNwZXLlrp7njrDkuoZBU1LnmoTor63pn7Por4bliKvvvIzlhbfkvZPkvb/nlKjmlrnms5Xlj4LogIMgW2h0dHBzOi8vZ2l0aHViLmNvbS9vcGVuYWkvd2hpc3Blcl0oaHR0cHM6Ly9naXRodWIuY29tL29wZW5haS93aGlzcGVyKQoKYGBgcHl0aG9uCicnJwpodHRwczovL2dpdGh1Yi5jb20vb3BlbmFpL3doaXNwZXIKcGlwIGluc3RhbGwgLVUgb3BlbmFpLXdoaXNwZXIKJycnCmltcG9ydCB3aGlzcGVyCgpjbGFzcyBXaGlzcGVyQVNSOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG1vZGVsX3BhdGgpOgogICAgICAgIHNlbGYuTEFOR1VBR0VTID0gewogICAgICAgICAgICAiZW4iOiAiZW5nbGlzaCIsCiAgICAgICAgICAgICJ6aCI6ICJjaGluZXNlIiwKICAgICAgICB9CiAgICAgICAgc2VsZi5tb2RlbCA9IHdoaXNwZXIubG9hZF9tb2RlbChtb2RlbF9wYXRoKQogICAgICAgIAogICAgZGVmIHRyYW5zY3JpYmUoc2VsZiwgYXVkaW9fZmlsZSk6CiAgICAgICAgcmVzdWx0ID0gc2VsZi5tb2RlbC50cmFuc2NyaWJlKGF1ZGlvX2ZpbGUpCiAgICAgICAgcmV0dXJuIHJlc3VsdFsidGV4dCJdCmBgYAoKCgojIyMgRnVuQVNSIEFsaWJhYmEKCumYv+mHjOeahGBGdW5BU1Jg55qE6K+t6Z+z6K+G5Yir5pWI5p6c5Lmf5piv55u45b2T5LiN6ZSZ77yM6ICM5LiU5pe26Ze05Lmf5piv5q+Ud2hpc3BlcuabtOW/q+eahO+8jOabtOiDvei+vuWIsOWunuaXtueahOaViOaenO+8jOaJgOS7peS5n+WwhkZ1bkFTUua3u+WKoOi/m+WOu+S6hu+8jOWcqEFTUuaWh+S7tuWkueS4i+eahEZ1bkFTUuaWh+S7tumHjOWPr+S7pei/m+ihjOS9k+mqjO+8jOWPguiAgyBbaHR0cHM6Ly9naXRodWIuY29tL2FsaWJhYmEtZGFtby1hY2FkZW15L0Z1bkFTUl0oaHR0cHM6Ly9naXRodWIuY29tL2FsaWJhYmEtZGFtby1hY2FkZW15L0Z1bkFTUikKCumcgOimgeazqOaEj+eahOaYr++8jOWcqOesrOS4gOasoei/kOihjOeahOaXtuWAme+8jOmcgOimgeWuieijheS7peS4i+W6k+OAggoKYGBgYmFzaApwaXAgaW5zdGFsbCBmdW5hc3IKcGlwIGluc3RhbGwgbW9kZWxzY29wZQpwaXAgaW5zdGFsbCAtVSByb3RhcnlfZW1iZWRkaW5nX3RvcmNoCmBgYAoKYGBgcHl0aG9uCicnJwpSZWZlcmVuY2U6IGh0dHBzOi8vZ2l0aHViLmNvbS9hbGliYWJhLWRhbW8tYWNhZGVteS9GdW5BU1IKcGlwIGluc3RhbGwgZnVuYXNyCnBpcCBpbnN0YWxsIG1vZGVsc2NvcGUKcGlwIGluc3RhbGwgLVUgcm90YXJ5X2VtYmVkZGluZ190b3JjaAonJycKdHJ5OgogICAgZnJvbSBmdW5hc3IgaW1wb3J0IEF1dG9Nb2RlbApleGNlcHQ6CiAgICBwcmludCgi5aaC5p6c5oOz5L2/55SoRnVuQVNS77yM6K+35YWI5a6J6KOFZnVuYXNy77yM6Iul5L2/55SoV2hpc3Blcu+8jOivt+W/veeVpeatpOadoeS/oeaBryIpICAgCgpjbGFzcyBGdW5BU1I6CiAgICBkZWYgX19pbml0X18oc2VsZikgLT4gTm9uZToKICAgICAgICBzZWxmLm1vZGVsID0gQXV0b01vZGVsKG1vZGVsPSJwYXJhZm9ybWVyLXpoIiwgbW9kZWxfcmV2aXNpb249InYyLjAuNCIsCiAgICAgICAgICAgICAgICB2YWRfbW9kZWw9ImZzbW4tdmFkIiwgdmFkX21vZGVsX3JldmlzaW9uPSJ2Mi4wLjQiLAogICAgICAgICAgICAgICAgcHVuY19tb2RlbD0iY3QtcHVuYy1jIiwgcHVuY19tb2RlbF9yZXZpc2lvbj0idjIuMC40IiwKICAgICAgICAgICAgICAgICMgc3BrX21vZGVsPSJjYW0rKyIsIHNwa19tb2RlbF9yZXZpc2lvbj0idjIuMC4yIiwKICAgICAgICAgICAgICAgICkKCiAgICBkZWYgdHJhbnNjcmliZShzZWxmLCBhdWRpb19maWxlKToKICAgICAgICByZXMgPSBzZWxmLm1vZGVsLmdlbmVyYXRlKGlucHV0PWF1ZGlvX2ZpbGUsIAogICAgICAgICAgICBiYXRjaF9zaXplX3M9MzAwKQogICAgICAgIHByaW50KHJlcykKICAgICAgICByZXR1cm4gcmVzWzBdWyd0ZXh0J10KYGBgCgoKCg==
+## ASR 同数字人沟通的桥梁
+
+### Whisper OpenAI
+
+Whisper 是一个自动语音识别 (ASR) 系统，它使用从网络上收集的 680,000 小时多语言和多任务监督数据进行训练。使用如此庞大且多样化的数据集可以提高对口音、背景噪音和技术语言的鲁棒性。此外，它还支持多种语言的转录，以及将这些语言翻译成英语。
+
+使用方法很简单，我们只要安装以下库，后续模型会自动下载
+
+```bash
+pip install -U openai-whisper
+```
+
+借鉴OpenAI的Whisper实现了ASR的语音识别，具体使用方法参考 [https://github.com/openai/whisper](https://github.com/openai/whisper)
+
+```python
+'''
+https://github.com/openai/whisper
+pip install -U openai-whisper
+'''
+import whisper
+
+class WhisperASR:
+    def __init__(self, model_path):
+        self.LANGUAGES = {
+            "en": "english",
+            "zh": "chinese",
+        }
+        self.model = whisper.load_model(model_path)
+        
+    def transcribe(self, audio_file):
+        result = self.model.transcribe(audio_file)
+        return result["text"]
+```
+
+
+
+### FunASR Alibaba
+
+阿里的`FunASR`的语音识别效果也是相当不错，而且时间也是比whisper更快的，更能达到实时的效果，所以也将FunASR添加进去了，在ASR文件夹下的FunASR文件里可以进行体验，参考 [https://github.com/alibaba-damo-academy/FunASR](https://github.com/alibaba-damo-academy/FunASR)
+
+需要注意的是，在第一次运行的时候，需要安装以下库。
+
+```bash
+pip install funasr
+pip install modelscope
+pip install -U rotary_embedding_torch
+```
+
+```python
+'''
+Reference: https://github.com/alibaba-damo-academy/FunASR
+pip install funasr
+pip install modelscope
+pip install -U rotary_embedding_torch
+'''
+try:
+    from funasr import AutoModel
+except:
+    print("如果想使用FunASR，请先安装funasr，若使用Whisper，请忽略此条信息")   
+
+class FunASR:
+    def __init__(self) -> None:
+        self.model = AutoModel(model="paraformer-zh", model_revision="v2.0.4",
+                vad_model="fsmn-vad", vad_model_revision="v2.0.4",
+                punc_model="ct-punc-c", punc_model_revision="v2.0.4",
+                # spk_model="cam++", spk_model_revision="v2.0.2",
+                )
+
+    def transcribe(self, audio_file):
+        res = self.model.generate(input=audio_file, 
+            batch_size_s=300)
+        print(res)
+        return res[0]['text']
+```
+
+
+

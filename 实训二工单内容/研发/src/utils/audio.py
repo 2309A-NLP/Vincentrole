@@ -1,1 +1,136 @@
-aW1wb3J0IGxpYnJvc2EKaW1wb3J0IGxpYnJvc2EuZmlsdGVycwppbXBvcnQgbnVtcHkgYXMgbnAKIyBpbXBvcnQgdGVuc29yZmxvdyBhcyB0Zgpmcm9tIHNjaXB5IGltcG9ydCBzaWduYWwKZnJvbSBzY2lweS5pbyBpbXBvcnQgd2F2ZmlsZQpmcm9tIHNyYy51dGlscy5ocGFyYW1zIGltcG9ydCBocGFyYW1zIGFzIGhwCgpkZWYgbG9hZF93YXYocGF0aCwgc3IpOgogICAgcmV0dXJuIGxpYnJvc2EuY29yZS5sb2FkKHBhdGgsIHNyPXNyKVswXQoKZGVmIHNhdmVfd2F2KHdhdiwgcGF0aCwgc3IpOgogICAgd2F2ICo9IDMyNzY3IC8gbWF4KDAuMDEsIG5wLm1heChucC5hYnMod2F2KSkpCiAgICAjcHJvcG9zZWQgYnkgQGRzbWlsbGVyCiAgICB3YXZmaWxlLndyaXRlKHBhdGgsIHNyLCB3YXYuYXN0eXBlKG5wLmludDE2KSkKCmRlZiBzYXZlX3dhdmVuZXRfd2F2KHdhdiwgcGF0aCwgc3IpOgogICAgbGlicm9zYS5vdXRwdXQud3JpdGVfd2F2KHBhdGgsIHdhdiwgc3I9c3IpCgpkZWYgcHJlZW1waGFzaXMod2F2LCBrLCBwcmVlbXBoYXNpemU9VHJ1ZSk6CiAgICBpZiBwcmVlbXBoYXNpemU6CiAgICAgICAgcmV0dXJuIHNpZ25hbC5sZmlsdGVyKFsxLCAta10sIFsxXSwgd2F2KQogICAgcmV0dXJuIHdhdgoKZGVmIGludl9wcmVlbXBoYXNpcyh3YXYsIGssIGludl9wcmVlbXBoYXNpemU9VHJ1ZSk6CiAgICBpZiBpbnZfcHJlZW1waGFzaXplOgogICAgICAgIHJldHVybiBzaWduYWwubGZpbHRlcihbMV0sIFsxLCAta10sIHdhdikKICAgIHJldHVybiB3YXYKCmRlZiBnZXRfaG9wX3NpemUoKToKICAgIGhvcF9zaXplID0gaHAuaG9wX3NpemUKICAgIGlmIGhvcF9zaXplIGlzIE5vbmU6CiAgICAgICAgYXNzZXJ0IGhwLmZyYW1lX3NoaWZ0X21zIGlzIG5vdCBOb25lCiAgICAgICAgaG9wX3NpemUgPSBpbnQoaHAuZnJhbWVfc2hpZnRfbXMgLyAxMDAwICogaHAuc2FtcGxlX3JhdGUpCiAgICByZXR1cm4gaG9wX3NpemUKCmRlZiBsaW5lYXJzcGVjdHJvZ3JhbSh3YXYpOgogICAgRCA9IF9zdGZ0KHByZWVtcGhhc2lzKHdhdiwgaHAucHJlZW1waGFzaXMsIGhwLnByZWVtcGhhc2l6ZSkpCiAgICBTID0gX2FtcF90b19kYihucC5hYnMoRCkpIC0gaHAucmVmX2xldmVsX2RiCiAgICAKICAgIGlmIGhwLnNpZ25hbF9ub3JtYWxpemF0aW9uOgogICAgICAgIHJldHVybiBfbm9ybWFsaXplKFMpCiAgICByZXR1cm4gUwoKZGVmIG1lbHNwZWN0cm9ncmFtKHdhdik6CiAgICBEID0gX3N0ZnQocHJlZW1waGFzaXMod2F2LCBocC5wcmVlbXBoYXNpcywgaHAucHJlZW1waGFzaXplKSkKICAgIFMgPSBfYW1wX3RvX2RiKF9saW5lYXJfdG9fbWVsKG5wLmFicyhEKSkpIC0gaHAucmVmX2xldmVsX2RiCiAgICAKICAgIGlmIGhwLnNpZ25hbF9ub3JtYWxpemF0aW9uOgogICAgICAgIHJldHVybiBfbm9ybWFsaXplKFMpCiAgICByZXR1cm4gUwoKZGVmIF9sd3NfcHJvY2Vzc29yKCk6CiAgICBpbXBvcnQgbHdzCiAgICByZXR1cm4gbHdzLmx3cyhocC5uX2ZmdCwgZ2V0X2hvcF9zaXplKCksIGZmdHNpemU9aHAud2luX3NpemUsIG1vZGU9InNwZWVjaCIpCgpkZWYgX3N0ZnQoeSk6CiAgICBpZiBocC51c2VfbHdzOgogICAgICAgIHJldHVybiBfbHdzX3Byb2Nlc3NvcihocCkuc3RmdCh5KS5UCiAgICBlbHNlOgogICAgICAgIHJldHVybiBsaWJyb3NhLnN0ZnQoeT15LCBuX2ZmdD1ocC5uX2ZmdCwgaG9wX2xlbmd0aD1nZXRfaG9wX3NpemUoKSwgd2luX2xlbmd0aD1ocC53aW5fc2l6ZSkKCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKI1Rob3NlIGFyZSBvbmx5IGNvcnJlY3Qgd2hlbiB1c2luZyBsd3MhISEgKFRoaXMgd2FzIG1lc3Npbmcgd2l0aCBXYXZlbmV0IHF1YWxpdHkgZm9yIGEgbG9uZyB0aW1lISkKZGVmIG51bV9mcmFtZXMobGVuZ3RoLCBmc2l6ZSwgZnNoaWZ0KToKICAgICIiIkNvbXB1dGUgbnVtYmVyIG9mIHRpbWUgZnJhbWVzIG9mIHNwZWN0cm9ncmFtCiAgICAiIiIKICAgIHBhZCA9IChmc2l6ZSAtIGZzaGlmdCkKICAgIGlmIGxlbmd0aCAlIGZzaGlmdCA9PSAwOgogICAgICAgIE0gPSAobGVuZ3RoICsgcGFkICogMiAtIGZzaXplKSAvLyBmc2hpZnQgKyAxCiAgICBlbHNlOgogICAgICAgIE0gPSAobGVuZ3RoICsgcGFkICogMiAtIGZzaXplKSAvLyBmc2hpZnQgKyAyCiAgICByZXR1cm4gTQoKCmRlZiBwYWRfbHIoeCwgZnNpemUsIGZzaGlmdCk6CiAgICAiIiJDb21wdXRlIGxlZnQgYW5kIHJpZ2h0IHBhZGRpbmcKICAgICIiIgogICAgTSA9IG51bV9mcmFtZXMobGVuKHgpLCBmc2l6ZSwgZnNoaWZ0KQogICAgcGFkID0gKGZzaXplIC0gZnNoaWZ0KQogICAgVCA9IGxlbih4KSArIDIgKiBwYWQKICAgIHIgPSAoTSAtIDEpICogZnNoaWZ0ICsgZnNpemUgLSBUCiAgICByZXR1cm4gcGFkLCBwYWQgKyByCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKI0xpYnJvc2EgY29ycmVjdCBwYWRkaW5nCmRlZiBsaWJyb3NhX3BhZF9scih4LCBmc2l6ZSwgZnNoaWZ0KToKICAgIHJldHVybiAwLCAoeC5zaGFwZVswXSAvLyBmc2hpZnQgKyAxKSAqIGZzaGlmdCAtIHguc2hhcGVbMF0KCiMgQ29udmVyc2lvbnMKX21lbF9iYXNpcyA9IE5vbmUKCmRlZiBfbGluZWFyX3RvX21lbChzcGVjdG9ncmFtKToKICAgIGdsb2JhbCBfbWVsX2Jhc2lzCiAgICBpZiBfbWVsX2Jhc2lzIGlzIE5vbmU6CiAgICAgICAgX21lbF9iYXNpcyA9IF9idWlsZF9tZWxfYmFzaXMoKQogICAgcmV0dXJuIG5wLmRvdChfbWVsX2Jhc2lzLCBzcGVjdG9ncmFtKQoKZGVmIF9idWlsZF9tZWxfYmFzaXMoKToKICAgIGFzc2VydCBocC5mbWF4IDw9IGhwLnNhbXBsZV9yYXRlIC8vIDIKICAgIHJldHVybiBsaWJyb3NhLmZpbHRlcnMubWVsKHNyPWhwLnNhbXBsZV9yYXRlLCBuX2ZmdD1ocC5uX2ZmdCwgbl9tZWxzPWhwLm51bV9tZWxzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm1pbj1ocC5mbWluLCBmbWF4PWhwLmZtYXgpCgpkZWYgX2FtcF90b19kYih4KToKICAgIG1pbl9sZXZlbCA9IG5wLmV4cChocC5taW5fbGV2ZWxfZGIgLyAyMCAqIG5wLmxvZygxMCkpCiAgICByZXR1cm4gMjAgKiBucC5sb2cxMChucC5tYXhpbXVtKG1pbl9sZXZlbCwgeCkpCgpkZWYgX2RiX3RvX2FtcCh4KToKICAgIHJldHVybiBucC5wb3dlcigxMC4wLCAoeCkgKiAwLjA1KQoKZGVmIF9ub3JtYWxpemUoUyk6CiAgICBpZiBocC5hbGxvd19jbGlwcGluZ19pbl9ub3JtYWxpemF0aW9uOgogICAgICAgIGlmIGhwLnN5bW1ldHJpY19tZWxzOgogICAgICAgICAgICByZXR1cm4gbnAuY2xpcCgoMiAqIGhwLm1heF9hYnNfdmFsdWUpICogKChTIC0gaHAubWluX2xldmVsX2RiKSAvICgtaHAubWluX2xldmVsX2RiKSkgLSBocC5tYXhfYWJzX3ZhbHVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAtaHAubWF4X2Fic192YWx1ZSwgaHAubWF4X2Fic192YWx1ZSkKICAgICAgICBlbHNlOgogICAgICAgICAgICByZXR1cm4gbnAuY2xpcChocC5tYXhfYWJzX3ZhbHVlICogKChTIC0gaHAubWluX2xldmVsX2RiKSAvICgtaHAubWluX2xldmVsX2RiKSksIDAsIGhwLm1heF9hYnNfdmFsdWUpCiAgICAKICAgIGFzc2VydCBTLm1heCgpIDw9IDAgYW5kIFMubWluKCkgLSBocC5taW5fbGV2ZWxfZGIgPj0gMAogICAgaWYgaHAuc3ltbWV0cmljX21lbHM6CiAgICAgICAgcmV0dXJuICgyICogaHAubWF4X2Fic192YWx1ZSkgKiAoKFMgLSBocC5taW5fbGV2ZWxfZGIpIC8gKC1ocC5taW5fbGV2ZWxfZGIpKSAtIGhwLm1heF9hYnNfdmFsdWUKICAgIGVsc2U6CiAgICAgICAgcmV0dXJuIGhwLm1heF9hYnNfdmFsdWUgKiAoKFMgLSBocC5taW5fbGV2ZWxfZGIpIC8gKC1ocC5taW5fbGV2ZWxfZGIpKQoKZGVmIF9kZW5vcm1hbGl6ZShEKToKICAgIGlmIGhwLmFsbG93X2NsaXBwaW5nX2luX25vcm1hbGl6YXRpb246CiAgICAgICAgaWYgaHAuc3ltbWV0cmljX21lbHM6CiAgICAgICAgICAgIHJldHVybiAoKChucC5jbGlwKEQsIC1ocC5tYXhfYWJzX3ZhbHVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBocC5tYXhfYWJzX3ZhbHVlKSArIGhwLm1heF9hYnNfdmFsdWUpICogLWhwLm1pbl9sZXZlbF9kYiAvICgyICogaHAubWF4X2Fic192YWx1ZSkpCiAgICAgICAgICAgICAgICAgICAgKyBocC5taW5fbGV2ZWxfZGIpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmV0dXJuICgobnAuY2xpcChELCAwLCBocC5tYXhfYWJzX3ZhbHVlKSAqIC1ocC5taW5fbGV2ZWxfZGIgLyBocC5tYXhfYWJzX3ZhbHVlKSArIGhwLm1pbl9sZXZlbF9kYikKICAgIAogICAgaWYgaHAuc3ltbWV0cmljX21lbHM6CiAgICAgICAgcmV0dXJuICgoKEQgKyBocC5tYXhfYWJzX3ZhbHVlKSAqIC1ocC5taW5fbGV2ZWxfZGIgLyAoMiAqIGhwLm1heF9hYnNfdmFsdWUpKSArIGhwLm1pbl9sZXZlbF9kYikKICAgIGVsc2U6CiAgICAgICAgcmV0dXJuICgoRCAqIC1ocC5taW5fbGV2ZWxfZGIgLyBocC5tYXhfYWJzX3ZhbHVlKSArIGhwLm1pbl9sZXZlbF9kYikK
+import librosa
+import librosa.filters
+import numpy as np
+# import tensorflow as tf
+from scipy import signal
+from scipy.io import wavfile
+from src.utils.hparams import hparams as hp
+
+def load_wav(path, sr):
+    return librosa.core.load(path, sr=sr)[0]
+
+def save_wav(wav, path, sr):
+    wav *= 32767 / max(0.01, np.max(np.abs(wav)))
+    #proposed by @dsmiller
+    wavfile.write(path, sr, wav.astype(np.int16))
+
+def save_wavenet_wav(wav, path, sr):
+    librosa.output.write_wav(path, wav, sr=sr)
+
+def preemphasis(wav, k, preemphasize=True):
+    if preemphasize:
+        return signal.lfilter([1, -k], [1], wav)
+    return wav
+
+def inv_preemphasis(wav, k, inv_preemphasize=True):
+    if inv_preemphasize:
+        return signal.lfilter([1], [1, -k], wav)
+    return wav
+
+def get_hop_size():
+    hop_size = hp.hop_size
+    if hop_size is None:
+        assert hp.frame_shift_ms is not None
+        hop_size = int(hp.frame_shift_ms / 1000 * hp.sample_rate)
+    return hop_size
+
+def linearspectrogram(wav):
+    D = _stft(preemphasis(wav, hp.preemphasis, hp.preemphasize))
+    S = _amp_to_db(np.abs(D)) - hp.ref_level_db
+    
+    if hp.signal_normalization:
+        return _normalize(S)
+    return S
+
+def melspectrogram(wav):
+    D = _stft(preemphasis(wav, hp.preemphasis, hp.preemphasize))
+    S = _amp_to_db(_linear_to_mel(np.abs(D))) - hp.ref_level_db
+    
+    if hp.signal_normalization:
+        return _normalize(S)
+    return S
+
+def _lws_processor():
+    import lws
+    return lws.lws(hp.n_fft, get_hop_size(), fftsize=hp.win_size, mode="speech")
+
+def _stft(y):
+    if hp.use_lws:
+        return _lws_processor(hp).stft(y).T
+    else:
+        return librosa.stft(y=y, n_fft=hp.n_fft, hop_length=get_hop_size(), win_length=hp.win_size)
+
+##########################################################
+#Those are only correct when using lws!!! (This was messing with Wavenet quality for a long time!)
+def num_frames(length, fsize, fshift):
+    """Compute number of time frames of spectrogram
+    """
+    pad = (fsize - fshift)
+    if length % fshift == 0:
+        M = (length + pad * 2 - fsize) // fshift + 1
+    else:
+        M = (length + pad * 2 - fsize) // fshift + 2
+    return M
+
+
+def pad_lr(x, fsize, fshift):
+    """Compute left and right padding
+    """
+    M = num_frames(len(x), fsize, fshift)
+    pad = (fsize - fshift)
+    T = len(x) + 2 * pad
+    r = (M - 1) * fshift + fsize - T
+    return pad, pad + r
+##########################################################
+#Librosa correct padding
+def librosa_pad_lr(x, fsize, fshift):
+    return 0, (x.shape[0] // fshift + 1) * fshift - x.shape[0]
+
+# Conversions
+_mel_basis = None
+
+def _linear_to_mel(spectogram):
+    global _mel_basis
+    if _mel_basis is None:
+        _mel_basis = _build_mel_basis()
+    return np.dot(_mel_basis, spectogram)
+
+def _build_mel_basis():
+    assert hp.fmax <= hp.sample_rate // 2
+    return librosa.filters.mel(sr=hp.sample_rate, n_fft=hp.n_fft, n_mels=hp.num_mels,
+                               fmin=hp.fmin, fmax=hp.fmax)
+
+def _amp_to_db(x):
+    min_level = np.exp(hp.min_level_db / 20 * np.log(10))
+    return 20 * np.log10(np.maximum(min_level, x))
+
+def _db_to_amp(x):
+    return np.power(10.0, (x) * 0.05)
+
+def _normalize(S):
+    if hp.allow_clipping_in_normalization:
+        if hp.symmetric_mels:
+            return np.clip((2 * hp.max_abs_value) * ((S - hp.min_level_db) / (-hp.min_level_db)) - hp.max_abs_value,
+                           -hp.max_abs_value, hp.max_abs_value)
+        else:
+            return np.clip(hp.max_abs_value * ((S - hp.min_level_db) / (-hp.min_level_db)), 0, hp.max_abs_value)
+    
+    assert S.max() <= 0 and S.min() - hp.min_level_db >= 0
+    if hp.symmetric_mels:
+        return (2 * hp.max_abs_value) * ((S - hp.min_level_db) / (-hp.min_level_db)) - hp.max_abs_value
+    else:
+        return hp.max_abs_value * ((S - hp.min_level_db) / (-hp.min_level_db))
+
+def _denormalize(D):
+    if hp.allow_clipping_in_normalization:
+        if hp.symmetric_mels:
+            return (((np.clip(D, -hp.max_abs_value,
+                              hp.max_abs_value) + hp.max_abs_value) * -hp.min_level_db / (2 * hp.max_abs_value))
+                    + hp.min_level_db)
+        else:
+            return ((np.clip(D, 0, hp.max_abs_value) * -hp.min_level_db / hp.max_abs_value) + hp.min_level_db)
+    
+    if hp.symmetric_mels:
+        return (((D + hp.max_abs_value) * -hp.min_level_db / (2 * hp.max_abs_value)) + hp.min_level_db)
+    else:
+        return ((D * -hp.min_level_db / hp.max_abs_value) + hp.min_level_db)

@@ -1,1 +1,170 @@
-aW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCBjdjIsIG9zLCBzeXMsIHRvcmNoCmZyb20gdHFkbSBpbXBvcnQgdHFkbQpmcm9tIFBJTCBpbXBvcnQgSW1hZ2UgCgojIDNkbW0gZXh0cmFjdGlvbgppbXBvcnQgc2FmZXRlbnNvcnMKaW1wb3J0IHNhZmV0ZW5zb3JzLnRvcmNoIApmcm9tIHNyYy5mYWNlM2QudXRpbC5wcmVwcm9jZXNzIGltcG9ydCBhbGlnbl9pbWcKZnJvbSBzcmMuZmFjZTNkLnV0aWwubG9hZF9tYXRzIGltcG9ydCBsb2FkX2xtM2QKZnJvbSBzcmMuZmFjZTNkLm1vZGVscyBpbXBvcnQgbmV0d29ya3MKCmZyb20gc2NpcHkuaW8gaW1wb3J0IGxvYWRtYXQsIHNhdmVtYXQKZnJvbSBzcmMudXRpbHMuY3JvcGVyIGltcG9ydCBQcmVwcm9jZXNzZXIKCgppbXBvcnQgd2FybmluZ3MKCmZyb20gc3JjLnV0aWxzLnNhZmV0ZW5zb3JfaGVscGVyIGltcG9ydCBsb2FkX3hfZnJvbV9zYWZldGVuc29yIAp3YXJuaW5ncy5maWx0ZXJ3YXJuaW5ncygiaWdub3JlIikKCmRlZiBzcGxpdF9jb2VmZihjb2VmZnMpOgogICAgICAgICIiIgogICAgICAgIFJldHVybjoKICAgICAgICAgICAgY29lZmZzX2RpY3QgICAgIC0tIGEgZGljdCBvZiB0b3JjaC50ZW5zb3JzCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIGNvZWZmcyAgICAgICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIDI1NikKICAgICAgICAiIiIKICAgICAgICBpZF9jb2VmZnMgPSBjb2VmZnNbOiwgOjgwXQogICAgICAgIGV4cF9jb2VmZnMgPSBjb2VmZnNbOiwgODA6IDE0NF0KICAgICAgICB0ZXhfY29lZmZzID0gY29lZmZzWzosIDE0NDogMjI0XQogICAgICAgIGFuZ2xlcyA9IGNvZWZmc1s6LCAyMjQ6IDIyN10KICAgICAgICBnYW1tYXMgPSBjb2VmZnNbOiwgMjI3OiAyNTRdCiAgICAgICAgdHJhbnNsYXRpb25zID0gY29lZmZzWzosIDI1NDpdCiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgJ2lkJzogaWRfY29lZmZzLAogICAgICAgICAgICAnZXhwJzogZXhwX2NvZWZmcywKICAgICAgICAgICAgJ3RleCc6IHRleF9jb2VmZnMsCiAgICAgICAgICAgICdhbmdsZSc6IGFuZ2xlcywKICAgICAgICAgICAgJ2dhbW1hJzogZ2FtbWFzLAogICAgICAgICAgICAndHJhbnMnOiB0cmFuc2xhdGlvbnMKICAgICAgICB9CgoKY2xhc3MgQ3JvcEFuZEV4dHJhY3QoKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzYWR0YWxrZXJfcGF0aCwgZGV2aWNlKToKCiAgICAgICAgc2VsZi5wcm9wcmVzcyA9IFByZXByb2Nlc3NlcihkZXZpY2UpCiAgICAgICAgc2VsZi5uZXRfcmVjb24gPSBuZXR3b3Jrcy5kZWZpbmVfbmV0X3JlY29uKG5ldF9yZWNvbj0ncmVzbmV0NTAnLCB1c2VfbGFzdF9mYz1GYWxzZSwgaW5pdF9wYXRoPScnKS50byhkZXZpY2UpCiAgICAgICAgCiAgICAgICAgaWYgc2FkdGFsa2VyX3BhdGhbJ3VzZV9zYWZldGVuc29yJ106CiAgICAgICAgICAgIGNoZWNrcG9pbnQgPSBzYWZldGVuc29ycy50b3JjaC5sb2FkX2ZpbGUoc2FkdGFsa2VyX3BhdGhbJ2NoZWNrcG9pbnQnXSkgICAgCiAgICAgICAgICAgIHNlbGYubmV0X3JlY29uLmxvYWRfc3RhdGVfZGljdChsb2FkX3hfZnJvbV9zYWZldGVuc29yKGNoZWNrcG9pbnQsICdmYWNlXzNkcmVjb24nKSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBjaGVja3BvaW50ID0gdG9yY2gubG9hZChzYWR0YWxrZXJfcGF0aFsncGF0aF9vZl9uZXRfcmVjb25fbW9kZWwnXSwgbWFwX2xvY2F0aW9uPXRvcmNoLmRldmljZShkZXZpY2UpKSAgICAKICAgICAgICAgICAgc2VsZi5uZXRfcmVjb24ubG9hZF9zdGF0ZV9kaWN0KGNoZWNrcG9pbnRbJ25ldF9yZWNvbiddKQoKICAgICAgICBzZWxmLm5ldF9yZWNvbi5ldmFsKCkKICAgICAgICBzZWxmLmxtM2Rfc3RkID0gbG9hZF9sbTNkKHNhZHRhbGtlcl9wYXRoWydkaXJfb2ZfQkZNX2ZpdHRpbmcnXSkKICAgICAgICBzZWxmLmRldmljZSA9IGRldmljZQogICAgCiAgICBkZWYgZ2VuZXJhdGUoc2VsZiwgaW5wdXRfcGF0aCwgc2F2ZV9kaXIsIGNyb3Bfb3JfcmVzaXplPSdjcm9wJywgc291cmNlX2ltYWdlX2ZsYWc9RmFsc2UsIHBpY19zaXplPTI1Nik6CgogICAgICAgIHBpY19uYW1lID0gb3MucGF0aC5zcGxpdGV4dChvcy5wYXRoLnNwbGl0KGlucHV0X3BhdGgpWy0xXSlbMF0gIAoKICAgICAgICBsYW5kbWFya3NfcGF0aCA9ICBvcy5wYXRoLmpvaW4oc2F2ZV9kaXIsIHBpY19uYW1lKydfbGFuZG1hcmtzLnR4dCcpIAogICAgICAgIGNvZWZmX3BhdGggPSAgb3MucGF0aC5qb2luKHNhdmVfZGlyLCBwaWNfbmFtZSsnLm1hdCcpICAKICAgICAgICBwbmdfcGF0aCA9ICBvcy5wYXRoLmpvaW4oc2F2ZV9kaXIsIHBpY19uYW1lKycucG5nJykgIAoKICAgICAgICAjbG9hZCBpbnB1dAogICAgICAgIGlmIG5vdCBvcy5wYXRoLmlzZmlsZShpbnB1dF9wYXRoKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcignaW5wdXRfcGF0aCBtdXN0IGJlIGEgdmFsaWQgcGF0aCB0byB2aWRlby9pbWFnZSBmaWxlJykKICAgICAgICBlbGlmIGlucHV0X3BhdGguc3BsaXQoJy4nKVstMV0gaW4gWydqcGcnLCAncG5nJywgJ2pwZWcnXToKICAgICAgICAgICAgIyBsb2FkZXIgZm9yIGZpcnN0IGZyYW1lCiAgICAgICAgICAgIGZ1bGxfZnJhbWVzID0gW2N2Mi5pbXJlYWQoaW5wdXRfcGF0aCldCiAgICAgICAgICAgIGZwcyA9IDI1CiAgICAgICAgZWxzZToKICAgICAgICAgICAgIyBsb2FkZXIgZm9yIHZpZGVvcwogICAgICAgICAgICB2aWRlb19zdHJlYW0gPSBjdjIuVmlkZW9DYXB0dXJlKGlucHV0X3BhdGgpCiAgICAgICAgICAgIGZwcyA9IHZpZGVvX3N0cmVhbS5nZXQoY3YyLkNBUF9QUk9QX0ZQUykKICAgICAgICAgICAgZnVsbF9mcmFtZXMgPSBbXSAKICAgICAgICAgICAgd2hpbGUgMToKICAgICAgICAgICAgICAgIHN0aWxsX3JlYWRpbmcsIGZyYW1lID0gdmlkZW9fc3RyZWFtLnJlYWQoKQogICAgICAgICAgICAgICAgaWYgbm90IHN0aWxsX3JlYWRpbmc6CiAgICAgICAgICAgICAgICAgICAgdmlkZW9fc3RyZWFtLnJlbGVhc2UoKQogICAgICAgICAgICAgICAgICAgIGJyZWFrIAogICAgICAgICAgICAgICAgZnVsbF9mcmFtZXMuYXBwZW5kKGZyYW1lKSAKICAgICAgICAgICAgICAgIGlmIHNvdXJjZV9pbWFnZV9mbGFnOgogICAgICAgICAgICAgICAgICAgIGJyZWFrCgogICAgICAgIHhfZnVsbF9mcmFtZXM9IFtjdjIuY3Z0Q29sb3IoZnJhbWUsIGN2Mi5DT0xPUl9CR1IyUkdCKSAgZm9yIGZyYW1lIGluIGZ1bGxfZnJhbWVzXSAKCiAgICAgICAgIyMjIyBjcm9wIGltYWdlcyBhcyB0aGUgCiAgICAgICAgaWYgJ2Nyb3AnIGluIGNyb3Bfb3JfcmVzaXplLmxvd2VyKCk6ICMgZGVmYXVsdCBjcm9wCiAgICAgICAgICAgIHhfZnVsbF9mcmFtZXMsIGNyb3AsIHF1YWQgPSBzZWxmLnByb3ByZXNzLmNyb3AoeF9mdWxsX2ZyYW1lcywgc3RpbGw9VHJ1ZSBpZiAnZXh0JyBpbiBjcm9wX29yX3Jlc2l6ZS5sb3dlcigpIGVsc2UgRmFsc2UsIHhzaXplPTUxMikKICAgICAgICAgICAgY2x4LCBjbHksIGNyeCwgY3J5ID0gY3JvcAogICAgICAgICAgICBseCwgbHksIHJ4LCByeSA9IHF1YWQKICAgICAgICAgICAgbHgsIGx5LCByeCwgcnkgPSBpbnQobHgpLCBpbnQobHkpLCBpbnQocngpLCBpbnQocnkpCiAgICAgICAgICAgIG95MSwgb3kyLCBveDEsIG94MiA9IGNseStseSwgY2x5K3J5LCBjbHgrbHgsIGNseCtyeAogICAgICAgICAgICBjcm9wX2luZm8gPSAoKG94MiAtIG94MSwgb3kyIC0gb3kxKSwgY3JvcCwgcXVhZCkKICAgICAgICBlbGlmICdmdWxsJyBpbiBjcm9wX29yX3Jlc2l6ZS5sb3dlcigpOgogICAgICAgICAgICB4X2Z1bGxfZnJhbWVzLCBjcm9wLCBxdWFkID0gc2VsZi5wcm9wcmVzcy5jcm9wKHhfZnVsbF9mcmFtZXMsIHN0aWxsPVRydWUgaWYgJ2V4dCcgaW4gY3JvcF9vcl9yZXNpemUubG93ZXIoKSBlbHNlIEZhbHNlLCB4c2l6ZT01MTIpCiAgICAgICAgICAgIGNseCwgY2x5LCBjcngsIGNyeSA9IGNyb3AKICAgICAgICAgICAgbHgsIGx5LCByeCwgcnkgPSBxdWFkCiAgICAgICAgICAgIGx4LCBseSwgcngsIHJ5ID0gaW50KGx4KSwgaW50KGx5KSwgaW50KHJ4KSwgaW50KHJ5KQogICAgICAgICAgICBveTEsIG95Miwgb3gxLCBveDIgPSBjbHkrbHksIGNseStyeSwgY2x4K2x4LCBjbHgrcngKICAgICAgICAgICAgY3JvcF9pbmZvID0gKChveDIgLSBveDEsIG95MiAtIG95MSksIGNyb3AsIHF1YWQpCiAgICAgICAgZWxzZTogIyByZXNpemUgbW9kZQogICAgICAgICAgICBveTEsIG95Miwgb3gxLCBveDIgPSAwLCB4X2Z1bGxfZnJhbWVzWzBdLnNoYXBlWzBdLCAwLCB4X2Z1bGxfZnJhbWVzWzBdLnNoYXBlWzFdIAogICAgICAgICAgICBjcm9wX2luZm8gPSAoKG94MiAtIG94MSwgb3kyIC0gb3kxKSwgTm9uZSwgTm9uZSkKCiAgICAgICAgZnJhbWVzX3BpbCA9IFtJbWFnZS5mcm9tYXJyYXkoY3YyLnJlc2l6ZShmcmFtZSwocGljX3NpemUsIHBpY19zaXplKSkpIGZvciBmcmFtZSBpbiB4X2Z1bGxfZnJhbWVzXQogICAgICAgIGlmIGxlbihmcmFtZXNfcGlsKSA9PSAwOgogICAgICAgICAgICBwcmludCgnTm8gZmFjZSBpcyBkZXRlY3RlZCBpbiB0aGUgaW5wdXQgZmlsZScpCiAgICAgICAgICAgIHJldHVybiBOb25lLCBOb25lCgogICAgICAgICMgc2F2ZSBjcm9wIGluZm8KICAgICAgICBmb3IgZnJhbWUgaW4gZnJhbWVzX3BpbDoKICAgICAgICAgICAgY3YyLmltd3JpdGUocG5nX3BhdGgsIGN2Mi5jdnRDb2xvcihucC5hcnJheShmcmFtZSksIGN2Mi5DT0xPUl9SR0IyQkdSKSkKCiAgICAgICAgIyAyLiBnZXQgdGhlIGxhbmRtYXJrIGFjY29yZGluZyB0byB0aGUgZGV0ZWN0ZWQgZmFjZS4gCiAgICAgICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKGxhbmRtYXJrc19wYXRoKTogCiAgICAgICAgICAgIGxtID0gc2VsZi5wcm9wcmVzcy5wcmVkaWN0b3IuZXh0cmFjdF9rZXlwb2ludChmcmFtZXNfcGlsLCBsYW5kbWFya3NfcGF0aCkKICAgICAgICBlbHNlOgogICAgICAgICAgICBwcmludCgnIFVzaW5nIHNhdmVkIGxhbmRtYXJrcy4nKQogICAgICAgICAgICBsbSA9IG5wLmxvYWR0eHQobGFuZG1hcmtzX3BhdGgpLmFzdHlwZShucC5mbG9hdDMyKQogICAgICAgICAgICBsbSA9IGxtLnJlc2hhcGUoW2xlbih4X2Z1bGxfZnJhbWVzKSwgLTEsIDJdKQoKICAgICAgICBpZiBub3Qgb3MucGF0aC5pc2ZpbGUoY29lZmZfcGF0aCk6CiAgICAgICAgICAgICMgbG9hZCAzZG1tIHBhcmFtdGVyIGdlbmVyYXRvciBmcm9tIERlZXAzREZhY2VSZWNvbl9weXRvcmNoIAogICAgICAgICAgICB2aWRlb19jb2VmZnMsIGZ1bGxfY29lZmZzID0gW10sICBbXQogICAgICAgICAgICBmb3IgaWR4IGluIHRxZG0ocmFuZ2UobGVuKGZyYW1lc19waWwpKSwgZGVzYz0nM0RNTSBFeHRyYWN0aW9uIEluIFZpZGVvOicpOgogICAgICAgICAgICAgICAgZnJhbWUgPSBmcmFtZXNfcGlsW2lkeF0KICAgICAgICAgICAgICAgIFcsSCA9IGZyYW1lLnNpemUKICAgICAgICAgICAgICAgIGxtMSA9IGxtW2lkeF0ucmVzaGFwZShbLTEsIDJdKQogICAgICAgICAgICAKICAgICAgICAgICAgICAgIGlmIG5wLm1lYW4obG0xKSA9PSAtMToKICAgICAgICAgICAgICAgICAgICBsbTEgPSAoc2VsZi5sbTNkX3N0ZFs6LCA6Ml0rMSkvMi4KICAgICAgICAgICAgICAgICAgICBsbTEgPSBucC5jb25jYXRlbmF0ZSgKICAgICAgICAgICAgICAgICAgICAgICAgW2xtMVs6LCA6MV0qVywgbG0xWzosIDE6Ml0qSF0sIDEKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIGxtMVs6LCAtMV0gPSBIIC0gMSAtIGxtMVs6LCAtMV0KCiAgICAgICAgICAgICAgICB0cmFuc19wYXJhbXMsIGltMSwgbG0xLCBfID0gYWxpZ25faW1nKGZyYW1lLCBsbTEsIHNlbGYubG0zZF9zdGQpCiAKICAgICAgICAgICAgICAgIHRyYW5zX3BhcmFtcyA9IG5wLmFycmF5KFtmbG9hdChpdGVtKSBmb3IgaXRlbSBpbiBucC5oc3BsaXQodHJhbnNfcGFyYW1zLCA1KV0pLmFzdHlwZShucC5mbG9hdDMyKQogICAgICAgICAgICAgICAgaW1fdCA9IHRvcmNoLnRlbnNvcihucC5hcnJheShpbTEpLzI1NS4sIGR0eXBlPXRvcmNoLmZsb2F0MzIpLnBlcm11dGUoMiwgMCwgMSkudG8oc2VsZi5kZXZpY2UpLnVuc3F1ZWV6ZSgwKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICAgICAgICAgICAgICBmdWxsX2NvZWZmID0gc2VsZi5uZXRfcmVjb24oaW1fdCkKICAgICAgICAgICAgICAgICAgICBjb2VmZnMgPSBzcGxpdF9jb2VmZihmdWxsX2NvZWZmKQoKICAgICAgICAgICAgICAgIHByZWRfY29lZmYgPSB7a2V5OmNvZWZmc1trZXldLmNwdSgpLm51bXB5KCkgZm9yIGtleSBpbiBjb2VmZnN9CiAKICAgICAgICAgICAgICAgIHByZWRfY29lZmYgPSBucC5jb25jYXRlbmF0ZShbCiAgICAgICAgICAgICAgICAgICAgcHJlZF9jb2VmZlsnZXhwJ10sIAogICAgICAgICAgICAgICAgICAgIHByZWRfY29lZmZbJ2FuZ2xlJ10sCiAgICAgICAgICAgICAgICAgICAgcHJlZF9jb2VmZlsndHJhbnMnXSwKICAgICAgICAgICAgICAgICAgICB0cmFuc19wYXJhbXNbMjpdW05vbmVdLAogICAgICAgICAgICAgICAgICAgIF0sIDEpCiAgICAgICAgICAgICAgICB2aWRlb19jb2VmZnMuYXBwZW5kKHByZWRfY29lZmYpCiAgICAgICAgICAgICAgICBmdWxsX2NvZWZmcy5hcHBlbmQoZnVsbF9jb2VmZi5jcHUoKS5udW1weSgpKQoKICAgICAgICAgICAgc2VtYW50aWNfbnB5ID0gbnAuYXJyYXkodmlkZW9fY29lZmZzKVs6LDBdIAoKICAgICAgICAgICAgc2F2ZW1hdChjb2VmZl9wYXRoLCB7J2NvZWZmXzNkbW0nOiBzZW1hbnRpY19ucHksICdmdWxsXzNkbW0nOiBucC5hcnJheShmdWxsX2NvZWZmcylbMF19KQoKICAgICAgICByZXR1cm4gY29lZmZfcGF0aCwgcG5nX3BhdGgsIGNyb3BfaW5mbwo=
+import numpy as np
+import cv2, os, sys, torch
+from tqdm import tqdm
+from PIL import Image 
+
+# 3dmm extraction
+import safetensors
+import safetensors.torch 
+from src.face3d.util.preprocess import align_img
+from src.face3d.util.load_mats import load_lm3d
+from src.face3d.models import networks
+
+from scipy.io import loadmat, savemat
+from src.utils.croper import Preprocesser
+
+
+import warnings
+
+from src.utils.safetensor_helper import load_x_from_safetensor 
+warnings.filterwarnings("ignore")
+
+def split_coeff(coeffs):
+        """
+        Return:
+            coeffs_dict     -- a dict of torch.tensors
+
+        Parameters:
+            coeffs          -- torch.tensor, size (B, 256)
+        """
+        id_coeffs = coeffs[:, :80]
+        exp_coeffs = coeffs[:, 80: 144]
+        tex_coeffs = coeffs[:, 144: 224]
+        angles = coeffs[:, 224: 227]
+        gammas = coeffs[:, 227: 254]
+        translations = coeffs[:, 254:]
+        return {
+            'id': id_coeffs,
+            'exp': exp_coeffs,
+            'tex': tex_coeffs,
+            'angle': angles,
+            'gamma': gammas,
+            'trans': translations
+        }
+
+
+class CropAndExtract():
+    def __init__(self, sadtalker_path, device):
+
+        self.propress = Preprocesser(device)
+        self.net_recon = networks.define_net_recon(net_recon='resnet50', use_last_fc=False, init_path='').to(device)
+        
+        if sadtalker_path['use_safetensor']:
+            checkpoint = safetensors.torch.load_file(sadtalker_path['checkpoint'])    
+            self.net_recon.load_state_dict(load_x_from_safetensor(checkpoint, 'face_3drecon'))
+        else:
+            checkpoint = torch.load(sadtalker_path['path_of_net_recon_model'], map_location=torch.device(device))    
+            self.net_recon.load_state_dict(checkpoint['net_recon'])
+
+        self.net_recon.eval()
+        self.lm3d_std = load_lm3d(sadtalker_path['dir_of_BFM_fitting'])
+        self.device = device
+    
+    def generate(self, input_path, save_dir, crop_or_resize='crop', source_image_flag=False, pic_size=256):
+
+        pic_name = os.path.splitext(os.path.split(input_path)[-1])[0]  
+
+        landmarks_path =  os.path.join(save_dir, pic_name+'_landmarks.txt') 
+        coeff_path =  os.path.join(save_dir, pic_name+'.mat')  
+        png_path =  os.path.join(save_dir, pic_name+'.png')  
+
+        #load input
+        if not os.path.isfile(input_path):
+            raise ValueError('input_path must be a valid path to video/image file')
+        elif input_path.split('.')[-1] in ['jpg', 'png', 'jpeg']:
+            # loader for first frame
+            full_frames = [cv2.imread(input_path)]
+            fps = 25
+        else:
+            # loader for videos
+            video_stream = cv2.VideoCapture(input_path)
+            fps = video_stream.get(cv2.CAP_PROP_FPS)
+            full_frames = [] 
+            while 1:
+                still_reading, frame = video_stream.read()
+                if not still_reading:
+                    video_stream.release()
+                    break 
+                full_frames.append(frame) 
+                if source_image_flag:
+                    break
+
+        x_full_frames= [cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)  for frame in full_frames] 
+
+        #### crop images as the 
+        if 'crop' in crop_or_resize.lower(): # default crop
+            x_full_frames, crop, quad = self.propress.crop(x_full_frames, still=True if 'ext' in crop_or_resize.lower() else False, xsize=512)
+            clx, cly, crx, cry = crop
+            lx, ly, rx, ry = quad
+            lx, ly, rx, ry = int(lx), int(ly), int(rx), int(ry)
+            oy1, oy2, ox1, ox2 = cly+ly, cly+ry, clx+lx, clx+rx
+            crop_info = ((ox2 - ox1, oy2 - oy1), crop, quad)
+        elif 'full' in crop_or_resize.lower():
+            x_full_frames, crop, quad = self.propress.crop(x_full_frames, still=True if 'ext' in crop_or_resize.lower() else False, xsize=512)
+            clx, cly, crx, cry = crop
+            lx, ly, rx, ry = quad
+            lx, ly, rx, ry = int(lx), int(ly), int(rx), int(ry)
+            oy1, oy2, ox1, ox2 = cly+ly, cly+ry, clx+lx, clx+rx
+            crop_info = ((ox2 - ox1, oy2 - oy1), crop, quad)
+        else: # resize mode
+            oy1, oy2, ox1, ox2 = 0, x_full_frames[0].shape[0], 0, x_full_frames[0].shape[1] 
+            crop_info = ((ox2 - ox1, oy2 - oy1), None, None)
+
+        frames_pil = [Image.fromarray(cv2.resize(frame,(pic_size, pic_size))) for frame in x_full_frames]
+        if len(frames_pil) == 0:
+            print('No face is detected in the input file')
+            return None, None
+
+        # save crop info
+        for frame in frames_pil:
+            cv2.imwrite(png_path, cv2.cvtColor(np.array(frame), cv2.COLOR_RGB2BGR))
+
+        # 2. get the landmark according to the detected face. 
+        if not os.path.isfile(landmarks_path): 
+            lm = self.propress.predictor.extract_keypoint(frames_pil, landmarks_path)
+        else:
+            print(' Using saved landmarks.')
+            lm = np.loadtxt(landmarks_path).astype(np.float32)
+            lm = lm.reshape([len(x_full_frames), -1, 2])
+
+        if not os.path.isfile(coeff_path):
+            # load 3dmm paramter generator from Deep3DFaceRecon_pytorch 
+            video_coeffs, full_coeffs = [],  []
+            for idx in tqdm(range(len(frames_pil)), desc='3DMM Extraction In Video:'):
+                frame = frames_pil[idx]
+                W,H = frame.size
+                lm1 = lm[idx].reshape([-1, 2])
+            
+                if np.mean(lm1) == -1:
+                    lm1 = (self.lm3d_std[:, :2]+1)/2.
+                    lm1 = np.concatenate(
+                        [lm1[:, :1]*W, lm1[:, 1:2]*H], 1
+                    )
+                else:
+                    lm1[:, -1] = H - 1 - lm1[:, -1]
+
+                trans_params, im1, lm1, _ = align_img(frame, lm1, self.lm3d_std)
+ 
+                trans_params = np.array([float(item) for item in np.hsplit(trans_params, 5)]).astype(np.float32)
+                im_t = torch.tensor(np.array(im1)/255., dtype=torch.float32).permute(2, 0, 1).to(self.device).unsqueeze(0)
+                
+                with torch.no_grad():
+                    full_coeff = self.net_recon(im_t)
+                    coeffs = split_coeff(full_coeff)
+
+                pred_coeff = {key:coeffs[key].cpu().numpy() for key in coeffs}
+ 
+                pred_coeff = np.concatenate([
+                    pred_coeff['exp'], 
+                    pred_coeff['angle'],
+                    pred_coeff['trans'],
+                    trans_params[2:][None],
+                    ], 1)
+                video_coeffs.append(pred_coeff)
+                full_coeffs.append(full_coeff.cpu().numpy())
+
+            semantic_npy = np.array(video_coeffs)[:,0] 
+
+            savemat(coeff_path, {'coeff_3dmm': semantic_npy, 'full_3dmm': np.array(full_coeffs)[0]})
+
+        return coeff_path, png_path, crop_info

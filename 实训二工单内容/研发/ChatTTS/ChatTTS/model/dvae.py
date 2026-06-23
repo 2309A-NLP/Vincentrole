@@ -1,1 +1,155 @@
-aW1wb3J0IG1hdGgKZnJvbSBlaW5vcHMgaW1wb3J0IHJlYXJyYW5nZQpmcm9tIHZlY3Rvcl9xdWFudGl6ZV9weXRvcmNoIGltcG9ydCBHcm91cGVkUmVzaWR1YWxGU1EKCmltcG9ydCB0b3JjaAppbXBvcnQgdG9yY2gubm4gYXMgbm4KaW1wb3J0IHRvcmNoLm5uLmZ1bmN0aW9uYWwgYXMgRgoKY2xhc3MgQ29udk5lWHRCbG9jayhubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgZGltOiBpbnQsCiAgICAgICAgaW50ZXJtZWRpYXRlX2RpbTogaW50LAogICAgICAgIGtlcm5lbCwgZGlsYXRpb24sCiAgICAgICAgbGF5ZXJfc2NhbGVfaW5pdF92YWx1ZTogZmxvYXQgPSAxZS02LAogICAgKToKICAgICAgICAjIENvbnZOZVh0IEJsb2NrIGNvcGllZCBmcm9tIFZvY29zLgogICAgICAgIHN1cGVyKCkuX19pbml0X18oKQogICAgICAgIHNlbGYuZHdjb252ID0gbm4uQ29udjFkKGRpbSwgZGltLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXJuZWxfc2l6ZT1rZXJuZWwsIHBhZGRpbmc9ZGlsYXRpb24qKGtlcm5lbC8vMiksIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpbGF0aW9uPWRpbGF0aW9uLCBncm91cHM9ZGltCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApICAjIGRlcHRod2lzZSBjb252CiAgICAgICAgCiAgICAgICAgc2VsZi5ub3JtID0gbm4uTGF5ZXJOb3JtKGRpbSwgZXBzPTFlLTYpCiAgICAgICAgc2VsZi5wd2NvbnYxID0gbm4uTGluZWFyKGRpbSwgaW50ZXJtZWRpYXRlX2RpbSkgICMgcG9pbnR3aXNlLzF4MSBjb252cywgaW1wbGVtZW50ZWQgd2l0aCBsaW5lYXIgbGF5ZXJzCiAgICAgICAgc2VsZi5hY3QgPSBubi5HRUxVKCkKICAgICAgICBzZWxmLnB3Y29udjIgPSBubi5MaW5lYXIoaW50ZXJtZWRpYXRlX2RpbSwgZGltKQogICAgICAgIHNlbGYuZ2FtbWEgPSAoCiAgICAgICAgICAgIG5uLlBhcmFtZXRlcihsYXllcl9zY2FsZV9pbml0X3ZhbHVlICogdG9yY2gub25lcyhkaW0pLCByZXF1aXJlc19ncmFkPVRydWUpCiAgICAgICAgICAgIGlmIGxheWVyX3NjYWxlX2luaXRfdmFsdWUgPiAwCiAgICAgICAgICAgIGVsc2UgTm9uZQogICAgICAgICkKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4OiB0b3JjaC5UZW5zb3IsIGNvbmQgPSBOb25lKSAtPiB0b3JjaC5UZW5zb3I6CiAgICAgICAgcmVzaWR1YWwgPSB4CiAgICAgICAgeCA9IHNlbGYuZHdjb252KHgpCiAgICAgICAgeCA9IHgudHJhbnNwb3NlKDEsIDIpICAjIChCLCBDLCBUKSAtPiAoQiwgVCwgQykKICAgICAgICB4ID0gc2VsZi5ub3JtKHgpCiAgICAgICAgeCA9IHNlbGYucHdjb252MSh4KQogICAgICAgIHggPSBzZWxmLmFjdCh4KQogICAgICAgIHggPSBzZWxmLnB3Y29udjIoeCkKICAgICAgICBpZiBzZWxmLmdhbW1hIGlzIG5vdCBOb25lOgogICAgICAgICAgICB4ID0gc2VsZi5nYW1tYSAqIHgKICAgICAgICB4ID0geC50cmFuc3Bvc2UoMSwgMikgICMgKEIsIFQsIEMpIC0+IChCLCBDLCBUKQoKICAgICAgICB4ID0gcmVzaWR1YWwgKyB4CiAgICAgICAgcmV0dXJuIHgKICAgIAoKCmNsYXNzIEdGU1Eobm4uTW9kdWxlKToKCiAgICBkZWYgX19pbml0X18oc2VsZiwgCiAgICAgICAgICAgIGRpbSwgbGV2ZWxzLCBHLCBSLCBlcHM9MWUtNSwgdHJhbnNwb3NlID0gVHJ1ZQogICAgICAgICk6CiAgICAgICAgc3VwZXIoR0ZTUSwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYucXVhbnRpemVyID0gR3JvdXBlZFJlc2lkdWFsRlNRKAogICAgICAgICAgICBkaW09ZGltLAogICAgICAgICAgICBsZXZlbHM9bGV2ZWxzLAogICAgICAgICAgICBudW1fcXVhbnRpemVycz1SLAogICAgICAgICAgICBncm91cHM9RywKICAgICAgICApCiAgICAgICAgc2VsZi5uX2luZCA9IG1hdGgucHJvZChsZXZlbHMpCiAgICAgICAgc2VsZi5lcHMgPSBlcHMKICAgICAgICBzZWxmLnRyYW5zcG9zZSA9IHRyYW5zcG9zZQogICAgICAgIHNlbGYuRyA9IEcKICAgICAgICBzZWxmLlIgPSBSCiAgICAgICAgCiAgICBkZWYgX2VtYmVkKHNlbGYsIHgpOgogICAgICAgIGlmIHNlbGYudHJhbnNwb3NlOgogICAgICAgICAgICB4ID0geC50cmFuc3Bvc2UoMSwyKQogICAgICAgIHggPSByZWFycmFuZ2UoCiAgICAgICAgICAgIHgsICJiIHQgKGcgcikgLT4gZyBiIHQgciIsIGcgPSBzZWxmLkcsIHIgPSBzZWxmLlIsCiAgICAgICAgKSAgCiAgICAgICAgZmVhdCA9IHNlbGYucXVhbnRpemVyLmdldF9vdXRwdXRfZnJvbV9pbmRpY2VzKHgpCiAgICAgICAgcmV0dXJuIGZlYXQudHJhbnNwb3NlKDEsMikgaWYgc2VsZi50cmFuc3Bvc2UgZWxzZSBmZWF0CiAgICAgICAgCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4LCk6CiAgICAgICAgaWYgc2VsZi50cmFuc3Bvc2U6CiAgICAgICAgICAgIHggPSB4LnRyYW5zcG9zZSgxLDIpCiAgICAgICAgZmVhdCwgaW5kID0gc2VsZi5xdWFudGl6ZXIoeCkKICAgICAgICBpbmQgPSByZWFycmFuZ2UoCiAgICAgICAgICAgIGluZCwgImcgYiB0IHIgLT5iIHQgKGcgcikiLAogICAgICAgICkgIAogICAgICAgIGVtYmVkX29uZWhvdCA9IEYub25lX2hvdChpbmQubG9uZygpLCBzZWxmLm5faW5kKS50byh4LmR0eXBlKQogICAgICAgIGVfbWVhbiA9IHRvcmNoLm1lYW4oZW1iZWRfb25laG90LCBkaW09WzAsMV0pCiAgICAgICAgZV9tZWFuID0gZV9tZWFuIC8gKGVfbWVhbi5zdW0oZGltPTEpICsgc2VsZi5lcHMpLnVuc3F1ZWV6ZSgxKQogICAgICAgIHBlcnBsZXhpdHkgPSB0b3JjaC5leHAoLXRvcmNoLnN1bShlX21lYW4gKiB0b3JjaC5sb2coZV9tZWFuICsgc2VsZi5lcHMpLCBkaW09MSkpCiAgICAgICAgCiAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgdG9yY2guemVyb3MocGVycGxleGl0eS5zaGFwZSwgZHR5cGU9eC5kdHlwZSwgZGV2aWNlPXguZGV2aWNlKSwKICAgICAgICAgICAgZmVhdC50cmFuc3Bvc2UoMSwyKSBpZiBzZWxmLnRyYW5zcG9zZSBlbHNlIGZlYXQsCiAgICAgICAgICAgIHBlcnBsZXhpdHksCiAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgIGluZC50cmFuc3Bvc2UoMSwyKSBpZiBzZWxmLnRyYW5zcG9zZSBlbHNlIGluZCwKICAgICAgICApCiAgICAgICAgCmNsYXNzIERWQUVEZWNvZGVyKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgaWRpbSwgb2RpbSwKICAgICAgICAgICAgICAgICBuX2xheWVyID0gMTIsIGJuX2RpbSA9IDY0LCBoaWRkZW4gPSAyNTYsIAogICAgICAgICAgICAgICAgIGtlcm5lbCA9IDcsIGRpbGF0aW9uID0gMiwgdXAgPSBGYWxzZQogICAgICAgICAgICAgICAgKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLnVwID0gdXAKICAgICAgICBzZWxmLmNvbnZfaW4gPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICBubi5Db252MWQoaWRpbSwgYm5fZGltLCAzLCAxLCAxKSwgbm4uR0VMVSgpLAogICAgICAgICAgICBubi5Db252MWQoYm5fZGltLCBoaWRkZW4sIDMsIDEsIDEpCiAgICAgICAgKQogICAgICAgIHNlbGYuZGVjb2Rlcl9ibG9jayA9IG5uLk1vZHVsZUxpc3QoWwogICAgICAgICAgICBDb252TmVYdEJsb2NrKGhpZGRlbiwgaGlkZGVuKiA0LCBrZXJuZWwsIGRpbGF0aW9uLCkKICAgICAgICAgICAgZm9yIF8gaW4gcmFuZ2Uobl9sYXllcildKQogICAgICAgIHNlbGYuY29udl9vdXQgPSBubi5Db252MWQoaGlkZGVuLCBvZGltLCBrZXJuZWxfc2l6ZT0xLCBiaWFzPUZhbHNlKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIGlucHV0LCBjb25kaXRpb25pbmc9Tm9uZSk6CiAgICAgICAgIyBCLCBULCBDCiAgICAgICAgeCA9IGlucHV0LnRyYW5zcG9zZSgxLCAyKQogICAgICAgIHggPSBzZWxmLmNvbnZfaW4oeCkKICAgICAgICBmb3IgZiBpbiBzZWxmLmRlY29kZXJfYmxvY2s6CiAgICAgICAgICAgIHggPSBmKHgsIGNvbmRpdGlvbmluZykKICAgICAgICAKICAgICAgICB4ID0gc2VsZi5jb252X291dCh4KQogICAgICAgIHJldHVybiB4LnRyYW5zcG9zZSgxLCAyKQogICAgCgpjbGFzcyBEVkFFKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwgZGVjb2Rlcl9jb25maWcsIHZxX2NvbmZpZywgZGltPTUxMgogICAgKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLnJlZ2lzdGVyX2J1ZmZlcignY29lZicsIHRvcmNoLnJhbmRuKDEsIDEwMCwgMSkpCgogICAgICAgIHNlbGYuZGVjb2RlciA9IERWQUVEZWNvZGVyKCoqZGVjb2Rlcl9jb25maWcpCiAgICAgICAgc2VsZi5vdXRfY29udiA9IG5uLkNvbnYxZChkaW0sIDEwMCwgMywgMSwgMSwgYmlhcz1GYWxzZSkKICAgICAgICBpZiB2cV9jb25maWcgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIHNlbGYudnFfbGF5ZXIgPSBHRlNRKCoqdnFfY29uZmlnKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHNlbGYudnFfbGF5ZXIgPSBOb25lCgogICAgZGVmIGZvcndhcmQoc2VsZiwgaW5wKToKCiAgICAgICAgaWYgc2VsZi52cV9sYXllciBpcyBub3QgTm9uZToKICAgICAgICAgICAgdnFfZmVhdHMgPSBzZWxmLnZxX2xheWVyLl9lbWJlZChpbnApCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdnFfZmVhdHMgPSBpbnAuZGV0YWNoKCkuY2xvbmUoKQogICAgICAgICAgICAKICAgICAgICB0ZW1wID0gdG9yY2guY2h1bmsodnFfZmVhdHMsIDIsIGRpbT0xKSAjIGZsYXR0ZW4gdHJpY2sgOikKICAgICAgICB0ZW1wID0gdG9yY2guc3RhY2sodGVtcCwgLTEpCiAgICAgICAgdnFfZmVhdHMgPSB0ZW1wLnJlc2hhcGUoKnRlbXAuc2hhcGVbOjJdLCAtMSkKCiAgICAgICAgdnFfZmVhdHMgPSB2cV9mZWF0cy50cmFuc3Bvc2UoMSwgMikKICAgICAgICBkZWNfb3V0ID0gc2VsZi5kZWNvZGVyKGlucHV0PXZxX2ZlYXRzKQogICAgICAgIGRlY19vdXQgPSBzZWxmLm91dF9jb252KGRlY19vdXQudHJhbnNwb3NlKDEsIDIpKQogICAgICAgIG1lbCA9IGRlY19vdXQgKiBzZWxmLmNvZWYKCiAgICAgICAgcmV0dXJuIG1lbAo=
+import math
+from einops import rearrange
+from vector_quantize_pytorch import GroupedResidualFSQ
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+class ConvNeXtBlock(nn.Module):
+    def __init__(
+        self,
+        dim: int,
+        intermediate_dim: int,
+        kernel, dilation,
+        layer_scale_init_value: float = 1e-6,
+    ):
+        # ConvNeXt Block copied from Vocos.
+        super().__init__()
+        self.dwconv = nn.Conv1d(dim, dim, 
+                                kernel_size=kernel, padding=dilation*(kernel//2), 
+                                dilation=dilation, groups=dim
+                            )  # depthwise conv
+        
+        self.norm = nn.LayerNorm(dim, eps=1e-6)
+        self.pwconv1 = nn.Linear(dim, intermediate_dim)  # pointwise/1x1 convs, implemented with linear layers
+        self.act = nn.GELU()
+        self.pwconv2 = nn.Linear(intermediate_dim, dim)
+        self.gamma = (
+            nn.Parameter(layer_scale_init_value * torch.ones(dim), requires_grad=True)
+            if layer_scale_init_value > 0
+            else None
+        )
+
+    def forward(self, x: torch.Tensor, cond = None) -> torch.Tensor:
+        residual = x
+        x = self.dwconv(x)
+        x = x.transpose(1, 2)  # (B, C, T) -> (B, T, C)
+        x = self.norm(x)
+        x = self.pwconv1(x)
+        x = self.act(x)
+        x = self.pwconv2(x)
+        if self.gamma is not None:
+            x = self.gamma * x
+        x = x.transpose(1, 2)  # (B, T, C) -> (B, C, T)
+
+        x = residual + x
+        return x
+    
+
+
+class GFSQ(nn.Module):
+
+    def __init__(self, 
+            dim, levels, G, R, eps=1e-5, transpose = True
+        ):
+        super(GFSQ, self).__init__()
+        self.quantizer = GroupedResidualFSQ(
+            dim=dim,
+            levels=levels,
+            num_quantizers=R,
+            groups=G,
+        )
+        self.n_ind = math.prod(levels)
+        self.eps = eps
+        self.transpose = transpose
+        self.G = G
+        self.R = R
+        
+    def _embed(self, x):
+        if self.transpose:
+            x = x.transpose(1,2)
+        x = rearrange(
+            x, "b t (g r) -> g b t r", g = self.G, r = self.R,
+        )  
+        feat = self.quantizer.get_output_from_indices(x)
+        return feat.transpose(1,2) if self.transpose else feat
+        
+    def forward(self, x,):
+        if self.transpose:
+            x = x.transpose(1,2)
+        feat, ind = self.quantizer(x)
+        ind = rearrange(
+            ind, "g b t r ->b t (g r)",
+        )  
+        embed_onehot = F.one_hot(ind.long(), self.n_ind).to(x.dtype)
+        e_mean = torch.mean(embed_onehot, dim=[0,1])
+        e_mean = e_mean / (e_mean.sum(dim=1) + self.eps).unsqueeze(1)
+        perplexity = torch.exp(-torch.sum(e_mean * torch.log(e_mean + self.eps), dim=1))
+        
+        return (
+            torch.zeros(perplexity.shape, dtype=x.dtype, device=x.device),
+            feat.transpose(1,2) if self.transpose else feat,
+            perplexity,
+            None,
+            ind.transpose(1,2) if self.transpose else ind,
+        )
+        
+class DVAEDecoder(nn.Module):
+    def __init__(self, idim, odim,
+                 n_layer = 12, bn_dim = 64, hidden = 256, 
+                 kernel = 7, dilation = 2, up = False
+                ):
+        super().__init__()
+        self.up = up
+        self.conv_in = nn.Sequential(
+            nn.Conv1d(idim, bn_dim, 3, 1, 1), nn.GELU(),
+            nn.Conv1d(bn_dim, hidden, 3, 1, 1)
+        )
+        self.decoder_block = nn.ModuleList([
+            ConvNeXtBlock(hidden, hidden* 4, kernel, dilation,)
+            for _ in range(n_layer)])
+        self.conv_out = nn.Conv1d(hidden, odim, kernel_size=1, bias=False)
+
+    def forward(self, input, conditioning=None):
+        # B, T, C
+        x = input.transpose(1, 2)
+        x = self.conv_in(x)
+        for f in self.decoder_block:
+            x = f(x, conditioning)
+        
+        x = self.conv_out(x)
+        return x.transpose(1, 2)
+    
+
+class DVAE(nn.Module):
+    def __init__(
+        self, decoder_config, vq_config, dim=512
+    ):
+        super().__init__()
+        self.register_buffer('coef', torch.randn(1, 100, 1))
+
+        self.decoder = DVAEDecoder(**decoder_config)
+        self.out_conv = nn.Conv1d(dim, 100, 3, 1, 1, bias=False)
+        if vq_config is not None:
+            self.vq_layer = GFSQ(**vq_config)
+        else:
+            self.vq_layer = None
+
+    def forward(self, inp):
+
+        if self.vq_layer is not None:
+            vq_feats = self.vq_layer._embed(inp)
+        else:
+            vq_feats = inp.detach().clone()
+            
+        temp = torch.chunk(vq_feats, 2, dim=1) # flatten trick :)
+        temp = torch.stack(temp, -1)
+        vq_feats = temp.reshape(*temp.shape[:2], -1)
+
+        vq_feats = vq_feats.transpose(1, 2)
+        dec_out = self.decoder(input=vq_feats)
+        dec_out = self.out_conv(dec_out.transpose(1, 2))
+        mel = dec_out * self.coef
+
+        return mel

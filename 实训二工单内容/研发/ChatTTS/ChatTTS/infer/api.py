@@ -1,1 +1,125 @@
-CmltcG9ydCB0b3JjaAppbXBvcnQgdG9yY2gubm4uZnVuY3Rpb25hbCBhcyBGCmZyb20gdHJhbnNmb3JtZXJzLmdlbmVyYXRpb24gaW1wb3J0IFRvcEtMb2dpdHNXYXJwZXIsIFRvcFBMb2dpdHNXYXJwZXIKZnJvbSAuLnV0aWxzLmluZmVyX3V0aWxzIGltcG9ydCBDdXN0b21SZXBldGl0aW9uUGVuYWx0eUxvZ2l0c1Byb2Nlc3NvclJlcGVhdAoKZGVmIGluZmVyX2NvZGUoCiAgICBtb2RlbHMsCiAgICB0ZXh0LCAKICAgIHNwa19lbWIgPSBOb25lLAogICAgdG9wX1AgPSAwLjcsIAogICAgdG9wX0sgPSAyMCwgCiAgICB0ZW1wZXJhdHVyZSA9IDAuMywgCiAgICByZXBldGl0aW9uX3BlbmFsdHkgPSAxLjA1LAogICAgbWF4X25ld190b2tlbiA9IDIwNDgsCiAgICAqKmt3YXJncwopOgogICAgCiAgICBkZXZpY2UgPSBuZXh0KG1vZGVsc1snZ3B0J10ucGFyYW1ldGVycygpKS5kZXZpY2UKICAgIAogICAgaWYgbm90IGlzaW5zdGFuY2UodGV4dCwgbGlzdCk6IAogICAgICAgIHRleHQgPSBbdGV4dF0KICAgICAgICAKICAgIGlmIG5vdCBpc2luc3RhbmNlKHRlbXBlcmF0dXJlLCBsaXN0KToKICAgICAgICB0ZW1wZXJhdHVyZSA9IFt0ZW1wZXJhdHVyZV0gKiBtb2RlbHNbJ2dwdCddLm51bV92cQogICAgCiAgICBpZiBzcGtfZW1iIGlzIG5vdCBOb25lOgogICAgICAgIHRleHQgPSBbZidbU3R0c11bc3BrX2VtYl17aX1bUHR0c10nIGZvciBpIGluIHRleHRdIAogICAgZWxzZToKICAgICAgICB0ZXh0ID0gW2YnW1N0dHNdW2VtcHR5X3Nwa117aX1bUHR0c10nIGZvciBpIGluIHRleHRdCiAgICAKICAgIHRleHRfdG9rZW4gPSBtb2RlbHNbJ3Rva2VuaXplciddKHRleHQsIHJldHVybl90ZW5zb3JzPSdwdCcsIGFkZF9zcGVjaWFsX3Rva2Vucz1GYWxzZSwgcGFkZGluZz1UcnVlKS50byhkZXZpY2UpCiAgICBpbnB1dF9pZHMgPSB0ZXh0X3Rva2VuWydpbnB1dF9pZHMnXVsuLi4sTm9uZV0uZXhwYW5kKC0xLCAtMSwgbW9kZWxzWydncHQnXS5udW1fdnEpCiAgICB0ZXh0X21hc2sgPSB0b3JjaC5vbmVzKHRleHRfdG9rZW5bJ2lucHV0X2lkcyddLnNoYXBlLCBkdHlwZT1ib29sLCBkZXZpY2U9ZGV2aWNlKQogICAgCiAgICBpbnB1dHMgPSB7CiAgICAgICAgJ2lucHV0X2lkcyc6IGlucHV0X2lkcywKICAgICAgICAndGV4dF9tYXNrJzogdGV4dF9tYXNrLAogICAgICAgICdhdHRlbnRpb25fbWFzayc6IHRleHRfdG9rZW5bJ2F0dGVudGlvbl9tYXNrJ10sCiAgICB9CgogICAgZW1iID0gbW9kZWxzWydncHQnXS5nZXRfZW1iKCoqaW5wdXRzKQogICAgaWYgc3BrX2VtYiBpcyBub3QgTm9uZToKICAgICAgICBlbWJbaW5wdXRzWydpbnB1dF9pZHMnXVsuLi4sIDBdID09IG1vZGVsc1sndG9rZW5pemVyJ10uY29udmVydF90b2tlbnNfdG9faWRzKCdbc3BrX2VtYl0nKV0gPSBcCiAgICAgICAgICAgIEYubm9ybWFsaXplKHNwa19lbWIudG8oZGV2aWNlKS50byhlbWIuZHR5cGUpW05vbmVdLmV4cGFuZChsZW4odGV4dCksIC0xKSwgcD0yLjAsIGRpbT0xLCBlcHM9MWUtMTIpICAKICAgIAogICAgbnVtX2NvZGUgPSBtb2RlbHNbJ2dwdCddLmVtYl9jb2RlWzBdLm51bV9lbWJlZGRpbmdzIC0gMQogICAgCiAgICBMb2dpdHNXYXJwZXJzID0gW10KICAgIGlmIHRvcF9QIGlzIG5vdCBOb25lOgogICAgICAgIExvZ2l0c1dhcnBlcnMuYXBwZW5kKFRvcFBMb2dpdHNXYXJwZXIodG9wX1AsIG1pbl90b2tlbnNfdG9fa2VlcD0zKSkKICAgIGlmIHRvcF9LIGlzIG5vdCBOb25lOgogICAgICAgIExvZ2l0c1dhcnBlcnMuYXBwZW5kKFRvcEtMb2dpdHNXYXJwZXIodG9wX0ssIG1pbl90b2tlbnNfdG9fa2VlcD0zKSkKICAgICAgICAKICAgIExvZ2l0c1Byb2Nlc3NvcnMgPSBbXQogICAgaWYgcmVwZXRpdGlvbl9wZW5hbHR5IGlzIG5vdCBOb25lIGFuZCByZXBldGl0aW9uX3BlbmFsdHkgIT0gMToKICAgICAgICBMb2dpdHNQcm9jZXNzb3JzLmFwcGVuZChDdXN0b21SZXBldGl0aW9uUGVuYWx0eUxvZ2l0c1Byb2Nlc3NvclJlcGVhdChcCiAgICAgICAgICAgIHJlcGV0aXRpb25fcGVuYWx0eSwgbnVtX2NvZGUsIDE2KSkKICAgIAogICAgcmVzdWx0ID0gbW9kZWxzWydncHQnXS5nZW5lcmF0ZSgKICAgICAgICBlbWIsIGlucHV0c1snaW5wdXRfaWRzJ10sIAogICAgICAgIHRlbXBlcmF0dXJlID0gdG9yY2gudGVuc29yKHRlbXBlcmF0dXJlLCBkZXZpY2U9ZGV2aWNlKSwgCiAgICAgICAgYXR0ZW50aW9uX21hc2sgPSBpbnB1dHNbJ2F0dGVudGlvbl9tYXNrJ10sCiAgICAgICAgTG9naXRzV2FycGVycyA9IExvZ2l0c1dhcnBlcnMsCiAgICAgICAgTG9naXRzUHJvY2Vzc29ycyA9IExvZ2l0c1Byb2Nlc3NvcnMsCiAgICAgICAgZW9zX3Rva2VuID0gbnVtX2NvZGUsIAogICAgICAgIG1heF9uZXdfdG9rZW4gPSBtYXhfbmV3X3Rva2VuLCAKICAgICAgICBpbmZlcl90ZXh0ID0gRmFsc2UsCiAgICAgICAgKiprd2FyZ3MKICAgICkKICAgIAogICAgcmV0dXJuIHJlc3VsdAoKCmRlZiByZWZpbmVfdGV4dCgKICAgIG1vZGVscywgCiAgICB0ZXh0LAogICAgdG9wX1AgPSAwLjcsIAogICAgdG9wX0sgPSAyMCwgCiAgICB0ZW1wZXJhdHVyZSA9IDAuNywgCiAgICByZXBldGl0aW9uX3BlbmFsdHkgPSAxLjAsCiAgICBtYXhfbmV3X3Rva2VuID0gMzg0LAogICAgcHJvbXB0ID0gJycsCiAgICAqKmt3YXJncwopOgogICAgCiAgICBkZXZpY2UgPSBuZXh0KG1vZGVsc1snZ3B0J10ucGFyYW1ldGVycygpKS5kZXZpY2UKICAgIAogICAgaWYgbm90IGlzaW5zdGFuY2UodGV4dCwgbGlzdCk6IAogICAgICAgIHRleHQgPSBbdGV4dF0KICAgIAogICAgYXNzZXJ0IGxlbih0ZXh0KSwgJ3RleHQgc2hvdWxkIG5vdCBiZSBlbXB0eScKCiAgICB0ZXh0ID0gW2YiW1NicmVha117aX1bUGJyZWFrXXtwcm9tcHR9IiBmb3IgaSBpbiB0ZXh0XQogICAgdGV4dF90b2tlbiA9IG1vZGVsc1sndG9rZW5pemVyJ10odGV4dCwgcmV0dXJuX3RlbnNvcnM9J3B0JywgYWRkX3NwZWNpYWxfdG9rZW5zPUZhbHNlLCBwYWRkaW5nPVRydWUpLnRvKGRldmljZSkKICAgIHRleHRfbWFzayA9IHRvcmNoLm9uZXModGV4dF90b2tlblsnaW5wdXRfaWRzJ10uc2hhcGUsIGR0eXBlPWJvb2wsIGRldmljZT1kZXZpY2UpCgogICAgaW5wdXRzID0gewogICAgICAgICdpbnB1dF9pZHMnOiB0ZXh0X3Rva2VuWydpbnB1dF9pZHMnXVsuLi4sTm9uZV0uZXhwYW5kKC0xLCAtMSwgbW9kZWxzWydncHQnXS5udW1fdnEpLAogICAgICAgICd0ZXh0X21hc2snOiB0ZXh0X21hc2ssCiAgICAgICAgJ2F0dGVudGlvbl9tYXNrJzogdGV4dF90b2tlblsnYXR0ZW50aW9uX21hc2snXSwKICAgIH0KICAgIAogICAgTG9naXRzV2FycGVycyA9IFtdCiAgICBpZiB0b3BfUCBpcyBub3QgTm9uZToKICAgICAgICBMb2dpdHNXYXJwZXJzLmFwcGVuZChUb3BQTG9naXRzV2FycGVyKHRvcF9QLCBtaW5fdG9rZW5zX3RvX2tlZXA9MykpCiAgICBpZiB0b3BfSyBpcyBub3QgTm9uZToKICAgICAgICBMb2dpdHNXYXJwZXJzLmFwcGVuZChUb3BLTG9naXRzV2FycGVyKHRvcF9LLCBtaW5fdG9rZW5zX3RvX2tlZXA9MykpCiAgICAgICAgCiAgICBMb2dpdHNQcm9jZXNzb3JzID0gW10KICAgIGlmIHJlcGV0aXRpb25fcGVuYWx0eSBpcyBub3QgTm9uZSBhbmQgcmVwZXRpdGlvbl9wZW5hbHR5ICE9IDE6CiAgICAgICAgTG9naXRzUHJvY2Vzc29ycy5hcHBlbmQoQ3VzdG9tUmVwZXRpdGlvblBlbmFsdHlMb2dpdHNQcm9jZXNzb3JSZXBlYXQocmVwZXRpdGlvbl9wZW5hbHR5LCBsZW4obW9kZWxzWyd0b2tlbml6ZXInXSksIDE2KSkKICAgIAogICAgcmVzdWx0ID0gbW9kZWxzWydncHQnXS5nZW5lcmF0ZSgKICAgICAgICBtb2RlbHNbJ2dwdCddLmdldF9lbWIoKippbnB1dHMpLCBpbnB1dHNbJ2lucHV0X2lkcyddLCAKICAgICAgICB0ZW1wZXJhdHVyZSA9IHRvcmNoLnRlbnNvcihbdGVtcGVyYXR1cmUsXSwgZGV2aWNlPWRldmljZSksIAogICAgICAgIGF0dGVudGlvbl9tYXNrID0gaW5wdXRzWydhdHRlbnRpb25fbWFzayddLAogICAgICAgIExvZ2l0c1dhcnBlcnMgPSBMb2dpdHNXYXJwZXJzLAogICAgICAgIExvZ2l0c1Byb2Nlc3NvcnMgPSBMb2dpdHNQcm9jZXNzb3JzLAogICAgICAgIGVvc190b2tlbiA9IHRvcmNoLnRlbnNvcihtb2RlbHNbJ3Rva2VuaXplciddLmNvbnZlcnRfdG9rZW5zX3RvX2lkcygnW0VicmVha10nKSwgZGV2aWNlPWRldmljZSlbTm9uZV0sIAogICAgICAgIG1heF9uZXdfdG9rZW4gPSBtYXhfbmV3X3Rva2VuLCAKICAgICAgICBpbmZlcl90ZXh0ID0gVHJ1ZSwKICAgICAgICAqKmt3YXJncwogICAgKQogICAgcmV0dXJuIHJlc3VsdA==
+
+import torch
+import torch.nn.functional as F
+from transformers.generation import TopKLogitsWarper, TopPLogitsWarper
+from ..utils.infer_utils import CustomRepetitionPenaltyLogitsProcessorRepeat
+
+def infer_code(
+    models,
+    text, 
+    spk_emb = None,
+    top_P = 0.7, 
+    top_K = 20, 
+    temperature = 0.3, 
+    repetition_penalty = 1.05,
+    max_new_token = 2048,
+    **kwargs
+):
+    
+    device = next(models['gpt'].parameters()).device
+    
+    if not isinstance(text, list): 
+        text = [text]
+        
+    if not isinstance(temperature, list):
+        temperature = [temperature] * models['gpt'].num_vq
+    
+    if spk_emb is not None:
+        text = [f'[Stts][spk_emb]{i}[Ptts]' for i in text] 
+    else:
+        text = [f'[Stts][empty_spk]{i}[Ptts]' for i in text]
+    
+    text_token = models['tokenizer'](text, return_tensors='pt', add_special_tokens=False, padding=True).to(device)
+    input_ids = text_token['input_ids'][...,None].expand(-1, -1, models['gpt'].num_vq)
+    text_mask = torch.ones(text_token['input_ids'].shape, dtype=bool, device=device)
+    
+    inputs = {
+        'input_ids': input_ids,
+        'text_mask': text_mask,
+        'attention_mask': text_token['attention_mask'],
+    }
+
+    emb = models['gpt'].get_emb(**inputs)
+    if spk_emb is not None:
+        emb[inputs['input_ids'][..., 0] == models['tokenizer'].convert_tokens_to_ids('[spk_emb]')] = \
+            F.normalize(spk_emb.to(device).to(emb.dtype)[None].expand(len(text), -1), p=2.0, dim=1, eps=1e-12)  
+    
+    num_code = models['gpt'].emb_code[0].num_embeddings - 1
+    
+    LogitsWarpers = []
+    if top_P is not None:
+        LogitsWarpers.append(TopPLogitsWarper(top_P, min_tokens_to_keep=3))
+    if top_K is not None:
+        LogitsWarpers.append(TopKLogitsWarper(top_K, min_tokens_to_keep=3))
+        
+    LogitsProcessors = []
+    if repetition_penalty is not None and repetition_penalty != 1:
+        LogitsProcessors.append(CustomRepetitionPenaltyLogitsProcessorRepeat(\
+            repetition_penalty, num_code, 16))
+    
+    result = models['gpt'].generate(
+        emb, inputs['input_ids'], 
+        temperature = torch.tensor(temperature, device=device), 
+        attention_mask = inputs['attention_mask'],
+        LogitsWarpers = LogitsWarpers,
+        LogitsProcessors = LogitsProcessors,
+        eos_token = num_code, 
+        max_new_token = max_new_token, 
+        infer_text = False,
+        **kwargs
+    )
+    
+    return result
+
+
+def refine_text(
+    models, 
+    text,
+    top_P = 0.7, 
+    top_K = 20, 
+    temperature = 0.7, 
+    repetition_penalty = 1.0,
+    max_new_token = 384,
+    prompt = '',
+    **kwargs
+):
+    
+    device = next(models['gpt'].parameters()).device
+    
+    if not isinstance(text, list): 
+        text = [text]
+    
+    assert len(text), 'text should not be empty'
+
+    text = [f"[Sbreak]{i}[Pbreak]{prompt}" for i in text]
+    text_token = models['tokenizer'](text, return_tensors='pt', add_special_tokens=False, padding=True).to(device)
+    text_mask = torch.ones(text_token['input_ids'].shape, dtype=bool, device=device)
+
+    inputs = {
+        'input_ids': text_token['input_ids'][...,None].expand(-1, -1, models['gpt'].num_vq),
+        'text_mask': text_mask,
+        'attention_mask': text_token['attention_mask'],
+    }
+    
+    LogitsWarpers = []
+    if top_P is not None:
+        LogitsWarpers.append(TopPLogitsWarper(top_P, min_tokens_to_keep=3))
+    if top_K is not None:
+        LogitsWarpers.append(TopKLogitsWarper(top_K, min_tokens_to_keep=3))
+        
+    LogitsProcessors = []
+    if repetition_penalty is not None and repetition_penalty != 1:
+        LogitsProcessors.append(CustomRepetitionPenaltyLogitsProcessorRepeat(repetition_penalty, len(models['tokenizer']), 16))
+    
+    result = models['gpt'].generate(
+        models['gpt'].get_emb(**inputs), inputs['input_ids'], 
+        temperature = torch.tensor([temperature,], device=device), 
+        attention_mask = inputs['attention_mask'],
+        LogitsWarpers = LogitsWarpers,
+        LogitsProcessors = LogitsProcessors,
+        eos_token = torch.tensor(models['tokenizer'].convert_tokens_to_ids('[Ebreak]'), device=device)[None], 
+        max_new_token = max_new_token, 
+        infer_text = True,
+        **kwargs
+    )
+    return result

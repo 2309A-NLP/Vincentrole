@@ -1,1 +1,86 @@
-aW1wb3J0IGRvbWluYXRlCmZyb20gZG9taW5hdGUudGFncyBpbXBvcnQgbWV0YSwgaDMsIHRhYmxlLCB0ciwgdGQsIHAsIGEsIGltZywgYnIKaW1wb3J0IG9zCgoKY2xhc3MgSFRNTDoKICAgICIiIlRoaXMgSFRNTCBjbGFzcyBhbGxvd3MgdXMgdG8gc2F2ZSBpbWFnZXMgYW5kIHdyaXRlIHRleHRzIGludG8gYSBzaW5nbGUgSFRNTCBmaWxlLgoKICAgICBJdCBjb25zaXN0cyBvZiBmdW5jdGlvbnMgc3VjaCBhcyA8YWRkX2hlYWRlcj4gKGFkZCBhIHRleHQgaGVhZGVyIHRvIHRoZSBIVE1MIGZpbGUpLAogICAgIDxhZGRfaW1hZ2VzPiAoYWRkIGEgcm93IG9mIGltYWdlcyB0byB0aGUgSFRNTCBmaWxlKSwgYW5kIDxzYXZlPiAoc2F2ZSB0aGUgSFRNTCB0byB0aGUgZGlzaykuCiAgICAgSXQgaXMgYmFzZWQgb24gUHl0aG9uIGxpYnJhcnkgJ2RvbWluYXRlJywgYSBQeXRob24gbGlicmFyeSBmb3IgY3JlYXRpbmcgYW5kIG1hbmlwdWxhdGluZyBIVE1MIGRvY3VtZW50cyB1c2luZyBhIERPTSBBUEkuCiAgICAiIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgd2ViX2RpciwgdGl0bGUsIHJlZnJlc2g9MCk6CiAgICAgICAgIiIiSW5pdGlhbGl6ZSB0aGUgSFRNTCBjbGFzc2VzCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIHdlYl9kaXIgKHN0cikgLS0gYSBkaXJlY3RvcnkgdGhhdCBzdG9yZXMgdGhlIHdlYnBhZ2UuIEhUTUwgZmlsZSB3aWxsIGJlIGNyZWF0ZWQgYXQgPHdlYl9kaXI+L2luZGV4Lmh0bWw7IGltYWdlcyB3aWxsIGJlIHNhdmVkIGF0IDx3ZWJfZGlyL2ltYWdlcy8KICAgICAgICAgICAgdGl0bGUgKHN0cikgICAtLSB0aGUgd2VicGFnZSBuYW1lCiAgICAgICAgICAgIHJlZnJlc2ggKGludCkgLS0gaG93IG9mdGVuIHRoZSB3ZWJzaXRlIHJlZnJlc2ggaXRzZWxmOyBpZiAwOyBubyByZWZyZXNoaW5nCiAgICAgICAgIiIiCiAgICAgICAgc2VsZi50aXRsZSA9IHRpdGxlCiAgICAgICAgc2VsZi53ZWJfZGlyID0gd2ViX2RpcgogICAgICAgIHNlbGYuaW1nX2RpciA9IG9zLnBhdGguam9pbihzZWxmLndlYl9kaXIsICdpbWFnZXMnKQogICAgICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhzZWxmLndlYl9kaXIpOgogICAgICAgICAgICBvcy5tYWtlZGlycyhzZWxmLndlYl9kaXIpCiAgICAgICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKHNlbGYuaW1nX2Rpcik6CiAgICAgICAgICAgIG9zLm1ha2VkaXJzKHNlbGYuaW1nX2RpcikKCiAgICAgICAgc2VsZi5kb2MgPSBkb21pbmF0ZS5kb2N1bWVudCh0aXRsZT10aXRsZSkKICAgICAgICBpZiByZWZyZXNoID4gMDoKICAgICAgICAgICAgd2l0aCBzZWxmLmRvYy5oZWFkOgogICAgICAgICAgICAgICAgbWV0YShodHRwX2VxdWl2PSJyZWZyZXNoIiwgY29udGVudD1zdHIocmVmcmVzaCkpCgogICAgZGVmIGdldF9pbWFnZV9kaXIoc2VsZik6CiAgICAgICAgIiIiUmV0dXJuIHRoZSBkaXJlY3RvcnkgdGhhdCBzdG9yZXMgaW1hZ2VzIiIiCiAgICAgICAgcmV0dXJuIHNlbGYuaW1nX2RpcgoKICAgIGRlZiBhZGRfaGVhZGVyKHNlbGYsIHRleHQpOgogICAgICAgICIiIkluc2VydCBhIGhlYWRlciB0byB0aGUgSFRNTCBmaWxlCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIHRleHQgKHN0cikgLS0gdGhlIGhlYWRlciB0ZXh0CiAgICAgICAgIiIiCiAgICAgICAgd2l0aCBzZWxmLmRvYzoKICAgICAgICAgICAgaDModGV4dCkKCiAgICBkZWYgYWRkX2ltYWdlcyhzZWxmLCBpbXMsIHR4dHMsIGxpbmtzLCB3aWR0aD00MDApOgogICAgICAgICIiImFkZCBpbWFnZXMgdG8gdGhlIEhUTUwgZmlsZQoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBpbXMgKHN0ciBsaXN0KSAgIC0tIGEgbGlzdCBvZiBpbWFnZSBwYXRocwogICAgICAgICAgICB0eHRzIChzdHIgbGlzdCkgIC0tIGEgbGlzdCBvZiBpbWFnZSBuYW1lcyBzaG93biBvbiB0aGUgd2Vic2l0ZQogICAgICAgICAgICBsaW5rcyAoc3RyIGxpc3QpIC0tICBhIGxpc3Qgb2YgaHlwZXJyZWYgbGlua3M7IHdoZW4geW91IGNsaWNrIGFuIGltYWdlLCBpdCB3aWxsIHJlZGlyZWN0IHlvdSB0byBhIG5ldyBwYWdlCiAgICAgICAgIiIiCiAgICAgICAgc2VsZi50ID0gdGFibGUoYm9yZGVyPTEsIHN0eWxlPSJ0YWJsZS1sYXlvdXQ6IGZpeGVkOyIpICAjIEluc2VydCBhIHRhYmxlCiAgICAgICAgc2VsZi5kb2MuYWRkKHNlbGYudCkKICAgICAgICB3aXRoIHNlbGYudDoKICAgICAgICAgICAgd2l0aCB0cigpOgogICAgICAgICAgICAgICAgZm9yIGltLCB0eHQsIGxpbmsgaW4gemlwKGltcywgdHh0cywgbGlua3MpOgogICAgICAgICAgICAgICAgICAgIHdpdGggdGQoc3R5bGU9IndvcmQtd3JhcDogYnJlYWstd29yZDsiLCBoYWxpZ249ImNlbnRlciIsIHZhbGlnbj0idG9wIik6CiAgICAgICAgICAgICAgICAgICAgICAgIHdpdGggcCgpOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgd2l0aCBhKGhyZWY9b3MucGF0aC5qb2luKCdpbWFnZXMnLCBsaW5rKSk6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW1nKHN0eWxlPSJ3aWR0aDolZHB4IiAlIHdpZHRoLCBzcmM9b3MucGF0aC5qb2luKCdpbWFnZXMnLCBpbSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBicigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwKHR4dCkKCiAgICBkZWYgc2F2ZShzZWxmKToKICAgICAgICAiIiJzYXZlIHRoZSBjdXJyZW50IGNvbnRlbnQgdG8gdGhlIEhNVEwgZmlsZSIiIgogICAgICAgIGh0bWxfZmlsZSA9ICclcy9pbmRleC5odG1sJyAlIHNlbGYud2ViX2RpcgogICAgICAgIGYgPSBvcGVuKGh0bWxfZmlsZSwgJ3d0JykKICAgICAgICBmLndyaXRlKHNlbGYuZG9jLnJlbmRlcigpKQogICAgICAgIGYuY2xvc2UoKQoKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6ICAjIHdlIHNob3cgYW4gZXhhbXBsZSB1c2FnZSBoZXJlLgogICAgaHRtbCA9IEhUTUwoJ3dlYi8nLCAndGVzdF9odG1sJykKICAgIGh0bWwuYWRkX2hlYWRlcignaGVsbG8gd29ybGQnKQoKICAgIGltcywgdHh0cywgbGlua3MgPSBbXSwgW10sIFtdCiAgICBmb3IgbiBpbiByYW5nZSg0KToKICAgICAgICBpbXMuYXBwZW5kKCdpbWFnZV8lZC5wbmcnICUgbikKICAgICAgICB0eHRzLmFwcGVuZCgndGV4dF8lZCcgJSBuKQogICAgICAgIGxpbmtzLmFwcGVuZCgnaW1hZ2VfJWQucG5nJyAlIG4pCiAgICBodG1sLmFkZF9pbWFnZXMoaW1zLCB0eHRzLCBsaW5rcykKICAgIGh0bWwuc2F2ZSgpCg==
+import dominate
+from dominate.tags import meta, h3, table, tr, td, p, a, img, br
+import os
+
+
+class HTML:
+    """This HTML class allows us to save images and write texts into a single HTML file.
+
+     It consists of functions such as <add_header> (add a text header to the HTML file),
+     <add_images> (add a row of images to the HTML file), and <save> (save the HTML to the disk).
+     It is based on Python library 'dominate', a Python library for creating and manipulating HTML documents using a DOM API.
+    """
+
+    def __init__(self, web_dir, title, refresh=0):
+        """Initialize the HTML classes
+
+        Parameters:
+            web_dir (str) -- a directory that stores the webpage. HTML file will be created at <web_dir>/index.html; images will be saved at <web_dir/images/
+            title (str)   -- the webpage name
+            refresh (int) -- how often the website refresh itself; if 0; no refreshing
+        """
+        self.title = title
+        self.web_dir = web_dir
+        self.img_dir = os.path.join(self.web_dir, 'images')
+        if not os.path.exists(self.web_dir):
+            os.makedirs(self.web_dir)
+        if not os.path.exists(self.img_dir):
+            os.makedirs(self.img_dir)
+
+        self.doc = dominate.document(title=title)
+        if refresh > 0:
+            with self.doc.head:
+                meta(http_equiv="refresh", content=str(refresh))
+
+    def get_image_dir(self):
+        """Return the directory that stores images"""
+        return self.img_dir
+
+    def add_header(self, text):
+        """Insert a header to the HTML file
+
+        Parameters:
+            text (str) -- the header text
+        """
+        with self.doc:
+            h3(text)
+
+    def add_images(self, ims, txts, links, width=400):
+        """add images to the HTML file
+
+        Parameters:
+            ims (str list)   -- a list of image paths
+            txts (str list)  -- a list of image names shown on the website
+            links (str list) --  a list of hyperref links; when you click an image, it will redirect you to a new page
+        """
+        self.t = table(border=1, style="table-layout: fixed;")  # Insert a table
+        self.doc.add(self.t)
+        with self.t:
+            with tr():
+                for im, txt, link in zip(ims, txts, links):
+                    with td(style="word-wrap: break-word;", halign="center", valign="top"):
+                        with p():
+                            with a(href=os.path.join('images', link)):
+                                img(style="width:%dpx" % width, src=os.path.join('images', im))
+                            br()
+                            p(txt)
+
+    def save(self):
+        """save the current content to the HMTL file"""
+        html_file = '%s/index.html' % self.web_dir
+        f = open(html_file, 'wt')
+        f.write(self.doc.render())
+        f.close()
+
+
+if __name__ == '__main__':  # we show an example usage here.
+    html = HTML('web/', 'test_html')
+    html.add_header('hello world')
+
+    ims, txts, links = [], [], []
+    for n in range(4):
+        ims.append('image_%d.png' % n)
+        txts.append('text_%d' % n)
+        links.append('image_%d.png' % n)
+    html.add_images(ims, txts, links)
+    html.save()

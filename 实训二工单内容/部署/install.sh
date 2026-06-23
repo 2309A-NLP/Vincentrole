@@ -1,1 +1,14 @@
-IyDljYfnuqdwaXAKcHl0aG9uIC1tIHBpcCBpbnN0YWxsIC0tdXBncmFkZSBwaXAKIyDmm7TmjaIgcHlwaSDmupDliqDpgJ/lupPnmoTlronoo4UKcGlwIGNvbmZpZyBzZXQgZ2xvYmFsLmluZGV4LXVybCBodHRwczovL3B5cGkudHVuYS50c2luZ2h1YS5lZHUuY24vc2ltcGxlCgpwaXAgaW5zdGFsbCB0Yi1uaWdodGx5IC1pIGh0dHBzOi8vbWlycm9ycy5hbGl5dW4uY29tL3B5cGkvc2ltcGxlCnBpcCBpbnN0YWxsIC1yIHJlcXVpcmVtZW50c193ZWJ1aS50eHQKCiMg5a6J6KOF5pyJ5YWzbXVzZXRhbGvkvp3otZYKcGlwIGluc3RhbGwgLS1uby1jYWNoZS1kaXIgLVUgIG9wZW5taW0KbWltIGluc3RhbGwgbW1lbmdpbmUgCm1pbSBpbnN0YWxsICJtbWN2Pj0yLjAuMSIgCm1pbSBpbnN0YWxsICJtbWRldD49My4xLjAiIAptaW0gaW5zdGFsbCAibW1wb3NlPj0xLjEuMCIg
+# 升级pip
+python -m pip install --upgrade pip
+# 更换 pypi 源加速库的安装
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+pip install tb-nightly -i https://mirrors.aliyun.com/pypi/simple
+pip install -r requirements_webui.txt
+
+# 安装有关musetalk依赖
+pip install --no-cache-dir -U  openmim
+mim install mmengine 
+mim install "mmcv>=2.0.1" 
+mim install "mmdet>=3.1.0" 
+mim install "mmpose>=1.1.0" 

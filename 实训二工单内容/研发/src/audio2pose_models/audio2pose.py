@@ -1,1 +1,94 @@
-aW1wb3J0IHRvcmNoCmZyb20gdG9yY2ggaW1wb3J0IG5uCmZyb20gc3JjLmF1ZGlvMnBvc2VfbW9kZWxzLmN2YWUgaW1wb3J0IENWQUUKZnJvbSBzcmMuYXVkaW8ycG9zZV9tb2RlbHMuZGlzY3JpbWluYXRvciBpbXBvcnQgUG9zZVNlcXVlbmNlRGlzY3JpbWluYXRvcgpmcm9tIHNyYy5hdWRpbzJwb3NlX21vZGVscy5hdWRpb19lbmNvZGVyIGltcG9ydCBBdWRpb0VuY29kZXIKCmNsYXNzIEF1ZGlvMlBvc2Uobm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjZmcsIHdhdjJsaXBfY2hlY2twb2ludCwgZGV2aWNlPSdjdWRhJyk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygpCiAgICAgICAgc2VsZi5jZmcgPSBjZmcKICAgICAgICBzZWxmLnNlcV9sZW4gPSBjZmcuTU9ERUwuQ1ZBRS5TRVFfTEVOCiAgICAgICAgc2VsZi5sYXRlbnRfZGltID0gY2ZnLk1PREVMLkNWQUUuTEFURU5UX1NJWkUKICAgICAgICBzZWxmLmRldmljZSA9IGRldmljZQoKICAgICAgICBzZWxmLmF1ZGlvX2VuY29kZXIgPSBBdWRpb0VuY29kZXIod2F2MmxpcF9jaGVja3BvaW50LCBkZXZpY2UpCiAgICAgICAgc2VsZi5hdWRpb19lbmNvZGVyLmV2YWwoKQogICAgICAgIGZvciBwYXJhbSBpbiBzZWxmLmF1ZGlvX2VuY29kZXIucGFyYW1ldGVycygpOgogICAgICAgICAgICBwYXJhbS5yZXF1aXJlc19ncmFkID0gRmFsc2UKCiAgICAgICAgc2VsZi5uZXRHID0gQ1ZBRShjZmcpCiAgICAgICAgc2VsZi5uZXREX21vdGlvbiA9IFBvc2VTZXF1ZW5jZURpc2NyaW1pbmF0b3IoY2ZnKQogICAgICAgIAogICAgICAgIAogICAgZGVmIGZvcndhcmQoc2VsZiwgeCk6CgogICAgICAgIGJhdGNoID0ge30KICAgICAgICBjb2VmZl9ndCA9IHhbJ2d0J10uY3VkYSgpLnNxdWVlemUoMCkgICAgICAgICAgICNicyBmcmFtZV9sZW4rMSA3MwogICAgICAgIGJhdGNoWydwb3NlX21vdGlvbl9ndCddID0gY29lZmZfZ3RbOiwgMTosIDY0OjcwXSAtIGNvZWZmX2d0WzosIDoxLCA2NDo3MF0gI2JzIGZyYW1lX2xlbiA2CiAgICAgICAgYmF0Y2hbJ3JlZiddID0gY29lZmZfZ3RbOiwgMCwgNjQ6NzBdICAjYnMgIDYKICAgICAgICBiYXRjaFsnY2xhc3MnXSA9IHhbJ2NsYXNzJ10uc3F1ZWV6ZSgwKS5jdWRhKCkgIyBicwogICAgICAgIGluZGl2X21lbHM9IHhbJ2luZGl2X21lbHMnXS5jdWRhKCkuc3F1ZWV6ZSgwKSAjIGJzIHNlcV9sZW4rMSA4MCAxNgoKICAgICAgICAjIGZvcndhcmQKICAgICAgICBhdWRpb19lbWJfbGlzdCA9IFtdCiAgICAgICAgYXVkaW9fZW1iID0gc2VsZi5hdWRpb19lbmNvZGVyKGluZGl2X21lbHNbOiwgMTosIDosIDpdLnVuc3F1ZWV6ZSgyKSkgI2JzIHNlcV9sZW4gNTEyCiAgICAgICAgYmF0Y2hbJ2F1ZGlvX2VtYiddID0gYXVkaW9fZW1iCiAgICAgICAgYmF0Y2ggPSBzZWxmLm5ldEcoYmF0Y2gpCgogICAgICAgIHBvc2VfbW90aW9uX3ByZWQgPSBiYXRjaFsncG9zZV9tb3Rpb25fcHJlZCddICAgICAgICAgICAjIGJzIGZyYW1lX2xlbiA2CiAgICAgICAgcG9zZV9ndCA9IGNvZWZmX2d0WzosIDE6LCA2NDo3MF0uY2xvbmUoKSAgICAgICAgICAgICAgICMgYnMgZnJhbWVfbGVuIDYKICAgICAgICBwb3NlX3ByZWQgPSBjb2VmZl9ndFs6LCA6MSwgNjQ6NzBdICsgcG9zZV9tb3Rpb25fcHJlZCAgIyBicyBmcmFtZV9sZW4gNgoKICAgICAgICBiYXRjaFsncG9zZV9wcmVkJ10gPSBwb3NlX3ByZWQKICAgICAgICBiYXRjaFsncG9zZV9ndCddID0gcG9zZV9ndAoKICAgICAgICByZXR1cm4gYmF0Y2gKCiAgICBkZWYgdGVzdChzZWxmLCB4KToKCiAgICAgICAgYmF0Y2ggPSB7fQogICAgICAgIHJlZiA9IHhbJ3JlZiddICAgICAgICAgICAgICAgICAgICAgICAgICAgICNicyAxIDcwCiAgICAgICAgYmF0Y2hbJ3JlZiddID0geFsncmVmJ11bOiwwLC02Ol0gIAogICAgICAgIGJhdGNoWydjbGFzcyddID0geFsnY2xhc3MnXSAgCiAgICAgICAgYnMgPSByZWYuc2hhcGVbMF0KICAgICAgICAKICAgICAgICBpbmRpdl9tZWxzPSB4WydpbmRpdl9tZWxzJ10gICAgICAgICAgICAgICAjIGJzIFQgMSA4MCAxNgogICAgICAgIGluZGl2X21lbHNfdXNlID0gaW5kaXZfbWVsc1s6LCAxOl0gICAgICAgICMgd2UgcmVnYXJkIHRoZSByZWYgYXMgdGhlIGZpcnN0IGZyYW1lCiAgICAgICAgbnVtX2ZyYW1lcyA9IHhbJ251bV9mcmFtZXMnXQogICAgICAgIG51bV9mcmFtZXMgPSBpbnQobnVtX2ZyYW1lcykgLSAxCgogICAgICAgICMgIAogICAgICAgIGRpdiA9IG51bV9mcmFtZXMvL3NlbGYuc2VxX2xlbgogICAgICAgIHJlID0gbnVtX2ZyYW1lcyVzZWxmLnNlcV9sZW4KICAgICAgICBhdWRpb19lbWJfbGlzdCA9IFtdCiAgICAgICAgcG9zZV9tb3Rpb25fcHJlZF9saXN0ID0gW3RvcmNoLnplcm9zKGJhdGNoWydyZWYnXS51bnNxdWVlemUoMSkuc2hhcGUsIGR0eXBlPWJhdGNoWydyZWYnXS5kdHlwZSwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRldmljZT1iYXRjaFsncmVmJ10uZGV2aWNlKV0KCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UoZGl2KToKICAgICAgICAgICAgeiA9IHRvcmNoLnJhbmRuKGJzLCBzZWxmLmxhdGVudF9kaW0pLnRvKHJlZi5kZXZpY2UpCiAgICAgICAgICAgIGJhdGNoWyd6J10gPSB6CiAgICAgICAgICAgIGF1ZGlvX2VtYiA9IHNlbGYuYXVkaW9fZW5jb2RlcihpbmRpdl9tZWxzX3VzZVs6LCBpKnNlbGYuc2VxX2xlbjooaSsxKSpzZWxmLnNlcV9sZW4sOiw6LDpdKSAjYnMgc2VxX2xlbiA1MTIKICAgICAgICAgICAgYmF0Y2hbJ2F1ZGlvX2VtYiddID0gYXVkaW9fZW1iCiAgICAgICAgICAgIGJhdGNoID0gc2VsZi5uZXRHLnRlc3QoYmF0Y2gpCiAgICAgICAgICAgIHBvc2VfbW90aW9uX3ByZWRfbGlzdC5hcHBlbmQoYmF0Y2hbJ3Bvc2VfbW90aW9uX3ByZWQnXSkgICNsaXN0IG9mIGJzIHNlcV9sZW4gNgogICAgICAgIAogICAgICAgIGlmIHJlICE9IDA6CiAgICAgICAgICAgIHogPSB0b3JjaC5yYW5kbihicywgc2VsZi5sYXRlbnRfZGltKS50byhyZWYuZGV2aWNlKQogICAgICAgICAgICBiYXRjaFsneiddID0gegogICAgICAgICAgICBhdWRpb19lbWIgPSBzZWxmLmF1ZGlvX2VuY29kZXIoaW5kaXZfbWVsc191c2VbOiwgLTEqc2VsZi5zZXFfbGVuOiw6LDosOl0pICNicyBzZXFfbGVuICA1MTIKICAgICAgICAgICAgaWYgYXVkaW9fZW1iLnNoYXBlWzFdICE9IHNlbGYuc2VxX2xlbjoKICAgICAgICAgICAgICAgIHBhZF9kaW0gPSBzZWxmLnNlcV9sZW4tYXVkaW9fZW1iLnNoYXBlWzFdCiAgICAgICAgICAgICAgICBwYWRfYXVkaW9fZW1iID0gYXVkaW9fZW1iWzosIDoxXS5yZXBlYXQoMSwgcGFkX2RpbSwgMSkgCiAgICAgICAgICAgICAgICBhdWRpb19lbWIgPSB0b3JjaC5jYXQoW3BhZF9hdWRpb19lbWIsIGF1ZGlvX2VtYl0sIDEpIAogICAgICAgICAgICBiYXRjaFsnYXVkaW9fZW1iJ10gPSBhdWRpb19lbWIKICAgICAgICAgICAgYmF0Y2ggPSBzZWxmLm5ldEcudGVzdChiYXRjaCkKICAgICAgICAgICAgcG9zZV9tb3Rpb25fcHJlZF9saXN0LmFwcGVuZChiYXRjaFsncG9zZV9tb3Rpb25fcHJlZCddWzosLTEqcmU6LDpdKSAgIAogICAgICAgIAogICAgICAgIHBvc2VfbW90aW9uX3ByZWQgPSB0b3JjaC5jYXQocG9zZV9tb3Rpb25fcHJlZF9saXN0LCBkaW0gPSAxKQogICAgICAgIGJhdGNoWydwb3NlX21vdGlvbl9wcmVkJ10gPSBwb3NlX21vdGlvbl9wcmVkCgogICAgICAgIHBvc2VfcHJlZCA9IHJlZls6LCA6MSwgLTY6XSArIHBvc2VfbW90aW9uX3ByZWQgICMgYnMgVCA2CgogICAgICAgIGJhdGNoWydwb3NlX3ByZWQnXSA9IHBvc2VfcHJlZAogICAgICAgIHJldHVybiBiYXRjaAo=
+import torch
+from torch import nn
+from src.audio2pose_models.cvae import CVAE
+from src.audio2pose_models.discriminator import PoseSequenceDiscriminator
+from src.audio2pose_models.audio_encoder import AudioEncoder
+
+class Audio2Pose(nn.Module):
+    def __init__(self, cfg, wav2lip_checkpoint, device='cuda'):
+        super().__init__()
+        self.cfg = cfg
+        self.seq_len = cfg.MODEL.CVAE.SEQ_LEN
+        self.latent_dim = cfg.MODEL.CVAE.LATENT_SIZE
+        self.device = device
+
+        self.audio_encoder = AudioEncoder(wav2lip_checkpoint, device)
+        self.audio_encoder.eval()
+        for param in self.audio_encoder.parameters():
+            param.requires_grad = False
+
+        self.netG = CVAE(cfg)
+        self.netD_motion = PoseSequenceDiscriminator(cfg)
+        
+        
+    def forward(self, x):
+
+        batch = {}
+        coeff_gt = x['gt'].cuda().squeeze(0)           #bs frame_len+1 73
+        batch['pose_motion_gt'] = coeff_gt[:, 1:, 64:70] - coeff_gt[:, :1, 64:70] #bs frame_len 6
+        batch['ref'] = coeff_gt[:, 0, 64:70]  #bs  6
+        batch['class'] = x['class'].squeeze(0).cuda() # bs
+        indiv_mels= x['indiv_mels'].cuda().squeeze(0) # bs seq_len+1 80 16
+
+        # forward
+        audio_emb_list = []
+        audio_emb = self.audio_encoder(indiv_mels[:, 1:, :, :].unsqueeze(2)) #bs seq_len 512
+        batch['audio_emb'] = audio_emb
+        batch = self.netG(batch)
+
+        pose_motion_pred = batch['pose_motion_pred']           # bs frame_len 6
+        pose_gt = coeff_gt[:, 1:, 64:70].clone()               # bs frame_len 6
+        pose_pred = coeff_gt[:, :1, 64:70] + pose_motion_pred  # bs frame_len 6
+
+        batch['pose_pred'] = pose_pred
+        batch['pose_gt'] = pose_gt
+
+        return batch
+
+    def test(self, x):
+
+        batch = {}
+        ref = x['ref']                            #bs 1 70
+        batch['ref'] = x['ref'][:,0,-6:]  
+        batch['class'] = x['class']  
+        bs = ref.shape[0]
+        
+        indiv_mels= x['indiv_mels']               # bs T 1 80 16
+        indiv_mels_use = indiv_mels[:, 1:]        # we regard the ref as the first frame
+        num_frames = x['num_frames']
+        num_frames = int(num_frames) - 1
+
+        #  
+        div = num_frames//self.seq_len
+        re = num_frames%self.seq_len
+        audio_emb_list = []
+        pose_motion_pred_list = [torch.zeros(batch['ref'].unsqueeze(1).shape, dtype=batch['ref'].dtype, 
+                                                device=batch['ref'].device)]
+
+        for i in range(div):
+            z = torch.randn(bs, self.latent_dim).to(ref.device)
+            batch['z'] = z
+            audio_emb = self.audio_encoder(indiv_mels_use[:, i*self.seq_len:(i+1)*self.seq_len,:,:,:]) #bs seq_len 512
+            batch['audio_emb'] = audio_emb
+            batch = self.netG.test(batch)
+            pose_motion_pred_list.append(batch['pose_motion_pred'])  #list of bs seq_len 6
+        
+        if re != 0:
+            z = torch.randn(bs, self.latent_dim).to(ref.device)
+            batch['z'] = z
+            audio_emb = self.audio_encoder(indiv_mels_use[:, -1*self.seq_len:,:,:,:]) #bs seq_len  512
+            if audio_emb.shape[1] != self.seq_len:
+                pad_dim = self.seq_len-audio_emb.shape[1]
+                pad_audio_emb = audio_emb[:, :1].repeat(1, pad_dim, 1) 
+                audio_emb = torch.cat([pad_audio_emb, audio_emb], 1) 
+            batch['audio_emb'] = audio_emb
+            batch = self.netG.test(batch)
+            pose_motion_pred_list.append(batch['pose_motion_pred'][:,-1*re:,:])   
+        
+        pose_motion_pred = torch.cat(pose_motion_pred_list, dim = 1)
+        batch['pose_motion_pred'] = pose_motion_pred
+
+        pose_pred = ref[:, :1, -6:] + pose_motion_pred  # bs T 6
+
+        batch['pose_pred'] = pose_pred
+        return batch

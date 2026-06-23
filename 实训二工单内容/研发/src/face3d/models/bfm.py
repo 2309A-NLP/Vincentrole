@@ -1,1 +1,331 @@
-IiIiVGhpcyBzY3JpcHQgZGVmaW5lcyB0aGUgcGFyYW1ldHJpYyAzZCBmYWNlIG1vZGVsIGZvciBEZWVwM0RGYWNlUmVjb25fcHl0b3JjaAoiIiIKCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgIHRvcmNoCmltcG9ydCB0b3JjaC5ubi5mdW5jdGlvbmFsIGFzIEYKZnJvbSBzY2lweS5pbyBpbXBvcnQgbG9hZG1hdApmcm9tIHNyYy5mYWNlM2QudXRpbC5sb2FkX21hdHMgaW1wb3J0IHRyYW5zZmVyQkZNMDkKaW1wb3J0IG9zCgpkZWYgcGVyc3BlY3RpdmVfcHJvamVjdGlvbihmb2NhbCwgY2VudGVyKToKICAgICMgcmV0dXJuIHAuVCAoTiwgMykgQCAoMywgMykgCiAgICByZXR1cm4gbnAuYXJyYXkoWwogICAgICAgIGZvY2FsLCAwLCBjZW50ZXIsCiAgICAgICAgMCwgZm9jYWwsIGNlbnRlciwKICAgICAgICAwLCAwLCAxCiAgICBdKS5yZXNoYXBlKFszLCAzXSkuYXN0eXBlKG5wLmZsb2F0MzIpLnRyYW5zcG9zZSgpCgpjbGFzcyBTSDoKICAgIGRlZiBfX2luaXRfXyhzZWxmKToKICAgICAgICBzZWxmLmEgPSBbbnAucGksIDIgKiBucC5waSAvIG5wLnNxcnQoMy4pLCAyICogbnAucGkgLyBucC5zcXJ0KDguKV0KICAgICAgICBzZWxmLmMgPSBbMS9ucC5zcXJ0KDQgKiBucC5waSksIG5wLnNxcnQoMy4pIC8gbnAuc3FydCg0ICogbnAucGkpLCAzICogbnAuc3FydCg1LikgLyBucC5zcXJ0KDEyICogbnAucGkpXQoKCgpjbGFzcyBQYXJhbWV0cmljRmFjZU1vZGVsOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIAogICAgICAgICAgICAgICAgYmZtX2ZvbGRlcj0nLi9CRk0nLCAKICAgICAgICAgICAgICAgIHJlY2VudGVyPVRydWUsCiAgICAgICAgICAgICAgICBjYW1lcmFfZGlzdGFuY2U9MTAuLAogICAgICAgICAgICAgICAgaW5pdF9saXQ9bnAuYXJyYXkoWwogICAgICAgICAgICAgICAgICAgIDAuOCwgMCwgMCwgMCwgMCwgMCwgMCwgMCwgMAogICAgICAgICAgICAgICAgICAgIF0pLAogICAgICAgICAgICAgICAgZm9jYWw9MTAxNS4sCiAgICAgICAgICAgICAgICBjZW50ZXI9MTEyLiwKICAgICAgICAgICAgICAgIGlzX3RyYWluPVRydWUsCiAgICAgICAgICAgICAgICBkZWZhdWx0X25hbWU9J0JGTV9tb2RlbF9mcm9udC5tYXQnKToKICAgICAgICAKICAgICAgICBpZiBub3Qgb3MucGF0aC5pc2ZpbGUob3MucGF0aC5qb2luKGJmbV9mb2xkZXIsIGRlZmF1bHRfbmFtZSkpOgogICAgICAgICAgICB0cmFuc2ZlckJGTTA5KGJmbV9mb2xkZXIpCiAgICAgICAgICAgIAogICAgICAgIG1vZGVsID0gbG9hZG1hdChvcy5wYXRoLmpvaW4oYmZtX2ZvbGRlciwgZGVmYXVsdF9uYW1lKSkKICAgICAgICAjIG1lYW4gZmFjZSBzaGFwZS4gWzMqTiwxXQogICAgICAgIHNlbGYubWVhbl9zaGFwZSA9IG1vZGVsWydtZWFuc2hhcGUnXS5hc3R5cGUobnAuZmxvYXQzMikKICAgICAgICAjIGlkZW50aXR5IGJhc2lzLiBbMypOLDgwXQogICAgICAgIHNlbGYuaWRfYmFzZSA9IG1vZGVsWydpZEJhc2UnXS5hc3R5cGUobnAuZmxvYXQzMikKICAgICAgICAjIGV4cHJlc3Npb24gYmFzaXMuIFszKk4sNjRdCiAgICAgICAgc2VsZi5leHBfYmFzZSA9IG1vZGVsWydleEJhc2UnXS5hc3R5cGUobnAuZmxvYXQzMikKICAgICAgICAjIG1lYW4gZmFjZSB0ZXh0dXJlLiBbMypOLDFdICgwLTI1NSkKICAgICAgICBzZWxmLm1lYW5fdGV4ID0gbW9kZWxbJ21lYW50ZXgnXS5hc3R5cGUobnAuZmxvYXQzMikKICAgICAgICAjIHRleHR1cmUgYmFzaXMuIFszKk4sODBdCiAgICAgICAgc2VsZi50ZXhfYmFzZSA9IG1vZGVsWyd0ZXhCYXNlJ10uYXN0eXBlKG5wLmZsb2F0MzIpCiAgICAgICAgIyBmYWNlIGluZGljZXMgZm9yIGVhY2ggdmVydGV4IHRoYXQgbGllcyBpbi4gc3RhcnRzIGZyb20gMC4gW04sOF0KICAgICAgICBzZWxmLnBvaW50X2J1ZiA9IG1vZGVsWydwb2ludF9idWYnXS5hc3R5cGUobnAuaW50NjQpIC0gMQogICAgICAgICMgdmVydGV4IGluZGljZXMgZm9yIGVhY2ggZmFjZS4gc3RhcnRzIGZyb20gMC4gW0YsM10KICAgICAgICBzZWxmLmZhY2VfYnVmID0gbW9kZWxbJ3RyaSddLmFzdHlwZShucC5pbnQ2NCkgLSAxCiAgICAgICAgIyB2ZXJ0ZXggaW5kaWNlcyBmb3IgNjggbGFuZG1hcmtzLiBzdGFydHMgZnJvbSAwLiBbNjgsMV0KICAgICAgICBzZWxmLmtleXBvaW50cyA9IG5wLnNxdWVlemUobW9kZWxbJ2tleXBvaW50cyddKS5hc3R5cGUobnAuaW50NjQpIC0gMQoKICAgICAgICBpZiBpc190cmFpbjoKICAgICAgICAgICAgIyB2ZXJ0ZXggaW5kaWNlcyBmb3Igc21hbGwgZmFjZSByZWdpb24gdG8gY29tcHV0ZSBwaG90b21ldHJpYyBlcnJvci4gc3RhcnRzIGZyb20gMC4KICAgICAgICAgICAgc2VsZi5mcm9udF9tYXNrID0gbnAuc3F1ZWV6ZShtb2RlbFsnZnJvbnRtYXNrMl9pZHgnXSkuYXN0eXBlKG5wLmludDY0KSAtIDEKICAgICAgICAgICAgIyB2ZXJ0ZXggaW5kaWNlcyBmb3IgZWFjaCBmYWNlIGZyb20gc21hbGwgZmFjZSByZWdpb24uIHN0YXJ0cyBmcm9tIDAuIFtmLDNdCiAgICAgICAgICAgIHNlbGYuZnJvbnRfZmFjZV9idWYgPSBtb2RlbFsndHJpX21hc2syJ10uYXN0eXBlKG5wLmludDY0KSAtIDEKICAgICAgICAgICAgIyB2ZXJ0ZXggaW5kaWNlcyBmb3IgcHJlLWRlZmluZWQgc2tpbiByZWdpb24gdG8gY29tcHV0ZSByZWZsZWN0YW5jZSBsb3NzCiAgICAgICAgICAgIHNlbGYuc2tpbl9tYXNrID0gbnAuc3F1ZWV6ZShtb2RlbFsnc2tpbm1hc2snXSkKICAgICAgICAKICAgICAgICBpZiByZWNlbnRlcjoKICAgICAgICAgICAgbWVhbl9zaGFwZSA9IHNlbGYubWVhbl9zaGFwZS5yZXNoYXBlKFstMSwgM10pCiAgICAgICAgICAgIG1lYW5fc2hhcGUgPSBtZWFuX3NoYXBlIC0gbnAubWVhbihtZWFuX3NoYXBlLCBheGlzPTAsIGtlZXBkaW1zPVRydWUpCiAgICAgICAgICAgIHNlbGYubWVhbl9zaGFwZSA9IG1lYW5fc2hhcGUucmVzaGFwZShbLTEsIDFdKQoKICAgICAgICBzZWxmLnBlcnNjX3Byb2ogPSBwZXJzcGVjdGl2ZV9wcm9qZWN0aW9uKGZvY2FsLCBjZW50ZXIpCiAgICAgICAgc2VsZi5kZXZpY2UgPSAnY3B1JwogICAgICAgIHNlbGYuY2FtZXJhX2Rpc3RhbmNlID0gY2FtZXJhX2Rpc3RhbmNlCiAgICAgICAgc2VsZi5TSCA9IFNIKCkKICAgICAgICBzZWxmLmluaXRfbGl0ID0gaW5pdF9saXQucmVzaGFwZShbMSwgMSwgLTFdKS5hc3R5cGUobnAuZmxvYXQzMikKICAgICAgICAKCiAgICBkZWYgdG8oc2VsZiwgZGV2aWNlKToKICAgICAgICBzZWxmLmRldmljZSA9IGRldmljZQogICAgICAgIGZvciBrZXksIHZhbHVlIGluIHNlbGYuX19kaWN0X18uaXRlbXMoKToKICAgICAgICAgICAgaWYgdHlwZSh2YWx1ZSkuX19tb2R1bGVfXyA9PSBucC5fX25hbWVfXzoKICAgICAgICAgICAgICAgIHNldGF0dHIoc2VsZiwga2V5LCB0b3JjaC50ZW5zb3IodmFsdWUpLnRvKGRldmljZSkpCgogICAgCiAgICBkZWYgY29tcHV0ZV9zaGFwZShzZWxmLCBpZF9jb2VmZiwgZXhwX2NvZWZmKToKICAgICAgICAiIiIKICAgICAgICBSZXR1cm46CiAgICAgICAgICAgIGZhY2Vfc2hhcGUgICAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCBOLCAzKQoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBpZF9jb2VmZiAgICAgICAgIC0tIHRvcmNoLnRlbnNvciwgc2l6ZSAoQiwgODApLCBpZGVudGl0eSBjb2VmZnMKICAgICAgICAgICAgZXhwX2NvZWZmICAgICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIDY0KSwgZXhwcmVzc2lvbiBjb2VmZnMKICAgICAgICAiIiIKICAgICAgICBiYXRjaF9zaXplID0gaWRfY29lZmYuc2hhcGVbMF0KICAgICAgICBpZF9wYXJ0ID0gdG9yY2guZWluc3VtKCdpaixhai0+YWknLCBzZWxmLmlkX2Jhc2UsIGlkX2NvZWZmKQogICAgICAgIGV4cF9wYXJ0ID0gdG9yY2guZWluc3VtKCdpaixhai0+YWknLCBzZWxmLmV4cF9iYXNlLCBleHBfY29lZmYpCiAgICAgICAgZmFjZV9zaGFwZSA9IGlkX3BhcnQgKyBleHBfcGFydCArIHNlbGYubWVhbl9zaGFwZS5yZXNoYXBlKFsxLCAtMV0pCiAgICAgICAgcmV0dXJuIGZhY2Vfc2hhcGUucmVzaGFwZShbYmF0Y2hfc2l6ZSwgLTEsIDNdKQogICAgCgogICAgZGVmIGNvbXB1dGVfdGV4dHVyZShzZWxmLCB0ZXhfY29lZmYsIG5vcm1hbGl6ZT1UcnVlKToKICAgICAgICAiIiIKICAgICAgICBSZXR1cm46CiAgICAgICAgICAgIGZhY2VfdGV4dHVyZSAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCBOLCAzKSwgaW4gUkdCIG9yZGVyLCByYW5nZSAoMCwgMS4pCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIHRleF9jb2VmZiAgICAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCA4MCkKICAgICAgICAiIiIKICAgICAgICBiYXRjaF9zaXplID0gdGV4X2NvZWZmLnNoYXBlWzBdCiAgICAgICAgZmFjZV90ZXh0dXJlID0gdG9yY2guZWluc3VtKCdpaixhai0+YWknLCBzZWxmLnRleF9iYXNlLCB0ZXhfY29lZmYpICsgc2VsZi5tZWFuX3RleAogICAgICAgIGlmIG5vcm1hbGl6ZToKICAgICAgICAgICAgZmFjZV90ZXh0dXJlID0gZmFjZV90ZXh0dXJlIC8gMjU1LgogICAgICAgIHJldHVybiBmYWNlX3RleHR1cmUucmVzaGFwZShbYmF0Y2hfc2l6ZSwgLTEsIDNdKQoKCiAgICBkZWYgY29tcHV0ZV9ub3JtKHNlbGYsIGZhY2Vfc2hhcGUpOgogICAgICAgICIiIgogICAgICAgIFJldHVybjoKICAgICAgICAgICAgdmVydGV4X25vcm0gICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIE4sIDMpCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIGZhY2Vfc2hhcGUgICAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCBOLCAzKQogICAgICAgICIiIgoKICAgICAgICB2MSA9IGZhY2Vfc2hhcGVbOiwgc2VsZi5mYWNlX2J1Zls6LCAwXV0KICAgICAgICB2MiA9IGZhY2Vfc2hhcGVbOiwgc2VsZi5mYWNlX2J1Zls6LCAxXV0KICAgICAgICB2MyA9IGZhY2Vfc2hhcGVbOiwgc2VsZi5mYWNlX2J1Zls6LCAyXV0KICAgICAgICBlMSA9IHYxIC0gdjIKICAgICAgICBlMiA9IHYyIC0gdjMKICAgICAgICBmYWNlX25vcm0gPSB0b3JjaC5jcm9zcyhlMSwgZTIsIGRpbT0tMSkKICAgICAgICBmYWNlX25vcm0gPSBGLm5vcm1hbGl6ZShmYWNlX25vcm0sIGRpbT0tMSwgcD0yKQogICAgICAgIGZhY2Vfbm9ybSA9IHRvcmNoLmNhdChbZmFjZV9ub3JtLCB0b3JjaC56ZXJvcyhmYWNlX25vcm0uc2hhcGVbMF0sIDEsIDMpLnRvKHNlbGYuZGV2aWNlKV0sIGRpbT0xKQogICAgICAgIAogICAgICAgIHZlcnRleF9ub3JtID0gdG9yY2guc3VtKGZhY2Vfbm9ybVs6LCBzZWxmLnBvaW50X2J1Zl0sIGRpbT0yKQogICAgICAgIHZlcnRleF9ub3JtID0gRi5ub3JtYWxpemUodmVydGV4X25vcm0sIGRpbT0tMSwgcD0yKQogICAgICAgIHJldHVybiB2ZXJ0ZXhfbm9ybQoKCiAgICBkZWYgY29tcHV0ZV9jb2xvcihzZWxmLCBmYWNlX3RleHR1cmUsIGZhY2Vfbm9ybSwgZ2FtbWEpOgogICAgICAgICIiIgogICAgICAgIFJldHVybjoKICAgICAgICAgICAgZmFjZV9jb2xvciAgICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIE4sIDMpLCByYW5nZSAoMCwgMS4pCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIGZhY2VfdGV4dHVyZSAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCBOLCAzKSwgZnJvbSB0ZXh0dXJlIG1vZGVsLCByYW5nZSAoMCwgMS4pCiAgICAgICAgICAgIGZhY2Vfbm9ybSAgICAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCBOLCAzKSwgcm90YXRlZCBmYWNlIG5vcm1hbAogICAgICAgICAgICBnYW1tYSAgICAgICAgICAgIC0tIHRvcmNoLnRlbnNvciwgc2l6ZSAoQiwgMjcpLCBTSCBjb2VmZnMKICAgICAgICAiIiIKICAgICAgICBiYXRjaF9zaXplID0gZ2FtbWEuc2hhcGVbMF0KICAgICAgICB2X251bSA9IGZhY2VfdGV4dHVyZS5zaGFwZVsxXQogICAgICAgIGEsIGMgPSBzZWxmLlNILmEsIHNlbGYuU0guYwogICAgICAgIGdhbW1hID0gZ2FtbWEucmVzaGFwZShbYmF0Y2hfc2l6ZSwgMywgOV0pCiAgICAgICAgZ2FtbWEgPSBnYW1tYSArIHNlbGYuaW5pdF9saXQKICAgICAgICBnYW1tYSA9IGdhbW1hLnBlcm11dGUoMCwgMiwgMSkKICAgICAgICBZID0gdG9yY2guY2F0KFsKICAgICAgICAgICAgIGFbMF0gKiBjWzBdICogdG9yY2gub25lc19saWtlKGZhY2Vfbm9ybVsuLi4sIDoxXSkudG8oc2VsZi5kZXZpY2UpLAogICAgICAgICAgICAtYVsxXSAqIGNbMV0gKiBmYWNlX25vcm1bLi4uLCAxOjJdLAogICAgICAgICAgICAgYVsxXSAqIGNbMV0gKiBmYWNlX25vcm1bLi4uLCAyOl0sCiAgICAgICAgICAgIC1hWzFdICogY1sxXSAqIGZhY2Vfbm9ybVsuLi4sIDoxXSwKICAgICAgICAgICAgIGFbMl0gKiBjWzJdICogZmFjZV9ub3JtWy4uLiwgOjFdICogZmFjZV9ub3JtWy4uLiwgMToyXSwKICAgICAgICAgICAgLWFbMl0gKiBjWzJdICogZmFjZV9ub3JtWy4uLiwgMToyXSAqIGZhY2Vfbm9ybVsuLi4sIDI6XSwKICAgICAgICAgICAgMC41ICogYVsyXSAqIGNbMl0gLyBucC5zcXJ0KDMuKSAqICgzICogZmFjZV9ub3JtWy4uLiwgMjpdICoqIDIgLSAxKSwKICAgICAgICAgICAgLWFbMl0gKiBjWzJdICogZmFjZV9ub3JtWy4uLiwgOjFdICogZmFjZV9ub3JtWy4uLiwgMjpdLAogICAgICAgICAgICAwLjUgKiBhWzJdICogY1syXSAqIChmYWNlX25vcm1bLi4uLCA6MV0gKiogMiAgLSBmYWNlX25vcm1bLi4uLCAxOjJdICoqIDIpCiAgICAgICAgXSwgZGltPS0xKQogICAgICAgIHIgPSBZIEAgZ2FtbWFbLi4uLCA6MV0KICAgICAgICBnID0gWSBAIGdhbW1hWy4uLiwgMToyXQogICAgICAgIGIgPSBZIEAgZ2FtbWFbLi4uLCAyOl0KICAgICAgICBmYWNlX2NvbG9yID0gdG9yY2guY2F0KFtyLCBnLCBiXSwgZGltPS0xKSAqIGZhY2VfdGV4dHVyZQogICAgICAgIHJldHVybiBmYWNlX2NvbG9yCgogICAgCiAgICBkZWYgY29tcHV0ZV9yb3RhdGlvbihzZWxmLCBhbmdsZXMpOgogICAgICAgICIiIgogICAgICAgIFJldHVybjoKICAgICAgICAgICAgcm90ICAgICAgICAgICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIDMsIDMpIHB0cyBAIHRyYW5zX21hdAoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBhbmdsZXMgICAgICAgICAgIC0tIHRvcmNoLnRlbnNvciwgc2l6ZSAoQiwgMyksIHJhZGlhbgogICAgICAgICIiIgoKICAgICAgICBiYXRjaF9zaXplID0gYW5nbGVzLnNoYXBlWzBdCiAgICAgICAgb25lcyA9IHRvcmNoLm9uZXMoW2JhdGNoX3NpemUsIDFdKS50byhzZWxmLmRldmljZSkKICAgICAgICB6ZXJvcyA9IHRvcmNoLnplcm9zKFtiYXRjaF9zaXplLCAxXSkudG8oc2VsZi5kZXZpY2UpCiAgICAgICAgeCwgeSwgeiA9IGFuZ2xlc1s6LCA6MV0sIGFuZ2xlc1s6LCAxOjJdLCBhbmdsZXNbOiwgMjpdLAogICAgICAgIAogICAgICAgIHJvdF94ID0gdG9yY2guY2F0KFsKICAgICAgICAgICAgb25lcywgemVyb3MsIHplcm9zLAogICAgICAgICAgICB6ZXJvcywgdG9yY2guY29zKHgpLCAtdG9yY2guc2luKHgpLCAKICAgICAgICAgICAgemVyb3MsIHRvcmNoLnNpbih4KSwgdG9yY2guY29zKHgpCiAgICAgICAgXSwgZGltPTEpLnJlc2hhcGUoW2JhdGNoX3NpemUsIDMsIDNdKQogICAgICAgIAogICAgICAgIHJvdF95ID0gdG9yY2guY2F0KFsKICAgICAgICAgICAgdG9yY2guY29zKHkpLCB6ZXJvcywgdG9yY2guc2luKHkpLAogICAgICAgICAgICB6ZXJvcywgb25lcywgemVyb3MsCiAgICAgICAgICAgIC10b3JjaC5zaW4oeSksIHplcm9zLCB0b3JjaC5jb3MoeSkKICAgICAgICBdLCBkaW09MSkucmVzaGFwZShbYmF0Y2hfc2l6ZSwgMywgM10pCgogICAgICAgIHJvdF96ID0gdG9yY2guY2F0KFsKICAgICAgICAgICAgdG9yY2guY29zKHopLCAtdG9yY2guc2luKHopLCB6ZXJvcywKICAgICAgICAgICAgdG9yY2guc2luKHopLCB0b3JjaC5jb3MoeiksIHplcm9zLAogICAgICAgICAgICB6ZXJvcywgemVyb3MsIG9uZXMKICAgICAgICBdLCBkaW09MSkucmVzaGFwZShbYmF0Y2hfc2l6ZSwgMywgM10pCgogICAgICAgIHJvdCA9IHJvdF96IEAgcm90X3kgQCByb3RfeAogICAgICAgIHJldHVybiByb3QucGVybXV0ZSgwLCAyLCAxKQoKCiAgICBkZWYgdG9fY2FtZXJhKHNlbGYsIGZhY2Vfc2hhcGUpOgogICAgICAgIGZhY2Vfc2hhcGVbLi4uLCAtMV0gPSBzZWxmLmNhbWVyYV9kaXN0YW5jZSAtIGZhY2Vfc2hhcGVbLi4uLCAtMV0KICAgICAgICByZXR1cm4gZmFjZV9zaGFwZQoKICAgIGRlZiB0b19pbWFnZShzZWxmLCBmYWNlX3NoYXBlKToKICAgICAgICAiIiIKICAgICAgICBSZXR1cm46CiAgICAgICAgICAgIGZhY2VfcHJvaiAgICAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCBOLCAyKSwgeSBkaXJlY3Rpb24gaXMgb3Bwb3NpdGUgdG8gdiBkaXJlY3Rpb24KCiAgICAgICAgUGFyYW1ldGVyczoKICAgICAgICAgICAgZmFjZV9zaGFwZSAgICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIE4sIDMpCiAgICAgICAgIiIiCiAgICAgICAgIyB0byBpbWFnZV9wbGFuZQogICAgICAgIGZhY2VfcHJvaiA9IGZhY2Vfc2hhcGUgQCBzZWxmLnBlcnNjX3Byb2oKICAgICAgICBmYWNlX3Byb2ogPSBmYWNlX3Byb2pbLi4uLCA6Ml0gLyBmYWNlX3Byb2pbLi4uLCAyOl0KCiAgICAgICAgcmV0dXJuIGZhY2VfcHJvagoKCiAgICBkZWYgdHJhbnNmb3JtKHNlbGYsIGZhY2Vfc2hhcGUsIHJvdCwgdHJhbnMpOgogICAgICAgICIiIgogICAgICAgIFJldHVybjoKICAgICAgICAgICAgZmFjZV9zaGFwZSAgICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIE4sIDMpIHB0cyBAIHJvdCArIHRyYW5zCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIGZhY2Vfc2hhcGUgICAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCBOLCAzKQogICAgICAgICAgICByb3QgICAgICAgICAgICAgIC0tIHRvcmNoLnRlbnNvciwgc2l6ZSAoQiwgMywgMykKICAgICAgICAgICAgdHJhbnMgICAgICAgICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIDMpCiAgICAgICAgIiIiCiAgICAgICAgcmV0dXJuIGZhY2Vfc2hhcGUgQCByb3QgKyB0cmFucy51bnNxdWVlemUoMSkKCgogICAgZGVmIGdldF9sYW5kbWFya3Moc2VsZiwgZmFjZV9wcm9qKToKICAgICAgICAiIiIKICAgICAgICBSZXR1cm46CiAgICAgICAgICAgIGZhY2VfbG1zICAgICAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCA2OCwgMikKCiAgICAgICAgUGFyYW1ldGVyczoKICAgICAgICAgICAgZmFjZV9wcm9qICAgICAgIC0tIHRvcmNoLnRlbnNvciwgc2l6ZSAoQiwgTiwgMikKICAgICAgICAiIiIgIAogICAgICAgIHJldHVybiBmYWNlX3Byb2pbOiwgc2VsZi5rZXlwb2ludHNdCgogICAgZGVmIHNwbGl0X2NvZWZmKHNlbGYsIGNvZWZmcyk6CiAgICAgICAgIiIiCiAgICAgICAgUmV0dXJuOgogICAgICAgICAgICBjb2VmZnNfZGljdCAgICAgLS0gYSBkaWN0IG9mIHRvcmNoLnRlbnNvcnMKCiAgICAgICAgUGFyYW1ldGVyczoKICAgICAgICAgICAgY29lZmZzICAgICAgICAgIC0tIHRvcmNoLnRlbnNvciwgc2l6ZSAoQiwgMjU2KQogICAgICAgICIiIgogICAgICAgIGlkX2NvZWZmcyA9IGNvZWZmc1s6LCA6ODBdCiAgICAgICAgZXhwX2NvZWZmcyA9IGNvZWZmc1s6LCA4MDogMTQ0XQogICAgICAgIHRleF9jb2VmZnMgPSBjb2VmZnNbOiwgMTQ0OiAyMjRdCiAgICAgICAgYW5nbGVzID0gY29lZmZzWzosIDIyNDogMjI3XQogICAgICAgIGdhbW1hcyA9IGNvZWZmc1s6LCAyMjc6IDI1NF0KICAgICAgICB0cmFuc2xhdGlvbnMgPSBjb2VmZnNbOiwgMjU0Ol0KICAgICAgICByZXR1cm4gewogICAgICAgICAgICAnaWQnOiBpZF9jb2VmZnMsCiAgICAgICAgICAgICdleHAnOiBleHBfY29lZmZzLAogICAgICAgICAgICAndGV4JzogdGV4X2NvZWZmcywKICAgICAgICAgICAgJ2FuZ2xlJzogYW5nbGVzLAogICAgICAgICAgICAnZ2FtbWEnOiBnYW1tYXMsCiAgICAgICAgICAgICd0cmFucyc6IHRyYW5zbGF0aW9ucwogICAgICAgIH0KICAgIGRlZiBjb21wdXRlX2Zvcl9yZW5kZXIoc2VsZiwgY29lZmZzKToKICAgICAgICAiIiIKICAgICAgICBSZXR1cm46CiAgICAgICAgICAgIGZhY2VfdmVydGV4ICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIE4sIDMpLCBpbiBjYW1lcmEgY29vcmRpbmF0ZQogICAgICAgICAgICBmYWNlX2NvbG9yICAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCBOLCAzKSwgaW4gUkdCIG9yZGVyCiAgICAgICAgICAgIGxhbmRtYXJrICAgICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIDY4LCAyKSwgeSBkaXJlY3Rpb24gaXMgb3Bwb3NpdGUgdG8gdiBkaXJlY3Rpb24KICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBjb2VmZnMgICAgICAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCAyNTcpCiAgICAgICAgIiIiCiAgICAgICAgY29lZl9kaWN0ID0gc2VsZi5zcGxpdF9jb2VmZihjb2VmZnMpCiAgICAgICAgZmFjZV9zaGFwZSA9IHNlbGYuY29tcHV0ZV9zaGFwZShjb2VmX2RpY3RbJ2lkJ10sIGNvZWZfZGljdFsnZXhwJ10pCiAgICAgICAgcm90YXRpb24gPSBzZWxmLmNvbXB1dGVfcm90YXRpb24oY29lZl9kaWN0WydhbmdsZSddKQoKCiAgICAgICAgZmFjZV9zaGFwZV90cmFuc2Zvcm1lZCA9IHNlbGYudHJhbnNmb3JtKGZhY2Vfc2hhcGUsIHJvdGF0aW9uLCBjb2VmX2RpY3RbJ3RyYW5zJ10pCiAgICAgICAgZmFjZV92ZXJ0ZXggPSBzZWxmLnRvX2NhbWVyYShmYWNlX3NoYXBlX3RyYW5zZm9ybWVkKQogICAgICAgIAogICAgICAgIGZhY2VfcHJvaiA9IHNlbGYudG9faW1hZ2UoZmFjZV92ZXJ0ZXgpCiAgICAgICAgbGFuZG1hcmsgPSBzZWxmLmdldF9sYW5kbWFya3MoZmFjZV9wcm9qKQoKICAgICAgICBmYWNlX3RleHR1cmUgPSBzZWxmLmNvbXB1dGVfdGV4dHVyZShjb2VmX2RpY3RbJ3RleCddKQogICAgICAgIGZhY2Vfbm9ybSA9IHNlbGYuY29tcHV0ZV9ub3JtKGZhY2Vfc2hhcGUpCiAgICAgICAgZmFjZV9ub3JtX3JvdGVkID0gZmFjZV9ub3JtIEAgcm90YXRpb24KICAgICAgICBmYWNlX2NvbG9yID0gc2VsZi5jb21wdXRlX2NvbG9yKGZhY2VfdGV4dHVyZSwgZmFjZV9ub3JtX3JvdGVkLCBjb2VmX2RpY3RbJ2dhbW1hJ10pCgogICAgICAgIHJldHVybiBmYWNlX3ZlcnRleCwgZmFjZV90ZXh0dXJlLCBmYWNlX2NvbG9yLCBsYW5kbWFyawoKICAgIGRlZiBjb21wdXRlX2Zvcl9yZW5kZXJfd29Sb3RhdGlvbihzZWxmLCBjb2VmZnMpOgogICAgICAgICIiIgogICAgICAgIFJldHVybjoKICAgICAgICAgICAgZmFjZV92ZXJ0ZXggICAgIC0tIHRvcmNoLnRlbnNvciwgc2l6ZSAoQiwgTiwgMyksIGluIGNhbWVyYSBjb29yZGluYXRlCiAgICAgICAgICAgIGZhY2VfY29sb3IgICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIE4sIDMpLCBpbiBSR0Igb3JkZXIKICAgICAgICAgICAgbGFuZG1hcmsgICAgICAgIC0tIHRvcmNoLnRlbnNvciwgc2l6ZSAoQiwgNjgsIDIpLCB5IGRpcmVjdGlvbiBpcyBvcHBvc2l0ZSB0byB2IGRpcmVjdGlvbgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIGNvZWZmcyAgICAgICAgICAtLSB0b3JjaC50ZW5zb3IsIHNpemUgKEIsIDI1NykKICAgICAgICAiIiIKICAgICAgICBjb2VmX2RpY3QgPSBzZWxmLnNwbGl0X2NvZWZmKGNvZWZmcykKICAgICAgICBmYWNlX3NoYXBlID0gc2VsZi5jb21wdXRlX3NoYXBlKGNvZWZfZGljdFsnaWQnXSwgY29lZl9kaWN0WydleHAnXSkKICAgICAgICAjcm90YXRpb24gPSBzZWxmLmNvbXB1dGVfcm90YXRpb24oY29lZl9kaWN0WydhbmdsZSddKQoKCiAgICAgICAgI2ZhY2Vfc2hhcGVfdHJhbnNmb3JtZWQgPSBzZWxmLnRyYW5zZm9ybShmYWNlX3NoYXBlLCByb3RhdGlvbiwgY29lZl9kaWN0Wyd0cmFucyddKQogICAgICAgIGZhY2VfdmVydGV4ID0gc2VsZi50b19jYW1lcmEoZmFjZV9zaGFwZSkKICAgICAgICAKICAgICAgICBmYWNlX3Byb2ogPSBzZWxmLnRvX2ltYWdlKGZhY2VfdmVydGV4KQogICAgICAgIGxhbmRtYXJrID0gc2VsZi5nZXRfbGFuZG1hcmtzKGZhY2VfcHJvaikKCiAgICAgICAgZmFjZV90ZXh0dXJlID0gc2VsZi5jb21wdXRlX3RleHR1cmUoY29lZl9kaWN0Wyd0ZXgnXSkKICAgICAgICBmYWNlX25vcm0gPSBzZWxmLmNvbXB1dGVfbm9ybShmYWNlX3NoYXBlKQogICAgICAgIGZhY2Vfbm9ybV9yb3RlZCA9IGZhY2Vfbm9ybSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgQCByb3RhdGlvbgogICAgICAgIGZhY2VfY29sb3IgPSBzZWxmLmNvbXB1dGVfY29sb3IoZmFjZV90ZXh0dXJlLCBmYWNlX25vcm1fcm90ZWQsIGNvZWZfZGljdFsnZ2FtbWEnXSkKCiAgICAgICAgcmV0dXJuIGZhY2VfdmVydGV4LCBmYWNlX3RleHR1cmUsIGZhY2VfY29sb3IsIGxhbmRtYXJrCgoKaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIHRyYW5zZmVyQkZNMDkoKQ==
+"""This script defines the parametric 3d face model for Deep3DFaceRecon_pytorch
+"""
+
+import numpy as np
+import  torch
+import torch.nn.functional as F
+from scipy.io import loadmat
+from src.face3d.util.load_mats import transferBFM09
+import os
+
+def perspective_projection(focal, center):
+    # return p.T (N, 3) @ (3, 3) 
+    return np.array([
+        focal, 0, center,
+        0, focal, center,
+        0, 0, 1
+    ]).reshape([3, 3]).astype(np.float32).transpose()
+
+class SH:
+    def __init__(self):
+        self.a = [np.pi, 2 * np.pi / np.sqrt(3.), 2 * np.pi / np.sqrt(8.)]
+        self.c = [1/np.sqrt(4 * np.pi), np.sqrt(3.) / np.sqrt(4 * np.pi), 3 * np.sqrt(5.) / np.sqrt(12 * np.pi)]
+
+
+
+class ParametricFaceModel:
+    def __init__(self, 
+                bfm_folder='./BFM', 
+                recenter=True,
+                camera_distance=10.,
+                init_lit=np.array([
+                    0.8, 0, 0, 0, 0, 0, 0, 0, 0
+                    ]),
+                focal=1015.,
+                center=112.,
+                is_train=True,
+                default_name='BFM_model_front.mat'):
+        
+        if not os.path.isfile(os.path.join(bfm_folder, default_name)):
+            transferBFM09(bfm_folder)
+            
+        model = loadmat(os.path.join(bfm_folder, default_name))
+        # mean face shape. [3*N,1]
+        self.mean_shape = model['meanshape'].astype(np.float32)
+        # identity basis. [3*N,80]
+        self.id_base = model['idBase'].astype(np.float32)
+        # expression basis. [3*N,64]
+        self.exp_base = model['exBase'].astype(np.float32)
+        # mean face texture. [3*N,1] (0-255)
+        self.mean_tex = model['meantex'].astype(np.float32)
+        # texture basis. [3*N,80]
+        self.tex_base = model['texBase'].astype(np.float32)
+        # face indices for each vertex that lies in. starts from 0. [N,8]
+        self.point_buf = model['point_buf'].astype(np.int64) - 1
+        # vertex indices for each face. starts from 0. [F,3]
+        self.face_buf = model['tri'].astype(np.int64) - 1
+        # vertex indices for 68 landmarks. starts from 0. [68,1]
+        self.keypoints = np.squeeze(model['keypoints']).astype(np.int64) - 1
+
+        if is_train:
+            # vertex indices for small face region to compute photometric error. starts from 0.
+            self.front_mask = np.squeeze(model['frontmask2_idx']).astype(np.int64) - 1
+            # vertex indices for each face from small face region. starts from 0. [f,3]
+            self.front_face_buf = model['tri_mask2'].astype(np.int64) - 1
+            # vertex indices for pre-defined skin region to compute reflectance loss
+            self.skin_mask = np.squeeze(model['skinmask'])
+        
+        if recenter:
+            mean_shape = self.mean_shape.reshape([-1, 3])
+            mean_shape = mean_shape - np.mean(mean_shape, axis=0, keepdims=True)
+            self.mean_shape = mean_shape.reshape([-1, 1])
+
+        self.persc_proj = perspective_projection(focal, center)
+        self.device = 'cpu'
+        self.camera_distance = camera_distance
+        self.SH = SH()
+        self.init_lit = init_lit.reshape([1, 1, -1]).astype(np.float32)
+        
+
+    def to(self, device):
+        self.device = device
+        for key, value in self.__dict__.items():
+            if type(value).__module__ == np.__name__:
+                setattr(self, key, torch.tensor(value).to(device))
+
+    
+    def compute_shape(self, id_coeff, exp_coeff):
+        """
+        Return:
+            face_shape       -- torch.tensor, size (B, N, 3)
+
+        Parameters:
+            id_coeff         -- torch.tensor, size (B, 80), identity coeffs
+            exp_coeff        -- torch.tensor, size (B, 64), expression coeffs
+        """
+        batch_size = id_coeff.shape[0]
+        id_part = torch.einsum('ij,aj->ai', self.id_base, id_coeff)
+        exp_part = torch.einsum('ij,aj->ai', self.exp_base, exp_coeff)
+        face_shape = id_part + exp_part + self.mean_shape.reshape([1, -1])
+        return face_shape.reshape([batch_size, -1, 3])
+    
+
+    def compute_texture(self, tex_coeff, normalize=True):
+        """
+        Return:
+            face_texture     -- torch.tensor, size (B, N, 3), in RGB order, range (0, 1.)
+
+        Parameters:
+            tex_coeff        -- torch.tensor, size (B, 80)
+        """
+        batch_size = tex_coeff.shape[0]
+        face_texture = torch.einsum('ij,aj->ai', self.tex_base, tex_coeff) + self.mean_tex
+        if normalize:
+            face_texture = face_texture / 255.
+        return face_texture.reshape([batch_size, -1, 3])
+
+
+    def compute_norm(self, face_shape):
+        """
+        Return:
+            vertex_norm      -- torch.tensor, size (B, N, 3)
+
+        Parameters:
+            face_shape       -- torch.tensor, size (B, N, 3)
+        """
+
+        v1 = face_shape[:, self.face_buf[:, 0]]
+        v2 = face_shape[:, self.face_buf[:, 1]]
+        v3 = face_shape[:, self.face_buf[:, 2]]
+        e1 = v1 - v2
+        e2 = v2 - v3
+        face_norm = torch.cross(e1, e2, dim=-1)
+        face_norm = F.normalize(face_norm, dim=-1, p=2)
+        face_norm = torch.cat([face_norm, torch.zeros(face_norm.shape[0], 1, 3).to(self.device)], dim=1)
+        
+        vertex_norm = torch.sum(face_norm[:, self.point_buf], dim=2)
+        vertex_norm = F.normalize(vertex_norm, dim=-1, p=2)
+        return vertex_norm
+
+
+    def compute_color(self, face_texture, face_norm, gamma):
+        """
+        Return:
+            face_color       -- torch.tensor, size (B, N, 3), range (0, 1.)
+
+        Parameters:
+            face_texture     -- torch.tensor, size (B, N, 3), from texture model, range (0, 1.)
+            face_norm        -- torch.tensor, size (B, N, 3), rotated face normal
+            gamma            -- torch.tensor, size (B, 27), SH coeffs
+        """
+        batch_size = gamma.shape[0]
+        v_num = face_texture.shape[1]
+        a, c = self.SH.a, self.SH.c
+        gamma = gamma.reshape([batch_size, 3, 9])
+        gamma = gamma + self.init_lit
+        gamma = gamma.permute(0, 2, 1)
+        Y = torch.cat([
+             a[0] * c[0] * torch.ones_like(face_norm[..., :1]).to(self.device),
+            -a[1] * c[1] * face_norm[..., 1:2],
+             a[1] * c[1] * face_norm[..., 2:],
+            -a[1] * c[1] * face_norm[..., :1],
+             a[2] * c[2] * face_norm[..., :1] * face_norm[..., 1:2],
+            -a[2] * c[2] * face_norm[..., 1:2] * face_norm[..., 2:],
+            0.5 * a[2] * c[2] / np.sqrt(3.) * (3 * face_norm[..., 2:] ** 2 - 1),
+            -a[2] * c[2] * face_norm[..., :1] * face_norm[..., 2:],
+            0.5 * a[2] * c[2] * (face_norm[..., :1] ** 2  - face_norm[..., 1:2] ** 2)
+        ], dim=-1)
+        r = Y @ gamma[..., :1]
+        g = Y @ gamma[..., 1:2]
+        b = Y @ gamma[..., 2:]
+        face_color = torch.cat([r, g, b], dim=-1) * face_texture
+        return face_color
+
+    
+    def compute_rotation(self, angles):
+        """
+        Return:
+            rot              -- torch.tensor, size (B, 3, 3) pts @ trans_mat
+
+        Parameters:
+            angles           -- torch.tensor, size (B, 3), radian
+        """
+
+        batch_size = angles.shape[0]
+        ones = torch.ones([batch_size, 1]).to(self.device)
+        zeros = torch.zeros([batch_size, 1]).to(self.device)
+        x, y, z = angles[:, :1], angles[:, 1:2], angles[:, 2:],
+        
+        rot_x = torch.cat([
+            ones, zeros, zeros,
+            zeros, torch.cos(x), -torch.sin(x), 
+            zeros, torch.sin(x), torch.cos(x)
+        ], dim=1).reshape([batch_size, 3, 3])
+        
+        rot_y = torch.cat([
+            torch.cos(y), zeros, torch.sin(y),
+            zeros, ones, zeros,
+            -torch.sin(y), zeros, torch.cos(y)
+        ], dim=1).reshape([batch_size, 3, 3])
+
+        rot_z = torch.cat([
+            torch.cos(z), -torch.sin(z), zeros,
+            torch.sin(z), torch.cos(z), zeros,
+            zeros, zeros, ones
+        ], dim=1).reshape([batch_size, 3, 3])
+
+        rot = rot_z @ rot_y @ rot_x
+        return rot.permute(0, 2, 1)
+
+
+    def to_camera(self, face_shape):
+        face_shape[..., -1] = self.camera_distance - face_shape[..., -1]
+        return face_shape
+
+    def to_image(self, face_shape):
+        """
+        Return:
+            face_proj        -- torch.tensor, size (B, N, 2), y direction is opposite to v direction
+
+        Parameters:
+            face_shape       -- torch.tensor, size (B, N, 3)
+        """
+        # to image_plane
+        face_proj = face_shape @ self.persc_proj
+        face_proj = face_proj[..., :2] / face_proj[..., 2:]
+
+        return face_proj
+
+
+    def transform(self, face_shape, rot, trans):
+        """
+        Return:
+            face_shape       -- torch.tensor, size (B, N, 3) pts @ rot + trans
+
+        Parameters:
+            face_shape       -- torch.tensor, size (B, N, 3)
+            rot              -- torch.tensor, size (B, 3, 3)
+            trans            -- torch.tensor, size (B, 3)
+        """
+        return face_shape @ rot + trans.unsqueeze(1)
+
+
+    def get_landmarks(self, face_proj):
+        """
+        Return:
+            face_lms         -- torch.tensor, size (B, 68, 2)
+
+        Parameters:
+            face_proj       -- torch.tensor, size (B, N, 2)
+        """  
+        return face_proj[:, self.keypoints]
+
+    def split_coeff(self, coeffs):
+        """
+        Return:
+            coeffs_dict     -- a dict of torch.tensors
+
+        Parameters:
+            coeffs          -- torch.tensor, size (B, 256)
+        """
+        id_coeffs = coeffs[:, :80]
+        exp_coeffs = coeffs[:, 80: 144]
+        tex_coeffs = coeffs[:, 144: 224]
+        angles = coeffs[:, 224: 227]
+        gammas = coeffs[:, 227: 254]
+        translations = coeffs[:, 254:]
+        return {
+            'id': id_coeffs,
+            'exp': exp_coeffs,
+            'tex': tex_coeffs,
+            'angle': angles,
+            'gamma': gammas,
+            'trans': translations
+        }
+    def compute_for_render(self, coeffs):
+        """
+        Return:
+            face_vertex     -- torch.tensor, size (B, N, 3), in camera coordinate
+            face_color      -- torch.tensor, size (B, N, 3), in RGB order
+            landmark        -- torch.tensor, size (B, 68, 2), y direction is opposite to v direction
+        Parameters:
+            coeffs          -- torch.tensor, size (B, 257)
+        """
+        coef_dict = self.split_coeff(coeffs)
+        face_shape = self.compute_shape(coef_dict['id'], coef_dict['exp'])
+        rotation = self.compute_rotation(coef_dict['angle'])
+
+
+        face_shape_transformed = self.transform(face_shape, rotation, coef_dict['trans'])
+        face_vertex = self.to_camera(face_shape_transformed)
+        
+        face_proj = self.to_image(face_vertex)
+        landmark = self.get_landmarks(face_proj)
+
+        face_texture = self.compute_texture(coef_dict['tex'])
+        face_norm = self.compute_norm(face_shape)
+        face_norm_roted = face_norm @ rotation
+        face_color = self.compute_color(face_texture, face_norm_roted, coef_dict['gamma'])
+
+        return face_vertex, face_texture, face_color, landmark
+
+    def compute_for_render_woRotation(self, coeffs):
+        """
+        Return:
+            face_vertex     -- torch.tensor, size (B, N, 3), in camera coordinate
+            face_color      -- torch.tensor, size (B, N, 3), in RGB order
+            landmark        -- torch.tensor, size (B, 68, 2), y direction is opposite to v direction
+        Parameters:
+            coeffs          -- torch.tensor, size (B, 257)
+        """
+        coef_dict = self.split_coeff(coeffs)
+        face_shape = self.compute_shape(coef_dict['id'], coef_dict['exp'])
+        #rotation = self.compute_rotation(coef_dict['angle'])
+
+
+        #face_shape_transformed = self.transform(face_shape, rotation, coef_dict['trans'])
+        face_vertex = self.to_camera(face_shape)
+        
+        face_proj = self.to_image(face_vertex)
+        landmark = self.get_landmarks(face_proj)
+
+        face_texture = self.compute_texture(coef_dict['tex'])
+        face_norm = self.compute_norm(face_shape)
+        face_norm_roted = face_norm                                    # @ rotation
+        face_color = self.compute_color(face_texture, face_norm_roted, coef_dict['gamma'])
+
+        return face_vertex, face_texture, face_color, landmark
+
+
+if __name__ == '__main__':
+    transferBFM09()

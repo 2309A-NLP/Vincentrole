@@ -1,1 +1,27 @@
-aW1wb3J0IHRvcmNoCmltcG9ydCB0ZW1wZmlsZQpmcm9tIFRUUy5hcGkgaW1wb3J0IFRUUwoKCmNsYXNzIFhUVFNUYWxrZXIoKToKICAgIGRlZiBfX2luaXRfXyhzZWxmKSAtPiBOb25lOgogICAgICAgIG1vZGVsX2xpc3QgPSBUVFMoKS5saXN0X21vZGVscygpCiAgICAgICAgcHJpbnQobW9kZWxfbGlzdCkKICAgICAgICAjIEdldCBkZXZpY2UKICAgICAgICBkZXZpY2UgPSAiY3VkYSIgaWYgdG9yY2guY3VkYS5pc19hdmFpbGFibGUoKSBlbHNlICJjcHUiCiAgICAgICAgc2VsZi50dHMgPSBUVFMoInR0c19tb2RlbHMvbXVsdGlsaW5ndWFsL211bHRpLWRhdGFzZXQveHR0c192MS4xIikudG8oZGV2aWNlKQoKICAgIGRlZiB0ZXN0KHNlbGYsIHRleHQsIGxhbmd1YWdlPSdlbicpOgoKICAgICAgICB0ZW1wZiAgPSB0ZW1wZmlsZS5OYW1lZFRlbXBvcmFyeUZpbGUoCiAgICAgICAgICAgICAgICBkZWxldGUgPSBGYWxzZSwKICAgICAgICAgICAgICAgIHN1ZmZpeCA9ICgnLicrJ3dhdicpLAogICAgICAgICAgICApCiAgICAgICAgIyB3YXYgPSB0dHMudHRzKHRleHQ9IkhlbGxvIHdvcmxkISIsIHNwZWFrZXJfd2F2PSJteS9jbG9uaW5nL2F1ZGlvLndhdiIsIGxhbmd1YWdlPSJlbiIpCiAgICAgICAgc2VsZi50dHMudHRzX3RvX2ZpbGUodGV4dCwgbGFuZ3VhZ2U9bGFuZ3VhZ2UsIGZpbGVfcGF0aD0iLi9zcGVha2VyLndhdiIpCiAgICAgICAgCiAgICAgICAgcmV0dXJuIHRlbXBmLm5hbWUKICAgIAppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgdHRzID0gWFRUU1RhbGtlcigpCiAgICBwcmludCh0dHMudGVzdCgiSGVsbG8gd29ybGQhIikp
+import torch
+import tempfile
+from TTS.api import TTS
+
+
+class XTTSTalker():
+    def __init__(self) -> None:
+        model_list = TTS().list_models()
+        print(model_list)
+        # Get device
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.tts = TTS("tts_models/multilingual/multi-dataset/xtts_v1.1").to(device)
+
+    def test(self, text, language='en'):
+
+        tempf  = tempfile.NamedTemporaryFile(
+                delete = False,
+                suffix = ('.'+'wav'),
+            )
+        # wav = tts.tts(text="Hello world!", speaker_wav="my/cloning/audio.wav", language="en")
+        self.tts.tts_to_file(text, language=language, file_path="./speaker.wav")
+        
+        return tempf.name
+    
+if __name__ == "__main__":
+    tts = XTTSTalker()
+    print(tts.test("Hello world!"))

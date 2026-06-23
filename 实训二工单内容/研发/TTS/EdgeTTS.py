@@ -1,1 +1,210 @@
-aW1wb3J0IGFzeW5jaW8KaW1wb3J0IHJlcXVlc3RzCmltcG9ydCBqc29uCmltcG9ydCBvcwpmcm9tIGVkZ2VfdHRzIGltcG9ydCBDb21tdW5pY2F0ZSwgU3ViTWFrZXIKZnJvbSBpbyBpbXBvcnQgVGV4dElPV3JhcHBlcgpmcm9tIHR5cGluZyBpbXBvcnQgQW55LCBUZXh0SU8sIFVuaW9uCmltcG9ydCBzeXMKc3lzLnBhdGguYXBwZW5kKCcuLi9MaW5seS1UYWxrZXInKQpmcm9tIHNyYyBpbXBvcnQgY29zdF90aW1lCmZyb20gc3JjLmNvc3RfdGltZSBpbXBvcnQgY2FsY3VsYXRlX3RpbWUgICAgCm9zLmVudmlyb25bIkdSQURJT19URU1QX0RJUiJdPSAnLi90ZW1wJwoKIiIiCkNvbnN0YW50cyBmb3IgdGhlIEVkZ2UgVFRTIHByb2plY3QuIApodHRwczovL2dpdGh1Yi5jb20vcmFueTIvZWRnZS10dHMvYmxvYi9tYXN0ZXIvc3JjL2VkZ2VfdHRzL2NvbnN0YW50cy5weQoiIiIKCkJBU0VfVVJMID0gInNwZWVjaC5wbGF0Zm9ybS5iaW5nLmNvbS9jb25zdW1lci9zcGVlY2gvc3ludGhlc2l6ZS9yZWFkYWxvdWQiClRSVVNURURfQ0xJRU5UX1RPS0VOID0gIjZBNUFBMUQ0RUFGRjRFOUZCMzdFMjNENjg0OTFENkY0IgoKV1NTX1VSTCA9IGYid3NzOi8ve0JBU0VfVVJMfS9lZGdlL3YxP1RydXN0ZWRDbGllbnRUb2tlbj17VFJVU1RFRF9DTElFTlRfVE9LRU59IgpWT0lDRV9MSVNUID0gZiJodHRwczovL3tCQVNFX1VSTH0vdm9pY2VzL2xpc3Q/dHJ1c3RlZGNsaWVudHRva2VuPXtUUlVTVEVEX0NMSUVOVF9UT0tFTn0iCgpERUZBVUxUX1ZPSUNFID0gImVuLVVTLUVtbWFNdWx0aWxpbmd1YWxOZXVyYWwiCgpkZWYgbGlzdF92b2ljZXNfZm4ocHJveHk9Tm9uZSk6CiAgICAiIiIKICAgIExpc3QgYWxsIGF2YWlsYWJsZSB2b2ljZXMgYW5kIHRoZWlyIGF0dHJpYnV0ZXMuCgogICAgVGhpcyBwdWxscyBkYXRhIGZyb20gdGhlIFVSTCB1c2VkIGJ5IE1pY3Jvc29mdCBFZGdlIHRvIHJldHVybiBhIGxpc3Qgb2YKICAgIGFsbCBhdmFpbGFibGUgdm9pY2VzLgoKICAgIFJldHVybnM6CiAgICAgICAgZGljdDogQSBkaWN0aW9uYXJ5IG9mIHZvaWNlIGF0dHJpYnV0ZXMuCiAgICAiIiIKICAgICMgc3NsX2N0eCA9IHNzbC5jcmVhdGVfZGVmYXVsdF9jb250ZXh0KGNhZmlsZT1jZXJ0aWZpLndoZXJlKCkpCiAgICBoZWFkZXJzID0gewogICAgICAgICJBdXRob3JpdHkiOiAic3BlZWNoLnBsYXRmb3JtLmJpbmcuY29tIiwKICAgICAgICAiU2VjLUNILVVBIjogJyIgTm90O0EgQnJhbmQiO3Y9Ijk5IiwgIk1pY3Jvc29mdCBFZGdlIjt2PSI5MSIsICJDaHJvbWl1bSI7dj0iOTEiJywKICAgICAgICAiU2VjLUNILVVBLU1vYmlsZSI6ICI/MCIsCiAgICAgICAgIlVzZXItQWdlbnQiOiAiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2ICIKICAgICAgICAiKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTEuMC40NDcyLjc3IFNhZmFyaS81MzcuMzYgRWRnLzkxLjAuODY0LjQxIiwKICAgICAgICAiQWNjZXB0IjogIiovKiIsCiAgICAgICAgIlNlYy1GZXRjaC1TaXRlIjogIm5vbmUiLAogICAgICAgICJTZWMtRmV0Y2gtTW9kZSI6ICJjb3JzIiwKICAgICAgICAiU2VjLUZldGNoLURlc3QiOiAiZW1wdHkiLAogICAgICAgICJBY2NlcHQtRW5jb2RpbmciOiAiZ3ppcCwgZGVmbGF0ZSwgYnIiLAogICAgICAgICJBY2NlcHQtTGFuZ3VhZ2UiOiAiZW4tVVMsZW47cT0wLjkiLAogICAgfQogICAgcmVzcG9uc2UgPSByZXF1ZXN0cy5nZXQoVk9JQ0VfTElTVCwgaGVhZGVycz1oZWFkZXJzLCB0aW1lb3V0PTMpCiAgICBkYXRhID0ganNvbi5sb2FkcyhyZXNwb25zZS50ZXh0KQogICAgcmV0dXJuIGRhdGEKCgoKY2xhc3MgRWRnZVRUUzoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBsaXN0X3ZvaWNlcyA9IEZhbHNlLCBwcm94eSA9IE5vbmUpIC0+IE5vbmU6CiAgICAgICAgdHJ5OgogICAgICAgICAgICB2b2ljZXMgPSBsaXN0X3ZvaWNlc19mbihwcm94eT1wcm94eSkKICAgICAgICAgICAgc2VsZi5TVVBQT1JURURfVk9JQ0UgPSBbaXRlbVsnU2hvcnROYW1lJ10gZm9yIGl0ZW0gaW4gdm9pY2VzXQogICAgICAgICAgICBzZWxmLlNVUFBPUlRFRF9WT0lDRS5zb3J0KHJldmVyc2U9VHJ1ZSkKICAgICAgICAgICAgIyBwcmludChzZWxmLlNVUFBPUlRFRF9WT0lDRSkKICAgICAgICAgICAgaWYgbGlzdF92b2ljZXM6CiAgICAgICAgICAgICAgICBwcmludCgiLCAiLmpvaW4oc2VsZi5TVVBQT1JURURfVk9JQ0UpKQogICAgICAgICAgICBzZWxmLm5ldHdvcmsgPSBUcnVlCiAgICAgICAgZXhjZXB0OgogICAgICAgICAgICAjIHByaW50KCLnvZHnu5zml6Dms5Xov57mjqXvvIzml6Dms5Xojrflj5bor63pn7PliJfooajvvIzlj6/og71FZGdl5qih5byP5Lya5Ye66ZSZ77yM5bu66K6u5L2/55So5YW25LuWVFRT5pa55rOVIikKICAgICAgICAgICAgc2VsZi5uZXR3b3JrID0gRmFsc2UKICAgICAgICAgICAgc2VsZi5TVVBQT1JURURfVk9JQ0UgPSBbJ3p1LVpBLVRoZW1iYU5ldXJhbCcsICd6dS1aQS1UaGFuZG9OZXVyYWwnLCAgJ3poLVRXLVl1bkpoZU5ldXJhbCcsICd6aC1UVy1Ic2lhb1l1TmV1cmFsJywgJ3poLVRXLUhzaWFvQ2hlbk5ldXJhbCcsICd6aC1ISy1XYW5MdW5nTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICd6aC1ISy1IaXVNYWFuTmV1cmFsJywgJ3poLUhLLUhpdUdhYWlOZXVyYWwnLCAnemgtQ04tc2hhYW54aS1YaWFvbmlOZXVyYWwnLCAnemgtQ04tbGlhb25pbmctWGlhb2JlaU5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnemgtQ04tWXVueWFuZ05ldXJhbCcsICd6aC1DTi1ZdW54aWFOZXVyYWwnLCAnemgtQ04tWXVueGlOZXVyYWwnLCAnemgtQ04tWXVuamlhbk5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnemgtQ04tWGlhb3lpTmV1cmFsJywgJ3poLUNOLVhpYW94aWFvTmV1cmFsJywgJ3ZpLVZOLU5hbU1pbmhOZXVyYWwnLCAndmktVk4tSG9haU15TmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICd1ei1VWi1TYXJkb3JOZXVyYWwnLCAndXotVVotTWFkaW5hTmV1cmFsJywgJ3VyLVBLLVV6bWFOZXVyYWwnLCAndXItUEstQXNhZE5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAndXItSU4tU2FsbWFuTmV1cmFsJywgJ3VyLUlOLUd1bE5ldXJhbCcsICd1ay1VQS1Qb2xpbmFOZXVyYWwnLCAndWstVUEtT3N0YXBOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3RyLVRSLUVtZWxOZXVyYWwnLCAndHItVFItQWhtZXROZXVyYWwnLCAndGgtVEgtUHJlbXdhZGVlTmV1cmFsJywgJ3RoLVRILU5pd2F0TmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICd0ZS1JTi1TaHJ1dGlOZXVyYWwnLCAndGUtSU4tTW9oYW5OZXVyYWwnLCAndGEtU0ctVmVuYmFOZXVyYWwnLCAndGEtU0ctQW5idU5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAndGEtTVktU3VyeWFOZXVyYWwnLCAndGEtTVktS2FuaU5ldXJhbCcsICd0YS1MSy1TYXJhbnlhTmV1cmFsJywgJ3RhLUxLLUt1bWFyTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICd0YS1JTi1WYWxsdXZhck5ldXJhbCcsICd0YS1JTi1QYWxsYXZpTmV1cmFsJywgJ3N3LVRaLVJlaGVtYU5ldXJhbCcsICdzdy1UWi1EYXVkaU5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnc3ctS0UtWnVyaU5ldXJhbCcsICdzdy1LRS1SYWZpa2lOZXVyYWwnLCAnc3YtU0UtU29maWVOZXVyYWwnLCAnc3YtU0UtTWF0dGlhc05ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnc3UtSUQtVHV0aU5ldXJhbCcsICdzdS1JRC1KYWphbmdOZXVyYWwnLCAnc3ItUlMtU29waGllTmV1cmFsJywgJ3NyLVJTLU5pY2hvbGFzTmV1cmFsJywgJ3NxLUFMLUlsaXJOZXVyYWwnLCAnc3EtQUwtQW5pbGFOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3NvLVNPLVViYXhOZXVyYWwnLCAnc28tU08tTXV1c2VOZXVyYWwnLCAnc2wtU0ktUm9rTmV1cmFsJywgJ3NsLVNJLVBldHJhTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdzay1TSy1WaWt0b3JpYU5ldXJhbCcsICdzay1TSy1MdWthc05ldXJhbCcsICdzaS1MSy1UaGlsaW5pTmV1cmFsJywgJ3NpLUxLLVNhbWVlcmFOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3J1LVJVLVN2ZXRsYW5hTmV1cmFsJywgJ3J1LVJVLURtaXRyeU5ldXJhbCcsICdyby1STy1FbWlsTmV1cmFsJywgJ3JvLVJPLUFsaW5hTmV1cmFsJywgJ3B0LVBULVJhcXVlbE5ldXJhbCcsICdwdC1QVC1EdWFydGVOZXVyYWwnLCAncHQtQlItVGhhbGl0YU5ldXJhbCcsICdwdC1CUi1GcmFuY2lzY2FOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3B0LUJSLUFudG9uaW9OZXVyYWwnLCAncHMtQUYtTGF0aWZhTmV1cmFsJywgJ3BzLUFGLUd1bE5hd2F6TmV1cmFsJywgJ3BsLVBMLVpvZmlhTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdwbC1QTC1NYXJla05ldXJhbCcsICdubC1OTC1NYWFydGVuTmV1cmFsJywgJ25sLU5MLUZlbm5hTmV1cmFsJywgJ25sLU5MLUNvbGV0dGVOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ25sLUJFLURlbmFOZXVyYWwnLCAnbmwtQkUtQXJuYXVkTmV1cmFsJywgJ25lLU5QLVNhZ2FyTmV1cmFsJywgJ25lLU5QLUhlbWthbGFOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ25iLU5PLVBlcm5pbGxlTmV1cmFsJywgJ25iLU5PLUZpbm5OZXVyYWwnLCAnbXktTU0tVGhpaGFOZXVyYWwnLCAnbXktTU0tTmlsYXJOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ210LU1ULUpvc2VwaE5ldXJhbCcsICdtdC1NVC1HcmFjZU5ldXJhbCcsICdtcy1NWS1ZYXNtaW5OZXVyYWwnLCAnbXMtTVktT3NtYW5OZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ21yLUlOLU1hbm9oYXJOZXVyYWwnLCAnbXItSU4tQWFyb2hpTmV1cmFsJywgJ21uLU1OLVllc3VpTmV1cmFsJywgJ21uLU1OLUJhdGFhTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdtbC1JTi1Tb2JoYW5hTmV1cmFsJywgJ21sLUlOLU1pZGh1bk5ldXJhbCcsICdtay1NSy1NYXJpamFOZXVyYWwnLCAnbWstTUstQWxla3NhbmRhck5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnbHYtTFYtTmlsc05ldXJhbCcsICdsdi1MVi1FdmVyaXRhTmV1cmFsJywgJ2x0LUxULU9uYU5ldXJhbCcsICdsdC1MVC1MZW9uYXNOZXVyYWwnLCAnbG8tTEEtS2VvbWFueU5ldXJhbCcsICdsby1MQS1DaGFudGhhdm9uZ05ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAna28tS1ItU3VuSGlOZXVyYWwnLCAna28tS1ItSW5Kb29uTmV1cmFsJywgJ2tvLUtSLUh5dW5zdU5ldXJhbCcsICdrbi1JTi1TYXBuYU5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAna24tSU4tR2FnYW5OZXVyYWwnLCAna20tS0gtU3JleW1vbU5ldXJhbCcsICdrbS1LSC1QaXNldGhOZXVyYWwnLCAna2stS1otRGF1bGV0TmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdray1LWi1BaWd1bE5ldXJhbCcsICdrYS1HRS1HaW9yZ2lOZXVyYWwnLCAna2EtR0UtRWthTmV1cmFsJywgJ2p2LUlELVNpdGlOZXVyYWwnLCAnanYtSUQtRGltYXNOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2phLUpQLU5hbmFtaU5ldXJhbCcsICdqYS1KUC1LZWl0YU5ldXJhbCcsICdpdC1JVC1Jc2FiZWxsYU5ldXJhbCcsICdpdC1JVC1HaXVzZXBwZU5ldXJhbCcsICdpdC1JVC1FbHNhTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdpdC1JVC1EaWVnb05ldXJhbCcsICdpcy1JUy1HdW5uYXJOZXVyYWwnLCAnaXMtSVMtR3VkcnVuTmV1cmFsJywgJ2lkLUlELUdhZGlzTmV1cmFsJywgJ2lkLUlELUFyZGlOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2h1LUhVLVRhbWFzTmV1cmFsJywgJ2h1LUhVLU5vZW1pTmV1cmFsJywgJ2hyLUhSLVNyZWNrb05ldXJhbCcsICdoci1IUi1HYWJyaWplbGFOZXVyYWwnLCAnaGktSU4tU3dhcmFOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2hpLUlOLU1hZGh1ck5ldXJhbCcsICdoZS1JTC1IaWxhTmV1cmFsJywgJ2hlLUlMLUF2cmlOZXVyYWwnLCAnZ3UtSU4tTmlyYW5qYW5OZXVyYWwnLCAnZ3UtSU4tRGh3YW5pTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdnbC1FUy1TYWJlbGFOZXVyYWwnLCAnZ2wtRVMtUm9pTmV1cmFsJywgJ2dhLUlFLU9ybGFOZXVyYWwnLCAnZ2EtSUUtQ29sbU5ldXJhbCcsICdmci1GUi1WaXZpZW5uZU11bHRpbGluZ3VhbE5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnZnItRlItUmVteU11bHRpbGluZ3VhbE5ldXJhbCcsICdmci1GUi1IZW5yaU5ldXJhbCcsICdmci1GUi1FbG9pc2VOZXVyYWwnLCAnZnItRlItRGVuaXNlTmV1cmFsJywgJ2ZyLUNILUZhYnJpY2VOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2ZyLUNILUFyaWFuZU5ldXJhbCcsICdmci1DQS1UaGllcnJ5TmV1cmFsJywgJ2ZyLUNBLVN5bHZpZU5ldXJhbCcsICdmci1DQS1KZWFuTmV1cmFsJywgJ2ZyLUNBLUFudG9pbmVOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2ZyLUJFLUdlcmFyZE5ldXJhbCcsICdmci1CRS1DaGFybGluZU5ldXJhbCcsICdmaWwtUEgtQmxlc3NpY2FOZXVyYWwnLCAnZmlsLVBILUFuZ2Vsb05ldXJhbCcsICdmaS1GSS1Ob29yYU5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnZmktRkktSGFycmlOZXVyYWwnLCAnZmEtSVItRmFyaWROZXVyYWwnLCAnZmEtSVItRGlsYXJhTmV1cmFsJywgJ2V0LUVFLUtlcnROZXVyYWwnLCAnZXQtRUUtQW51TmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdlcy1WRS1TZWJhc3RpYW5OZXVyYWwnLCAnZXMtVkUtUGFvbGFOZXVyYWwnLCAnZXMtVVktVmFsZW50aW5hTmV1cmFsJywgJ2VzLVVZLU1hdGVvTmV1cmFsJywgJ2VzLVVTLVBhbG9tYU5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnZXMtVVMtQWxvbnNvTmV1cmFsJywgJ2VzLVNWLVJvZHJpZ29OZXVyYWwnLCAnZXMtU1YtTG9yZW5hTmV1cmFsJywgJ2VzLVBZLVRhbmlhTmV1cmFsJywgJ2VzLVBZLU1hcmlvTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdlcy1QUi1WaWN0b3JOZXVyYWwnLCAnZXMtUFItS2FyaW5hTmV1cmFsJywgJ2VzLVBFLUNhbWlsYU5ldXJhbCcsICdlcy1QRS1BbGV4TmV1cmFsJywgJ2VzLVBBLVJvYmVydG9OZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2VzLVBBLU1hcmdhcml0YU5ldXJhbCcsICdlcy1OSS1Zb2xhbmRhTmV1cmFsJywgJ2VzLU5JLUZlZGVyaWNvTmV1cmFsJywgJ2VzLU1YLUpvcmdlTmV1cmFsJywgJ2VzLU1YLURhbGlhTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdlcy1ITi1LYXJsYU5ldXJhbCcsICdlcy1ITi1DYXJsb3NOZXVyYWwnLCAnZXMtR1QtTWFydGFOZXVyYWwnLCAnZXMtR1QtQW5kcmVzTmV1cmFsJywgJ2VzLUdRLVRlcmVzYU5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnZXMtR1EtSmF2aWVyTmV1cmFsJywgJ2VzLUVTLVhpbWVuYU5ldXJhbCcsICdlcy1FUy1FbHZpcmFOZXVyYWwnLCAnZXMtRVMtQWx2YXJvTmV1cmFsJywgJ2VzLUVDLUx1aXNOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2VzLUVDLUFuZHJlYU5ldXJhbCcsICdlcy1ETy1SYW1vbmFOZXVyYWwnLCAnZXMtRE8tRW1pbGlvTmV1cmFsJywgJ2VzLUNVLU1hbnVlbE5ldXJhbCcsICdlcy1DVS1CZWxreXNOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2VzLUNSLU1hcmlhTmV1cmFsJywgJ2VzLUNSLUp1YW5OZXVyYWwnLCAnZXMtQ08tU2Fsb21lTmV1cmFsJywgJ2VzLUNPLUdvbnphbG9OZXVyYWwnLCAnZXMtQ0wtTG9yZW56b05ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnZXMtQ0wtQ2F0YWxpbmFOZXVyYWwnLCAnZXMtQk8tU29maWFOZXVyYWwnLCAnZXMtQk8tTWFyY2Vsb05ldXJhbCcsICdlcy1BUi1Ub21hc05ldXJhbCcsICdlcy1BUi1FbGVuYU5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnZW4tWkEtTHVrZU5ldXJhbCcsICdlbi1aQS1MZWFoTmV1cmFsJywgJ2VuLVVTLVN0ZWZmYW5OZXVyYWwnLCAnZW4tVVMtUm9nZXJOZXVyYWwnLCAnZW4tVVMtTWljaGVsbGVOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2VuLVVTLUplbm55TmV1cmFsJywgJ2VuLVVTLUd1eU5ldXJhbCcsICdlbi1VUy1FcmljTmV1cmFsJywgJ2VuLVVTLUVtbWFOZXVyYWwnLCAnZW4tVVMtQ2hyaXN0b3BoZXJOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2VuLVVTLUJyaWFuTmV1cmFsJywgJ2VuLVVTLUF2YU5ldXJhbCcsICdlbi1VUy1BcmlhTmV1cmFsJywgJ2VuLVVTLUFuZHJld05ldXJhbCcsICdlbi1VUy1BbmFOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2VuLVRaLUltYW5pTmV1cmFsJywgJ2VuLVRaLUVsaW11TmV1cmFsJywgJ2VuLVNHLVdheW5lTmV1cmFsJywgJ2VuLVNHLUx1bmFOZXVyYWwnLCAnZW4tUEgtUm9zYU5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnZW4tUEgtSmFtZXNOZXVyYWwnLCAnZW4tTlotTW9sbHlOZXVyYWwnLCAnZW4tTlotTWl0Y2hlbGxOZXVyYWwnLCAnZW4tTkctRXppbm5lTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdlbi1ORy1BYmVvTmV1cmFsJywgJ2VuLUtFLUNoaWxlbWJhTmV1cmFsJywgJ2VuLUtFLUFzaWxpYU5ldXJhbCcsICdlbi1JTi1QcmFiaGF0TmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdlbi1JTi1OZWVyamFOZXVyYWwnLCAnZW4tSU4tTmVlcmphRXhwcmVzc2l2ZU5ldXJhbCcsICdlbi1JRS1FbWlseU5ldXJhbCcsICdlbi1JRS1Db25ub3JOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2VuLUhLLVlhbk5ldXJhbCcsICdlbi1ISy1TYW1OZXVyYWwnLCAnZW4tR0ItVGhvbWFzTmV1cmFsJywgJ2VuLUdCLVNvbmlhTmV1cmFsJywgJ2VuLUdCLVJ5YW5OZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2VuLUdCLU1haXNpZU5ldXJhbCcsICdlbi1HQi1MaWJieU5ldXJhbCcsICdlbi1DQS1MaWFtTmV1cmFsJywgJ2VuLUNBLUNsYXJhTmV1cmFsJywgJ2VuLUFVLVdpbGxpYW1OZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2VuLUFVLU5hdGFzaGFOZXVyYWwnLCAnZWwtR1ItTmVzdG9yYXNOZXVyYWwnLCAnZWwtR1ItQXRoaW5hTmV1cmFsJywgJ2RlLURFLVNlcmFwaGluYU11bHRpbGluZ3VhbE5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnZGUtREUtS2lsbGlhbk5ldXJhbCcsICdkZS1ERS1LYXRqYU5ldXJhbCcsICdkZS1ERS1GbG9yaWFuTXVsdGlsaW5ndWFsTmV1cmFsJywgJ2RlLURFLUNvbnJhZE5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnZGUtREUtQW1hbGFOZXVyYWwnLCAnZGUtQ0gtTGVuaU5ldXJhbCcsICdkZS1DSC1KYW5OZXVyYWwnLCAnZGUtQVQtSm9uYXNOZXVyYWwnLCAnZGUtQVQtSW5ncmlkTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdkYS1ESy1KZXBwZU5ldXJhbCcsICdkYS1ESy1DaHJpc3RlbE5ldXJhbCcsICdjeS1HQi1OaWFOZXVyYWwnLCAnY3ktR0ItQWxlZE5ldXJhbCcsICdjcy1DWi1WbGFzdGFOZXVyYWwnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnY3MtQ1otQW50b25pbk5ldXJhbCcsICdjYS1FUy1Kb2FuYU5ldXJhbCcsICdjYS1FUy1FbnJpY05ldXJhbCcsICdicy1CQS1WZXNuYU5ldXJhbCcsICdicy1CQS1Hb3Jhbk5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnYm4tSU4tVGFuaXNoYWFOZXVyYWwnLCAnYm4tSU4tQmFzaGthck5ldXJhbCcsICdibi1CRC1QcmFkZWVwTmV1cmFsJywgJ2JuLUJELU5hYmFuaXRhTmV1cmFsJywgJ2JnLUJHLUthbGluYU5ldXJhbCcsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnYmctQkctQm9yaXNsYXZOZXVyYWwnLCAnYXotQVotQmFudU5ldXJhbCcsICdhei1BWi1CYWJla05ldXJhbCcsICdhci1ZRS1TYWxlaE5ldXJhbCcsICdhci1ZRS1NYXJ5YW1OZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2FyLVROLVJlZW1OZXVyYWwnLCAnYXItVE4tSGVkaU5ldXJhbCcsICdhci1TWS1MYWl0aE5ldXJhbCcsICdhci1TWS1BbWFueU5ldXJhbCcsICdhci1TQS1aYXJpeWFoTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdhci1TQS1IYW1lZE5ldXJhbCcsICdhci1RQS1Nb2F6TmV1cmFsJywgJ2FyLVFBLUFtYWxOZXVyYWwnLCAnYXItT00tQXlzaGFOZXVyYWwnLCAnYXItT00tQWJkdWxsYWhOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2FyLU1BLU1vdW5hTmV1cmFsJywgJ2FyLU1BLUphbWFsTmV1cmFsJywgJ2FyLUxZLU9tYXJOZXVyYWwnLCAnYXItTFktSW1hbk5ldXJhbCcsICdhci1MQi1SYW1pTmV1cmFsJywgJ2FyLUxCLUxheWxhTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdhci1LVy1Ob3VyYU5ldXJhbCcsICdhci1LVy1GYWhlZE5ldXJhbCcsICdhci1KTy1UYWltTmV1cmFsJywgJ2FyLUpPLVNhbmFOZXVyYWwnLCAnYXItSVEtUmFuYU5ldXJhbCcsICdhci1JUS1CYXNzZWxOZXVyYWwnLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2FyLUVHLVNoYWtpck5ldXJhbCcsICdhci1FRy1TYWxtYU5ldXJhbCcsICdhci1EWi1Jc21hZWxOZXVyYWwnLCAnYXItRFotQW1pbmFOZXVyYWwnLCAnYXItQkgtTGFpbGFOZXVyYWwnLCAnYXItQkgtQWxpTmV1cmFsJywgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdhci1BRS1IYW1kYW5OZXVyYWwnLCAnYXItQUUtRmF0aW1hTmV1cmFsJywgJ2FtLUVULU1la2Rlc05ldXJhbCcsICdhbS1FVC1BbWVoYU5ldXJhbCcsICdhZi1aQS1XaWxsZW1OZXVyYWwnLCAnYWYtWkEtQWRyaU5ldXJhbCddCgogICAgZGVmIHByZXByb2Nlc3Moc2VsZiwgcmF0ZSwgdm9sdW1lLCBwaXRjaCk6CiAgICAgICAgaWYgcmF0ZSA+PSAwOgogICAgICAgICAgICByYXRlID0gZicre3JhdGV9JScKICAgICAgICBlbHNlOgogICAgICAgICAgICByYXRlID0gZid7cmF0ZX0lJwogICAgICAgIGlmIHBpdGNoID49IDA6CiAgICAgICAgICAgIHBpdGNoID0gZicre3BpdGNofUh6JwogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHBpdGNoID0gZid7cGl0Y2h9SHonCiAgICAgICAgdm9sdW1lID0gMTAwIC0gdm9sdW1lCiAgICAgICAgdm9sdW1lID0gZicte3ZvbHVtZX0lJwogICAgICAgIHJldHVybiByYXRlLCB2b2x1bWUsIHBpdGNoCiAgICBAY2FsY3VsYXRlX3RpbWUKICAgIGRlZiBhcHJlZGljdChzZWxmLFRFWFQsIFZPSUNFLCBSQVRFLCBWT0xVTUUsIFBJVENILCBPVVRQVVRfRklMRT0ncmVzdWx0LndhdicsIE9VVFBVVF9TVUJTPSdyZXN1bHQudnR0Jywgd29yZHNfaW5fY3VlID0gOCk6CiAgICAgICAgYXN5bmMgZGVmIGFtYWluKCkgLT4gTm9uZToKICAgICAgICAgICAgIiIiTWFpbiBmdW5jdGlvbiIiIgogICAgICAgICAgICByYXRlLCB2b2x1bWUsIHBpdGNoID0gc2VsZi5wcmVwcm9jZXNzKHJhdGUgPSBSQVRFLCB2b2x1bWUgPSBWT0xVTUUsIHBpdGNoID0gUElUQ0gpCiAgICAgICAgICAgIGNvbW11bmljYXRlID0gQ29tbXVuaWNhdGUoVEVYVCwgVk9JQ0UsIHJhdGUgPSByYXRlLCB2b2x1bWUgPSB2b2x1bWUsIHBpdGNoID0gcGl0Y2gpCiAgICAgICAgICAgIHN1Ym1ha2VyID0gU3ViTWFrZXIoKQogICAgICAgICAgICB3aXRoIG9wZW4oT1VUUFVUX0ZJTEUsICJ3YiIpIGFzIGZpbGU6CiAgICAgICAgICAgICAgICBhc3luYyBmb3IgY2h1bmsgaW4gY29tbXVuaWNhdGUuc3RyZWFtKCk6CiAgICAgICAgICAgICAgICAgICAgaWYgY2h1bmtbInR5cGUiXSA9PSAiYXVkaW8iOgogICAgICAgICAgICAgICAgICAgICAgICBmaWxlLndyaXRlKGNodW5rWyJkYXRhIl0pCiAgICAgICAgICAgICAgICAgICAgZWxpZiBjaHVua1sidHlwZSJdID09ICJXb3JkQm91bmRhcnkiOgogICAgICAgICAgICAgICAgICAgICAgICBzdWJtYWtlci5mZWVkKGNodW5rKQoKICAgICAgICAgICAgd2l0aCBvcGVuKE9VVFBVVF9TVUJTLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGZpbGU6CiAgICAgICAgICAgICAgICBmaWxlLndyaXRlKHN1Ym1ha2VyLmdldF9zcnQoKSkKCiAgICAgICAgYXN5bmNpby5ydW4oYW1haW4oKSkKICAgICAgICB3aXRoIG9wZW4oT1VUUFVUX1NVQlMsICdyJywgZW5jb2Rpbmc9J3V0Zi04JykgYXMgZmlsZToKICAgICAgICAgICAgdnR0X2xpbmVzID0gZmlsZS5yZWFkbGluZXMoKQoKICAgICAgICAjIOWOu+aOieavj+S4gOihjOaWh+Wtl+S4reeahOepuuagvAogICAgICAgIHZ0dF9saW5lc193aXRob3V0X3NwYWNlcyA9IFtsaW5lLnJlcGxhY2UoIiAiLCAiIikgaWYgIi0tPiIgbm90IGluIGxpbmUgZWxzZSBsaW5lIGZvciBsaW5lIGluIHZ0dF9saW5lc10KICAgICAgICAjIHByaW50KHZ0dF9saW5lc193aXRob3V0X3NwYWNlcykKICAgICAgICB3aXRoIG9wZW4oT1VUUFVUX1NVQlMsICd3JywgZW5jb2Rpbmc9J3V0Zi04JykgYXMgb3V0cHV0X2ZpbGU6CiAgICAgICAgICAgIG91dHB1dF9maWxlLndyaXRlbGluZXModnR0X2xpbmVzX3dpdGhvdXRfc3BhY2VzKQogICAgICAgIHJldHVybiBPVVRQVVRfRklMRSwgT1VUUFVUX1NVQlMKCiAgICBAY2FsY3VsYXRlX3RpbWUKICAgIGRlZiBwcmVkaWN0KHNlbGYsVEVYVCwgVk9JQ0UsIFJBVEUsIFZPTFVNRSwgUElUQ0gsIE9VVFBVVF9GSUxFPSdyZXN1bHQud2F2JywgT1VUUFVUX1NVQlM9J3Jlc3VsdC52dHQnLCB3b3Jkc19pbl9jdWUgPSA4KToKICAgICAgICByYXRlLCB2b2x1bWUsIHBpdGNoID0gc2VsZi5wcmVwcm9jZXNzKHJhdGUgPSBSQVRFLCB2b2x1bWUgPSBWT0xVTUUsIHBpdGNoID0gUElUQ0gpCiAgICAgICAgY29tbXVuaWNhdGUgPSBDb21tdW5pY2F0ZShURVhULCBWT0lDRSwgcmF0ZSA9IHJhdGUsIHZvbHVtZSA9IHZvbHVtZSwgcGl0Y2ggPSBwaXRjaCkKICAgICAgICBjb21tdW5pY2F0ZS5zYXZlX3N5bmMoT1VUUFVUX0ZJTEUpCgogICAgICAgIAogICAgICAgICcnJwogICAgICAgIOeUseS6jkVkZ2VUVFPnmoTkuIDkupvpl67popjvvIzlubbkuJTmnIDov5Hlj5HnjrDlhbbnlJ/miJDnmoTlrZfluZXov5jmmK/mnInkupvlpYfmgKrvvIzmiYDku6XkvJrph43mlrDlhpnkuIDkuKrlrZfluZXnlJ/miJDvvIzmmoLkuI3kvb/nlKjlhbblrZfmr43nlJ/miJAKICAgICAgICAnJycKICAgICAgICAjIGNvbW11bmljYXRlID0gQ29tbXVuaWNhdGUoVEVYVCwgVk9JQ0UpCiAgICAgICAgIyBzdWJtYWtlciA9IFN1Yk1ha2VyKCkKICAgICAgICAjIHdpdGggb3BlbihPVVRQVVRfRklMRSwgIndiIikgYXMgZmlsZToKICAgICAgICAjICAgICBmb3IgY2h1bmsgaW4gY29tbXVuaWNhdGUuc3RyZWFtX3N5bmMoKToKICAgICAgICAjICAgICAgICAgaWYgY2h1bmtbInR5cGUiXSA9PSAiYXVkaW8iOgogICAgICAgICMgICAgICAgICAgICAgZmlsZS53cml0ZShjaHVua1siZGF0YSJdKQogICAgICAgICMgICAgICAgICBlbGlmIGNodW5rWyJ0eXBlIl0gPT0gIldvcmRCb3VuZGFyeSI6CiAgICAgICAgIyAgICAgICAgICAgICBzdWJtYWtlci5mZWVkKGNodW5rKQoKICAgICAgICAjIHdpdGggb3BlbihPVVRQVVRfU1VCUywgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmaWxlOgogICAgICAgICMgICAgIGZpbGUud3JpdGUoc3VibWFrZXIuZ2V0X3NydCgpKQoKICAgICAgICByZXR1cm4gT1VUUFVUX0ZJTEUsIE5vbmUKCmRlZiB0ZXN0KCk6CiAgICB0dHMgPSBFZGdlVFRTKGxpc3Rfdm9pY2VzPUZhbHNlKQogICAgVEVYVCA9ICcnJ+i/keaXpe+8jOiLueaenOWFrOWPuOi1t+iviemrmOmAmuWFrOWPuO+8jOeKtuWRiuWFtuacquaMieeFp+ebuOWFs+WQiOe6pui/m+ihjOWQiOS9nO+8jOmrmOmAmuaWuemdouWwmuacquWbnuW6lOOAgui/meWPpeivneS4reKAnOWFtuKAneaMh+eahOaYr+iwge+8nycnJwogICAgVk9JQ0UgPSAiemgtQ04tWGlhb3hpYW9OZXVyYWwiCiAgICBPVVRQVVRfRklMRSwgT1VUUFVUX1NVQlMgPSAidHRzLndhdiIsICJ0dHMudnR0IgogICAgYXVkaW9fZmlsZSwgc3ViX2ZpbGUgPSB0dHMucHJlZGljdChURVhULCBWT0lDRSwgMCwgMCwgMCwgT1VUUFVUX0ZJTEUsIE9VVFBVVF9TVUJTKQogICAgcHJpbnQoIkF1ZGlvIGZpbGUgd3JpdHRlbiB0byIsIGF1ZGlvX2ZpbGUsICJhbmQgc3VidGl0bGUgZmlsZSB3cml0dGVuIHRvIiwgc3ViX2ZpbGUpCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgdGVzdCgp
+import asyncio
+import requests
+import json
+import os
+from edge_tts import Communicate, SubMaker
+from io import TextIOWrapper
+from typing import Any, TextIO, Union
+import sys
+sys.path.append('../Linly-Talker')
+from src import cost_time
+from src.cost_time import calculate_time    
+os.environ["GRADIO_TEMP_DIR"]= './temp'
+
+"""
+Constants for the Edge TTS project. 
+https://github.com/rany2/edge-tts/blob/master/src/edge_tts/constants.py
+"""
+
+BASE_URL = "speech.platform.bing.com/consumer/speech/synthesize/readaloud"
+TRUSTED_CLIENT_TOKEN = "6A5AA1D4EAFF4E9FB37E23D68491D6F4"
+
+WSS_URL = f"wss://{BASE_URL}/edge/v1?TrustedClientToken={TRUSTED_CLIENT_TOKEN}"
+VOICE_LIST = f"https://{BASE_URL}/voices/list?trustedclienttoken={TRUSTED_CLIENT_TOKEN}"
+
+DEFAULT_VOICE = "en-US-EmmaMultilingualNeural"
+
+def list_voices_fn(proxy=None):
+    """
+    List all available voices and their attributes.
+
+    This pulls data from the URL used by Microsoft Edge to return a list of
+    all available voices.
+
+    Returns:
+        dict: A dictionary of voice attributes.
+    """
+    # ssl_ctx = ssl.create_default_context(cafile=certifi.where())
+    headers = {
+        "Authority": "speech.platform.bing.com",
+        "Sec-CH-UA": '" Not;A Brand";v="99", "Microsoft Edge";v="91", "Chromium";v="91"',
+        "Sec-CH-UA-Mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41",
+        "Accept": "*/*",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Dest": "empty",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    response = requests.get(VOICE_LIST, headers=headers, timeout=3)
+    data = json.loads(response.text)
+    return data
+
+
+
+class EdgeTTS:
+    def __init__(self, list_voices = False, proxy = None) -> None:
+        try:
+            voices = list_voices_fn(proxy=proxy)
+            self.SUPPORTED_VOICE = [item['ShortName'] for item in voices]
+            self.SUPPORTED_VOICE.sort(reverse=True)
+            # print(self.SUPPORTED_VOICE)
+            if list_voices:
+                print(", ".join(self.SUPPORTED_VOICE))
+            self.network = True
+        except:
+            # print("网络无法连接，无法获取语音列表，可能Edge模式会出错，建议使用其他TTS方法")
+            self.network = False
+            self.SUPPORTED_VOICE = ['zu-ZA-ThembaNeural', 'zu-ZA-ThandoNeural',  'zh-TW-YunJheNeural', 'zh-TW-HsiaoYuNeural', 'zh-TW-HsiaoChenNeural', 'zh-HK-WanLungNeural', 
+                                    'zh-HK-HiuMaanNeural', 'zh-HK-HiuGaaiNeural', 'zh-CN-shaanxi-XiaoniNeural', 'zh-CN-liaoning-XiaobeiNeural', 
+                                    'zh-CN-YunyangNeural', 'zh-CN-YunxiaNeural', 'zh-CN-YunxiNeural', 'zh-CN-YunjianNeural', 
+                                    'zh-CN-XiaoyiNeural', 'zh-CN-XiaoxiaoNeural', 'vi-VN-NamMinhNeural', 'vi-VN-HoaiMyNeural', 
+                                    'uz-UZ-SardorNeural', 'uz-UZ-MadinaNeural', 'ur-PK-UzmaNeural', 'ur-PK-AsadNeural', 
+                                    'ur-IN-SalmanNeural', 'ur-IN-GulNeural', 'uk-UA-PolinaNeural', 'uk-UA-OstapNeural', 
+                                    'tr-TR-EmelNeural', 'tr-TR-AhmetNeural', 'th-TH-PremwadeeNeural', 'th-TH-NiwatNeural', 
+                                    'te-IN-ShrutiNeural', 'te-IN-MohanNeural', 'ta-SG-VenbaNeural', 'ta-SG-AnbuNeural', 
+                                    'ta-MY-SuryaNeural', 'ta-MY-KaniNeural', 'ta-LK-SaranyaNeural', 'ta-LK-KumarNeural', 
+                                    'ta-IN-ValluvarNeural', 'ta-IN-PallaviNeural', 'sw-TZ-RehemaNeural', 'sw-TZ-DaudiNeural', 
+                                    'sw-KE-ZuriNeural', 'sw-KE-RafikiNeural', 'sv-SE-SofieNeural', 'sv-SE-MattiasNeural', 
+                                    'su-ID-TutiNeural', 'su-ID-JajangNeural', 'sr-RS-SophieNeural', 'sr-RS-NicholasNeural', 'sq-AL-IlirNeural', 'sq-AL-AnilaNeural', 
+                                    'so-SO-UbaxNeural', 'so-SO-MuuseNeural', 'sl-SI-RokNeural', 'sl-SI-PetraNeural', 
+                                    'sk-SK-ViktoriaNeural', 'sk-SK-LukasNeural', 'si-LK-ThiliniNeural', 'si-LK-SameeraNeural', 
+                                    'ru-RU-SvetlanaNeural', 'ru-RU-DmitryNeural', 'ro-RO-EmilNeural', 'ro-RO-AlinaNeural', 'pt-PT-RaquelNeural', 'pt-PT-DuarteNeural', 'pt-BR-ThalitaNeural', 'pt-BR-FranciscaNeural', 
+                                    'pt-BR-AntonioNeural', 'ps-AF-LatifaNeural', 'ps-AF-GulNawazNeural', 'pl-PL-ZofiaNeural', 
+                                    'pl-PL-MarekNeural', 'nl-NL-MaartenNeural', 'nl-NL-FennaNeural', 'nl-NL-ColetteNeural', 
+                                    'nl-BE-DenaNeural', 'nl-BE-ArnaudNeural', 'ne-NP-SagarNeural', 'ne-NP-HemkalaNeural', 
+                                    'nb-NO-PernilleNeural', 'nb-NO-FinnNeural', 'my-MM-ThihaNeural', 'my-MM-NilarNeural', 
+                                    'mt-MT-JosephNeural', 'mt-MT-GraceNeural', 'ms-MY-YasminNeural', 'ms-MY-OsmanNeural', 
+                                    'mr-IN-ManoharNeural', 'mr-IN-AarohiNeural', 'mn-MN-YesuiNeural', 'mn-MN-BataaNeural', 
+                                    'ml-IN-SobhanaNeural', 'ml-IN-MidhunNeural', 'mk-MK-MarijaNeural', 'mk-MK-AleksandarNeural', 
+                                    'lv-LV-NilsNeural', 'lv-LV-EveritaNeural', 'lt-LT-OnaNeural', 'lt-LT-LeonasNeural', 'lo-LA-KeomanyNeural', 'lo-LA-ChanthavongNeural', 
+                                    'ko-KR-SunHiNeural', 'ko-KR-InJoonNeural', 'ko-KR-HyunsuNeural', 'kn-IN-SapnaNeural', 
+                                    'kn-IN-GaganNeural', 'km-KH-SreymomNeural', 'km-KH-PisethNeural', 'kk-KZ-DauletNeural', 
+                                    'kk-KZ-AigulNeural', 'ka-GE-GiorgiNeural', 'ka-GE-EkaNeural', 'jv-ID-SitiNeural', 'jv-ID-DimasNeural', 
+                                    'ja-JP-NanamiNeural', 'ja-JP-KeitaNeural', 'it-IT-IsabellaNeural', 'it-IT-GiuseppeNeural', 'it-IT-ElsaNeural', 
+                                    'it-IT-DiegoNeural', 'is-IS-GunnarNeural', 'is-IS-GudrunNeural', 'id-ID-GadisNeural', 'id-ID-ArdiNeural', 
+                                    'hu-HU-TamasNeural', 'hu-HU-NoemiNeural', 'hr-HR-SreckoNeural', 'hr-HR-GabrijelaNeural', 'hi-IN-SwaraNeural', 
+                                    'hi-IN-MadhurNeural', 'he-IL-HilaNeural', 'he-IL-AvriNeural', 'gu-IN-NiranjanNeural', 'gu-IN-DhwaniNeural', 
+                                    'gl-ES-SabelaNeural', 'gl-ES-RoiNeural', 'ga-IE-OrlaNeural', 'ga-IE-ColmNeural', 'fr-FR-VivienneMultilingualNeural', 
+                                    'fr-FR-RemyMultilingualNeural', 'fr-FR-HenriNeural', 'fr-FR-EloiseNeural', 'fr-FR-DeniseNeural', 'fr-CH-FabriceNeural', 
+                                    'fr-CH-ArianeNeural', 'fr-CA-ThierryNeural', 'fr-CA-SylvieNeural', 'fr-CA-JeanNeural', 'fr-CA-AntoineNeural', 
+                                    'fr-BE-GerardNeural', 'fr-BE-CharlineNeural', 'fil-PH-BlessicaNeural', 'fil-PH-AngeloNeural', 'fi-FI-NooraNeural', 
+                                    'fi-FI-HarriNeural', 'fa-IR-FaridNeural', 'fa-IR-DilaraNeural', 'et-EE-KertNeural', 'et-EE-AnuNeural', 
+                                    'es-VE-SebastianNeural', 'es-VE-PaolaNeural', 'es-UY-ValentinaNeural', 'es-UY-MateoNeural', 'es-US-PalomaNeural', 
+                                    'es-US-AlonsoNeural', 'es-SV-RodrigoNeural', 'es-SV-LorenaNeural', 'es-PY-TaniaNeural', 'es-PY-MarioNeural', 
+                                    'es-PR-VictorNeural', 'es-PR-KarinaNeural', 'es-PE-CamilaNeural', 'es-PE-AlexNeural', 'es-PA-RobertoNeural', 
+                                    'es-PA-MargaritaNeural', 'es-NI-YolandaNeural', 'es-NI-FedericoNeural', 'es-MX-JorgeNeural', 'es-MX-DaliaNeural', 
+                                    'es-HN-KarlaNeural', 'es-HN-CarlosNeural', 'es-GT-MartaNeural', 'es-GT-AndresNeural', 'es-GQ-TeresaNeural', 
+                                    'es-GQ-JavierNeural', 'es-ES-XimenaNeural', 'es-ES-ElviraNeural', 'es-ES-AlvaroNeural', 'es-EC-LuisNeural', 
+                                    'es-EC-AndreaNeural', 'es-DO-RamonaNeural', 'es-DO-EmilioNeural', 'es-CU-ManuelNeural', 'es-CU-BelkysNeural', 
+                                    'es-CR-MariaNeural', 'es-CR-JuanNeural', 'es-CO-SalomeNeural', 'es-CO-GonzaloNeural', 'es-CL-LorenzoNeural', 
+                                    'es-CL-CatalinaNeural', 'es-BO-SofiaNeural', 'es-BO-MarceloNeural', 'es-AR-TomasNeural', 'es-AR-ElenaNeural', 
+                                    'en-ZA-LukeNeural', 'en-ZA-LeahNeural', 'en-US-SteffanNeural', 'en-US-RogerNeural', 'en-US-MichelleNeural', 
+                                    'en-US-JennyNeural', 'en-US-GuyNeural', 'en-US-EricNeural', 'en-US-EmmaNeural', 'en-US-ChristopherNeural', 
+                                    'en-US-BrianNeural', 'en-US-AvaNeural', 'en-US-AriaNeural', 'en-US-AndrewNeural', 'en-US-AnaNeural', 
+                                    'en-TZ-ImaniNeural', 'en-TZ-ElimuNeural', 'en-SG-WayneNeural', 'en-SG-LunaNeural', 'en-PH-RosaNeural', 
+                                    'en-PH-JamesNeural', 'en-NZ-MollyNeural', 'en-NZ-MitchellNeural', 'en-NG-EzinneNeural', 
+                                    'en-NG-AbeoNeural', 'en-KE-ChilembaNeural', 'en-KE-AsiliaNeural', 'en-IN-PrabhatNeural', 
+                                    'en-IN-NeerjaNeural', 'en-IN-NeerjaExpressiveNeural', 'en-IE-EmilyNeural', 'en-IE-ConnorNeural', 
+                                    'en-HK-YanNeural', 'en-HK-SamNeural', 'en-GB-ThomasNeural', 'en-GB-SoniaNeural', 'en-GB-RyanNeural', 
+                                    'en-GB-MaisieNeural', 'en-GB-LibbyNeural', 'en-CA-LiamNeural', 'en-CA-ClaraNeural', 'en-AU-WilliamNeural', 
+                                    'en-AU-NatashaNeural', 'el-GR-NestorasNeural', 'el-GR-AthinaNeural', 'de-DE-SeraphinaMultilingualNeural', 
+                                    'de-DE-KillianNeural', 'de-DE-KatjaNeural', 'de-DE-FlorianMultilingualNeural', 'de-DE-ConradNeural', 
+                                    'de-DE-AmalaNeural', 'de-CH-LeniNeural', 'de-CH-JanNeural', 'de-AT-JonasNeural', 'de-AT-IngridNeural', 
+                                    'da-DK-JeppeNeural', 'da-DK-ChristelNeural', 'cy-GB-NiaNeural', 'cy-GB-AledNeural', 'cs-CZ-VlastaNeural',
+                                    'cs-CZ-AntoninNeural', 'ca-ES-JoanaNeural', 'ca-ES-EnricNeural', 'bs-BA-VesnaNeural', 'bs-BA-GoranNeural', 
+                                    'bn-IN-TanishaaNeural', 'bn-IN-BashkarNeural', 'bn-BD-PradeepNeural', 'bn-BD-NabanitaNeural', 'bg-BG-KalinaNeural', 
+                                    'bg-BG-BorislavNeural', 'az-AZ-BanuNeural', 'az-AZ-BabekNeural', 'ar-YE-SalehNeural', 'ar-YE-MaryamNeural', 
+                                    'ar-TN-ReemNeural', 'ar-TN-HediNeural', 'ar-SY-LaithNeural', 'ar-SY-AmanyNeural', 'ar-SA-ZariyahNeural', 
+                                    'ar-SA-HamedNeural', 'ar-QA-MoazNeural', 'ar-QA-AmalNeural', 'ar-OM-AyshaNeural', 'ar-OM-AbdullahNeural', 
+                                    'ar-MA-MounaNeural', 'ar-MA-JamalNeural', 'ar-LY-OmarNeural', 'ar-LY-ImanNeural', 'ar-LB-RamiNeural', 'ar-LB-LaylaNeural', 
+                                    'ar-KW-NouraNeural', 'ar-KW-FahedNeural', 'ar-JO-TaimNeural', 'ar-JO-SanaNeural', 'ar-IQ-RanaNeural', 'ar-IQ-BasselNeural', 
+                                    'ar-EG-ShakirNeural', 'ar-EG-SalmaNeural', 'ar-DZ-IsmaelNeural', 'ar-DZ-AminaNeural', 'ar-BH-LailaNeural', 'ar-BH-AliNeural', 
+                                    'ar-AE-HamdanNeural', 'ar-AE-FatimaNeural', 'am-ET-MekdesNeural', 'am-ET-AmehaNeural', 'af-ZA-WillemNeural', 'af-ZA-AdriNeural']
+
+    def preprocess(self, rate, volume, pitch):
+        if rate >= 0:
+            rate = f'+{rate}%'
+        else:
+            rate = f'{rate}%'
+        if pitch >= 0:
+            pitch = f'+{pitch}Hz'
+        else:
+            pitch = f'{pitch}Hz'
+        volume = 100 - volume
+        volume = f'-{volume}%'
+        return rate, volume, pitch
+    @calculate_time
+    def apredict(self,TEXT, VOICE, RATE, VOLUME, PITCH, OUTPUT_FILE='result.wav', OUTPUT_SUBS='result.vtt', words_in_cue = 8):
+        async def amain() -> None:
+            """Main function"""
+            rate, volume, pitch = self.preprocess(rate = RATE, volume = VOLUME, pitch = PITCH)
+            communicate = Communicate(TEXT, VOICE, rate = rate, volume = volume, pitch = pitch)
+            submaker = SubMaker()
+            with open(OUTPUT_FILE, "wb") as file:
+                async for chunk in communicate.stream():
+                    if chunk["type"] == "audio":
+                        file.write(chunk["data"])
+                    elif chunk["type"] == "WordBoundary":
+                        submaker.feed(chunk)
+
+            with open(OUTPUT_SUBS, "w", encoding="utf-8") as file:
+                file.write(submaker.get_srt())
+
+        asyncio.run(amain())
+        with open(OUTPUT_SUBS, 'r', encoding='utf-8') as file:
+            vtt_lines = file.readlines()
+
+        # 去掉每一行文字中的空格
+        vtt_lines_without_spaces = [line.replace(" ", "") if "-->" not in line else line for line in vtt_lines]
+        # print(vtt_lines_without_spaces)
+        with open(OUTPUT_SUBS, 'w', encoding='utf-8') as output_file:
+            output_file.writelines(vtt_lines_without_spaces)
+        return OUTPUT_FILE, OUTPUT_SUBS
+
+    @calculate_time
+    def predict(self,TEXT, VOICE, RATE, VOLUME, PITCH, OUTPUT_FILE='result.wav', OUTPUT_SUBS='result.vtt', words_in_cue = 8):
+        rate, volume, pitch = self.preprocess(rate = RATE, volume = VOLUME, pitch = PITCH)
+        communicate = Communicate(TEXT, VOICE, rate = rate, volume = volume, pitch = pitch)
+        communicate.save_sync(OUTPUT_FILE)
+
+        
+        '''
+        由于EdgeTTS的一些问题，并且最近发现其生成的字幕还是有些奇怪，所以会重新写一个字幕生成，暂不使用其字母生成
+        '''
+        # communicate = Communicate(TEXT, VOICE)
+        # submaker = SubMaker()
+        # with open(OUTPUT_FILE, "wb") as file:
+        #     for chunk in communicate.stream_sync():
+        #         if chunk["type"] == "audio":
+        #             file.write(chunk["data"])
+        #         elif chunk["type"] == "WordBoundary":
+        #             submaker.feed(chunk)
+
+        # with open(OUTPUT_SUBS, "w", encoding="utf-8") as file:
+        #     file.write(submaker.get_srt())
+
+        return OUTPUT_FILE, None
+
+def test():
+    tts = EdgeTTS(list_voices=False)
+    TEXT = '''近日，苹果公司起诉高通公司，状告其未按照相关合约进行合作，高通方面尚未回应。这句话中“其”指的是谁？'''
+    VOICE = "zh-CN-XiaoxiaoNeural"
+    OUTPUT_FILE, OUTPUT_SUBS = "tts.wav", "tts.vtt"
+    audio_file, sub_file = tts.predict(TEXT, VOICE, 0, 0, 0, OUTPUT_FILE, OUTPUT_SUBS)
+    print("Audio file written to", audio_file, "and subtitle file written to", sub_file)
+
+if __name__ == "__main__":
+    test()

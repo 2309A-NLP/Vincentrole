@@ -1,1 +1,54 @@
-aW1wb3J0IG9zCmltcG9ydCByZXF1ZXN0cwoKbGxtX3NlcnZpY2VfaG9zdCA9IG9zLmVudmlyb24uZ2V0KCJMTE1fU0VSVklDRV9IT1NUIiwgImxvY2FsaG9zdCIpCmxsbV9zZXJ2aWNlX3BvcnQgPSBvcy5lbnZpcm9uLmdldCgiTExNX1NFUlZJQ0VfUE9SVCIsIDgwMDIpCgojIEFQSSBlbmRwb2ludCBVUkxzCkNIQU5HRV9NT0RFTF9VUkwgPSBmImh0dHA6Ly97bGxtX3NlcnZpY2VfaG9zdH06e2xsbV9zZXJ2aWNlX3BvcnR9L2xsbV9jaGFuZ2VfbW9kZWwvIgpMTE1fUkVTUE9OU0VfVVJMID0gZiJodHRwOi8ve2xsbV9zZXJ2aWNlX2hvc3R9OntsbG1fc2VydmljZV9wb3J0fS9sbG1fcmVzcG9uc2UvIgoKZGVmIGNoYW5nZV9tb2RlbChtb2RlbF9uYW1lLCBnZW1pbmlfYXBpa2V5PScnLCBvcGVuYWlfYXBpa2V5PScnLCBwcm94eV91cmw9Tm9uZSk6CiAgICAiIiLor7fmsYLmm7TmjaJMTE3mqKHlnosiIiIKICAgIHBhcmFtcyA9IHsKICAgICAgICAibW9kZWxfbmFtZSI6IG1vZGVsX25hbWUsCiAgICAgICAgImdlbWluaV9hcGlrZXkiOiBnZW1pbmlfYXBpa2V5LAogICAgICAgICJvcGVuYWlfYXBpa2V5Ijogb3BlbmFpX2FwaWtleSwKICAgICAgICAicHJveHlfdXJsIjogcHJveHlfdXJsLAogICAgfQogICAgcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KENIQU5HRV9NT0RFTF9VUkwsIHBhcmFtcz1wYXJhbXMpCiAgICBpZiByZXNwb25zZS5zdGF0dXNfY29kZSA9PSAyMDA6CiAgICAgICAgcHJpbnQoZiLmqKHlnovmm7TmjaLmiJDlip86IHtyZXNwb25zZS5qc29uKCl9IikKICAgIGVsc2U6CiAgICAgICAgcHJpbnQoZiLmqKHlnovmm7TmjaLlpLHotKU6IHtyZXNwb25zZS5zdGF0dXNfY29kZX0sIHtyZXNwb25zZS50ZXh0fSIpCgpkZWYgcmVxdWVzdF9sbG1fcmVzcG9uc2UocGF5bG9hZCk6CiAgICAiIiLor7fmsYJMTE3nlJ/miJDlm57nrZQiIiIKICAgIHJlc3BvbnNlID0gcmVxdWVzdHMucG9zdChMTE1fUkVTUE9OU0VfVVJMLCBqc29uPXBheWxvYWQpCiAgICBpZiByZXNwb25zZS5zdGF0dXNfY29kZSA9PSAyMDA6CiAgICAgICAgcHJpbnQoZiJMTE0g5Zue5aSN5oiQ5YqfOiB7cmVzcG9uc2UuanNvbigpfSIpCiAgICBlbHNlOgogICAgICAgIHByaW50KGYiTExNIOWbnuWkjeWksei0pToge3Jlc3BvbnNlLnN0YXR1c19jb2RlfSwge3Jlc3BvbnNlLnRleHR9IikKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICAjIOimgea1i+ivleeahOaooeWei+WIl+ihqAogICAgbW9kZWxzID0gWwogICAgICAgICMgIkdQVDRGcmVlIiwKICAgICAgICAiUXdlbiIsCiAgICBdCgogICAgIyDlvqrnjq/mm7TmjaLmqKHlnovlubbnlJ/miJBMTE3lm57lpI0KICAgIGZvciBtb2RlbF9uYW1lIGluIG1vZGVsczoKICAgICAgICBwcmludChmIuWIh+aNouWIsOaooeWeizoge21vZGVsX25hbWV9IikKICAgICAgICBjaGFuZ2VfbW9kZWwobW9kZWxfbmFtZSwgb3BlbmFpX2FwaWtleT0ieW91cl9vcGVuYWlfYXBpX2tleSIpCgogICAgICAgICMg6K+35rGCTExN55Sf5oiQ5Zue562UCiAgICAgICAgcGF5bG9hZCA9IHsKICAgICAgICAgICAgInF1ZXN0aW9uIjogIuivt+mXruS7gOS5iOaYr0Zhc3RBUEnvvJ8iLAogICAgICAgICAgICAibW9kZWxfbmFtZSI6IG1vZGVsX25hbWUsCiAgICAgICAgICAgICJnZW1pbmlfYXBpa2V5IjogIiIsCiAgICAgICAgICAgICJvcGVuYWlfYXBpa2V5IjogInlvdXJfb3BlbmFpX2FwaV9rZXkiLAogICAgICAgICAgICAjICJwcm94eV91cmwiOiBOb25lCiAgICAgICAgfQogICAgICAgIHJlcXVlc3RfbGxtX3Jlc3BvbnNlKHBheWxvYWQpCiAgICAgICAgcHJpbnQoIlxuIiArICItIio1MCArICJcbiIpCg==
+import os
+import requests
+
+llm_service_host = os.environ.get("LLM_SERVICE_HOST", "localhost")
+llm_service_port = os.environ.get("LLM_SERVICE_PORT", 8002)
+
+# API endpoint URLs
+CHANGE_MODEL_URL = f"http://{llm_service_host}:{llm_service_port}/llm_change_model/"
+LLM_RESPONSE_URL = f"http://{llm_service_host}:{llm_service_port}/llm_response/"
+
+def change_model(model_name, gemini_apikey='', openai_apikey='', proxy_url=None):
+    """请求更换LLM模型"""
+    params = {
+        "model_name": model_name,
+        "gemini_apikey": gemini_apikey,
+        "openai_apikey": openai_apikey,
+        "proxy_url": proxy_url,
+    }
+    response = requests.post(CHANGE_MODEL_URL, params=params)
+    if response.status_code == 200:
+        print(f"模型更换成功: {response.json()}")
+    else:
+        print(f"模型更换失败: {response.status_code}, {response.text}")
+
+def request_llm_response(payload):
+    """请求LLM生成回答"""
+    response = requests.post(LLM_RESPONSE_URL, json=payload)
+    if response.status_code == 200:
+        print(f"LLM 回复成功: {response.json()}")
+    else:
+        print(f"LLM 回复失败: {response.status_code}, {response.text}")
+
+if __name__ == "__main__":
+    # 要测试的模型列表
+    models = [
+        # "GPT4Free",
+        "Qwen",
+    ]
+
+    # 循环更换模型并生成LLM回复
+    for model_name in models:
+        print(f"切换到模型: {model_name}")
+        change_model(model_name, openai_apikey="your_openai_api_key")
+
+        # 请求LLM生成回答
+        payload = {
+            "question": "请问什么是FastAPI？",
+            "model_name": model_name,
+            "gemini_apikey": "",
+            "openai_apikey": "your_openai_api_key",
+            # "proxy_url": None
+        }
+        request_llm_response(payload)
+        print("\n" + "-"*50 + "\n")

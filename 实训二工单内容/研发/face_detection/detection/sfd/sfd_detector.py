@@ -1,1 +1,59 @@
-aW1wb3J0IG9zCmltcG9ydCBjdjIKZnJvbSB0b3JjaC51dGlscy5tb2RlbF96b28gaW1wb3J0IGxvYWRfdXJsCgpmcm9tIC4uY29yZSBpbXBvcnQgRmFjZURldGVjdG9yCgpmcm9tIC5uZXRfczNmZCBpbXBvcnQgczNmZApmcm9tIC5iYm94IGltcG9ydCAqCmZyb20gLmRldGVjdCBpbXBvcnQgKgoKbW9kZWxzX3VybHMgPSB7CiAgICAnczNmZCc6ICdodHRwczovL3d3dy5hZHJpYW5idWxhdC5jb20vZG93bmxvYWRzL3B5dGhvbi1mYW4vczNmZC02MTlhMzE2ODEyLnB0aCcsCn0KCgpjbGFzcyBTRkREZXRlY3RvcihGYWNlRGV0ZWN0b3IpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGRldmljZSwgcGF0aF90b19kZXRlY3Rvcj1yJ2NoZWNrcG9pbnRzL2h1Yi9jaGVja3BvaW50cy9zM2ZkLTYxOWEzMTY4MTIucHRoJywgdmVyYm9zZT1GYWxzZSk6CiAgICAgICAgc3VwZXIoU0ZERGV0ZWN0b3IsIHNlbGYpLl9faW5pdF9fKGRldmljZSwgdmVyYm9zZSkKCiAgICAgICAgIyBJbml0aWFsaXNlIHRoZSBmYWNlIGRldGVjdG9yCiAgICAgICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKHBhdGhfdG9fZGV0ZWN0b3IpOgogICAgICAgICAgICBtb2RlbF93ZWlnaHRzID0gbG9hZF91cmwobW9kZWxzX3VybHNbJ3MzZmQnXSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBtb2RlbF93ZWlnaHRzID0gdG9yY2gubG9hZChwYXRoX3RvX2RldGVjdG9yKQoKICAgICAgICBzZWxmLmZhY2VfZGV0ZWN0b3IgPSBzM2ZkKCkKICAgICAgICBzZWxmLmZhY2VfZGV0ZWN0b3IubG9hZF9zdGF0ZV9kaWN0KG1vZGVsX3dlaWdodHMpCiAgICAgICAgc2VsZi5mYWNlX2RldGVjdG9yLnRvKGRldmljZSkKICAgICAgICBzZWxmLmZhY2VfZGV0ZWN0b3IuZXZhbCgpCgogICAgZGVmIGRldGVjdF9mcm9tX2ltYWdlKHNlbGYsIHRlbnNvcl9vcl9wYXRoKToKICAgICAgICBpbWFnZSA9IHNlbGYudGVuc29yX29yX3BhdGhfdG9fbmRhcnJheSh0ZW5zb3Jfb3JfcGF0aCkKCiAgICAgICAgYmJveGxpc3QgPSBkZXRlY3Qoc2VsZi5mYWNlX2RldGVjdG9yLCBpbWFnZSwgZGV2aWNlPXNlbGYuZGV2aWNlKQogICAgICAgIGtlZXAgPSBubXMoYmJveGxpc3QsIDAuMykKICAgICAgICBiYm94bGlzdCA9IGJib3hsaXN0W2tlZXAsIDpdCiAgICAgICAgYmJveGxpc3QgPSBbeCBmb3IgeCBpbiBiYm94bGlzdCBpZiB4Wy0xXSA+IDAuNV0KCiAgICAgICAgcmV0dXJuIGJib3hsaXN0CgogICAgZGVmIGRldGVjdF9mcm9tX2JhdGNoKHNlbGYsIGltYWdlcyk6CiAgICAgICAgYmJveGxpc3RzID0gYmF0Y2hfZGV0ZWN0KHNlbGYuZmFjZV9kZXRlY3RvciwgaW1hZ2VzLCBkZXZpY2U9c2VsZi5kZXZpY2UpCiAgICAgICAga2VlcHMgPSBbbm1zKGJib3hsaXN0c1s6LCBpLCA6XSwgMC4zKSBmb3IgaSBpbiByYW5nZShiYm94bGlzdHMuc2hhcGVbMV0pXQogICAgICAgIGJib3hsaXN0cyA9IFtiYm94bGlzdHNba2VlcCwgaSwgOl0gZm9yIGksIGtlZXAgaW4gZW51bWVyYXRlKGtlZXBzKV0KICAgICAgICBiYm94bGlzdHMgPSBbW3ggZm9yIHggaW4gYmJveGxpc3QgaWYgeFstMV0gPiAwLjVdIGZvciBiYm94bGlzdCBpbiBiYm94bGlzdHNdCgogICAgICAgIHJldHVybiBiYm94bGlzdHMKCiAgICBAcHJvcGVydHkKICAgIGRlZiByZWZlcmVuY2Vfc2NhbGUoc2VsZik6CiAgICAgICAgcmV0dXJuIDE5NQoKICAgIEBwcm9wZXJ0eQogICAgZGVmIHJlZmVyZW5jZV94X3NoaWZ0KHNlbGYpOgogICAgICAgIHJldHVybiAwCgogICAgQHByb3BlcnR5CiAgICBkZWYgcmVmZXJlbmNlX3lfc2hpZnQoc2VsZik6CiAgICAgICAgcmV0dXJuIDAK
+import os
+import cv2
+from torch.utils.model_zoo import load_url
+
+from ..core import FaceDetector
+
+from .net_s3fd import s3fd
+from .bbox import *
+from .detect import *
+
+models_urls = {
+    's3fd': 'https://www.adrianbulat.com/downloads/python-fan/s3fd-619a316812.pth',
+}
+
+
+class SFDDetector(FaceDetector):
+    def __init__(self, device, path_to_detector=r'checkpoints/hub/checkpoints/s3fd-619a316812.pth', verbose=False):
+        super(SFDDetector, self).__init__(device, verbose)
+
+        # Initialise the face detector
+        if not os.path.isfile(path_to_detector):
+            model_weights = load_url(models_urls['s3fd'])
+        else:
+            model_weights = torch.load(path_to_detector)
+
+        self.face_detector = s3fd()
+        self.face_detector.load_state_dict(model_weights)
+        self.face_detector.to(device)
+        self.face_detector.eval()
+
+    def detect_from_image(self, tensor_or_path):
+        image = self.tensor_or_path_to_ndarray(tensor_or_path)
+
+        bboxlist = detect(self.face_detector, image, device=self.device)
+        keep = nms(bboxlist, 0.3)
+        bboxlist = bboxlist[keep, :]
+        bboxlist = [x for x in bboxlist if x[-1] > 0.5]
+
+        return bboxlist
+
+    def detect_from_batch(self, images):
+        bboxlists = batch_detect(self.face_detector, images, device=self.device)
+        keeps = [nms(bboxlists[:, i, :], 0.3) for i in range(bboxlists.shape[1])]
+        bboxlists = [bboxlists[keep, i, :] for i, keep in enumerate(keeps)]
+        bboxlists = [[x for x in bboxlist if x[-1] > 0.5] for bboxlist in bboxlists]
+
+        return bboxlists
+
+    @property
+    def reference_scale(self):
+        return 195
+
+    @property
+    def reference_x_shift(self):
+        return 0
+
+    @property
+    def reference_y_shift(self):
+        return 0

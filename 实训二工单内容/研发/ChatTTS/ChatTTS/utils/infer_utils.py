@@ -1,1 +1,141 @@
-CmltcG9ydCByZQppbXBvcnQgdG9yY2gKaW1wb3J0IHRvcmNoLm5uLmZ1bmN0aW9uYWwgYXMgRgoKICAgIApjbGFzcyBDdXN0b21SZXBldGl0aW9uUGVuYWx0eUxvZ2l0c1Byb2Nlc3NvclJlcGVhdCgpOgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBwZW5hbHR5OiBmbG9hdCwgbWF4X2lucHV0X2lkcywgcGFzdF93aW5kb3cpOgogICAgICAgIGlmIG5vdCBpc2luc3RhbmNlKHBlbmFsdHksIGZsb2F0KSBvciBub3QgKHBlbmFsdHkgPiAwKToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmImBwZW5hbHR5YCBoYXMgdG8gYmUgYSBzdHJpY3RseSBwb3NpdGl2ZSBmbG9hdCwgYnV0IGlzIHtwZW5hbHR5fSIpCgogICAgICAgIHNlbGYucGVuYWx0eSA9IHBlbmFsdHkKICAgICAgICBzZWxmLm1heF9pbnB1dF9pZHMgPSBtYXhfaW5wdXRfaWRzCiAgICAgICAgc2VsZi5wYXN0X3dpbmRvdyA9IHBhc3Rfd2luZG93CgogICAgZGVmIF9fY2FsbF9fKHNlbGYsIGlucHV0X2lkczogdG9yY2guTG9uZ1RlbnNvciwgc2NvcmVzOiB0b3JjaC5GbG9hdFRlbnNvcikgLT4gdG9yY2guRmxvYXRUZW5zb3I6CiAgICAgICAgCiAgICAgICAgaW5wdXRfaWRzID0gaW5wdXRfaWRzWzosIC1zZWxmLnBhc3Rfd2luZG93Ol0KICAgICAgICBmcmVxID0gRi5vbmVfaG90KGlucHV0X2lkcywgc2NvcmVzLnNpemUoMSkpLnN1bSgxKQogICAgICAgIGZyZXFbc2VsZi5tYXhfaW5wdXRfaWRzOl0gPSAwCiAgICAgICAgYWxwaGEgPSBzZWxmLnBlbmFsdHkqKmZyZXEKICAgICAgICBzY29yZXMgPSB0b3JjaC53aGVyZShzY29yZXMgPCAwLCBzY29yZXMqYWxwaGEsIHNjb3Jlcy9hbHBoYSkKCiAgICAgICAgcmV0dXJuIHNjb3JlcwogICAgCmNsYXNzIEN1c3RvbVJlcGV0aXRpb25QZW5hbHR5TG9naXRzUHJvY2Vzc29yKCk6CgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHBlbmFsdHk6IGZsb2F0LCBtYXhfaW5wdXRfaWRzLCBwYXN0X3dpbmRvdyk6CiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UocGVuYWx0eSwgZmxvYXQpIG9yIG5vdCAocGVuYWx0eSA+IDApOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYiYHBlbmFsdHlgIGhhcyB0byBiZSBhIHN0cmljdGx5IHBvc2l0aXZlIGZsb2F0LCBidXQgaXMge3BlbmFsdHl9IikKCiAgICAgICAgc2VsZi5wZW5hbHR5ID0gcGVuYWx0eQogICAgICAgIHNlbGYubWF4X2lucHV0X2lkcyA9IG1heF9pbnB1dF9pZHMKICAgICAgICBzZWxmLnBhc3Rfd2luZG93ID0gcGFzdF93aW5kb3cKCiAgICBkZWYgX19jYWxsX18oc2VsZiwgaW5wdXRfaWRzOiB0b3JjaC5Mb25nVGVuc29yLCBzY29yZXM6IHRvcmNoLkZsb2F0VGVuc29yKSAtPiB0b3JjaC5GbG9hdFRlbnNvcjoKICAgICAgICAKICAgICAgICBpbnB1dF9pZHMgPSBpbnB1dF9pZHNbOiwgLXNlbGYucGFzdF93aW5kb3c6XQogICAgICAgIHNjb3JlID0gdG9yY2guZ2F0aGVyKHNjb3JlcywgMSwgaW5wdXRfaWRzKQogICAgICAgIF9zY29yZSA9IHNjb3JlLmRldGFjaCgpLmNsb25lKCkKICAgICAgICBzY29yZSA9IHRvcmNoLndoZXJlKHNjb3JlIDwgMCwgc2NvcmUgKiBzZWxmLnBlbmFsdHksIHNjb3JlIC8gc2VsZi5wZW5hbHR5KQogICAgICAgIHNjb3JlW2lucHV0X2lkcz49c2VsZi5tYXhfaW5wdXRfaWRzXSA9IF9zY29yZVtpbnB1dF9pZHM+PXNlbGYubWF4X2lucHV0X2lkc10KICAgICAgICBzY29yZXMuc2NhdHRlcl8oMSwgaW5wdXRfaWRzLCBzY29yZSkKICAgICAgICAKICAgICAgICByZXR1cm4gc2NvcmVzCiAgICAKZGVmIGNvdW50X2ludmFsaWRfY2hhcmFjdGVycyhzKToKICAgIAogICAgcyA9IHJlLnN1YihyJ1xbdXZfYnJlYWtcXXxcW2xhdWdoXF18XFtsYnJlYWtcXScsICcnLCBzKQogICAgcGF0dGVybiA9IHJlLmNvbXBpbGUocidbXlx1NGUwMC1cdTlmZmZBLVphLXrvvIzjgILjgIEsXC4gXScpCiAgICBub25fYWxwaGFiZXRpY19jaGluZXNlX2NoYXJzID0gcGF0dGVybi5maW5kYWxsKHMpCiAgICByZXR1cm4gc2V0KG5vbl9hbHBoYWJldGljX2NoaW5lc2VfY2hhcnMpCgpkZWYgZGV0ZWN0X2xhbmd1YWdlKHNlbnRlbmNlKToKCiAgICBjaGluZXNlX2NoYXJfcGF0dGVybiA9IHJlLmNvbXBpbGUocidbXHU0ZTAwLVx1OWZmZl0nKQogICAgZW5nbGlzaF93b3JkX3BhdHRlcm4gPSByZS5jb21waWxlKHInXGJbQS1aYS16XStcYicpCgogICAgY2hpbmVzZV9jaGFycyA9IGNoaW5lc2VfY2hhcl9wYXR0ZXJuLmZpbmRhbGwoc2VudGVuY2UpCiAgICBlbmdsaXNoX3dvcmRzID0gZW5nbGlzaF93b3JkX3BhdHRlcm4uZmluZGFsbChzZW50ZW5jZSkKCiAgICBpZiBsZW4oY2hpbmVzZV9jaGFycykgPiBsZW4oZW5nbGlzaF93b3Jkcyk6CiAgICAgICAgcmV0dXJuICJ6aCIKICAgIGVsc2U6CiAgICAgICAgcmV0dXJuICJlbiIKICAgIAogICAgCmNoYXJhY3Rlcl9tYXAgPSB7CiAgICAn77yaJzogJ++8jCcsCiAgICAn77ybJzogJ++8jCcsCiAgICAn77yBJzogJ+OAgicsCiAgICAn77yIJzogJ++8jCcsCiAgICAn77yJJzogJ++8jCcsCiAgICAn44CQJzogJ++8jCcsCiAgICAn44CRJzogJ++8jCcsCiAgICAn44COJzogJ++8jCcsCiAgICAn44CPJzogJ++8jCcsCiAgICAn44CMJzogJ++8jCcsCiAgICAn44CNJzogJ++8jCcsCiAgICAn44CKJzogJ++8jCcsCiAgICAn44CLJzogJ++8jCcsCiAgICAn77yNJzogJ++8jCcsCiAgICAn4oCYJzogJycsCiAgICAn4oCcJzogJycsCiAgICAn4oCZJzogJycsCiAgICAn4oCdJzogJycsCiAgICAnOic6ICcsJywKICAgICc7JzogJywnLAogICAgJyEnOiAnLicsCiAgICAnKCc6ICcsJywKICAgICcpJzogJywnLAogICAgJ1snOiAnLCcsCiAgICAnXSc6ICcsJywKICAgICc+JzogJywnLAogICAgJzwnOiAnLCcsCiAgICAnLSc6ICcsJywKfQoKaGFsZndpZHRoXzJfZnVsbHdpZHRoX21hcCA9IHsKICAgICAgICAnISc6ICfvvIEnLAogICAgICAgICciJzogJ+KAnCcsCiAgICAgICAgIiciOiAn4oCYJywKICAgICAgICAnIyc6ICfvvIMnLAogICAgICAgICckJzogJ++8hCcsCiAgICAgICAgJyUnOiAn77yFJywKICAgICAgICAnJic6ICfvvIYnLAogICAgICAgICcoJzogJ++8iCcsCiAgICAgICAgJyknOiAn77yJJywKICAgICAgICAnLCc6ICfvvIwnLAogICAgICAgICctJzogJ++8jScsCiAgICAgICAgJyonOiAn77yKJywKICAgICAgICAnKyc6ICfvvIsnLAogICAgICAgICcuJzogJ+OAgicsCiAgICAgICAgJy8nOiAn77yPJywKICAgICAgICAnOic6ICfvvJonLAogICAgICAgICc7JzogJ++8mycsCiAgICAgICAgJzwnOiAn77ycJywKICAgICAgICAnPSc6ICfvvJ0nLAogICAgICAgICc+JzogJ++8nicsCiAgICAgICAgJz8nOiAn77yfJywKICAgICAgICAnQCc6ICfvvKAnLAogICAgICAgICMgJ1snOiAn77y7JywKICAgICAgICAnXFwnOiAn77y8JywKICAgICAgICAjICddJzogJ++8vScsCiAgICAgICAgJ14nOiAn77y+JywKICAgICAgICAjICdfJzogJ++8vycsCiAgICAgICAgJ2AnOiAn772AJywKICAgICAgICAneyc6ICfvvZsnLAogICAgICAgICd8JzogJ++9nCcsCiAgICAgICAgJ30nOiAn772dJywKICAgICAgICAnfic6ICfvvZ4nCiAgICB9CgpkZWYgYXBwbHlfaGFsZjJmdWxsX21hcCh0ZXh0KToKICAgIHRyYW5zbGF0aW9uX3RhYmxlID0gc3RyLm1ha2V0cmFucyhoYWxmd2lkdGhfMl9mdWxsd2lkdGhfbWFwKQogICAgcmV0dXJuIHRleHQudHJhbnNsYXRlKHRyYW5zbGF0aW9uX3RhYmxlKQoKZGVmIGFwcGx5X2NoYXJhY3Rlcl9tYXAodGV4dCk6CiAgICB0cmFuc2xhdGlvbl90YWJsZSA9IHN0ci5tYWtldHJhbnMoY2hhcmFjdGVyX21hcCkKICAgIHJldHVybiB0ZXh0LnRyYW5zbGF0ZSh0cmFuc2xhdGlvbl90YWJsZSk=
+
+import re
+import torch
+import torch.nn.functional as F
+
+    
+class CustomRepetitionPenaltyLogitsProcessorRepeat():
+
+    def __init__(self, penalty: float, max_input_ids, past_window):
+        if not isinstance(penalty, float) or not (penalty > 0):
+            raise ValueError(f"`penalty` has to be a strictly positive float, but is {penalty}")
+
+        self.penalty = penalty
+        self.max_input_ids = max_input_ids
+        self.past_window = past_window
+
+    def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor) -> torch.FloatTensor:
+        
+        input_ids = input_ids[:, -self.past_window:]
+        freq = F.one_hot(input_ids, scores.size(1)).sum(1)
+        freq[self.max_input_ids:] = 0
+        alpha = self.penalty**freq
+        scores = torch.where(scores < 0, scores*alpha, scores/alpha)
+
+        return scores
+    
+class CustomRepetitionPenaltyLogitsProcessor():
+
+    def __init__(self, penalty: float, max_input_ids, past_window):
+        if not isinstance(penalty, float) or not (penalty > 0):
+            raise ValueError(f"`penalty` has to be a strictly positive float, but is {penalty}")
+
+        self.penalty = penalty
+        self.max_input_ids = max_input_ids
+        self.past_window = past_window
+
+    def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor) -> torch.FloatTensor:
+        
+        input_ids = input_ids[:, -self.past_window:]
+        score = torch.gather(scores, 1, input_ids)
+        _score = score.detach().clone()
+        score = torch.where(score < 0, score * self.penalty, score / self.penalty)
+        score[input_ids>=self.max_input_ids] = _score[input_ids>=self.max_input_ids]
+        scores.scatter_(1, input_ids, score)
+        
+        return scores
+    
+def count_invalid_characters(s):
+    
+    s = re.sub(r'\[uv_break\]|\[laugh\]|\[lbreak\]', '', s)
+    pattern = re.compile(r'[^\u4e00-\u9fffA-Za-z，。、,\. ]')
+    non_alphabetic_chinese_chars = pattern.findall(s)
+    return set(non_alphabetic_chinese_chars)
+
+def detect_language(sentence):
+
+    chinese_char_pattern = re.compile(r'[\u4e00-\u9fff]')
+    english_word_pattern = re.compile(r'\b[A-Za-z]+\b')
+
+    chinese_chars = chinese_char_pattern.findall(sentence)
+    english_words = english_word_pattern.findall(sentence)
+
+    if len(chinese_chars) > len(english_words):
+        return "zh"
+    else:
+        return "en"
+    
+    
+character_map = {
+    '：': '，',
+    '；': '，',
+    '！': '。',
+    '（': '，',
+    '）': '，',
+    '【': '，',
+    '】': '，',
+    '『': '，',
+    '』': '，',
+    '「': '，',
+    '」': '，',
+    '《': '，',
+    '》': '，',
+    '－': '，',
+    '‘': '',
+    '“': '',
+    '’': '',
+    '”': '',
+    ':': ',',
+    ';': ',',
+    '!': '.',
+    '(': ',',
+    ')': ',',
+    '[': ',',
+    ']': ',',
+    '>': ',',
+    '<': ',',
+    '-': ',',
+}
+
+halfwidth_2_fullwidth_map = {
+        '!': '！',
+        '"': '“',
+        "'": '‘',
+        '#': '＃',
+        '$': '＄',
+        '%': '％',
+        '&': '＆',
+        '(': '（',
+        ')': '）',
+        ',': '，',
+        '-': '－',
+        '*': '＊',
+        '+': '＋',
+        '.': '。',
+        '/': '／',
+        ':': '：',
+        ';': '；',
+        '<': '＜',
+        '=': '＝',
+        '>': '＞',
+        '?': '？',
+        '@': '＠',
+        # '[': '［',
+        '\\': '＼',
+        # ']': '］',
+        '^': '＾',
+        # '_': '＿',
+        '`': '｀',
+        '{': '｛',
+        '|': '｜',
+        '}': '｝',
+        '~': '～'
+    }
+
+def apply_half2full_map(text):
+    translation_table = str.maketrans(halfwidth_2_fullwidth_map)
+    return text.translate(translation_table)
+
+def apply_character_map(text):
+    translation_table = str.maketrans(character_map)
+    return text.translate(translation_table)

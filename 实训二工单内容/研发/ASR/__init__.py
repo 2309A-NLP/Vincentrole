@@ -1,1 +1,4 @@
-ZnJvbSAuV2hpc3BlciBpbXBvcnQgV2hpc3BlckFTUgpmcm9tIC5GdW5BU1IgaW1wb3J0IEZ1bkFTUgoKX19hbGxfXyA9IFsnV2hpc3BlckFTUicsICdGdW5BU1InXQo=
+from .Whisper import WhisperASR
+from .FunASR import FunASR
+
+__all__ = ['WhisperASR', 'FunASR']

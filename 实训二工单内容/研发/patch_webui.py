@@ -1,1 +1,22 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi5oqKIHdlYnVpLnB5IOeahOm7mOiupCBMTE0o55u05o6l5Zue5aSNKSDmm7/mjaLmiJAgUXdlblJBR+OAguW5guetie+8muW3suaJk+i/h+ihpeS4geWImei3s+i/h+OAgiIiIgppbXBvcnQgc2h1dGlsLCBzeXMKCldFQlVJID0gIi9yb290L0xpbmx5LVRhbGtlci93ZWJ1aS5weSIKT0xEID0gIiIiICAgIGxsbV9jbGFzcyA9IExMTShtb2RlPSdvZmZsaW5lJykKICAgIGxsbSA9IGxsbV9jbGFzcy5pbml0X21vZGVsKCfnm7TmjqXlm57lpI0gRGlyZWN0IFJlcGx5JykKICAgIHN1Y2Nlc3NfcHJpbnQoIum7mOiupOS4jeS9v+eUqExMTeaooeWei++8jOebtOaOpeWbnuWkjemXrumimO+8jOWQjOaXtuWHj+WwkeaYvuWtmOWNoOeUqO+8gSIpIiIiCk5FVyA9ICIiIiAgICBmcm9tIExMTS5Rd2VuUkFHIGltcG9ydCBRd2VuUkFHCiAgICBsbG0gPSBRd2VuUkFHKG1vZGVsPSdxd2VuLXBsdXMnLCB0b3Bfaz0zKQogICAgc3VjY2Vzc19wcmludCgi5bey5ZCv55SoIFF3ZW5SQUfvvJrpgJrkuYnljYPpl64gcXdlbi1wbHVzICsg5Yy755aX55+l6K+G5bqTKHNjb3JlPTUpIFJBR+ajgOe0oiIpIiIiCgpzcmMgPSBvcGVuKFdFQlVJLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkKaWYgIlF3ZW5SQUciIGluIHNyYzoKICAgIHByaW50KCLlt7LmiZPov4fooaXkuIHvvIzot7Pov4ciKQogICAgc3lzLmV4aXQoMCkKaWYgT0xEIG5vdCBpbiBzcmM6CiAgICBwcmludCgiISEg5pyq5om+5Yiw55uu5qCH5Luj56CB5Z2X77yM5pyq5L+u5pS544CC6K+35omL5Yqo5qOA5p+lIHdlYnVpLnB5IOesrDkyMeihjOmZhOi/kSIpCiAgICBzeXMuZXhpdCgxKQpzaHV0aWwuY29weShXRUJVSSwgV0VCVUkgKyAiLmJhayIpCm9wZW4oV0VCVUksICJ3IiwgZW5jb2Rpbmc9InV0Zi04Iikud3JpdGUoc3JjLnJlcGxhY2UoT0xELCBORVcpKQpwcmludCgi6KGl5LiB5a6M5oiQ77yM5bey5aSH5Lu9IHdlYnVpLnB5LmJhayIpCg==
+# -*- coding: utf-8 -*-
+"""把 webui.py 的默认 LLM(直接回复) 替换成 QwenRAG。幂等：已打过补丁则跳过。"""
+import shutil, sys
+
+WEBUI = "/root/Linly-Talker/webui.py"
+OLD = """    llm_class = LLM(mode='offline')
+    llm = llm_class.init_model('直接回复 Direct Reply')
+    success_print("默认不使用LLM模型，直接回复问题，同时减少显存占用！")"""
+NEW = """    from LLM.QwenRAG import QwenRAG
+    llm = QwenRAG(model='qwen-plus', top_k=3)
+    success_print("已启用 QwenRAG：通义千问 qwen-plus + 医疗知识库(score=5) RAG检索")"""
+
+src = open(WEBUI, encoding="utf-8").read()
+if "QwenRAG" in src:
+    print("已打过补丁，跳过")
+    sys.exit(0)
+if OLD not in src:
+    print("!! 未找到目标代码块，未修改。请手动检查 webui.py 第921行附近")
+    sys.exit(1)
+shutil.copy(WEBUI, WEBUI + ".bak")
+open(WEBUI, "w", encoding="utf-8").write(src.replace(OLD, NEW))
+print("补丁完成，已备份 webui.py.bak")

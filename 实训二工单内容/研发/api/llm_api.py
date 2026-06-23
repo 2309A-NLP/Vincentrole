@@ -1,1 +1,110 @@
-ZnJvbSBmYXN0YXBpIGltcG9ydCBGYXN0QVBJLCBIVFRQRXhjZXB0aW9uLCBRdWVyeQpmcm9tIHB5ZGFudGljIGltcG9ydCBCYXNlTW9kZWwKZnJvbSBsb2d1cnUgaW1wb3J0IGxvZ2dlcgppbXBvcnQgZ2MsIHRvcmNoCmltcG9ydCBzeXMKc3lzLnBhdGguYXBwZW5kKCcuLycpCmFwcCA9IEZhc3RBUEkoKQoKIyDlhajlsYDlj5jph4/nlKjkuo7lrZjlgqjlvZPliY3liqDovb3nmoRMTE3mqKHlnosKZnJvbSBMTE0gaW1wb3J0IExMTQpsbG1fY2xhc3MgPSBMTE0obW9kZT0nb2ZmbGluZScpCgojIOm7mOiupOS4jeS9v+eUqExMTeaooeWei++8jOebtOaOpeWbnuWkjemXrumimO+8jOWQjOaXtuWHj+WwkeaYvuWtmOWNoOeUqO+8gQpsbG0gPSBsbG1fY2xhc3MuaW5pdF9tb2RlbCgn55u05o6l5Zue5aSNIERpcmVjdCBSZXBseScpCgojIOm7mOiupOezu+e7n+aPkOekuuivrQpQUkVGSVhfUFJPTVBUID0gJ+ivt+eUqOWwkeS6jjI15Liq5a2X5Zue562U5Lul5LiL6Zeu6aKYXG5cbicKUFJFRklYX1BST01QVCA9ICcnCgpERUZBVUxUX1NZU1RFTSA9ICfkvaDmmK/kuIDkuKrlvojmnInluK7liqnnmoTliqnmiYsnCgpjbGFzcyBMTE1SZXF1ZXN0KEJhc2VNb2RlbCk6CiAgICBxdWVzdGlvbjogc3RyID0gJ+ivt+mXruS7gOS5iOaYr0Zhc3RBUEnvvJ8nCiAgICBtb2RlbF9uYW1lOiBzdHIgPSAnTGlubHknCiAgICBnZW1pbmlfYXBpa2V5OiBzdHIgPSAnJyAgIyBHZW1pbmnmqKHlnovnmoRBUEnlr4bpkqUKICAgIG9wZW5haV9hcGlrZXk6IHN0ciA9ICcnICAjIE9wZW5BSeeahEFQSeWvhumSpQogICAgcHJveHlfdXJsOiBzdHIgPSBOb25lICAjIOS7o+eQhlVSTAoKQGFwcC5wb3N0KCIvbGxtX2NoYW5nZV9tb2RlbC8iKQphc3luYyBkZWYgY2hhbmdlX21vZGVsKAogICAgbW9kZWxfbmFtZTogc3RyID0gUXVlcnkoLi4uLCBkZXNjcmlwdGlvbj0i6KaB5Yqg6L2955qETExN5qih5Z6L5ZCN56ewIiksCiAgICBnZW1pbmlfYXBpa2V5OiBzdHIgPSBRdWVyeSgnJywgZGVzY3JpcHRpb249IkdlbWluaSBBUEkg5a+G6ZKlIiksCiAgICBvcGVuYWlfYXBpa2V5OiBzdHIgPSBRdWVyeSgnJywgZGVzY3JpcHRpb249Ik9wZW5BSSBBUEkg5a+G6ZKlIiksCiAgICBwcm94eV91cmw6IHN0ciA9IFF1ZXJ5KE5vbmUsIGRlc2NyaXB0aW9uPSLku6PnkIYgVVJMIikKKToKICAgICIiIuabtOaNokxMTeaooeWei+W5tuWKoOi9veebuOW6lOi1hOa6kOOAgiIiIgogICAgZ2xvYmFsIGxsbQoKICAgICMg5riF55CG5pi+5a2Y77yI5YW35L2T5a6e546w5L6d6LWW5LqO5qih5Z6L5bqT77yJCiAgICBhd2FpdCBjbGVhcl9tZW1vcnkoKQoKICAgIHRyeToKICAgICAgICBpZiBtb2RlbF9uYW1lID09ICdMaW5seSc6CiAgICAgICAgICAgIGxsbSA9IGxsbV9jbGFzcy5pbml0X21vZGVsKCdMaW5seScsICdMaW5seS1BSS9DaGluZXNlLUxMYU1BLTItN0ItaGYnLCBwcmVmaXhfcHJvbXB0PVBSRUZJWF9QUk9NUFQpCiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJMaW5seeaooeWei+WvvOWFpeaIkOWKnyIpCiAgICAgICAgZWxpZiBtb2RlbF9uYW1lIGluIFsnUXdlbicsICdRd2VuMiddOgogICAgICAgICAgICBtb2RlbF9wYXRoID0gJ1F3ZW4vUXdlbi0xXzhCLUNoYXQnIGlmIG1vZGVsX25hbWUgPT0gJ1F3ZW4nIGVsc2UgJ1F3ZW4vUXdlbjEuNS0wLjVCLUNoYXQnCiAgICAgICAgICAgIGxsbSA9IGxsbV9jbGFzcy5pbml0X21vZGVsKG1vZGVsX25hbWUsIG1vZGVsX3BhdGgsIHByZWZpeF9wcm9tcHQ9UFJFRklYX1BST01QVCkKICAgICAgICAgICAgbG9nZ2VyLmluZm8oZiJ7bW9kZWxfbmFtZX0g5qih5Z6L5a+85YWl5oiQ5YqfIikKICAgICAgICBlbGlmIG1vZGVsX25hbWUgPT0gJ0dlbWluaSc6CiAgICAgICAgICAgIGlmIGdlbWluaV9hcGlrZXk6CiAgICAgICAgICAgICAgICBsbG0gPSBsbG1fY2xhc3MuaW5pdF9tb2RlbCgnR2VtaW5pJywgJ2dlbWluaS1wcm8nLCBnZW1pbmlfYXBpa2V5LCBwcm94eV91cmwpCiAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbygiR2VtaW5p5qih5Z6L5a+85YWl5oiQ5YqfIikKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAwLCBkZXRhaWw9Iuivt+Whq+WGmUdlbWluaeeahEFQSeWvhumSpSIpCiAgICAgICAgZWxpZiBtb2RlbF9uYW1lID09ICdDaGF0R0xNJzoKICAgICAgICAgICAgbGxtID0gbGxtX2NsYXNzLmluaXRfbW9kZWwoJ0NoYXRHTE0nLCAnVEhVRE0vY2hhdGdsbTMtNmInLCBwcmVmaXhfcHJvbXB0PVBSRUZJWF9QUk9NUFQpCiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJDaGF0R0xN5qih5Z6L5a+85YWl5oiQ5YqfIikKICAgICAgICBlbGlmIG1vZGVsX25hbWUgPT0gJ0NoYXRHUFQnOgogICAgICAgICAgICBpZiBvcGVuYWlfYXBpa2V5OgogICAgICAgICAgICAgICAgbGxtID0gbGxtX2NsYXNzLmluaXRfbW9kZWwoJ0NoYXRHUFQnLCBhcGlfa2V5PW9wZW5haV9hcGlrZXksIHByb3h5X3VybD1wcm94eV91cmwsIHByZWZpeF9wcm9tcHQ9UFJFRklYX1BST01QVCkKICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJDaGF0R1BU5qih5Z6L5a+85YWl5oiQ5YqfIikKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAwLCBkZXRhaWw9Iuivt+Whq+WGmU9wZW5BSeeahEFQSeWvhumSpSIpCiAgICAgICAgZWxpZiBtb2RlbF9uYW1lID09ICdHUFQ0RnJlZSc6CiAgICAgICAgICAgIGxsbSA9IGxsbV9jbGFzcy5pbml0X21vZGVsKCdHUFQ0RnJlZScsIHByZWZpeF9wcm9tcHQ9UFJFRklYX1BST01QVCkKICAgICAgICAgICAgbG9nZ2VyLmluZm8oIkdQVDRGcmVl5qih5Z6L5a+85YWl5oiQ5Yqf77yM6K+35rOo5oSP6K+l5qih5Z6L5Y+v6IO95LiN56iz5a6aIikKICAgICAgICBlbGlmIG1vZGVsX25hbWUgPT0gJ+ebtOaOpeWbnuWkjSBEaXJlY3QgUmVwbHknOgogICAgICAgICAgICBsbG0gPSBsbG1fY2xhc3MuaW5pdF9tb2RlbChtb2RlbF9uYW1lKQogICAgICAgICAgICBsb2dnZXIuaW5mbygi55u05o6l5Zue5aSN5qih5byP5r+A5rS777yM5LiN5L2/55SoTExN5qih5Z6LIikKICAgICAgICBlbHNlOgogICAgICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwMCwgZGV0YWlsPWYi5pyq55+l55qETExN5qih5Z6LOiB7bW9kZWxfbmFtZX0iKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIGxvZ2dlci5lcnJvcihmInttb2RlbF9uYW1lfeaooeWei+WKoOi9veWksei0pToge2V9IikKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTUwMCwgZGV0YWlsPWYie21vZGVsX25hbWV95qih5Z6L5Yqg6L295aSx6LSlOiB7ZX0iKQoKICAgIHJldHVybiB7Im1lc3NhZ2UiOiBmInttb2RlbF9uYW1lfSDmqKHlnovliqDovb3miJDlip8ifQoKQGFwcC5wb3N0KCIvbGxtX3Jlc3BvbnNlLyIpCmFzeW5jIGRlZiBsbG1fcmVzcG9uc2UocmVxdWVzdDogTExNUmVxdWVzdCk6CiAgICAiIiLlpITnkIZMTE3mqKHlnovnmoTpl67nrZTor7fmsYLjgIIiIiIKICAgIGdsb2JhbCBsbG0KCiAgICBpZiBub3QgcmVxdWVzdC5xdWVzdGlvbjoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwMCwgZGV0YWlsPSLpl67popjlhoXlrrnkuI3og73kuLrnqboiKQoKICAgIGlmIGxsbSBpcyBOb25lOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAwLCBkZXRhaWw9IkxMTeaooeWei+acquWKoOi9ve+8jOivt+WFiOWKoOi9veaooeWeiyIpCgogICAgdHJ5OgogICAgICAgIGFuc3dlciA9IGxsbS5nZW5lcmF0ZShyZXF1ZXN0LnF1ZXN0aW9uLCBERUZBVUxUX1NZU1RFTSkKICAgICAgICBsb2dnZXIuaW5mbyhmIkxMTSDlm57lpI3vvJp7YW5zd2VyfSIpCiAgICAgICAgcmV0dXJuIHsiYW5zd2VyIjogYW5zd2VyfQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIGxvZ2dlci5lcnJvcihmIuWkhOeQhkxMTeivt+axguWksei0pToge2V9IikKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTUwMCwgZGV0YWlsPWYi5aSE55CGTExN6K+35rGC5aSx6LSlOiB7ZX0iKQoKYXN5bmMgZGVmIGNsZWFyX21lbW9yeSgpOgogICAgIiIi5riF55CG5pi+5a2Y55qE5byC5q2l5Ye95pWwIiIiCiAgICBsb2dnZXIuaW5mbygi5riF55CG5pi+5a2Y6LWE5rqQIikKICAgIGdjLmNvbGxlY3QoKQogICAgaWYgdG9yY2guY3VkYS5pc19hdmFpbGFibGUoKToKICAgICAgICB0b3JjaC5jdWRhLmVtcHR5X2NhY2hlKCkKICAgICAgICB0b3JjaC5jdWRhLmlwY19jb2xsZWN0KCkKICAgICAgICBsb2dnZXIuaW5mbyhmIuaYvuWtmOS9v+eUqOaDheWGtToge3RvcmNoLmN1ZGEubWVtb3J5X2FsbG9jYXRlZCgpIC8gKDEwMjQgKiogMik6LjJmfSBNQiIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGltcG9ydCB1dmljb3JuCiAgICB1dmljb3JuLnJ1bihhcHAsIGhvc3Q9IjAuMC4wLjAiLCBwb3J0PTgwMDIp
+from fastapi import FastAPI, HTTPException, Query
+from pydantic import BaseModel
+from loguru import logger
+import gc, torch
+import sys
+sys.path.append('./')
+app = FastAPI()
+
+# 全局变量用于存储当前加载的LLM模型
+from LLM import LLM
+llm_class = LLM(mode='offline')
+
+# 默认不使用LLM模型，直接回复问题，同时减少显存占用！
+llm = llm_class.init_model('直接回复 Direct Reply')
+
+# 默认系统提示语
+PREFIX_PROMPT = '请用少于25个字回答以下问题\n\n'
+PREFIX_PROMPT = ''
+
+DEFAULT_SYSTEM = '你是一个很有帮助的助手'
+
+class LLMRequest(BaseModel):
+    question: str = '请问什么是FastAPI？'
+    model_name: str = 'Linly'
+    gemini_apikey: str = ''  # Gemini模型的API密钥
+    openai_apikey: str = ''  # OpenAI的API密钥
+    proxy_url: str = None  # 代理URL
+
+@app.post("/llm_change_model/")
+async def change_model(
+    model_name: str = Query(..., description="要加载的LLM模型名称"),
+    gemini_apikey: str = Query('', description="Gemini API 密钥"),
+    openai_apikey: str = Query('', description="OpenAI API 密钥"),
+    proxy_url: str = Query(None, description="代理 URL")
+):
+    """更换LLM模型并加载相应资源。"""
+    global llm
+
+    # 清理显存（具体实现依赖于模型库）
+    await clear_memory()
+
+    try:
+        if model_name == 'Linly':
+            llm = llm_class.init_model('Linly', 'Linly-AI/Chinese-LLaMA-2-7B-hf', prefix_prompt=PREFIX_PROMPT)
+            logger.info("Linly模型导入成功")
+        elif model_name in ['Qwen', 'Qwen2']:
+            model_path = 'Qwen/Qwen-1_8B-Chat' if model_name == 'Qwen' else 'Qwen/Qwen1.5-0.5B-Chat'
+            llm = llm_class.init_model(model_name, model_path, prefix_prompt=PREFIX_PROMPT)
+            logger.info(f"{model_name} 模型导入成功")
+        elif model_name == 'Gemini':
+            if gemini_apikey:
+                llm = llm_class.init_model('Gemini', 'gemini-pro', gemini_apikey, proxy_url)
+                logger.info("Gemini模型导入成功")
+            else:
+                raise HTTPException(status_code=400, detail="请填写Gemini的API密钥")
+        elif model_name == 'ChatGLM':
+            llm = llm_class.init_model('ChatGLM', 'THUDM/chatglm3-6b', prefix_prompt=PREFIX_PROMPT)
+            logger.info("ChatGLM模型导入成功")
+        elif model_name == 'ChatGPT':
+            if openai_apikey:
+                llm = llm_class.init_model('ChatGPT', api_key=openai_apikey, proxy_url=proxy_url, prefix_prompt=PREFIX_PROMPT)
+                logger.info("ChatGPT模型导入成功")
+            else:
+                raise HTTPException(status_code=400, detail="请填写OpenAI的API密钥")
+        elif model_name == 'GPT4Free':
+            llm = llm_class.init_model('GPT4Free', prefix_prompt=PREFIX_PROMPT)
+            logger.info("GPT4Free模型导入成功，请注意该模型可能不稳定")
+        elif model_name == '直接回复 Direct Reply':
+            llm = llm_class.init_model(model_name)
+            logger.info("直接回复模式激活，不使用LLM模型")
+        else:
+            raise HTTPException(status_code=400, detail=f"未知的LLM模型: {model_name}")
+    except Exception as e:
+        logger.error(f"{model_name}模型加载失败: {e}")
+        raise HTTPException(status_code=500, detail=f"{model_name}模型加载失败: {e}")
+
+    return {"message": f"{model_name} 模型加载成功"}
+
+@app.post("/llm_response/")
+async def llm_response(request: LLMRequest):
+    """处理LLM模型的问答请求。"""
+    global llm
+
+    if not request.question:
+        raise HTTPException(status_code=400, detail="问题内容不能为空")
+
+    if llm is None:
+        raise HTTPException(status_code=400, detail="LLM模型未加载，请先加载模型")
+
+    try:
+        answer = llm.generate(request.question, DEFAULT_SYSTEM)
+        logger.info(f"LLM 回复：{answer}")
+        return {"answer": answer}
+    except Exception as e:
+        logger.error(f"处理LLM请求失败: {e}")
+        raise HTTPException(status_code=500, detail=f"处理LLM请求失败: {e}")
+
+async def clear_memory():
+    """清理显存的异步函数"""
+    logger.info("清理显存资源")
+    gc.collect()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        torch.cuda.ipc_collect()
+        logger.info(f"显存使用情况: {torch.cuda.memory_allocated() / (1024 ** 2):.2f} MB")
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8002)

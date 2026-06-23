@@ -1,1 +1,2 @@
-ZnJvbSAuaHJuZXQgaW1wb3J0ICoKZnJvbSAubW9iaWxlbmV0IGltcG9ydCAqCg==
+from .hrnet import *
+from .mobilenet import *

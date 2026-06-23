@@ -1,1 +1,41 @@
-ZnJvbSB0cWRtIGltcG9ydCB0cWRtCmltcG9ydCB0b3JjaApmcm9tIHRvcmNoIGltcG9ydCBubgoKCmNsYXNzIEF1ZGlvMkV4cChubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG5ldEcsIGNmZywgZGV2aWNlLCBwcmVwYXJlX3RyYWluaW5nX2xvc3M9RmFsc2UpOgogICAgICAgIHN1cGVyKEF1ZGlvMkV4cCwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYuY2ZnID0gY2ZnCiAgICAgICAgc2VsZi5kZXZpY2UgPSBkZXZpY2UKICAgICAgICBzZWxmLm5ldEcgPSBuZXRHLnRvKGRldmljZSkKCiAgICBkZWYgdGVzdChzZWxmLCBiYXRjaCk6CgogICAgICAgIG1lbF9pbnB1dCA9IGJhdGNoWydpbmRpdl9tZWxzJ10gICAgICAgICAgICAgICAgICAgICAgICAgIyBicyBUIDEgODAgMTYKICAgICAgICBicyA9IG1lbF9pbnB1dC5zaGFwZVswXQogICAgICAgIFQgPSBtZWxfaW5wdXQuc2hhcGVbMV0KCiAgICAgICAgZXhwX2NvZWZmX3ByZWQgPSBbXQoKICAgICAgICBmb3IgaSBpbiB0cWRtKHJhbmdlKDAsIFQsIDEwKSwnYXVkaW8yZXhwOicpOiAjIGV2ZXJ5IDEwIGZyYW1lcwogICAgICAgICAgICAKICAgICAgICAgICAgY3VycmVudF9tZWxfaW5wdXQgPSBtZWxfaW5wdXRbOixpOmkrMTBdCgogICAgICAgICAgICAjcmVmID0gYmF0Y2hbJ3JlZiddWzosIDosIDo2NF0ucmVwZWF0KCgxLGN1cnJlbnRfbWVsX2lucHV0LnNoYXBlWzFdLDEpKSAgICAgICAgICAgI2JzIFQgNjQKICAgICAgICAgICAgcmVmID0gYmF0Y2hbJ3JlZiddWzosIDosIDo2NF1bOiwgaTppKzEwXQogICAgICAgICAgICByYXRpbyA9IGJhdGNoWydyYXRpb19ndCddWzosIGk6aSsxMF0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgI2JzIFQKCiAgICAgICAgICAgIGF1ZGlveCA9IGN1cnJlbnRfbWVsX2lucHV0LnZpZXcoLTEsIDEsIDgwLCAxNikgICAgICAgICAgICAgICAgICAjIGJzKlQgMSA4MCAxNgoKICAgICAgICAgICAgY3Vycl9leHBfY29lZmZfcHJlZCAgPSBzZWxmLm5ldEcoYXVkaW94LCByZWYsIHJhdGlvKSAgICAgICAgICMgYnMgVCA2NCAKCiAgICAgICAgICAgIGV4cF9jb2VmZl9wcmVkICs9IFtjdXJyX2V4cF9jb2VmZl9wcmVkXQoKICAgICAgICAjIEJTIHggVCB4IDY0CiAgICAgICAgcmVzdWx0c19kaWN0ID0gewogICAgICAgICAgICAnZXhwX2NvZWZmX3ByZWQnOiB0b3JjaC5jYXQoZXhwX2NvZWZmX3ByZWQsIGF4aXM9MSkKICAgICAgICAgICAgfQogICAgICAgIHJldHVybiByZXN1bHRzX2RpY3QKCgo=
+from tqdm import tqdm
+import torch
+from torch import nn
+
+
+class Audio2Exp(nn.Module):
+    def __init__(self, netG, cfg, device, prepare_training_loss=False):
+        super(Audio2Exp, self).__init__()
+        self.cfg = cfg
+        self.device = device
+        self.netG = netG.to(device)
+
+    def test(self, batch):
+
+        mel_input = batch['indiv_mels']                         # bs T 1 80 16
+        bs = mel_input.shape[0]
+        T = mel_input.shape[1]
+
+        exp_coeff_pred = []
+
+        for i in tqdm(range(0, T, 10),'audio2exp:'): # every 10 frames
+            
+            current_mel_input = mel_input[:,i:i+10]
+
+            #ref = batch['ref'][:, :, :64].repeat((1,current_mel_input.shape[1],1))           #bs T 64
+            ref = batch['ref'][:, :, :64][:, i:i+10]
+            ratio = batch['ratio_gt'][:, i:i+10]                               #bs T
+
+            audiox = current_mel_input.view(-1, 1, 80, 16)                  # bs*T 1 80 16
+
+            curr_exp_coeff_pred  = self.netG(audiox, ref, ratio)         # bs T 64 
+
+            exp_coeff_pred += [curr_exp_coeff_pred]
+
+        # BS x T x 64
+        results_dict = {
+            'exp_coeff_pred': torch.cat(exp_coeff_pred, axis=1)
+            }
+        return results_dict
+
+

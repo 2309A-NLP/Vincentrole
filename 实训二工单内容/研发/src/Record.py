@@ -1,1 +1,70 @@
-aW1wb3J0IHB5YXVkaW8KaW1wb3J0IHdhdmUKaW1wb3J0IGF1ZGlvb3AKCmNsYXNzIFJlY29yZDoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBvdXRwdXRfZmlsZSwgc2lsZW5jZV90aHJlc2hvbGQ9MTAwMCk6CiAgICAgICAgc2VsZi5vdXRwdXRfZmlsZSA9IG91dHB1dF9maWxlCiAgICAgICAgc2VsZi5zaWxlbmNlX3RocmVzaG9sZCA9IHNpbGVuY2VfdGhyZXNob2xkCgogICAgICAgICMg6K6+572u5b2V6Z+z5Y+C5pWwCiAgICAgICAgc2VsZi5mb3JtYXQgPSBweWF1ZGlvLnBhSW50MTYKICAgICAgICBzZWxmLmNoYW5uZWxzID0gMQogICAgICAgIHNlbGYuc2FtcGxlX3JhdGUgPSA0NDEwMAogICAgICAgIHNlbGYuY2h1bmsgPSAxMDI0CiAgICAgICAgc2VsZi5hdWRpbyA9IHB5YXVkaW8uUHlBdWRpbygpCgogICAgZGVmIHN0YXJ0X3JlY29yZGluZyhzZWxmKToKICAgICAgICAjIOaJk+W8gOmfs+mikea1gQogICAgICAgIHN0cmVhbSA9IHNlbGYuYXVkaW8ub3Blbihmb3JtYXQ9c2VsZi5mb3JtYXQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2hhbm5lbHM9c2VsZi5jaGFubmVscywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXRlPXNlbGYuc2FtcGxlX3JhdGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXQ9VHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmcmFtZXNfcGVyX2J1ZmZlcj1zZWxmLmNodW5rKQoKICAgICAgICBwcmludCgi5byA5aeL5b2V6Z+zLi4uIikKCiAgICAgICAgZnJhbWVzID0gW10KICAgICAgICBzaWxlbmNlX2NvdW50ZXIgPSAwCgogICAgICAgICMg5b2V5Yi26Z+z6aKRCiAgICAgICAgd2hpbGUgVHJ1ZToKICAgICAgICAgICAgZGF0YSA9IHN0cmVhbS5yZWFkKHNlbGYuY2h1bmspCiAgICAgICAgICAgIGZyYW1lcy5hcHBlbmQoZGF0YSkKCiAgICAgICAgICAgICMg6K6h566X6Z+z6aKR6IO96YeP77yIUk1T77yJCiAgICAgICAgICAgIHJtcyA9IGF1ZGlvb3Aucm1zKGRhdGEsIDIpICAjIDLooajnpLrmoLfmnKznmoTlrr3luqbkuLoy5a2X6IqC77yIMTbkvY3vvIkKCiAgICAgICAgICAgIGlmIHJtcyA8IHNlbGYuc2lsZW5jZV90aHJlc2hvbGQ6CiAgICAgICAgICAgICAgICBzaWxlbmNlX2NvdW50ZXIgKz0gMQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgc2lsZW5jZV9jb3VudGVyID0gMAoKICAgICAgICAgICAgIyDlpoLmnpzov57nu63kuIDmrrXml7bpl7Tpg73mo4DmtYvliLDpnZnpn7PvvIzliJnorqTkuLrlvZXpn7Pnu5PmnZ8KICAgICAgICAgICAgaWYgc2lsZW5jZV9jb3VudGVyID49IDEwMDogICMg5YGH6K6+5q+P5LiqY2h1bmvkuLoxMOavq+enku+8jOi/nue7rTHnp5LnmoTpnZnpn7MKICAgICAgICAgICAgICAgIGJyZWFrCgogICAgICAgIHByaW50KCLlvZXpn7Pnu5PmnZ8uIikKCiAgICAgICAgIyDlhbPpl63mtYEKICAgICAgICBzdHJlYW0uc3RvcF9zdHJlYW0oKQogICAgICAgIHN0cmVhbS5jbG9zZSgpCiAgICAgICAgc2VsZi5hdWRpby50ZXJtaW5hdGUoKQoKICAgICAgICAjIOWwhuW9leWItueahOmfs+mikeS/neWtmOWIsFdBVuaWh+S7tgogICAgICAgIHdpdGggd2F2ZS5vcGVuKHNlbGYub3V0cHV0X2ZpbGUsICd3YicpIGFzIHdmOgogICAgICAgICAgICB3Zi5zZXRuY2hhbm5lbHMoc2VsZi5jaGFubmVscykKICAgICAgICAgICAgd2Yuc2V0c2FtcHdpZHRoKHNlbGYuYXVkaW8uZ2V0X3NhbXBsZV9zaXplKHNlbGYuZm9ybWF0KSkKICAgICAgICAgICAgd2Yuc2V0ZnJhbWVyYXRlKHNlbGYuc2FtcGxlX3JhdGUpCiAgICAgICAgICAgIHdmLndyaXRlZnJhbWVzKGInJy5qb2luKGZyYW1lcykpCgoKZGVmIHRlc3QoKToKICAgICMg5Yib5bu6UmVjb3Jk5a+56LGh5bm25byA5aeL5b2V6Z+zCiAgICBvdXRwdXRfZmlsZSA9ICJyZWNvcmRpbmcud2F2IiAgIyDovpPlh7rmlofku7blkI0KICAgIHNpbGVuY2VfdGhyZXNob2xkID0gNTAwICAjIOmdmemfs+mYiOWAvAoKICAgIHJlY29yZGVyID0gUmVjb3JkKG91dHB1dF9maWxlLCBzaWxlbmNlX3RocmVzaG9sZCkKICAgIHJlY29yZGVyLnN0YXJ0X3JlY29yZGluZygpCgojIHRlc3QoKQ==
+import pyaudio
+import wave
+import audioop
+
+class Record:
+    def __init__(self, output_file, silence_threshold=1000):
+        self.output_file = output_file
+        self.silence_threshold = silence_threshold
+
+        # 设置录音参数
+        self.format = pyaudio.paInt16
+        self.channels = 1
+        self.sample_rate = 44100
+        self.chunk = 1024
+        self.audio = pyaudio.PyAudio()
+
+    def start_recording(self):
+        # 打开音频流
+        stream = self.audio.open(format=self.format,
+                                channels=self.channels,
+                                rate=self.sample_rate,
+                                input=True,
+                                frames_per_buffer=self.chunk)
+
+        print("开始录音...")
+
+        frames = []
+        silence_counter = 0
+
+        # 录制音频
+        while True:
+            data = stream.read(self.chunk)
+            frames.append(data)
+
+            # 计算音频能量（RMS）
+            rms = audioop.rms(data, 2)  # 2表示样本的宽度为2字节（16位）
+
+            if rms < self.silence_threshold:
+                silence_counter += 1
+            else:
+                silence_counter = 0
+
+            # 如果连续一段时间都检测到静音，则认为录音结束
+            if silence_counter >= 100:  # 假设每个chunk为10毫秒，连续1秒的静音
+                break
+
+        print("录音结束.")
+
+        # 关闭流
+        stream.stop_stream()
+        stream.close()
+        self.audio.terminate()
+
+        # 将录制的音频保存到WAV文件
+        with wave.open(self.output_file, 'wb') as wf:
+            wf.setnchannels(self.channels)
+            wf.setsampwidth(self.audio.get_sample_size(self.format))
+            wf.setframerate(self.sample_rate)
+            wf.writeframes(b''.join(frames))
+
+
+def test():
+    # 创建Record对象并开始录音
+    output_file = "recording.wav"  # 输出文件名
+    silence_threshold = 500  # 静音阈值
+
+    recorder = Record(output_file, silence_threshold)
+    recorder.start_recording()
+
+# test()

@@ -1,1 +1,283 @@
-aW1wb3J0IHN5cwpzeXMucGF0aC5hcHBlbmQoJy4vJykKCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgY3YyLCBvcywgIHN1YnByb2Nlc3MKZnJvbSB0cWRtIGltcG9ydCB0cWRtCmltcG9ydCB0b3JjaAppbXBvcnQgcGxhdGZvcm0KZnJvbSBzcmMubW9kZWxzIGltcG9ydCBXYXYyTGlwIGFzIHdhdjJsaXBfbWRvZWwKZnJvbSBzcmMudXRpbHMgaW1wb3J0IGF1ZGlvCmltcG9ydCBmYWNlX2RldGVjdGlvbgoKY2xhc3MgV2F2MkxpcDoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBwYXRoID0gJ2NoZWNrcG9pbnRzL3dhdjJsaXAucHRoJyk6CiAgICAgICAgc2VsZi5mcHMgPSAyNQogICAgICAgIHNlbGYucmVzaXplX2ZhY3RvciA9IDEKICAgICAgICBzZWxmLm1lbF9zdGVwX3NpemUgPSAxNgogICAgICAgIHNlbGYuc3RhdGljID0gRmFsc2UKICAgICAgICBzZWxmLmltZ19zaXplID0gOTYKICAgICAgICBzZWxmLmZhY2VfZGV0X2JhdGNoX3NpemUgPSA4CiAgICAgICAgc2VsZi5ib3ggPSBbLTEsIC0xLCAtMSwgLTFdCiAgICAgICAgc2VsZi5wYWRzID0gWzAsIDEwLCAwLCAwXQogICAgICAgIHNlbGYubm9zbW9vdGggPSBGYWxzZQogICAgICAgIHNlbGYuZGV2aWNlID0gJ2N1ZGEnIGlmIHRvcmNoLmN1ZGEuaXNfYXZhaWxhYmxlKCkgZWxzZSAnY3B1JwogICAgICAgIHNlbGYubW9kZWwgPSBzZWxmLmxvYWRfbW9kZWwocGF0aCkKCiAgICBkZWYgbG9hZF9tb2RlbChzZWxmLCBjaGVja3BvaW50X3BhdGgpOgogICAgICAgIG1vZGVsID0gd2F2MmxpcF9tZG9lbCgpCiAgICAgICAgcHJpbnQoIkxvYWQgY2hlY2twb2ludCBmcm9tOiB7fSIuZm9ybWF0KGNoZWNrcG9pbnRfcGF0aCkpCiAgICAgICAgaWYgc2VsZi5kZXZpY2UgPT0gJ2N1ZGEnOgogICAgICAgICAgICBjaGVja3BvaW50ID0gdG9yY2gubG9hZChjaGVja3BvaW50X3BhdGgpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgY2hlY2twb2ludCA9IHRvcmNoLmxvYWQoY2hlY2twb2ludF9wYXRoLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXBfbG9jYXRpb249bGFtYmRhIHN0b3JhZ2UsIGxvYzogc3RvcmFnZSkKICAgICAgICBzID0gY2hlY2twb2ludFsic3RhdGVfZGljdCJdCiAgICAgICAgbmV3X3MgPSB7fQogICAgICAgIGZvciBrLCB2IGluIHMuaXRlbXMoKToKICAgICAgICAgICAgbmV3X3Nbay5yZXBsYWNlKCdtb2R1bGUuJywgJycpXSA9IHYKICAgICAgICBtb2RlbC5sb2FkX3N0YXRlX2RpY3QobmV3X3MpCgogICAgICAgIG1vZGVsID0gbW9kZWwudG8oc2VsZi5kZXZpY2UpCiAgICAgICAgcmV0dXJuIG1vZGVsLmV2YWwoKQoKICAgICMgZGVmIHByZWRpY3Qoc2VsZiwgZmFjZV9wYXRoLCBhdWRpb19maWxlLCBiYXRjaF9zaXplKToKICAgICMgICAgIGlmIGZhY2VfcGF0aC5zcGxpdCgnLicpWzFdIGluIFsnanBnJywgJ3BuZycsICdqcGVnJ106CiAgICAjICAgICAgICAgcmV0dXJuIHNlbGYucHJlZGljdF9pbWcoZmFjZV9wYXRoLCBhdWRpb19maWxlLCBiYXRjaF9zaXplKQogICAgIyAgICAgZWxpZiBmYWNlX3BhdGguc3BsaXQoJy4nKVsxXSA9PSAnbXA0JzoKICAgICMgICAgICAgICByZXR1cm4gc2VsZi5wcmVkaWN0X3ZpZGVvKGZhY2VfcGF0aCwgYXVkaW9fZmlsZSwgYmF0Y2hfc2l6ZSkKICAgICMgICAgIGVsc2U6CiAgICAjICAgICAgICAgcmV0dXJuIE5vbmUKICAgICAgICAgICAgICAgICAgIAogICAgZGVmIHByZWRpY3Qoc2VsZiwgZmFjZSwgYXVkaW9fZmlsZSwgYmF0Y2hfc2l6ZSwgZnBzID0gMjUsCiAgICAgICAgICAgICAgICBlbmhhbmNlID0gRmFsc2UsIHJlc2l6ZV9mYWN0b3IgPSAxLCByb3RhdGUgPSBGYWxzZSwgY3JvcCA9IFstMSwgLTEsIC0xLCAtMV0pOgogICAgICAgIG9zLm1ha2VkaXJzKCdyZXN1bHRzJywgZXhpc3Rfb2s9VHJ1ZSkKICAgICAgICBvcy5tYWtlZGlycygndGVtcCcsIGV4aXN0X29rPVRydWUpCiAgICAgICAgCiAgICAgICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKGZhY2UpOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCctLWZhY2UgYXJndW1lbnQgbXVzdCBiZSBhIHZhbGlkIHBhdGggdG8gdmlkZW8vaW1hZ2UgZmlsZScpCgogICAgICAgIGVsaWYgZmFjZS5zcGxpdCgnLicpWzFdIGluIFsnanBnJywgJ3BuZycsICdqcGVnJ106CiAgICAgICAgICAgIGZ1bGxfZnJhbWVzID0gW2N2Mi5pbXJlYWQoZmFjZSldCiAgICAgICAgICAgIGZwcyA9IGZwcwoKICAgICAgICBlbHNlOgogICAgICAgICAgICB2aWRlb19zdHJlYW0gPSBjdjIuVmlkZW9DYXB0dXJlKGZhY2UpCiAgICAgICAgICAgIGZwcyA9IHZpZGVvX3N0cmVhbS5nZXQoY3YyLkNBUF9QUk9QX0ZQUykKCiAgICAgICAgICAgIHByaW50KCdSZWFkaW5nIHZpZGVvIGZyYW1lcy4uLicpCgogICAgICAgICAgICBmdWxsX2ZyYW1lcyA9IFtdCiAgICAgICAgICAgIHdoaWxlIDE6CiAgICAgICAgICAgICAgICBzdGlsbF9yZWFkaW5nLCBmcmFtZSA9IHZpZGVvX3N0cmVhbS5yZWFkKCkKICAgICAgICAgICAgICAgIGlmIG5vdCBzdGlsbF9yZWFkaW5nOgogICAgICAgICAgICAgICAgICAgIHZpZGVvX3N0cmVhbS5yZWxlYXNlKCkKICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICAgICAgaWYgcmVzaXplX2ZhY3RvciA+IDE6CiAgICAgICAgICAgICAgICAgICAgZnJhbWUgPSBjdjIucmVzaXplKGZyYW1lLCAoZnJhbWUuc2hhcGVbMV0vL3Jlc2l6ZV9mYWN0b3IsIGZyYW1lLnNoYXBlWzBdLy9yZXNpemVfZmFjdG9yKSkKCiAgICAgICAgICAgICAgICBpZiByb3RhdGU6CiAgICAgICAgICAgICAgICAgICAgZnJhbWUgPSBjdjIucm90YXRlKGZyYW1lLCBjdjIuY3YyLlJPVEFURV85MF9DTE9DS1dJU0UpCgogICAgICAgICAgICAgICAgeTEsIHkyLCB4MSwgeDIgPSBjcm9wCiAgICAgICAgICAgICAgICBpZiB4MiA9PSAtMTogeDIgPSBmcmFtZS5zaGFwZVsxXQogICAgICAgICAgICAgICAgaWYgeTIgPT0gLTE6IHkyID0gZnJhbWUuc2hhcGVbMF0KCiAgICAgICAgICAgICAgICBmcmFtZSA9IGZyYW1lW3kxOnkyLCB4MTp4Ml0KCiAgICAgICAgICAgICAgICBmdWxsX2ZyYW1lcy5hcHBlbmQoZnJhbWUpCiAgICAgICAgcHJpbnQgKCJOdW1iZXIgb2YgZnJhbWVzIGF2YWlsYWJsZSBmb3IgaW5mZXJlbmNlOiAiK3N0cihsZW4oZnVsbF9mcmFtZXMpKSkKCiAgICAgICAgaWYgbm90IGF1ZGlvX2ZpbGUuZW5kc3dpdGgoJy53YXYnKToKICAgICAgICAgICAgcHJpbnQoJ0V4dHJhY3RpbmcgcmF3IGF1ZGlvLi4uJykKICAgICAgICAgICAgY29tbWFuZCA9ICdmZm1wZWcgLXkgLWkge30gLXN0cmljdCAtMiB7fScuZm9ybWF0KGF1ZGlvX2ZpbGUsICd0ZW1wL3RlbXAud2F2JykKCiAgICAgICAgICAgIHN1YnByb2Nlc3MuY2FsbChjb21tYW5kLCBzaGVsbD1UcnVlKQogICAgICAgICAgICBhdWRpb19maWxlID0gJ3RlbXAvdGVtcC53YXYnCgogICAgICAgIHdhdiA9IGF1ZGlvLmxvYWRfd2F2KGF1ZGlvX2ZpbGUsIDE2MDAwKQogICAgICAgIG1lbCA9IGF1ZGlvLm1lbHNwZWN0cm9ncmFtKHdhdikKICAgICAgICBwcmludChtZWwuc2hhcGUpCiAgICAgICAgCiAgICAgICAgaWYgbnAuaXNuYW4obWVsLnJlc2hhcGUoLTEpKS5zdW0oKSA+IDA6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoJ01lbCBjb250YWlucyBuYW4hIFVzaW5nIGEgVFRTIHZvaWNlPyBBZGQgYSBzbWFsbCBlcHNpbG9uIG5vaXNlIHRvIHRoZSB3YXYgZmlsZSBhbmQgdHJ5IGFnYWluJykKICAgICAgICAgICAgCiAgICAgICAgbWVsX2NodW5rcyA9IFtdCiAgICAgICAgbWVsX2lkeF9tdWx0aXBsaWVyID0gODAuL3NlbGYuZnBzIAogICAgICAgIGkgPSAwCiAgICAgICAgd2hpbGUgMToKICAgICAgICAgICAgc3RhcnRfaWR4ID0gaW50KGkgKiBtZWxfaWR4X211bHRpcGxpZXIpCiAgICAgICAgICAgIGlmIHN0YXJ0X2lkeCArIHNlbGYubWVsX3N0ZXBfc2l6ZSA+IGxlbihtZWxbMF0pOgogICAgICAgICAgICAgICAgbWVsX2NodW5rcy5hcHBlbmQobWVsWzosIGxlbihtZWxbMF0pIC0gc2VsZi5tZWxfc3RlcF9zaXplOl0pCiAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICBtZWxfY2h1bmtzLmFwcGVuZChtZWxbOiwgc3RhcnRfaWR4IDogc3RhcnRfaWR4ICsgc2VsZi5tZWxfc3RlcF9zaXplXSkKICAgICAgICAgICAgaSArPSAxCgogICAgICAgIHByaW50KCJMZW5ndGggb2YgbWVsIGNodW5rczoge30iLmZvcm1hdChsZW4obWVsX2NodW5rcykpKQoKICAgICAgICBmdWxsX2ZyYW1lcyA9IGZ1bGxfZnJhbWVzWzpsZW4obWVsX2NodW5rcyldCiAgICAgICAKICAgICAgICBiYXRjaF9zaXplID0gYmF0Y2hfc2l6ZQogICAgICAgIGdlbiA9IHNlbGYuZGF0YWdlbihmdWxsX2ZyYW1lcy5jb3B5KCksIG1lbF9jaHVua3MsIGJhdGNoX3NpemUpCiAgICAgICAgCiAgICAgICAgZm9yIGksIChpbWdfYmF0Y2gsIG1lbF9iYXRjaCwgZnJhbWVzLCBjb29yZHMpIGluIGVudW1lcmF0ZSh0cWRtKGdlbiwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvdGFsPWludChucC5jZWlsKGZsb2F0KGxlbihtZWxfY2h1bmtzKSkvYmF0Y2hfc2l6ZSkpKSk6CiAgICAgICAgICAgIGlmIGkgPT0gMDoKICAgICAgICAgICAgICAgIGZyYW1lX2gsIGZyYW1lX3cgPSBmdWxsX2ZyYW1lc1swXS5zaGFwZVs6LTFdCiAgICAgICAgICAgICAgICBvdXQgPSBjdjIuVmlkZW9Xcml0ZXIoJ3RlbXAvcmVzdWx0LmF2aScsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3YyLlZpZGVvV3JpdGVyX2ZvdXJjYygqJ0RJVlgnKSwgc2VsZi5mcHMsIChmcmFtZV93LCBmcmFtZV9oKSkKCiAgICAgICAgICAgIGltZ19iYXRjaCA9IHRvcmNoLkZsb2F0VGVuc29yKG5wLnRyYW5zcG9zZShpbWdfYmF0Y2gsICgwLCAzLCAxLCAyKSkpLnRvKHNlbGYuZGV2aWNlKQogICAgICAgICAgICBtZWxfYmF0Y2ggPSB0b3JjaC5GbG9hdFRlbnNvcihucC50cmFuc3Bvc2UobWVsX2JhdGNoLCAoMCwgMywgMSwgMikpKS50byhzZWxmLmRldmljZSkKCiAgICAgICAgICAgIHdpdGggdG9yY2gubm9fZ3JhZCgpOgogICAgICAgICAgICAgICAgcHJlZCA9IHNlbGYubW9kZWwobWVsX2JhdGNoLCBpbWdfYmF0Y2gpCgogICAgICAgICAgICBwcmVkID0gcHJlZC5jcHUoKS5udW1weSgpLnRyYW5zcG9zZSgwLCAyLCAzLCAxKSAqIDI1NS4KICAgICAgICAgICAgCiAgICAgICAgICAgIGZvciBwLCBmLCBjIGluIHppcChwcmVkLCBmcmFtZXMsIGNvb3Jkcyk6CiAgICAgICAgICAgICAgICB5MSwgeTIsIHgxLCB4MiA9IGMKICAgICAgICAgICAgICAgIHAgPSBjdjIucmVzaXplKHAuYXN0eXBlKG5wLnVpbnQ4KSwgKHgyIC0geDEsIHkyIC0geTEpKQoKICAgICAgICAgICAgICAgIGZbeTE6eTIsIHgxOngyXSA9IHAKICAgICAgICAgICAgICAgIG91dC53cml0ZShmKQoKICAgICAgICBvdXQucmVsZWFzZSgpCiAgICAgICAgaWYgZW5oYW5jZToKICAgICAgICAgICAgaW1wb3J0IGltYWdlaW8KICAgICAgICAgICAgZnJvbSBzcmMudXRpbHMuZmFjZV9lbmhhbmNlciBpbXBvcnQgZW5oYW5jZXJfZ2VuZXJhdG9yX3dpdGhfbGVuLCBlbmhhbmNlcl9saXN0CiAgICAgICAgICAgIGVuaGFuY2VyID0gJ2dmcGdhbicKICAgICAgICAgICAgYmFja2dyb3VuZF9lbmhhbmNlciA9IE5vbmUKICAgICAgICAgICAgdmlkZW9fc2F2ZV9kaXIgPSAncmVzdWx0cycKICAgICAgICAgICAgdmlkZW9fbmFtZV9lbmhhbmNlID0gJ3Jlc19lbmhhbmNlZC5tcDQnCiAgICAgICAgICAgIGVuaGFuY2VkX3BhdGggPSBvcy5wYXRoLmpvaW4odmlkZW9fc2F2ZV9kaXIsICd0ZW1wXycrdmlkZW9fbmFtZV9lbmhhbmNlKQogICAgICAgICAgICBhdl9wYXRoX2VuaGFuY2VyID0gb3MucGF0aC5qb2luKHZpZGVvX3NhdmVfZGlyLCB2aWRlb19uYW1lX2VuaGFuY2UpIAogICAgICAgICAgICByZXR1cm5fcGF0aCA9IGF2X3BhdGhfZW5oYW5jZXIKICAgICAgICAgICAgZnVsbF92aWRlb19wYXRoID0gJ3RlbXAvcmVzdWx0LmF2aScKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgZW5oYW5jZWRfaW1hZ2VzX2dlbl93aXRoX2xlbiA9IGVuaGFuY2VyX2dlbmVyYXRvcl93aXRoX2xlbihmdWxsX3ZpZGVvX3BhdGgsIG1ldGhvZD1lbmhhbmNlciwgYmdfdXBzYW1wbGVyPWJhY2tncm91bmRfZW5oYW5jZXIpCiAgICAgICAgICAgICAgICBpbWFnZWlvLm1pbXNhdmUoZW5oYW5jZWRfcGF0aCwgZW5oYW5jZWRfaW1hZ2VzX2dlbl93aXRoX2xlbiwgZnBzPWZsb2F0KHNlbGYuZnBzKSkKCiAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgIGVuaGFuY2VkX2ltYWdlc19nZW5fd2l0aF9sZW4gPSBlbmhhbmNlcl9saXN0KGZ1bGxfdmlkZW9fcGF0aCwgbWV0aG9kPWVuaGFuY2VyLCBiZ191cHNhbXBsZXI9YmFja2dyb3VuZF9lbmhhbmNlcikKICAgICAgICAgICAgICAgIGltYWdlaW8ubWltc2F2ZShlbmhhbmNlZF9wYXRoLCBlbmhhbmNlZF9pbWFnZXNfZ2VuX3dpdGhfbGVuLCBmcHM9ZmxvYXQoc2VsZi5mcHMpKQogICAgICAgICAgICBjb21tYW5kID0gJ2ZmbXBlZyAteSAtaSB7fSAtaSB7fSAtc3RyaWN0IC0yIC1xOnYgMSB7fScuZm9ybWF0KGF1ZGlvX2ZpbGUsIGVuaGFuY2VkX3BhdGgsICdyZXN1bHRzL2V4YW1wbGVfYW5zd2VyLm1wNCcpCiAgICAgICAgICAgIHN1YnByb2Nlc3MuY2FsbChjb21tYW5kLCBzaGVsbD1wbGF0Zm9ybS5zeXN0ZW0oKSAhPSAnV2luZG93cycpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgY29tbWFuZCA9ICdmZm1wZWcgLXkgLWkge30gLWkge30gLXN0cmljdCAtMiAtcTp2IDEge30nLmZvcm1hdChhdWRpb19maWxlLCAndGVtcC9yZXN1bHQuYXZpJywgJ3Jlc3VsdHMvZXhhbXBsZV9hbnN3ZXIubXA0JykKICAgICAgICAgICAgc3VicHJvY2Vzcy5jYWxsKGNvbW1hbmQsIHNoZWxsPXBsYXRmb3JtLnN5c3RlbSgpICE9ICdXaW5kb3dzJykKICAgICAgICByZXR1cm4gJ3Jlc3VsdHMvZXhhbXBsZV9hbnN3ZXIubXA0JwoKCiAgICBkZWYgZGF0YWdlbihzZWxmLCBmcmFtZXMsIG1lbHMsIGJhdGNoX3NpemUpOgogICAgICAgIGltZ19iYXRjaCwgbWVsX2JhdGNoLCBmcmFtZV9iYXRjaCwgY29vcmRzX2JhdGNoID0gW10sIFtdLCBbXSwgW10KCiAgICAgICAgaWYgc2VsZi5ib3hbMF0gPT0gLTE6CiAgICAgICAgICAgIGlmIG5vdCBzZWxmLnN0YXRpYzoKICAgICAgICAgICAgICAgIGZhY2VfZGV0X3Jlc3VsdHMgPSBzZWxmLmZhY2VfZGV0ZWN0KGZyYW1lcykgIyBCR1IyUkdCIGZvciBDTk4gZmFjZSBkZXRlY3Rpb24KICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGZhY2VfZGV0X3Jlc3VsdHMgPSBzZWxmLmZhY2VfZGV0ZWN0KFtmcmFtZXNbMF1dKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHByaW50KCdVc2luZyB0aGUgc3BlY2lmaWVkIGJvdW5kaW5nIGJveCBpbnN0ZWFkIG9mIGZhY2UgZGV0ZWN0aW9uLi4uJykKICAgICAgICAgICAgeTEsIHkyLCB4MSwgeDIgPSBzZWxmLmJveAogICAgICAgICAgICBmYWNlX2RldF9yZXN1bHRzID0gW1tmW3kxOiB5MiwgeDE6eDJdLCAoeTEsIHkyLCB4MSwgeDIpXSBmb3IgZiBpbiBmcmFtZXNdCgogICAgICAgIGZvciBpLCBtIGluIGVudW1lcmF0ZShtZWxzKToKICAgICAgICAgICAgaWR4ID0gMCBpZiBzZWxmLnN0YXRpYyBlbHNlIGklbGVuKGZyYW1lcykKICAgICAgICAgICAgZnJhbWVfdG9fc2F2ZSA9IGZyYW1lc1tpZHhdLmNvcHkoKQogICAgICAgICAgICBmYWNlLCBjb29yZHMgPSBmYWNlX2RldF9yZXN1bHRzW2lkeF0uY29weSgpCgogICAgICAgICAgICBmYWNlID0gY3YyLnJlc2l6ZShmYWNlLCAoc2VsZi5pbWdfc2l6ZSwgc2VsZi5pbWdfc2l6ZSkpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgaW1nX2JhdGNoLmFwcGVuZChmYWNlKQogICAgICAgICAgICBtZWxfYmF0Y2guYXBwZW5kKG0pCiAgICAgICAgICAgIGZyYW1lX2JhdGNoLmFwcGVuZChmcmFtZV90b19zYXZlKQogICAgICAgICAgICBjb29yZHNfYmF0Y2guYXBwZW5kKGNvb3JkcykKCiAgICAgICAgICAgIGlmIGxlbihpbWdfYmF0Y2gpID49IGJhdGNoX3NpemU6CiAgICAgICAgICAgICAgICBpbWdfYmF0Y2gsIG1lbF9iYXRjaCA9IG5wLmFzYXJyYXkoaW1nX2JhdGNoKSwgbnAuYXNhcnJheShtZWxfYmF0Y2gpCgogICAgICAgICAgICAgICAgaW1nX21hc2tlZCA9IGltZ19iYXRjaC5jb3B5KCkKICAgICAgICAgICAgICAgIGltZ19tYXNrZWRbOiwgc2VsZi5pbWdfc2l6ZS8vMjpdID0gMAoKICAgICAgICAgICAgICAgIGltZ19iYXRjaCA9IG5wLmNvbmNhdGVuYXRlKChpbWdfbWFza2VkLCBpbWdfYmF0Y2gpLCBheGlzPTMpIC8gMjU1LgogICAgICAgICAgICAgICAgbWVsX2JhdGNoID0gbnAucmVzaGFwZShtZWxfYmF0Y2gsIFtsZW4obWVsX2JhdGNoKSwgbWVsX2JhdGNoLnNoYXBlWzFdLCBtZWxfYmF0Y2guc2hhcGVbMl0sIDFdKQoKICAgICAgICAgICAgICAgIHlpZWxkIGltZ19iYXRjaCwgbWVsX2JhdGNoLCBmcmFtZV9iYXRjaCwgY29vcmRzX2JhdGNoCiAgICAgICAgICAgICAgICBpbWdfYmF0Y2gsIG1lbF9iYXRjaCwgZnJhbWVfYmF0Y2gsIGNvb3Jkc19iYXRjaCA9IFtdLCBbXSwgW10sIFtdCgogICAgICAgIGlmIGxlbihpbWdfYmF0Y2gpID4gMDoKICAgICAgICAgICAgaW1nX2JhdGNoLCBtZWxfYmF0Y2ggPSBucC5hc2FycmF5KGltZ19iYXRjaCksIG5wLmFzYXJyYXkobWVsX2JhdGNoKQoKICAgICAgICAgICAgaW1nX21hc2tlZCA9IGltZ19iYXRjaC5jb3B5KCkKICAgICAgICAgICAgaW1nX21hc2tlZFs6LCBzZWxmLmltZ19zaXplLy8yOl0gPSAwCgogICAgICAgICAgICBpbWdfYmF0Y2ggPSBucC5jb25jYXRlbmF0ZSgoaW1nX21hc2tlZCwgaW1nX2JhdGNoKSwgYXhpcz0zKSAvIDI1NS4KICAgICAgICAgICAgbWVsX2JhdGNoID0gbnAucmVzaGFwZShtZWxfYmF0Y2gsIFtsZW4obWVsX2JhdGNoKSwgbWVsX2JhdGNoLnNoYXBlWzFdLCBtZWxfYmF0Y2guc2hhcGVbMl0sIDFdKQoKICAgICAgICAgICAgeWllbGQgaW1nX2JhdGNoLCBtZWxfYmF0Y2gsIGZyYW1lX2JhdGNoLCBjb29yZHNfYmF0Y2gKCiAgICBkZWYgZmFjZV9kZXRlY3Qoc2VsZiwgaW1hZ2VzKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIGRldGVjdG9yID0gZmFjZV9kZXRlY3Rpb24uRmFjZUFsaWdubWVudChmYWNlX2RldGVjdGlvbi5MYW5kbWFya3NUeXBlLlRXT19ELCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsaXBfaW5wdXQ9RmFsc2UsIGRldmljZT1zZWxmLmRldmljZSkKICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgIGRldGVjdG9yID0gZmFjZV9kZXRlY3Rpb24uRmFjZUFsaWdubWVudChmYWNlX2RldGVjdGlvbi5MYW5kbWFya3NUeXBlLl8yRCwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbGlwX2lucHV0PUZhbHNlLCBkZXZpY2U9c2VsZi5kZXZpY2UpCgogICAgICAgIGJhdGNoX3NpemUgPSBzZWxmLmZhY2VfZGV0X2JhdGNoX3NpemUKICAgICAgICAKICAgICAgICB3aGlsZSAxOgogICAgICAgICAgICBwcmVkaWN0aW9ucyA9IFtdCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGZvciBpIGluIHRxZG0ocmFuZ2UoMCwgbGVuKGltYWdlcyksIGJhdGNoX3NpemUpKToKICAgICAgICAgICAgICAgICAgICAjIGltZ19iYXRjaCA9IHRvcmNoLnRlbnNvcihucC5hcnJheShpbWFnZXNbaTppICsgYmF0Y2hfc2l6ZV0pLCBkZXZpY2U9c2VsZi5kZXZpY2UpCiAgICAgICAgICAgICAgICAgICAgIyBpbWdfYmF0Y2ggPSBpbWdfYmF0Y2gucGVybXV0ZSgwLCAzLCAxLCAyKQogICAgICAgICAgICAgICAgICAgICMgcHJpbnQoaW1nX2JhdGNoLnNoYXBlLCB0eXBlKGltZ19iYXRjaCkpCiAgICAgICAgICAgICAgICAgICAgIyBwcmVkaWN0aW9ucy5leHRlbmQoZGV0ZWN0b3IuZ2V0X2xhbmRtYXJrc19mcm9tX2JhdGNoKGltZ19iYXRjaCkpCiAgICAgICAgICAgICAgICAgICAgcHJlZGljdGlvbnMuZXh0ZW5kKGRldGVjdG9yLmdldF9kZXRlY3Rpb25zX2Zvcl9iYXRjaChucC5hcnJheShpbWFnZXNbaTppICsgYmF0Y2hfc2l6ZV0pKSkKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgcHJpbnQoIkVycm9yIGluIGZhY2UgZGV0ZWN0aW9uOiB7fSIuZm9ybWF0KGUpKQogICAgICAgICAgICAgICAgaWYgYmF0Y2hfc2l6ZSA9PSAxOiAKICAgICAgICAgICAgICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoJ0ltYWdlIHRvbyBiaWcgdG8gcnVuIGZhY2UgZGV0ZWN0aW9uIG9uIEdQVS4gUGxlYXNlIHVzZSB0aGUgcmVzaXplX2ZhY3RvciBhcmd1bWVudCcpCiAgICAgICAgICAgICAgICBiYXRjaF9zaXplIC8vPSAyCiAgICAgICAgICAgICAgICBwcmludCgnUmVjb3ZlcmluZyBmcm9tIE9PTSBlcnJvcjsgTmV3IGJhdGNoIHNpemU6IHt9Jy5mb3JtYXQoYmF0Y2hfc2l6ZSkpCiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBicmVhawoKICAgICAgICByZXN1bHRzID0gW10KICAgICAgICBwYWR5MSwgcGFkeTIsIHBhZHgxLCBwYWR4MiA9IHNlbGYucGFkcwogICAgICAgIGZvciByZWN0LCBpbWFnZSBpbiB6aXAocHJlZGljdGlvbnMsIGltYWdlcyk6CiAgICAgICAgICAgIGlmIHJlY3QgaXMgTm9uZToKICAgICAgICAgICAgICAgIGN2Mi5pbXdyaXRlKCd0ZW1wL2ZhdWx0eV9mcmFtZS5qcGcnLCBpbWFnZSkgIyBjaGVjayB0aGlzIGZyYW1lIHdoZXJlIHRoZSBmYWNlIHdhcyBub3QgZGV0ZWN0ZWQuCiAgICAgICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCdGYWNlIG5vdCBkZXRlY3RlZCEgRW5zdXJlIHRoZSB2aWRlbyBjb250YWlucyBhIGZhY2UgaW4gYWxsIHRoZSBmcmFtZXMuJykKICAgICAgICAgICAgCiAgICAgICAgICAgIHkxID0gbWF4KDAsIHJlY3RbMV0gLSBwYWR5MSkKICAgICAgICAgICAgeTIgPSBtaW4oaW1hZ2Uuc2hhcGVbMF0sIHJlY3RbM10gKyBwYWR5MikKICAgICAgICAgICAgeDEgPSBtYXgoMCwgcmVjdFswXSAtIHBhZHgxKQogICAgICAgICAgICB4MiA9IG1pbihpbWFnZS5zaGFwZVsxXSwgcmVjdFsyXSArIHBhZHgyKQogICAgICAgICAgICAKICAgICAgICAgICAgcmVzdWx0cy5hcHBlbmQoW3gxLCB5MSwgeDIsIHkyXSkKCiAgICAgICAgYm94ZXMgPSBucC5hcnJheShyZXN1bHRzKQogICAgICAgIGlmIG5vdCBzZWxmLm5vc21vb3RoOiBib3hlcyA9IHNlbGYuZ2V0X3Ntb290aGVuZWRfYm94ZXMoYm94ZXMsIFQ9NSkKICAgICAgICByZXN1bHRzID0gW1tpbWFnZVt5MTogeTIsIHgxOngyXSwgKHkxLCB5MiwgeDEsIHgyKV0gZm9yIGltYWdlLCAoeDEsIHkxLCB4MiwgeTIpIGluIHppcChpbWFnZXMsIGJveGVzKV0KCiAgICAgICAgZGVsIGRldGVjdG9yCiAgICAgICAgcmV0dXJuIHJlc3VsdHMgCiAgICAKICAgIGRlZiBnZXRfc21vb3RoZW5lZF9ib3hlcyhzZWxmLCBib3hlcywgVCk6CiAgICAgICAgZm9yIGkgaW4gcmFuZ2UobGVuKGJveGVzKSk6CiAgICAgICAgICAgIGlmIGkgKyBUID4gbGVuKGJveGVzKToKICAgICAgICAgICAgICAgIHdpbmRvdyA9IGJveGVzW2xlbihib3hlcykgLSBUOl0KICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHdpbmRvdyA9IGJveGVzW2kgOiBpICsgVF0KICAgICAgICAgICAgYm94ZXNbaV0gPSBucC5tZWFuKHdpbmRvdywgYXhpcz0wKQogICAgICAgIHJldHVybiBib3hlcwogICAgCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICBjdXJyZW50X2RpciA9ICcuLycKICAgIHdhdjJsaXAgPSBXYXYyTGlwKG9zLnBhdGguam9pbihjdXJyZW50X2RpciwnY2hlY2twb2ludHMvd2F2MmxpcC5wdGgnKSkKICAgICMgd2F2MmxpcC5wcmVkaWN0KCcvaG9tZS9kZW5na2FpanVuL3dvcmtkaXJzL0xpbmx5LVRhbGtlci9URkcvcmVzdWx0cy90ZXN0Lm1wNCcsIG9zLnBhdGguam9pbihjdXJyZW50X2RpciwnYW5zd2VyLndhdicpLCBiYXRjaF9zaXplID0gMiwgZW5oYW5jZT1GYWxzZSkKICAgIHdhdjJsaXAucHJlZGljdChvcy5wYXRoLmpvaW4oY3VycmVudF9kaXIsJ2lucHV0cy9leGFtcGxlLnBuZycpLCBvcy5wYXRoLmpvaW4oY3VycmVudF9kaXIsJ2Fuc3dlci53YXYnKSwgYmF0Y2hfc2l6ZSA9IDIsIGVuaGFuY2U9RmFsc2UpCiAgICB3YXYybGlwLnByZWRpY3Qob3MucGF0aC5qb2luKGN1cnJlbnRfZGlyLCdpbnB1dHMvZXhhbXBsZS5wbmcnKSwgb3MucGF0aC5qb2luKGN1cnJlbnRfZGlyLCdhbnN3ZXIud2F2JyksIGJhdGNoX3NpemUgPSAyLCBlbmhhbmNlPVRydWUp
+import sys
+sys.path.append('./')
+
+import numpy as np
+import cv2, os,  subprocess
+from tqdm import tqdm
+import torch
+import platform
+from src.models import Wav2Lip as wav2lip_mdoel
+from src.utils import audio
+import face_detection
+
+class Wav2Lip:
+    def __init__(self, path = 'checkpoints/wav2lip.pth'):
+        self.fps = 25
+        self.resize_factor = 1
+        self.mel_step_size = 16
+        self.static = False
+        self.img_size = 96
+        self.face_det_batch_size = 8
+        self.box = [-1, -1, -1, -1]
+        self.pads = [0, 10, 0, 0]
+        self.nosmooth = False
+        self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        self.model = self.load_model(path)
+
+    def load_model(self, checkpoint_path):
+        model = wav2lip_mdoel()
+        print("Load checkpoint from: {}".format(checkpoint_path))
+        if self.device == 'cuda':
+            checkpoint = torch.load(checkpoint_path)
+        else:
+            checkpoint = torch.load(checkpoint_path,
+                                    map_location=lambda storage, loc: storage)
+        s = checkpoint["state_dict"]
+        new_s = {}
+        for k, v in s.items():
+            new_s[k.replace('module.', '')] = v
+        model.load_state_dict(new_s)
+
+        model = model.to(self.device)
+        return model.eval()
+
+    # def predict(self, face_path, audio_file, batch_size):
+    #     if face_path.split('.')[1] in ['jpg', 'png', 'jpeg']:
+    #         return self.predict_img(face_path, audio_file, batch_size)
+    #     elif face_path.split('.')[1] == 'mp4':
+    #         return self.predict_video(face_path, audio_file, batch_size)
+    #     else:
+    #         return None
+                   
+    def predict(self, face, audio_file, batch_size, fps = 25,
+                enhance = False, resize_factor = 1, rotate = False, crop = [-1, -1, -1, -1]):
+        os.makedirs('results', exist_ok=True)
+        os.makedirs('temp', exist_ok=True)
+        
+        if not os.path.isfile(face):
+            raise ValueError('--face argument must be a valid path to video/image file')
+
+        elif face.split('.')[1] in ['jpg', 'png', 'jpeg']:
+            full_frames = [cv2.imread(face)]
+            fps = fps
+
+        else:
+            video_stream = cv2.VideoCapture(face)
+            fps = video_stream.get(cv2.CAP_PROP_FPS)
+
+            print('Reading video frames...')
+
+            full_frames = []
+            while 1:
+                still_reading, frame = video_stream.read()
+                if not still_reading:
+                    video_stream.release()
+                    break
+                if resize_factor > 1:
+                    frame = cv2.resize(frame, (frame.shape[1]//resize_factor, frame.shape[0]//resize_factor))
+
+                if rotate:
+                    frame = cv2.rotate(frame, cv2.cv2.ROTATE_90_CLOCKWISE)
+
+                y1, y2, x1, x2 = crop
+                if x2 == -1: x2 = frame.shape[1]
+                if y2 == -1: y2 = frame.shape[0]
+
+                frame = frame[y1:y2, x1:x2]
+
+                full_frames.append(frame)
+        print ("Number of frames available for inference: "+str(len(full_frames)))
+
+        if not audio_file.endswith('.wav'):
+            print('Extracting raw audio...')
+            command = 'ffmpeg -y -i {} -strict -2 {}'.format(audio_file, 'temp/temp.wav')
+
+            subprocess.call(command, shell=True)
+            audio_file = 'temp/temp.wav'
+
+        wav = audio.load_wav(audio_file, 16000)
+        mel = audio.melspectrogram(wav)
+        print(mel.shape)
+        
+        if np.isnan(mel.reshape(-1)).sum() > 0:
+            raise ValueError('Mel contains nan! Using a TTS voice? Add a small epsilon noise to the wav file and try again')
+            
+        mel_chunks = []
+        mel_idx_multiplier = 80./self.fps 
+        i = 0
+        while 1:
+            start_idx = int(i * mel_idx_multiplier)
+            if start_idx + self.mel_step_size > len(mel[0]):
+                mel_chunks.append(mel[:, len(mel[0]) - self.mel_step_size:])
+                break
+            mel_chunks.append(mel[:, start_idx : start_idx + self.mel_step_size])
+            i += 1
+
+        print("Length of mel chunks: {}".format(len(mel_chunks)))
+
+        full_frames = full_frames[:len(mel_chunks)]
+       
+        batch_size = batch_size
+        gen = self.datagen(full_frames.copy(), mel_chunks, batch_size)
+        
+        for i, (img_batch, mel_batch, frames, coords) in enumerate(tqdm(gen, 
+                                                total=int(np.ceil(float(len(mel_chunks))/batch_size)))):
+            if i == 0:
+                frame_h, frame_w = full_frames[0].shape[:-1]
+                out = cv2.VideoWriter('temp/result.avi', 
+                                        cv2.VideoWriter_fourcc(*'DIVX'), self.fps, (frame_w, frame_h))
+
+            img_batch = torch.FloatTensor(np.transpose(img_batch, (0, 3, 1, 2))).to(self.device)
+            mel_batch = torch.FloatTensor(np.transpose(mel_batch, (0, 3, 1, 2))).to(self.device)
+
+            with torch.no_grad():
+                pred = self.model(mel_batch, img_batch)
+
+            pred = pred.cpu().numpy().transpose(0, 2, 3, 1) * 255.
+            
+            for p, f, c in zip(pred, frames, coords):
+                y1, y2, x1, x2 = c
+                p = cv2.resize(p.astype(np.uint8), (x2 - x1, y2 - y1))
+
+                f[y1:y2, x1:x2] = p
+                out.write(f)
+
+        out.release()
+        if enhance:
+            import imageio
+            from src.utils.face_enhancer import enhancer_generator_with_len, enhancer_list
+            enhancer = 'gfpgan'
+            background_enhancer = None
+            video_save_dir = 'results'
+            video_name_enhance = 'res_enhanced.mp4'
+            enhanced_path = os.path.join(video_save_dir, 'temp_'+video_name_enhance)
+            av_path_enhancer = os.path.join(video_save_dir, video_name_enhance) 
+            return_path = av_path_enhancer
+            full_video_path = 'temp/result.avi'
+            try:
+                enhanced_images_gen_with_len = enhancer_generator_with_len(full_video_path, method=enhancer, bg_upsampler=background_enhancer)
+                imageio.mimsave(enhanced_path, enhanced_images_gen_with_len, fps=float(self.fps))
+
+            except:
+                enhanced_images_gen_with_len = enhancer_list(full_video_path, method=enhancer, bg_upsampler=background_enhancer)
+                imageio.mimsave(enhanced_path, enhanced_images_gen_with_len, fps=float(self.fps))
+            command = 'ffmpeg -y -i {} -i {} -strict -2 -q:v 1 {}'.format(audio_file, enhanced_path, 'results/example_answer.mp4')
+            subprocess.call(command, shell=platform.system() != 'Windows')
+        else:
+            command = 'ffmpeg -y -i {} -i {} -strict -2 -q:v 1 {}'.format(audio_file, 'temp/result.avi', 'results/example_answer.mp4')
+            subprocess.call(command, shell=platform.system() != 'Windows')
+        return 'results/example_answer.mp4'
+
+
+    def datagen(self, frames, mels, batch_size):
+        img_batch, mel_batch, frame_batch, coords_batch = [], [], [], []
+
+        if self.box[0] == -1:
+            if not self.static:
+                face_det_results = self.face_detect(frames) # BGR2RGB for CNN face detection
+            else:
+                face_det_results = self.face_detect([frames[0]])
+        else:
+            print('Using the specified bounding box instead of face detection...')
+            y1, y2, x1, x2 = self.box
+            face_det_results = [[f[y1: y2, x1:x2], (y1, y2, x1, x2)] for f in frames]
+
+        for i, m in enumerate(mels):
+            idx = 0 if self.static else i%len(frames)
+            frame_to_save = frames[idx].copy()
+            face, coords = face_det_results[idx].copy()
+
+            face = cv2.resize(face, (self.img_size, self.img_size))
+                
+            img_batch.append(face)
+            mel_batch.append(m)
+            frame_batch.append(frame_to_save)
+            coords_batch.append(coords)
+
+            if len(img_batch) >= batch_size:
+                img_batch, mel_batch = np.asarray(img_batch), np.asarray(mel_batch)
+
+                img_masked = img_batch.copy()
+                img_masked[:, self.img_size//2:] = 0
+
+                img_batch = np.concatenate((img_masked, img_batch), axis=3) / 255.
+                mel_batch = np.reshape(mel_batch, [len(mel_batch), mel_batch.shape[1], mel_batch.shape[2], 1])
+
+                yield img_batch, mel_batch, frame_batch, coords_batch
+                img_batch, mel_batch, frame_batch, coords_batch = [], [], [], []
+
+        if len(img_batch) > 0:
+            img_batch, mel_batch = np.asarray(img_batch), np.asarray(mel_batch)
+
+            img_masked = img_batch.copy()
+            img_masked[:, self.img_size//2:] = 0
+
+            img_batch = np.concatenate((img_masked, img_batch), axis=3) / 255.
+            mel_batch = np.reshape(mel_batch, [len(mel_batch), mel_batch.shape[1], mel_batch.shape[2], 1])
+
+            yield img_batch, mel_batch, frame_batch, coords_batch
+
+    def face_detect(self, images):
+        try:
+            detector = face_detection.FaceAlignment(face_detection.LandmarksType.TWO_D, 
+                                                    flip_input=False, device=self.device)
+        except:
+            detector = face_detection.FaceAlignment(face_detection.LandmarksType._2D, 
+                                                    flip_input=False, device=self.device)
+
+        batch_size = self.face_det_batch_size
+        
+        while 1:
+            predictions = []
+            try:
+                for i in tqdm(range(0, len(images), batch_size)):
+                    # img_batch = torch.tensor(np.array(images[i:i + batch_size]), device=self.device)
+                    # img_batch = img_batch.permute(0, 3, 1, 2)
+                    # print(img_batch.shape, type(img_batch))
+                    # predictions.extend(detector.get_landmarks_from_batch(img_batch))
+                    predictions.extend(detector.get_detections_for_batch(np.array(images[i:i + batch_size])))
+            except Exception as e:
+                print("Error in face detection: {}".format(e))
+                if batch_size == 1: 
+                    raise RuntimeError('Image too big to run face detection on GPU. Please use the resize_factor argument')
+                batch_size //= 2
+                print('Recovering from OOM error; New batch size: {}'.format(batch_size))
+                continue
+            break
+
+        results = []
+        pady1, pady2, padx1, padx2 = self.pads
+        for rect, image in zip(predictions, images):
+            if rect is None:
+                cv2.imwrite('temp/faulty_frame.jpg', image) # check this frame where the face was not detected.
+                raise ValueError('Face not detected! Ensure the video contains a face in all the frames.')
+            
+            y1 = max(0, rect[1] - pady1)
+            y2 = min(image.shape[0], rect[3] + pady2)
+            x1 = max(0, rect[0] - padx1)
+            x2 = min(image.shape[1], rect[2] + padx2)
+            
+            results.append([x1, y1, x2, y2])
+
+        boxes = np.array(results)
+        if not self.nosmooth: boxes = self.get_smoothened_boxes(boxes, T=5)
+        results = [[image[y1: y2, x1:x2], (y1, y2, x1, x2)] for image, (x1, y1, x2, y2) in zip(images, boxes)]
+
+        del detector
+        return results 
+    
+    def get_smoothened_boxes(self, boxes, T):
+        for i in range(len(boxes)):
+            if i + T > len(boxes):
+                window = boxes[len(boxes) - T:]
+            else:
+                window = boxes[i : i + T]
+            boxes[i] = np.mean(window, axis=0)
+        return boxes
+    
+if __name__ == '__main__':
+    current_dir = './'
+    wav2lip = Wav2Lip(os.path.join(current_dir,'checkpoints/wav2lip.pth'))
+    # wav2lip.predict('/home/dengkaijun/workdirs/Linly-Talker/TFG/results/test.mp4', os.path.join(current_dir,'answer.wav'), batch_size = 2, enhance=False)
+    wav2lip.predict(os.path.join(current_dir,'inputs/example.png'), os.path.join(current_dir,'answer.wav'), batch_size = 2, enhance=False)
+    wav2lip.predict(os.path.join(current_dir,'inputs/example.png'), os.path.join(current_dir,'answer.wav'), batch_size = 2, enhance=True)

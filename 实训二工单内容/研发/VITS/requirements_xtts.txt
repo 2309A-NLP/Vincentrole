@@ -1,1 +1,12 @@
-IyBQcmVpbnN0YWxsIHJlcXVpcmVtZW50cyBmcm9tIFRUUyAKVFRTIEAgZ2l0K2h0dHBzOi8vZ2l0aHViLmNvbS9jb3F1aS1haS9UVFNAdjAuMjEuMQpweWRhbnRpYz09MS4xMC4xMwpweXRob24tbXVsdGlwYXJ0PT0wLjAuNgp0eXBpbmctZXh0ZW5zaW9ucz49NC44LjAKY3V0bGV0Cm1lY2FiLXB5dGhvbjM9PTEuMC42CnVuaWRpYy1saXRlPT0xLjAuOAp1bmlkaWM9PTEuMS4wCmxhbmdpZApkZWVwc3BlZWQKcHlkdWI=
+# Preinstall requirements from TTS 
+TTS @ git+https://github.com/coqui-ai/TTS@v0.21.1
+pydantic==1.10.13
+python-multipart==0.0.6
+typing-extensions>=4.8.0
+cutlet
+mecab-python3==1.0.6
+unidic-lite==1.0.8
+unidic==1.1.0
+langid
+deepspeed
+pydub

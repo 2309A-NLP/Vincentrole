@@ -1,1 +1,54 @@
-JycnClJlZmVyZW5jZTogaHR0cHM6Ly9naXRodWIuY29tL2FsaWJhYmEtZGFtby1hY2FkZW15L0Z1bkFTUgpwaXAgaW5zdGFsbCBmdW5hc3IKcGlwIGluc3RhbGwgbW9kZWxzY29wZQpwaXAgaW5zdGFsbCAtVSByb3RhcnlfZW1iZWRkaW5nX3RvcmNoCicnJwp0cnk6CiAgICBmcm9tIGZ1bmFzciBpbXBvcnQgQXV0b01vZGVsCmV4Y2VwdDoKICAgIHByaW50KCLlpoLmnpzmg7Pkvb/nlKhGdW5BU1LvvIzor7flhYjlronoo4VmdW5hc3LvvIzoi6Xkvb/nlKhXaGlzcGVy77yM6K+35b+955Wl5q2k5p2h5L+h5oGvIikKaW1wb3J0IG9zCmltcG9ydCBzeXMKc3lzLnBhdGguYXBwZW5kKCcuLycpCmZyb20gc3JjLmNvc3RfdGltZSBpbXBvcnQgY2FsY3VsYXRlX3RpbWUgICAgCgpjbGFzcyBGdW5BU1I6CiAgICBkZWYgX19pbml0X18oc2VsZikgLT4gTm9uZToKICAgICAgICAjIOWumuS5ieaooeWei+eahOiHquWumuS5iei3r+W+hAogICAgICAgIG1vZGVsX3BhdGggPSAiRnVuQVNSL3NwZWVjaF9zZWFjb19wYXJhZm9ybWVyX2xhcmdlX2Fzcl9uYXQtemgtY24tMTZrLWNvbW1vbi12b2NhYjg0MDQtcHl0b3JjaCIKICAgICAgICB2YWRfbW9kZWxfcGF0aCA9ICJGdW5BU1Ivc3BlZWNoX2ZzbW5fdmFkX3poLWNuLTE2ay1jb21tb24tcHl0b3JjaCIKICAgICAgICBwdW5jX21vZGVsX3BhdGggPSAiRnVuQVNSL3B1bmNfY3QtdHJhbnNmb3JtZXJfemgtY24tY29tbW9uLXZvY2FiMjcyNzI3LXB5dG9yY2giCgogICAgICAgICMg5qOA5p+l5paH5Lu25piv5ZCm5a2Y5Zyo5LqOIEZ1bkFTUiDnm67lvZXkuIsKICAgICAgICBtb2RlbF9leGlzdHMgPSBvcy5wYXRoLmV4aXN0cyhtb2RlbF9wYXRoKQogICAgICAgIHZhZF9tb2RlbF9leGlzdHMgPSBvcy5wYXRoLmV4aXN0cyh2YWRfbW9kZWxfcGF0aCkKICAgICAgICBwdW5jX21vZGVsX2V4aXN0cyA9IG9zLnBhdGguZXhpc3RzKHB1bmNfbW9kZWxfcGF0aCkKICAgICAgICAjIE1vZGVsc2NvcGUgQXV0b0Rvd25sb2FkCiAgICAgICAgc2VsZi5tb2RlbCA9IEF1dG9Nb2RlbCgKICAgICAgICAgICAgbW9kZWw9bW9kZWxfcGF0aCBpZiBtb2RlbF9leGlzdHMgZWxzZSAicGFyYWZvcm1lci16aCIsCiAgICAgICAgICAgIHZhZF9tb2RlbD12YWRfbW9kZWxfcGF0aCBpZiB2YWRfbW9kZWxfZXhpc3RzIGVsc2UgImZzbW4tdmFkIiwKICAgICAgICAgICAgcHVuY19tb2RlbD1wdW5jX21vZGVsX3BhdGggaWYgcHVuY19tb2RlbF9leGlzdHMgZWxzZSAiY3QtcHVuYy1jIiwKICAgICAgICApCiAgICAgICAgIyDoh6rlrprkuYnot6/lvoQKICAgICAgICAjIHNlbGYubW9kZWwgPSBBdXRvTW9kZWwobW9kZWw9IkZ1bkFTUi9zcGVlY2hfc2VhY29fcGFyYWZvcm1lcl9sYXJnZV9hc3JfbmF0LXpoLWNuLTE2ay1jb21tb24tdm9jYWI4NDA0LXB5dG9yY2giLCAjIG1vZGVsX3JldmlzaW9uPSJ2Mi4wLjQiLAogICAgICAgICMgICAgICAgICB2YWRfbW9kZWw9IkZ1bkFTUi9zcGVlY2hfZnNtbl92YWRfemgtY24tMTZrLWNvbW1vbi1weXRvcmNoIiwgIyB2YWRfbW9kZWxfcmV2aXNpb249InYyLjAuNCIsCiAgICAgICAgIyAgICAgICAgIHB1bmNfbW9kZWw9IkZ1bkFTUi9wdW5jX2N0LXRyYW5zZm9ybWVyX3poLWNuLWNvbW1vbi12b2NhYjI3MjcyNy1weXRvcmNoIiwgIyBwdW5jX21vZGVsX3JldmlzaW9uPSJ2Mi4wLjQiLAogICAgICAgICMgICAgICAgICAjIHNwa19tb2RlbD0iY2FtKysiLCBzcGtfbW9kZWxfcmV2aXNpb249InYyLjAuMiIsCiAgICAgICAgIyAgICAgICAgICkKICAgIEBjYWxjdWxhdGVfdGltZQogICAgZGVmIHRyYW5zY3JpYmUoc2VsZiwgYXVkaW9fZmlsZSk6CiAgICAgICAgcmVzID0gc2VsZi5tb2RlbC5nZW5lcmF0ZShpbnB1dD1hdWRpb19maWxlLCAKICAgICAgICAgICAgYmF0Y2hfc2l6ZV9zPTMwMCkKICAgICAgICBwcmludChyZXMpCiAgICAgICAgcmV0dXJuIHJlc1swXVsndGV4dCddCiAgICAKICAgICAgICAKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGltcG9ydCBvcwogICAgIyDliJvlu7pBU1Llr7nosaHlubbov5vooYzor63pn7Por4bliKsKICAgIGF1ZGlvX2ZpbGUgPSAib3V0cHV0LndhdiIgICMg6Z+z6aKR5paH5Lu26Lev5b6ECiAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMoYXVkaW9fZmlsZSk6CiAgICAgICAgb3Muc3lzdGVtKCdlZGdlLXR0cyAtLXRleHQgImhlbGxvIiAtLXdyaXRlLW1lZGlhIG91dHB1dC53YXYnKQogICAgYXNyID0gRnVuQVNSKCkKICAgIHByaW50KGFzci50cmFuc2NyaWJlKGF1ZGlvX2ZpbGUpKQ==
+'''
+Reference: https://github.com/alibaba-damo-academy/FunASR
+pip install funasr
+pip install modelscope
+pip install -U rotary_embedding_torch
+'''
+try:
+    from funasr import AutoModel
+except:
+    print("如果想使用FunASR，请先安装funasr，若使用Whisper，请忽略此条信息")
+import os
+import sys
+sys.path.append('./')
+from src.cost_time import calculate_time    
+
+class FunASR:
+    def __init__(self) -> None:
+        # 定义模型的自定义路径
+        model_path = "FunASR/speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch"
+        vad_model_path = "FunASR/speech_fsmn_vad_zh-cn-16k-common-pytorch"
+        punc_model_path = "FunASR/punc_ct-transformer_zh-cn-common-vocab272727-pytorch"
+
+        # 检查文件是否存在于 FunASR 目录下
+        model_exists = os.path.exists(model_path)
+        vad_model_exists = os.path.exists(vad_model_path)
+        punc_model_exists = os.path.exists(punc_model_path)
+        # Modelscope AutoDownload
+        self.model = AutoModel(
+            model=model_path if model_exists else "paraformer-zh",
+            vad_model=vad_model_path if vad_model_exists else "fsmn-vad",
+            punc_model=punc_model_path if punc_model_exists else "ct-punc-c",
+        )
+        # 自定义路径
+        # self.model = AutoModel(model="FunASR/speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch", # model_revision="v2.0.4",
+        #         vad_model="FunASR/speech_fsmn_vad_zh-cn-16k-common-pytorch", # vad_model_revision="v2.0.4",
+        #         punc_model="FunASR/punc_ct-transformer_zh-cn-common-vocab272727-pytorch", # punc_model_revision="v2.0.4",
+        #         # spk_model="cam++", spk_model_revision="v2.0.2",
+        #         )
+    @calculate_time
+    def transcribe(self, audio_file):
+        res = self.model.generate(input=audio_file, 
+            batch_size_s=300)
+        print(res)
+        return res[0]['text']
+    
+        
+if __name__ == "__main__":
+    import os
+    # 创建ASR对象并进行语音识别
+    audio_file = "output.wav"  # 音频文件路径
+    if not os.path.exists(audio_file):
+        os.system('edge-tts --text "hello" --write-media output.wav')
+    asr = FunASR()
+    print(asr.transcribe(audio_file))

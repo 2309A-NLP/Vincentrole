@@ -1,1 +1,136 @@
-aW1wb3J0IG9zCmltcG9ydCBzeXMKc3lzLnBhdGguYXBwZW5kKCcuL05lUkYnKQppbXBvcnQgdG9yY2gKCmZyb20gbmVyZl90cmlwbGFuZS5wcm92aWRlciBpbXBvcnQgTmVSRkRhdGFzZXRfVGVzdApmcm9tIG5lcmZfdHJpcGxhbmUudXRpbHMgaW1wb3J0ICoKZnJvbSBuZXJmX3RyaXBsYW5lLm5ldHdvcmsgaW1wb3J0IE5lUkZOZXR3b3JrCgojIERpc2FibGUgdGYzMiBmZWF0dXJlcyB0byBmaXggbG93IG51bWVyaWNhbCBhY2N1cmFjeSBvbiBSVFgzMFhYIEdQVXMKdHJ5OgogICAgdG9yY2guYmFja2VuZHMuY3VkYS5tYXRtdWwuYWxsb3dfdGYzMiA9IEZhbHNlCiAgICB0b3JjaC5iYWNrZW5kcy5jdWRubi5hbGxvd190ZjMyID0gRmFsc2UKZXhjZXB0IEF0dHJpYnV0ZUVycm9yIGFzIGU6CiAgICBwcmludCgnSW5mby4gVGhpcyBQeVRvcmNoIHZlcnNpb24gZG9lcyBub3Qgc3VwcG9ydCB0ZjMyLicpCgojIERlZmluZSBvcHRpb25zIGRpcmVjdGx5IGluc3RlYWQgb2YgdXNpbmcgYXJncGFyc2UKY2xhc3MgT3B0aW9uczoKICAgIGRlZiBfX2luaXRfXyhzZWxmKToKICAgICAgICBzZWxmLnRlc3RfdHJhaW4gPSBGYWxzZQogICAgICAgIHNlbGYuZGF0YV9yYW5nZSA9IFswLCAtMV0KICAgICAgICBzZWxmLndvcmtzcGFjZSA9ICdyZXN1bHRzJwogICAgICAgIHNlbGYuc2VlZCA9IDAKICAgICAgICBzZWxmLml0ZXJzID0gMjAwMDAwCiAgICAgICAgc2VsZi5sciA9IDFlLTIKICAgICAgICBzZWxmLmxyX25ldCA9IDFlLTMKICAgICAgICBzZWxmLmNrcHQgPSAnLi4vY2hlY2twb2ludHMvcHJldHJhaW5lZC9uZ3Bfa2YucHRoJwogICAgICAgIHNlbGYubnVtX3JheXMgPSA0MDk2ICogMTYKICAgICAgICBzZWxmLmN1ZGFfcmF5ID0gVHJ1ZQogICAgICAgIHNlbGYubWF4X3N0ZXBzID0gMTYKICAgICAgICBzZWxmLm51bV9zdGVwcyA9IDE2CiAgICAgICAgc2VsZi51cHNhbXBsZV9zdGVwcyA9IDAKICAgICAgICBzZWxmLnVwZGF0ZV9leHRyYV9pbnRlcnZhbCA9IDE2CiAgICAgICAgc2VsZi5tYXhfcmF5X2JhdGNoID0gNDA5NgogICAgICAgIHNlbGYud2FybXVwX3N0ZXAgPSAxMDAwMAogICAgICAgIHNlbGYuYW1iX2F1ZF9sb3NzID0gMQogICAgICAgIHNlbGYuYW1iX2V5ZV9sb3NzID0gMQogICAgICAgIHNlbGYudW5jX2xvc3MgPSAxCiAgICAgICAgc2VsZi5sYW1iZGFfYW1iID0gMWUtNAogICAgICAgIHNlbGYuZnAxNiA9IFRydWUKICAgICAgICBzZWxmLmJnX2ltZyA9ICd3aGl0ZScKICAgICAgICBzZWxmLmZiZyA9IEZhbHNlCiAgICAgICAgc2VsZi5leHBfZXllID0gVHJ1ZQogICAgICAgIHNlbGYuZml4X2V5ZSA9IC0xCiAgICAgICAgc2VsZi5zbW9vdGhfZXllID0gVHJ1ZQogICAgICAgIHNlbGYudG9yc29fc2hyaW5rID0gMC44CiAgICAgICAgc2VsZi5jb2xvcl9zcGFjZSA9ICdzcmdiJwogICAgICAgIHNlbGYucHJlbG9hZCA9IDAKICAgICAgICBzZWxmLmJvdW5kID0gMQogICAgICAgIHNlbGYuc2NhbGUgPSA0CiAgICAgICAgc2VsZi5vZmZzZXQgPSBbMCwgMCwgMF0KICAgICAgICBzZWxmLmR0X2dhbW1hID0gMS8yNTYKICAgICAgICBzZWxmLm1pbl9uZWFyID0gMC4wNQogICAgICAgIHNlbGYuZGVuc2l0eV90aHJlc2ggPSAxMAogICAgICAgIHNlbGYuZGVuc2l0eV90aHJlc2hfdG9yc28gPSAwLjAxCiAgICAgICAgc2VsZi5wYXRjaF9zaXplID0gMQogICAgICAgIHNlbGYuaW5pdF9saXBzID0gRmFsc2UKICAgICAgICBzZWxmLmZpbmV0dW5lX2xpcHMgPSBGYWxzZQogICAgICAgIHNlbGYuc21vb3RoX2xpcHMgPSBUcnVlCiAgICAgICAgc2VsZi50b3JzbyA9IFRydWUKICAgICAgICBzZWxmLmhlYWRfY2twdCA9ICcnCiAgICAgICAgc2VsZi5ndWkgPSBGYWxzZQogICAgICAgIHNlbGYuVyA9IDQ1MAogICAgICAgIHNlbGYuSCA9IDQ1MAogICAgICAgIHNlbGYucmFkaXVzID0gMy4zNQogICAgICAgIHNlbGYuZm92eSA9IDIxLjI0CiAgICAgICAgc2VsZi5tYXhfc3BwID0gMQogICAgICAgIHNlbGYuYXR0ID0gMgogICAgICAgIHNlbGYuYXVkID0gJycKICAgICAgICBzZWxmLmVtYiA9IEZhbHNlCiAgICAgICAgc2VsZi5pbmRfZGltID0gNAogICAgICAgIHNlbGYuaW5kX251bSA9IDEwMDAwCiAgICAgICAgc2VsZi5pbmRfZGltX3RvcnNvID0gOAogICAgICAgIHNlbGYuYW1iX2RpbSA9IDIKICAgICAgICBzZWxmLnBhcnQgPSBGYWxzZQogICAgICAgIHNlbGYucGFydDIgPSBGYWxzZQogICAgICAgIHNlbGYudHJhaW5fY2FtZXJhID0gRmFsc2UKICAgICAgICBzZWxmLnNtb290aF9wYXRoID0gVHJ1ZQogICAgICAgIHNlbGYuc21vb3RoX3BhdGhfd2luZG93ID0gNwogICAgICAgIHNlbGYuYXNyID0gRmFsc2UKICAgICAgICBzZWxmLmFzcl9tb2RlbCA9ICdhdmUnCiAgICAgICAgc2VsZi5wb3NlID0gJy4uL2NoZWNrcG9pbnRzL2RhdGFfa2YuanNvbicKICAgICAgICBzZWxmLmFzcl9zYXZlX2ZlYXRzID0gRmFsc2UKICAgICAgICBzZWxmLmZwcyA9IDUwCiAgICAgICAgc2VsZi5sID0gMTAKICAgICAgICBzZWxmLm0gPSA1MAogICAgICAgIHNlbGYuciA9IDEwCiAgICAgICAgc2VsZi5PID0gVHJ1ZQogICAgICAgIHNlbGYudGVzdCA9IFRydWUKCiMgSW5pdGlhbGl6ZSBvcHRpb25zCm9wdCA9IE9wdGlvbnMoKQoKaWYgb3B0Lk86CiAgICBvcHQuZnAxNiA9IFRydWUKICAgIG9wdC5leHBfZXllID0gVHJ1ZQoKaWYgb3B0LnRlc3Q6CiAgICBvcHQuc21vb3RoX3BhdGggPSBUcnVlCiAgICBvcHQuc21vb3RoX2V5ZSA9IFRydWUKICAgIG9wdC5zbW9vdGhfbGlwcyA9IFRydWUKCm9wdC5jdWRhX3JheSA9IFRydWUKb3B0LnRvcnNvID0gVHJ1ZQoKY2xhc3MgTmVSRlRhbGsoKToKICAgIGRlZiBfX2luaXRfXyhzZWxmKToKICAgICAgICBwcmludCh2YXJzKG9wdCkpCiAgICAgICAgc2VsZi5kZXZpY2UgPSB0b3JjaC5kZXZpY2UoJ2N1ZGEnIGlmIHRvcmNoLmN1ZGEuaXNfYXZhaWxhYmxlKCkgZWxzZSAnY3B1JykKICAgICAgICBzZWxmLm1vZGVsID0gTmVSRk5ldHdvcmsob3B0KQogICAgICAgIAogICAgZGVmIGluaXRfbW9kZWwoc2VsZiwgY2twdF9wYXRoLCBwb3NlKToKICAgICAgICBjcml0ZXJpb24gPSB0b3JjaC5ubi5NU0VMb3NzKHJlZHVjdGlvbj0nbm9uZScpCiAgICAgICAgb3B0LnBvc2UgPSBwb3NlCiAgICAgICAgbWV0cmljcyA9IFtdCiAgICAgICAgb3B0LmNrcHQgPSBja3B0X3BhdGgKICAgICAgICBzZWxmLnRyYWluZXIgPSBUcmFpbmVyKCduZ3AnLCBvcHQsIHNlbGYubW9kZWwsIGRldmljZT1zZWxmLmRldmljZSwgd29ya3NwYWNlPW9wdC53b3Jrc3BhY2UsIGNyaXRlcmlvbj1jcml0ZXJpb24sIGZwMTY9b3B0LmZwMTYsIG1ldHJpY3M9bWV0cmljcywgdXNlX2NoZWNrcG9pbnQ9b3B0LmNrcHQpCiAgICAgICAgICAgICAgICAKICAgIGRlZiBwcmVkaWN0KHNlbGYsIGFzcl93YXYpOgogICAgICAgIG9wdC5hdWQgPSBhc3Jfd2F2CiAgICAgICAgCiAgICAgICAgc2VsZi50ZXN0X2xvYWRlciA9IE5lUkZEYXRhc2V0X1Rlc3Qob3B0LCBkZXZpY2U9c2VsZi5kZXZpY2UpLmRhdGFsb2FkZXIoKQogICAgICAgIHNlbGYubW9kZWwuYXVkX2ZlYXR1cmVzID0gc2VsZi50ZXN0X2xvYWRlci5fZGF0YS5hdWRzCiAgICAgICAgc2VsZi5tb2RlbC5leWVfYXJlYXMgPSBzZWxmLnRlc3RfbG9hZGVyLl9kYXRhLmV5ZV9hcmVhCiAgICAgICAgCiAgICAgICAgc2VsZi50cmFpbmVyLnRlc3Qoc2VsZi50ZXN0X2xvYWRlciwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgc2F2ZV9wYXRoID0gb3B0LndvcmtzcGFjZSwKICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lID0gJ3Rlc3QnKQogICAgICAgIHJldHVybiBvcy5wYXRoLmpvaW4ob3B0LndvcmtzcGFjZSwgZiJ0ZXN0X2F1ZGlvLm1wNCIpICAgIAogICAgCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICBuZXJmID0gTmVSRlRhbGsoKQogICAgbmVyZi5pbml0X21vZGVsKCcuL2NoZWNrcG9pbnRzL09iYW1hX2F2ZS5wdGgnLCAnLi9jaGVja3BvaW50cy9PYmFtYS5qc29uJykKICAgIHByaW50KCdpbml0IGRvbmUnKQogICAgd2F2X3BhdGggPSAnLi9jaGVja3BvaW50cy9yZWYud2F2JwogICAgbmVyZi5wcmVkaWN0KHdhdl9wYXRoKQo=
+import os
+import sys
+sys.path.append('./NeRF')
+import torch
+
+from nerf_triplane.provider import NeRFDataset_Test
+from nerf_triplane.utils import *
+from nerf_triplane.network import NeRFNetwork
+
+# Disable tf32 features to fix low numerical accuracy on RTX30XX GPUs
+try:
+    torch.backends.cuda.matmul.allow_tf32 = False
+    torch.backends.cudnn.allow_tf32 = False
+except AttributeError as e:
+    print('Info. This PyTorch version does not support tf32.')
+
+# Define options directly instead of using argparse
+class Options:
+    def __init__(self):
+        self.test_train = False
+        self.data_range = [0, -1]
+        self.workspace = 'results'
+        self.seed = 0
+        self.iters = 200000
+        self.lr = 1e-2
+        self.lr_net = 1e-3
+        self.ckpt = '../checkpoints/pretrained/ngp_kf.pth'
+        self.num_rays = 4096 * 16
+        self.cuda_ray = True
+        self.max_steps = 16
+        self.num_steps = 16
+        self.upsample_steps = 0
+        self.update_extra_interval = 16
+        self.max_ray_batch = 4096
+        self.warmup_step = 10000
+        self.amb_aud_loss = 1
+        self.amb_eye_loss = 1
+        self.unc_loss = 1
+        self.lambda_amb = 1e-4
+        self.fp16 = True
+        self.bg_img = 'white'
+        self.fbg = False
+        self.exp_eye = True
+        self.fix_eye = -1
+        self.smooth_eye = True
+        self.torso_shrink = 0.8
+        self.color_space = 'srgb'
+        self.preload = 0
+        self.bound = 1
+        self.scale = 4
+        self.offset = [0, 0, 0]
+        self.dt_gamma = 1/256
+        self.min_near = 0.05
+        self.density_thresh = 10
+        self.density_thresh_torso = 0.01
+        self.patch_size = 1
+        self.init_lips = False
+        self.finetune_lips = False
+        self.smooth_lips = True
+        self.torso = True
+        self.head_ckpt = ''
+        self.gui = False
+        self.W = 450
+        self.H = 450
+        self.radius = 3.35
+        self.fovy = 21.24
+        self.max_spp = 1
+        self.att = 2
+        self.aud = ''
+        self.emb = False
+        self.ind_dim = 4
+        self.ind_num = 10000
+        self.ind_dim_torso = 8
+        self.amb_dim = 2
+        self.part = False
+        self.part2 = False
+        self.train_camera = False
+        self.smooth_path = True
+        self.smooth_path_window = 7
+        self.asr = False
+        self.asr_model = 'ave'
+        self.pose = '../checkpoints/data_kf.json'
+        self.asr_save_feats = False
+        self.fps = 50
+        self.l = 10
+        self.m = 50
+        self.r = 10
+        self.O = True
+        self.test = True
+
+# Initialize options
+opt = Options()
+
+if opt.O:
+    opt.fp16 = True
+    opt.exp_eye = True
+
+if opt.test:
+    opt.smooth_path = True
+    opt.smooth_eye = True
+    opt.smooth_lips = True
+
+opt.cuda_ray = True
+opt.torso = True
+
+class NeRFTalk():
+    def __init__(self):
+        print(vars(opt))
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.model = NeRFNetwork(opt)
+        
+    def init_model(self, ckpt_path, pose):
+        criterion = torch.nn.MSELoss(reduction='none')
+        opt.pose = pose
+        metrics = []
+        opt.ckpt = ckpt_path
+        self.trainer = Trainer('ngp', opt, self.model, device=self.device, workspace=opt.workspace, criterion=criterion, fp16=opt.fp16, metrics=metrics, use_checkpoint=opt.ckpt)
+                
+    def predict(self, asr_wav):
+        opt.aud = asr_wav
+        
+        self.test_loader = NeRFDataset_Test(opt, device=self.device).dataloader()
+        self.model.aud_features = self.test_loader._data.auds
+        self.model.eye_areas = self.test_loader._data.eye_area
+        
+        self.trainer.test(self.test_loader, 
+                          save_path = opt.workspace,
+                          name = 'test')
+        return os.path.join(opt.workspace, f"test_audio.mp4")    
+    
+if __name__ == '__main__':
+    nerf = NeRFTalk()
+    nerf.init_model('./checkpoints/Obama_ave.pth', './checkpoints/Obama.json')
+    print('init done')
+    wav_path = './checkpoints/ref.wav'
+    nerf.predict(wav_path)

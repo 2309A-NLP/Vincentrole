@@ -1,1 +1,61 @@
-aW1wb3J0IG9zCmltcG9ydCB0b3JjaAppbXBvcnQgcmVxdWVzdHMKZnJvbSB0cmFuc2Zvcm1lcnMgaW1wb3J0IEF1dG9Nb2RlbEZvckNhdXNhbExNLCBBdXRvVG9rZW5pemVyCm9zLmVudmlyb25bJ0NVREFfTEFVTkNIX0JMT0NLSU5HJ10gPSAnMScKCmNsYXNzIFF3ZW46CiAgICBkZWYgX19pbml0X18oc2VsZiwgbW9kZT0nb2ZmbGluZScsIG1vZGVsX3BhdGg9IlF3ZW4vUXdlbi0xXzhCLUNoYXQiLCBwcmVmaXhfcHJvbXB0ID0gJycn6K+355So5bCR5LqOMjXkuKrlrZflm57nrZTku6XkuIvpl67pophcblxuJycnKToKICAgICAgICAnJyfmmoLml7bkuI3lhplhcGnniYjmnKws5LiOTGlubHktYXBp55u457G75Ly8LOaEn+WFtOi2o+WPr+S7peWunueOsOS4gOS4iycnJwogICAgICAgIHNlbGYudXJsID0gImh0dHA6Ly9pcDpwb3J0IiAjIGxvY2FsIHNlcnZlcjogaHR0cDovL2lwOnBvcnQKICAgICAgICBzZWxmLmhlYWRlcnMgPSB7CiAgICAgICAgICAgICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIKICAgICAgICB9CiAgICAgICAgc2VsZi5kYXRhID0gewogICAgICAgICAgICAicXVlc3Rpb24iOiAi5YyX5Lqs5pyJ5LuA5LmI5aW9546p55qE5Zyw5pa577yfIgogICAgICAgIH0KICAgICAgICBzZWxmLnByZWZpeF9wcm9tcHQgPSBwcmVmaXhfcHJvbXB0CiAgICAgICAgc2VsZi5tb2RlID0gbW9kZQogICAgICAgIHNlbGYubW9kZWwsIHNlbGYudG9rZW5pemVyID0gc2VsZi5pbml0X21vZGVsKG1vZGVsX3BhdGgpCiAgICAgICAgc2VsZi5oaXN0b3J5ID0gTm9uZQogICAgCiAgICBkZWYgaW5pdF9tb2RlbChzZWxmLCBwYXRoID0gIlF3ZW4vUXdlbi0xXzhCLUNoYXQiKToKICAgICAgICBtb2RlbCA9IEF1dG9Nb2RlbEZvckNhdXNhbExNLmZyb21fcHJldHJhaW5lZChwYXRoLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXZpY2VfbWFwPSJhdXRvIiwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ1c3RfcmVtb3RlX2NvZGU9VHJ1ZSkuZXZhbCgpCiAgICAgICAgdG9rZW5pemVyID0gQXV0b1Rva2VuaXplci5mcm9tX3ByZXRyYWluZWQocGF0aCwgdHJ1c3RfcmVtb3RlX2NvZGU9VHJ1ZSkKCiAgICAgICAgcmV0dXJuIG1vZGVsLCB0b2tlbml6ZXIgICAKICAgIAogICAgZGVmIGdlbmVyYXRlKHNlbGYsIHF1ZXN0aW9uLCBzeXN0ZW1fcHJvbXB0PSIiKToKICAgICAgICBpZiBzZWxmLm1vZGUgIT0gJ2FwaSc6CiAgICAgICAgICAgIHNlbGYuZGF0YVsicXVlc3Rpb24iXSA9IHNlbGYucHJlZml4X3Byb21wdCArIHF1ZXN0aW9uCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJlc3BvbnNlLCBzZWxmLmhpc3RvcnkgPSBzZWxmLm1vZGVsLmNoYXQoc2VsZi50b2tlbml6ZXIsIHNlbGYuZGF0YVsicXVlc3Rpb24iXSwgaGlzdG9yeT1zZWxmLmhpc3RvcnksIHN5c3RlbSA9IHN5c3RlbV9wcm9tcHQpCiAgICAgICAgICAgICAgICAjIHByaW50KHNlbGYuaGlzdG9yeSkKICAgICAgICAgICAgICAgIHJldHVybiByZXNwb25zZQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgICAgICBwcmludChlKQogICAgICAgICAgICAgICAgcmV0dXJuICLlr7nkuI3otbfvvIzkvaDnmoTor7fmsYLlh7rplJnkuobvvIzor7flho3mrKHlsJ3or5XjgIJcblNvcnJ5LCB5b3VyIHJlcXVlc3QgaGFzIGVuY291bnRlcmVkIGFuIGVycm9yLiBQbGVhc2UgdHJ5IGFnYWluLlxuIgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBzZWxmLnByZWRpY3RfYXBpKHF1ZXN0aW9uKQogICAgZGVmIHByZWRpY3RfYXBpKHNlbGYsIHF1ZXN0aW9uKToKICAgICAgICAnJyfmmoLml7bkuI3lhplhcGnniYjmnKws5LiOTGlubHktYXBp55u457G75Ly8LOaEn+WFtOi2o+WPr+S7peWunueOsOS4gOS4iycnJwogICAgICAgIHBhc3MgCiAgICAKICAgIGRlZiBjaGF0KHNlbGYsIHN5c3RlbV9wcm9tcHQsIG1lc3NhZ2UsIGhpc3RvcnkpOgogICAgICAgIHJlc3BvbnNlID0gc2VsZi5nZW5lcmF0ZShtZXNzYWdlLCBzeXN0ZW1fcHJvbXB0KQogICAgICAgIGhpc3RvcnkuYXBwZW5kKChtZXNzYWdlLCByZXNwb25zZSkpCiAgICAgICAgcmV0dXJuIHJlc3BvbnNlLCBoaXN0b3J5CiAgICAKICAgIGRlZiBjbGVhcl9oaXN0b3J5KHNlbGYpOgogICAgICAgICMg5riF56m65Y6G5Y+y6K6w5b2VCiAgICAgICAgc2VsZi5oaXN0b3J5ID0gW10KICAgIApkZWYgdGVzdCgpOgogICAgbGxtID0gUXdlbihtb2RlPSdvZmZsaW5lJywgbW9kZWxfcGF0aD0iUXdlbi9Rd2VuLTFfOEItQ2hhdCIpCiAgICBhbnN3ZXIgPSBsbG0uZ2VuZXJhdGUoIuWmguS9leW6lOWvueWOi+WKm++8nyIpCiAgICBwcmludChhbnN3ZXIpCgppZiBfX25hbWVfXyA9PSAnX19tYWluX18nOgogICAgdGVzdCgpCg==
+import os
+import torch
+import requests
+from transformers import AutoModelForCausalLM, AutoTokenizer
+os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
+
+class Qwen:
+    def __init__(self, mode='offline', model_path="Qwen/Qwen-1_8B-Chat", prefix_prompt = '''请用少于25个字回答以下问题\n\n'''):
+        '''暂时不写api版本,与Linly-api相类似,感兴趣可以实现一下'''
+        self.url = "http://ip:port" # local server: http://ip:port
+        self.headers = {
+            "Content-Type": "application/json"
+        }
+        self.data = {
+            "question": "北京有什么好玩的地方？"
+        }
+        self.prefix_prompt = prefix_prompt
+        self.mode = mode
+        self.model, self.tokenizer = self.init_model(model_path)
+        self.history = None
+    
+    def init_model(self, path = "Qwen/Qwen-1_8B-Chat"):
+        model = AutoModelForCausalLM.from_pretrained(path, 
+                                                     device_map="auto", 
+                                                     trust_remote_code=True).eval()
+        tokenizer = AutoTokenizer.from_pretrained(path, trust_remote_code=True)
+
+        return model, tokenizer   
+    
+    def generate(self, question, system_prompt=""):
+        if self.mode != 'api':
+            self.data["question"] = self.prefix_prompt + question
+            try:
+                response, self.history = self.model.chat(self.tokenizer, self.data["question"], history=self.history, system = system_prompt)
+                # print(self.history)
+                return response
+            except Exception as e:
+                print(e)
+                return "对不起，你的请求出错了，请再次尝试。\nSorry, your request has encountered an error. Please try again.\n"
+        else:
+            return self.predict_api(question)
+    def predict_api(self, question):
+        '''暂时不写api版本,与Linly-api相类似,感兴趣可以实现一下'''
+        pass 
+    
+    def chat(self, system_prompt, message, history):
+        response = self.generate(message, system_prompt)
+        history.append((message, response))
+        return response, history
+    
+    def clear_history(self):
+        # 清空历史记录
+        self.history = []
+    
+def test():
+    llm = Qwen(mode='offline', model_path="Qwen/Qwen-1_8B-Chat")
+    answer = llm.generate("如何应对压力？")
+    print(answer)
+
+if __name__ == '__main__':
+    test()

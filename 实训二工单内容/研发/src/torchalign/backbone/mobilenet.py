@@ -1,1 +1,89 @@
-aW1wb3J0IG1hdGgKaW1wb3J0IHRvcmNoCmltcG9ydCB0b3JjaC5ubiBhcyBubgppbXBvcnQgdG9yY2gubm4uZnVuY3Rpb25hbCBhcyBGCmltcG9ydCB0b3JjaC51dGlscy5tb2RlbF96b28gYXMgbW9kZWxfem9vCgoKX19hbGxfXyA9IFsnTW9iaWxlTmV0VjInLCAnbW9iaWxlbmV0djInXQoKCmNsYXNzIEJsb2NrKG5uLk1vZHVsZSk6CiAgICAiIiIgCiAgICBCb3R0bGVuZWNrIFJlc2lkdWFsIEJsb2NrCiAgICAKICAgICIiIgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGluX2NoYW5uZWxzLCBvdXRfY2hhbm5lbHMsIGV4cGFuc2lvbj0xLCBzdHJpZGU9MSk6CiAgICAgICAgc3VwZXIoQmxvY2ssIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBpZiBleHBhbnNpb24gPT0gMToKICAgICAgICAgICAgc2VsZi5jb252ID0gbm4uU2VxdWVudGlhbCgKICAgICAgICAgICAgICAgIG5uLkNvbnYyZChpbl9jaGFubmVscywgaW5fY2hhbm5lbHMsIDMsIHN0cmlkZSwgMSwgZ3JvdXBzPWluX2NoYW5uZWxzLCBiaWFzPUZhbHNlKSwKICAgICAgICAgICAgICAgIG5uLkJhdGNoTm9ybTJkKGluX2NoYW5uZWxzKSwKICAgICAgICAgICAgICAgIG5uLlJlTFU2KGlucGxhY2U9VHJ1ZSksCiAgICAgICAgICAgICAgICBubi5Db252MmQoaW5fY2hhbm5lbHMsIG91dF9jaGFubmVscywgMSwgMSwgMCwgYmlhcz1GYWxzZSksCiAgICAgICAgICAgICAgICBubi5CYXRjaE5vcm0yZChvdXRfY2hhbm5lbHMpLAogICAgICAgICAgICApCiAgICAgICAgZWxzZToKICAgICAgICAgICAgY2hhbm5lbHMgPSBleHBhbnNpb24gKiBpbl9jaGFubmVscwogICAgICAgICAgICBzZWxmLmNvbnYgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICAgICAgbm4uQ29udjJkKGluX2NoYW5uZWxzLCBjaGFubmVscywgMSwgMSwgMCwgYmlhcz1GYWxzZSksCiAgICAgICAgICAgICAgICBubi5CYXRjaE5vcm0yZChjaGFubmVscyksCiAgICAgICAgICAgICAgICBubi5SZUxVNihpbnBsYWNlPVRydWUpLAogICAgICAgICAgICAgICAgbm4uQ29udjJkKGNoYW5uZWxzLCBjaGFubmVscywgMywgc3RyaWRlLCAxLCBncm91cHM9Y2hhbm5lbHMsIGJpYXM9RmFsc2UpLAogICAgICAgICAgICAgICAgbm4uQmF0Y2hOb3JtMmQoY2hhbm5lbHMpLAogICAgICAgICAgICAgICAgbm4uUmVMVTYoaW5wbGFjZT1UcnVlKSwKICAgICAgICAgICAgICAgIG5uLkNvbnYyZChjaGFubmVscywgb3V0X2NoYW5uZWxzLCAxLCAxLCAwLCBiaWFzPUZhbHNlKSwKICAgICAgICAgICAgICAgIG5uLkJhdGNoTm9ybTJkKG91dF9jaGFubmVscyksCiAgICAgICAgICAgICkKICAgICAgICBzZWxmLnJlc2lkdWFsID0gKHN0cmlkZSA9PSAxKSBhbmQgKGluX2NoYW5uZWxzID09IG91dF9jaGFubmVscykKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4KToKICAgICAgICBvdXQgPSBzZWxmLmNvbnYoeCkKICAgICAgICBpZiBzZWxmLnJlc2lkdWFsOgogICAgICAgICAgICBvdXQgPSBvdXQgKyB4CiAgICAgICAgcmV0dXJuIG91dAoKCmNsYXNzIE1vYmlsZU5ldFYyKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgY29uZmlnKToKICAgICAgICBzdXBlcihNb2JpbGVOZXRWMiwgc2VsZikuX19pbml0X18oKQogICAgICAgIGluX2NoYW5uZWxzID0gY29uZmlnWzBdWzFdCiAgICAgICAgZmVhdHVyZXMgPSBbbm4uU2VxdWVudGlhbCgKICAgICAgICAgICAgbm4uQ29udjJkKDMsIGluX2NoYW5uZWxzLCAzLCAyLCAxLCBiaWFzPUZhbHNlKSwKICAgICAgICAgICAgbm4uQmF0Y2hOb3JtMmQoaW5fY2hhbm5lbHMpLAogICAgICAgICAgICBubi5SZUxVNihpbnBsYWNlPVRydWUpCiAgICAgICAgKV0KICAgICAgICBmb3IgZXhwYW5zaW9uLCBvdXRfY2hhbm5lbHMsIGJsb2Nrcywgc3RyaWRlIGluIGNvbmZpZ1sxOl06CiAgICAgICAgICAgIGZvciBpIGluIHJhbmdlKGJsb2Nrcyk6CiAgICAgICAgICAgICAgICBmZWF0dXJlcy5hcHBlbmQoQmxvY2soaW5fY2hhbm5lbHMsIG91dF9jaGFubmVscywgZXhwYW5zaW9uLCBzdHJpZGUgaWYgaSA9PSAwIGVsc2UgMSkpCiAgICAgICAgICAgICAgICBpbl9jaGFubmVscyA9IG91dF9jaGFubmVscwogICAgICAgIHNlbGYuZmVhdHVyZXMgPSBubi5TZXF1ZW50aWFsKCpmZWF0dXJlcykKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4KToKICAgICAgICBjMiA9IHNlbGYuZmVhdHVyZXNbOjRdKHgpCiAgICAgICAgYzMgPSBzZWxmLmZlYXR1cmVzWzQ6N10oYzIpCiAgICAgICAgYzQgPSBzZWxmLmZlYXR1cmVzWzc6MTRdKGMzKQogICAgICAgIGt3YXJncyA9IHsnc2l6ZSc6IGMyLnNoYXBlWy0yOl0sJ21vZGUnOiAnYmlsaW5lYXInLCdhbGlnbl9jb3JuZXJzJzogRmFsc2V9CiAgICAgICAgcmV0dXJuIHRvcmNoLmNhdChbRi5pbnRlcnBvbGF0ZSh4eCwqKmt3YXJncykgZm9yIHh4IGluIFtjMixjMyxjNF1dLCAxKQoKCmRlZiBtb2JpbGVuZXR2MihwcmV0cmFpbmVkPUZhbHNlLCAqKmt3YXJncyk6CiAgICAiIiJDb25zdHJ1Y3RzIGEgTW9iaWxlTmV0djIgbW9kZWwuCiAgICBBcmdzOgogICAgICAgIHByZXRyYWluZWQgKGJvb2wpOiBJZiBUcnVlLCByZXR1cm5zIGEgbW9kZWwgcHJlLXRyYWluZWQgb24gSW1hZ2VOZXQKICAgICIiIgogICAgY29uZmlnID0gWwogICAgICAgICgxLCAgMzIsIDEsIDEpLAogICAgICAgICgxLCAgMTYsIDEsIDEpLAogICAgICAgICg2LCAgMjQsIDIsIDIpLCAKICAgICAgICAoNiwgIDMyLCAzLCAyKSwKICAgICAgICAoNiwgIDY0LCA0LCAyKSwKICAgICAgICAoNiwgIDk2LCAzLCAxKSwKICAgIF0KICAgIG1vZGVsID0gTW9iaWxlTmV0VjIoY29uZmlnLCAqKmt3YXJncykKICAgIGlmIHByZXRyYWluZWQ6CiAgICAgICAgbW9kZWwubG9hZF9zdGF0ZV9kaWN0KG1vZGVsX3pvby5sb2FkX3VybChtb2RlbF91cmxzWydtb2JpbGVuZXR2MiddKSwgc3RyaWN0PUZhbHNlKQogICAgcmV0dXJuIG1vZGVsCgoKCg==
+import math
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.utils.model_zoo as model_zoo
+
+
+__all__ = ['MobileNetV2', 'mobilenetv2']
+
+
+class Block(nn.Module):
+    """ 
+    Bottleneck Residual Block
+    
+    """
+    def __init__(self, in_channels, out_channels, expansion=1, stride=1):
+        super(Block, self).__init__()
+        if expansion == 1:
+            self.conv = nn.Sequential(
+                nn.Conv2d(in_channels, in_channels, 3, stride, 1, groups=in_channels, bias=False),
+                nn.BatchNorm2d(in_channels),
+                nn.ReLU6(inplace=True),
+                nn.Conv2d(in_channels, out_channels, 1, 1, 0, bias=False),
+                nn.BatchNorm2d(out_channels),
+            )
+        else:
+            channels = expansion * in_channels
+            self.conv = nn.Sequential(
+                nn.Conv2d(in_channels, channels, 1, 1, 0, bias=False),
+                nn.BatchNorm2d(channels),
+                nn.ReLU6(inplace=True),
+                nn.Conv2d(channels, channels, 3, stride, 1, groups=channels, bias=False),
+                nn.BatchNorm2d(channels),
+                nn.ReLU6(inplace=True),
+                nn.Conv2d(channels, out_channels, 1, 1, 0, bias=False),
+                nn.BatchNorm2d(out_channels),
+            )
+        self.residual = (stride == 1) and (in_channels == out_channels)
+
+    def forward(self, x):
+        out = self.conv(x)
+        if self.residual:
+            out = out + x
+        return out
+
+
+class MobileNetV2(nn.Module):
+    def __init__(self, config):
+        super(MobileNetV2, self).__init__()
+        in_channels = config[0][1]
+        features = [nn.Sequential(
+            nn.Conv2d(3, in_channels, 3, 2, 1, bias=False),
+            nn.BatchNorm2d(in_channels),
+            nn.ReLU6(inplace=True)
+        )]
+        for expansion, out_channels, blocks, stride in config[1:]:
+            for i in range(blocks):
+                features.append(Block(in_channels, out_channels, expansion, stride if i == 0 else 1))
+                in_channels = out_channels
+        self.features = nn.Sequential(*features)
+
+    def forward(self, x):
+        c2 = self.features[:4](x)
+        c3 = self.features[4:7](c2)
+        c4 = self.features[7:14](c3)
+        kwargs = {'size': c2.shape[-2:],'mode': 'bilinear','align_corners': False}
+        return torch.cat([F.interpolate(xx,**kwargs) for xx in [c2,c3,c4]], 1)
+
+
+def mobilenetv2(pretrained=False, **kwargs):
+    """Constructs a MobileNetv2 model.
+    Args:
+        pretrained (bool): If True, returns a model pre-trained on ImageNet
+    """
+    config = [
+        (1,  32, 1, 1),
+        (1,  16, 1, 1),
+        (6,  24, 2, 2), 
+        (6,  32, 3, 2),
+        (6,  64, 4, 2),
+        (6,  96, 3, 1),
+    ]
+    model = MobileNetV2(config, **kwargs)
+    if pretrained:
+        model.load_state_dict(model_zoo.load_url(model_urls['mobilenetv2']), strict=False)
+    return model
+
+
+

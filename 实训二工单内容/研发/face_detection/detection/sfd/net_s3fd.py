@@ -1,1 +1,129 @@
-aW1wb3J0IHRvcmNoCmltcG9ydCB0b3JjaC5ubiBhcyBubgppbXBvcnQgdG9yY2gubm4uZnVuY3Rpb25hbCBhcyBGCgoKY2xhc3MgTDJOb3JtKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgbl9jaGFubmVscywgc2NhbGU9MS4wKToKICAgICAgICBzdXBlcihMMk5vcm0sIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLm5fY2hhbm5lbHMgPSBuX2NoYW5uZWxzCiAgICAgICAgc2VsZi5zY2FsZSA9IHNjYWxlCiAgICAgICAgc2VsZi5lcHMgPSAxZS0xMAogICAgICAgIHNlbGYud2VpZ2h0ID0gbm4uUGFyYW1ldGVyKHRvcmNoLlRlbnNvcihzZWxmLm5fY2hhbm5lbHMpKQogICAgICAgIHNlbGYud2VpZ2h0LmRhdGEgKj0gMC4wCiAgICAgICAgc2VsZi53ZWlnaHQuZGF0YSArPSBzZWxmLnNjYWxlCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCk6CiAgICAgICAgbm9ybSA9IHgucG93KDIpLnN1bShkaW09MSwga2VlcGRpbT1UcnVlKS5zcXJ0KCkgKyBzZWxmLmVwcwogICAgICAgIHggPSB4IC8gbm9ybSAqIHNlbGYud2VpZ2h0LnZpZXcoMSwgLTEsIDEsIDEpCiAgICAgICAgcmV0dXJuIHgKCgpjbGFzcyBzM2ZkKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZik6CiAgICAgICAgc3VwZXIoczNmZCwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYuY29udjFfMSA9IG5uLkNvbnYyZCgzLCA2NCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSkKICAgICAgICBzZWxmLmNvbnYxXzIgPSBubi5Db252MmQoNjQsIDY0LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xKQoKICAgICAgICBzZWxmLmNvbnYyXzEgPSBubi5Db252MmQoNjQsIDEyOCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSkKICAgICAgICBzZWxmLmNvbnYyXzIgPSBubi5Db252MmQoMTI4LCAxMjgsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEpCgogICAgICAgIHNlbGYuY29udjNfMSA9IG5uLkNvbnYyZCgxMjgsIDI1Niwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSkKICAgICAgICBzZWxmLmNvbnYzXzIgPSBubi5Db252MmQoMjU2LCAyNTYsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEpCiAgICAgICAgc2VsZi5jb252M18zID0gbm4uQ29udjJkKDI1NiwgMjU2LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xKQoKICAgICAgICBzZWxmLmNvbnY0XzEgPSBubi5Db252MmQoMjU2LCA1MTIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEpCiAgICAgICAgc2VsZi5jb252NF8yID0gbm4uQ29udjJkKDUxMiwgNTEyLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xKQogICAgICAgIHNlbGYuY29udjRfMyA9IG5uLkNvbnYyZCg1MTIsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSkKCiAgICAgICAgc2VsZi5jb252NV8xID0gbm4uQ29udjJkKDUxMiwgNTEyLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xKQogICAgICAgIHNlbGYuY29udjVfMiA9IG5uLkNvbnYyZCg1MTIsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSkKICAgICAgICBzZWxmLmNvbnY1XzMgPSBubi5Db252MmQoNTEyLCA1MTIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEpCgogICAgICAgIHNlbGYuZmM2ID0gbm4uQ29udjJkKDUxMiwgMTAyNCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MykKICAgICAgICBzZWxmLmZjNyA9IG5uLkNvbnYyZCgxMDI0LCAxMDI0LCBrZXJuZWxfc2l6ZT0xLCBzdHJpZGU9MSwgcGFkZGluZz0wKQoKICAgICAgICBzZWxmLmNvbnY2XzEgPSBubi5Db252MmQoMTAyNCwgMjU2LCBrZXJuZWxfc2l6ZT0xLCBzdHJpZGU9MSwgcGFkZGluZz0wKQogICAgICAgIHNlbGYuY29udjZfMiA9IG5uLkNvbnYyZCgyNTYsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTIsIHBhZGRpbmc9MSkKCiAgICAgICAgc2VsZi5jb252N18xID0gbm4uQ29udjJkKDUxMiwgMTI4LCBrZXJuZWxfc2l6ZT0xLCBzdHJpZGU9MSwgcGFkZGluZz0wKQogICAgICAgIHNlbGYuY29udjdfMiA9IG5uLkNvbnYyZCgxMjgsIDI1Niwga2VybmVsX3NpemU9Mywgc3RyaWRlPTIsIHBhZGRpbmc9MSkKCiAgICAgICAgc2VsZi5jb252M18zX25vcm0gPSBMMk5vcm0oMjU2LCBzY2FsZT0xMCkKICAgICAgICBzZWxmLmNvbnY0XzNfbm9ybSA9IEwyTm9ybSg1MTIsIHNjYWxlPTgpCiAgICAgICAgc2VsZi5jb252NV8zX25vcm0gPSBMMk5vcm0oNTEyLCBzY2FsZT01KQoKICAgICAgICBzZWxmLmNvbnYzXzNfbm9ybV9tYm94X2NvbmYgPSBubi5Db252MmQoMjU2LCA0LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xKQogICAgICAgIHNlbGYuY29udjNfM19ub3JtX21ib3hfbG9jID0gbm4uQ29udjJkKDI1NiwgNCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSkKICAgICAgICBzZWxmLmNvbnY0XzNfbm9ybV9tYm94X2NvbmYgPSBubi5Db252MmQoNTEyLCAyLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xKQogICAgICAgIHNlbGYuY29udjRfM19ub3JtX21ib3hfbG9jID0gbm4uQ29udjJkKDUxMiwgNCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSkKICAgICAgICBzZWxmLmNvbnY1XzNfbm9ybV9tYm94X2NvbmYgPSBubi5Db252MmQoNTEyLCAyLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xKQogICAgICAgIHNlbGYuY29udjVfM19ub3JtX21ib3hfbG9jID0gbm4uQ29udjJkKDUxMiwgNCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSkKCiAgICAgICAgc2VsZi5mYzdfbWJveF9jb25mID0gbm4uQ29udjJkKDEwMjQsIDIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEpCiAgICAgICAgc2VsZi5mYzdfbWJveF9sb2MgPSBubi5Db252MmQoMTAyNCwgNCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSkKICAgICAgICBzZWxmLmNvbnY2XzJfbWJveF9jb25mID0gbm4uQ29udjJkKDUxMiwgMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSkKICAgICAgICBzZWxmLmNvbnY2XzJfbWJveF9sb2MgPSBubi5Db252MmQoNTEyLCA0LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xKQogICAgICAgIHNlbGYuY29udjdfMl9tYm94X2NvbmYgPSBubi5Db252MmQoMjU2LCAyLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xKQogICAgICAgIHNlbGYuY29udjdfMl9tYm94X2xvYyA9IG5uLkNvbnYyZCgyNTYsIDQsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEpCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCk6CiAgICAgICAgaCA9IEYucmVsdShzZWxmLmNvbnYxXzEoeCkpCiAgICAgICAgaCA9IEYucmVsdShzZWxmLmNvbnYxXzIoaCkpCiAgICAgICAgaCA9IEYubWF4X3Bvb2wyZChoLCAyLCAyKQoKICAgICAgICBoID0gRi5yZWx1KHNlbGYuY29udjJfMShoKSkKICAgICAgICBoID0gRi5yZWx1KHNlbGYuY29udjJfMihoKSkKICAgICAgICBoID0gRi5tYXhfcG9vbDJkKGgsIDIsIDIpCgogICAgICAgIGggPSBGLnJlbHUoc2VsZi5jb252M18xKGgpKQogICAgICAgIGggPSBGLnJlbHUoc2VsZi5jb252M18yKGgpKQogICAgICAgIGggPSBGLnJlbHUoc2VsZi5jb252M18zKGgpKQogICAgICAgIGYzXzMgPSBoCiAgICAgICAgaCA9IEYubWF4X3Bvb2wyZChoLCAyLCAyKQoKICAgICAgICBoID0gRi5yZWx1KHNlbGYuY29udjRfMShoKSkKICAgICAgICBoID0gRi5yZWx1KHNlbGYuY29udjRfMihoKSkKICAgICAgICBoID0gRi5yZWx1KHNlbGYuY29udjRfMyhoKSkKICAgICAgICBmNF8zID0gaAogICAgICAgIGggPSBGLm1heF9wb29sMmQoaCwgMiwgMikKCiAgICAgICAgaCA9IEYucmVsdShzZWxmLmNvbnY1XzEoaCkpCiAgICAgICAgaCA9IEYucmVsdShzZWxmLmNvbnY1XzIoaCkpCiAgICAgICAgaCA9IEYucmVsdShzZWxmLmNvbnY1XzMoaCkpCiAgICAgICAgZjVfMyA9IGgKICAgICAgICBoID0gRi5tYXhfcG9vbDJkKGgsIDIsIDIpCgogICAgICAgIGggPSBGLnJlbHUoc2VsZi5mYzYoaCkpCiAgICAgICAgaCA9IEYucmVsdShzZWxmLmZjNyhoKSkKICAgICAgICBmZmM3ID0gaAogICAgICAgIGggPSBGLnJlbHUoc2VsZi5jb252Nl8xKGgpKQogICAgICAgIGggPSBGLnJlbHUoc2VsZi5jb252Nl8yKGgpKQogICAgICAgIGY2XzIgPSBoCiAgICAgICAgaCA9IEYucmVsdShzZWxmLmNvbnY3XzEoaCkpCiAgICAgICAgaCA9IEYucmVsdShzZWxmLmNvbnY3XzIoaCkpCiAgICAgICAgZjdfMiA9IGgKCiAgICAgICAgZjNfMyA9IHNlbGYuY29udjNfM19ub3JtKGYzXzMpCiAgICAgICAgZjRfMyA9IHNlbGYuY29udjRfM19ub3JtKGY0XzMpCiAgICAgICAgZjVfMyA9IHNlbGYuY29udjVfM19ub3JtKGY1XzMpCgogICAgICAgIGNsczEgPSBzZWxmLmNvbnYzXzNfbm9ybV9tYm94X2NvbmYoZjNfMykKICAgICAgICByZWcxID0gc2VsZi5jb252M18zX25vcm1fbWJveF9sb2MoZjNfMykKICAgICAgICBjbHMyID0gc2VsZi5jb252NF8zX25vcm1fbWJveF9jb25mKGY0XzMpCiAgICAgICAgcmVnMiA9IHNlbGYuY29udjRfM19ub3JtX21ib3hfbG9jKGY0XzMpCiAgICAgICAgY2xzMyA9IHNlbGYuY29udjVfM19ub3JtX21ib3hfY29uZihmNV8zKQogICAgICAgIHJlZzMgPSBzZWxmLmNvbnY1XzNfbm9ybV9tYm94X2xvYyhmNV8zKQogICAgICAgIGNsczQgPSBzZWxmLmZjN19tYm94X2NvbmYoZmZjNykKICAgICAgICByZWc0ID0gc2VsZi5mYzdfbWJveF9sb2MoZmZjNykKICAgICAgICBjbHM1ID0gc2VsZi5jb252Nl8yX21ib3hfY29uZihmNl8yKQogICAgICAgIHJlZzUgPSBzZWxmLmNvbnY2XzJfbWJveF9sb2MoZjZfMikKICAgICAgICBjbHM2ID0gc2VsZi5jb252N18yX21ib3hfY29uZihmN18yKQogICAgICAgIHJlZzYgPSBzZWxmLmNvbnY3XzJfbWJveF9sb2MoZjdfMikKCiAgICAgICAgIyBtYXgtb3V0IGJhY2tncm91bmQgbGFiZWwKICAgICAgICBjaHVuayA9IHRvcmNoLmNodW5rKGNsczEsIDQsIDEpCiAgICAgICAgYm1heCA9IHRvcmNoLm1heCh0b3JjaC5tYXgoY2h1bmtbMF0sIGNodW5rWzFdKSwgY2h1bmtbMl0pCiAgICAgICAgY2xzMSA9IHRvcmNoLmNhdChbYm1heCwgY2h1bmtbM11dLCBkaW09MSkKCiAgICAgICAgcmV0dXJuIFtjbHMxLCByZWcxLCBjbHMyLCByZWcyLCBjbHMzLCByZWczLCBjbHM0LCByZWc0LCBjbHM1LCByZWc1LCBjbHM2LCByZWc2XQo=
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+
+class L2Norm(nn.Module):
+    def __init__(self, n_channels, scale=1.0):
+        super(L2Norm, self).__init__()
+        self.n_channels = n_channels
+        self.scale = scale
+        self.eps = 1e-10
+        self.weight = nn.Parameter(torch.Tensor(self.n_channels))
+        self.weight.data *= 0.0
+        self.weight.data += self.scale
+
+    def forward(self, x):
+        norm = x.pow(2).sum(dim=1, keepdim=True).sqrt() + self.eps
+        x = x / norm * self.weight.view(1, -1, 1, 1)
+        return x
+
+
+class s3fd(nn.Module):
+    def __init__(self):
+        super(s3fd, self).__init__()
+        self.conv1_1 = nn.Conv2d(3, 64, kernel_size=3, stride=1, padding=1)
+        self.conv1_2 = nn.Conv2d(64, 64, kernel_size=3, stride=1, padding=1)
+
+        self.conv2_1 = nn.Conv2d(64, 128, kernel_size=3, stride=1, padding=1)
+        self.conv2_2 = nn.Conv2d(128, 128, kernel_size=3, stride=1, padding=1)
+
+        self.conv3_1 = nn.Conv2d(128, 256, kernel_size=3, stride=1, padding=1)
+        self.conv3_2 = nn.Conv2d(256, 256, kernel_size=3, stride=1, padding=1)
+        self.conv3_3 = nn.Conv2d(256, 256, kernel_size=3, stride=1, padding=1)
+
+        self.conv4_1 = nn.Conv2d(256, 512, kernel_size=3, stride=1, padding=1)
+        self.conv4_2 = nn.Conv2d(512, 512, kernel_size=3, stride=1, padding=1)
+        self.conv4_3 = nn.Conv2d(512, 512, kernel_size=3, stride=1, padding=1)
+
+        self.conv5_1 = nn.Conv2d(512, 512, kernel_size=3, stride=1, padding=1)
+        self.conv5_2 = nn.Conv2d(512, 512, kernel_size=3, stride=1, padding=1)
+        self.conv5_3 = nn.Conv2d(512, 512, kernel_size=3, stride=1, padding=1)
+
+        self.fc6 = nn.Conv2d(512, 1024, kernel_size=3, stride=1, padding=3)
+        self.fc7 = nn.Conv2d(1024, 1024, kernel_size=1, stride=1, padding=0)
+
+        self.conv6_1 = nn.Conv2d(1024, 256, kernel_size=1, stride=1, padding=0)
+        self.conv6_2 = nn.Conv2d(256, 512, kernel_size=3, stride=2, padding=1)
+
+        self.conv7_1 = nn.Conv2d(512, 128, kernel_size=1, stride=1, padding=0)
+        self.conv7_2 = nn.Conv2d(128, 256, kernel_size=3, stride=2, padding=1)
+
+        self.conv3_3_norm = L2Norm(256, scale=10)
+        self.conv4_3_norm = L2Norm(512, scale=8)
+        self.conv5_3_norm = L2Norm(512, scale=5)
+
+        self.conv3_3_norm_mbox_conf = nn.Conv2d(256, 4, kernel_size=3, stride=1, padding=1)
+        self.conv3_3_norm_mbox_loc = nn.Conv2d(256, 4, kernel_size=3, stride=1, padding=1)
+        self.conv4_3_norm_mbox_conf = nn.Conv2d(512, 2, kernel_size=3, stride=1, padding=1)
+        self.conv4_3_norm_mbox_loc = nn.Conv2d(512, 4, kernel_size=3, stride=1, padding=1)
+        self.conv5_3_norm_mbox_conf = nn.Conv2d(512, 2, kernel_size=3, stride=1, padding=1)
+        self.conv5_3_norm_mbox_loc = nn.Conv2d(512, 4, kernel_size=3, stride=1, padding=1)
+
+        self.fc7_mbox_conf = nn.Conv2d(1024, 2, kernel_size=3, stride=1, padding=1)
+        self.fc7_mbox_loc = nn.Conv2d(1024, 4, kernel_size=3, stride=1, padding=1)
+        self.conv6_2_mbox_conf = nn.Conv2d(512, 2, kernel_size=3, stride=1, padding=1)
+        self.conv6_2_mbox_loc = nn.Conv2d(512, 4, kernel_size=3, stride=1, padding=1)
+        self.conv7_2_mbox_conf = nn.Conv2d(256, 2, kernel_size=3, stride=1, padding=1)
+        self.conv7_2_mbox_loc = nn.Conv2d(256, 4, kernel_size=3, stride=1, padding=1)
+
+    def forward(self, x):
+        h = F.relu(self.conv1_1(x))
+        h = F.relu(self.conv1_2(h))
+        h = F.max_pool2d(h, 2, 2)
+
+        h = F.relu(self.conv2_1(h))
+        h = F.relu(self.conv2_2(h))
+        h = F.max_pool2d(h, 2, 2)
+
+        h = F.relu(self.conv3_1(h))
+        h = F.relu(self.conv3_2(h))
+        h = F.relu(self.conv3_3(h))
+        f3_3 = h
+        h = F.max_pool2d(h, 2, 2)
+
+        h = F.relu(self.conv4_1(h))
+        h = F.relu(self.conv4_2(h))
+        h = F.relu(self.conv4_3(h))
+        f4_3 = h
+        h = F.max_pool2d(h, 2, 2)
+
+        h = F.relu(self.conv5_1(h))
+        h = F.relu(self.conv5_2(h))
+        h = F.relu(self.conv5_3(h))
+        f5_3 = h
+        h = F.max_pool2d(h, 2, 2)
+
+        h = F.relu(self.fc6(h))
+        h = F.relu(self.fc7(h))
+        ffc7 = h
+        h = F.relu(self.conv6_1(h))
+        h = F.relu(self.conv6_2(h))
+        f6_2 = h
+        h = F.relu(self.conv7_1(h))
+        h = F.relu(self.conv7_2(h))
+        f7_2 = h
+
+        f3_3 = self.conv3_3_norm(f3_3)
+        f4_3 = self.conv4_3_norm(f4_3)
+        f5_3 = self.conv5_3_norm(f5_3)
+
+        cls1 = self.conv3_3_norm_mbox_conf(f3_3)
+        reg1 = self.conv3_3_norm_mbox_loc(f3_3)
+        cls2 = self.conv4_3_norm_mbox_conf(f4_3)
+        reg2 = self.conv4_3_norm_mbox_loc(f4_3)
+        cls3 = self.conv5_3_norm_mbox_conf(f5_3)
+        reg3 = self.conv5_3_norm_mbox_loc(f5_3)
+        cls4 = self.fc7_mbox_conf(ffc7)
+        reg4 = self.fc7_mbox_loc(ffc7)
+        cls5 = self.conv6_2_mbox_conf(f6_2)
+        reg5 = self.conv6_2_mbox_loc(f6_2)
+        cls6 = self.conv7_2_mbox_conf(f7_2)
+        reg6 = self.conv7_2_mbox_loc(f7_2)
+
+        # max-out background label
+        chunk = torch.chunk(cls1, 4, 1)
+        bmax = torch.max(torch.max(chunk[0], chunk[1]), chunk[2])
+        cls1 = torch.cat([bmax, chunk[3]], dim=1)
+
+        return [cls1, reg1, cls2, reg2, cls3, reg3, cls4, reg4, cls5, reg5, cls6, reg6]

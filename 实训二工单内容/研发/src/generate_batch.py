@@ -1,1 +1,119 @@
-aW1wb3J0IG9zCgojIGZyb20gdHFkbSBpbXBvcnQgdHFkbQppbXBvcnQgdG9yY2gKaW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCByYW5kb20KaW1wb3J0IHNjaXB5LmlvIGFzIHNjaW8KaW1wb3J0IHNyYy51dGlscy5hdWRpbyBhcyBhdWRpbwoKZGVmIGNyb3BfcGFkX2F1ZGlvKHdhdiwgYXVkaW9fbGVuZ3RoKToKICAgIGlmIGxlbih3YXYpID4gYXVkaW9fbGVuZ3RoOgogICAgICAgIHdhdiA9IHdhdls6YXVkaW9fbGVuZ3RoXQogICAgZWxpZiBsZW4od2F2KSA8IGF1ZGlvX2xlbmd0aDoKICAgICAgICB3YXYgPSBucC5wYWQod2F2LCBbMCwgYXVkaW9fbGVuZ3RoIC0gbGVuKHdhdildLCBtb2RlPSdjb25zdGFudCcsIGNvbnN0YW50X3ZhbHVlcz0wKQogICAgcmV0dXJuIHdhdgoKZGVmIHBhcnNlX2F1ZGlvX2xlbmd0aChhdWRpb19sZW5ndGgsIHNyLCBmcHMpOgogICAgYml0X3Blcl9mcmFtZXMgPSBzciAvIGZwcwoKICAgIG51bV9mcmFtZXMgPSBpbnQoYXVkaW9fbGVuZ3RoIC8gYml0X3Blcl9mcmFtZXMpCiAgICBhdWRpb19sZW5ndGggPSBpbnQobnVtX2ZyYW1lcyAqIGJpdF9wZXJfZnJhbWVzKQoKICAgIHJldHVybiBhdWRpb19sZW5ndGgsIG51bV9mcmFtZXMKCmRlZiBnZW5lcmF0ZV9ibGlua19zZXEobnVtX2ZyYW1lcyk6CiAgICByYXRpbyA9IG5wLnplcm9zKChudW1fZnJhbWVzLDEpKQogICAgZnJhbWVfaWQgPSAwCiAgICB3aGlsZSBmcmFtZV9pZCBpbiByYW5nZShudW1fZnJhbWVzKToKICAgICAgICBzdGFydCA9IDgwCiAgICAgICAgaWYgZnJhbWVfaWQrc3RhcnQrOTw9bnVtX2ZyYW1lcyAtIDE6CiAgICAgICAgICAgIHJhdGlvW2ZyYW1lX2lkK3N0YXJ0OmZyYW1lX2lkK3N0YXJ0KzksIDBdID0gWzAuNSwwLjYsMC43LDAuOSwxLCAwLjksIDAuNywwLjYsMC41XQogICAgICAgICAgICBmcmFtZV9pZCA9IGZyYW1lX2lkK3N0YXJ0KzkKICAgICAgICBlbHNlOgogICAgICAgICAgICBicmVhawogICAgcmV0dXJuIHJhdGlvIAoKZGVmIGdlbmVyYXRlX2JsaW5rX3NlcV9yYW5kb21seShudW1fZnJhbWVzKToKICAgIHJhdGlvID0gbnAuemVyb3MoKG51bV9mcmFtZXMsMSkpCiAgICBpZiBudW1fZnJhbWVzPD0yMDoKICAgICAgICByZXR1cm4gcmF0aW8KICAgIGZyYW1lX2lkID0gMAogICAgd2hpbGUgZnJhbWVfaWQgaW4gcmFuZ2UobnVtX2ZyYW1lcyk6CiAgICAgICAgc3RhcnQgPSByYW5kb20uY2hvaWNlKHJhbmdlKG1pbigxMCxudW1fZnJhbWVzKSwgbWluKGludChudW1fZnJhbWVzLzIpLCA3MCkpKSAKICAgICAgICBpZiBmcmFtZV9pZCtzdGFydCs1PD1udW1fZnJhbWVzIC0gMToKICAgICAgICAgICAgcmF0aW9bZnJhbWVfaWQrc3RhcnQ6ZnJhbWVfaWQrc3RhcnQrNSwgMF0gPSBbMC41LCAwLjksIDEuMCwgMC45LCAwLjVdCiAgICAgICAgICAgIGZyYW1lX2lkID0gZnJhbWVfaWQrc3RhcnQrNQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGJyZWFrCiAgICByZXR1cm4gcmF0aW8KCmRlZiBnZXRfZGF0YShmaXJzdF9jb2VmZl9wYXRoLCBhdWRpb19wYXRoLCBkZXZpY2UsIHJlZl9leWVibGlua19jb2VmZl9wYXRoLCBzdGlsbD1GYWxzZSwgaWRsZW1vZGU9RmFsc2UsIGxlbmd0aF9vZl9hdWRpbz1GYWxzZSwgdXNlX2JsaW5rPVRydWUsIGZwcz0yNSk6CgogICAgc3luY25ldF9tZWxfc3RlcF9zaXplID0gMTYKCiAgICBwaWNfbmFtZSA9IG9zLnBhdGguc3BsaXRleHQob3MucGF0aC5zcGxpdChmaXJzdF9jb2VmZl9wYXRoKVstMV0pWzBdCiAgICBhdWRpb19uYW1lID0gb3MucGF0aC5zcGxpdGV4dChvcy5wYXRoLnNwbGl0KGF1ZGlvX3BhdGgpWy0xXSlbMF0KCiAgICAKICAgICMgaWYgaWRsZW1vZGU6CiAgICAjICAgICBudW1fZnJhbWVzID0gaW50KGxlbmd0aF9vZl9hdWRpbyAqIDI1KQogICAgIyAgICAgaW5kaXZfbWVscyA9IG5wLnplcm9zKChudW1fZnJhbWVzLCA4MCwgMTYpKQogICAgIyBlbHNlOgogICAgd2F2ID0gYXVkaW8ubG9hZF93YXYoYXVkaW9fcGF0aCwgMTYwMDApIAogICAgd2F2X2xlbmd0aCwgbnVtX2ZyYW1lcyA9IHBhcnNlX2F1ZGlvX2xlbmd0aChsZW4od2F2KSwgMTYwMDAsIGZwcykKICAgIHdhdiA9IGNyb3BfcGFkX2F1ZGlvKHdhdiwgd2F2X2xlbmd0aCkKICAgIG9yaWdfbWVsID0gYXVkaW8ubWVsc3BlY3Ryb2dyYW0od2F2KS5UCiAgICBzcGVjID0gb3JpZ19tZWwuY29weSgpICAgICAgICAgIyBuZnJhbWVzIDgwCiAgICBpbmRpdl9tZWxzID0gW10KCiAgICBmb3IgaSBpbiByYW5nZShudW1fZnJhbWVzKToKICAgICAgICBzdGFydF9mcmFtZV9udW0gPSBpLTIKICAgICAgICBzdGFydF9pZHggPSBpbnQoODAuICogKHN0YXJ0X2ZyYW1lX251bSAvIGZsb2F0KGZwcykpKQogICAgICAgIGVuZF9pZHggPSBzdGFydF9pZHggKyBzeW5jbmV0X21lbF9zdGVwX3NpemUKICAgICAgICBzZXEgPSBsaXN0KHJhbmdlKHN0YXJ0X2lkeCwgZW5kX2lkeCkpCiAgICAgICAgc2VxID0gWyBtaW4obWF4KGl0ZW0sIDApLCBvcmlnX21lbC5zaGFwZVswXS0xKSBmb3IgaXRlbSBpbiBzZXEgXQogICAgICAgIG0gPSBzcGVjW3NlcSwgOl0KICAgICAgICBpbmRpdl9tZWxzLmFwcGVuZChtLlQpCiAgICBpbmRpdl9tZWxzID0gbnAuYXNhcnJheShpbmRpdl9tZWxzKSAgICAgICAgICMgVCA4MCAxNgoKICAgIHJhdGlvID0gZ2VuZXJhdGVfYmxpbmtfc2VxX3JhbmRvbWx5KG51bV9mcmFtZXMpICAgICAgIyBUCiAgICBzb3VyY2Vfc2VtYW50aWNzX3BhdGggPSBmaXJzdF9jb2VmZl9wYXRoCiAgICBzb3VyY2Vfc2VtYW50aWNzX2RpY3QgPSBzY2lvLmxvYWRtYXQoc291cmNlX3NlbWFudGljc19wYXRoKQogICAgcmVmX2NvZWZmID0gc291cmNlX3NlbWFudGljc19kaWN0Wydjb2VmZl8zZG1tJ11bOjEsOjcwXSAgICAgICAgICMxIDcwCiAgICByZWZfY29lZmYgPSBucC5yZXBlYXQocmVmX2NvZWZmLCBudW1fZnJhbWVzLCBheGlzPTApCgogICAgIyBpZiByZWZfZXllYmxpbmtfY29lZmZfcGF0aCBpcyBub3QgTm9uZToKICAgICMgICAgIHJhdGlvWzpudW1fZnJhbWVzXSA9IDAKICAgICMgICAgIHJlZmV5ZWJsaW5rX2NvZWZmX2RpY3QgPSBzY2lvLmxvYWRtYXQocmVmX2V5ZWJsaW5rX2NvZWZmX3BhdGgpCiAgICAjICAgICByZWZleWVibGlua19jb2VmZiA9IHJlZmV5ZWJsaW5rX2NvZWZmX2RpY3RbJ2NvZWZmXzNkbW0nXVs6LDo2NF0KICAgICMgICAgIHJlZmV5ZWJsaW5rX251bV9mcmFtZXMgPSByZWZleWVibGlua19jb2VmZi5zaGFwZVswXQogICAgIyAgICAgaWYgcmVmZXllYmxpbmtfbnVtX2ZyYW1lczxudW1fZnJhbWVzOgogICAgIyAgICAgICAgIGRpdiA9IG51bV9mcmFtZXMvL3JlZmV5ZWJsaW5rX251bV9mcmFtZXMKICAgICMgICAgICAgICByZSA9IG51bV9mcmFtZXMlcmVmZXllYmxpbmtfbnVtX2ZyYW1lcwogICAgIyAgICAgICAgIHJlZmV5ZWJsaW5rX2NvZWZmX2xpc3QgPSBbcmVmZXllYmxpbmtfY29lZmYgZm9yIGkgaW4gcmFuZ2UoZGl2KV0KICAgICMgICAgICAgICByZWZleWVibGlua19jb2VmZl9saXN0LmFwcGVuZChyZWZleWVibGlua19jb2VmZls6cmUsIDo2NF0pCiAgICAjICAgICAgICAgcmVmZXllYmxpbmtfY29lZmYgPSBucC5jb25jYXRlbmF0ZShyZWZleWVibGlua19jb2VmZl9saXN0LCBheGlzPTApCiAgICAjICAgICAgICAgcHJpbnQocmVmZXllYmxpbmtfY29lZmYuc2hhcGVbMF0pCgogICAgIyAgICAgcmVmX2NvZWZmWzosIDo2NF0gPSByZWZleWVibGlua19jb2VmZls6bnVtX2ZyYW1lcywgOjY0XSAKICAgIAogICAgaW5kaXZfbWVscyA9IHRvcmNoLkZsb2F0VGVuc29yKGluZGl2X21lbHMpLnVuc3F1ZWV6ZSgxKS51bnNxdWVlemUoMCkgIyBicyBUIDEgODAgMTYKCiAgICBpZiB1c2VfYmxpbms6CiAgICAgICAgcmF0aW8gPSB0b3JjaC5GbG9hdFRlbnNvcihyYXRpbykudW5zcXVlZXplKDApICAgICAgICAgICAgICAgICAgICAgICAjIGJzIFQKICAgIGVsc2U6CiAgICAgICAgcmF0aW8gPSB0b3JjaC5GbG9hdFRlbnNvcihyYXRpbykudW5zcXVlZXplKDApLmZpbGxfKDAuKSAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgYnMgVAogICAgcmVmX2NvZWZmID0gdG9yY2guRmxvYXRUZW5zb3IocmVmX2NvZWZmKS51bnNxdWVlemUoMCkgICAgICAgICAgICAgICAgIyBicyAxIDcwCgogICAgaW5kaXZfbWVscyA9IGluZGl2X21lbHMudG8oZGV2aWNlKQogICAgcmF0aW8gPSByYXRpby50byhkZXZpY2UpCiAgICByZWZfY29lZmYgPSByZWZfY29lZmYudG8oZGV2aWNlKQoKICAgIHJldHVybiB7J2luZGl2X21lbHMnOiBpbmRpdl9tZWxzLCAgCiAgICAgICAgICAgICdyZWYnOiByZWZfY29lZmYsIAogICAgICAgICAgICAnbnVtX2ZyYW1lcyc6IG51bV9mcmFtZXMsIAogICAgICAgICAgICAncmF0aW9fZ3QnOiByYXRpbywKICAgICAgICAgICAgJ2F1ZGlvX25hbWUnOiBhdWRpb19uYW1lLCAncGljX25hbWUnOiBwaWNfbmFtZX0KCg==
+import os
+
+# from tqdm import tqdm
+import torch
+import numpy as np
+import random
+import scipy.io as scio
+import src.utils.audio as audio
+
+def crop_pad_audio(wav, audio_length):
+    if len(wav) > audio_length:
+        wav = wav[:audio_length]
+    elif len(wav) < audio_length:
+        wav = np.pad(wav, [0, audio_length - len(wav)], mode='constant', constant_values=0)
+    return wav
+
+def parse_audio_length(audio_length, sr, fps):
+    bit_per_frames = sr / fps
+
+    num_frames = int(audio_length / bit_per_frames)
+    audio_length = int(num_frames * bit_per_frames)
+
+    return audio_length, num_frames
+
+def generate_blink_seq(num_frames):
+    ratio = np.zeros((num_frames,1))
+    frame_id = 0
+    while frame_id in range(num_frames):
+        start = 80
+        if frame_id+start+9<=num_frames - 1:
+            ratio[frame_id+start:frame_id+start+9, 0] = [0.5,0.6,0.7,0.9,1, 0.9, 0.7,0.6,0.5]
+            frame_id = frame_id+start+9
+        else:
+            break
+    return ratio 
+
+def generate_blink_seq_randomly(num_frames):
+    ratio = np.zeros((num_frames,1))
+    if num_frames<=20:
+        return ratio
+    frame_id = 0
+    while frame_id in range(num_frames):
+        start = random.choice(range(min(10,num_frames), min(int(num_frames/2), 70))) 
+        if frame_id+start+5<=num_frames - 1:
+            ratio[frame_id+start:frame_id+start+5, 0] = [0.5, 0.9, 1.0, 0.9, 0.5]
+            frame_id = frame_id+start+5
+        else:
+            break
+    return ratio
+
+def get_data(first_coeff_path, audio_path, device, ref_eyeblink_coeff_path, still=False, idlemode=False, length_of_audio=False, use_blink=True, fps=25):
+
+    syncnet_mel_step_size = 16
+
+    pic_name = os.path.splitext(os.path.split(first_coeff_path)[-1])[0]
+    audio_name = os.path.splitext(os.path.split(audio_path)[-1])[0]
+
+    
+    # if idlemode:
+    #     num_frames = int(length_of_audio * 25)
+    #     indiv_mels = np.zeros((num_frames, 80, 16))
+    # else:
+    wav = audio.load_wav(audio_path, 16000) 
+    wav_length, num_frames = parse_audio_length(len(wav), 16000, fps)
+    wav = crop_pad_audio(wav, wav_length)
+    orig_mel = audio.melspectrogram(wav).T
+    spec = orig_mel.copy()         # nframes 80
+    indiv_mels = []
+
+    for i in range(num_frames):
+        start_frame_num = i-2
+        start_idx = int(80. * (start_frame_num / float(fps)))
+        end_idx = start_idx + syncnet_mel_step_size
+        seq = list(range(start_idx, end_idx))
+        seq = [ min(max(item, 0), orig_mel.shape[0]-1) for item in seq ]
+        m = spec[seq, :]
+        indiv_mels.append(m.T)
+    indiv_mels = np.asarray(indiv_mels)         # T 80 16
+
+    ratio = generate_blink_seq_randomly(num_frames)      # T
+    source_semantics_path = first_coeff_path
+    source_semantics_dict = scio.loadmat(source_semantics_path)
+    ref_coeff = source_semantics_dict['coeff_3dmm'][:1,:70]         #1 70
+    ref_coeff = np.repeat(ref_coeff, num_frames, axis=0)
+
+    # if ref_eyeblink_coeff_path is not None:
+    #     ratio[:num_frames] = 0
+    #     refeyeblink_coeff_dict = scio.loadmat(ref_eyeblink_coeff_path)
+    #     refeyeblink_coeff = refeyeblink_coeff_dict['coeff_3dmm'][:,:64]
+    #     refeyeblink_num_frames = refeyeblink_coeff.shape[0]
+    #     if refeyeblink_num_frames<num_frames:
+    #         div = num_frames//refeyeblink_num_frames
+    #         re = num_frames%refeyeblink_num_frames
+    #         refeyeblink_coeff_list = [refeyeblink_coeff for i in range(div)]
+    #         refeyeblink_coeff_list.append(refeyeblink_coeff[:re, :64])
+    #         refeyeblink_coeff = np.concatenate(refeyeblink_coeff_list, axis=0)
+    #         print(refeyeblink_coeff.shape[0])
+
+    #     ref_coeff[:, :64] = refeyeblink_coeff[:num_frames, :64] 
+    
+    indiv_mels = torch.FloatTensor(indiv_mels).unsqueeze(1).unsqueeze(0) # bs T 1 80 16
+
+    if use_blink:
+        ratio = torch.FloatTensor(ratio).unsqueeze(0)                       # bs T
+    else:
+        ratio = torch.FloatTensor(ratio).unsqueeze(0).fill_(0.) 
+                               # bs T
+    ref_coeff = torch.FloatTensor(ref_coeff).unsqueeze(0)                # bs 1 70
+
+    indiv_mels = indiv_mels.to(device)
+    ratio = ratio.to(device)
+    ref_coeff = ref_coeff.to(device)
+
+    return {'indiv_mels': indiv_mels,  
+            'ref': ref_coeff, 
+            'num_frames': num_frames, 
+            'ratio_gt': ratio,
+            'audio_name': audio_name, 'pic_name': pic_name}
+

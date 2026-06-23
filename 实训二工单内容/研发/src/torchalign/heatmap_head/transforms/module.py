@@ -1,1 +1,28 @@
-CmltcG9ydCB0b3JjaAppbXBvcnQgdG9yY2gubm4gYXMgbm4KCmZyb20gLiBpbXBvcnQgZnVuY3Rpb25hbCBhcyBGCgoKX19hbGxfXyA9IFsgJ0JpbmFyeUhlYXRtYXAyQ29vcmRpbmF0ZScgXQoKCmNsYXNzIEJpbmFyeUhlYXRtYXAyQ29vcmRpbmF0ZShubi5Nb2R1bGUpOgogICAgIiIiQmluYXJ5SGVhdG1hcDJDb29yZGluYXRlCiAgICAiIiIKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzdHJpZGU9NC4wLCB0b3BrPTUsICoqa3dhcmdzKToKICAgICAgICBzdXBlcihCaW5hcnlIZWF0bWFwMkNvb3JkaW5hdGUsIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLnRvcGsgPSB0b3BrCiAgICAgICAgc2VsZi5zdHJpZGUgPSBzdHJpZGUKICAgICAgICAKICAgIGRlZiBmb3J3YXJkKHNlbGYsIGlucHV0KToKICAgICAgICByZXR1cm4gc2VsZi5zdHJpZGUgKiBGLmhlYXRtYXAyY29vcmQoaW5wdXRbOiwxLC4uLl0sIHNlbGYudG9waykKICAgICAgICAKICAgIGRlZiBfX3JlcHJfXyhzZWxmKToKICAgICAgICBmb3JtYXRfc3RyaW5nID0gc2VsZi5fX2NsYXNzX18uX19uYW1lX18gKyAnKCcKICAgICAgICBmb3JtYXRfc3RyaW5nICs9ICd0b3BrPXt9LCAnLmZvcm1hdChzZWxmLnRvcGspCiAgICAgICAgZm9ybWF0X3N0cmluZyArPSAnc3RyaWRlPXt9Jy5mb3JtYXQoc2VsZi5zdHJpZGUpCiAgICAgICAgZm9ybWF0X3N0cmluZyArPSAnKScKICAgICAgICByZXR1cm4gZm9ybWF0X3N0cmluZwogICAgICAgIAo=
+
+import torch
+import torch.nn as nn
+
+from . import functional as F
+
+
+__all__ = [ 'BinaryHeatmap2Coordinate' ]
+
+
+class BinaryHeatmap2Coordinate(nn.Module):
+    """BinaryHeatmap2Coordinate
+    """
+    def __init__(self, stride=4.0, topk=5, **kwargs):
+        super(BinaryHeatmap2Coordinate, self).__init__()
+        self.topk = topk
+        self.stride = stride
+        
+    def forward(self, input):
+        return self.stride * F.heatmap2coord(input[:,1,...], self.topk)
+        
+    def __repr__(self):
+        format_string = self.__class__.__name__ + '('
+        format_string += 'topk={}, '.format(self.topk)
+        format_string += 'stride={}'.format(self.stride)
+        format_string += ')'
+        return format_string
+        

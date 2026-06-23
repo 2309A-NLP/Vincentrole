@@ -1,1 +1,564 @@
-ZnJvbSB0b3JjaCBpbXBvcnQgbm4KCmltcG9ydCB0b3JjaC5ubi5mdW5jdGlvbmFsIGFzIEYKaW1wb3J0IHRvcmNoCgpmcm9tIHNyYy5mYWNlcmVuZGVyLnN5bmNfYmF0Y2hub3JtIGltcG9ydCBTeW5jaHJvbml6ZWRCYXRjaE5vcm0yZCBhcyBCYXRjaE5vcm0yZApmcm9tIHNyYy5mYWNlcmVuZGVyLnN5bmNfYmF0Y2hub3JtIGltcG9ydCBTeW5jaHJvbml6ZWRCYXRjaE5vcm0zZCBhcyBCYXRjaE5vcm0zZAoKaW1wb3J0IHRvcmNoLm5uLnV0aWxzLnNwZWN0cmFsX25vcm0gYXMgc3BlY3RyYWxfbm9ybQoKCmRlZiBrcDJnYXVzc2lhbihrcCwgc3BhdGlhbF9zaXplLCBrcF92YXJpYW5jZSk6CiAgICAiIiIKICAgIFRyYW5zZm9ybSBhIGtleXBvaW50IGludG8gZ2F1c3NpYW4gbGlrZSByZXByZXNlbnRhdGlvbgogICAgIiIiCiAgICBtZWFuID0ga3BbJ3ZhbHVlJ10KCiAgICBjb29yZGluYXRlX2dyaWQgPSBtYWtlX2Nvb3JkaW5hdGVfZ3JpZChzcGF0aWFsX3NpemUsIG1lYW4udHlwZSgpKQogICAgbnVtYmVyX29mX2xlYWRpbmdfZGltZW5zaW9ucyA9IGxlbihtZWFuLnNoYXBlKSAtIDEKICAgIHNoYXBlID0gKDEsKSAqIG51bWJlcl9vZl9sZWFkaW5nX2RpbWVuc2lvbnMgKyBjb29yZGluYXRlX2dyaWQuc2hhcGUKICAgIGNvb3JkaW5hdGVfZ3JpZCA9IGNvb3JkaW5hdGVfZ3JpZC52aWV3KCpzaGFwZSkKICAgIHJlcGVhdHMgPSBtZWFuLnNoYXBlWzpudW1iZXJfb2ZfbGVhZGluZ19kaW1lbnNpb25zXSArICgxLCAxLCAxLCAxKQogICAgY29vcmRpbmF0ZV9ncmlkID0gY29vcmRpbmF0ZV9ncmlkLnJlcGVhdCgqcmVwZWF0cykKCiAgICAjIFByZXByb2Nlc3Mga3Agc2hhcGUKICAgIHNoYXBlID0gbWVhbi5zaGFwZVs6bnVtYmVyX29mX2xlYWRpbmdfZGltZW5zaW9uc10gKyAoMSwgMSwgMSwgMykKICAgIG1lYW4gPSBtZWFuLnZpZXcoKnNoYXBlKQoKICAgIG1lYW5fc3ViID0gKGNvb3JkaW5hdGVfZ3JpZCAtIG1lYW4pCgogICAgb3V0ID0gdG9yY2guZXhwKC0wLjUgKiAobWVhbl9zdWIgKiogMikuc3VtKC0xKSAvIGtwX3ZhcmlhbmNlKQoKICAgIHJldHVybiBvdXQKCmRlZiBtYWtlX2Nvb3JkaW5hdGVfZ3JpZF8yZChzcGF0aWFsX3NpemUsIHR5cGUpOgogICAgIiIiCiAgICBDcmVhdGUgYSBtZXNoZ3JpZCBbLTEsMV0geCBbLTEsMV0gb2YgZ2l2ZW4gc3BhdGlhbF9zaXplLgogICAgIiIiCiAgICBoLCB3ID0gc3BhdGlhbF9zaXplCiAgICB4ID0gdG9yY2guYXJhbmdlKHcpLnR5cGUodHlwZSkKICAgIHkgPSB0b3JjaC5hcmFuZ2UoaCkudHlwZSh0eXBlKQoKICAgIHggPSAoMiAqICh4IC8gKHcgLSAxKSkgLSAxKQogICAgeSA9ICgyICogKHkgLyAoaCAtIDEpKSAtIDEpCgogICAgeXkgPSB5LnZpZXcoLTEsIDEpLnJlcGVhdCgxLCB3KQogICAgeHggPSB4LnZpZXcoMSwgLTEpLnJlcGVhdChoLCAxKQoKICAgIG1lc2hlZCA9IHRvcmNoLmNhdChbeHgudW5zcXVlZXplXygyKSwgeXkudW5zcXVlZXplXygyKV0sIDIpCgogICAgcmV0dXJuIG1lc2hlZAoKCmRlZiBtYWtlX2Nvb3JkaW5hdGVfZ3JpZChzcGF0aWFsX3NpemUsIHR5cGUpOgogICAgZCwgaCwgdyA9IHNwYXRpYWxfc2l6ZQogICAgeCA9IHRvcmNoLmFyYW5nZSh3KS50eXBlKHR5cGUpCiAgICB5ID0gdG9yY2guYXJhbmdlKGgpLnR5cGUodHlwZSkKICAgIHogPSB0b3JjaC5hcmFuZ2UoZCkudHlwZSh0eXBlKQoKICAgIHggPSAoMiAqICh4IC8gKHcgLSAxKSkgLSAxKQogICAgeSA9ICgyICogKHkgLyAoaCAtIDEpKSAtIDEpCiAgICB6ID0gKDIgKiAoeiAvIChkIC0gMSkpIC0gMSkKICAgCiAgICB5eSA9IHkudmlldygxLCAtMSwgMSkucmVwZWF0KGQsIDEsIHcpCiAgICB4eCA9IHgudmlldygxLCAxLCAtMSkucmVwZWF0KGQsIGgsIDEpCiAgICB6eiA9IHoudmlldygtMSwgMSwgMSkucmVwZWF0KDEsIGgsIHcpCgogICAgbWVzaGVkID0gdG9yY2guY2F0KFt4eC51bnNxdWVlemVfKDMpLCB5eS51bnNxdWVlemVfKDMpLCB6ei51bnNxdWVlemVfKDMpXSwgMykKCiAgICByZXR1cm4gbWVzaGVkCgoKY2xhc3MgUmVzQm90dGxlbmVjayhubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGluX2ZlYXR1cmVzLCBzdHJpZGUpOgogICAgICAgIHN1cGVyKFJlc0JvdHRsZW5lY2ssIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLmNvbnYxID0gbm4uQ29udjJkKGluX2NoYW5uZWxzPWluX2ZlYXR1cmVzLCBvdXRfY2hhbm5lbHM9aW5fZmVhdHVyZXMvLzQsIGtlcm5lbF9zaXplPTEpCiAgICAgICAgc2VsZi5jb252MiA9IG5uLkNvbnYyZChpbl9jaGFubmVscz1pbl9mZWF0dXJlcy8vNCwgb3V0X2NoYW5uZWxzPWluX2ZlYXR1cmVzLy80LCBrZXJuZWxfc2l6ZT0zLCBwYWRkaW5nPTEsIHN0cmlkZT1zdHJpZGUpCiAgICAgICAgc2VsZi5jb252MyA9IG5uLkNvbnYyZChpbl9jaGFubmVscz1pbl9mZWF0dXJlcy8vNCwgb3V0X2NoYW5uZWxzPWluX2ZlYXR1cmVzLCBrZXJuZWxfc2l6ZT0xKQogICAgICAgIHNlbGYubm9ybTEgPSBCYXRjaE5vcm0yZChpbl9mZWF0dXJlcy8vNCwgYWZmaW5lPVRydWUpCiAgICAgICAgc2VsZi5ub3JtMiA9IEJhdGNoTm9ybTJkKGluX2ZlYXR1cmVzLy80LCBhZmZpbmU9VHJ1ZSkKICAgICAgICBzZWxmLm5vcm0zID0gQmF0Y2hOb3JtMmQoaW5fZmVhdHVyZXMsIGFmZmluZT1UcnVlKQoKICAgICAgICBzZWxmLnN0cmlkZSA9IHN0cmlkZQogICAgICAgIGlmIHNlbGYuc3RyaWRlICE9IDE6CiAgICAgICAgICAgIHNlbGYuc2tpcCA9IG5uLkNvbnYyZChpbl9jaGFubmVscz1pbl9mZWF0dXJlcywgb3V0X2NoYW5uZWxzPWluX2ZlYXR1cmVzLCBrZXJuZWxfc2l6ZT0xLCBzdHJpZGU9c3RyaWRlKQogICAgICAgICAgICBzZWxmLm5vcm00ID0gQmF0Y2hOb3JtMmQoaW5fZmVhdHVyZXMsIGFmZmluZT1UcnVlKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIG91dCA9IHNlbGYuY29udjEoeCkKICAgICAgICBvdXQgPSBzZWxmLm5vcm0xKG91dCkKICAgICAgICBvdXQgPSBGLnJlbHUob3V0KQogICAgICAgIG91dCA9IHNlbGYuY29udjIob3V0KQogICAgICAgIG91dCA9IHNlbGYubm9ybTIob3V0KQogICAgICAgIG91dCA9IEYucmVsdShvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5jb252MyhvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5ub3JtMyhvdXQpCiAgICAgICAgaWYgc2VsZi5zdHJpZGUgIT0gMToKICAgICAgICAgICAgeCA9IHNlbGYuc2tpcCh4KQogICAgICAgICAgICB4ID0gc2VsZi5ub3JtNCh4KQogICAgICAgIG91dCArPSB4CiAgICAgICAgb3V0ID0gRi5yZWx1KG91dCkKICAgICAgICByZXR1cm4gb3V0CgoKY2xhc3MgUmVzQmxvY2syZChubi5Nb2R1bGUpOgogICAgIiIiCiAgICBSZXMgYmxvY2ssIHByZXNlcnZlIHNwYXRpYWwgcmVzb2x1dGlvbi4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbl9mZWF0dXJlcywga2VybmVsX3NpemUsIHBhZGRpbmcpOgogICAgICAgIHN1cGVyKFJlc0Jsb2NrMmQsIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLmNvbnYxID0gbm4uQ29udjJkKGluX2NoYW5uZWxzPWluX2ZlYXR1cmVzLCBvdXRfY2hhbm5lbHM9aW5fZmVhdHVyZXMsIGtlcm5lbF9zaXplPWtlcm5lbF9zaXplLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZz1wYWRkaW5nKQogICAgICAgIHNlbGYuY29udjIgPSBubi5Db252MmQoaW5fY2hhbm5lbHM9aW5fZmVhdHVyZXMsIG91dF9jaGFubmVscz1pbl9mZWF0dXJlcywga2VybmVsX3NpemU9a2VybmVsX3NpemUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nPXBhZGRpbmcpCiAgICAgICAgc2VsZi5ub3JtMSA9IEJhdGNoTm9ybTJkKGluX2ZlYXR1cmVzLCBhZmZpbmU9VHJ1ZSkKICAgICAgICBzZWxmLm5vcm0yID0gQmF0Y2hOb3JtMmQoaW5fZmVhdHVyZXMsIGFmZmluZT1UcnVlKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIG91dCA9IHNlbGYubm9ybTEoeCkKICAgICAgICBvdXQgPSBGLnJlbHUob3V0KQogICAgICAgIG91dCA9IHNlbGYuY29udjEob3V0KQogICAgICAgIG91dCA9IHNlbGYubm9ybTIob3V0KQogICAgICAgIG91dCA9IEYucmVsdShvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5jb252MihvdXQpCiAgICAgICAgb3V0ICs9IHgKICAgICAgICByZXR1cm4gb3V0CgoKY2xhc3MgUmVzQmxvY2szZChubi5Nb2R1bGUpOgogICAgIiIiCiAgICBSZXMgYmxvY2ssIHByZXNlcnZlIHNwYXRpYWwgcmVzb2x1dGlvbi4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbl9mZWF0dXJlcywga2VybmVsX3NpemUsIHBhZGRpbmcpOgogICAgICAgIHN1cGVyKFJlc0Jsb2NrM2QsIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLmNvbnYxID0gbm4uQ29udjNkKGluX2NoYW5uZWxzPWluX2ZlYXR1cmVzLCBvdXRfY2hhbm5lbHM9aW5fZmVhdHVyZXMsIGtlcm5lbF9zaXplPWtlcm5lbF9zaXplLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZz1wYWRkaW5nKQogICAgICAgIHNlbGYuY29udjIgPSBubi5Db252M2QoaW5fY2hhbm5lbHM9aW5fZmVhdHVyZXMsIG91dF9jaGFubmVscz1pbl9mZWF0dXJlcywga2VybmVsX3NpemU9a2VybmVsX3NpemUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nPXBhZGRpbmcpCiAgICAgICAgc2VsZi5ub3JtMSA9IEJhdGNoTm9ybTNkKGluX2ZlYXR1cmVzLCBhZmZpbmU9VHJ1ZSkKICAgICAgICBzZWxmLm5vcm0yID0gQmF0Y2hOb3JtM2QoaW5fZmVhdHVyZXMsIGFmZmluZT1UcnVlKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIG91dCA9IHNlbGYubm9ybTEoeCkKICAgICAgICBvdXQgPSBGLnJlbHUob3V0KQogICAgICAgIG91dCA9IHNlbGYuY29udjEob3V0KQogICAgICAgIG91dCA9IHNlbGYubm9ybTIob3V0KQogICAgICAgIG91dCA9IEYucmVsdShvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5jb252MihvdXQpCiAgICAgICAgb3V0ICs9IHgKICAgICAgICByZXR1cm4gb3V0CgoKY2xhc3MgVXBCbG9jazJkKG5uLk1vZHVsZSk6CiAgICAiIiIKICAgIFVwc2FtcGxpbmcgYmxvY2sgZm9yIHVzZSBpbiBkZWNvZGVyLgogICAgIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGluX2ZlYXR1cmVzLCBvdXRfZmVhdHVyZXMsIGtlcm5lbF9zaXplPTMsIHBhZGRpbmc9MSwgZ3JvdXBzPTEpOgogICAgICAgIHN1cGVyKFVwQmxvY2syZCwgc2VsZikuX19pbml0X18oKQoKICAgICAgICBzZWxmLmNvbnYgPSBubi5Db252MmQoaW5fY2hhbm5lbHM9aW5fZmVhdHVyZXMsIG91dF9jaGFubmVscz1vdXRfZmVhdHVyZXMsIGtlcm5lbF9zaXplPWtlcm5lbF9zaXplLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nPXBhZGRpbmcsIGdyb3Vwcz1ncm91cHMpCiAgICAgICAgc2VsZi5ub3JtID0gQmF0Y2hOb3JtMmQob3V0X2ZlYXR1cmVzLCBhZmZpbmU9VHJ1ZSkKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4KToKICAgICAgICBvdXQgPSBGLmludGVycG9sYXRlKHgsIHNjYWxlX2ZhY3Rvcj0yKQogICAgICAgIG91dCA9IHNlbGYuY29udihvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5ub3JtKG91dCkKICAgICAgICBvdXQgPSBGLnJlbHUob3V0KQogICAgICAgIHJldHVybiBvdXQKCmNsYXNzIFVwQmxvY2szZChubi5Nb2R1bGUpOgogICAgIiIiCiAgICBVcHNhbXBsaW5nIGJsb2NrIGZvciB1c2UgaW4gZGVjb2Rlci4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbl9mZWF0dXJlcywgb3V0X2ZlYXR1cmVzLCBrZXJuZWxfc2l6ZT0zLCBwYWRkaW5nPTEsIGdyb3Vwcz0xKToKICAgICAgICBzdXBlcihVcEJsb2NrM2QsIHNlbGYpLl9faW5pdF9fKCkKCiAgICAgICAgc2VsZi5jb252ID0gbm4uQ29udjNkKGluX2NoYW5uZWxzPWluX2ZlYXR1cmVzLCBvdXRfY2hhbm5lbHM9b3V0X2ZlYXR1cmVzLCBrZXJuZWxfc2l6ZT1rZXJuZWxfc2l6ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZz1wYWRkaW5nLCBncm91cHM9Z3JvdXBzKQogICAgICAgIHNlbGYubm9ybSA9IEJhdGNoTm9ybTNkKG91dF9mZWF0dXJlcywgYWZmaW5lPVRydWUpCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCk6CiAgICAgICAgIyBvdXQgPSBGLmludGVycG9sYXRlKHgsIHNjYWxlX2ZhY3Rvcj0oMSwgMiwgMiksIG1vZGU9J3RyaWxpbmVhcicpCiAgICAgICAgb3V0ID0gRi5pbnRlcnBvbGF0ZSh4LCBzY2FsZV9mYWN0b3I9KDEsIDIsIDIpKQogICAgICAgIG91dCA9IHNlbGYuY29udihvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5ub3JtKG91dCkKICAgICAgICBvdXQgPSBGLnJlbHUob3V0KQogICAgICAgIHJldHVybiBvdXQKCgpjbGFzcyBEb3duQmxvY2syZChubi5Nb2R1bGUpOgogICAgIiIiCiAgICBEb3duc2FtcGxpbmcgYmxvY2sgZm9yIHVzZSBpbiBlbmNvZGVyLgogICAgIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGluX2ZlYXR1cmVzLCBvdXRfZmVhdHVyZXMsIGtlcm5lbF9zaXplPTMsIHBhZGRpbmc9MSwgZ3JvdXBzPTEpOgogICAgICAgIHN1cGVyKERvd25CbG9jazJkLCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgc2VsZi5jb252ID0gbm4uQ29udjJkKGluX2NoYW5uZWxzPWluX2ZlYXR1cmVzLCBvdXRfY2hhbm5lbHM9b3V0X2ZlYXR1cmVzLCBrZXJuZWxfc2l6ZT1rZXJuZWxfc2l6ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZz1wYWRkaW5nLCBncm91cHM9Z3JvdXBzKQogICAgICAgIHNlbGYubm9ybSA9IEJhdGNoTm9ybTJkKG91dF9mZWF0dXJlcywgYWZmaW5lPVRydWUpCiAgICAgICAgc2VsZi5wb29sID0gbm4uQXZnUG9vbDJkKGtlcm5lbF9zaXplPSgyLCAyKSkKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4KToKICAgICAgICBvdXQgPSBzZWxmLmNvbnYoeCkKICAgICAgICBvdXQgPSBzZWxmLm5vcm0ob3V0KQogICAgICAgIG91dCA9IEYucmVsdShvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5wb29sKG91dCkKICAgICAgICByZXR1cm4gb3V0CgoKY2xhc3MgRG93bkJsb2NrM2Qobm4uTW9kdWxlKToKICAgICIiIgogICAgRG93bnNhbXBsaW5nIGJsb2NrIGZvciB1c2UgaW4gZW5jb2Rlci4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbl9mZWF0dXJlcywgb3V0X2ZlYXR1cmVzLCBrZXJuZWxfc2l6ZT0zLCBwYWRkaW5nPTEsIGdyb3Vwcz0xKToKICAgICAgICBzdXBlcihEb3duQmxvY2szZCwgc2VsZikuX19pbml0X18oKQogICAgICAgICcnJwogICAgICAgIHNlbGYuY29udiA9IG5uLkNvbnYzZChpbl9jaGFubmVscz1pbl9mZWF0dXJlcywgb3V0X2NoYW5uZWxzPW91dF9mZWF0dXJlcywga2VybmVsX3NpemU9a2VybmVsX3NpemUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc9cGFkZGluZywgZ3JvdXBzPWdyb3Vwcywgc3RyaWRlPSgxLCAyLCAyKSkKICAgICAgICAnJycKICAgICAgICBzZWxmLmNvbnYgPSBubi5Db252M2QoaW5fY2hhbm5lbHM9aW5fZmVhdHVyZXMsIG91dF9jaGFubmVscz1vdXRfZmVhdHVyZXMsIGtlcm5lbF9zaXplPWtlcm5lbF9zaXplLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nPXBhZGRpbmcsIGdyb3Vwcz1ncm91cHMpCiAgICAgICAgc2VsZi5ub3JtID0gQmF0Y2hOb3JtM2Qob3V0X2ZlYXR1cmVzLCBhZmZpbmU9VHJ1ZSkKICAgICAgICBzZWxmLnBvb2wgPSBubi5BdmdQb29sM2Qoa2VybmVsX3NpemU9KDEsIDIsIDIpKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIG91dCA9IHNlbGYuY29udih4KQogICAgICAgIG91dCA9IHNlbGYubm9ybShvdXQpCiAgICAgICAgb3V0ID0gRi5yZWx1KG91dCkKICAgICAgICBvdXQgPSBzZWxmLnBvb2wob3V0KQogICAgICAgIHJldHVybiBvdXQKCgpjbGFzcyBTYW1lQmxvY2syZChubi5Nb2R1bGUpOgogICAgIiIiCiAgICBTaW1wbGUgYmxvY2ssIHByZXNlcnZlIHNwYXRpYWwgcmVzb2x1dGlvbi4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbl9mZWF0dXJlcywgb3V0X2ZlYXR1cmVzLCBncm91cHM9MSwga2VybmVsX3NpemU9MywgcGFkZGluZz0xLCBscmVsdT1GYWxzZSk6CiAgICAgICAgc3VwZXIoU2FtZUJsb2NrMmQsIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLmNvbnYgPSBubi5Db252MmQoaW5fY2hhbm5lbHM9aW5fZmVhdHVyZXMsIG91dF9jaGFubmVscz1vdXRfZmVhdHVyZXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtlcm5lbF9zaXplPWtlcm5lbF9zaXplLCBwYWRkaW5nPXBhZGRpbmcsIGdyb3Vwcz1ncm91cHMpCiAgICAgICAgc2VsZi5ub3JtID0gQmF0Y2hOb3JtMmQob3V0X2ZlYXR1cmVzLCBhZmZpbmU9VHJ1ZSkKICAgICAgICBpZiBscmVsdToKICAgICAgICAgICAgc2VsZi5hYyA9IG5uLkxlYWt5UmVMVSgpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2VsZi5hYyA9IG5uLlJlTFUoKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIG91dCA9IHNlbGYuY29udih4KQogICAgICAgIG91dCA9IHNlbGYubm9ybShvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5hYyhvdXQpCiAgICAgICAgcmV0dXJuIG91dAoKCmNsYXNzIEVuY29kZXIobm4uTW9kdWxlKToKICAgICIiIgogICAgSG91cmdsYXNzIEVuY29kZXIKICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBibG9ja19leHBhbnNpb24sIGluX2ZlYXR1cmVzLCBudW1fYmxvY2tzPTMsIG1heF9mZWF0dXJlcz0yNTYpOgogICAgICAgIHN1cGVyKEVuY29kZXIsIHNlbGYpLl9faW5pdF9fKCkKCiAgICAgICAgZG93bl9ibG9ja3MgPSBbXQogICAgICAgIGZvciBpIGluIHJhbmdlKG51bV9ibG9ja3MpOgogICAgICAgICAgICBkb3duX2Jsb2Nrcy5hcHBlbmQoRG93bkJsb2NrM2QoaW5fZmVhdHVyZXMgaWYgaSA9PSAwIGVsc2UgbWluKG1heF9mZWF0dXJlcywgYmxvY2tfZXhwYW5zaW9uICogKDIgKiogaSkpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluKG1heF9mZWF0dXJlcywgYmxvY2tfZXhwYW5zaW9uICogKDIgKiogKGkgKyAxKSkpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2VybmVsX3NpemU9MywgcGFkZGluZz0xKSkKICAgICAgICBzZWxmLmRvd25fYmxvY2tzID0gbm4uTW9kdWxlTGlzdChkb3duX2Jsb2NrcykKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4KToKICAgICAgICBvdXRzID0gW3hdCiAgICAgICAgZm9yIGRvd25fYmxvY2sgaW4gc2VsZi5kb3duX2Jsb2NrczoKICAgICAgICAgICAgb3V0cy5hcHBlbmQoZG93bl9ibG9jayhvdXRzWy0xXSkpCiAgICAgICAgcmV0dXJuIG91dHMKCgpjbGFzcyBEZWNvZGVyKG5uLk1vZHVsZSk6CiAgICAiIiIKICAgIEhvdXJnbGFzcyBEZWNvZGVyCiAgICAiIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgYmxvY2tfZXhwYW5zaW9uLCBpbl9mZWF0dXJlcywgbnVtX2Jsb2Nrcz0zLCBtYXhfZmVhdHVyZXM9MjU2KToKICAgICAgICBzdXBlcihEZWNvZGVyLCBzZWxmKS5fX2luaXRfXygpCgogICAgICAgIHVwX2Jsb2NrcyA9IFtdCgogICAgICAgIGZvciBpIGluIHJhbmdlKG51bV9ibG9ja3MpWzo6LTFdOgogICAgICAgICAgICBpbl9maWx0ZXJzID0gKDEgaWYgaSA9PSBudW1fYmxvY2tzIC0gMSBlbHNlIDIpICogbWluKG1heF9mZWF0dXJlcywgYmxvY2tfZXhwYW5zaW9uICogKDIgKiogKGkgKyAxKSkpCiAgICAgICAgICAgIG91dF9maWx0ZXJzID0gbWluKG1heF9mZWF0dXJlcywgYmxvY2tfZXhwYW5zaW9uICogKDIgKiogaSkpCiAgICAgICAgICAgIHVwX2Jsb2Nrcy5hcHBlbmQoVXBCbG9jazNkKGluX2ZpbHRlcnMsIG91dF9maWx0ZXJzLCBrZXJuZWxfc2l6ZT0zLCBwYWRkaW5nPTEpKQoKICAgICAgICBzZWxmLnVwX2Jsb2NrcyA9IG5uLk1vZHVsZUxpc3QodXBfYmxvY2tzKQogICAgICAgICMgc2VsZi5vdXRfZmlsdGVycyA9IGJsb2NrX2V4cGFuc2lvbgogICAgICAgIHNlbGYub3V0X2ZpbHRlcnMgPSBibG9ja19leHBhbnNpb24gKyBpbl9mZWF0dXJlcwoKICAgICAgICBzZWxmLmNvbnYgPSBubi5Db252M2QoaW5fY2hhbm5lbHM9c2VsZi5vdXRfZmlsdGVycywgb3V0X2NoYW5uZWxzPXNlbGYub3V0X2ZpbHRlcnMsIGtlcm5lbF9zaXplPTMsIHBhZGRpbmc9MSkKICAgICAgICBzZWxmLm5vcm0gPSBCYXRjaE5vcm0zZChzZWxmLm91dF9maWx0ZXJzLCBhZmZpbmU9VHJ1ZSkKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4KToKICAgICAgICBvdXQgPSB4LnBvcCgpCiAgICAgICAgIyBmb3IgdXBfYmxvY2sgaW4gc2VsZi51cF9ibG9ja3NbOi0xXToKICAgICAgICBmb3IgdXBfYmxvY2sgaW4gc2VsZi51cF9ibG9ja3M6CiAgICAgICAgICAgIG91dCA9IHVwX2Jsb2NrKG91dCkKICAgICAgICAgICAgc2tpcCA9IHgucG9wKCkKICAgICAgICAgICAgb3V0ID0gdG9yY2guY2F0KFtvdXQsIHNraXBdLCBkaW09MSkKICAgICAgICAjIG91dCA9IHNlbGYudXBfYmxvY2tzWy0xXShvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5jb252KG91dCkKICAgICAgICBvdXQgPSBzZWxmLm5vcm0ob3V0KQogICAgICAgIG91dCA9IEYucmVsdShvdXQpCiAgICAgICAgcmV0dXJuIG91dAoKCmNsYXNzIEhvdXJnbGFzcyhubi5Nb2R1bGUpOgogICAgIiIiCiAgICBIb3VyZ2xhc3MgYXJjaGl0ZWN0dXJlLgogICAgIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGJsb2NrX2V4cGFuc2lvbiwgaW5fZmVhdHVyZXMsIG51bV9ibG9ja3M9MywgbWF4X2ZlYXR1cmVzPTI1Nik6CiAgICAgICAgc3VwZXIoSG91cmdsYXNzLCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgc2VsZi5lbmNvZGVyID0gRW5jb2RlcihibG9ja19leHBhbnNpb24sIGluX2ZlYXR1cmVzLCBudW1fYmxvY2tzLCBtYXhfZmVhdHVyZXMpCiAgICAgICAgc2VsZi5kZWNvZGVyID0gRGVjb2RlcihibG9ja19leHBhbnNpb24sIGluX2ZlYXR1cmVzLCBudW1fYmxvY2tzLCBtYXhfZmVhdHVyZXMpCiAgICAgICAgc2VsZi5vdXRfZmlsdGVycyA9IHNlbGYuZGVjb2Rlci5vdXRfZmlsdGVycwoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIHJldHVybiBzZWxmLmRlY29kZXIoc2VsZi5lbmNvZGVyKHgpKQoKCmNsYXNzIEtQSG91cmdsYXNzKG5uLk1vZHVsZSk6CiAgICAiIiIKICAgIEhvdXJnbGFzcyBhcmNoaXRlY3R1cmUuCiAgICAiIiIgCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGJsb2NrX2V4cGFuc2lvbiwgaW5fZmVhdHVyZXMsIHJlc2hhcGVfZmVhdHVyZXMsIHJlc2hhcGVfZGVwdGgsIG51bV9ibG9ja3M9MywgbWF4X2ZlYXR1cmVzPTI1Nik6CiAgICAgICAgc3VwZXIoS1BIb3VyZ2xhc3MsIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICAKICAgICAgICBzZWxmLmRvd25fYmxvY2tzID0gbm4uU2VxdWVudGlhbCgpCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UobnVtX2Jsb2Nrcyk6CiAgICAgICAgICAgIHNlbGYuZG93bl9ibG9ja3MuYWRkX21vZHVsZSgnZG93bicrIHN0cihpKSwgRG93bkJsb2NrMmQoaW5fZmVhdHVyZXMgaWYgaSA9PSAwIGVsc2UgbWluKG1heF9mZWF0dXJlcywgYmxvY2tfZXhwYW5zaW9uICogKDIgKiogaSkpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluKG1heF9mZWF0dXJlcywgYmxvY2tfZXhwYW5zaW9uICogKDIgKiogKGkgKyAxKSkpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2VybmVsX3NpemU9MywgcGFkZGluZz0xKSkKCiAgICAgICAgaW5fZmlsdGVycyA9IG1pbihtYXhfZmVhdHVyZXMsIGJsb2NrX2V4cGFuc2lvbiAqICgyICoqIG51bV9ibG9ja3MpKQogICAgICAgIHNlbGYuY29udiA9IG5uLkNvbnYyZChpbl9jaGFubmVscz1pbl9maWx0ZXJzLCBvdXRfY2hhbm5lbHM9cmVzaGFwZV9mZWF0dXJlcywga2VybmVsX3NpemU9MSkKCiAgICAgICAgc2VsZi51cF9ibG9ja3MgPSBubi5TZXF1ZW50aWFsKCkKICAgICAgICBmb3IgaSBpbiByYW5nZShudW1fYmxvY2tzKToKICAgICAgICAgICAgaW5fZmlsdGVycyA9IG1pbihtYXhfZmVhdHVyZXMsIGJsb2NrX2V4cGFuc2lvbiAqICgyICoqIChudW1fYmxvY2tzIC0gaSkpKQogICAgICAgICAgICBvdXRfZmlsdGVycyA9IG1pbihtYXhfZmVhdHVyZXMsIGJsb2NrX2V4cGFuc2lvbiAqICgyICoqIChudW1fYmxvY2tzIC0gaSAtIDEpKSkKICAgICAgICAgICAgc2VsZi51cF9ibG9ja3MuYWRkX21vZHVsZSgndXAnKyBzdHIoaSksIFVwQmxvY2szZChpbl9maWx0ZXJzLCBvdXRfZmlsdGVycywga2VybmVsX3NpemU9MywgcGFkZGluZz0xKSkKCiAgICAgICAgc2VsZi5yZXNoYXBlX2RlcHRoID0gcmVzaGFwZV9kZXB0aAogICAgICAgIHNlbGYub3V0X2ZpbHRlcnMgPSBvdXRfZmlsdGVycwoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIG91dCA9IHNlbGYuZG93bl9ibG9ja3MoeCkKICAgICAgICBvdXQgPSBzZWxmLmNvbnYob3V0KQogICAgICAgIGJzLCBjLCBoLCB3ID0gb3V0LnNoYXBlCiAgICAgICAgb3V0ID0gb3V0LnZpZXcoYnMsIGMvL3NlbGYucmVzaGFwZV9kZXB0aCwgc2VsZi5yZXNoYXBlX2RlcHRoLCBoLCB3KQogICAgICAgIG91dCA9IHNlbGYudXBfYmxvY2tzKG91dCkKCiAgICAgICAgcmV0dXJuIG91dAogICAgICAgIAoKCmNsYXNzIEFudGlBbGlhc0ludGVycG9sYXRpb24yZChubi5Nb2R1bGUpOgogICAgIiIiCiAgICBCYW5kLWxpbWl0ZWQgZG93bnNhbXBsaW5nLCBmb3IgYmV0dGVyIHByZXNlcnZhdGlvbiBvZiB0aGUgaW5wdXQgc2lnbmFsLgogICAgIiIiCiAgICBkZWYgX19pbml0X18oc2VsZiwgY2hhbm5lbHMsIHNjYWxlKToKICAgICAgICBzdXBlcihBbnRpQWxpYXNJbnRlcnBvbGF0aW9uMmQsIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBzaWdtYSA9ICgxIC8gc2NhbGUgLSAxKSAvIDIKICAgICAgICBrZXJuZWxfc2l6ZSA9IDIgKiByb3VuZChzaWdtYSAqIDQpICsgMQogICAgICAgIHNlbGYua2EgPSBrZXJuZWxfc2l6ZSAvLyAyCiAgICAgICAgc2VsZi5rYiA9IHNlbGYua2EgLSAxIGlmIGtlcm5lbF9zaXplICUgMiA9PSAwIGVsc2Ugc2VsZi5rYQoKICAgICAgICBrZXJuZWxfc2l6ZSA9IFtrZXJuZWxfc2l6ZSwga2VybmVsX3NpemVdCiAgICAgICAgc2lnbWEgPSBbc2lnbWEsIHNpZ21hXQogICAgICAgICMgVGhlIGdhdXNzaWFuIGtlcm5lbCBpcyB0aGUgcHJvZHVjdCBvZiB0aGUKICAgICAgICAjIGdhdXNzaWFuIGZ1bmN0aW9uIG9mIGVhY2ggZGltZW5zaW9uLgogICAgICAgIGtlcm5lbCA9IDEKICAgICAgICBtZXNoZ3JpZHMgPSB0b3JjaC5tZXNoZ3JpZCgKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgdG9yY2guYXJhbmdlKHNpemUsIGR0eXBlPXRvcmNoLmZsb2F0MzIpCiAgICAgICAgICAgICAgICBmb3Igc2l6ZSBpbiBrZXJuZWxfc2l6ZQogICAgICAgICAgICAgICAgXQogICAgICAgICkKICAgICAgICBmb3Igc2l6ZSwgc3RkLCBtZ3JpZCBpbiB6aXAoa2VybmVsX3NpemUsIHNpZ21hLCBtZXNoZ3JpZHMpOgogICAgICAgICAgICBtZWFuID0gKHNpemUgLSAxKSAvIDIKICAgICAgICAgICAga2VybmVsICo9IHRvcmNoLmV4cCgtKG1ncmlkIC0gbWVhbikgKiogMiAvICgyICogc3RkICoqIDIpKQoKICAgICAgICAjIE1ha2Ugc3VyZSBzdW0gb2YgdmFsdWVzIGluIGdhdXNzaWFuIGtlcm5lbCBlcXVhbHMgMS4KICAgICAgICBrZXJuZWwgPSBrZXJuZWwgLyB0b3JjaC5zdW0oa2VybmVsKQogICAgICAgICMgUmVzaGFwZSB0byBkZXB0aHdpc2UgY29udm9sdXRpb25hbCB3ZWlnaHQKICAgICAgICBrZXJuZWwgPSBrZXJuZWwudmlldygxLCAxLCAqa2VybmVsLnNpemUoKSkKICAgICAgICBrZXJuZWwgPSBrZXJuZWwucmVwZWF0KGNoYW5uZWxzLCAqWzFdICogKGtlcm5lbC5kaW0oKSAtIDEpKQoKICAgICAgICBzZWxmLnJlZ2lzdGVyX2J1ZmZlcignd2VpZ2h0Jywga2VybmVsKQogICAgICAgIHNlbGYuZ3JvdXBzID0gY2hhbm5lbHMKICAgICAgICBzZWxmLnNjYWxlID0gc2NhbGUKICAgICAgICBpbnZfc2NhbGUgPSAxIC8gc2NhbGUKICAgICAgICBzZWxmLmludF9pbnZfc2NhbGUgPSBpbnQoaW52X3NjYWxlKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIGlucHV0KToKICAgICAgICBpZiBzZWxmLnNjYWxlID09IDEuMDoKICAgICAgICAgICAgcmV0dXJuIGlucHV0CgogICAgICAgIG91dCA9IEYucGFkKGlucHV0LCAoc2VsZi5rYSwgc2VsZi5rYiwgc2VsZi5rYSwgc2VsZi5rYikpCiAgICAgICAgb3V0ID0gRi5jb252MmQob3V0LCB3ZWlnaHQ9c2VsZi53ZWlnaHQsIGdyb3Vwcz1zZWxmLmdyb3VwcykKICAgICAgICBvdXQgPSBvdXRbOiwgOiwgOjpzZWxmLmludF9pbnZfc2NhbGUsIDo6c2VsZi5pbnRfaW52X3NjYWxlXQoKICAgICAgICByZXR1cm4gb3V0CgoKY2xhc3MgU1BBREUobm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBub3JtX25jLCBsYWJlbF9uYyk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygpCgogICAgICAgIHNlbGYucGFyYW1fZnJlZV9ub3JtID0gbm4uSW5zdGFuY2VOb3JtMmQobm9ybV9uYywgYWZmaW5lPUZhbHNlKQogICAgICAgIG5oaWRkZW4gPSAxMjgKCiAgICAgICAgc2VsZi5tbHBfc2hhcmVkID0gbm4uU2VxdWVudGlhbCgKICAgICAgICAgICAgbm4uQ29udjJkKGxhYmVsX25jLCBuaGlkZGVuLCBrZXJuZWxfc2l6ZT0zLCBwYWRkaW5nPTEpLAogICAgICAgICAgICBubi5SZUxVKCkpCiAgICAgICAgc2VsZi5tbHBfZ2FtbWEgPSBubi5Db252MmQobmhpZGRlbiwgbm9ybV9uYywga2VybmVsX3NpemU9MywgcGFkZGluZz0xKQogICAgICAgIHNlbGYubWxwX2JldGEgPSBubi5Db252MmQobmhpZGRlbiwgbm9ybV9uYywga2VybmVsX3NpemU9MywgcGFkZGluZz0xKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgsIHNlZ21hcCk6CiAgICAgICAgbm9ybWFsaXplZCA9IHNlbGYucGFyYW1fZnJlZV9ub3JtKHgpCiAgICAgICAgc2VnbWFwID0gRi5pbnRlcnBvbGF0ZShzZWdtYXAsIHNpemU9eC5zaXplKClbMjpdLCBtb2RlPSduZWFyZXN0JykKICAgICAgICBhY3R2ID0gc2VsZi5tbHBfc2hhcmVkKHNlZ21hcCkKICAgICAgICBnYW1tYSA9IHNlbGYubWxwX2dhbW1hKGFjdHYpCiAgICAgICAgYmV0YSA9IHNlbGYubWxwX2JldGEoYWN0dikKICAgICAgICBvdXQgPSBub3JtYWxpemVkICogKDEgKyBnYW1tYSkgKyBiZXRhCiAgICAgICAgcmV0dXJuIG91dAogICAgCgpjbGFzcyBTUEFERVJlc25ldEJsb2NrKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgZmluLCBmb3V0LCBub3JtX0csIGxhYmVsX25jLCB1c2Vfc2U9RmFsc2UsIGRpbGF0aW9uPTEpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oKQogICAgICAgICMgQXR0cmlidXRlcwogICAgICAgIHNlbGYubGVhcm5lZF9zaG9ydGN1dCA9IChmaW4gIT0gZm91dCkKICAgICAgICBmbWlkZGxlID0gbWluKGZpbiwgZm91dCkKICAgICAgICBzZWxmLnVzZV9zZSA9IHVzZV9zZQogICAgICAgICMgY3JlYXRlIGNvbnYgbGF5ZXJzCiAgICAgICAgc2VsZi5jb252XzAgPSBubi5Db252MmQoZmluLCBmbWlkZGxlLCBrZXJuZWxfc2l6ZT0zLCBwYWRkaW5nPWRpbGF0aW9uLCBkaWxhdGlvbj1kaWxhdGlvbikKICAgICAgICBzZWxmLmNvbnZfMSA9IG5uLkNvbnYyZChmbWlkZGxlLCBmb3V0LCBrZXJuZWxfc2l6ZT0zLCBwYWRkaW5nPWRpbGF0aW9uLCBkaWxhdGlvbj1kaWxhdGlvbikKICAgICAgICBpZiBzZWxmLmxlYXJuZWRfc2hvcnRjdXQ6CiAgICAgICAgICAgIHNlbGYuY29udl9zID0gbm4uQ29udjJkKGZpbiwgZm91dCwga2VybmVsX3NpemU9MSwgYmlhcz1GYWxzZSkKICAgICAgICAjIGFwcGx5IHNwZWN0cmFsIG5vcm0gaWYgc3BlY2lmaWVkCiAgICAgICAgaWYgJ3NwZWN0cmFsJyBpbiBub3JtX0c6CiAgICAgICAgICAgIHNlbGYuY29udl8wID0gc3BlY3RyYWxfbm9ybShzZWxmLmNvbnZfMCkKICAgICAgICAgICAgc2VsZi5jb252XzEgPSBzcGVjdHJhbF9ub3JtKHNlbGYuY29udl8xKQogICAgICAgICAgICBpZiBzZWxmLmxlYXJuZWRfc2hvcnRjdXQ6CiAgICAgICAgICAgICAgICBzZWxmLmNvbnZfcyA9IHNwZWN0cmFsX25vcm0oc2VsZi5jb252X3MpCiAgICAgICAgIyBkZWZpbmUgbm9ybWFsaXphdGlvbiBsYXllcnMKICAgICAgICBzZWxmLm5vcm1fMCA9IFNQQURFKGZpbiwgbGFiZWxfbmMpCiAgICAgICAgc2VsZi5ub3JtXzEgPSBTUEFERShmbWlkZGxlLCBsYWJlbF9uYykKICAgICAgICBpZiBzZWxmLmxlYXJuZWRfc2hvcnRjdXQ6CiAgICAgICAgICAgIHNlbGYubm9ybV9zID0gU1BBREUoZmluLCBsYWJlbF9uYykKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4LCBzZWcxKToKICAgICAgICB4X3MgPSBzZWxmLnNob3J0Y3V0KHgsIHNlZzEpCiAgICAgICAgZHggPSBzZWxmLmNvbnZfMChzZWxmLmFjdHZuKHNlbGYubm9ybV8wKHgsIHNlZzEpKSkKICAgICAgICBkeCA9IHNlbGYuY29udl8xKHNlbGYuYWN0dm4oc2VsZi5ub3JtXzEoZHgsIHNlZzEpKSkKICAgICAgICBvdXQgPSB4X3MgKyBkeAogICAgICAgIHJldHVybiBvdXQKCiAgICBkZWYgc2hvcnRjdXQoc2VsZiwgeCwgc2VnMSk6CiAgICAgICAgaWYgc2VsZi5sZWFybmVkX3Nob3J0Y3V0OgogICAgICAgICAgICB4X3MgPSBzZWxmLmNvbnZfcyhzZWxmLm5vcm1fcyh4LCBzZWcxKSkKICAgICAgICBlbHNlOgogICAgICAgICAgICB4X3MgPSB4CiAgICAgICAgcmV0dXJuIHhfcwoKICAgIGRlZiBhY3R2bihzZWxmLCB4KToKICAgICAgICByZXR1cm4gRi5sZWFreV9yZWx1KHgsIDJlLTEpCgpjbGFzcyBhdWRpbzJpbWFnZShubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGdlbmVyYXRvciwga3BfZXh0cmFjdG9yLCBoZV9lc3RpbWF0b3JfdmlkZW8sIGhlX2VzdGltYXRvcl9hdWRpbywgdHJhaW5fcGFyYW1zKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCkKICAgICAgICAjIEF0dHJpYnV0ZXMKICAgICAgICBzZWxmLmdlbmVyYXRvciA9IGdlbmVyYXRvcgogICAgICAgIHNlbGYua3BfZXh0cmFjdG9yID0ga3BfZXh0cmFjdG9yCiAgICAgICAgc2VsZi5oZV9lc3RpbWF0b3JfdmlkZW8gPSBoZV9lc3RpbWF0b3JfdmlkZW8KICAgICAgICBzZWxmLmhlX2VzdGltYXRvcl9hdWRpbyA9IGhlX2VzdGltYXRvcl9hdWRpbwogICAgICAgIHNlbGYudHJhaW5fcGFyYW1zID0gdHJhaW5fcGFyYW1zCgogICAgZGVmIGhlYWRwb3NlX3ByZWRfdG9fZGVncmVlKHNlbGYsIHByZWQpOgogICAgICAgIGRldmljZSA9IHByZWQuZGV2aWNlCiAgICAgICAgaWR4X3RlbnNvciA9IFtpZHggZm9yIGlkeCBpbiByYW5nZSg2NildCiAgICAgICAgaWR4X3RlbnNvciA9IHRvcmNoLkZsb2F0VGVuc29yKGlkeF90ZW5zb3IpLnRvKGRldmljZSkKICAgICAgICBwcmVkID0gRi5zb2Z0bWF4KHByZWQpCiAgICAgICAgZGVncmVlID0gdG9yY2guc3VtKHByZWQqaWR4X3RlbnNvciwgMSkgKiAzIC0gOTkKCiAgICAgICAgcmV0dXJuIGRlZ3JlZQogICAgCiAgICBkZWYgZ2V0X3JvdGF0aW9uX21hdHJpeChzZWxmLCB5YXcsIHBpdGNoLCByb2xsKToKICAgICAgICB5YXcgPSB5YXcgLyAxODAgKiAzLjE0CiAgICAgICAgcGl0Y2ggPSBwaXRjaCAvIDE4MCAqIDMuMTQKICAgICAgICByb2xsID0gcm9sbCAvIDE4MCAqIDMuMTQKCiAgICAgICAgcm9sbCA9IHJvbGwudW5zcXVlZXplKDEpCiAgICAgICAgcGl0Y2ggPSBwaXRjaC51bnNxdWVlemUoMSkKICAgICAgICB5YXcgPSB5YXcudW5zcXVlZXplKDEpCgogICAgICAgIHJvbGxfbWF0ID0gdG9yY2guY2F0KFt0b3JjaC5vbmVzX2xpa2Uocm9sbCksIHRvcmNoLnplcm9zX2xpa2Uocm9sbCksIHRvcmNoLnplcm9zX2xpa2Uocm9sbCksIAogICAgICAgICAgICAgICAgICAgICAgICAgIHRvcmNoLnplcm9zX2xpa2Uocm9sbCksIHRvcmNoLmNvcyhyb2xsKSwgLXRvcmNoLnNpbihyb2xsKSwKICAgICAgICAgICAgICAgICAgICAgICAgICB0b3JjaC56ZXJvc19saWtlKHJvbGwpLCB0b3JjaC5zaW4ocm9sbCksIHRvcmNoLmNvcyhyb2xsKV0sIGRpbT0xKQogICAgICAgIHJvbGxfbWF0ID0gcm9sbF9tYXQudmlldyhyb2xsX21hdC5zaGFwZVswXSwgMywgMykKCiAgICAgICAgcGl0Y2hfbWF0ID0gdG9yY2guY2F0KFt0b3JjaC5jb3MocGl0Y2gpLCB0b3JjaC56ZXJvc19saWtlKHBpdGNoKSwgdG9yY2guc2luKHBpdGNoKSwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvcmNoLnplcm9zX2xpa2UocGl0Y2gpLCB0b3JjaC5vbmVzX2xpa2UocGl0Y2gpLCB0b3JjaC56ZXJvc19saWtlKHBpdGNoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgLXRvcmNoLnNpbihwaXRjaCksIHRvcmNoLnplcm9zX2xpa2UocGl0Y2gpLCB0b3JjaC5jb3MocGl0Y2gpXSwgZGltPTEpCiAgICAgICAgcGl0Y2hfbWF0ID0gcGl0Y2hfbWF0LnZpZXcocGl0Y2hfbWF0LnNoYXBlWzBdLCAzLCAzKQoKICAgICAgICB5YXdfbWF0ID0gdG9yY2guY2F0KFt0b3JjaC5jb3MoeWF3KSwgLXRvcmNoLnNpbih5YXcpLCB0b3JjaC56ZXJvc19saWtlKHlhdyksICAKICAgICAgICAgICAgICAgICAgICAgICAgIHRvcmNoLnNpbih5YXcpLCB0b3JjaC5jb3MoeWF3KSwgdG9yY2guemVyb3NfbGlrZSh5YXcpLAogICAgICAgICAgICAgICAgICAgICAgICAgdG9yY2guemVyb3NfbGlrZSh5YXcpLCB0b3JjaC56ZXJvc19saWtlKHlhdyksIHRvcmNoLm9uZXNfbGlrZSh5YXcpXSwgZGltPTEpCiAgICAgICAgeWF3X21hdCA9IHlhd19tYXQudmlldyh5YXdfbWF0LnNoYXBlWzBdLCAzLCAzKQoKICAgICAgICByb3RfbWF0ID0gdG9yY2guZWluc3VtKCdiaWosYmprLGJrbS0+YmltJywgcm9sbF9tYXQsIHBpdGNoX21hdCwgeWF3X21hdCkKCiAgICAgICAgcmV0dXJuIHJvdF9tYXQKCiAgICBkZWYga2V5cG9pbnRfdHJhbnNmb3JtYXRpb24oc2VsZiwga3BfY2Fub25pY2FsLCBoZSk6CiAgICAgICAga3AgPSBrcF9jYW5vbmljYWxbJ3ZhbHVlJ10gICAgIyAoYnMsIGssIDMpCiAgICAgICAgeWF3LCBwaXRjaCwgcm9sbCA9IGhlWyd5YXcnXSwgaGVbJ3BpdGNoJ10sIGhlWydyb2xsJ10KICAgICAgICB0LCBleHAgPSBoZVsndCddLCBoZVsnZXhwJ10KICAgIAogICAgICAgIHlhdyA9IHNlbGYuaGVhZHBvc2VfcHJlZF90b19kZWdyZWUoeWF3KQogICAgICAgIHBpdGNoID0gc2VsZi5oZWFkcG9zZV9wcmVkX3RvX2RlZ3JlZShwaXRjaCkKICAgICAgICByb2xsID0gc2VsZi5oZWFkcG9zZV9wcmVkX3RvX2RlZ3JlZShyb2xsKQoKICAgICAgICByb3RfbWF0ID0gc2VsZi5nZXRfcm90YXRpb25fbWF0cml4KHlhdywgcGl0Y2gsIHJvbGwpICAgICMgKGJzLCAzLCAzKQogICAgCiAgICAgICAgIyBrZXlwb2ludCByb3RhdGlvbgogICAgICAgIGtwX3JvdGF0ZWQgPSB0b3JjaC5laW5zdW0oJ2JtcCxia3AtPmJrbScsIHJvdF9tYXQsIGtwKQoKICAgIAoKICAgICAgICAjIGtleXBvaW50IHRyYW5zbGF0aW9uCiAgICAgICAgdCA9IHQudW5zcXVlZXplXygxKS5yZXBlYXQoMSwga3Auc2hhcGVbMV0sIDEpCiAgICAgICAga3BfdCA9IGtwX3JvdGF0ZWQgKyB0CgogICAgICAgICMgYWRkIGV4cHJlc3Npb24gZGV2aWF0aW9uIAogICAgICAgIGV4cCA9IGV4cC52aWV3KGV4cC5zaGFwZVswXSwgLTEsIDMpCiAgICAgICAga3BfdHJhbnNmb3JtZWQgPSBrcF90ICsgZXhwCgogICAgICAgIHJldHVybiB7J3ZhbHVlJzoga3BfdHJhbnNmb3JtZWR9CgogICAgZGVmIGZvcndhcmQoc2VsZiwgc291cmNlX2ltYWdlLCB0YXJnZXRfYXVkaW8pOgogICAgICAgIHBvc2Vfc291cmNlID0gc2VsZi5oZV9lc3RpbWF0b3JfdmlkZW8oc291cmNlX2ltYWdlKQogICAgICAgIHBvc2VfZ2VuZXJhdGVkID0gc2VsZi5oZV9lc3RpbWF0b3JfYXVkaW8odGFyZ2V0X2F1ZGlvKQogICAgICAgIGtwX2Nhbm9uaWNhbCA9IHNlbGYua3BfZXh0cmFjdG9yKHNvdXJjZV9pbWFnZSkKICAgICAgICBrcF9zb3VyY2UgPSBzZWxmLmtleXBvaW50X3RyYW5zZm9ybWF0aW9uKGtwX2Nhbm9uaWNhbCwgcG9zZV9zb3VyY2UpCiAgICAgICAga3BfdHJhbnNmb3JtZWRfZ2VuZXJhdGVkID0gc2VsZi5rZXlwb2ludF90cmFuc2Zvcm1hdGlvbihrcF9jYW5vbmljYWwsIHBvc2VfZ2VuZXJhdGVkKQogICAgICAgIGdlbmVyYXRlZCA9IHNlbGYuZ2VuZXJhdG9yKHNvdXJjZV9pbWFnZSwga3Bfc291cmNlPWtwX3NvdXJjZSwga3BfZHJpdmluZz1rcF90cmFuc2Zvcm1lZF9nZW5lcmF0ZWQpCiAgICAgICAgcmV0dXJuIGdlbmVyYXRlZA==
+from torch import nn
+
+import torch.nn.functional as F
+import torch
+
+from src.facerender.sync_batchnorm import SynchronizedBatchNorm2d as BatchNorm2d
+from src.facerender.sync_batchnorm import SynchronizedBatchNorm3d as BatchNorm3d
+
+import torch.nn.utils.spectral_norm as spectral_norm
+
+
+def kp2gaussian(kp, spatial_size, kp_variance):
+    """
+    Transform a keypoint into gaussian like representation
+    """
+    mean = kp['value']
+
+    coordinate_grid = make_coordinate_grid(spatial_size, mean.type())
+    number_of_leading_dimensions = len(mean.shape) - 1
+    shape = (1,) * number_of_leading_dimensions + coordinate_grid.shape
+    coordinate_grid = coordinate_grid.view(*shape)
+    repeats = mean.shape[:number_of_leading_dimensions] + (1, 1, 1, 1)
+    coordinate_grid = coordinate_grid.repeat(*repeats)
+
+    # Preprocess kp shape
+    shape = mean.shape[:number_of_leading_dimensions] + (1, 1, 1, 3)
+    mean = mean.view(*shape)
+
+    mean_sub = (coordinate_grid - mean)
+
+    out = torch.exp(-0.5 * (mean_sub ** 2).sum(-1) / kp_variance)
+
+    return out
+
+def make_coordinate_grid_2d(spatial_size, type):
+    """
+    Create a meshgrid [-1,1] x [-1,1] of given spatial_size.
+    """
+    h, w = spatial_size
+    x = torch.arange(w).type(type)
+    y = torch.arange(h).type(type)
+
+    x = (2 * (x / (w - 1)) - 1)
+    y = (2 * (y / (h - 1)) - 1)
+
+    yy = y.view(-1, 1).repeat(1, w)
+    xx = x.view(1, -1).repeat(h, 1)
+
+    meshed = torch.cat([xx.unsqueeze_(2), yy.unsqueeze_(2)], 2)
+
+    return meshed
+
+
+def make_coordinate_grid(spatial_size, type):
+    d, h, w = spatial_size
+    x = torch.arange(w).type(type)
+    y = torch.arange(h).type(type)
+    z = torch.arange(d).type(type)
+
+    x = (2 * (x / (w - 1)) - 1)
+    y = (2 * (y / (h - 1)) - 1)
+    z = (2 * (z / (d - 1)) - 1)
+   
+    yy = y.view(1, -1, 1).repeat(d, 1, w)
+    xx = x.view(1, 1, -1).repeat(d, h, 1)
+    zz = z.view(-1, 1, 1).repeat(1, h, w)
+
+    meshed = torch.cat([xx.unsqueeze_(3), yy.unsqueeze_(3), zz.unsqueeze_(3)], 3)
+
+    return meshed
+
+
+class ResBottleneck(nn.Module):
+    def __init__(self, in_features, stride):
+        super(ResBottleneck, self).__init__()
+        self.conv1 = nn.Conv2d(in_channels=in_features, out_channels=in_features//4, kernel_size=1)
+        self.conv2 = nn.Conv2d(in_channels=in_features//4, out_channels=in_features//4, kernel_size=3, padding=1, stride=stride)
+        self.conv3 = nn.Conv2d(in_channels=in_features//4, out_channels=in_features, kernel_size=1)
+        self.norm1 = BatchNorm2d(in_features//4, affine=True)
+        self.norm2 = BatchNorm2d(in_features//4, affine=True)
+        self.norm3 = BatchNorm2d(in_features, affine=True)
+
+        self.stride = stride
+        if self.stride != 1:
+            self.skip = nn.Conv2d(in_channels=in_features, out_channels=in_features, kernel_size=1, stride=stride)
+            self.norm4 = BatchNorm2d(in_features, affine=True)
+
+    def forward(self, x):
+        out = self.conv1(x)
+        out = self.norm1(out)
+        out = F.relu(out)
+        out = self.conv2(out)
+        out = self.norm2(out)
+        out = F.relu(out)
+        out = self.conv3(out)
+        out = self.norm3(out)
+        if self.stride != 1:
+            x = self.skip(x)
+            x = self.norm4(x)
+        out += x
+        out = F.relu(out)
+        return out
+
+
+class ResBlock2d(nn.Module):
+    """
+    Res block, preserve spatial resolution.
+    """
+
+    def __init__(self, in_features, kernel_size, padding):
+        super(ResBlock2d, self).__init__()
+        self.conv1 = nn.Conv2d(in_channels=in_features, out_channels=in_features, kernel_size=kernel_size,
+                               padding=padding)
+        self.conv2 = nn.Conv2d(in_channels=in_features, out_channels=in_features, kernel_size=kernel_size,
+                               padding=padding)
+        self.norm1 = BatchNorm2d(in_features, affine=True)
+        self.norm2 = BatchNorm2d(in_features, affine=True)
+
+    def forward(self, x):
+        out = self.norm1(x)
+        out = F.relu(out)
+        out = self.conv1(out)
+        out = self.norm2(out)
+        out = F.relu(out)
+        out = self.conv2(out)
+        out += x
+        return out
+
+
+class ResBlock3d(nn.Module):
+    """
+    Res block, preserve spatial resolution.
+    """
+
+    def __init__(self, in_features, kernel_size, padding):
+        super(ResBlock3d, self).__init__()
+        self.conv1 = nn.Conv3d(in_channels=in_features, out_channels=in_features, kernel_size=kernel_size,
+                               padding=padding)
+        self.conv2 = nn.Conv3d(in_channels=in_features, out_channels=in_features, kernel_size=kernel_size,
+                               padding=padding)
+        self.norm1 = BatchNorm3d(in_features, affine=True)
+        self.norm2 = BatchNorm3d(in_features, affine=True)
+
+    def forward(self, x):
+        out = self.norm1(x)
+        out = F.relu(out)
+        out = self.conv1(out)
+        out = self.norm2(out)
+        out = F.relu(out)
+        out = self.conv2(out)
+        out += x
+        return out
+
+
+class UpBlock2d(nn.Module):
+    """
+    Upsampling block for use in decoder.
+    """
+
+    def __init__(self, in_features, out_features, kernel_size=3, padding=1, groups=1):
+        super(UpBlock2d, self).__init__()
+
+        self.conv = nn.Conv2d(in_channels=in_features, out_channels=out_features, kernel_size=kernel_size,
+                              padding=padding, groups=groups)
+        self.norm = BatchNorm2d(out_features, affine=True)
+
+    def forward(self, x):
+        out = F.interpolate(x, scale_factor=2)
+        out = self.conv(out)
+        out = self.norm(out)
+        out = F.relu(out)
+        return out
+
+class UpBlock3d(nn.Module):
+    """
+    Upsampling block for use in decoder.
+    """
+
+    def __init__(self, in_features, out_features, kernel_size=3, padding=1, groups=1):
+        super(UpBlock3d, self).__init__()
+
+        self.conv = nn.Conv3d(in_channels=in_features, out_channels=out_features, kernel_size=kernel_size,
+                              padding=padding, groups=groups)
+        self.norm = BatchNorm3d(out_features, affine=True)
+
+    def forward(self, x):
+        # out = F.interpolate(x, scale_factor=(1, 2, 2), mode='trilinear')
+        out = F.interpolate(x, scale_factor=(1, 2, 2))
+        out = self.conv(out)
+        out = self.norm(out)
+        out = F.relu(out)
+        return out
+
+
+class DownBlock2d(nn.Module):
+    """
+    Downsampling block for use in encoder.
+    """
+
+    def __init__(self, in_features, out_features, kernel_size=3, padding=1, groups=1):
+        super(DownBlock2d, self).__init__()
+        self.conv = nn.Conv2d(in_channels=in_features, out_channels=out_features, kernel_size=kernel_size,
+                              padding=padding, groups=groups)
+        self.norm = BatchNorm2d(out_features, affine=True)
+        self.pool = nn.AvgPool2d(kernel_size=(2, 2))
+
+    def forward(self, x):
+        out = self.conv(x)
+        out = self.norm(out)
+        out = F.relu(out)
+        out = self.pool(out)
+        return out
+
+
+class DownBlock3d(nn.Module):
+    """
+    Downsampling block for use in encoder.
+    """
+
+    def __init__(self, in_features, out_features, kernel_size=3, padding=1, groups=1):
+        super(DownBlock3d, self).__init__()
+        '''
+        self.conv = nn.Conv3d(in_channels=in_features, out_channels=out_features, kernel_size=kernel_size,
+                              padding=padding, groups=groups, stride=(1, 2, 2))
+        '''
+        self.conv = nn.Conv3d(in_channels=in_features, out_channels=out_features, kernel_size=kernel_size,
+                              padding=padding, groups=groups)
+        self.norm = BatchNorm3d(out_features, affine=True)
+        self.pool = nn.AvgPool3d(kernel_size=(1, 2, 2))
+
+    def forward(self, x):
+        out = self.conv(x)
+        out = self.norm(out)
+        out = F.relu(out)
+        out = self.pool(out)
+        return out
+
+
+class SameBlock2d(nn.Module):
+    """
+    Simple block, preserve spatial resolution.
+    """
+
+    def __init__(self, in_features, out_features, groups=1, kernel_size=3, padding=1, lrelu=False):
+        super(SameBlock2d, self).__init__()
+        self.conv = nn.Conv2d(in_channels=in_features, out_channels=out_features,
+                              kernel_size=kernel_size, padding=padding, groups=groups)
+        self.norm = BatchNorm2d(out_features, affine=True)
+        if lrelu:
+            self.ac = nn.LeakyReLU()
+        else:
+            self.ac = nn.ReLU()
+
+    def forward(self, x):
+        out = self.conv(x)
+        out = self.norm(out)
+        out = self.ac(out)
+        return out
+
+
+class Encoder(nn.Module):
+    """
+    Hourglass Encoder
+    """
+
+    def __init__(self, block_expansion, in_features, num_blocks=3, max_features=256):
+        super(Encoder, self).__init__()
+
+        down_blocks = []
+        for i in range(num_blocks):
+            down_blocks.append(DownBlock3d(in_features if i == 0 else min(max_features, block_expansion * (2 ** i)),
+                                           min(max_features, block_expansion * (2 ** (i + 1))),
+                                           kernel_size=3, padding=1))
+        self.down_blocks = nn.ModuleList(down_blocks)
+
+    def forward(self, x):
+        outs = [x]
+        for down_block in self.down_blocks:
+            outs.append(down_block(outs[-1]))
+        return outs
+
+
+class Decoder(nn.Module):
+    """
+    Hourglass Decoder
+    """
+
+    def __init__(self, block_expansion, in_features, num_blocks=3, max_features=256):
+        super(Decoder, self).__init__()
+
+        up_blocks = []
+
+        for i in range(num_blocks)[::-1]:
+            in_filters = (1 if i == num_blocks - 1 else 2) * min(max_features, block_expansion * (2 ** (i + 1)))
+            out_filters = min(max_features, block_expansion * (2 ** i))
+            up_blocks.append(UpBlock3d(in_filters, out_filters, kernel_size=3, padding=1))
+
+        self.up_blocks = nn.ModuleList(up_blocks)
+        # self.out_filters = block_expansion
+        self.out_filters = block_expansion + in_features
+
+        self.conv = nn.Conv3d(in_channels=self.out_filters, out_channels=self.out_filters, kernel_size=3, padding=1)
+        self.norm = BatchNorm3d(self.out_filters, affine=True)
+
+    def forward(self, x):
+        out = x.pop()
+        # for up_block in self.up_blocks[:-1]:
+        for up_block in self.up_blocks:
+            out = up_block(out)
+            skip = x.pop()
+            out = torch.cat([out, skip], dim=1)
+        # out = self.up_blocks[-1](out)
+        out = self.conv(out)
+        out = self.norm(out)
+        out = F.relu(out)
+        return out
+
+
+class Hourglass(nn.Module):
+    """
+    Hourglass architecture.
+    """
+
+    def __init__(self, block_expansion, in_features, num_blocks=3, max_features=256):
+        super(Hourglass, self).__init__()
+        self.encoder = Encoder(block_expansion, in_features, num_blocks, max_features)
+        self.decoder = Decoder(block_expansion, in_features, num_blocks, max_features)
+        self.out_filters = self.decoder.out_filters
+
+    def forward(self, x):
+        return self.decoder(self.encoder(x))
+
+
+class KPHourglass(nn.Module):
+    """
+    Hourglass architecture.
+    """ 
+
+    def __init__(self, block_expansion, in_features, reshape_features, reshape_depth, num_blocks=3, max_features=256):
+        super(KPHourglass, self).__init__()
+        
+        self.down_blocks = nn.Sequential()
+        for i in range(num_blocks):
+            self.down_blocks.add_module('down'+ str(i), DownBlock2d(in_features if i == 0 else min(max_features, block_expansion * (2 ** i)),
+                                                                   min(max_features, block_expansion * (2 ** (i + 1))),
+                                                                   kernel_size=3, padding=1))
+
+        in_filters = min(max_features, block_expansion * (2 ** num_blocks))
+        self.conv = nn.Conv2d(in_channels=in_filters, out_channels=reshape_features, kernel_size=1)
+
+        self.up_blocks = nn.Sequential()
+        for i in range(num_blocks):
+            in_filters = min(max_features, block_expansion * (2 ** (num_blocks - i)))
+            out_filters = min(max_features, block_expansion * (2 ** (num_blocks - i - 1)))
+            self.up_blocks.add_module('up'+ str(i), UpBlock3d(in_filters, out_filters, kernel_size=3, padding=1))
+
+        self.reshape_depth = reshape_depth
+        self.out_filters = out_filters
+
+    def forward(self, x):
+        out = self.down_blocks(x)
+        out = self.conv(out)
+        bs, c, h, w = out.shape
+        out = out.view(bs, c//self.reshape_depth, self.reshape_depth, h, w)
+        out = self.up_blocks(out)
+
+        return out
+        
+
+
+class AntiAliasInterpolation2d(nn.Module):
+    """
+    Band-limited downsampling, for better preservation of the input signal.
+    """
+    def __init__(self, channels, scale):
+        super(AntiAliasInterpolation2d, self).__init__()
+        sigma = (1 / scale - 1) / 2
+        kernel_size = 2 * round(sigma * 4) + 1
+        self.ka = kernel_size // 2
+        self.kb = self.ka - 1 if kernel_size % 2 == 0 else self.ka
+
+        kernel_size = [kernel_size, kernel_size]
+        sigma = [sigma, sigma]
+        # The gaussian kernel is the product of the
+        # gaussian function of each dimension.
+        kernel = 1
+        meshgrids = torch.meshgrid(
+            [
+                torch.arange(size, dtype=torch.float32)
+                for size in kernel_size
+                ]
+        )
+        for size, std, mgrid in zip(kernel_size, sigma, meshgrids):
+            mean = (size - 1) / 2
+            kernel *= torch.exp(-(mgrid - mean) ** 2 / (2 * std ** 2))
+
+        # Make sure sum of values in gaussian kernel equals 1.
+        kernel = kernel / torch.sum(kernel)
+        # Reshape to depthwise convolutional weight
+        kernel = kernel.view(1, 1, *kernel.size())
+        kernel = kernel.repeat(channels, *[1] * (kernel.dim() - 1))
+
+        self.register_buffer('weight', kernel)
+        self.groups = channels
+        self.scale = scale
+        inv_scale = 1 / scale
+        self.int_inv_scale = int(inv_scale)
+
+    def forward(self, input):
+        if self.scale == 1.0:
+            return input
+
+        out = F.pad(input, (self.ka, self.kb, self.ka, self.kb))
+        out = F.conv2d(out, weight=self.weight, groups=self.groups)
+        out = out[:, :, ::self.int_inv_scale, ::self.int_inv_scale]
+
+        return out
+
+
+class SPADE(nn.Module):
+    def __init__(self, norm_nc, label_nc):
+        super().__init__()
+
+        self.param_free_norm = nn.InstanceNorm2d(norm_nc, affine=False)
+        nhidden = 128
+
+        self.mlp_shared = nn.Sequential(
+            nn.Conv2d(label_nc, nhidden, kernel_size=3, padding=1),
+            nn.ReLU())
+        self.mlp_gamma = nn.Conv2d(nhidden, norm_nc, kernel_size=3, padding=1)
+        self.mlp_beta = nn.Conv2d(nhidden, norm_nc, kernel_size=3, padding=1)
+
+    def forward(self, x, segmap):
+        normalized = self.param_free_norm(x)
+        segmap = F.interpolate(segmap, size=x.size()[2:], mode='nearest')
+        actv = self.mlp_shared(segmap)
+        gamma = self.mlp_gamma(actv)
+        beta = self.mlp_beta(actv)
+        out = normalized * (1 + gamma) + beta
+        return out
+    
+
+class SPADEResnetBlock(nn.Module):
+    def __init__(self, fin, fout, norm_G, label_nc, use_se=False, dilation=1):
+        super().__init__()
+        # Attributes
+        self.learned_shortcut = (fin != fout)
+        fmiddle = min(fin, fout)
+        self.use_se = use_se
+        # create conv layers
+        self.conv_0 = nn.Conv2d(fin, fmiddle, kernel_size=3, padding=dilation, dilation=dilation)
+        self.conv_1 = nn.Conv2d(fmiddle, fout, kernel_size=3, padding=dilation, dilation=dilation)
+        if self.learned_shortcut:
+            self.conv_s = nn.Conv2d(fin, fout, kernel_size=1, bias=False)
+        # apply spectral norm if specified
+        if 'spectral' in norm_G:
+            self.conv_0 = spectral_norm(self.conv_0)
+            self.conv_1 = spectral_norm(self.conv_1)
+            if self.learned_shortcut:
+                self.conv_s = spectral_norm(self.conv_s)
+        # define normalization layers
+        self.norm_0 = SPADE(fin, label_nc)
+        self.norm_1 = SPADE(fmiddle, label_nc)
+        if self.learned_shortcut:
+            self.norm_s = SPADE(fin, label_nc)
+
+    def forward(self, x, seg1):
+        x_s = self.shortcut(x, seg1)
+        dx = self.conv_0(self.actvn(self.norm_0(x, seg1)))
+        dx = self.conv_1(self.actvn(self.norm_1(dx, seg1)))
+        out = x_s + dx
+        return out
+
+    def shortcut(self, x, seg1):
+        if self.learned_shortcut:
+            x_s = self.conv_s(self.norm_s(x, seg1))
+        else:
+            x_s = x
+        return x_s
+
+    def actvn(self, x):
+        return F.leaky_relu(x, 2e-1)
+
+class audio2image(nn.Module):
+    def __init__(self, generator, kp_extractor, he_estimator_video, he_estimator_audio, train_params):
+        super().__init__()
+        # Attributes
+        self.generator = generator
+        self.kp_extractor = kp_extractor
+        self.he_estimator_video = he_estimator_video
+        self.he_estimator_audio = he_estimator_audio
+        self.train_params = train_params
+
+    def headpose_pred_to_degree(self, pred):
+        device = pred.device
+        idx_tensor = [idx for idx in range(66)]
+        idx_tensor = torch.FloatTensor(idx_tensor).to(device)
+        pred = F.softmax(pred)
+        degree = torch.sum(pred*idx_tensor, 1) * 3 - 99
+
+        return degree
+    
+    def get_rotation_matrix(self, yaw, pitch, roll):
+        yaw = yaw / 180 * 3.14
+        pitch = pitch / 180 * 3.14
+        roll = roll / 180 * 3.14
+
+        roll = roll.unsqueeze(1)
+        pitch = pitch.unsqueeze(1)
+        yaw = yaw.unsqueeze(1)
+
+        roll_mat = torch.cat([torch.ones_like(roll), torch.zeros_like(roll), torch.zeros_like(roll), 
+                          torch.zeros_like(roll), torch.cos(roll), -torch.sin(roll),
+                          torch.zeros_like(roll), torch.sin(roll), torch.cos(roll)], dim=1)
+        roll_mat = roll_mat.view(roll_mat.shape[0], 3, 3)
+
+        pitch_mat = torch.cat([torch.cos(pitch), torch.zeros_like(pitch), torch.sin(pitch), 
+                           torch.zeros_like(pitch), torch.ones_like(pitch), torch.zeros_like(pitch),
+                           -torch.sin(pitch), torch.zeros_like(pitch), torch.cos(pitch)], dim=1)
+        pitch_mat = pitch_mat.view(pitch_mat.shape[0], 3, 3)
+
+        yaw_mat = torch.cat([torch.cos(yaw), -torch.sin(yaw), torch.zeros_like(yaw),  
+                         torch.sin(yaw), torch.cos(yaw), torch.zeros_like(yaw),
+                         torch.zeros_like(yaw), torch.zeros_like(yaw), torch.ones_like(yaw)], dim=1)
+        yaw_mat = yaw_mat.view(yaw_mat.shape[0], 3, 3)
+
+        rot_mat = torch.einsum('bij,bjk,bkm->bim', roll_mat, pitch_mat, yaw_mat)
+
+        return rot_mat
+
+    def keypoint_transformation(self, kp_canonical, he):
+        kp = kp_canonical['value']    # (bs, k, 3)
+        yaw, pitch, roll = he['yaw'], he['pitch'], he['roll']
+        t, exp = he['t'], he['exp']
+    
+        yaw = self.headpose_pred_to_degree(yaw)
+        pitch = self.headpose_pred_to_degree(pitch)
+        roll = self.headpose_pred_to_degree(roll)
+
+        rot_mat = self.get_rotation_matrix(yaw, pitch, roll)    # (bs, 3, 3)
+    
+        # keypoint rotation
+        kp_rotated = torch.einsum('bmp,bkp->bkm', rot_mat, kp)
+
+    
+
+        # keypoint translation
+        t = t.unsqueeze_(1).repeat(1, kp.shape[1], 1)
+        kp_t = kp_rotated + t
+
+        # add expression deviation 
+        exp = exp.view(exp.shape[0], -1, 3)
+        kp_transformed = kp_t + exp
+
+        return {'value': kp_transformed}
+
+    def forward(self, source_image, target_audio):
+        pose_source = self.he_estimator_video(source_image)
+        pose_generated = self.he_estimator_audio(target_audio)
+        kp_canonical = self.kp_extractor(source_image)
+        kp_source = self.keypoint_transformation(kp_canonical, pose_source)
+        kp_transformed_generated = self.keypoint_transformation(kp_canonical, pose_generated)
+        generated = self.generator(source_image, kp_source=kp_source, kp_driving=kp_transformed_generated)
+        return generated

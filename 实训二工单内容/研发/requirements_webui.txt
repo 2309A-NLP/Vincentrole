@@ -1,1 +1,112 @@
-IyBQeVRvcmNoIGFuZCBpdHMgZGVwZW5kZW5jaWVzCiMgVGhlc2UgbGlicmFyaWVzIGluY2x1ZGUgUHlUb3JjaCBhbmQgaXRzIHJlbGF0ZWQgcGFja2FnZXMsIHN1cHBvcnRpbmcgQ1VEQSAxMS44LgotLWV4dHJhLWluZGV4LXVybCBodHRwczovL2Rvd25sb2FkLnB5dG9yY2gub3JnL3dobC90b3JjaF9zdGFibGUuaHRtbAp0b3JjaAp0b3JjaHZpc2lvbgp0b3JjaGF1ZGlvCiMgdG9yY2g9PTIuNC4xK2N1MTE4CiMgdG9yY2h2aXNpb249PTAuMTkuMStjdTExOAojIHRvcmNoYXVkaW89PTIuNC4xK2N1MTE4CgojIEluc3RhbGxhdGlvbiBzb3VyY2UgZm9yIFB5VG9yY2g6IC1mIGh0dHBzOi8vZG93bmxvYWQucHl0b3JjaC5vcmcvd2hsL2N1MTE4CiMgRXhhbXBsZSBpbnN0YWxsYXRpb24gY29tbWFuZDoKCiMgcGlwIGluc3RhbGwgdG9yY2g9PTIuNC4xIHRvcmNodmlzaW9uPT0wLjE5LjEgdG9yY2hhdWRpbz09Mi40LjEgLS1pbmRleC11cmwgaHR0cHM6Ly9kb3dubG9hZC5weXRvcmNoLm9yZy93aGwvY3UxMTgKIyBwaXAgaW5zdGFsbCB0Yi1uaWdodGx5IC1pIGh0dHBzOi8vbWlycm9ycy5hbGl5dW4uY29tL3B5cGkvc2ltcGxlCgojIEdlbmVyYWwgdG9vbHMgYW5kIGxpYnJhcmllcwpudW1iYQp0cWRtCnB5eWFtbApmZm1wZWctcHl0aG9uCmdkb3duCnJlcXVlc3RzCmltYWdlaW9bZmZtcGVnXQpvbWVnYWNvbmYKc3BhY2VzCm1vdmllcHkKbGlicm9zYT09MC4xMC4yCnVsdHJhbHl0aWNzICMgZm9yIHdhdjJsaXB2MgpncmFkaW89PTQuKgoKIyBTYWRUYWxrZXIgcmVsYXRlZCBsaWJyYXJpZXMKbnVtcHk9PTEuMjMuNApmYWNlX2FsaWdubWVudD09MS4zLjUKaW1hZ2Vpbz09Mi4xOS4zCmltYWdlaW8tZmZtcGVnPT0wLjQuNwpyZXNhbXB5PT0wLjMuMQpweWR1Yj09MC4yNS4xIApzY2lweT09MS4xMC4xCmtvcm5pYT09MC42LjgKeWFjcz09MC4xLjgKam9ibGliPT0xLjIuMApmYWNleGxpYj09MC4zLjAKc2Npa2l0LWltYWdlPT0wLjE5LjMKcHJvdG9idWY9PTMuMjAuMgpiYXNpY3NyPT0xLjQuMgpnZnBnYW49PTEuMy44Cm1hdHBsb3RsaWI9PTMuNy41CgojIE11c2VUYWxrIHJlbGF0ZWQgbGlicmFyaWVzCmRpZmZ1c2Vycz09MC4yNy4yCmh1Z2dpbmdmYWNlX2h1Yj09MC4yNS4yCmFjY2VsZXJhdGU9PTAuMjguMApvcGVuY3YtcHl0aG9uPT00LjkuMC44MApzb3VuZGZpbGU9PTAuMTIuMQp0cmFuc2Zvcm1lcnM9PTQuMzkuMgojIHBpcCBpbnN0YWxsIC0tbm8tY2FjaGUtZGlyIC1VIG9wZW5taW0KIyBtaW0gaW5zdGFsbCBtbWVuZ2luZSAKIyBtaW0gaW5zdGFsbCAibW1jdj49Mi4wLjEiIAojIG1pbSBpbnN0YWxsICJtbWRldD49My4xLjAiIAojIG1pbSBpbnN0YWxsICJtbXBvc2U+PTEuMS4wIiAKCiMgIyBQYWRkbGVUVFMgcmVsYXRlZCBsaWJyYXJpZXMKIyBwYWRkbGVwYWRkbGU9PTIuNS4yCiMgcGFkZGxlc3BlZWNoPT0xLjQuMQojIG9wZW5jYz09MS4xLjEKCiMgQVNSIChBdXRvbWF0aWMgU3BlZWNoIFJlY29nbml0aW9uKSByZWxhdGVkIGxpYnJhcmllcwpvcGVuYWkKbW9kZWxzY29wZQpmdW5hc3I+PTEuMC4wCmVkZ2UtdHRzPj02LjEuMTgKb3BlbmFpLXdoaXNwZXIKemhjb252CgojIExMTSAoTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwpIHJlbGF0ZWQgbGlicmFyaWVzCm9wZW5haQpnNGYKY3VybF9jZmZpCmdycGNpby1zdGF0dXM9PTEuNDguMgpnb29nbGUtZ2VuZXJhdGl2ZWFpCmdvb2dsZS1hcGktcHl0aG9uLWNsaWVudD09Mi4xMjYuMAp0aWt0b2tlbgphY2NlbGVyYXRlCmVpbm9wcyAKdHJhbnNmb3JtZXJzX3N0cmVhbV9nZW5lcmF0b3I9PTAuMC40CnNlbnRlbmNlcGllY2UKCiMgR1BULVNvVklUUyByZWxhdGVkIGxpYnJhcmllcwpudW1iYT09MC41Ni40CnB5dG9yY2gtbGlnaHRuaW5nCm9ubnhydW50aW1lCnRxZG0KY24yYW4KcHlwaW55aW4KcHlvcGVuanRhbGsKZzJwX2VuCm1vZGVsc2NvcGU9PTEuMTAuMApjaGFyZGV0ClB5WUFNTApwc3V0aWwKamllYmFfZmFzdApqaWViYQpMYW5nU2VnbWVudAoKCiMgQ29zeVZvaWNlICByZWxhdGVkIGxpYnJhcmllcwpjb25mb3JtZXI9PTAuMy4yCmxpZ2h0bmluZz09Mi4yLjQKd2dldD09My4yCkh5cGVyUHlZQU1MPT0xLjIuMgpXZVRleHRQcm9jZXNzaW5nPT0xLjAuMw==
+# PyTorch and its dependencies
+# These libraries include PyTorch and its related packages, supporting CUDA 11.8.
+--extra-index-url https://download.pytorch.org/whl/torch_stable.html
+torch
+torchvision
+torchaudio
+# torch==2.4.1+cu118
+# torchvision==0.19.1+cu118
+# torchaudio==2.4.1+cu118
+
+# Installation source for PyTorch: -f https://download.pytorch.org/whl/cu118
+# Example installation command:
+
+# pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu118
+# pip install tb-nightly -i https://mirrors.aliyun.com/pypi/simple
+
+# General tools and libraries
+numba
+tqdm
+pyyaml
+ffmpeg-python
+gdown
+requests
+imageio[ffmpeg]
+omegaconf
+spaces
+moviepy
+librosa==0.10.2
+ultralytics # for wav2lipv2
+gradio==4.*
+
+# SadTalker related libraries
+numpy==1.23.4
+face_alignment==1.3.5
+imageio==2.19.3
+imageio-ffmpeg==0.4.7
+resampy==0.3.1
+pydub==0.25.1 
+scipy==1.10.1
+kornia==0.6.8
+yacs==0.1.8
+joblib==1.2.0
+facexlib==0.3.0
+scikit-image==0.19.3
+protobuf==3.20.2
+basicsr==1.4.2
+gfpgan==1.3.8
+matplotlib==3.7.5
+
+# MuseTalk related libraries
+diffusers==0.27.2
+huggingface_hub==0.25.2
+accelerate==0.28.0
+opencv-python==4.9.0.80
+soundfile==0.12.1
+transformers==4.39.2
+# pip install --no-cache-dir -U openmim
+# mim install mmengine 
+# mim install "mmcv>=2.0.1" 
+# mim install "mmdet>=3.1.0" 
+# mim install "mmpose>=1.1.0" 
+
+# # PaddleTTS related libraries
+# paddlepaddle==2.5.2
+# paddlespeech==1.4.1
+# opencc==1.1.1
+
+# ASR (Automatic Speech Recognition) related libraries
+openai
+modelscope
+funasr>=1.0.0
+edge-tts>=6.1.18
+openai-whisper
+zhconv
+
+# LLM (Large Language Model) related libraries
+openai
+g4f
+curl_cffi
+grpcio-status==1.48.2
+google-generativeai
+google-api-python-client==2.126.0
+tiktoken
+accelerate
+einops 
+transformers_stream_generator==0.0.4
+sentencepiece
+
+# GPT-SoVITS related libraries
+numba==0.56.4
+pytorch-lightning
+onnxruntime
+tqdm
+cn2an
+pypinyin
+pyopenjtalk
+g2p_en
+modelscope==1.10.0
+chardet
+PyYAML
+psutil
+jieba_fast
+jieba
+LangSegment
+
+
+# CosyVoice  related libraries
+conformer==0.3.2
+lightning==2.2.4
+wget==3.2
+HyperPyYAML==1.2.2
+WeTextProcessing==1.0.3

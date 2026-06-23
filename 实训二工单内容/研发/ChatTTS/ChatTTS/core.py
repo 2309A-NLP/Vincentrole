@@ -1,1 +1,200 @@
-CmltcG9ydCBvcwppbXBvcnQgbG9nZ2luZwpmcm9tIGZ1bmN0b29scyBpbXBvcnQgcGFydGlhbApmcm9tIG9tZWdhY29uZiBpbXBvcnQgT21lZ2FDb25mCgppbXBvcnQgdG9yY2gKZnJvbSB2b2NvcyBpbXBvcnQgVm9jb3MKZnJvbSAubW9kZWwuZHZhZSBpbXBvcnQgRFZBRQpmcm9tIC5tb2RlbC5ncHQgaW1wb3J0IEdQVF93YXJwcGVyCmZyb20gLnV0aWxzLmdwdV91dGlscyBpbXBvcnQgc2VsZWN0X2RldmljZQpmcm9tIC51dGlscy5pbmZlcl91dGlscyBpbXBvcnQgY291bnRfaW52YWxpZF9jaGFyYWN0ZXJzLCBkZXRlY3RfbGFuZ3VhZ2UsIGFwcGx5X2NoYXJhY3Rlcl9tYXAsIGFwcGx5X2hhbGYyZnVsbF9tYXAKZnJvbSAudXRpbHMuaW9fdXRpbHMgaW1wb3J0IGdldF9sYXRlc3RfbW9kaWZpZWRfZmlsZQpmcm9tIC5pbmZlci5hcGkgaW1wb3J0IHJlZmluZV90ZXh0LCBpbmZlcl9jb2RlCgpmcm9tIGh1Z2dpbmdmYWNlX2h1YiBpbXBvcnQgc25hcHNob3RfZG93bmxvYWQKCmxvZ2dpbmcuYmFzaWNDb25maWcobGV2ZWwgPSBsb2dnaW5nLklORk8pCgoKY2xhc3MgQ2hhdDoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCApOgogICAgICAgIHNlbGYucHJldHJhaW5fbW9kZWxzID0ge30KICAgICAgICBzZWxmLm5vcm1hbGl6ZXIgPSB7fQogICAgICAgIHNlbGYubG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCiAgICAgICAgCiAgICBkZWYgY2hlY2tfbW9kZWwoc2VsZiwgbGV2ZWwgPSBsb2dnaW5nLklORk8sIHVzZV9kZWNvZGVyID0gRmFsc2UpOgogICAgICAgIG5vdF9maW5pc2ggPSBGYWxzZQogICAgICAgIGNoZWNrX2xpc3QgPSBbJ3ZvY29zJywgJ2dwdCcsICd0b2tlbml6ZXInXQogICAgICAgIAogICAgICAgIGlmIHVzZV9kZWNvZGVyOgogICAgICAgICAgICBjaGVja19saXN0LmFwcGVuZCgnZGVjb2RlcicpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgY2hlY2tfbGlzdC5hcHBlbmQoJ2R2YWUnKQogICAgICAgICAgICAKICAgICAgICBmb3IgbW9kdWxlIGluIGNoZWNrX2xpc3Q6CiAgICAgICAgICAgIGlmIG1vZHVsZSBub3QgaW4gc2VsZi5wcmV0cmFpbl9tb2RlbHM6CiAgICAgICAgICAgICAgICBzZWxmLmxvZ2dlci5sb2cobG9nZ2luZy5XQVJOSU5HLCBmJ3ttb2R1bGV9IG5vdCBpbml0aWFsaXplZC4nKQogICAgICAgICAgICAgICAgbm90X2ZpbmlzaCA9IFRydWUKICAgICAgICAgICAgICAgIAogICAgICAgIGlmIG5vdCBub3RfZmluaXNoOgogICAgICAgICAgICBzZWxmLmxvZ2dlci5sb2cobGV2ZWwsIGYnQWxsIGluaXRpYWxpemVkLicpCiAgICAgICAgICAgIAogICAgICAgIHJldHVybiBub3Qgbm90X2ZpbmlzaAogICAgICAgIAogICAgZGVmIGxvYWRfbW9kZWxzKHNlbGYsIHNvdXJjZT0naHVnZ2luZ2ZhY2UnLCBmb3JjZV9yZWRvd25sb2FkPUZhbHNlLCBsb2NhbF9wYXRoPSc8TE9DQUxfUEFUSD4nLCAqKmt3YXJncyk6CiAgICAgICAgaWYgc291cmNlID09ICdodWdnaW5nZmFjZSc6CiAgICAgICAgICAgIGhmX2hvbWUgPSBvcy5nZXRlbnYoJ0hGX0hPTUUnLCBvcy5wYXRoLmV4cGFuZHVzZXIoIn4vLmNhY2hlL2h1Z2dpbmdmYWNlIikpCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGRvd25sb2FkX3BhdGggPSBnZXRfbGF0ZXN0X21vZGlmaWVkX2ZpbGUob3MucGF0aC5qb2luKGhmX2hvbWUsICdodWIvbW9kZWxzLS0yTm9pc2UtLUNoYXRUVFMvc25hcHNob3RzJykpCiAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgIGRvd25sb2FkX3BhdGggPSBOb25lCiAgICAgICAgICAgIGlmIGRvd25sb2FkX3BhdGggaXMgTm9uZSBvciBmb3JjZV9yZWRvd25sb2FkOiAKICAgICAgICAgICAgICAgIHNlbGYubG9nZ2VyLmxvZyhsb2dnaW5nLklORk8sIGYnRG93bmxvYWQgZnJvbSBIRjogaHR0cHM6Ly9odWdnaW5nZmFjZS5jby8yTm9pc2UvQ2hhdFRUUycpCiAgICAgICAgICAgICAgICBkb3dubG9hZF9wYXRoID0gc25hcHNob3RfZG93bmxvYWQocmVwb19pZD0iMk5vaXNlL0NoYXRUVFMiLCBhbGxvd19wYXR0ZXJucz1bIioucHQiLCAiKi55YW1sIl0pCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBzZWxmLmxvZ2dlci5sb2cobG9nZ2luZy5JTkZPLCBmJ0xvYWQgZnJvbSBjYWNoZToge2Rvd25sb2FkX3BhdGh9JykKICAgICAgICBlbGlmIHNvdXJjZSA9PSAnbG9jYWwnOgogICAgICAgICAgICBzZWxmLmxvZ2dlci5sb2cobG9nZ2luZy5JTkZPLCBmJ0xvYWQgZnJvbSBsb2NhbDoge2xvY2FsX3BhdGh9JykKICAgICAgICAgICAgZG93bmxvYWRfcGF0aCA9IGxvY2FsX3BhdGgKCiAgICAgICAgc2VsZi5fbG9hZCgqKntrOiBvcy5wYXRoLmpvaW4oZG93bmxvYWRfcGF0aCwgdikgZm9yIGssIHYgaW4gT21lZ2FDb25mLmxvYWQob3MucGF0aC5qb2luKGRvd25sb2FkX3BhdGgsICdjb25maWcnLCAncGF0aC55YW1sJykpLml0ZW1zKCl9LCAqKmt3YXJncykKICAgICAgICAKICAgIGRlZiBfbG9hZCgKICAgICAgICBzZWxmLCAKICAgICAgICB2b2Nvc19jb25maWdfcGF0aDogc3RyID0gTm9uZSwgCiAgICAgICAgdm9jb3NfY2twdF9wYXRoOiBzdHIgPSBOb25lLAogICAgICAgIGR2YWVfY29uZmlnX3BhdGg6IHN0ciA9IE5vbmUsCiAgICAgICAgZHZhZV9ja3B0X3BhdGg6IHN0ciA9IE5vbmUsCiAgICAgICAgZ3B0X2NvbmZpZ19wYXRoOiBzdHIgPSBOb25lLAogICAgICAgIGdwdF9ja3B0X3BhdGg6IHN0ciA9IE5vbmUsCiAgICAgICAgZGVjb2Rlcl9jb25maWdfcGF0aDogc3RyID0gTm9uZSwKICAgICAgICBkZWNvZGVyX2NrcHRfcGF0aDogc3RyID0gTm9uZSwKICAgICAgICB0b2tlbml6ZXJfcGF0aDogc3RyID0gTm9uZSwKICAgICAgICBkZXZpY2U6IHN0ciA9IE5vbmUsCiAgICAgICAgY29tcGlsZTogYm9vbCA9IFRydWUsCiAgICApOgogICAgICAgIGlmIG5vdCBkZXZpY2U6CiAgICAgICAgICAgIGRldmljZSA9IHNlbGVjdF9kZXZpY2UoNDA5NikKICAgICAgICAgICAgc2VsZi5sb2dnZXIubG9nKGxvZ2dpbmcuSU5GTywgZid1c2Uge2RldmljZX0nKQogICAgICAgICAgICAKICAgICAgICBpZiB2b2Nvc19jb25maWdfcGF0aDoKICAgICAgICAgICAgdm9jb3MgPSBWb2Nvcy5mcm9tX2hwYXJhbXModm9jb3NfY29uZmlnX3BhdGgpLnRvKGRldmljZSkuZXZhbCgpCiAgICAgICAgICAgIGFzc2VydCB2b2Nvc19ja3B0X3BhdGgsICd2b2Nvc19ja3B0X3BhdGggc2hvdWxkIG5vdCBiZSBOb25lJwogICAgICAgICAgICB2b2Nvcy5sb2FkX3N0YXRlX2RpY3QodG9yY2gubG9hZCh2b2Nvc19ja3B0X3BhdGgpKQogICAgICAgICAgICBzZWxmLnByZXRyYWluX21vZGVsc1sndm9jb3MnXSA9IHZvY29zCiAgICAgICAgICAgIHNlbGYubG9nZ2VyLmxvZyhsb2dnaW5nLklORk8sICd2b2NvcyBsb2FkZWQuJykKICAgICAgICAKICAgICAgICBpZiBkdmFlX2NvbmZpZ19wYXRoOgogICAgICAgICAgICBjZmcgPSBPbWVnYUNvbmYubG9hZChkdmFlX2NvbmZpZ19wYXRoKQogICAgICAgICAgICBkdmFlID0gRFZBRSgqKmNmZykudG8oZGV2aWNlKS5ldmFsKCkKICAgICAgICAgICAgYXNzZXJ0IGR2YWVfY2twdF9wYXRoLCAnZHZhZV9ja3B0X3BhdGggc2hvdWxkIG5vdCBiZSBOb25lJwogICAgICAgICAgICBkdmFlLmxvYWRfc3RhdGVfZGljdCh0b3JjaC5sb2FkKGR2YWVfY2twdF9wYXRoLCBtYXBfbG9jYXRpb249J2NwdScpKQogICAgICAgICAgICBzZWxmLnByZXRyYWluX21vZGVsc1snZHZhZSddID0gZHZhZQogICAgICAgICAgICBzZWxmLmxvZ2dlci5sb2cobG9nZ2luZy5JTkZPLCAnZHZhZSBsb2FkZWQuJykKICAgICAgICAgICAgCiAgICAgICAgaWYgZ3B0X2NvbmZpZ19wYXRoOgogICAgICAgICAgICBjZmcgPSBPbWVnYUNvbmYubG9hZChncHRfY29uZmlnX3BhdGgpCiAgICAgICAgICAgIGdwdCA9IEdQVF93YXJwcGVyKCoqY2ZnKS50byhkZXZpY2UpLmV2YWwoKQogICAgICAgICAgICBhc3NlcnQgZ3B0X2NrcHRfcGF0aCwgJ2dwdF9ja3B0X3BhdGggc2hvdWxkIG5vdCBiZSBOb25lJwogICAgICAgICAgICBncHQubG9hZF9zdGF0ZV9kaWN0KHRvcmNoLmxvYWQoZ3B0X2NrcHRfcGF0aCwgbWFwX2xvY2F0aW9uPSdjcHUnKSkKICAgICAgICAgICAgaWYgY29tcGlsZSBhbmQgJ2N1ZGEnIGluIHN0cihkZXZpY2UpOgogICAgICAgICAgICAgICAgZ3B0LmdwdC5mb3J3YXJkID0gdG9yY2guY29tcGlsZShncHQuZ3B0LmZvcndhcmQsICBiYWNrZW5kPSdpbmR1Y3RvcicsIGR5bmFtaWM9VHJ1ZSkKICAgICAgICAgICAgc2VsZi5wcmV0cmFpbl9tb2RlbHNbJ2dwdCddID0gZ3B0CiAgICAgICAgICAgIHNwa19zdGF0X3BhdGggPSBvcy5wYXRoLmpvaW4ob3MucGF0aC5kaXJuYW1lKGdwdF9ja3B0X3BhdGgpLCAnc3BrX3N0YXQucHQnKQogICAgICAgICAgICBhc3NlcnQgb3MucGF0aC5leGlzdHMoc3BrX3N0YXRfcGF0aCksIGYnTWlzc2luZyBzcGtfc3RhdC5wdDoge3Nwa19zdGF0X3BhdGh9JwogICAgICAgICAgICBzZWxmLnByZXRyYWluX21vZGVsc1snc3BrX3N0YXQnXSA9IHRvcmNoLmxvYWQoc3BrX3N0YXRfcGF0aCkudG8oZGV2aWNlKQogICAgICAgICAgICBzZWxmLmxvZ2dlci5sb2cobG9nZ2luZy5JTkZPLCAnZ3B0IGxvYWRlZC4nKQogICAgICAgICAgICAKICAgICAgICBpZiBkZWNvZGVyX2NvbmZpZ19wYXRoOgogICAgICAgICAgICBjZmcgPSBPbWVnYUNvbmYubG9hZChkZWNvZGVyX2NvbmZpZ19wYXRoKQogICAgICAgICAgICBkZWNvZGVyID0gRFZBRSgqKmNmZykudG8oZGV2aWNlKS5ldmFsKCkKICAgICAgICAgICAgYXNzZXJ0IGRlY29kZXJfY2twdF9wYXRoLCAnZGVjb2Rlcl9ja3B0X3BhdGggc2hvdWxkIG5vdCBiZSBOb25lJwogICAgICAgICAgICBkZWNvZGVyLmxvYWRfc3RhdGVfZGljdCh0b3JjaC5sb2FkKGRlY29kZXJfY2twdF9wYXRoLCBtYXBfbG9jYXRpb249J2NwdScpKQogICAgICAgICAgICBzZWxmLnByZXRyYWluX21vZGVsc1snZGVjb2RlciddID0gZGVjb2RlcgogICAgICAgICAgICBzZWxmLmxvZ2dlci5sb2cobG9nZ2luZy5JTkZPLCAnZGVjb2RlciBsb2FkZWQuJykKICAgICAgICAKICAgICAgICBpZiB0b2tlbml6ZXJfcGF0aDoKICAgICAgICAgICAgdG9rZW5pemVyID0gdG9yY2gubG9hZCh0b2tlbml6ZXJfcGF0aCwgbWFwX2xvY2F0aW9uPSdjcHUnKQogICAgICAgICAgICB0b2tlbml6ZXIucGFkZGluZ19zaWRlID0gJ2xlZnQnCiAgICAgICAgICAgIHNlbGYucHJldHJhaW5fbW9kZWxzWyd0b2tlbml6ZXInXSA9IHRva2VuaXplcgogICAgICAgICAgICBzZWxmLmxvZ2dlci5sb2cobG9nZ2luZy5JTkZPLCAndG9rZW5pemVyIGxvYWRlZC4nKQogICAgICAgICAgICAKICAgICAgICBzZWxmLmNoZWNrX21vZGVsKCkKICAgIAogICAgZGVmIGluZmVyKAogICAgICAgIHNlbGYsIAogICAgICAgIHRleHQsIAogICAgICAgIHNraXBfcmVmaW5lX3RleHQ9RmFsc2UsIAogICAgICAgIHJlZmluZV90ZXh0X29ubHk9RmFsc2UsIAogICAgICAgIHBhcmFtc19yZWZpbmVfdGV4dD17fSwgCiAgICAgICAgcGFyYW1zX2luZmVyX2NvZGU9eydwcm9tcHQnOidbc3BlZWRfNV0nfSwgCiAgICAgICAgdXNlX2RlY29kZXI9VHJ1ZSwKICAgICAgICBkb190ZXh0X25vcm1hbGl6YXRpb249VHJ1ZSwKICAgICAgICBsYW5nPU5vbmUsCiAgICApOgogICAgICAgIAogICAgICAgIGFzc2VydCBzZWxmLmNoZWNrX21vZGVsKHVzZV9kZWNvZGVyPXVzZV9kZWNvZGVyKQogICAgICAgIAogICAgICAgIGlmIG5vdCBpc2luc3RhbmNlKHRleHQsIGxpc3QpOiAKICAgICAgICAgICAgdGV4dCA9IFt0ZXh0XQogICAgICAgIAogICAgICAgIGlmIGRvX3RleHRfbm9ybWFsaXphdGlvbjoKICAgICAgICAgICAgZm9yIGksIHQgaW4gZW51bWVyYXRlKHRleHQpOgogICAgICAgICAgICAgICAgX2xhbmcgPSBkZXRlY3RfbGFuZ3VhZ2UodCkgaWYgbGFuZyBpcyBOb25lIGVsc2UgbGFuZwogICAgICAgICAgICAgICAgc2VsZi5pbml0X25vcm1hbGl6ZXIoX2xhbmcpCiAgICAgICAgICAgICAgICB0ZXh0W2ldID0gc2VsZi5ub3JtYWxpemVyW19sYW5nXSh0KQogICAgICAgICAgICAgICAgaWYgX2xhbmcgPT0gJ3poJzoKICAgICAgICAgICAgICAgICAgICB0ZXh0W2ldID0gYXBwbHlfaGFsZjJmdWxsX21hcCh0ZXh0W2ldKQogICAgICAgICAgICAKICAgICAgICBmb3IgaSwgdCBpbiBlbnVtZXJhdGUodGV4dCk6CiAgICAgICAgICAgIGludmFsaWRfY2hhcmFjdGVycyA9IGNvdW50X2ludmFsaWRfY2hhcmFjdGVycyh0KQogICAgICAgICAgICBpZiBsZW4oaW52YWxpZF9jaGFyYWN0ZXJzKToKICAgICAgICAgICAgICAgIHNlbGYubG9nZ2VyLmxvZyhsb2dnaW5nLldBUk5JTkcsIGYnSW52YWxpZCBjaGFyYWN0ZXJzIGZvdW5kISA6IHtpbnZhbGlkX2NoYXJhY3RlcnN9JykKICAgICAgICAgICAgICAgIHRleHRbaV0gPSBhcHBseV9jaGFyYWN0ZXJfbWFwKHQpCiAgICAgICAgICAgICAgICAKICAgICAgICBpZiBub3Qgc2tpcF9yZWZpbmVfdGV4dDoKICAgICAgICAgICAgdGV4dF90b2tlbnMgPSByZWZpbmVfdGV4dChzZWxmLnByZXRyYWluX21vZGVscywgdGV4dCwgKipwYXJhbXNfcmVmaW5lX3RleHQpWydpZHMnXQogICAgICAgICAgICB0ZXh0X3Rva2VucyA9IFtpW2kgPCBzZWxmLnByZXRyYWluX21vZGVsc1sndG9rZW5pemVyJ10uY29udmVydF90b2tlbnNfdG9faWRzKCdbYnJlYWtfMF0nKV0gZm9yIGkgaW4gdGV4dF90b2tlbnNdCiAgICAgICAgICAgIHRleHQgPSBzZWxmLnByZXRyYWluX21vZGVsc1sndG9rZW5pemVyJ10uYmF0Y2hfZGVjb2RlKHRleHRfdG9rZW5zKQogICAgICAgICAgICBpZiByZWZpbmVfdGV4dF9vbmx5OgogICAgICAgICAgICAgICAgcmV0dXJuIHRleHQKICAgICAgICAgICAgCiAgICAgICAgdGV4dCA9IFtwYXJhbXNfaW5mZXJfY29kZS5nZXQoJ3Byb21wdCcsICcnKSArIGkgZm9yIGkgaW4gdGV4dF0KICAgICAgICBwYXJhbXNfaW5mZXJfY29kZS5wb3AoJ3Byb21wdCcsICcnKQogICAgICAgIHJlc3VsdCA9IGluZmVyX2NvZGUoc2VsZi5wcmV0cmFpbl9tb2RlbHMsIHRleHQsICoqcGFyYW1zX2luZmVyX2NvZGUsIHJldHVybl9oaWRkZW49dXNlX2RlY29kZXIpCiAgICAgICAgCiAgICAgICAgaWYgdXNlX2RlY29kZXI6CiAgICAgICAgICAgIG1lbF9zcGVjID0gW3NlbGYucHJldHJhaW5fbW9kZWxzWydkZWNvZGVyJ10oaVtOb25lXS5wZXJtdXRlKDAsMiwxKSkgZm9yIGkgaW4gcmVzdWx0WydoaWRkZW5zJ11dCiAgICAgICAgZWxzZToKICAgICAgICAgICAgbWVsX3NwZWMgPSBbc2VsZi5wcmV0cmFpbl9tb2RlbHNbJ2R2YWUnXShpW05vbmVdLnBlcm11dGUoMCwyLDEpKSBmb3IgaSBpbiByZXN1bHRbJ2lkcyddXQogICAgICAgICAgICAKICAgICAgICB3YXYgPSBbc2VsZi5wcmV0cmFpbl9tb2RlbHNbJ3ZvY29zJ10uZGVjb2RlKGkpLmNwdSgpLm51bXB5KCkgZm9yIGkgaW4gbWVsX3NwZWNdCiAgICAgICAgCiAgICAgICAgcmV0dXJuIHdhdgogICAgCiAgICBkZWYgc2FtcGxlX3JhbmRvbV9zcGVha2VyKHNlbGYsICk6CiAgICAgICAgCiAgICAgICAgZGltID0gc2VsZi5wcmV0cmFpbl9tb2RlbHNbJ2dwdCddLmdwdC5sYXllcnNbMF0ubWxwLmdhdGVfcHJvai5pbl9mZWF0dXJlcwogICAgICAgIHN0ZCwgbWVhbiA9IHNlbGYucHJldHJhaW5fbW9kZWxzWydzcGtfc3RhdCddLmNodW5rKDIpCiAgICAgICAgcmV0dXJuIHRvcmNoLnJhbmRuKGRpbSwgZGV2aWNlPXN0ZC5kZXZpY2UpICogc3RkICsgbWVhbgogICAgCiAgICBkZWYgaW5pdF9ub3JtYWxpemVyKHNlbGYsIGxhbmcpOgogICAgICAgIAogICAgICAgIGlmIGxhbmcgbm90IGluIHNlbGYubm9ybWFsaXplcjoKICAgICAgICAgICAgaWYgbGFuZyA9PSAnemgnOgogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIGZyb20gdG4uY2hpbmVzZS5ub3JtYWxpemVyIGltcG9ydCBOb3JtYWxpemVyCiAgICAgICAgICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5sb2dnZXIubG9nKGxvZ2dpbmcuV0FSTklORywgZidQYWNrYWdlIFdlVGV4dFByb2Nlc3Npbmcgbm90IGZvdW5kISBcCiAgICAgICAgICAgICAgICAgICAgICAgIFJ1bjogY29uZGEgaW5zdGFsbCAtYyBjb25kYS1mb3JnZSBweW5pbmk9Mi4xLjUgJiYgcGlwIGluc3RhbGwgV2VUZXh0UHJvY2Vzc2luZycpCiAgICAgICAgICAgICAgICBzZWxmLm5vcm1hbGl6ZXJbbGFuZ10gPSBOb3JtYWxpemVyKCkubm9ybWFsaXplCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgZnJvbSBuZW1vX3RleHRfcHJvY2Vzc2luZy50ZXh0X25vcm1hbGl6YXRpb24ubm9ybWFsaXplIGltcG9ydCBOb3JtYWxpemVyCiAgICAgICAgICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5sb2dnZXIubG9nKGxvZ2dpbmcuV0FSTklORywgZidQYWNrYWdlIG5lbW9fdGV4dF9wcm9jZXNzaW5nIG5vdCBmb3VuZCEgXAogICAgICAgICAgICAgICAgICAgICAgICBSdW46IGNvbmRhIGluc3RhbGwgLWMgY29uZGEtZm9yZ2UgcHluaW5pPTIuMS41ICYmIHBpcCBpbnN0YWxsIG5lbW9fdGV4dF9wcm9jZXNzaW5nJykKICAgICAgICAgICAgICAgIHNlbGYubm9ybWFsaXplcltsYW5nXSA9IHBhcnRpYWwoTm9ybWFsaXplcihpbnB1dF9jYXNlPSdjYXNlZCcsIGxhbmc9bGFuZykubm9ybWFsaXplLCB2ZXJib3NlPUZhbHNlLCBwdW5jdF9wb3N0X3Byb2Nlc3M9VHJ1ZSkKCg==
+
+import os
+import logging
+from functools import partial
+from omegaconf import OmegaConf
+
+import torch
+from vocos import Vocos
+from .model.dvae import DVAE
+from .model.gpt import GPT_warpper
+from .utils.gpu_utils import select_device
+from .utils.infer_utils import count_invalid_characters, detect_language, apply_character_map, apply_half2full_map
+from .utils.io_utils import get_latest_modified_file
+from .infer.api import refine_text, infer_code
+
+from huggingface_hub import snapshot_download
+
+logging.basicConfig(level = logging.INFO)
+
+
+class Chat:
+    def __init__(self, ):
+        self.pretrain_models = {}
+        self.normalizer = {}
+        self.logger = logging.getLogger(__name__)
+        
+    def check_model(self, level = logging.INFO, use_decoder = False):
+        not_finish = False
+        check_list = ['vocos', 'gpt', 'tokenizer']
+        
+        if use_decoder:
+            check_list.append('decoder')
+        else:
+            check_list.append('dvae')
+            
+        for module in check_list:
+            if module not in self.pretrain_models:
+                self.logger.log(logging.WARNING, f'{module} not initialized.')
+                not_finish = True
+                
+        if not not_finish:
+            self.logger.log(level, f'All initialized.')
+            
+        return not not_finish
+        
+    def load_models(self, source='huggingface', force_redownload=False, local_path='<LOCAL_PATH>', **kwargs):
+        if source == 'huggingface':
+            hf_home = os.getenv('HF_HOME', os.path.expanduser("~/.cache/huggingface"))
+            try:
+                download_path = get_latest_modified_file(os.path.join(hf_home, 'hub/models--2Noise--ChatTTS/snapshots'))
+            except:
+                download_path = None
+            if download_path is None or force_redownload: 
+                self.logger.log(logging.INFO, f'Download from HF: https://huggingface.co/2Noise/ChatTTS')
+                download_path = snapshot_download(repo_id="2Noise/ChatTTS", allow_patterns=["*.pt", "*.yaml"])
+            else:
+                self.logger.log(logging.INFO, f'Load from cache: {download_path}')
+        elif source == 'local':
+            self.logger.log(logging.INFO, f'Load from local: {local_path}')
+            download_path = local_path
+
+        self._load(**{k: os.path.join(download_path, v) for k, v in OmegaConf.load(os.path.join(download_path, 'config', 'path.yaml')).items()}, **kwargs)
+        
+    def _load(
+        self, 
+        vocos_config_path: str = None, 
+        vocos_ckpt_path: str = None,
+        dvae_config_path: str = None,
+        dvae_ckpt_path: str = None,
+        gpt_config_path: str = None,
+        gpt_ckpt_path: str = None,
+        decoder_config_path: str = None,
+        decoder_ckpt_path: str = None,
+        tokenizer_path: str = None,
+        device: str = None,
+        compile: bool = True,
+    ):
+        if not device:
+            device = select_device(4096)
+            self.logger.log(logging.INFO, f'use {device}')
+            
+        if vocos_config_path:
+            vocos = Vocos.from_hparams(vocos_config_path).to(device).eval()
+            assert vocos_ckpt_path, 'vocos_ckpt_path should not be None'
+            vocos.load_state_dict(torch.load(vocos_ckpt_path))
+            self.pretrain_models['vocos'] = vocos
+            self.logger.log(logging.INFO, 'vocos loaded.')
+        
+        if dvae_config_path:
+            cfg = OmegaConf.load(dvae_config_path)
+            dvae = DVAE(**cfg).to(device).eval()
+            assert dvae_ckpt_path, 'dvae_ckpt_path should not be None'
+            dvae.load_state_dict(torch.load(dvae_ckpt_path, map_location='cpu'))
+            self.pretrain_models['dvae'] = dvae
+            self.logger.log(logging.INFO, 'dvae loaded.')
+            
+        if gpt_config_path:
+            cfg = OmegaConf.load(gpt_config_path)
+            gpt = GPT_warpper(**cfg).to(device).eval()
+            assert gpt_ckpt_path, 'gpt_ckpt_path should not be None'
+            gpt.load_state_dict(torch.load(gpt_ckpt_path, map_location='cpu'))
+            if compile and 'cuda' in str(device):
+                gpt.gpt.forward = torch.compile(gpt.gpt.forward,  backend='inductor', dynamic=True)
+            self.pretrain_models['gpt'] = gpt
+            spk_stat_path = os.path.join(os.path.dirname(gpt_ckpt_path), 'spk_stat.pt')
+            assert os.path.exists(spk_stat_path), f'Missing spk_stat.pt: {spk_stat_path}'
+            self.pretrain_models['spk_stat'] = torch.load(spk_stat_path).to(device)
+            self.logger.log(logging.INFO, 'gpt loaded.')
+            
+        if decoder_config_path:
+            cfg = OmegaConf.load(decoder_config_path)
+            decoder = DVAE(**cfg).to(device).eval()
+            assert decoder_ckpt_path, 'decoder_ckpt_path should not be None'
+            decoder.load_state_dict(torch.load(decoder_ckpt_path, map_location='cpu'))
+            self.pretrain_models['decoder'] = decoder
+            self.logger.log(logging.INFO, 'decoder loaded.')
+        
+        if tokenizer_path:
+            tokenizer = torch.load(tokenizer_path, map_location='cpu')
+            tokenizer.padding_side = 'left'
+            self.pretrain_models['tokenizer'] = tokenizer
+            self.logger.log(logging.INFO, 'tokenizer loaded.')
+            
+        self.check_model()
+    
+    def infer(
+        self, 
+        text, 
+        skip_refine_text=False, 
+        refine_text_only=False, 
+        params_refine_text={}, 
+        params_infer_code={'prompt':'[speed_5]'}, 
+        use_decoder=True,
+        do_text_normalization=True,
+        lang=None,
+    ):
+        
+        assert self.check_model(use_decoder=use_decoder)
+        
+        if not isinstance(text, list): 
+            text = [text]
+        
+        if do_text_normalization:
+            for i, t in enumerate(text):
+                _lang = detect_language(t) if lang is None else lang
+                self.init_normalizer(_lang)
+                text[i] = self.normalizer[_lang](t)
+                if _lang == 'zh':
+                    text[i] = apply_half2full_map(text[i])
+            
+        for i, t in enumerate(text):
+            invalid_characters = count_invalid_characters(t)
+            if len(invalid_characters):
+                self.logger.log(logging.WARNING, f'Invalid characters found! : {invalid_characters}')
+                text[i] = apply_character_map(t)
+                
+        if not skip_refine_text:
+            text_tokens = refine_text(self.pretrain_models, text, **params_refine_text)['ids']
+            text_tokens = [i[i < self.pretrain_models['tokenizer'].convert_tokens_to_ids('[break_0]')] for i in text_tokens]
+            text = self.pretrain_models['tokenizer'].batch_decode(text_tokens)
+            if refine_text_only:
+                return text
+            
+        text = [params_infer_code.get('prompt', '') + i for i in text]
+        params_infer_code.pop('prompt', '')
+        result = infer_code(self.pretrain_models, text, **params_infer_code, return_hidden=use_decoder)
+        
+        if use_decoder:
+            mel_spec = [self.pretrain_models['decoder'](i[None].permute(0,2,1)) for i in result['hiddens']]
+        else:
+            mel_spec = [self.pretrain_models['dvae'](i[None].permute(0,2,1)) for i in result['ids']]
+            
+        wav = [self.pretrain_models['vocos'].decode(i).cpu().numpy() for i in mel_spec]
+        
+        return wav
+    
+    def sample_random_speaker(self, ):
+        
+        dim = self.pretrain_models['gpt'].gpt.layers[0].mlp.gate_proj.in_features
+        std, mean = self.pretrain_models['spk_stat'].chunk(2)
+        return torch.randn(dim, device=std.device) * std + mean
+    
+    def init_normalizer(self, lang):
+        
+        if lang not in self.normalizer:
+            if lang == 'zh':
+                try:
+                    from tn.chinese.normalizer import Normalizer
+                except:
+                    self.logger.log(logging.WARNING, f'Package WeTextProcessing not found! \
+                        Run: conda install -c conda-forge pynini=2.1.5 && pip install WeTextProcessing')
+                self.normalizer[lang] = Normalizer().normalize
+            else:
+                try:
+                    from nemo_text_processing.text_normalization.normalize import Normalizer
+                except:
+                    self.logger.log(logging.WARNING, f'Package nemo_text_processing not found! \
+                        Run: conda install -c conda-forge pynini=2.1.5 && pip install nemo_text_processing')
+                self.normalizer[lang] = partial(Normalizer(input_case='cased', lang=lang).normalize, verbose=False, punct_post_process=True)
+

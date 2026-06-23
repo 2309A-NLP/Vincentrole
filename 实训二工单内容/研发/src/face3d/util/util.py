@@ -1,1 +1,208 @@
-IiIiVGhpcyBzY3JpcHQgY29udGFpbnMgYmFzaWMgdXRpbGl0aWVzIGZvciBEZWVwM0RGYWNlUmVjb25fcHl0b3JjaAoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBwcmludF9mdW5jdGlvbgppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IHRvcmNoCmZyb20gUElMIGltcG9ydCBJbWFnZQppbXBvcnQgb3MKaW1wb3J0IGltcG9ydGxpYgppbXBvcnQgYXJncGFyc2UKZnJvbSBhcmdwYXJzZSBpbXBvcnQgTmFtZXNwYWNlCmltcG9ydCB0b3JjaHZpc2lvbgoKCmRlZiBzdHIyYm9vbCh2KToKICAgIGlmIGlzaW5zdGFuY2UodiwgYm9vbCk6CiAgICAgICAgcmV0dXJuIHYKICAgIGlmIHYubG93ZXIoKSBpbiAoJ3llcycsICd0cnVlJywgJ3QnLCAneScsICcxJyk6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIGVsaWYgdi5sb3dlcigpIGluICgnbm8nLCAnZmFsc2UnLCAnZicsICduJywgJzAnKToKICAgICAgICByZXR1cm4gRmFsc2UKICAgIGVsc2U6CiAgICAgICAgcmFpc2UgYXJncGFyc2UuQXJndW1lbnRUeXBlRXJyb3IoJ0Jvb2xlYW4gdmFsdWUgZXhwZWN0ZWQuJykKCgpkZWYgY29weWNvbmYoZGVmYXVsdF9vcHQsICoqa3dhcmdzKToKICAgIGNvbmYgPSBOYW1lc3BhY2UoKip2YXJzKGRlZmF1bHRfb3B0KSkKICAgIGZvciBrZXkgaW4ga3dhcmdzOgogICAgICAgIHNldGF0dHIoY29uZiwga2V5LCBrd2FyZ3Nba2V5XSkKICAgIHJldHVybiBjb25mCgpkZWYgZ2VudmFsY29uZih0cmFpbl9vcHQsICoqa3dhcmdzKToKICAgIGNvbmYgPSBOYW1lc3BhY2UoKip2YXJzKHRyYWluX29wdCkpCiAgICBhdHRyX2RpY3QgPSB0cmFpbl9vcHQuX19kaWN0X18KICAgIGZvciBrZXksIHZhbHVlIGluIGF0dHJfZGljdC5pdGVtcygpOgogICAgICAgIGlmICd2YWwnIGluIGtleSBhbmQga2V5LnNwbGl0KCdfJylbMF0gaW4gYXR0cl9kaWN0OgogICAgICAgICAgICBzZXRhdHRyKGNvbmYsIGtleS5zcGxpdCgnXycpWzBdLCB2YWx1ZSkKCiAgICBmb3Iga2V5IGluIGt3YXJnczoKICAgICAgICBzZXRhdHRyKGNvbmYsIGtleSwga3dhcmdzW2tleV0pCgogICAgcmV0dXJuIGNvbmYKICAgICAgICAKZGVmIGZpbmRfY2xhc3NfaW5fbW9kdWxlKHRhcmdldF9jbHNfbmFtZSwgbW9kdWxlKToKICAgIHRhcmdldF9jbHNfbmFtZSA9IHRhcmdldF9jbHNfbmFtZS5yZXBsYWNlKCdfJywgJycpLmxvd2VyKCkKICAgIGNsc2xpYiA9IGltcG9ydGxpYi5pbXBvcnRfbW9kdWxlKG1vZHVsZSkKICAgIGNscyA9IE5vbmUKICAgIGZvciBuYW1lLCBjbHNvYmogaW4gY2xzbGliLl9fZGljdF9fLml0ZW1zKCk6CiAgICAgICAgaWYgbmFtZS5sb3dlcigpID09IHRhcmdldF9jbHNfbmFtZToKICAgICAgICAgICAgY2xzID0gY2xzb2JqCgogICAgYXNzZXJ0IGNscyBpcyBub3QgTm9uZSwgIkluICVzLCB0aGVyZSBzaG91bGQgYmUgYSBjbGFzcyB3aG9zZSBuYW1lIG1hdGNoZXMgJXMgaW4gbG93ZXJjYXNlIHdpdGhvdXQgdW5kZXJzY29yZShfKSIgJSAobW9kdWxlLCB0YXJnZXRfY2xzX25hbWUpCgogICAgcmV0dXJuIGNscwoKCmRlZiB0ZW5zb3IyaW0oaW5wdXRfaW1hZ2UsIGltdHlwZT1ucC51aW50OCk6CiAgICAiIiIiQ29udmVydHMgYSBUZW5zb3IgYXJyYXkgaW50byBhIG51bXB5IGltYWdlIGFycmF5LgoKICAgIFBhcmFtZXRlcnM6CiAgICAgICAgaW5wdXRfaW1hZ2UgKHRlbnNvcikgLS0gIHRoZSBpbnB1dCBpbWFnZSB0ZW5zb3IgYXJyYXksIHJhbmdlKDAsIDEpCiAgICAgICAgaW10eXBlICh0eXBlKSAgICAgICAgLS0gIHRoZSBkZXNpcmVkIHR5cGUgb2YgdGhlIGNvbnZlcnRlZCBudW1weSBhcnJheQogICAgIiIiCiAgICBpZiBub3QgaXNpbnN0YW5jZShpbnB1dF9pbWFnZSwgbnAubmRhcnJheSk6CiAgICAgICAgaWYgaXNpbnN0YW5jZShpbnB1dF9pbWFnZSwgdG9yY2guVGVuc29yKTogICMgZ2V0IHRoZSBkYXRhIGZyb20gYSB2YXJpYWJsZQogICAgICAgICAgICBpbWFnZV90ZW5zb3IgPSBpbnB1dF9pbWFnZS5kYXRhCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmV0dXJuIGlucHV0X2ltYWdlCiAgICAgICAgaW1hZ2VfbnVtcHkgPSBpbWFnZV90ZW5zb3IuY2xhbXAoMC4wLCAxLjApLmNwdSgpLmZsb2F0KCkubnVtcHkoKSAgIyBjb252ZXJ0IGl0IGludG8gYSBudW1weSBhcnJheQogICAgICAgIGlmIGltYWdlX251bXB5LnNoYXBlWzBdID09IDE6ICAjIGdyYXlzY2FsZSB0byBSR0IKICAgICAgICAgICAgaW1hZ2VfbnVtcHkgPSBucC50aWxlKGltYWdlX251bXB5LCAoMywgMSwgMSkpCiAgICAgICAgaW1hZ2VfbnVtcHkgPSBucC50cmFuc3Bvc2UoaW1hZ2VfbnVtcHksICgxLCAyLCAwKSkgKiAyNTUuMCAgIyBwb3N0LXByb2Nlc3Npbmc6IHRyYW5wb3NlIGFuZCBzY2FsaW5nCiAgICBlbHNlOiAgIyBpZiBpdCBpcyBhIG51bXB5IGFycmF5LCBkbyBub3RoaW5nCiAgICAgICAgaW1hZ2VfbnVtcHkgPSBpbnB1dF9pbWFnZQogICAgcmV0dXJuIGltYWdlX251bXB5LmFzdHlwZShpbXR5cGUpCgoKZGVmIGRpYWdub3NlX25ldHdvcmsobmV0LCBuYW1lPSduZXR3b3JrJyk6CiAgICAiIiJDYWxjdWxhdGUgYW5kIHByaW50IHRoZSBtZWFuIG9mIGF2ZXJhZ2UgYWJzb2x1dGUoZ3JhZGllbnRzKQoKICAgIFBhcmFtZXRlcnM6CiAgICAgICAgbmV0ICh0b3JjaCBuZXR3b3JrKSAtLSBUb3JjaCBuZXR3b3JrCiAgICAgICAgbmFtZSAoc3RyKSAtLSB0aGUgbmFtZSBvZiB0aGUgbmV0d29yawogICAgIiIiCiAgICBtZWFuID0gMC4wCiAgICBjb3VudCA9IDAKICAgIGZvciBwYXJhbSBpbiBuZXQucGFyYW1ldGVycygpOgogICAgICAgIGlmIHBhcmFtLmdyYWQgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIG1lYW4gKz0gdG9yY2gubWVhbih0b3JjaC5hYnMocGFyYW0uZ3JhZC5kYXRhKSkKICAgICAgICAgICAgY291bnQgKz0gMQogICAgaWYgY291bnQgPiAwOgogICAgICAgIG1lYW4gPSBtZWFuIC8gY291bnQKICAgIHByaW50KG5hbWUpCiAgICBwcmludChtZWFuKQoKCmRlZiBzYXZlX2ltYWdlKGltYWdlX251bXB5LCBpbWFnZV9wYXRoLCBhc3BlY3RfcmF0aW89MS4wKToKICAgICIiIlNhdmUgYSBudW1weSBpbWFnZSB0byB0aGUgZGlzawoKICAgIFBhcmFtZXRlcnM6CiAgICAgICAgaW1hZ2VfbnVtcHkgKG51bXB5IGFycmF5KSAtLSBpbnB1dCBudW1weSBhcnJheQogICAgICAgIGltYWdlX3BhdGggKHN0cikgICAgICAgICAgLS0gdGhlIHBhdGggb2YgdGhlIGltYWdlCiAgICAiIiIKCiAgICBpbWFnZV9waWwgPSBJbWFnZS5mcm9tYXJyYXkoaW1hZ2VfbnVtcHkpCiAgICBoLCB3LCBfID0gaW1hZ2VfbnVtcHkuc2hhcGUKCiAgICBpZiBhc3BlY3RfcmF0aW8gaXMgTm9uZToKICAgICAgICBwYXNzCiAgICBlbGlmIGFzcGVjdF9yYXRpbyA+IDEuMDoKICAgICAgICBpbWFnZV9waWwgPSBpbWFnZV9waWwucmVzaXplKChoLCBpbnQodyAqIGFzcGVjdF9yYXRpbykpLCBJbWFnZS5CSUNVQklDKQogICAgZWxpZiBhc3BlY3RfcmF0aW8gPCAxLjA6CiAgICAgICAgaW1hZ2VfcGlsID0gaW1hZ2VfcGlsLnJlc2l6ZSgoaW50KGggLyBhc3BlY3RfcmF0aW8pLCB3KSwgSW1hZ2UuQklDVUJJQykKICAgIGltYWdlX3BpbC5zYXZlKGltYWdlX3BhdGgpCgoKZGVmIHByaW50X251bXB5KHgsIHZhbD1UcnVlLCBzaHA9RmFsc2UpOgogICAgIiIiUHJpbnQgdGhlIG1lYW4sIG1pbiwgbWF4LCBtZWRpYW4sIHN0ZCwgYW5kIHNpemUgb2YgYSBudW1weSBhcnJheQoKICAgIFBhcmFtZXRlcnM6CiAgICAgICAgdmFsIChib29sKSAtLSBpZiBwcmludCB0aGUgdmFsdWVzIG9mIHRoZSBudW1weSBhcnJheQogICAgICAgIHNocCAoYm9vbCkgLS0gaWYgcHJpbnQgdGhlIHNoYXBlIG9mIHRoZSBudW1weSBhcnJheQogICAgIiIiCiAgICB4ID0geC5hc3R5cGUobnAuZmxvYXQ2NCkKICAgIGlmIHNocDoKICAgICAgICBwcmludCgnc2hhcGUsJywgeC5zaGFwZSkKICAgIGlmIHZhbDoKICAgICAgICB4ID0geC5mbGF0dGVuKCkKICAgICAgICBwcmludCgnbWVhbiA9ICUzLjNmLCBtaW4gPSAlMy4zZiwgbWF4ID0gJTMuM2YsIG1lZGlhbiA9ICUzLjNmLCBzdGQ9JTMuM2YnICUgKAogICAgICAgICAgICBucC5tZWFuKHgpLCBucC5taW4oeCksIG5wLm1heCh4KSwgbnAubWVkaWFuKHgpLCBucC5zdGQoeCkpKQoKCmRlZiBta2RpcnMocGF0aHMpOgogICAgIiIiY3JlYXRlIGVtcHR5IGRpcmVjdG9yaWVzIGlmIHRoZXkgZG9uJ3QgZXhpc3QKCiAgICBQYXJhbWV0ZXJzOgogICAgICAgIHBhdGhzIChzdHIgbGlzdCkgLS0gYSBsaXN0IG9mIGRpcmVjdG9yeSBwYXRocwogICAgIiIiCiAgICBpZiBpc2luc3RhbmNlKHBhdGhzLCBsaXN0KSBhbmQgbm90IGlzaW5zdGFuY2UocGF0aHMsIHN0cik6CiAgICAgICAgZm9yIHBhdGggaW4gcGF0aHM6CiAgICAgICAgICAgIG1rZGlyKHBhdGgpCiAgICBlbHNlOgogICAgICAgIG1rZGlyKHBhdGhzKQoKCmRlZiBta2RpcihwYXRoKToKICAgICIiImNyZWF0ZSBhIHNpbmdsZSBlbXB0eSBkaXJlY3RvcnkgaWYgaXQgZGlkbid0IGV4aXN0CgogICAgUGFyYW1ldGVyczoKICAgICAgICBwYXRoIChzdHIpIC0tIGEgc2luZ2xlIGRpcmVjdG9yeSBwYXRoCiAgICAiIiIKICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKToKICAgICAgICBvcy5tYWtlZGlycyhwYXRoKQoKCmRlZiBjb3JyZWN0X3Jlc2l6ZV9sYWJlbCh0LCBzaXplKToKICAgIGRldmljZSA9IHQuZGV2aWNlCiAgICB0ID0gdC5kZXRhY2goKS5jcHUoKQogICAgcmVzaXplZCA9IFtdCiAgICBmb3IgaSBpbiByYW5nZSh0LnNpemUoMCkpOgogICAgICAgIG9uZV90ID0gdFtpLCA6MV0KICAgICAgICBvbmVfbnAgPSBucC50cmFuc3Bvc2Uob25lX3QubnVtcHkoKS5hc3R5cGUobnAudWludDgpLCAoMSwgMiwgMCkpCiAgICAgICAgb25lX25wID0gb25lX25wWzosIDosIDBdCiAgICAgICAgb25lX2ltYWdlID0gSW1hZ2UuZnJvbWFycmF5KG9uZV9ucCkucmVzaXplKHNpemUsIEltYWdlLk5FQVJFU1QpCiAgICAgICAgcmVzaXplZF90ID0gdG9yY2guZnJvbV9udW1weShucC5hcnJheShvbmVfaW1hZ2UpKS5sb25nKCkKICAgICAgICByZXNpemVkLmFwcGVuZChyZXNpemVkX3QpCiAgICByZXR1cm4gdG9yY2guc3RhY2socmVzaXplZCwgZGltPTApLnRvKGRldmljZSkKCgpkZWYgY29ycmVjdF9yZXNpemUodCwgc2l6ZSwgbW9kZT1JbWFnZS5CSUNVQklDKToKICAgIGRldmljZSA9IHQuZGV2aWNlCiAgICB0ID0gdC5kZXRhY2goKS5jcHUoKQogICAgcmVzaXplZCA9IFtdCiAgICBmb3IgaSBpbiByYW5nZSh0LnNpemUoMCkpOgogICAgICAgIG9uZV90ID0gdFtpOmkgKyAxXQogICAgICAgIG9uZV9pbWFnZSA9IEltYWdlLmZyb21hcnJheSh0ZW5zb3IyaW0ob25lX3QpKS5yZXNpemUoc2l6ZSwgSW1hZ2UuQklDVUJJQykKICAgICAgICByZXNpemVkX3QgPSB0b3JjaHZpc2lvbi50cmFuc2Zvcm1zLmZ1bmN0aW9uYWwudG9fdGVuc29yKG9uZV9pbWFnZSkgKiAyIC0gMS4wCiAgICAgICAgcmVzaXplZC5hcHBlbmQocmVzaXplZF90KQogICAgcmV0dXJuIHRvcmNoLnN0YWNrKHJlc2l6ZWQsIGRpbT0wKS50byhkZXZpY2UpCgpkZWYgZHJhd19sYW5kbWFya3MoaW1nLCBsYW5kbWFyaywgY29sb3I9J3InLCBzdGVwPTIpOgogICAgIiIiCiAgICBSZXR1cm46CiAgICAgICAgaW1nICAgICAgICAgICAgICAtLSBudW1weS5hcnJheSwgKEIsIEgsIFcsIDMpIGltZyB3aXRoIGxhbmRtYXJrLCBSR0Igb3JkZXIsIHJhbmdlICgwLCAyNTUpCiAgICAgICAgCgogICAgUGFyYW1ldGVyczoKICAgICAgICBpbWcgICAgICAgICAgICAgIC0tIG51bXB5LmFycmF5LCAoQiwgSCwgVywgMyksIFJHQiBvcmRlciwgcmFuZ2UgKDAsIDI1NSkKICAgICAgICBsYW5kbWFyayAgICAgICAgIC0tIG51bXB5LmFycmF5LCAoQiwgNjgsIDIpLCB5IGRpcmVjdGlvbiBpcyBvcHBvc2l0ZSB0byB2IGRpcmVjdGlvbgogICAgICAgIGNvbG9yICAgICAgICAgICAgLS0gc3RyLCAncicgb3IgJ2InIChyZWQgb3IgYmx1ZSkKICAgICIiIgogICAgaWYgY29sb3IgPT0ncic6CiAgICAgICAgYyA9IG5wLmFycmF5KFsyNTUuLCAwLCAwXSkKICAgIGVsc2U6CiAgICAgICAgYyA9IG5wLmFycmF5KFswLCAwLCAyNTUuXSkKCiAgICBfLCBILCBXLCBfID0gaW1nLnNoYXBlCiAgICBpbWcsIGxhbmRtYXJrID0gaW1nLmNvcHkoKSwgbGFuZG1hcmsuY29weSgpCiAgICBsYW5kbWFya1suLi4sIDFdID0gSCAtIDEgLSBsYW5kbWFya1suLi4sIDFdCiAgICBsYW5kbWFyayA9IG5wLnJvdW5kKGxhbmRtYXJrKS5hc3R5cGUobnAuaW50MzIpCiAgICBmb3IgaSBpbiByYW5nZShsYW5kbWFyay5zaGFwZVsxXSk6CiAgICAgICAgeCwgeSA9IGxhbmRtYXJrWzosIGksIDBdLCBsYW5kbWFya1s6LCBpLCAxXQogICAgICAgIGZvciBqIGluIHJhbmdlKC1zdGVwLCBzdGVwKToKICAgICAgICAgICAgZm9yIGsgaW4gcmFuZ2UoLXN0ZXAsIHN0ZXApOgogICAgICAgICAgICAgICAgdSA9IG5wLmNsaXAoeCArIGosIDAsIFcgLSAxKQogICAgICAgICAgICAgICAgdiA9IG5wLmNsaXAoeSArIGssIDAsIEggLSAxKQogICAgICAgICAgICAgICAgZm9yIG0gaW4gcmFuZ2UobGFuZG1hcmsuc2hhcGVbMF0pOgogICAgICAgICAgICAgICAgICAgIGltZ1ttLCB2W21dLCB1W21dXSA9IGMKICAgIHJldHVybiBpbWcK
+"""This script contains basic utilities for Deep3DFaceRecon_pytorch
+"""
+from __future__ import print_function
+import numpy as np
+import torch
+from PIL import Image
+import os
+import importlib
+import argparse
+from argparse import Namespace
+import torchvision
+
+
+def str2bool(v):
+    if isinstance(v, bool):
+        return v
+    if v.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Boolean value expected.')
+
+
+def copyconf(default_opt, **kwargs):
+    conf = Namespace(**vars(default_opt))
+    for key in kwargs:
+        setattr(conf, key, kwargs[key])
+    return conf
+
+def genvalconf(train_opt, **kwargs):
+    conf = Namespace(**vars(train_opt))
+    attr_dict = train_opt.__dict__
+    for key, value in attr_dict.items():
+        if 'val' in key and key.split('_')[0] in attr_dict:
+            setattr(conf, key.split('_')[0], value)
+
+    for key in kwargs:
+        setattr(conf, key, kwargs[key])
+
+    return conf
+        
+def find_class_in_module(target_cls_name, module):
+    target_cls_name = target_cls_name.replace('_', '').lower()
+    clslib = importlib.import_module(module)
+    cls = None
+    for name, clsobj in clslib.__dict__.items():
+        if name.lower() == target_cls_name:
+            cls = clsobj
+
+    assert cls is not None, "In %s, there should be a class whose name matches %s in lowercase without underscore(_)" % (module, target_cls_name)
+
+    return cls
+
+
+def tensor2im(input_image, imtype=np.uint8):
+    """"Converts a Tensor array into a numpy image array.
+
+    Parameters:
+        input_image (tensor) --  the input image tensor array, range(0, 1)
+        imtype (type)        --  the desired type of the converted numpy array
+    """
+    if not isinstance(input_image, np.ndarray):
+        if isinstance(input_image, torch.Tensor):  # get the data from a variable
+            image_tensor = input_image.data
+        else:
+            return input_image
+        image_numpy = image_tensor.clamp(0.0, 1.0).cpu().float().numpy()  # convert it into a numpy array
+        if image_numpy.shape[0] == 1:  # grayscale to RGB
+            image_numpy = np.tile(image_numpy, (3, 1, 1))
+        image_numpy = np.transpose(image_numpy, (1, 2, 0)) * 255.0  # post-processing: tranpose and scaling
+    else:  # if it is a numpy array, do nothing
+        image_numpy = input_image
+    return image_numpy.astype(imtype)
+
+
+def diagnose_network(net, name='network'):
+    """Calculate and print the mean of average absolute(gradients)
+
+    Parameters:
+        net (torch network) -- Torch network
+        name (str) -- the name of the network
+    """
+    mean = 0.0
+    count = 0
+    for param in net.parameters():
+        if param.grad is not None:
+            mean += torch.mean(torch.abs(param.grad.data))
+            count += 1
+    if count > 0:
+        mean = mean / count
+    print(name)
+    print(mean)
+
+
+def save_image(image_numpy, image_path, aspect_ratio=1.0):
+    """Save a numpy image to the disk
+
+    Parameters:
+        image_numpy (numpy array) -- input numpy array
+        image_path (str)          -- the path of the image
+    """
+
+    image_pil = Image.fromarray(image_numpy)
+    h, w, _ = image_numpy.shape
+
+    if aspect_ratio is None:
+        pass
+    elif aspect_ratio > 1.0:
+        image_pil = image_pil.resize((h, int(w * aspect_ratio)), Image.BICUBIC)
+    elif aspect_ratio < 1.0:
+        image_pil = image_pil.resize((int(h / aspect_ratio), w), Image.BICUBIC)
+    image_pil.save(image_path)
+
+
+def print_numpy(x, val=True, shp=False):
+    """Print the mean, min, max, median, std, and size of a numpy array
+
+    Parameters:
+        val (bool) -- if print the values of the numpy array
+        shp (bool) -- if print the shape of the numpy array
+    """
+    x = x.astype(np.float64)
+    if shp:
+        print('shape,', x.shape)
+    if val:
+        x = x.flatten()
+        print('mean = %3.3f, min = %3.3f, max = %3.3f, median = %3.3f, std=%3.3f' % (
+            np.mean(x), np.min(x), np.max(x), np.median(x), np.std(x)))
+
+
+def mkdirs(paths):
+    """create empty directories if they don't exist
+
+    Parameters:
+        paths (str list) -- a list of directory paths
+    """
+    if isinstance(paths, list) and not isinstance(paths, str):
+        for path in paths:
+            mkdir(path)
+    else:
+        mkdir(paths)
+
+
+def mkdir(path):
+    """create a single empty directory if it didn't exist
+
+    Parameters:
+        path (str) -- a single directory path
+    """
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+
+def correct_resize_label(t, size):
+    device = t.device
+    t = t.detach().cpu()
+    resized = []
+    for i in range(t.size(0)):
+        one_t = t[i, :1]
+        one_np = np.transpose(one_t.numpy().astype(np.uint8), (1, 2, 0))
+        one_np = one_np[:, :, 0]
+        one_image = Image.fromarray(one_np).resize(size, Image.NEAREST)
+        resized_t = torch.from_numpy(np.array(one_image)).long()
+        resized.append(resized_t)
+    return torch.stack(resized, dim=0).to(device)
+
+
+def correct_resize(t, size, mode=Image.BICUBIC):
+    device = t.device
+    t = t.detach().cpu()
+    resized = []
+    for i in range(t.size(0)):
+        one_t = t[i:i + 1]
+        one_image = Image.fromarray(tensor2im(one_t)).resize(size, Image.BICUBIC)
+        resized_t = torchvision.transforms.functional.to_tensor(one_image) * 2 - 1.0
+        resized.append(resized_t)
+    return torch.stack(resized, dim=0).to(device)
+
+def draw_landmarks(img, landmark, color='r', step=2):
+    """
+    Return:
+        img              -- numpy.array, (B, H, W, 3) img with landmark, RGB order, range (0, 255)
+        
+
+    Parameters:
+        img              -- numpy.array, (B, H, W, 3), RGB order, range (0, 255)
+        landmark         -- numpy.array, (B, 68, 2), y direction is opposite to v direction
+        color            -- str, 'r' or 'b' (red or blue)
+    """
+    if color =='r':
+        c = np.array([255., 0, 0])
+    else:
+        c = np.array([0, 0, 255.])
+
+    _, H, W, _ = img.shape
+    img, landmark = img.copy(), landmark.copy()
+    landmark[..., 1] = H - 1 - landmark[..., 1]
+    landmark = np.round(landmark).astype(np.int32)
+    for i in range(landmark.shape[1]):
+        x, y = landmark[:, i, 0], landmark[:, i, 1]
+        for j in range(-step, step):
+            for k in range(-step, step):
+                u = np.clip(x + j, 0, W - 1)
+                v = np.clip(y + k, 0, H - 1)
+                for m in range(landmark.shape[0]):
+                    img[m, v[m], u[m]] = c
+    return img

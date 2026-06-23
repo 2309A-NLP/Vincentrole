@@ -1,1 +1,36 @@
-ZnJvbSBsbGFtYV9jcHAgaW1wb3J0IExsYW1hCgpjbGFzcyBMbGFtYWNwcENoYXQ6CiAgICBkZWYgX19pbml0X18oc2VsZiwgbW9kZWxfcGF0aCk6CiAgICAgICAgc2VsZi5sbG0gPSBMbGFtYSgKICAgICAgICAgICAgbW9kZWxfcGF0aD1tb2RlbF9wYXRoLAogICAgICAgICAgICBuX2dwdV9sYXllcnM9LTEsICAjIOS9v+eUqEdQVeWKoOmAnwogICAgICAgICAgICB1c2VfbWxvY2s9VHJ1ZSwKICAgICAgICAgICAgZmxhc2hfYXR0bj1UcnVlLAogICAgICAgICAgICBuX2N0eD0xMDI0ICAjIOiuvue9ruS4iuS4i+aWh+mVv+W6pgogICAgICAgICkKCiAgICBkZWYgY2hhdChzZWxmLCBtZXNzYWdlcyk6CiAgICAgICAgb3V0cHV0ID0gc2VsZi5sbG0uY3JlYXRlX2NoYXRfY29tcGxldGlvbigKICAgICAgICAgICAgbWVzc2FnZXM9bWVzc2FnZXMKICAgICAgICApCiAgICAgICAgcmV0dXJuIG91dHB1dFsiY2hvaWNlcyJdWzBdWydtZXNzYWdlJ11bJ2NvbnRlbnQnXQoKIyDkvb/nlKjnpLrkvosKIyBpZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgojICAgICBtb2RlbF9wYXRoID0gJ01ldGEtTGxhbWEtMy04Qi1JbnN0cnVjdC1RNF9LX00uZ2d1ZicgICNodHRwczovL2h1Z2dpbmdmYWNlLmNvL2xtc3R1ZGlvLWNvbW11bml0eS9NZXRhLUxsYW1hLTMuMS04Qi1JbnN0cnVjdC1HR1VGL2Jsb2IvbWFpbi9NZXRhLUxsYW1hLTMuMS04Qi1JbnN0cnVjdC1RNF9LX00uZ2d1ZgojICAgICBsbGFtYV9jaGF0ID0gTGxhbWFjcHBDaGF0KG1vZGVsX3BhdGgpCgojICAgICBtZXNzYWdlcyA9IFsKIyAgICAgICAgIHsKIyAgICAgICAgICAgICAicm9sZSI6ICJzeXN0ZW0iLAojICAgICAgICAgICAgICJjb250ZW50IjogIkEgY2hhdCBiZXR3ZWVuIGEgY3VyaW91cyB1c2VyIGFuZCBhbiBhcnRpZmljaWFsIGludGVsbGlnZW5jZSBhc3Npc3RhbnQuIFRoZSBhc3Npc3RhbnQgZ2l2ZXMgaGVscGZ1bCwgZGV0YWlsZWQsIGFuZCBwb2xpdGUgYW5zd2VycyB0byB0aGUgdXNlcidzIHF1ZXN0aW9ucy4gVGhlIGFzc2lzdGFudCBjYWxscyBmdW5jdGlvbnMgd2l0aCBhcHByb3ByaWF0ZSBpbnB1dCB3aGVuIG5lY2Vzc2FyeS4iCiMgICAgICAgICB9LAojICAgICAgICAgewojICAgICAgICAgICAgICJyb2xlIjogInVzZXIiLAojICAgICAgICAgICAgICJjb250ZW50IjogIuS7i+e7jeS4i+S9oOiHquW3sSIKIyAgICAgICAgIH0KIyAgICAgXQoKIyAgICAgcmVzcG9uc2UgPSBsbGFtYV9jaGF0LmNoYXQobWVzc2FnZXMpCiMgICAgIHByaW50KHJlc3BvbnNlKQ0K
+from llama_cpp import Llama
+
+class LlamacppChat:
+    def __init__(self, model_path):
+        self.llm = Llama(
+            model_path=model_path,
+            n_gpu_layers=-1,  # 使用GPU加速
+            use_mlock=True,
+            flash_attn=True,
+            n_ctx=1024  # 设置上下文长度
+        )
+
+    def chat(self, messages):
+        output = self.llm.create_chat_completion(
+            messages=messages
+        )
+        return output["choices"][0]['message']['content']
+
+# 使用示例
+# if __name__ == "__main__":
+#     model_path = 'Meta-Llama-3-8B-Instruct-Q4_K_M.gguf'  #https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/blob/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf
+#     llama_chat = LlamacppChat(model_path)
+
+#     messages = [
+#         {
+#             "role": "system",
+#             "content": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. The assistant calls functions with appropriate input when necessary."
+#         },
+#         {
+#             "role": "user",
+#             "content": "介绍下你自己"
+#         }
+#     ]
+
+#     response = llama_chat.chat(messages)
+#     print(response)

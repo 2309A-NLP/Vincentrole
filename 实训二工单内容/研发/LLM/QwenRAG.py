@@ -1,1 +1,119 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi6YCa5LmJ5Y2D6ZeuIHF3ZW4tcGx1cyArIOacrOWcsOWMu+eWl+efpeivhuW6kyBSQUfvvIzlhbzlrrkgTGlubHktVGFsa2VyIOeahCBMTE0g5o6l5Y+jCiAgIChnZW5lcmF0ZSAvIGNoYXQgLyBjbGVhcl9oaXN0b3J5KeOAgiIiIgppbXBvcnQgb3MsIGpzb24KaW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCB0b3JjaApmcm9tIHRyYW5zZm9ybWVycyBpbXBvcnQgQXV0b1Rva2VuaXplciwgQXV0b01vZGVsCmZyb20gb3BlbmFpIGltcG9ydCBPcGVuQUkKCkJHRV9ESVIgID0gIi9yb290Ly5jYWNoZS9tb2RlbHNjb3BlL2h1Yi9BSS1Nb2RlbFNjb3BlL2JnZS1zbWFsbC16aC12MV9fXzUiCkVNQiAgICAgID0gIi9yb290L0xpbmx5LVRhbGtlci9rYl9lbWIubnB5IgpNRVRBICAgICA9ICIvcm9vdC9MaW5seS1UYWxrZXIva2JfbWV0YS5qc29uIgpLRVlfRklMRSA9ICIvcm9vdC9MaW5seS1UYWxrZXIvZGFzaHNjb3BlLmtleSIKQkFTRV9VUkwgPSAiaHR0cHM6Ly9kYXNoc2NvcGUuYWxpeXVuY3MuY29tL2NvbXBhdGlibGUtbW9kZS92MSIKIyBiZ2Ug5qOA57Si77yacXVlcnkg56uv6KaB5Yqg5oyH5Luk77yMY29ycHVzIOerr+S4jeWKoApRVUVSWV9JTlNUUlVDVElPTiA9ICLkuLrov5nkuKrlj6XlrZDnlJ/miJDooajnpLrku6XnlKjkuo7mo4DntKLnm7jlhbPmlofnq6DvvJoiCgpERUZBVUxUX1NZUyA9ICgKICAgICLkvaDmmK/kuIDkvY3kuJPkuJrjgIHkurLliIfnmoTljLvnlpfliqnnkIbjgILlm57nrZTkvJrooqvmlbDlrZfkurrnlKjor63pn7Por7vlh7rmnaXvvIzmiYDku6Xlv4XpobvmmK8iCiAgICAi44CQ57qv5Y+j6K+t5Lit5paH44CR77ya5LiN6KaB55So5Lu75L2VbWFya2Rvd27jgIHmmJ/lj7fjgIHkupXlj7fjgIHluo/lj7fjgIHooajmg4XnrKblj7fmiJbmjaLooYzmjpLniYjvvIwiCiAgICAi5bCx5YOP5Yy755Sf5b2T6Z2i6K+06K+d5LiA5qC377yM5LiA5q616K+d6K6y5a6M44CC5Y+C6ICD5qOA57Si5Yiw55qE55yf5a6e5Yy75oKj6Zeu562U6LWE5paZ77yMIgogICAgIue7meWHuumAmuS/l+WunueUqOeahOW7uuiuru+8jOi1hOaWmeS4jeebuOWFs+WwseS+neW4uOivhuiwqOaFjuWbnuetlOW5tuaPkOmGkuWPiuaXtuWwseWMu++8jOS4jeimgee8lumAoOiviuaWreOAgiIKICAgICLliqHlv4XnroDnn63vvIzmjqfliLblnKg4MOWtl+S7peWGheOAgiIKKQpHRU5FUklDX1NZUyA9IHsiIiwgIuS9oOaYr+S4gOS4quW+iOacieW4ruWKqeeahOWKqeaJiyJ9ICAgIyDnlYzpnaLpu5jorqTlgLzvvIzop4bkuLrml6Doh6rlrprkuYlwZXJzb25hCgoKZGVmIF9yZWFkX2tleShhcGlfa2V5PU5vbmUpOgogICAgaWYgYXBpX2tleToKICAgICAgICByZXR1cm4gYXBpX2tleQogICAgaWYgb3MuZW52aXJvbi5nZXQoIkRBU0hTQ09QRV9BUElfS0VZIik6CiAgICAgICAgcmV0dXJuIG9zLmVudmlyb25bIkRBU0hTQ09QRV9BUElfS0VZIl0KICAgIGlmIG9zLnBhdGguZXhpc3RzKEtFWV9GSUxFKToKICAgICAgICByZXR1cm4gb3BlbihLRVlfRklMRSwgZW5jb2Rpbmc9InV0Zi04IikucmVhZCgpLnN0cmlwKCkKICAgIHJhaXNlIFJ1bnRpbWVFcnJvcigi5pyq5om+5YiwIERhc2hTY29wZSBBUEkgS2V577yI546v5aKD5Y+Y6YePIERBU0hTQ09QRV9BUElfS0VZIOaIliAlc++8iSIgJSBLRVlfRklMRSkKCgpjbGFzcyBRd2VuUkFHOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG1vZGVsPSJxd2VuLXBsdXMiLCBhcGlfa2V5PU5vbmUsIHRvcF9rPTMsIG1pbl9zY29yZT0wLjM1KToKICAgICAgICBzZWxmLm1vZGVsID0gbW9kZWwKICAgICAgICBzZWxmLnRvcF9rID0gdG9wX2sKICAgICAgICBzZWxmLm1pbl9zY29yZSA9IG1pbl9zY29yZSAgICAgICMg55u45Ly85bqm5L2O5LqO5q2k5YC86KeG5Li655+l6K+G5bqT5peg55u45YWz5YaF5a65CiAgICAgICAgc2VsZi5oaXN0b3J5ID0gW10KICAgICAgICBzZWxmLmNsaWVudCA9IE9wZW5BSShhcGlfa2V5PV9yZWFkX2tleShhcGlfa2V5KSwgYmFzZV91cmw9QkFTRV9VUkwpCgogICAgICAgIHNlbGYuZGV2aWNlID0gImN1ZGEiIGlmIHRvcmNoLmN1ZGEuaXNfYXZhaWxhYmxlKCkgZWxzZSAiY3B1IgogICAgICAgIHNlbGYudG9rID0gQXV0b1Rva2VuaXplci5mcm9tX3ByZXRyYWluZWQoQkdFX0RJUikKICAgICAgICBzZWxmLmJnZSA9IEF1dG9Nb2RlbC5mcm9tX3ByZXRyYWluZWQoQkdFX0RJUikudG8oc2VsZi5kZXZpY2UpLmV2YWwoKS5oYWxmKCkKICAgICAgICBzZWxmLmVtYiA9IG5wLmxvYWQoRU1CKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIChOLDUxMikg5bey5b2S5LiA5YyWCiAgICAgICAgc2VsZi5tZXRhID0ganNvbi5sb2FkKG9wZW4oTUVUQSwgZW5jb2Rpbmc9InV0Zi04IikpCiAgICAgICAgcHJpbnQoZiJbUXdlblJBR10g55+l6K+G5bqT6L295YWlIHtsZW4oc2VsZi5tZXRhKX0g5p2h77yM5qih5Z6LPXttb2RlbH0iKQoKICAgICMgLS0tLS0tLS0tLSDmo4DntKIgLS0tLS0tLS0tLQogICAgZGVmIF9lbWJlZChzZWxmLCB0ZXh0KToKICAgICAgICBlbmMgPSBzZWxmLnRvayhbUVVFUllfSU5TVFJVQ1RJT04gKyB0ZXh0XSwgcGFkZGluZz1UcnVlLCB0cnVuY2F0aW9uPVRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgbWF4X2xlbmd0aD0yNTYsIHJldHVybl90ZW5zb3JzPSJwdCIpLnRvKHNlbGYuZGV2aWNlKQogICAgICAgIHdpdGggdG9yY2gubm9fZ3JhZCgpOgogICAgICAgICAgICBvdXQgPSBzZWxmLmJnZSgqKmVuYykKICAgICAgICAgICAgZSA9IG91dC5sYXN0X2hpZGRlbl9zdGF0ZVs6LCAwXQogICAgICAgICAgICBlID0gdG9yY2gubm4uZnVuY3Rpb25hbC5ub3JtYWxpemUoZS5mbG9hdCgpLCBwPTIsIGRpbT0xKQogICAgICAgIHJldHVybiBlLmNwdSgpLm51bXB5KClbMF0KCiAgICBkZWYgcmV0cmlldmUoc2VsZiwgcXVlcnkpOgogICAgICAgIHEgPSBzZWxmLl9lbWJlZChxdWVyeSkKICAgICAgICBzY29yZXMgPSBzZWxmLmVtYiBAIHEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIOmDveW9kuS4gOWMliDihpIg54K556evPeS9meW8pgogICAgICAgIGlkeCA9IG5wLmFyZ3NvcnQoLXNjb3JlcylbOnNlbGYudG9wX2tdCiAgICAgICAgcmV0dXJuIFsoc2VsZi5tZXRhW2ldLCBmbG9hdChzY29yZXNbaV0pKSBmb3IgaSBpbiBpZHggaWYgc2NvcmVzW2ldID49IHNlbGYubWluX3Njb3JlXQoKICAgIGRlZiBfY29udGV4dChzZWxmLCBoaXRzKToKICAgICAgICBpZiBub3QgaGl0czoKICAgICAgICAgICAgcmV0dXJuICIiCiAgICAgICAgYmxvY2tzID0gW10KICAgICAgICBmb3IgaSwgKG0sIHMpIGluIGVudW1lcmF0ZShoaXRzLCAxKToKICAgICAgICAgICAgYmxvY2tzLmFwcGVuZCgKICAgICAgICAgICAgICAgIGYi44CQ5Y+C6ICDe2l9772c56eR5a6kOnttLmdldCgnZGVwdCcsJycpfe+9nOebuOWFs+eWvueXhTp7bS5nZXQoJ2RpcycsJycpIG9yICfmnKrmoIfms6gnfeOAkVxuIgogICAgICAgICAgICAgICAgZiLmgqPogIXpl646e21bJ3EnXX1cbuWMu+eUn+etlDp7bVsnYSddfSIKICAgICAgICAgICAgKQogICAgICAgIHJldHVybiAiXG5cbiIuam9pbihibG9ja3MpCgogICAgZGVmIF9jYWxsKHNlbGYsIG1lc3NhZ2VzKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJlc3AgPSBzZWxmLmNsaWVudC5jaGF0LmNvbXBsZXRpb25zLmNyZWF0ZSgKICAgICAgICAgICAgICAgIG1vZGVsPXNlbGYubW9kZWwsIG1lc3NhZ2VzPW1lc3NhZ2VzLAogICAgICAgICAgICAgICAgdGVtcGVyYXR1cmU9MC4zLCBtYXhfdG9rZW5zPTMwMCkKICAgICAgICAgICAgcmV0dXJuIHJlc3AuY2hvaWNlc1swXS5tZXNzYWdlLmNvbnRlbnQuc3RyaXAoKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgcHJpbnQoIltRd2VuUkFHXSBBUEnplJnor686IiwgZSwgZmx1c2g9VHJ1ZSkKICAgICAgICAgICAgcmV0dXJuICLlr7nkuI3otbfvvIzmnI3liqHmmoLml7blh7rplJnkuobvvIzor7fnqI3lkI7lho3or5XjgIIiCgogICAgZGVmIF9jb21wb3NlX3N5cyhzZWxmLCB1aV9zeXMsIGN0eCk6CiAgICAgICAgIiIi5aeL57uI5by65Yi2IERFRkFVTFRfU1lTIOeahOWPo+ivrSvnroDnn63nuqbmnZ/vvJvnlYzpnaLloavkuobpnZ7pu5jorqRwZXJzb25h5YiZ5Y+g5Yqg5Zyo5YmN44CCIiIiCiAgICAgICAgYmFzZSA9IERFRkFVTFRfU1lTCiAgICAgICAgaWYgdWlfc3lzIGFuZCB1aV9zeXMuc3RyaXAoKSBhbmQgdWlfc3lzLnN0cmlwKCkgbm90IGluIEdFTkVSSUNfU1lTOgogICAgICAgICAgICBiYXNlID0gdWlfc3lzLnN0cmlwKCkgKyAiXG4iICsgREVGQVVMVF9TWVMKICAgICAgICBpZiBjdHg6CiAgICAgICAgICAgIGJhc2UgKz0gIlxuXG7jgJDmo4DntKLliLDnmoTnm7jlhbPljLvmgqPpl67nrZTotYTmlpnvvIzkvpvlj4LogIPjgJFcbiIgKyBjdHgKICAgICAgICByZXR1cm4gYmFzZQoKICAgICMgLS0tLS0tLS0tLSBMaW5seS1UYWxrZXIg5o6l5Y+jIC0tLS0tLS0tLS0KICAgIGRlZiBnZW5lcmF0ZShzZWxmLCBxdWVzdGlvbiwgc3lzdGVtX3Byb21wdD0iIik6CiAgICAgICAgaGl0cyA9IHNlbGYucmV0cmlldmUocXVlc3Rpb24pCiAgICAgICAgc3lzID0gc2VsZi5fY29tcG9zZV9zeXMoc3lzdGVtX3Byb21wdCwgc2VsZi5fY29udGV4dChoaXRzKSkKICAgICAgICByZXR1cm4gc2VsZi5fY2FsbChbeyJyb2xlIjogInN5c3RlbSIsICJjb250ZW50Ijogc3lzfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6IHF1ZXN0aW9ufV0pCgogICAgZGVmIGNoYXQoc2VsZiwgc3lzdGVtX3Byb21wdCwgbWVzc2FnZSwgaGlzdG9yeSk6CiAgICAgICAgc3lzID0gc2VsZi5fY29tcG9zZV9zeXMoc3lzdGVtX3Byb21wdCwgc2VsZi5fY29udGV4dChzZWxmLnJldHJpZXZlKG1lc3NhZ2UpKSkKICAgICAgICBtZXNzYWdlcyA9IFt7InJvbGUiOiAic3lzdGVtIiwgImNvbnRlbnQiOiBzeXN9XQogICAgICAgIGZvciB1LCBhIGluIGhpc3Rvcnk6ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMg5pC65bim5aSa6L2u5LiK5LiL5paHCiAgICAgICAgICAgIG1lc3NhZ2VzLmFwcGVuZCh7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogdX0pCiAgICAgICAgICAgIG1lc3NhZ2VzLmFwcGVuZCh7InJvbGUiOiAiYXNzaXN0YW50IiwgImNvbnRlbnQiOiBhfSkKICAgICAgICBtZXNzYWdlcy5hcHBlbmQoeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6IG1lc3NhZ2V9KQogICAgICAgIHJlc3BvbnNlID0gc2VsZi5fY2FsbChtZXNzYWdlcykKICAgICAgICBoaXN0b3J5LmFwcGVuZCgobWVzc2FnZSwgcmVzcG9uc2UpKQogICAgICAgIHNlbGYuaGlzdG9yeSA9IGhpc3RvcnkKICAgICAgICByZXR1cm4gcmVzcG9uc2UsIGhpc3RvcnkKCiAgICBkZWYgY2xlYXJfaGlzdG9yeShzZWxmKToKICAgICAgICBzZWxmLmhpc3RvcnkgPSBbXQo=
+# -*- coding: utf-8 -*-
+"""通义千问 qwen-plus + 本地医疗知识库 RAG，兼容 Linly-Talker 的 LLM 接口
+   (generate / chat / clear_history)。"""
+import os, json
+import numpy as np
+import torch
+from transformers import AutoTokenizer, AutoModel
+from openai import OpenAI
+
+BGE_DIR  = "/root/.cache/modelscope/hub/AI-ModelScope/bge-small-zh-v1___5"
+EMB      = "/root/Linly-Talker/kb_emb.npy"
+META     = "/root/Linly-Talker/kb_meta.json"
+KEY_FILE = "/root/Linly-Talker/dashscope.key"
+BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+# bge 检索：query 端要加指令，corpus 端不加
+QUERY_INSTRUCTION = "为这个句子生成表示以用于检索相关文章："
+
+DEFAULT_SYS = (
+    "你是一位专业、亲切的医疗助理。回答会被数字人用语音读出来，所以必须是"
+    "【纯口语中文】：不要用任何markdown、星号、井号、序号、表情符号或换行排版，"
+    "就像医生当面说话一样，一段话讲完。参考检索到的真实医患问答资料，"
+    "给出通俗实用的建议，资料不相关就依常识谨慎回答并提醒及时就医，不要编造诊断。"
+    "务必简短，控制在80字以内。"
+)
+GENERIC_SYS = {"", "你是一个很有帮助的助手"}   # 界面默认值，视为无自定义persona
+
+
+def _read_key(api_key=None):
+    if api_key:
+        return api_key
+    if os.environ.get("DASHSCOPE_API_KEY"):
+        return os.environ["DASHSCOPE_API_KEY"]
+    if os.path.exists(KEY_FILE):
+        return open(KEY_FILE, encoding="utf-8").read().strip()
+    raise RuntimeError("未找到 DashScope API Key（环境变量 DASHSCOPE_API_KEY 或 %s）" % KEY_FILE)
+
+
+class QwenRAG:
+    def __init__(self, model="qwen-plus", api_key=None, top_k=3, min_score=0.35):
+        self.model = model
+        self.top_k = top_k
+        self.min_score = min_score      # 相似度低于此值视为知识库无相关内容
+        self.history = []
+        self.client = OpenAI(api_key=_read_key(api_key), base_url=BASE_URL)
+
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.tok = AutoTokenizer.from_pretrained(BGE_DIR)
+        self.bge = AutoModel.from_pretrained(BGE_DIR).to(self.device).eval().half()
+        self.emb = np.load(EMB)                                  # (N,512) 已归一化
+        self.meta = json.load(open(META, encoding="utf-8"))
+        print(f"[QwenRAG] 知识库载入 {len(self.meta)} 条，模型={model}")
+
+    # ---------- 检索 ----------
+    def _embed(self, text):
+        enc = self.tok([QUERY_INSTRUCTION + text], padding=True, truncation=True,
+                       max_length=256, return_tensors="pt").to(self.device)
+        with torch.no_grad():
+            out = self.bge(**enc)
+            e = out.last_hidden_state[:, 0]
+            e = torch.nn.functional.normalize(e.float(), p=2, dim=1)
+        return e.cpu().numpy()[0]
+
+    def retrieve(self, query):
+        q = self._embed(query)
+        scores = self.emb @ q                                    # 都归一化 → 点积=余弦
+        idx = np.argsort(-scores)[:self.top_k]
+        return [(self.meta[i], float(scores[i])) for i in idx if scores[i] >= self.min_score]
+
+    def _context(self, hits):
+        if not hits:
+            return ""
+        blocks = []
+        for i, (m, s) in enumerate(hits, 1):
+            blocks.append(
+                f"【参考{i}｜科室:{m.get('dept','')}｜相关疾病:{m.get('dis','') or '未标注'}】\n"
+                f"患者问:{m['q']}\n医生答:{m['a']}"
+            )
+        return "\n\n".join(blocks)
+
+    def _call(self, messages):
+        try:
+            resp = self.client.chat.completions.create(
+                model=self.model, messages=messages,
+                temperature=0.3, max_tokens=300)
+            return resp.choices[0].message.content.strip()
+        except Exception as e:
+            print("[QwenRAG] API错误:", e, flush=True)
+            return "对不起，服务暂时出错了，请稍后再试。"
+
+    def _compose_sys(self, ui_sys, ctx):
+        """始终强制 DEFAULT_SYS 的口语+简短约束；界面填了非默认persona则叠加在前。"""
+        base = DEFAULT_SYS
+        if ui_sys and ui_sys.strip() and ui_sys.strip() not in GENERIC_SYS:
+            base = ui_sys.strip() + "\n" + DEFAULT_SYS
+        if ctx:
+            base += "\n\n【检索到的相关医患问答资料，供参考】\n" + ctx
+        return base
+
+    # ---------- Linly-Talker 接口 ----------
+    def generate(self, question, system_prompt=""):
+        hits = self.retrieve(question)
+        sys = self._compose_sys(system_prompt, self._context(hits))
+        return self._call([{"role": "system", "content": sys},
+                           {"role": "user", "content": question}])
+
+    def chat(self, system_prompt, message, history):
+        sys = self._compose_sys(system_prompt, self._context(self.retrieve(message)))
+        messages = [{"role": "system", "content": sys}]
+        for u, a in history:                                     # 携带多轮上下文
+            messages.append({"role": "user", "content": u})
+            messages.append({"role": "assistant", "content": a})
+        messages.append({"role": "user", "content": message})
+        response = self._call(messages)
+        history.append((message, response))
+        self.history = history
+        return response, history
+
+    def clear_history(self):
+        self.history = []

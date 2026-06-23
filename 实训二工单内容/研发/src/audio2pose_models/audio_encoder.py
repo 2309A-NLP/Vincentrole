@@ -1,1 +1,64 @@
-aW1wb3J0IHRvcmNoCmZyb20gdG9yY2ggaW1wb3J0IG5uCmZyb20gdG9yY2gubm4gaW1wb3J0IGZ1bmN0aW9uYWwgYXMgRgoKY2xhc3MgQ29udjJkKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgY2luLCBjb3V0LCBrZXJuZWxfc2l6ZSwgc3RyaWRlLCBwYWRkaW5nLCByZXNpZHVhbD1GYWxzZSwgKmFyZ3MsICoqa3dhcmdzKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCphcmdzLCAqKmt3YXJncykKICAgICAgICBzZWxmLmNvbnZfYmxvY2sgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbm4uQ29udjJkKGNpbiwgY291dCwga2VybmVsX3NpemUsIHN0cmlkZSwgcGFkZGluZyksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBubi5CYXRjaE5vcm0yZChjb3V0KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgIHNlbGYuYWN0ID0gbm4uUmVMVSgpCiAgICAgICAgc2VsZi5yZXNpZHVhbCA9IHJlc2lkdWFsCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCk6CiAgICAgICAgb3V0ID0gc2VsZi5jb252X2Jsb2NrKHgpCiAgICAgICAgaWYgc2VsZi5yZXNpZHVhbDoKICAgICAgICAgICAgb3V0ICs9IHgKICAgICAgICByZXR1cm4gc2VsZi5hY3Qob3V0KQoKY2xhc3MgQXVkaW9FbmNvZGVyKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgd2F2MmxpcF9jaGVja3BvaW50LCBkZXZpY2UpOgogICAgICAgIHN1cGVyKEF1ZGlvRW5jb2Rlciwgc2VsZikuX19pbml0X18oKQoKICAgICAgICBzZWxmLmF1ZGlvX2VuY29kZXIgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICBDb252MmQoMSwgMzIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEpLAogICAgICAgICAgICBDb252MmQoMzIsIDMyLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSwKICAgICAgICAgICAgQ29udjJkKDMyLCAzMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCgogICAgICAgICAgICBDb252MmQoMzIsIDY0LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9KDMsIDEpLCBwYWRkaW5nPTEpLAogICAgICAgICAgICBDb252MmQoNjQsIDY0LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSwKICAgICAgICAgICAgQ29udjJkKDY0LCA2NCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCgogICAgICAgICAgICBDb252MmQoNjQsIDEyOCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTMsIHBhZGRpbmc9MSksCiAgICAgICAgICAgIENvbnYyZCgxMjgsIDEyOCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCiAgICAgICAgICAgIENvbnYyZCgxMjgsIDEyOCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCgogICAgICAgICAgICBDb252MmQoMTI4LCAyNTYsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0oMywgMiksIHBhZGRpbmc9MSksCiAgICAgICAgICAgIENvbnYyZCgyNTYsIDI1Niwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCgogICAgICAgICAgICBDb252MmQoMjU2LCA1MTIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTApLAogICAgICAgICAgICBDb252MmQoNTEyLCA1MTIsIGtlcm5lbF9zaXplPTEsIHN0cmlkZT0xLCBwYWRkaW5nPTApLCkKCiAgICAgICAgIyMjIyBsb2FkIHRoZSBwcmUtdHJhaW5lZCBhdWRpb19lbmNvZGVyLCB3ZSBkbyBub3QgbmVlZCB0byBsb2FkIHdhdjJsaXAgbW9kZWwgaGVyZS4KICAgICAgICAjIHdhdjJsaXBfc3RhdGVfZGljdCA9IHRvcmNoLmxvYWQod2F2MmxpcF9jaGVja3BvaW50LCBtYXBfbG9jYXRpb249dG9yY2guZGV2aWNlKGRldmljZSkpWydzdGF0ZV9kaWN0J10KICAgICAgICAjIHN0YXRlX2RpY3QgPSBzZWxmLmF1ZGlvX2VuY29kZXIuc3RhdGVfZGljdCgpCgogICAgICAgICMgZm9yIGssdiBpbiB3YXYybGlwX3N0YXRlX2RpY3QuaXRlbXMoKToKICAgICAgICAjICAgICBpZiAnYXVkaW9fZW5jb2RlcicgaW4gazoKICAgICAgICAjICAgICAgICAgc3RhdGVfZGljdFtrLnJlcGxhY2UoJ21vZHVsZS5hdWRpb19lbmNvZGVyLicsICcnKV0gPSB2CiAgICAgICAgIyBzZWxmLmF1ZGlvX2VuY29kZXIubG9hZF9zdGF0ZV9kaWN0KHN0YXRlX2RpY3QpCgoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIGF1ZGlvX3NlcXVlbmNlcyk6CiAgICAgICAgIyBhdWRpb19zZXF1ZW5jZXMgPSAoQiwgVCwgMSwgODAsIDE2KQogICAgICAgIEIgPSBhdWRpb19zZXF1ZW5jZXMuc2l6ZSgwKQoKICAgICAgICBhdWRpb19zZXF1ZW5jZXMgPSB0b3JjaC5jYXQoW2F1ZGlvX3NlcXVlbmNlc1s6LCBpXSBmb3IgaSBpbiByYW5nZShhdWRpb19zZXF1ZW5jZXMuc2l6ZSgxKSldLCBkaW09MCkKCiAgICAgICAgYXVkaW9fZW1iZWRkaW5nID0gc2VsZi5hdWRpb19lbmNvZGVyKGF1ZGlvX3NlcXVlbmNlcykgIyBCLCA1MTIsIDEsIDEKICAgICAgICBkaW0gPSBhdWRpb19lbWJlZGRpbmcuc2hhcGVbMV0KICAgICAgICBhdWRpb19lbWJlZGRpbmcgPSBhdWRpb19lbWJlZGRpbmcucmVzaGFwZSgoQiwgLTEsIGRpbSwgMSwgMSkpCgogICAgICAgIHJldHVybiBhdWRpb19lbWJlZGRpbmcuc3F1ZWV6ZSgtMSkuc3F1ZWV6ZSgtMSkgI0Igc2VxX2xlbisxIDUxMiAK
+import torch
+from torch import nn
+from torch.nn import functional as F
+
+class Conv2d(nn.Module):
+    def __init__(self, cin, cout, kernel_size, stride, padding, residual=False, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.conv_block = nn.Sequential(
+                            nn.Conv2d(cin, cout, kernel_size, stride, padding),
+                            nn.BatchNorm2d(cout)
+                            )
+        self.act = nn.ReLU()
+        self.residual = residual
+
+    def forward(self, x):
+        out = self.conv_block(x)
+        if self.residual:
+            out += x
+        return self.act(out)
+
+class AudioEncoder(nn.Module):
+    def __init__(self, wav2lip_checkpoint, device):
+        super(AudioEncoder, self).__init__()
+
+        self.audio_encoder = nn.Sequential(
+            Conv2d(1, 32, kernel_size=3, stride=1, padding=1),
+            Conv2d(32, 32, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(32, 32, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(32, 64, kernel_size=3, stride=(3, 1), padding=1),
+            Conv2d(64, 64, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(64, 64, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(64, 128, kernel_size=3, stride=3, padding=1),
+            Conv2d(128, 128, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(128, 128, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(128, 256, kernel_size=3, stride=(3, 2), padding=1),
+            Conv2d(256, 256, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(256, 512, kernel_size=3, stride=1, padding=0),
+            Conv2d(512, 512, kernel_size=1, stride=1, padding=0),)
+
+        #### load the pre-trained audio_encoder, we do not need to load wav2lip model here.
+        # wav2lip_state_dict = torch.load(wav2lip_checkpoint, map_location=torch.device(device))['state_dict']
+        # state_dict = self.audio_encoder.state_dict()
+
+        # for k,v in wav2lip_state_dict.items():
+        #     if 'audio_encoder' in k:
+        #         state_dict[k.replace('module.audio_encoder.', '')] = v
+        # self.audio_encoder.load_state_dict(state_dict)
+
+
+    def forward(self, audio_sequences):
+        # audio_sequences = (B, T, 1, 80, 16)
+        B = audio_sequences.size(0)
+
+        audio_sequences = torch.cat([audio_sequences[:, i] for i in range(audio_sequences.size(1))], dim=0)
+
+        audio_embedding = self.audio_encoder(audio_sequences) # B, 512, 1, 1
+        dim = audio_embedding.shape[1]
+        audio_embedding = audio_embedding.reshape((B, -1, dim, 1, 1))
+
+        return audio_embedding.squeeze(-1).squeeze(-1) #B seq_len+1 512 

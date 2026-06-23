@@ -1,1 +1,5 @@
-dGVuc29yYm9hcmQKZWFzeWRpY3QKbXhuZXQKb25ueApza2xlYXJuCg==
+tensorboard
+easydict
+mxnet
+onnx
+sklearn

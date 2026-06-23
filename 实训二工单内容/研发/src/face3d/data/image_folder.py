@@ -1,1 +1,66 @@
-IiIiQSBtb2RpZmllZCBpbWFnZSBmb2xkZXIgY2xhc3MKCldlIG1vZGlmeSB0aGUgb2ZmaWNpYWwgUHlUb3JjaCBpbWFnZSBmb2xkZXIgKGh0dHBzOi8vZ2l0aHViLmNvbS9weXRvcmNoL3Zpc2lvbi9ibG9iL21hc3Rlci90b3JjaHZpc2lvbi9kYXRhc2V0cy9mb2xkZXIucHkpCnNvIHRoYXQgdGhpcyBjbGFzcyBjYW4gbG9hZCBpbWFnZXMgZnJvbSBib3RoIGN1cnJlbnQgZGlyZWN0b3J5IGFuZCBpdHMgc3ViZGlyZWN0b3JpZXMuCiIiIgppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IHRvcmNoLnV0aWxzLmRhdGEgYXMgZGF0YQoKZnJvbSBQSUwgaW1wb3J0IEltYWdlCmltcG9ydCBvcwppbXBvcnQgb3MucGF0aAoKSU1HX0VYVEVOU0lPTlMgPSBbCiAgICAnLmpwZycsICcuSlBHJywgJy5qcGVnJywgJy5KUEVHJywKICAgICcucG5nJywgJy5QTkcnLCAnLnBwbScsICcuUFBNJywgJy5ibXAnLCAnLkJNUCcsCiAgICAnLnRpZicsICcuVElGJywgJy50aWZmJywgJy5USUZGJywKXQoKCmRlZiBpc19pbWFnZV9maWxlKGZpbGVuYW1lKToKICAgIHJldHVybiBhbnkoZmlsZW5hbWUuZW5kc3dpdGgoZXh0ZW5zaW9uKSBmb3IgZXh0ZW5zaW9uIGluIElNR19FWFRFTlNJT05TKQoKCmRlZiBtYWtlX2RhdGFzZXQoZGlyLCBtYXhfZGF0YXNldF9zaXplPWZsb2F0KCJpbmYiKSk6CiAgICBpbWFnZXMgPSBbXQogICAgYXNzZXJ0IG9zLnBhdGguaXNkaXIoZGlyKSBvciBvcy5wYXRoLmlzbGluayhkaXIpLCAnJXMgaXMgbm90IGEgdmFsaWQgZGlyZWN0b3J5JyAlIGRpcgoKICAgIGZvciByb290LCBfLCBmbmFtZXMgaW4gc29ydGVkKG9zLndhbGsoZGlyLCBmb2xsb3dsaW5rcz1UcnVlKSk6CiAgICAgICAgZm9yIGZuYW1lIGluIGZuYW1lczoKICAgICAgICAgICAgaWYgaXNfaW1hZ2VfZmlsZShmbmFtZSk6CiAgICAgICAgICAgICAgICBwYXRoID0gb3MucGF0aC5qb2luKHJvb3QsIGZuYW1lKQogICAgICAgICAgICAgICAgaW1hZ2VzLmFwcGVuZChwYXRoKQogICAgcmV0dXJuIGltYWdlc1s6bWluKG1heF9kYXRhc2V0X3NpemUsIGxlbihpbWFnZXMpKV0KCgpkZWYgZGVmYXVsdF9sb2FkZXIocGF0aCk6CiAgICByZXR1cm4gSW1hZ2Uub3BlbihwYXRoKS5jb252ZXJ0KCdSR0InKQoKCmNsYXNzIEltYWdlRm9sZGVyKGRhdGEuRGF0YXNldCk6CgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHJvb3QsIHRyYW5zZm9ybT1Ob25lLCByZXR1cm5fcGF0aHM9RmFsc2UsCiAgICAgICAgICAgICAgICAgbG9hZGVyPWRlZmF1bHRfbG9hZGVyKToKICAgICAgICBpbWdzID0gbWFrZV9kYXRhc2V0KHJvb3QpCiAgICAgICAgaWYgbGVuKGltZ3MpID09IDA6CiAgICAgICAgICAgIHJhaXNlKFJ1bnRpbWVFcnJvcigiRm91bmQgMCBpbWFnZXMgaW46ICIgKyByb290ICsgIlxuIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlN1cHBvcnRlZCBpbWFnZSBleHRlbnNpb25zIGFyZTogIiArICIsIi5qb2luKElNR19FWFRFTlNJT05TKSkpCgogICAgICAgIHNlbGYucm9vdCA9IHJvb3QKICAgICAgICBzZWxmLmltZ3MgPSBpbWdzCiAgICAgICAgc2VsZi50cmFuc2Zvcm0gPSB0cmFuc2Zvcm0KICAgICAgICBzZWxmLnJldHVybl9wYXRocyA9IHJldHVybl9wYXRocwogICAgICAgIHNlbGYubG9hZGVyID0gbG9hZGVyCgogICAgZGVmIF9fZ2V0aXRlbV9fKHNlbGYsIGluZGV4KToKICAgICAgICBwYXRoID0gc2VsZi5pbWdzW2luZGV4XQogICAgICAgIGltZyA9IHNlbGYubG9hZGVyKHBhdGgpCiAgICAgICAgaWYgc2VsZi50cmFuc2Zvcm0gaXMgbm90IE5vbmU6CiAgICAgICAgICAgIGltZyA9IHNlbGYudHJhbnNmb3JtKGltZykKICAgICAgICBpZiBzZWxmLnJldHVybl9wYXRoczoKICAgICAgICAgICAgcmV0dXJuIGltZywgcGF0aAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBpbWcKCiAgICBkZWYgX19sZW5fXyhzZWxmKToKICAgICAgICByZXR1cm4gbGVuKHNlbGYuaW1ncykK
+"""A modified image folder class
+
+We modify the official PyTorch image folder (https://github.com/pytorch/vision/blob/master/torchvision/datasets/folder.py)
+so that this class can load images from both current directory and its subdirectories.
+"""
+import numpy as np
+import torch.utils.data as data
+
+from PIL import Image
+import os
+import os.path
+
+IMG_EXTENSIONS = [
+    '.jpg', '.JPG', '.jpeg', '.JPEG',
+    '.png', '.PNG', '.ppm', '.PPM', '.bmp', '.BMP',
+    '.tif', '.TIF', '.tiff', '.TIFF',
+]
+
+
+def is_image_file(filename):
+    return any(filename.endswith(extension) for extension in IMG_EXTENSIONS)
+
+
+def make_dataset(dir, max_dataset_size=float("inf")):
+    images = []
+    assert os.path.isdir(dir) or os.path.islink(dir), '%s is not a valid directory' % dir
+
+    for root, _, fnames in sorted(os.walk(dir, followlinks=True)):
+        for fname in fnames:
+            if is_image_file(fname):
+                path = os.path.join(root, fname)
+                images.append(path)
+    return images[:min(max_dataset_size, len(images))]
+
+
+def default_loader(path):
+    return Image.open(path).convert('RGB')
+
+
+class ImageFolder(data.Dataset):
+
+    def __init__(self, root, transform=None, return_paths=False,
+                 loader=default_loader):
+        imgs = make_dataset(root)
+        if len(imgs) == 0:
+            raise(RuntimeError("Found 0 images in: " + root + "\n"
+                               "Supported image extensions are: " + ",".join(IMG_EXTENSIONS)))
+
+        self.root = root
+        self.imgs = imgs
+        self.transform = transform
+        self.return_paths = return_paths
+        self.loader = loader
+
+    def __getitem__(self, index):
+        path = self.imgs[index]
+        img = self.loader(path)
+        if self.transform is not None:
+            img = self.transform(img)
+        if self.return_paths:
+            return img, path
+        else:
+            return img
+
+    def __len__(self):
+        return len(self.imgs)

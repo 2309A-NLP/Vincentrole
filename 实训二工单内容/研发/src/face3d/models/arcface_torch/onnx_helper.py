@@ -1,1 +1,250 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBkaXZpc2lvbgppbXBvcnQgZGF0ZXRpbWUKaW1wb3J0IG9zCmltcG9ydCBvcy5wYXRoIGFzIG9zcAppbXBvcnQgZ2xvYgppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IGN2MgppbXBvcnQgc3lzCmltcG9ydCBvbm54cnVudGltZQppbXBvcnQgb25ueAppbXBvcnQgYXJncGFyc2UKZnJvbSBvbm54IGltcG9ydCBudW1weV9oZWxwZXIKZnJvbSBpbnNpZ2h0ZmFjZS5kYXRhIGltcG9ydCBnZXRfaW1hZ2UKCmNsYXNzIEFyY0ZhY2VPUlQ6CiAgICBkZWYgX19pbml0X18oc2VsZiwgbW9kZWxfcGF0aCwgY3B1PUZhbHNlKToKICAgICAgICBzZWxmLm1vZGVsX3BhdGggPSBtb2RlbF9wYXRoCiAgICAgICAgIyBwcm92aWRlcnMgPSBOb25lIHdpbGwgdXNlIGF2YWlsYWJsZSBwcm92aWRlciwgZm9yIG9ubnhydW50aW1lLWdwdSBpdCB3aWxsIGJlICJDVURBRXhlY3V0aW9uUHJvdmlkZXIiCiAgICAgICAgc2VsZi5wcm92aWRlcnMgPSBbJ0NQVUV4ZWN1dGlvblByb3ZpZGVyJ10gaWYgY3B1IGVsc2UgTm9uZQoKICAgICNpbnB1dF9zaXplIGlzICh3LGgpLCByZXR1cm4gZXJyb3IgbWVzc2FnZSwgcmV0dXJuIE5vbmUgaWYgc3VjY2VzcwogICAgZGVmIGNoZWNrKHNlbGYsIHRyYWNrPSdjZmF0JywgdGVzdF9pbWcgPSBOb25lKToKICAgICAgICAjZGVmYXVsdCBpcyBjZmF0CiAgICAgICAgbWF4X21vZGVsX3NpemVfbWI9MTAyNAogICAgICAgIG1heF9mZWF0X2RpbT01MTIKICAgICAgICBtYXhfdGltZV9jb3N0PTE1CiAgICAgICAgaWYgdHJhY2suc3RhcnRzd2l0aCgnbXMxbScpOgogICAgICAgICAgICBtYXhfbW9kZWxfc2l6ZV9tYj0xMDI0CiAgICAgICAgICAgIG1heF9mZWF0X2RpbT01MTIKICAgICAgICAgICAgbWF4X3RpbWVfY29zdD0xMAogICAgICAgIGVsaWYgdHJhY2suc3RhcnRzd2l0aCgnZ2xpbnQnKToKICAgICAgICAgICAgbWF4X21vZGVsX3NpemVfbWI9MTAyNAogICAgICAgICAgICBtYXhfZmVhdF9kaW09MTAyNAogICAgICAgICAgICBtYXhfdGltZV9jb3N0PTIwCiAgICAgICAgZWxpZiB0cmFjay5zdGFydHN3aXRoKCdjZmF0Jyk6CiAgICAgICAgICAgIG1heF9tb2RlbF9zaXplX21iID0gMTAyNAogICAgICAgICAgICBtYXhfZmVhdF9kaW0gPSA1MTIKICAgICAgICAgICAgbWF4X3RpbWVfY29zdCA9IDE1CiAgICAgICAgZWxpZiB0cmFjay5zdGFydHN3aXRoKCd1bmNvbnN0cmFpbmVkJyk6CiAgICAgICAgICAgIG1heF9tb2RlbF9zaXplX21iPTEwMjQKICAgICAgICAgICAgbWF4X2ZlYXRfZGltPTEwMjQKICAgICAgICAgICAgbWF4X3RpbWVfY29zdD0zMAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiAidHJhY2sgbm90IGZvdW5kIgoKICAgICAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMoc2VsZi5tb2RlbF9wYXRoKToKICAgICAgICAgICAgcmV0dXJuICJtb2RlbF9wYXRoIG5vdCBleGlzdHMiCiAgICAgICAgaWYgbm90IG9zLnBhdGguaXNkaXIoc2VsZi5tb2RlbF9wYXRoKToKICAgICAgICAgICAgcmV0dXJuICJtb2RlbF9wYXRoIHNob3VsZCBiZSBkaXJlY3RvcnkiCiAgICAgICAgb25ueF9maWxlcyA9IFtdCiAgICAgICAgZm9yIF9maWxlIGluIG9zLmxpc3RkaXIoc2VsZi5tb2RlbF9wYXRoKToKICAgICAgICAgICAgaWYgX2ZpbGUuZW5kc3dpdGgoJy5vbm54Jyk6CiAgICAgICAgICAgICAgICBvbm54X2ZpbGVzLmFwcGVuZChvc3Auam9pbihzZWxmLm1vZGVsX3BhdGgsIF9maWxlKSkKICAgICAgICBpZiBsZW4ob25ueF9maWxlcyk9PTA6CiAgICAgICAgICAgIHJldHVybiAiZG8gbm90IGhhdmUgb25ueCBmaWxlcyIKICAgICAgICBzZWxmLm1vZGVsX2ZpbGUgPSBzb3J0ZWQob25ueF9maWxlcylbLTFdCiAgICAgICAgcHJpbnQoJ3VzZSBvbm54LW1vZGVsOicsIHNlbGYubW9kZWxfZmlsZSkKICAgICAgICB0cnk6CiAgICAgICAgICAgIHNlc3Npb24gPSBvbm54cnVudGltZS5JbmZlcmVuY2VTZXNzaW9uKHNlbGYubW9kZWxfZmlsZSwgcHJvdmlkZXJzPXNlbGYucHJvdmlkZXJzKQogICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgcmV0dXJuICJsb2FkIG9ubnggZmFpbGVkIgogICAgICAgIGlucHV0X2NmZyA9IHNlc3Npb24uZ2V0X2lucHV0cygpWzBdCiAgICAgICAgaW5wdXRfc2hhcGUgPSBpbnB1dF9jZmcuc2hhcGUKICAgICAgICBwcmludCgnaW5wdXQtc2hhcGU6JywgaW5wdXRfc2hhcGUpCiAgICAgICAgaWYgbGVuKGlucHV0X3NoYXBlKSE9NDoKICAgICAgICAgICAgcmV0dXJuICJsZW5ndGggb2YgaW5wdXRfc2hhcGUgc2hvdWxkIGJlIDQiCiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UoaW5wdXRfc2hhcGVbMF0sIHN0cik6CiAgICAgICAgICAgICNyZXR1cm4gImlucHV0X3NoYXBlWzBdIHNob3VsZCBiZSBzdHIgdG8gc3VwcG9ydCBiYXRjaC1pbmZlcmVuY2UiCiAgICAgICAgICAgIHByaW50KCdyZXNldCBpbnB1dC1zaGFwZVswXSB0byBOb25lJykKICAgICAgICAgICAgbW9kZWwgPSBvbm54LmxvYWQoc2VsZi5tb2RlbF9maWxlKQogICAgICAgICAgICBtb2RlbC5ncmFwaC5pbnB1dFswXS50eXBlLnRlbnNvcl90eXBlLnNoYXBlLmRpbVswXS5kaW1fcGFyYW0gPSAnTm9uZScKICAgICAgICAgICAgbmV3X21vZGVsX2ZpbGUgPSBvc3Auam9pbihzZWxmLm1vZGVsX3BhdGgsICd6enp6cmVmaW5lZC5vbm54JykKICAgICAgICAgICAgb25ueC5zYXZlKG1vZGVsLCBuZXdfbW9kZWxfZmlsZSkKICAgICAgICAgICAgc2VsZi5tb2RlbF9maWxlID0gbmV3X21vZGVsX2ZpbGUKICAgICAgICAgICAgcHJpbnQoJ3VzZSBuZXcgb25ueC1tb2RlbDonLCBzZWxmLm1vZGVsX2ZpbGUpCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHNlc3Npb24gPSBvbm54cnVudGltZS5JbmZlcmVuY2VTZXNzaW9uKHNlbGYubW9kZWxfZmlsZSwgcHJvdmlkZXJzPXNlbGYucHJvdmlkZXJzKQogICAgICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgICAgICByZXR1cm4gImxvYWQgb25ueCBmYWlsZWQiCiAgICAgICAgICAgIGlucHV0X2NmZyA9IHNlc3Npb24uZ2V0X2lucHV0cygpWzBdCiAgICAgICAgICAgIGlucHV0X3NoYXBlID0gaW5wdXRfY2ZnLnNoYXBlCiAgICAgICAgICAgIHByaW50KCduZXctaW5wdXQtc2hhcGU6JywgaW5wdXRfc2hhcGUpCgogICAgICAgIHNlbGYuaW1hZ2Vfc2l6ZSA9IHR1cGxlKGlucHV0X3NoYXBlWzI6NF1bOjotMV0pCiAgICAgICAgI3ByaW50KCdpbWFnZV9zaXplOicsIHNlbGYuaW1hZ2Vfc2l6ZSkKICAgICAgICBpbnB1dF9uYW1lID0gaW5wdXRfY2ZnLm5hbWUKICAgICAgICBvdXRwdXRzID0gc2Vzc2lvbi5nZXRfb3V0cHV0cygpCiAgICAgICAgb3V0cHV0X25hbWVzID0gW10KICAgICAgICBmb3IgbyBpbiBvdXRwdXRzOgogICAgICAgICAgICBvdXRwdXRfbmFtZXMuYXBwZW5kKG8ubmFtZSkKICAgICAgICAgICAgI3ByaW50KG8ubmFtZSwgby5zaGFwZSkKICAgICAgICBpZiBsZW4ob3V0cHV0X25hbWVzKSE9MToKICAgICAgICAgICAgcmV0dXJuICJudW1iZXIgb2Ygb3V0cHV0IG5vZGVzIHNob3VsZCBiZSAxIgogICAgICAgIHNlbGYuc2Vzc2lvbiA9IHNlc3Npb24KICAgICAgICBzZWxmLmlucHV0X25hbWUgPSBpbnB1dF9uYW1lCiAgICAgICAgc2VsZi5vdXRwdXRfbmFtZXMgPSBvdXRwdXRfbmFtZXMKICAgICAgICAjcHJpbnQoc2VsZi5vdXRwdXRfbmFtZXMpCiAgICAgICAgbW9kZWwgPSBvbm54LmxvYWQoc2VsZi5tb2RlbF9maWxlKQogICAgICAgIGdyYXBoID0gbW9kZWwuZ3JhcGgKICAgICAgICBpZiBsZW4oZ3JhcGgubm9kZSk8ODoKICAgICAgICAgICAgcmV0dXJuICJ0b28gc21hbGwgb25ueCBncmFwaCIKCiAgICAgICAgaW5wdXRfc2l6ZSA9ICgxMTIsMTEyKQogICAgICAgIHNlbGYuY3JvcCA9IE5vbmUKICAgICAgICBpZiB0cmFjaz09J2NmYXQnOgogICAgICAgICAgICBjcm9wX2ZpbGUgPSBvc3Auam9pbihzZWxmLm1vZGVsX3BhdGgsICdjcm9wLnR4dCcpCiAgICAgICAgICAgIGlmIG9zcC5leGlzdHMoY3JvcF9maWxlKToKICAgICAgICAgICAgICAgIGxpbmVzID0gb3Blbihjcm9wX2ZpbGUsJ3InKS5yZWFkbGluZXMoKQogICAgICAgICAgICAgICAgaWYgbGVuKGxpbmVzKSE9NjoKICAgICAgICAgICAgICAgICAgICByZXR1cm4gImNyb3AudHh0IHNob3VsZCBjb250YWluIDYgbGluZXMiCiAgICAgICAgICAgICAgICBsaW5lcyA9IFtpbnQoeCkgZm9yIHggaW4gbGluZXNdCiAgICAgICAgICAgICAgICBzZWxmLmNyb3AgPSBsaW5lc1s6NF0KICAgICAgICAgICAgICAgIGlucHV0X3NpemUgPSB0dXBsZShsaW5lc1s0OjZdKQogICAgICAgIGlmIGlucHV0X3NpemUhPXNlbGYuaW1hZ2Vfc2l6ZToKICAgICAgICAgICAgcmV0dXJuICJpbnB1dC1zaXplIGlzIGluY29uc2lzdGFudCB3aXRoIG9ubnggbW9kZWwgaW5wdXQsICVzIHZzICVzIiUoaW5wdXRfc2l6ZSwgc2VsZi5pbWFnZV9zaXplKQoKICAgICAgICBzZWxmLm1vZGVsX3NpemVfbWIgPSBvcy5wYXRoLmdldHNpemUoc2VsZi5tb2RlbF9maWxlKSAvIGZsb2F0KDEwMjQqMTAyNCkKICAgICAgICBpZiBzZWxmLm1vZGVsX3NpemVfbWIgPiBtYXhfbW9kZWxfc2l6ZV9tYjoKICAgICAgICAgICAgcmV0dXJuICJtYXggbW9kZWwgc2l6ZSBleGNlZWQsIGdpdmVuICUuM2YtTUIiJXNlbGYubW9kZWxfc2l6ZV9tYgoKICAgICAgICBpbnB1dF9tZWFuID0gTm9uZQogICAgICAgIGlucHV0X3N0ZCA9IE5vbmUKICAgICAgICBpZiB0cmFjaz09J2NmYXQnOgogICAgICAgICAgICBwbl9maWxlID0gb3NwLmpvaW4oc2VsZi5tb2RlbF9wYXRoLCAncGl4ZWxfbm9ybS50eHQnKQogICAgICAgICAgICBpZiBvc3AuZXhpc3RzKHBuX2ZpbGUpOgogICAgICAgICAgICAgICAgbGluZXMgPSBvcGVuKHBuX2ZpbGUsJ3InKS5yZWFkbGluZXMoKQogICAgICAgICAgICAgICAgaWYgbGVuKGxpbmVzKSE9MjoKICAgICAgICAgICAgICAgICAgICByZXR1cm4gInBpeGVsX25vcm0udHh0IHNob3VsZCBjb250YWluIDIgbGluZXMiCiAgICAgICAgICAgICAgICBpbnB1dF9tZWFuID0gZmxvYXQobGluZXNbMF0pCiAgICAgICAgICAgICAgICBpbnB1dF9zdGQgPSBmbG9hdChsaW5lc1sxXSkKICAgICAgICBpZiBpbnB1dF9tZWFuIGlzIG5vdCBOb25lIG9yIGlucHV0X3N0ZCBpcyBub3QgTm9uZToKICAgICAgICAgICAgaWYgaW5wdXRfbWVhbiBpcyBOb25lIG9yIGlucHV0X3N0ZCBpcyBOb25lOgogICAgICAgICAgICAgICAgcmV0dXJuICJwbGVhc2Ugc2V0IGlucHV0X21lYW4gYW5kIGlucHV0X3N0ZCBzaW11bHRhbmVvdXNseSIKICAgICAgICBlbHNlOgogICAgICAgICAgICBmaW5kX3N1YiA9IEZhbHNlCiAgICAgICAgICAgIGZpbmRfbXVsID0gRmFsc2UKICAgICAgICAgICAgZm9yIG5pZCwgbm9kZSBpbiBlbnVtZXJhdGUoZ3JhcGgubm9kZVs6OF0pOgogICAgICAgICAgICAgICAgcHJpbnQobmlkLCBub2RlLm5hbWUpCiAgICAgICAgICAgICAgICBpZiBub2RlLm5hbWUuc3RhcnRzd2l0aCgnU3ViJykgb3Igbm9kZS5uYW1lLnN0YXJ0c3dpdGgoJ19taW51cycpOgogICAgICAgICAgICAgICAgICAgIGZpbmRfc3ViID0gVHJ1ZQogICAgICAgICAgICAgICAgaWYgbm9kZS5uYW1lLnN0YXJ0c3dpdGgoJ011bCcpIG9yIG5vZGUubmFtZS5zdGFydHN3aXRoKCdfbXVsJykgb3Igbm9kZS5uYW1lLnN0YXJ0c3dpdGgoJ0RpdicpOgogICAgICAgICAgICAgICAgICAgIGZpbmRfbXVsID0gVHJ1ZQogICAgICAgICAgICBpZiBmaW5kX3N1YiBhbmQgZmluZF9tdWw6CiAgICAgICAgICAgICAgICBwcmludCgiZmluZCBzdWIgYW5kIG11bCIpCiAgICAgICAgICAgICAgICAjbXhuZXQgYXJjZmFjZSBtb2RlbAogICAgICAgICAgICAgICAgaW5wdXRfbWVhbiA9IDAuMAogICAgICAgICAgICAgICAgaW5wdXRfc3RkID0gMS4wCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBpbnB1dF9tZWFuID0gMTI3LjUKICAgICAgICAgICAgICAgIGlucHV0X3N0ZCA9IDEyNy41CiAgICAgICAgc2VsZi5pbnB1dF9tZWFuID0gaW5wdXRfbWVhbgogICAgICAgIHNlbGYuaW5wdXRfc3RkID0gaW5wdXRfc3RkCiAgICAgICAgZm9yIGluaXRuIGluIGdyYXBoLmluaXRpYWxpemVyOgogICAgICAgICAgICB3ZWlnaHRfYXJyYXkgPSBudW1weV9oZWxwZXIudG9fYXJyYXkoaW5pdG4pCiAgICAgICAgICAgIGR0ID0gd2VpZ2h0X2FycmF5LmR0eXBlCiAgICAgICAgICAgIGlmIGR0Lml0ZW1zaXplPDQ6CiAgICAgICAgICAgICAgICByZXR1cm4gJ2ludmFsaWQgd2VpZ2h0IHR5cGUgLSAoJXM6JXMpJyAlIChpbml0bi5uYW1lLCBkdC5uYW1lKQogICAgICAgIGlmIHRlc3RfaW1nIGlzIE5vbmU6CiAgICAgICAgICAgIHRlc3RfaW1nID0gZ2V0X2ltYWdlKCdUb21fSGFua3NfNTQ3NDUnKQogICAgICAgICAgICB0ZXN0X2ltZyA9IGN2Mi5yZXNpemUodGVzdF9pbWcsIHNlbGYuaW1hZ2Vfc2l6ZSkKICAgICAgICBlbHNlOgogICAgICAgICAgICB0ZXN0X2ltZyA9IGN2Mi5yZXNpemUodGVzdF9pbWcsIHNlbGYuaW1hZ2Vfc2l6ZSkKICAgICAgICBmZWF0LCBjb3N0ID0gc2VsZi5iZW5jaG1hcmsodGVzdF9pbWcpCiAgICAgICAgYmF0Y2hfcmVzdWx0ID0gc2VsZi5jaGVja19iYXRjaCh0ZXN0X2ltZykKICAgICAgICBiYXRjaF9yZXN1bHRfc3VtID0gZmxvYXQobnAuc3VtKGJhdGNoX3Jlc3VsdCkpCiAgICAgICAgaWYgYmF0Y2hfcmVzdWx0X3N1bSBpbiBbZmxvYXQoJ2luZicpLCAtZmxvYXQoJ2luZicpXSBvciBiYXRjaF9yZXN1bHRfc3VtICE9IGJhdGNoX3Jlc3VsdF9zdW06CiAgICAgICAgICAgIHByaW50KGJhdGNoX3Jlc3VsdCkKICAgICAgICAgICAgcHJpbnQoYmF0Y2hfcmVzdWx0X3N1bSkKICAgICAgICAgICAgcmV0dXJuICJiYXRjaCByZXN1bHQgb3V0cHV0IGNvbnRhaW5zIE5hTiEiCgogICAgICAgIGlmIGxlbihmZWF0LnNoYXBlKSA8IDI6CiAgICAgICAgICAgcmV0dXJuICJ0aGUgc2hhcGUgb2YgdGhlIGZlYXR1cmUgbXVzdCBiZSB0d28sIGJ1dCBnZXQge30iLmZvcm1hdChzdHIoZmVhdC5zaGFwZSkpCgogICAgICAgIGlmIGZlYXQuc2hhcGVbMV0gPiBtYXhfZmVhdF9kaW06CiAgICAgICAgICAgIHJldHVybiAibWF4IGZlYXQgZGltIGV4Y2VlZCwgZ2l2ZW4gJWQiJWZlYXQuc2hhcGVbMV0KICAgICAgICBzZWxmLmZlYXRfZGltID0gZmVhdC5zaGFwZVsxXQogICAgICAgIGNvc3RfbXMgPSBjb3N0KjEwMDAKICAgICAgICBpZiBjb3N0X21zPm1heF90aW1lX2Nvc3Q6CiAgICAgICAgICAgIHJldHVybiAibWF4IHRpbWUgY29zdCBleGNlZWQsIGdpdmVuICUuNGYiJWNvc3RfbXMKICAgICAgICBzZWxmLmNvc3RfbXMgPSBjb3N0X21zCiAgICAgICAgcHJpbnQoJ2NoZWNrIHN0YXQ6LCBtb2RlbC1zaXplLW1iOiAlLjRmLCBmZWF0LWRpbTogJWQsIHRpbWUtY29zdC1tczogJS40ZiwgaW5wdXQtbWVhbjogJS4zZiwgaW5wdXQtc3RkOiAlLjNmJyUoc2VsZi5tb2RlbF9zaXplX21iLCBzZWxmLmZlYXRfZGltLCBzZWxmLmNvc3RfbXMsIHNlbGYuaW5wdXRfbWVhbiwgc2VsZi5pbnB1dF9zdGQpKQogICAgICAgIHJldHVybiBOb25lCgogICAgZGVmIGNoZWNrX2JhdGNoKHNlbGYsIGltZyk6CiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UoaW1nLCBsaXN0KToKICAgICAgICAgICAgaW1ncyA9IFtpbWcsIF0gKiAzMgogICAgICAgIGlmIHNlbGYuY3JvcCBpcyBub3QgTm9uZToKICAgICAgICAgICAgbmltZ3MgPSBbXQogICAgICAgICAgICBmb3IgaW1nIGluIGltZ3M6CiAgICAgICAgICAgICAgICBuaW1nID0gaW1nW3NlbGYuY3JvcFsxXTpzZWxmLmNyb3BbM10sIHNlbGYuY3JvcFswXTpzZWxmLmNyb3BbMl0sIDpdCiAgICAgICAgICAgICAgICBpZiBuaW1nLnNoYXBlWzBdICE9IHNlbGYuaW1hZ2Vfc2l6ZVsxXSBvciBuaW1nLnNoYXBlWzFdICE9IHNlbGYuaW1hZ2Vfc2l6ZVswXToKICAgICAgICAgICAgICAgICAgICBuaW1nID0gY3YyLnJlc2l6ZShuaW1nLCBzZWxmLmltYWdlX3NpemUpCiAgICAgICAgICAgICAgICBuaW1ncy5hcHBlbmQobmltZykKICAgICAgICAgICAgaW1ncyA9IG5pbWdzCiAgICAgICAgYmxvYiA9IGN2Mi5kbm4uYmxvYkZyb21JbWFnZXMoCiAgICAgICAgICAgIGltYWdlcz1pbWdzLCBzY2FsZWZhY3Rvcj0xLjAgLyBzZWxmLmlucHV0X3N0ZCwgc2l6ZT1zZWxmLmltYWdlX3NpemUsCiAgICAgICAgICAgIG1lYW49KHNlbGYuaW5wdXRfbWVhbiwgc2VsZi5pbnB1dF9tZWFuLCBzZWxmLmlucHV0X21lYW4pLCBzd2FwUkI9VHJ1ZSkKICAgICAgICBuZXRfb3V0ID0gc2VsZi5zZXNzaW9uLnJ1bihzZWxmLm91dHB1dF9uYW1lcywge3NlbGYuaW5wdXRfbmFtZTogYmxvYn0pWzBdCiAgICAgICAgcmV0dXJuIG5ldF9vdXQKCgogICAgZGVmIG1ldGFfaW5mbyhzZWxmKToKICAgICAgICByZXR1cm4geydtb2RlbC1zaXplLW1iJzpzZWxmLm1vZGVsX3NpemVfbWIsICdmZWF0dXJlLWRpbSc6c2VsZi5mZWF0X2RpbSwgJ2luZmVyJzogc2VsZi5jb3N0X21zfQoKCiAgICBkZWYgZm9yd2FyZChzZWxmLCBpbWdzKToKICAgICAgICBpZiBub3QgaXNpbnN0YW5jZShpbWdzLCBsaXN0KToKICAgICAgICAgICAgaW1ncyA9IFtpbWdzXQogICAgICAgIGlucHV0X3NpemUgPSBzZWxmLmltYWdlX3NpemUKICAgICAgICBpZiBzZWxmLmNyb3AgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIG5pbWdzID0gW10KICAgICAgICAgICAgZm9yIGltZyBpbiBpbWdzOgogICAgICAgICAgICAgICAgbmltZyA9IGltZ1tzZWxmLmNyb3BbMV06c2VsZi5jcm9wWzNdLHNlbGYuY3JvcFswXTpzZWxmLmNyb3BbMl0sOl0KICAgICAgICAgICAgICAgIGlmIG5pbWcuc2hhcGVbMF0hPWlucHV0X3NpemVbMV0gb3IgbmltZy5zaGFwZVsxXSE9aW5wdXRfc2l6ZVswXToKICAgICAgICAgICAgICAgICAgICBuaW1nID0gY3YyLnJlc2l6ZShuaW1nLCBpbnB1dF9zaXplKQogICAgICAgICAgICAgICAgbmltZ3MuYXBwZW5kKG5pbWcpCiAgICAgICAgICAgIGltZ3MgPSBuaW1ncwogICAgICAgIGJsb2IgPSBjdjIuZG5uLmJsb2JGcm9tSW1hZ2VzKGltZ3MsIDEuMC9zZWxmLmlucHV0X3N0ZCwgaW5wdXRfc2l6ZSwgKHNlbGYuaW5wdXRfbWVhbiwgc2VsZi5pbnB1dF9tZWFuLCBzZWxmLmlucHV0X21lYW4pLCBzd2FwUkI9VHJ1ZSkKICAgICAgICBuZXRfb3V0ID0gc2VsZi5zZXNzaW9uLnJ1bihzZWxmLm91dHB1dF9uYW1lcywge3NlbGYuaW5wdXRfbmFtZSA6IGJsb2J9KVswXQogICAgICAgIHJldHVybiBuZXRfb3V0CgogICAgZGVmIGJlbmNobWFyayhzZWxmLCBpbWcpOgogICAgICAgIGlucHV0X3NpemUgPSBzZWxmLmltYWdlX3NpemUKICAgICAgICBpZiBzZWxmLmNyb3AgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIG5pbWcgPSBpbWdbc2VsZi5jcm9wWzFdOnNlbGYuY3JvcFszXSxzZWxmLmNyb3BbMF06c2VsZi5jcm9wWzJdLDpdCiAgICAgICAgICAgIGlmIG5pbWcuc2hhcGVbMF0hPWlucHV0X3NpemVbMV0gb3IgbmltZy5zaGFwZVsxXSE9aW5wdXRfc2l6ZVswXToKICAgICAgICAgICAgICAgIG5pbWcgPSBjdjIucmVzaXplKG5pbWcsIGlucHV0X3NpemUpCiAgICAgICAgICAgIGltZyA9IG5pbWcKICAgICAgICBibG9iID0gY3YyLmRubi5ibG9iRnJvbUltYWdlKGltZywgMS4wL3NlbGYuaW5wdXRfc3RkLCBpbnB1dF9zaXplLCAoc2VsZi5pbnB1dF9tZWFuLCBzZWxmLmlucHV0X21lYW4sIHNlbGYuaW5wdXRfbWVhbiksIHN3YXBSQj1UcnVlKQogICAgICAgIGNvc3RzID0gW10KICAgICAgICBmb3IgXyBpbiByYW5nZSg1MCk6CiAgICAgICAgICAgIHRhID0gZGF0ZXRpbWUuZGF0ZXRpbWUubm93KCkKICAgICAgICAgICAgbmV0X291dCA9IHNlbGYuc2Vzc2lvbi5ydW4oc2VsZi5vdXRwdXRfbmFtZXMsIHtzZWxmLmlucHV0X25hbWUgOiBibG9ifSlbMF0KICAgICAgICAgICAgdGIgPSBkYXRldGltZS5kYXRldGltZS5ub3coKQogICAgICAgICAgICBjb3N0ID0gKHRiLXRhKS50b3RhbF9zZWNvbmRzKCkKICAgICAgICAgICAgY29zdHMuYXBwZW5kKGNvc3QpCiAgICAgICAgY29zdHMgPSBzb3J0ZWQoY29zdHMpCiAgICAgICAgY29zdCA9IGNvc3RzWzVdCiAgICAgICAgcmV0dXJuIG5ldF9vdXQsIGNvc3QKCgppZiBfX25hbWVfXyA9PSAnX19tYWluX18nOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoZGVzY3JpcHRpb249JycpCiAgICAjIGdlbmVyYWwKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJ3dvcmtkaXInLCBoZWxwPSdzdWJtaXR0ZWQgd29yayBkaXInLCB0eXBlPXN0cikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tdHJhY2snLCBoZWxwPSd0cmFjayBuYW1lLCBmb3IgZGlmZmVyZW50IGNoYWxsZW5nZScsIHR5cGU9c3RyLCBkZWZhdWx0PSdjZmF0JykKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCiAgICBoYW5kbGVyID0gQXJjRmFjZU9SVChhcmdzLndvcmtkaXIpCiAgICBlcnIgPSBoYW5kbGVyLmNoZWNrKGFyZ3MudHJhY2spCiAgICBwcmludCgnZXJyOicsIGVycikK
+from __future__ import division
+import datetime
+import os
+import os.path as osp
+import glob
+import numpy as np
+import cv2
+import sys
+import onnxruntime
+import onnx
+import argparse
+from onnx import numpy_helper
+from insightface.data import get_image
+
+class ArcFaceORT:
+    def __init__(self, model_path, cpu=False):
+        self.model_path = model_path
+        # providers = None will use available provider, for onnxruntime-gpu it will be "CUDAExecutionProvider"
+        self.providers = ['CPUExecutionProvider'] if cpu else None
+
+    #input_size is (w,h), return error message, return None if success
+    def check(self, track='cfat', test_img = None):
+        #default is cfat
+        max_model_size_mb=1024
+        max_feat_dim=512
+        max_time_cost=15
+        if track.startswith('ms1m'):
+            max_model_size_mb=1024
+            max_feat_dim=512
+            max_time_cost=10
+        elif track.startswith('glint'):
+            max_model_size_mb=1024
+            max_feat_dim=1024
+            max_time_cost=20
+        elif track.startswith('cfat'):
+            max_model_size_mb = 1024
+            max_feat_dim = 512
+            max_time_cost = 15
+        elif track.startswith('unconstrained'):
+            max_model_size_mb=1024
+            max_feat_dim=1024
+            max_time_cost=30
+        else:
+            return "track not found"
+
+        if not os.path.exists(self.model_path):
+            return "model_path not exists"
+        if not os.path.isdir(self.model_path):
+            return "model_path should be directory"
+        onnx_files = []
+        for _file in os.listdir(self.model_path):
+            if _file.endswith('.onnx'):
+                onnx_files.append(osp.join(self.model_path, _file))
+        if len(onnx_files)==0:
+            return "do not have onnx files"
+        self.model_file = sorted(onnx_files)[-1]
+        print('use onnx-model:', self.model_file)
+        try:
+            session = onnxruntime.InferenceSession(self.model_file, providers=self.providers)
+        except:
+            return "load onnx failed"
+        input_cfg = session.get_inputs()[0]
+        input_shape = input_cfg.shape
+        print('input-shape:', input_shape)
+        if len(input_shape)!=4:
+            return "length of input_shape should be 4"
+        if not isinstance(input_shape[0], str):
+            #return "input_shape[0] should be str to support batch-inference"
+            print('reset input-shape[0] to None')
+            model = onnx.load(self.model_file)
+            model.graph.input[0].type.tensor_type.shape.dim[0].dim_param = 'None'
+            new_model_file = osp.join(self.model_path, 'zzzzrefined.onnx')
+            onnx.save(model, new_model_file)
+            self.model_file = new_model_file
+            print('use new onnx-model:', self.model_file)
+            try:
+                session = onnxruntime.InferenceSession(self.model_file, providers=self.providers)
+            except:
+                return "load onnx failed"
+            input_cfg = session.get_inputs()[0]
+            input_shape = input_cfg.shape
+            print('new-input-shape:', input_shape)
+
+        self.image_size = tuple(input_shape[2:4][::-1])
+        #print('image_size:', self.image_size)
+        input_name = input_cfg.name
+        outputs = session.get_outputs()
+        output_names = []
+        for o in outputs:
+            output_names.append(o.name)
+            #print(o.name, o.shape)
+        if len(output_names)!=1:
+            return "number of output nodes should be 1"
+        self.session = session
+        self.input_name = input_name
+        self.output_names = output_names
+        #print(self.output_names)
+        model = onnx.load(self.model_file)
+        graph = model.graph
+        if len(graph.node)<8:
+            return "too small onnx graph"
+
+        input_size = (112,112)
+        self.crop = None
+        if track=='cfat':
+            crop_file = osp.join(self.model_path, 'crop.txt')
+            if osp.exists(crop_file):
+                lines = open(crop_file,'r').readlines()
+                if len(lines)!=6:
+                    return "crop.txt should contain 6 lines"
+                lines = [int(x) for x in lines]
+                self.crop = lines[:4]
+                input_size = tuple(lines[4:6])
+        if input_size!=self.image_size:
+            return "input-size is inconsistant with onnx model input, %s vs %s"%(input_size, self.image_size)
+
+        self.model_size_mb = os.path.getsize(self.model_file) / float(1024*1024)
+        if self.model_size_mb > max_model_size_mb:
+            return "max model size exceed, given %.3f-MB"%self.model_size_mb
+
+        input_mean = None
+        input_std = None
+        if track=='cfat':
+            pn_file = osp.join(self.model_path, 'pixel_norm.txt')
+            if osp.exists(pn_file):
+                lines = open(pn_file,'r').readlines()
+                if len(lines)!=2:
+                    return "pixel_norm.txt should contain 2 lines"
+                input_mean = float(lines[0])
+                input_std = float(lines[1])
+        if input_mean is not None or input_std is not None:
+            if input_mean is None or input_std is None:
+                return "please set input_mean and input_std simultaneously"
+        else:
+            find_sub = False
+            find_mul = False
+            for nid, node in enumerate(graph.node[:8]):
+                print(nid, node.name)
+                if node.name.startswith('Sub') or node.name.startswith('_minus'):
+                    find_sub = True
+                if node.name.startswith('Mul') or node.name.startswith('_mul') or node.name.startswith('Div'):
+                    find_mul = True
+            if find_sub and find_mul:
+                print("find sub and mul")
+                #mxnet arcface model
+                input_mean = 0.0
+                input_std = 1.0
+            else:
+                input_mean = 127.5
+                input_std = 127.5
+        self.input_mean = input_mean
+        self.input_std = input_std
+        for initn in graph.initializer:
+            weight_array = numpy_helper.to_array(initn)
+            dt = weight_array.dtype
+            if dt.itemsize<4:
+                return 'invalid weight type - (%s:%s)' % (initn.name, dt.name)
+        if test_img is None:
+            test_img = get_image('Tom_Hanks_54745')
+            test_img = cv2.resize(test_img, self.image_size)
+        else:
+            test_img = cv2.resize(test_img, self.image_size)
+        feat, cost = self.benchmark(test_img)
+        batch_result = self.check_batch(test_img)
+        batch_result_sum = float(np.sum(batch_result))
+        if batch_result_sum in [float('inf'), -float('inf')] or batch_result_sum != batch_result_sum:
+            print(batch_result)
+            print(batch_result_sum)
+            return "batch result output contains NaN!"
+
+        if len(feat.shape) < 2:
+           return "the shape of the feature must be two, but get {}".format(str(feat.shape))
+
+        if feat.shape[1] > max_feat_dim:
+            return "max feat dim exceed, given %d"%feat.shape[1]
+        self.feat_dim = feat.shape[1]
+        cost_ms = cost*1000
+        if cost_ms>max_time_cost:
+            return "max time cost exceed, given %.4f"%cost_ms
+        self.cost_ms = cost_ms
+        print('check stat:, model-size-mb: %.4f, feat-dim: %d, time-cost-ms: %.4f, input-mean: %.3f, input-std: %.3f'%(self.model_size_mb, self.feat_dim, self.cost_ms, self.input_mean, self.input_std))
+        return None
+
+    def check_batch(self, img):
+        if not isinstance(img, list):
+            imgs = [img, ] * 32
+        if self.crop is not None:
+            nimgs = []
+            for img in imgs:
+                nimg = img[self.crop[1]:self.crop[3], self.crop[0]:self.crop[2], :]
+                if nimg.shape[0] != self.image_size[1] or nimg.shape[1] != self.image_size[0]:
+                    nimg = cv2.resize(nimg, self.image_size)
+                nimgs.append(nimg)
+            imgs = nimgs
+        blob = cv2.dnn.blobFromImages(
+            images=imgs, scalefactor=1.0 / self.input_std, size=self.image_size,
+            mean=(self.input_mean, self.input_mean, self.input_mean), swapRB=True)
+        net_out = self.session.run(self.output_names, {self.input_name: blob})[0]
+        return net_out
+
+
+    def meta_info(self):
+        return {'model-size-mb':self.model_size_mb, 'feature-dim':self.feat_dim, 'infer': self.cost_ms}
+
+
+    def forward(self, imgs):
+        if not isinstance(imgs, list):
+            imgs = [imgs]
+        input_size = self.image_size
+        if self.crop is not None:
+            nimgs = []
+            for img in imgs:
+                nimg = img[self.crop[1]:self.crop[3],self.crop[0]:self.crop[2],:]
+                if nimg.shape[0]!=input_size[1] or nimg.shape[1]!=input_size[0]:
+                    nimg = cv2.resize(nimg, input_size)
+                nimgs.append(nimg)
+            imgs = nimgs
+        blob = cv2.dnn.blobFromImages(imgs, 1.0/self.input_std, input_size, (self.input_mean, self.input_mean, self.input_mean), swapRB=True)
+        net_out = self.session.run(self.output_names, {self.input_name : blob})[0]
+        return net_out
+
+    def benchmark(self, img):
+        input_size = self.image_size
+        if self.crop is not None:
+            nimg = img[self.crop[1]:self.crop[3],self.crop[0]:self.crop[2],:]
+            if nimg.shape[0]!=input_size[1] or nimg.shape[1]!=input_size[0]:
+                nimg = cv2.resize(nimg, input_size)
+            img = nimg
+        blob = cv2.dnn.blobFromImage(img, 1.0/self.input_std, input_size, (self.input_mean, self.input_mean, self.input_mean), swapRB=True)
+        costs = []
+        for _ in range(50):
+            ta = datetime.datetime.now()
+            net_out = self.session.run(self.output_names, {self.input_name : blob})[0]
+            tb = datetime.datetime.now()
+            cost = (tb-ta).total_seconds()
+            costs.append(cost)
+        costs = sorted(costs)
+        cost = costs[5]
+        return net_out, cost
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='')
+    # general
+    parser.add_argument('workdir', help='submitted work dir', type=str)
+    parser.add_argument('--track', help='track name, for different challenge', type=str, default='cfat')
+    args = parser.parse_args()
+    handler = ArcFaceORT(args.workdir)
+    err = handler.check(args.track)
+    print('err:', err)

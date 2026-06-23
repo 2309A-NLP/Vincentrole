@@ -1,1 +1,120 @@
-IiIiVGhpcyBzY3JpcHQgaXMgdG8gbG9hZCAzRCBmYWNlIG1vZGVsIGZvciBEZWVwM0RGYWNlUmVjb25fcHl0b3JjaAoiIiIKCmltcG9ydCBudW1weSBhcyBucApmcm9tIFBJTCBpbXBvcnQgSW1hZ2UKZnJvbSBzY2lweS5pbyBpbXBvcnQgbG9hZG1hdCwgc2F2ZW1hdApmcm9tIGFycmF5IGltcG9ydCBhcnJheQppbXBvcnQgb3MucGF0aCBhcyBvc3AKCiMgbG9hZCBleHByZXNzaW9uIGJhc2lzCmRlZiBMb2FkRXhwQmFzaXMoYmZtX2ZvbGRlcj0nQkZNJyk6CiAgICBuX3ZlcnRleCA9IDUzMjE1CiAgICBFeHBiaW4gPSBvcGVuKG9zcC5qb2luKGJmbV9mb2xkZXIsICdFeHBfUGNhLmJpbicpLCAncmInKQogICAgZXhwX2RpbSA9IGFycmF5KCdpJykKICAgIGV4cF9kaW0uZnJvbWZpbGUoRXhwYmluLCAxKQogICAgZXhwTVUgPSBhcnJheSgnZicpCiAgICBleHBQQyA9IGFycmF5KCdmJykKICAgIGV4cE1VLmZyb21maWxlKEV4cGJpbiwgMypuX3ZlcnRleCkKICAgIGV4cFBDLmZyb21maWxlKEV4cGJpbiwgMypleHBfZGltWzBdKm5fdmVydGV4KQogICAgRXhwYmluLmNsb3NlKCkKCiAgICBleHBQQyA9IG5wLmFycmF5KGV4cFBDKQogICAgZXhwUEMgPSBucC5yZXNoYXBlKGV4cFBDLCBbZXhwX2RpbVswXSwgLTFdKQogICAgZXhwUEMgPSBucC50cmFuc3Bvc2UoZXhwUEMpCgogICAgZXhwRVYgPSBucC5sb2FkdHh0KG9zcC5qb2luKGJmbV9mb2xkZXIsICdzdGRfZXhwLnR4dCcpKQoKICAgIHJldHVybiBleHBQQywgZXhwRVYKCgojIHRyYW5zZmVyIG9yaWdpbmFsIEJGTTA5IHRvIG91ciBmYWNlIG1vZGVsCmRlZiB0cmFuc2ZlckJGTTA5KGJmbV9mb2xkZXI9J0JGTScpOgogICAgcHJpbnQoJ1RyYW5zZmVyIEJGTTA5IHRvIEJGTV9tb2RlbF9mcm9udC4uLi4uLicpCiAgICBvcmlnaW5hbF9CRk0gPSBsb2FkbWF0KG9zcC5qb2luKGJmbV9mb2xkZXIsICcwMV9Nb3JwaGFibGVNb2RlbC5tYXQnKSkKICAgIHNoYXBlUEMgPSBvcmlnaW5hbF9CRk1bJ3NoYXBlUEMnXSAgIyBzaGFwZSBiYXNpcwogICAgc2hhcGVFViA9IG9yaWdpbmFsX0JGTVsnc2hhcGVFViddICAjIGNvcnJlc3BvbmRpbmcgZWlnZW4gdmFsdWUKICAgIHNoYXBlTVUgPSBvcmlnaW5hbF9CRk1bJ3NoYXBlTVUnXSAgIyBtZWFuIGZhY2UKICAgIHRleFBDID0gb3JpZ2luYWxfQkZNWyd0ZXhQQyddICAjIHRleHR1cmUgYmFzaXMKICAgIHRleEVWID0gb3JpZ2luYWxfQkZNWyd0ZXhFViddICAjIGVpZ2VuIHZhbHVlCiAgICB0ZXhNVSA9IG9yaWdpbmFsX0JGTVsndGV4TVUnXSAgIyBtZWFuIHRleHR1cmUKCiAgICBleHBQQywgZXhwRVYgPSBMb2FkRXhwQmFzaXMoYmZtX2ZvbGRlcikKCiAgICAjIHRyYW5zZmVyIEJGTTA5IHRvIG91ciBmYWNlIG1vZGVsCgogICAgaWRCYXNlID0gc2hhcGVQQypucC5yZXNoYXBlKHNoYXBlRVYsIFstMSwgMTk5XSkKICAgIGlkQmFzZSA9IGlkQmFzZS8xZTUgICMgdW5pZnkgdGhlIHNjYWxlIHRvIGRlY2ltZXRlcgogICAgaWRCYXNlID0gaWRCYXNlWzosIDo4MF0gICMgdXNlIG9ubHkgZmlyc3QgODAgYmFzaXMKCiAgICBleEJhc2UgPSBleHBQQypucC5yZXNoYXBlKGV4cEVWLCBbLTEsIDc5XSkKICAgIGV4QmFzZSA9IGV4QmFzZS8xZTUgICMgdW5pZnkgdGhlIHNjYWxlIHRvIGRlY2ltZXRlcgogICAgZXhCYXNlID0gZXhCYXNlWzosIDo2NF0gICMgdXNlIG9ubHkgZmlyc3QgNjQgYmFzaXMKCiAgICB0ZXhCYXNlID0gdGV4UEMqbnAucmVzaGFwZSh0ZXhFViwgWy0xLCAxOTldKQogICAgdGV4QmFzZSA9IHRleEJhc2VbOiwgOjgwXSAgIyB1c2Ugb25seSBmaXJzdCA4MCBiYXNpcwoKICAgICMgb3VyIGZhY2UgbW9kZWwgaXMgY3JvcHBlZCBhbG9uZyBmYWNlIGxhbmRtYXJrcyBhbmQgY29udGFpbnMgb25seSAzNTcwOSB2ZXJ0ZXguCiAgICAjIG9yaWdpbmFsIEJGTTA5IGNvbnRhaW5zIDUzNDkwIHZlcnRleCwgYW5kIGV4cHJlc3Npb24gYmFzaXMgcHJvdmlkZWQgYnkgR3VvIGV0IGFsLiBjb250YWlucyA1MzIxNSB2ZXJ0ZXguCiAgICAjIHRodXMgd2Ugc2VsZWN0IGNvcnJlc3BvbmRpbmcgdmVydGV4IHRvIGdldCBvdXIgZmFjZSBtb2RlbC4KCiAgICBpbmRleF9leHAgPSBsb2FkbWF0KG9zcC5qb2luKGJmbV9mb2xkZXIsICdCRk1fZnJvbnRfaWR4Lm1hdCcpKQogICAgaW5kZXhfZXhwID0gaW5kZXhfZXhwWydpZHgnXS5hc3R5cGUobnAuaW50MzIpIC0gMSAgIyBzdGFydHMgZnJvbSAwICh0byA1MzIxNSkKCiAgICBpbmRleF9zaGFwZSA9IGxvYWRtYXQob3NwLmpvaW4oYmZtX2ZvbGRlciwgJ0JGTV9leHBfaWR4Lm1hdCcpKQogICAgaW5kZXhfc2hhcGUgPSBpbmRleF9zaGFwZVsndHJpbUluZGV4J10uYXN0eXBlKAogICAgICAgIG5wLmludDMyKSAtIDEgICMgc3RhcnRzIGZyb20gMCAodG8gNTM0OTApCiAgICBpbmRleF9zaGFwZSA9IGluZGV4X3NoYXBlW2luZGV4X2V4cF0KCiAgICBpZEJhc2UgPSBucC5yZXNoYXBlKGlkQmFzZSwgWy0xLCAzLCA4MF0pCiAgICBpZEJhc2UgPSBpZEJhc2VbaW5kZXhfc2hhcGUsIDosIDpdCiAgICBpZEJhc2UgPSBucC5yZXNoYXBlKGlkQmFzZSwgWy0xLCA4MF0pCgogICAgdGV4QmFzZSA9IG5wLnJlc2hhcGUodGV4QmFzZSwgWy0xLCAzLCA4MF0pCiAgICB0ZXhCYXNlID0gdGV4QmFzZVtpbmRleF9zaGFwZSwgOiwgOl0KICAgIHRleEJhc2UgPSBucC5yZXNoYXBlKHRleEJhc2UsIFstMSwgODBdKQoKICAgIGV4QmFzZSA9IG5wLnJlc2hhcGUoZXhCYXNlLCBbLTEsIDMsIDY0XSkKICAgIGV4QmFzZSA9IGV4QmFzZVtpbmRleF9leHAsIDosIDpdCiAgICBleEJhc2UgPSBucC5yZXNoYXBlKGV4QmFzZSwgWy0xLCA2NF0pCgogICAgbWVhbnNoYXBlID0gbnAucmVzaGFwZShzaGFwZU1VLCBbLTEsIDNdKS8xZTUKICAgIG1lYW5zaGFwZSA9IG1lYW5zaGFwZVtpbmRleF9zaGFwZSwgOl0KICAgIG1lYW5zaGFwZSA9IG5wLnJlc2hhcGUobWVhbnNoYXBlLCBbMSwgLTFdKQoKICAgIG1lYW50ZXggPSBucC5yZXNoYXBlKHRleE1VLCBbLTEsIDNdKQogICAgbWVhbnRleCA9IG1lYW50ZXhbaW5kZXhfc2hhcGUsIDpdCiAgICBtZWFudGV4ID0gbnAucmVzaGFwZShtZWFudGV4LCBbMSwgLTFdKQoKICAgICMgb3RoZXIgaW5mbyBjb250YWlucyB0cmlhbmdsZXMsIHJlZ2lvbiB1c2VkIGZvciBjb21wdXRpbmcgcGhvdG9tZXRyaWMgbG9zcywKICAgICMgcmVnaW9uIHVzZWQgZm9yIHNraW4gdGV4dHVyZSByZWd1bGFyaXphdGlvbiwgYW5kIDY4IGxhbmRtYXJrcyBpbmRleCBldGMuCiAgICBvdGhlcl9pbmZvID0gbG9hZG1hdChvc3Auam9pbihiZm1fZm9sZGVyLCAnZmFjZW1vZGVsX2luZm8ubWF0JykpCiAgICBmcm9udG1hc2syX2lkeCA9IG90aGVyX2luZm9bJ2Zyb250bWFzazJfaWR4J10KICAgIHNraW5tYXNrID0gb3RoZXJfaW5mb1snc2tpbm1hc2snXQogICAga2V5cG9pbnRzID0gb3RoZXJfaW5mb1sna2V5cG9pbnRzJ10KICAgIHBvaW50X2J1ZiA9IG90aGVyX2luZm9bJ3BvaW50X2J1ZiddCiAgICB0cmkgPSBvdGhlcl9pbmZvWyd0cmknXQogICAgdHJpX21hc2syID0gb3RoZXJfaW5mb1sndHJpX21hc2syJ10KCiAgICAjIHNhdmUgb3VyIGZhY2UgbW9kZWwKICAgIHNhdmVtYXQob3NwLmpvaW4oYmZtX2ZvbGRlciwgJ0JGTV9tb2RlbF9mcm9udC5tYXQnKSwgeydtZWFuc2hhcGUnOiBtZWFuc2hhcGUsICdtZWFudGV4JzogbWVhbnRleCwgJ2lkQmFzZSc6IGlkQmFzZSwgJ2V4QmFzZSc6IGV4QmFzZSwgJ3RleEJhc2UnOiB0ZXhCYXNlLAogICAgICAgICAgICAndHJpJzogdHJpLCAncG9pbnRfYnVmJzogcG9pbnRfYnVmLCAndHJpX21hc2syJzogdHJpX21hc2syLCAna2V5cG9pbnRzJzoga2V5cG9pbnRzLCAnZnJvbnRtYXNrMl9pZHgnOiBmcm9udG1hc2syX2lkeCwgJ3NraW5tYXNrJzogc2tpbm1hc2t9KQoKCiMgbG9hZCBsYW5kbWFya3MgZm9yIHN0YW5kYXJkIGZhY2UsIHdoaWNoIGlzIHVzZWQgZm9yIGltYWdlIHByZXByb2Nlc3NpbmcKZGVmIGxvYWRfbG0zZChiZm1fZm9sZGVyKToKCiAgICBMbTNEID0gbG9hZG1hdChvc3Auam9pbihiZm1fZm9sZGVyLCAnc2ltaWxhcml0eV9MbTNEX2FsbC5tYXQnKSkKICAgIExtM0QgPSBMbTNEWydsbSddCgogICAgIyBjYWxjdWxhdGUgNSBmYWNpYWwgbGFuZG1hcmtzIHVzaW5nIDY4IGxhbmRtYXJrcwogICAgbG1faWR4ID0gbnAuYXJyYXkoWzMxLCAzNywgNDAsIDQzLCA0NiwgNDksIDU1XSkgLSAxCiAgICBMbTNEID0gbnAuc3RhY2soW0xtM0RbbG1faWR4WzBdLCA6XSwgbnAubWVhbihMbTNEW2xtX2lkeFtbMSwgMl1dLCA6XSwgMCksIG5wLm1lYW4oCiAgICAgICAgTG0zRFtsbV9pZHhbWzMsIDRdXSwgOl0sIDApLCBMbTNEW2xtX2lkeFs1XSwgOl0sIExtM0RbbG1faWR4WzZdLCA6XV0sIGF4aXM9MCkKICAgIExtM0QgPSBMbTNEW1sxLCAyLCAwLCAzLCA0XSwgOl0KCiAgICByZXR1cm4gTG0zRAoKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICB0cmFuc2ZlckJGTTA5KCk=
+"""This script is to load 3D face model for Deep3DFaceRecon_pytorch
+"""
+
+import numpy as np
+from PIL import Image
+from scipy.io import loadmat, savemat
+from array import array
+import os.path as osp
+
+# load expression basis
+def LoadExpBasis(bfm_folder='BFM'):
+    n_vertex = 53215
+    Expbin = open(osp.join(bfm_folder, 'Exp_Pca.bin'), 'rb')
+    exp_dim = array('i')
+    exp_dim.fromfile(Expbin, 1)
+    expMU = array('f')
+    expPC = array('f')
+    expMU.fromfile(Expbin, 3*n_vertex)
+    expPC.fromfile(Expbin, 3*exp_dim[0]*n_vertex)
+    Expbin.close()
+
+    expPC = np.array(expPC)
+    expPC = np.reshape(expPC, [exp_dim[0], -1])
+    expPC = np.transpose(expPC)
+
+    expEV = np.loadtxt(osp.join(bfm_folder, 'std_exp.txt'))
+
+    return expPC, expEV
+
+
+# transfer original BFM09 to our face model
+def transferBFM09(bfm_folder='BFM'):
+    print('Transfer BFM09 to BFM_model_front......')
+    original_BFM = loadmat(osp.join(bfm_folder, '01_MorphableModel.mat'))
+    shapePC = original_BFM['shapePC']  # shape basis
+    shapeEV = original_BFM['shapeEV']  # corresponding eigen value
+    shapeMU = original_BFM['shapeMU']  # mean face
+    texPC = original_BFM['texPC']  # texture basis
+    texEV = original_BFM['texEV']  # eigen value
+    texMU = original_BFM['texMU']  # mean texture
+
+    expPC, expEV = LoadExpBasis(bfm_folder)
+
+    # transfer BFM09 to our face model
+
+    idBase = shapePC*np.reshape(shapeEV, [-1, 199])
+    idBase = idBase/1e5  # unify the scale to decimeter
+    idBase = idBase[:, :80]  # use only first 80 basis
+
+    exBase = expPC*np.reshape(expEV, [-1, 79])
+    exBase = exBase/1e5  # unify the scale to decimeter
+    exBase = exBase[:, :64]  # use only first 64 basis
+
+    texBase = texPC*np.reshape(texEV, [-1, 199])
+    texBase = texBase[:, :80]  # use only first 80 basis
+
+    # our face model is cropped along face landmarks and contains only 35709 vertex.
+    # original BFM09 contains 53490 vertex, and expression basis provided by Guo et al. contains 53215 vertex.
+    # thus we select corresponding vertex to get our face model.
+
+    index_exp = loadmat(osp.join(bfm_folder, 'BFM_front_idx.mat'))
+    index_exp = index_exp['idx'].astype(np.int32) - 1  # starts from 0 (to 53215)
+
+    index_shape = loadmat(osp.join(bfm_folder, 'BFM_exp_idx.mat'))
+    index_shape = index_shape['trimIndex'].astype(
+        np.int32) - 1  # starts from 0 (to 53490)
+    index_shape = index_shape[index_exp]
+
+    idBase = np.reshape(idBase, [-1, 3, 80])
+    idBase = idBase[index_shape, :, :]
+    idBase = np.reshape(idBase, [-1, 80])
+
+    texBase = np.reshape(texBase, [-1, 3, 80])
+    texBase = texBase[index_shape, :, :]
+    texBase = np.reshape(texBase, [-1, 80])
+
+    exBase = np.reshape(exBase, [-1, 3, 64])
+    exBase = exBase[index_exp, :, :]
+    exBase = np.reshape(exBase, [-1, 64])
+
+    meanshape = np.reshape(shapeMU, [-1, 3])/1e5
+    meanshape = meanshape[index_shape, :]
+    meanshape = np.reshape(meanshape, [1, -1])
+
+    meantex = np.reshape(texMU, [-1, 3])
+    meantex = meantex[index_shape, :]
+    meantex = np.reshape(meantex, [1, -1])
+
+    # other info contains triangles, region used for computing photometric loss,
+    # region used for skin texture regularization, and 68 landmarks index etc.
+    other_info = loadmat(osp.join(bfm_folder, 'facemodel_info.mat'))
+    frontmask2_idx = other_info['frontmask2_idx']
+    skinmask = other_info['skinmask']
+    keypoints = other_info['keypoints']
+    point_buf = other_info['point_buf']
+    tri = other_info['tri']
+    tri_mask2 = other_info['tri_mask2']
+
+    # save our face model
+    savemat(osp.join(bfm_folder, 'BFM_model_front.mat'), {'meanshape': meanshape, 'meantex': meantex, 'idBase': idBase, 'exBase': exBase, 'texBase': texBase,
+            'tri': tri, 'point_buf': point_buf, 'tri_mask2': tri_mask2, 'keypoints': keypoints, 'frontmask2_idx': frontmask2_idx, 'skinmask': skinmask})
+
+
+# load landmarks for standard face, which is used for image preprocessing
+def load_lm3d(bfm_folder):
+
+    Lm3D = loadmat(osp.join(bfm_folder, 'similarity_Lm3D_all.mat'))
+    Lm3D = Lm3D['lm']
+
+    # calculate 5 facial landmarks using 68 landmarks
+    lm_idx = np.array([31, 37, 40, 43, 46, 49, 55]) - 1
+    Lm3D = np.stack([Lm3D[lm_idx[0], :], np.mean(Lm3D[lm_idx[[1, 2]], :], 0), np.mean(
+        Lm3D[lm_idx[[3, 4]], :], 0), Lm3D[lm_idx[5], :], Lm3D[lm_idx[6], :]], axis=0)
+    Lm3D = Lm3D[[1, 2, 0, 3, 4], :]
+
+    return Lm3D
+
+
+if __name__ == '__main__':
+    transferBFM09()

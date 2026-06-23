@@ -1,1 +1,28 @@
-aW1wb3J0IHRvcmNoCmltcG9ydCB0b3JjaC5ubiBhcyBubgppbXBvcnQgdG9yY2gubm4uZnVuY3Rpb25hbCBhcyBGCgpmcm9tIC4gaW1wb3J0IGJsb2NrcywgdHJhbnNmb3JtcwoKCl9fYWxsX18gPSBbICdIZWF0bWFwSGVhZCcgXQoKCmNsYXNzIEhlYXRtYXBIZWFkKG5uLk1vZHVsZSk6CiAgICAiIiJIZWF0bWFwSGVhZAogICAgIiIiCiAgICBkZWYgX19pbml0X18oc2VsZiwgY2ZnLCAqKmt3YXJncyk6CiAgICAgICAgc3VwZXIoSGVhdG1hcEhlYWQsIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLmRlY29kZXIgPSB0cmFuc2Zvcm1zLl9fZGljdF9fW2NmZy5IRUFUTUFQLkRFQ09ERVJdKAogICAgICAgICAgICB0b3BrPWNmZy5IRUFUTUFQLlRPUEssCiAgICAgICAgICAgIHN0cmlkZT1jZmcuSEVBVE1BUC5TVFJJREUsCiAgICAgICAgKQogICAgICAgIHNlbGYuaGVhZCA9IGJsb2Nrcy5fX2RpY3RfX1tjZmcuSEVBVE1BUC5CTE9DS10oCiAgICAgICAgICAgIGluX2NoYW5uZWxzPWNmZy5IRUFUTUFQLklOX0NIQU5ORUwsCiAgICAgICAgICAgIHByb2pfY2hhbm5lbHM9Y2ZnLkhFQVRNQVAuUFJPSl9DSEFOTkVMLAogICAgICAgICAgICBvdXRfY2hhbm5lbHM9Y2ZnLkhFQVRNQVAuT1VUX0NIQU5ORUwsCiAgICAgICAgKQogICAgICAgIAogICAgZGVmIGZvcndhcmQoc2VsZiwgaW5wdXQpOgogICAgICAgIHJldHVybiBzZWxmLmRlY29kZXIoc2VsZi5oZWFkKGlucHV0KSkKICAgICAgICAK
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+from . import blocks, transforms
+
+
+__all__ = [ 'HeatmapHead' ]
+
+
+class HeatmapHead(nn.Module):
+    """HeatmapHead
+    """
+    def __init__(self, cfg, **kwargs):
+        super(HeatmapHead, self).__init__()
+        self.decoder = transforms.__dict__[cfg.HEATMAP.DECODER](
+            topk=cfg.HEATMAP.TOPK,
+            stride=cfg.HEATMAP.STRIDE,
+        )
+        self.head = blocks.__dict__[cfg.HEATMAP.BLOCK](
+            in_channels=cfg.HEATMAP.IN_CHANNEL,
+            proj_channels=cfg.HEATMAP.PROJ_CHANNEL,
+            out_channels=cfg.HEATMAP.OUT_CHANNEL,
+        )
+        
+    def forward(self, input):
+        return self.decoder(self.head(input))
+        

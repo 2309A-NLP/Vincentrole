@@ -1,1 +1,54 @@
-JycnCuagueaNrueOsOaciUh1Z2dpbmdGYWNl55qETExN55qE6LCD55So5pa55byP5YaZ5LiA5Liq5qih5p2/CuazqOaEj+S4gOS4i+aYr+WQpuiwg+eUqOaWueW8j+exu+S8vO+8jOWmguaenOS4jeexu+S8vO+8jOmcgOimgeS/ruaUuemHjOmdoueahOaOqOeQhuS7o+eggQrmlK/mjIHvvJpRd2Vu77yMQ2hhdExMTeetiQonJycKZnJvbSB0cmFuc2Zvcm1lcnMgaW1wb3J0IEF1dG9Nb2RlbEZvckNhdXNhbExNLCBBdXRvVG9rZW5pemVyCgpjbGFzcyBDaGF0R0xNOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG1vZGU9J29mZmxpbmUnLCBtb2RlbF9wYXRoID0gJ1RIVURNL2NoYXRnbG0zLTZiJywgcHJlZml4X3Byb21wdCA9ICcnJ+ivt+eUqOWwkeS6jjI15Liq5a2X5Zue562U5Lul5LiL6Zeu6aKYXG5cbicnJyk6CiAgICAgICAgc2VsZi5tb2RlID0gbW9kZQogICAgICAgIHNlbGYubW9kZWwsIHNlbGYudG9rZW5pemVyID0gc2VsZi5pbml0X21vZGVsKG1vZGVsX3BhdGgpCiAgICAgICAgc2VsZi5oaXN0b3J5ID0gTm9uZQogICAgICAgIHNlbGYucHJlZml4X3Byb21wdCA9IHByZWZpeF9wcm9tcHQKICAgICAgICBhc3NlcnQgc2VsZi5tb2RlID09ICdvZmZsaW5lJywgIkNoYXRHTE3lj6rmlK/mjIHnprvnur/mqKHlvI8iCiAgICAKICAgIGRlZiBpbml0X21vZGVsKHNlbGYsIG1vZGVsX3BhdGgpOgogICAgICAgIG1vZGVsID0gQXV0b01vZGVsRm9yQ2F1c2FsTE0uZnJvbV9wcmV0cmFpbmVkKG1vZGVsX3BhdGgsIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRldmljZV9tYXA9ImF1dG8iLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnVzdF9yZW1vdGVfY29kZT1UcnVlKS5ldmFsKCkKICAgICAgICB0b2tlbml6ZXIgPSBBdXRvVG9rZW5pemVyLmZyb21fcHJldHJhaW5lZChtb2RlbF9wYXRoLCB0cnVzdF9yZW1vdGVfY29kZT1UcnVlKQogICAgICAgIHJldHVybiBtb2RlbCwgdG9rZW5pemVyICAgCiAgICAKICAgIGRlZiBnZW5lcmF0ZShzZWxmLCBwcm9tcHQsIHN5c3RlbV9wcm9tcHQ9IiIpOgogICAgICAgIGlmIHNlbGYubW9kZSAhPSAnYXBpJzoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgIyDms6jmhI/ov5nph4znmoRoaXN0b3J55piv5LiqbGlzdO+8jOavj+asoeiwg+eUqOmDveS8muaKinByb21wdOWSjHJlc3BvbnNl6YO95pS+6L+b5Y67CiAgICAgICAgICAgICAgICAjIOWmguaenOS9v+eUqO+8jOafpeeci+WvueW6lOeahOaWueazleaYr+WQpuexu+S8vO+8jOi/memHjOaYr+mXruetlOeahOmHjeimgemDqOS7ve+8jOi/memHjOato+ehru+8jOWfuuacrOWwseato+ehruS6hgogICAgICAgICAgICAgICAgcmVzcG9uc2UsIHNlbGYuaGlzdG9yeSA9IHNlbGYubW9kZWwuY2hhdChzZWxmLnRva2VuaXplciwgc2VsZi5wcmVmaXhfcHJvbXB0ICsgcHJvbXB0LCBoaXN0b3J5PXNlbGYuaGlzdG9yeSkKICAgICAgICAgICAgICAgIHJldHVybiByZXNwb25zZQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgICAgICBwcmludChlKQogICAgICAgICAgICAgICAgcmV0dXJuICLlr7nkuI3otbfvvIzkvaDnmoTor7fmsYLlh7rplJnkuobvvIzor7flho3mrKHlsJ3or5XjgIJcblNvcnJ5LCB5b3VyIHJlcXVlc3QgaGFzIGVuY291bnRlcmVkIGFuIGVycm9yLiBQbGVhc2UgdHJ5IGFnYWluLlxuIgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBzZWxmLnByZWRpY3RfYXBpKHByb21wdCkKICAgIAogICAgZGVmIHByZWRpY3RfYXBpKHNlbGYsIHByb21wdCk6CiAgICAgICAgJycn5pqC5pe25LiN5YaZYXBp54mI5pysLOS4jkxpbmx5LWFwaeebuOexu+S8vCzmhJ/lhbTotqPlj6/ku6Xlrp7njrDkuIDkuIsnJycKICAgICAgICBwYXNzIAogICAgCiAgICBkZWYgY2hhdChzZWxmLCBzeXN0ZW1fcHJvbXB0LCBtZXNzYWdlKToKICAgICAgICByZXNwb25zZSA9IHNlbGYuZ2VuZXJhdGUobWVzc2FnZSwgc3lzdGVtX3Byb21wdCkKICAgICAgICBzZWxmLmhpc3RvcnkuYXBwZW5kKChtZXNzYWdlLCByZXNwb25zZSkpCiAgICAgICAgcmV0dXJuIHJlc3BvbnNlLCBzZWxmLmhpc3RvcnkKICAgIAogICAgZGVmIGNsZWFyX2hpc3Rvcnkoc2VsZik6CiAgICAgICAgc2VsZi5oaXN0b3J5ID0gW10KCmRlZiB0ZXN0KCk6CiAgICBsbG0gPSBDaGF0R0xNKG1vZGU9J29mZmxpbmUnLG1vZGVsX3BhdGg9J1RIVURNL2NoYXRnbG0zLTZiJykKICAgIGFuc3dlciA9IGxsbS5nZW5lcmF0ZSgi5aaC5L2V5bqU5a+55Y6L5Yqb77yfIikKICAgIHByaW50KGFuc3dlcikKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICB0ZXN0KCkK
+'''
+根据现有HuggingFace的LLM的调用方式写一个模板
+注意一下是否调用方式类似，如果不类似，需要修改里面的推理代码
+支持：Qwen，ChatLLM等
+'''
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+class ChatGLM:
+    def __init__(self, mode='offline', model_path = 'THUDM/chatglm3-6b', prefix_prompt = '''请用少于25个字回答以下问题\n\n'''):
+        self.mode = mode
+        self.model, self.tokenizer = self.init_model(model_path)
+        self.history = None
+        self.prefix_prompt = prefix_prompt
+        assert self.mode == 'offline', "ChatGLM只支持离线模式"
+    
+    def init_model(self, model_path):
+        model = AutoModelForCausalLM.from_pretrained(model_path, 
+                                                     device_map="auto", 
+                                                     trust_remote_code=True).eval()
+        tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+        return model, tokenizer   
+    
+    def generate(self, prompt, system_prompt=""):
+        if self.mode != 'api':
+            try:
+                # 注意这里的history是个list，每次调用都会把prompt和response都放进去
+                # 如果使用，查看对应的方法是否类似，这里是问答的重要部份，这里正确，基本就正确了
+                response, self.history = self.model.chat(self.tokenizer, self.prefix_prompt + prompt, history=self.history)
+                return response
+            except Exception as e:
+                print(e)
+                return "对不起，你的请求出错了，请再次尝试。\nSorry, your request has encountered an error. Please try again.\n"
+        else:
+            return self.predict_api(prompt)
+    
+    def predict_api(self, prompt):
+        '''暂时不写api版本,与Linly-api相类似,感兴趣可以实现一下'''
+        pass 
+    
+    def chat(self, system_prompt, message):
+        response = self.generate(message, system_prompt)
+        self.history.append((message, response))
+        return response, self.history
+    
+    def clear_history(self):
+        self.history = []
+
+def test():
+    llm = ChatGLM(mode='offline',model_path='THUDM/chatglm3-6b')
+    answer = llm.generate("如何应对压力？")
+    print(answer)
+
+if __name__ == '__main__':
+    test()

@@ -1,1 +1,125 @@
-aW1wb3J0IHRpbWUKaW1wb3J0IHJlcXVlc3RzCmltcG9ydCBqc29uCgpkZWYgX2V4dHJhY3RfcGxhaW5fcmVzcG9uc2UoZGF0YV9zdHJpbmcpOgogICAgJycnCiAgICDku45RQW55dGhpbmcgQVBJ6L+U5Zue55qEanNvbuaVsOaNruS4reaPkOWPlmFuc3dlcuWtl+auteeahOWAvAogICAgJycnCiAgICB0cnk6CiAgICAgICAgIyDljrvmjonlrZfnrKbkuLLliY3lkI7nmoTlj4zlvJXlj7cKICAgICAgICBkYXRhX3N0cmluZyA9IGRhdGFfc3RyaW5nLnN0cmlwKCciJykKICAgICAgICAKICAgICAgICAjIOWwhuWtl+espuS4sui9rOaNouS4uuWtl+WFuAogICAgICAgIGRhdGFfZGljdCA9IGpzb24ubG9hZHMoZGF0YV9zdHJpbmcuc3BsaXQoIjogIiwgMSlbMV0pCiAgICAgICAgCiAgICAgICAgIyDmj5Dlj5blubbov5Tlm54KICAgICAgICByZXR1cm4gZGF0YV9kaWN0LmdldCgiYW5zd2VyIiwgIiIpCiAgICBleGNlcHQgKGpzb24uSlNPTkRlY29kZUVycm9yLCBJbmRleEVycm9yKToKICAgICAgICByZXR1cm4gIkludmFsaWQgZm9ybWF0IgoKZGVmIF9leHRyYWN0X2RpY3RzX2Zyb21fZGF0YShqc29uX3N0cmluZyk6CiAgICAnJycKICAgIOS7jlFBbnl0aGluZyBBUEnov5Tlm57nmoTnn6Xor4blupPkv6Hmga8oanNvbuaVsOaNrinkuK3mj5Dlj5ZkYXRh5a2X5q6155qE5aSa5Liq5a2X5YW4KOS7o+ihqOWtmOWcqOeahOWQhOS4quefpeivhuW6kykKICAgICcnJwogICAgdHJ5OgogICAgICAgICMg5bCG5a2X56ym5Liy6L2s5o2i5Li65a2X5YW4CiAgICAgICAgZGF0YV9kaWN0ID0ganNvbi5sb2Fkcyhqc29uX3N0cmluZykKICAgICAgICAKICAgICAgICAjIOajgOafpWNvZGXmmK/lkKbkuLoyMDAKICAgICAgICBpZiBkYXRhX2RpY3QuZ2V0KCJjb2RlIikgPT0gMjAwOgogICAgICAgICAgICAjIOaPkOWPluW5tui/lOWbnmRhdGHkuK3nmoTlpJrkuKrlrZflhbgKICAgICAgICAgICAgcmV0dXJuIGRhdGFfZGljdC5nZXQoImRhdGEiLCBbXSkKICAgICAgICBlbHNlOgogICAgICAgICAgICByZXR1cm4gIkludmFsaWQgY29kZSIKICAgIGV4Y2VwdCBqc29uLkpTT05EZWNvZGVFcnJvcjoKICAgICAgICByZXR1cm4gIkludmFsaWQgSlNPTiBmb3JtYXQiCgoKY2xhc3MgUUFueXRoaW5nOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG1vZGVsX3BhdGg6IHN0cj0ncWFueXRoaW5nJywgCiAgICAgICAgICAgICAgICAgdXJsX3Jvb3Q6IHN0cj0naHR0cDovL2xvY2FsaG9zdDo4Nzc3L2FwaS9sb2NhbF9kb2NfcWEvJywKICAgICAgICAgICAgICAgICB1cmxfY2hhdF9zdWZmaXg6IHN0cj0nbG9jYWxfZG9jX2NoYXQnLAogICAgICAgICAgICAgICAgIHVybF9rYnNfc3VmZml4OiBzdHI9J2xpc3Rfa25vd2xlZGdlX2Jhc2UnLAogICAgICAgICAgICAgICAgIGRlZmF1bHRfa2JfaWRzOiBsaXN0PVsiZXhhbXBsZV9rbm93bGVkZ2VfYmFzZV9pZCJdKTogICMgTk9URTogbWF5YmUgZXhwb3NlIHRvIGZyb250ZW5kCiAgICAgICAgIiIiCiAgICAgICAg5L2/55SoUUFueXRoaW5n5pyN5YqhQVBJ5Z+65LqO55+l6K+G5bqT6L+b6KGMTExN5a+56K+dLCDpnIDopoHoh7PlsJHkuIDkuKrnn6Xor4blupMuIAoKICAgICAgICBBcmdzOgogICAgICAgICAgICBtb2RlbF9wYXRoIChzdHIpOiDmqKHlnovlkI3np7AKICAgICAgICAgICAgbW9kZSAoc3RyLCBvcHRpb25hbCk6IOaooeW8j++8jCdvZmZsaW5lJ+ihqOekuuemu+e6v+aooeW8j++8jCdhcGkn6KGo56S65L2/55SoQVBJ5qih5byP44CC6buY6K6k5Li6J29mZmxpbmUKICAgICAgICAgICAgdXJsX3Jvb3QgKHN0ciwgb3B0aW9uYWwpOiDmnI3liqHlmajnmoTmoLlVUkzjgILpu5jorqTkuLonaHR0cDovL2xvY2FsaG9zdDo4Nzc3L2FwaS9sb2NhbF9kb2NfcWEvJwogICAgICAgICAgICB1cmxfY2hhdF9zdWZmaXggKHN0ciwgb3B0aW9uYWwpOiDmnI3liqHlmajnmoTlr7nor53mjqXlj6PlkI7nvIDjgILpu5jorqTkuLonbG9jYWxfZG9jX2NoYXQnCiAgICAgICAgICAgIHVybF9rYnNfc3VmZml4IChzdHIsIG9wdGlvbmFsKTog5pyN5Yqh5Zmo55qE55+l6K+G5bqT5o6l5Y+j5ZCO57yA44CC6buY6K6k5Li6J2xpc3Rfa25vd2xlZGdlX2Jhc2UnCiAgICAgICAgIiIiCiAgICAgICAgc2VsZi5tb2RlbF9wYXRoID0gbW9kZWxfcGF0aAogICAgICAgIHNlbGYudXJsX3Jvb3Q9IHVybF9yb290CiAgICAgICAgc2VsZi51cmxfY2hhdF9zdWZmaXggPSB1cmxfY2hhdF9zdWZmaXgKICAgICAgICBzZWxmLnVybF9rYnNfc3VmZml4ID0gdXJsX2tic19zdWZmaXgKICAgICAgICBzZWxmLmRlZmF1bHRfa2JfaWRzID0gZGVmYXVsdF9rYl9pZHMKICAgICAgICBrYnMgPSBzZWxmLmdldF9rYnMoKQogICAgICAgIGFsbF9rYl9pZHMgPSBba2JbJ2tiX2lkJ10gZm9yIGtiIGluIGtic10KICAgICAgICBrYl9leGlzdCA9IGFsbChrYl9pZCBpbiBhbGxfa2JfaWRzIGZvciBrYl9pZCBpbiBzZWxmLmRlZmF1bHRfa2JfaWRzKQogICAgICAgIGlmIG5vdCBrYl9leGlzdDoKICAgICAgICAgICAgcHJpbnQoIum7mOiupOeahOefpeivhuW6k0lE5LiN5a2Y5Zyo5oiW6L+e5o6l5aSx6LSl77yM6K+35qOA5p+lIikKICAgICAgICAgICAgcHJpbnQoZiLpu5jorqTnmoTnn6Xor4blupNJRDoge3NlbGYuZGVmYXVsdF9rYl9pZHN9IikKICAgICAgICAgICAgcHJpbnQoZiLmiYDmnInnmoTnn6Xor4blupNJRDoge2FsbF9rYl9pZHN9IikKCiAgICBkZWYgZ2V0X2ticyhzZWxmLCB1c2VyX2lkPSd6enAnKToKICAgICAgICBmdWxsX3VybCA9IHNlbGYudXJsX3Jvb3QgKyBzZWxmLnVybF9rYnNfc3VmZml4CiAgICAgICAgaGVhZGVycyA9IHsKICAgICAgICAgICAgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIgogICAgICAgIH0KICAgICAgICBkYXRhID0gewogICAgICAgICAgICAidXNlcl9pZCI6IHVzZXJfaWQKICAgICAgICB9CgogICAgICAgIHRyeToKICAgICAgICAgICAgcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KGZ1bGxfdXJsLCBoZWFkZXJzPWhlYWRlcnMsIGRhdGE9anNvbi5kdW1wcyhkYXRhKSkKICAgICAgICAgICAgcmV0dXJuIF9leHRyYWN0X2RpY3RzX2Zyb21fZGF0YShyZXNwb25zZS50ZXh0KQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgcHJpbnQoZiJRQW55dGhpbmcgbGlzdCBrbm93bGVkZ2UgYmFzZTog6K+35rGC5Y+R6YCB5aSx6LSlOiB7ZX0iKQogICAgICAgICAgICByZXR1cm4gW10KICAgIAogICAgZGVmIHNlbmRfcmVxdWVzdChzZWxmLCBwcm9tcHQsIHVzZXJfaWQ9J3p6cCcsIGtkX2lkcz1Ob25lKToKICAgICAgICBmdWxsX3VybCA9IHNlbGYudXJsX3Jvb3QgKyBzZWxmLnVybF9jaGF0X3N1ZmZpeAogICAgICAgIGhlYWRlcnMgPSB7CiAgICAgICAgICAgICdjb250ZW50LXR5cGUnOiAnYXBwbGljYXRpb24vanNvbicKICAgICAgICB9CiAgICAgICAga2RfaWRzID0ga2RfaWRzIGlmIGtkX2lkcyBlbHNlIHNlbGYuZGVmYXVsdF9rYl9pZHMKICAgICAgICBkYXRhID0gewogICAgICAgICAgICAidXNlcl9pZCI6IHVzZXJfaWQsCiAgICAgICAgICAgICJrYl9pZHMiOiBrZF9pZHMsCiAgICAgICAgICAgICJxdWVzdGlvbiI6IHByb21wdCwKICAgICAgICB9CiAgICAgICAgdHJ5OgogICAgICAgICAgICBzdGFydF90aW1lID0gdGltZS50aW1lKCkKICAgICAgICAgICAgcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KHVybD1mdWxsX3VybCwgaGVhZGVycz1oZWFkZXJzLCBqc29uPWRhdGEsIHRpbWVvdXQ9NjApCiAgICAgICAgICAgIGVuZF90aW1lID0gdGltZS50aW1lKCkKICAgICAgICAgICAgcmVzID0gcmVzcG9uc2UuanNvbigpCiAgICAgICAgICAgIHByaW50KHJlc1sncmVzcG9uc2UnXSkKICAgICAgICAgICAgcHJpbnQoZiLlk43lupTnirbmgIHnoIE6IHtyZXNwb25zZS5zdGF0dXNfY29kZX0sIOWTjeW6lOaXtumXtDoge2VuZF90aW1lIC0gc3RhcnRfdGltZX3np5IiKQogICAgICAgICAgICByZXR1cm4gX2V4dHJhY3RfcGxhaW5fcmVzcG9uc2UocmVzWydyZXNwb25zZSddKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgcHJpbnQoZiJRQW55dGhpbmcgY2hhdDog6K+35rGC5Y+R6YCB5aSx6LSlOiB7ZX0iKQogICAgCiAgICBkZWYgZ2VuZXJhdGUoc2VsZiwgcHJvbXB0KToKICAgICAgICAiIiIKICAgICAgICDnlJ/miJDlr7nor53lk43lupQKCiAgICAgICAgQXJnczoKICAgICAgICAgICAgcHJvbXB0IChzdHIpOiDlr7nor53nmoTmj5DnpLoKCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgc3RyOiDlr7nor53lk43lupQKICAgICAgICAiIiIKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJldHVybiBzZWxmLnNlbmRfcmVxdWVzdChwcm9tcHQpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICByZXR1cm4gIuWvueS4jei1t++8jOS9oOeahOivt+axguWHuumUmeS6hu+8jOivt+WGjeasoeWwneivleOAglxuU29ycnksIHlvdXIgcmVxdWVzdCBoYXMgZW5jb3VudGVyZWQgYW4gZXJyb3IuIFBsZWFzZSB0cnkgYWdhaW4uXG4iCgoKaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIGxsbSA9IFFBbnl0aGluZygpCiAgICBhbnN3ZXIgPSBsbG0uZ2VuZXJhdGUoIuWmguS9leW6lOWvueWOi+WKm++8nyIpCiAgICBwcmludChhbnN3ZXIpCg==
+import time
+import requests
+import json
+
+def _extract_plain_response(data_string):
+    '''
+    从QAnything API返回的json数据中提取answer字段的值
+    '''
+    try:
+        # 去掉字符串前后的双引号
+        data_string = data_string.strip('"')
+        
+        # 将字符串转换为字典
+        data_dict = json.loads(data_string.split(": ", 1)[1])
+        
+        # 提取并返回
+        return data_dict.get("answer", "")
+    except (json.JSONDecodeError, IndexError):
+        return "Invalid format"
+
+def _extract_dicts_from_data(json_string):
+    '''
+    从QAnything API返回的知识库信息(json数据)中提取data字段的多个字典(代表存在的各个知识库)
+    '''
+    try:
+        # 将字符串转换为字典
+        data_dict = json.loads(json_string)
+        
+        # 检查code是否为200
+        if data_dict.get("code") == 200:
+            # 提取并返回data中的多个字典
+            return data_dict.get("data", [])
+        else:
+            return "Invalid code"
+    except json.JSONDecodeError:
+        return "Invalid JSON format"
+
+
+class QAnything:
+    def __init__(self, model_path: str='qanything', 
+                 url_root: str='http://localhost:8777/api/local_doc_qa/',
+                 url_chat_suffix: str='local_doc_chat',
+                 url_kbs_suffix: str='list_knowledge_base',
+                 default_kb_ids: list=["example_knowledge_base_id"]):  # NOTE: maybe expose to frontend
+        """
+        使用QAnything服务API基于知识库进行LLM对话, 需要至少一个知识库. 
+
+        Args:
+            model_path (str): 模型名称
+            mode (str, optional): 模式，'offline'表示离线模式，'api'表示使用API模式。默认为'offline
+            url_root (str, optional): 服务器的根URL。默认为'http://localhost:8777/api/local_doc_qa/'
+            url_chat_suffix (str, optional): 服务器的对话接口后缀。默认为'local_doc_chat'
+            url_kbs_suffix (str, optional): 服务器的知识库接口后缀。默认为'list_knowledge_base'
+        """
+        self.model_path = model_path
+        self.url_root= url_root
+        self.url_chat_suffix = url_chat_suffix
+        self.url_kbs_suffix = url_kbs_suffix
+        self.default_kb_ids = default_kb_ids
+        kbs = self.get_kbs()
+        all_kb_ids = [kb['kb_id'] for kb in kbs]
+        kb_exist = all(kb_id in all_kb_ids for kb_id in self.default_kb_ids)
+        if not kb_exist:
+            print("默认的知识库ID不存在或连接失败，请检查")
+            print(f"默认的知识库ID: {self.default_kb_ids}")
+            print(f"所有的知识库ID: {all_kb_ids}")
+
+    def get_kbs(self, user_id='zzp'):
+        full_url = self.url_root + self.url_kbs_suffix
+        headers = {
+            "Content-Type": "application/json"
+        }
+        data = {
+            "user_id": user_id
+        }
+
+        try:
+            response = requests.post(full_url, headers=headers, data=json.dumps(data))
+            return _extract_dicts_from_data(response.text)
+        except Exception as e:
+            print(f"QAnything list knowledge base: 请求发送失败: {e}")
+            return []
+    
+    def send_request(self, prompt, user_id='zzp', kd_ids=None):
+        full_url = self.url_root + self.url_chat_suffix
+        headers = {
+            'content-type': 'application/json'
+        }
+        kd_ids = kd_ids if kd_ids else self.default_kb_ids
+        data = {
+            "user_id": user_id,
+            "kb_ids": kd_ids,
+            "question": prompt,
+        }
+        try:
+            start_time = time.time()
+            response = requests.post(url=full_url, headers=headers, json=data, timeout=60)
+            end_time = time.time()
+            res = response.json()
+            print(res['response'])
+            print(f"响应状态码: {response.status_code}, 响应时间: {end_time - start_time}秒")
+            return _extract_plain_response(res['response'])
+        except Exception as e:
+            print(f"QAnything chat: 请求发送失败: {e}")
+    
+    def generate(self, prompt):
+        """
+        生成对话响应
+
+        Args:
+            prompt (str): 对话的提示
+
+        Returns:
+            str: 对话响应
+        """
+        try:
+            return self.send_request(prompt)
+        except Exception as e:
+            return "对不起，你的请求出错了，请再次尝试。\nSorry, your request has encountered an error. Please try again.\n"
+
+
+if __name__ == '__main__':
+    llm = QAnything()
+    answer = llm.generate("如何应对压力？")
+    print(answer)

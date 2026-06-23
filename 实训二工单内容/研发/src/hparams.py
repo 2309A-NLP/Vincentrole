@@ -1,1 +1,67 @@
-Y2xhc3MgSFBhcmFtczoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCAqKmt3YXJncyk6CiAgICAgICAgc2VsZi5kYXRhID0ge30KCiAgICAgICAgZm9yIGtleSwgdmFsdWUgaW4ga3dhcmdzLml0ZW1zKCk6CiAgICAgICAgICAgIHNlbGYuZGF0YVtrZXldID0gdmFsdWUKCiAgICBkZWYgX19nZXRhdHRyX18oc2VsZiwga2V5KToKICAgICAgICBpZiBrZXkgbm90IGluIHNlbGYuZGF0YToKICAgICAgICAgICAgcmFpc2UgQXR0cmlidXRlRXJyb3IoIidIUGFyYW1zJyBvYmplY3QgaGFzIG5vIGF0dHJpYnV0ZSAlcyIgJSBrZXkpCiAgICAgICAgcmV0dXJuIHNlbGYuZGF0YVtrZXldCgogICAgZGVmIHNldF9ocGFyYW0oc2VsZiwga2V5LCB2YWx1ZSk6CiAgICAgICAgc2VsZi5kYXRhW2tleV0gPSB2YWx1ZQoKCiMgRGVmYXVsdCBoeXBlcnBhcmFtZXRlcnMKaHBhcmFtcyA9IEhQYXJhbXMoCiAgICBudW1fbWVscz04MCwgICMgTnVtYmVyIG9mIG1lbC1zcGVjdHJvZ3JhbSBjaGFubmVscyBhbmQgbG9jYWwgY29uZGl0aW9uaW5nIGRpbWVuc2lvbmFsaXR5CiAgICAjICBuZXR3b3JrCiAgICByZXNjYWxlPVRydWUsICAjIFdoZXRoZXIgdG8gcmVzY2FsZSBhdWRpbyBwcmlvciB0byBwcmVwcm9jZXNzaW5nCiAgICByZXNjYWxpbmdfbWF4PTAuOSwgICMgUmVzY2FsaW5nIHZhbHVlCgogICAgIyBVc2UgTFdTIChodHRwczovL2dpdGh1Yi5jb20vSm9uYXRoYW4tTGVSb3V4L2x3cykgZm9yIFNURlQgYW5kIHBoYXNlIHJlY29uc3RydWN0aW9uCiAgICAjIEl0InMgcHJlZmVycmVkIHRvIHNldCBUcnVlIHRvIHVzZSB3aXRoIGh0dHBzOi8vZ2l0aHViLmNvbS9yOXk5L3dhdmVuZXRfdm9jb2RlcgogICAgIyBEb2VzIG5vdCB3b3JrIGlmIG5fZmZpdCBpcyBub3QgbXVsdGlwbGUgb2YgaG9wX3NpemUhIQogICAgdXNlX2x3cz1GYWxzZSwKCiAgICBuX2ZmdD04MDAsICAjIEV4dHJhIHdpbmRvdyBzaXplIGlzIGZpbGxlZCB3aXRoIDAgcGFkZGluZ3MgdG8gbWF0Y2ggdGhpcyBwYXJhbWV0ZXIKICAgIGhvcF9zaXplPTIwMCwgICMgRm9yIDE2MDAwSHosIDIwMCA9IDEyLjUgbXMgKDAuMDEyNSAqIHNhbXBsZV9yYXRlKQogICAgd2luX3NpemU9ODAwLCAgIyBGb3IgMTYwMDBIeiwgODAwID0gNTAgbXMgKElmIE5vbmUsIHdpbl9zaXplID0gbl9mZnQpICgwLjA1ICogc2FtcGxlX3JhdGUpCiAgICBzYW1wbGVfcmF0ZT0xNjAwMCwgICMgMTYwMDBIeiAoY29ycmVzcG9uZGluZyB0byBsaWJyaXNwZWVjaCkgKHNveCAtLWkgPGZpbGVuYW1lPikKCiAgICBmcmFtZV9zaGlmdF9tcz1Ob25lLCAgIyBDYW4gcmVwbGFjZSBob3Bfc2l6ZSBwYXJhbWV0ZXIuIChSZWNvbW1lbmRlZDogMTIuNSkKCiAgICAjIE1lbCBhbmQgTGluZWFyIHNwZWN0cm9ncmFtcyBub3JtYWxpemF0aW9uL3NjYWxpbmcgYW5kIGNsaXBwaW5nCiAgICBzaWduYWxfbm9ybWFsaXphdGlvbj1UcnVlLAogICAgIyBXaGV0aGVyIHRvIG5vcm1hbGl6ZSBtZWwgc3BlY3Ryb2dyYW1zIHRvIHNvbWUgcHJlZGVmaW5lZCByYW5nZSAoZm9sbG93aW5nIGJlbG93IHBhcmFtZXRlcnMpCiAgICBhbGxvd19jbGlwcGluZ19pbl9ub3JtYWxpemF0aW9uPVRydWUsICAjIE9ubHkgcmVsZXZhbnQgaWYgbWVsX25vcm1hbGl6YXRpb24gPSBUcnVlCiAgICBzeW1tZXRyaWNfbWVscz1UcnVlLAogICAgIyBXaGV0aGVyIHRvIHNjYWxlIHRoZSBkYXRhIHRvIGJlIHN5bW1ldHJpYyBhcm91bmQgMC4gKEFsc28gbXVsdGlwbGllcyB0aGUgb3V0cHV0IHJhbmdlIGJ5IDIsCiAgICAjIGZhc3RlciBhbmQgY2xlYW5lciBjb252ZXJnZW5jZSkKICAgIG1heF9hYnNfdmFsdWU9NC4sCiAgICAjIG1heCBhYnNvbHV0ZSB2YWx1ZSBvZiBkYXRhLiBJZiBzeW1tZXRyaWMsIGRhdGEgd2lsbCBiZSBbLW1heCwgbWF4XSBlbHNlIFswLCBtYXhdIChNdXN0IG5vdAogICAgIyBiZSB0b28gYmlnIHRvIGF2b2lkIGdyYWRpZW50IGV4cGxvc2lvbiwKICAgICMgbm90IHRvbyBzbWFsbCBmb3IgZmFzdCBjb252ZXJnZW5jZSkKICAgICMgQ29udHJpYnV0aW9uIGJ5IEBiZWdlZWtteWZyaWVuZAogICAgIyBTcGVjdHJvZ3JhbSBQcmUtRW1waGFzaXMgKExmaWx0ZXI6IFJlZHVjZSBzcGVjdHJvZ3JhbSBub2lzZSBhbmQgaGVscHMgbW9kZWwgY2VydGl0dWRlCiAgICAjIGxldmVscy4gQWxzbyBhbGxvd3MgZm9yIGJldHRlciBHJkwgcGhhc2UgcmVjb25zdHJ1Y3Rpb24pCiAgICBwcmVlbXBoYXNpemU9VHJ1ZSwgICMgd2hldGhlciB0byBhcHBseSBmaWx0ZXIKICAgIHByZWVtcGhhc2lzPTAuOTcsICAjIGZpbHRlciBjb2VmZmljaWVudC4KCiAgICAjIExpbWl0cwogICAgbWluX2xldmVsX2RiPS0xMDAsCiAgICByZWZfbGV2ZWxfZGI9MjAsCiAgICBmbWluPTU1LAogICAgIyBTZXQgdGhpcyB0byA1NSBpZiB5b3VyIHNwZWFrZXIgaXMgbWFsZSEgaWYgZmVtYWxlLCA5NSBzaG91bGQgaGVscCB0YWtpbmcgb2ZmIG5vaXNlLiAoVG8KICAgICMgdGVzdCBkZXBlbmRpbmcgb24gZGF0YXNldC4gUGl0Y2ggaW5mbzogbWFsZX5bNjUsIDI2MF0sIGZlbWFsZX5bMTAwLCA1MjVdKQogICAgZm1heD03NjAwLCAgIyBUbyBiZSBpbmNyZWFzZWQvcmVkdWNlZCBkZXBlbmRpbmcgb24gZGF0YS4KCikKCgpkZWYgaHBhcmFtc19kZWJ1Z19zdHJpbmcoKToKICAgIHZhbHVlcyA9IGhwYXJhbXMudmFsdWVzKCkKICAgIGhwID0gWyIgICVzOiAlcyIgJSAobmFtZSwgdmFsdWVzW25hbWVdKSBmb3IgbmFtZSBpbiBzb3J0ZWQodmFsdWVzKSBpZiBuYW1lICE9ICJzZW50ZW5jZXMiXQogICAgcmV0dXJuICJIeXBlcnBhcmFtZXRlcnM6XG4iICsgIlxuIi5qb2luKGhwKQo=
+class HParams:
+    def __init__(self, **kwargs):
+        self.data = {}
+
+        for key, value in kwargs.items():
+            self.data[key] = value
+
+    def __getattr__(self, key):
+        if key not in self.data:
+            raise AttributeError("'HParams' object has no attribute %s" % key)
+        return self.data[key]
+
+    def set_hparam(self, key, value):
+        self.data[key] = value
+
+
+# Default hyperparameters
+hparams = HParams(
+    num_mels=80,  # Number of mel-spectrogram channels and local conditioning dimensionality
+    #  network
+    rescale=True,  # Whether to rescale audio prior to preprocessing
+    rescaling_max=0.9,  # Rescaling value
+
+    # Use LWS (https://github.com/Jonathan-LeRoux/lws) for STFT and phase reconstruction
+    # It"s preferred to set True to use with https://github.com/r9y9/wavenet_vocoder
+    # Does not work if n_ffit is not multiple of hop_size!!
+    use_lws=False,
+
+    n_fft=800,  # Extra window size is filled with 0 paddings to match this parameter
+    hop_size=200,  # For 16000Hz, 200 = 12.5 ms (0.0125 * sample_rate)
+    win_size=800,  # For 16000Hz, 800 = 50 ms (If None, win_size = n_fft) (0.05 * sample_rate)
+    sample_rate=16000,  # 16000Hz (corresponding to librispeech) (sox --i <filename>)
+
+    frame_shift_ms=None,  # Can replace hop_size parameter. (Recommended: 12.5)
+
+    # Mel and Linear spectrograms normalization/scaling and clipping
+    signal_normalization=True,
+    # Whether to normalize mel spectrograms to some predefined range (following below parameters)
+    allow_clipping_in_normalization=True,  # Only relevant if mel_normalization = True
+    symmetric_mels=True,
+    # Whether to scale the data to be symmetric around 0. (Also multiplies the output range by 2,
+    # faster and cleaner convergence)
+    max_abs_value=4.,
+    # max absolute value of data. If symmetric, data will be [-max, max] else [0, max] (Must not
+    # be too big to avoid gradient explosion,
+    # not too small for fast convergence)
+    # Contribution by @begeekmyfriend
+    # Spectrogram Pre-Emphasis (Lfilter: Reduce spectrogram noise and helps model certitude
+    # levels. Also allows for better G&L phase reconstruction)
+    preemphasize=True,  # whether to apply filter
+    preemphasis=0.97,  # filter coefficient.
+
+    # Limits
+    min_level_db=-100,
+    ref_level_db=20,
+    fmin=55,
+    # Set this to 55 if your speaker is male! if female, 95 should help taking off noise. (To
+    # test depending on dataset. Pitch info: male~[65, 260], female~[100, 525])
+    fmax=7600,  # To be increased/reduced depending on data.
+
+)
+
+
+def hparams_debug_string():
+    values = hparams.values()
+    hp = ["  %s: %s" % (name, values[name]) for name in sorted(values) if name != "sentences"]
+    return "Hyperparameters:\n" + "\n".join(hp)

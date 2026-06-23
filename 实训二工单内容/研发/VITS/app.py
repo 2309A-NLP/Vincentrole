@@ -1,1 +1,55 @@
-ZnJvbSBHUFRfU29WSVRTIGltcG9ydCAqCmltcG9ydCBncmFkaW8gYXMgZ3IKCkdQVF9Tb1ZJVFNfaW5mZXJlbmNlID0gR1BUX1NvVklUUygpCmdwdF9wYXRoID0gIkdQVF9Tb1ZJVFMvcHJldHJhaW5lZF9tb2RlbHMvczFiZXJ0MjVoei0ya2gtbG9uZ2VyLWVwb2NoPTY4ZS1zdGVwPTUwMjMyLmNrcHQiCnNvdml0c19wYXRoID0gIkdQVF9Tb1ZJVFMvcHJldHJhaW5lZF9tb2RlbHMvczJHNDg4ay5wdGgiCkdQVF9Tb1ZJVFNfaW5mZXJlbmNlLmxvYWRfbW9kZWwoZ3B0X3BhdGgsIHNvdml0c19wYXRoKQoKd2l0aCBnci5CbG9ja3ModGl0bGUgPSAiR1BULVNvVklUUyIpIGFzIGRlbW86CiAgICB3aXRoIGdyLlJvdygpOgogICAgICAgIGdyLkhUTUwoIjxjZW50ZXI+PGgxPkdQVC1Tb1ZJVFMgV2ViVUk8L2gxPjwvY2VudGVyPiIpCiAgICBnci5NYXJrZG93bih2YWx1ZT0iKuivt+S4iuS8oOW5tuWhq+WGmeWPguiAg+S/oeaBryIpCiAgICB3aXRoIGdyLlJvdygpOgogICAgICAgIGlucF9yZWYgPSBnci5BdWRpbyhsYWJlbD0i6K+35LiK5LygM34xMOenkuWGheWPguiAg+mfs+mike+8jOi2hei/h+S8muaKpemUme+8gSIsIHNvdXJjZXM9WyJtaWNyb3Bob25lIiwgInVwbG9hZCJdLCB0eXBlPSJmaWxlcGF0aCIpCiAgICAgICAgcHJvbXB0X3RleHQgPSBnci5UZXh0Ym94KGxhYmVsPSLlj4LogIPpn7PpopHnmoTmlofmnKwiLCB2YWx1ZT0iIikKICAgICAgICBwcm9tcHRfbGFuZ3VhZ2UgPSBnci5Ecm9wZG93bigKICAgICAgICAgICAgbGFiZWw9IuWPguiAg+mfs+mikeeahOivreenjSIsIGNob2ljZXM9WyLkuK3mlociLCAi6Iux5paHIiwgIuaXpeaWhyJdLCB2YWx1ZT0i5Lit5paHIgogICAgICAgICkKICAgIGdyLk1hcmtkb3duKHZhbHVlPSIq6K+35aGr5YaZ6ZyA6KaB5ZCI5oiQ55qE55uu5qCH5paH5pys44CC5Lit6Iux5re35ZCI6YCJ5Lit5paH77yM5pel6Iux5re35ZCI6YCJ5pel5paH77yM5Lit5pel5re35ZCI5pqC5LiN5pSv5oyB77yM6Z2e55uu5qCH6K+t6KiA5paH5pys6Ieq5Yqo6YGX5byD44CCIikKICAgIHdpdGggZ3IuUm93KCk6CiAgICAgICAgdGV4dCA9IGdyLlRleHRib3gobGFiZWw9IumcgOimgeWQiOaIkOeahOaWh+acrCIsIHZhbHVlPSIiKQogICAgICAgIHRleHRfbGFuZ3VhZ2UgPSBnci5Ecm9wZG93bigKICAgICAgICAgICAgbGFiZWw9IumcgOimgeWQiOaIkOeahOivreenjSIsIGNob2ljZXM9WyLkuK3mlociLCAi6Iux5paHIiwgIuaXpeaWhyIsICLkuK3oi7Hmt7flkIgiLCAi5pel6Iux5re35ZCIIiwgIuWkmuivreenjea3t+WQiCJdLCB2YWx1ZT0i5Lit5paHIgogICAgICAgICkKICAgICAgICBob3dfdG9fY3V0ID0gZ3IuUmFkaW8oCiAgICAgICAgICAgIGxhYmVsPSLmgI7kuYjliIciLAogICAgICAgICAgICBjaG9pY2VzPVsi5LiN5YiHIiwgIuWHkeWbm+WPpeS4gOWIhyIsICLlh5E1MOWtl+S4gOWIhyIsICLmjInkuK3mloflj6Xlj7fjgILliIciLCAi5oyJ6Iux5paH5Y+l5Y+3LuWIhyIsICLmjInmoIfngrnnrKblj7fliIciIF0sCiAgICAgICAgICAgIHZhbHVlPSLlh5Hlm5vlj6XkuIDliIciLAogICAgICAgICAgICBpbnRlcmFjdGl2ZT1UcnVlLAogICAgICAgICkKICAgICAgICBpbmZlcmVuY2VfYnV0dG9uID0gZ3IuQnV0dG9uKCLlkIjmiJDor63pn7MiLCB2YXJpYW50PSJwcmltYXJ5IikKICAgICAgICBvdXRwdXQgPSBnci5BdWRpbyhsYWJlbD0i6L6T5Ye655qE6K+t6Z+zIikKCiAgICBpbmZlcmVuY2VfYnV0dG9uLmNsaWNrKAogICAgICAgIEdQVF9Tb1ZJVFNfaW5mZXJlbmNlLnByZWRpY3QsCiAgICAgICAgW2lucF9yZWYsIHByb21wdF90ZXh0LCBwcm9tcHRfbGFuZ3VhZ2UsIHRleHQsIHRleHRfbGFuZ3VhZ2UsIGhvd190b19jdXRdLAogICAgICAgIFtvdXRwdXRdLAogICAgKQogICAgZ3IuTWFya2Rvd24odmFsdWU9IuaWh+acrOWIh+WIhuW3peWFt+OAguWkqumVv+eahOaWh+acrOWQiOaIkOWHuuadpeaViOaenOS4jeS4gOWumuWlve+8jOaJgOS7peWkqumVv+W7uuiuruWFiOWIh+OAguWQiOaIkOS8muagueaNruaWh+acrOeahOaNouihjOWIhuW8gOWQiOaIkOWGjeaLvOi1t+adpeOAgiIpCiAgICB3aXRoIGdyLlJvdygpOgogICAgICAgIHRleHRfaW5wID0gZ3IuVGV4dGJveChsYWJlbD0i6ZyA6KaB5ZCI5oiQ55qE5YiH5YiG5YmN5paH5pysIiwgdmFsdWU9IiIpCiAgICAgICAgYnV0dG9uMSA9IGdyLkJ1dHRvbigi5YeR5Zub5Y+l5LiA5YiHIiwgdmFyaWFudD0icHJpbWFyeSIpCiAgICAgICAgYnV0dG9uMiA9IGdyLkJ1dHRvbigi5YeRNTDlrZfkuIDliIciLCB2YXJpYW50PSJwcmltYXJ5IikKICAgICAgICBidXR0b24zID0gZ3IuQnV0dG9uKCLmjInkuK3mloflj6Xlj7fjgILliIciLCB2YXJpYW50PSJwcmltYXJ5IikKICAgICAgICBidXR0b240ID0gZ3IuQnV0dG9uKCLmjInoi7Hmloflj6Xlj7cu5YiHIiwgdmFyaWFudD0icHJpbWFyeSIpCiAgICAgICAgYnV0dG9uNSA9IGdyLkJ1dHRvbigi5oyJ5qCH54K556ym5Y+35YiHIiwgdmFyaWFudD0icHJpbWFyeSIpCiAgICAgICAgdGV4dF9vcHQgPSBnci5UZXh0Ym94KGxhYmVsPSLliIfliIblkI7mlofmnKwiLCB2YWx1ZT0iIikKICAgICAgICBidXR0b24xLmNsaWNrKGN1dDEsIFt0ZXh0X2lucF0sIFt0ZXh0X29wdF0pCiAgICAgICAgYnV0dG9uMi5jbGljayhjdXQyLCBbdGV4dF9pbnBdLCBbdGV4dF9vcHRdKQogICAgICAgIGJ1dHRvbjMuY2xpY2soY3V0MywgW3RleHRfaW5wXSwgW3RleHRfb3B0XSkKICAgICAgICBidXR0b240LmNsaWNrKGN1dDQsIFt0ZXh0X2lucF0sIFt0ZXh0X29wdF0pCiAgICAgICAgYnV0dG9uNS5jbGljayhjdXQ1LCBbdGV4dF9pbnBdLCBbdGV4dF9vcHRdKQogICAgZ3IuTWFya2Rvd24odmFsdWU9IuWQjue7reWwhuaUr+aMgea3t+WQiOivreenjee8lueggeaWh+acrOi+k+WFpeOAgiIpCgpkZW1vLmxhdW5jaCgpICAg
+from GPT_SoVITS import *
+import gradio as gr
+
+GPT_SoVITS_inference = GPT_SoVITS()
+gpt_path = "GPT_SoVITS/pretrained_models/s1bert25hz-2kh-longer-epoch=68e-step=50232.ckpt"
+sovits_path = "GPT_SoVITS/pretrained_models/s2G488k.pth"
+GPT_SoVITS_inference.load_model(gpt_path, sovits_path)
+
+with gr.Blocks(title = "GPT-SoVITS") as demo:
+    with gr.Row():
+        gr.HTML("<center><h1>GPT-SoVITS WebUI</h1></center>")
+    gr.Markdown(value="*请上传并填写参考信息")
+    with gr.Row():
+        inp_ref = gr.Audio(label="请上传3~10秒内参考音频，超过会报错！", sources=["microphone", "upload"], type="filepath")
+        prompt_text = gr.Textbox(label="参考音频的文本", value="")
+        prompt_language = gr.Dropdown(
+            label="参考音频的语种", choices=["中文", "英文", "日文"], value="中文"
+        )
+    gr.Markdown(value="*请填写需要合成的目标文本。中英混合选中文，日英混合选日文，中日混合暂不支持，非目标语言文本自动遗弃。")
+    with gr.Row():
+        text = gr.Textbox(label="需要合成的文本", value="")
+        text_language = gr.Dropdown(
+            label="需要合成的语种", choices=["中文", "英文", "日文", "中英混合", "日英混合", "多语种混合"], value="中文"
+        )
+        how_to_cut = gr.Radio(
+            label="怎么切",
+            choices=["不切", "凑四句一切", "凑50字一切", "按中文句号。切", "按英文句号.切", "按标点符号切" ],
+            value="凑四句一切",
+            interactive=True,
+        )
+        inference_button = gr.Button("合成语音", variant="primary")
+        output = gr.Audio(label="输出的语音")
+
+    inference_button.click(
+        GPT_SoVITS_inference.predict,
+        [inp_ref, prompt_text, prompt_language, text, text_language, how_to_cut],
+        [output],
+    )
+    gr.Markdown(value="文本切分工具。太长的文本合成出来效果不一定好，所以太长建议先切。合成会根据文本的换行分开合成再拼起来。")
+    with gr.Row():
+        text_inp = gr.Textbox(label="需要合成的切分前文本", value="")
+        button1 = gr.Button("凑四句一切", variant="primary")
+        button2 = gr.Button("凑50字一切", variant="primary")
+        button3 = gr.Button("按中文句号。切", variant="primary")
+        button4 = gr.Button("按英文句号.切", variant="primary")
+        button5 = gr.Button("按标点符号切", variant="primary")
+        text_opt = gr.Textbox(label="切分后文本", value="")
+        button1.click(cut1, [text_inp], [text_opt])
+        button2.click(cut2, [text_inp], [text_opt])
+        button3.click(cut3, [text_inp], [text_opt])
+        button4.click(cut4, [text_inp], [text_opt])
+        button5.click(cut5, [text_inp], [text_opt])
+    gr.Markdown(value="后续将支持混合语种编码文本输入。")
+
+demo.launch()   

@@ -1,1 +1,151 @@
-aW1wb3J0IG9zCmltcG9ydCBjdjIKaW1wb3J0IHRpbWUKaW1wb3J0IGdsb2IKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBudW1weSBhcyBucApmcm9tIFBJTCBpbXBvcnQgSW1hZ2UKaW1wb3J0IHRvcmNoCmZyb20gdHFkbSBpbXBvcnQgdHFkbQpmcm9tIGl0ZXJ0b29scyBpbXBvcnQgY3ljbGUKZnJvbSB0b3JjaC5tdWx0aXByb2Nlc3NpbmcgaW1wb3J0IFBvb2wsIFByb2Nlc3MsIHNldF9zdGFydF9tZXRob2QKCmZyb20gZmFjZXhsaWIuYWxpZ25tZW50IGltcG9ydCBsYW5kbWFya185OF90b182OApmcm9tIGZhY2V4bGliLmRldGVjdGlvbiBpbXBvcnQgaW5pdF9kZXRlY3Rpb25fbW9kZWwKCmZyb20gZmFjZXhsaWIudXRpbHMgaW1wb3J0IGxvYWRfZmlsZV9mcm9tX3VybApmcm9tIGZhY2V4bGliLmFsaWdubWVudC5hd2luZ19hcmNoIGltcG9ydCBGQU4KCmRlZiBpbml0X2FsaWdubWVudF9tb2RlbChtb2RlbF9uYW1lLCBoYWxmPUZhbHNlLCBkZXZpY2U9J2N1ZGEnLCBtb2RlbF9yb290cGF0aD1Ob25lKToKICAgIGlmIG1vZGVsX25hbWUgPT0gJ2F3aW5nX2Zhbic6CiAgICAgICAgbW9kZWwgPSBGQU4obnVtX21vZHVsZXM9NCwgbnVtX2xhbmRtYXJrcz05OCwgZGV2aWNlPWRldmljZSkKICAgICAgICBtb2RlbF91cmwgPSAnaHR0cHM6Ly9naXRodWIuY29tL3hpbm50YW8vZmFjZXhsaWIvcmVsZWFzZXMvZG93bmxvYWQvdjAuMS4wL2FsaWdubWVudF9XRkxXXzRIRy5wdGgnCiAgICBlbHNlOgogICAgICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IoZid7bW9kZWxfbmFtZX0gaXMgbm90IGltcGxlbWVudGVkLicpCgogICAgbW9kZWxfcGF0aCA9IGxvYWRfZmlsZV9mcm9tX3VybCgKICAgICAgICB1cmw9bW9kZWxfdXJsLCBtb2RlbF9kaXI9J2ZhY2V4bGliL3dlaWdodHMnLCBwcm9ncmVzcz1UcnVlLCBmaWxlX25hbWU9Tm9uZSwgc2F2ZV9kaXI9bW9kZWxfcm9vdHBhdGgpCiAgICBtb2RlbC5sb2FkX3N0YXRlX2RpY3QodG9yY2gubG9hZChtb2RlbF9wYXRoLCBtYXBfbG9jYXRpb249ZGV2aWNlKVsnc3RhdGVfZGljdCddLCBzdHJpY3Q9VHJ1ZSkKICAgIG1vZGVsLmV2YWwoKQogICAgbW9kZWwgPSBtb2RlbC50byhkZXZpY2UpCiAgICByZXR1cm4gbW9kZWwKCgpjbGFzcyBLZXlwb2ludEV4dHJhY3RvcigpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGRldmljZT0nY3VkYScpOgoKICAgICAgICAjIyMgZ2ZwZ2FuL3dlaWdodHMKICAgICAgICB0cnk6CiAgICAgICAgICAgIGltcG9ydCB3ZWJ1aSAgIyBpbiB3ZWJ1aQogICAgICAgICAgICByb290X3BhdGggPSAnZXh0ZW5zaW9ucy9TYWRUYWxrZXIvZ2ZwZ2FuL3dlaWdodHMnIAoKICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgIHJvb3RfcGF0aCA9ICdnZnBnYW4vd2VpZ2h0cycKICAgICAgICByb290X3BhdGggPSAnZ2ZwZ2FuL3dlaWdodHMnCiAgICAgICAgc2VsZi5kZXRlY3RvciA9IGluaXRfYWxpZ25tZW50X21vZGVsKCdhd2luZ19mYW4nLGRldmljZT1kZXZpY2UsIG1vZGVsX3Jvb3RwYXRoPXJvb3RfcGF0aCkgICAKICAgICAgICBzZWxmLmRldF9uZXQgPSBpbml0X2RldGVjdGlvbl9tb2RlbCgncmV0aW5hZmFjZV9yZXNuZXQ1MCcsIGhhbGY9RmFsc2UsZGV2aWNlPWRldmljZSwgbW9kZWxfcm9vdHBhdGg9cm9vdF9wYXRoKQoKICAgIGRlZiBleHRyYWN0X2tleXBvaW50KHNlbGYsIGltYWdlcywgbmFtZT1Ob25lLCBpbmZvPVRydWUpOgogICAgICAgIGlmIGlzaW5zdGFuY2UoaW1hZ2VzLCBsaXN0KToKICAgICAgICAgICAga2V5cG9pbnRzID0gW10KICAgICAgICAgICAgaWYgaW5mbzoKICAgICAgICAgICAgICAgIGlfcmFuZ2UgPSB0cWRtKGltYWdlcyxkZXNjPSdsYW5kbWFyayBEZXQ6JykKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGlfcmFuZ2UgPSBpbWFnZXMKCiAgICAgICAgICAgIGZvciBpbWFnZSBpbiBpX3JhbmdlOgogICAgICAgICAgICAgICAgY3VycmVudF9rcCA9IHNlbGYuZXh0cmFjdF9rZXlwb2ludChpbWFnZSkKICAgICAgICAgICAgICAgICMgY3VycmVudF9rcCA9IHNlbGYuZGV0ZWN0b3IuZ2V0X2xhbmRtYXJrcyhucC5hcnJheShpbWFnZSkpCiAgICAgICAgICAgICAgICBpZiBucC5tZWFuKGN1cnJlbnRfa3ApID09IC0xIGFuZCBrZXlwb2ludHM6CiAgICAgICAgICAgICAgICAgICAga2V5cG9pbnRzLmFwcGVuZChrZXlwb2ludHNbLTFdKQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBrZXlwb2ludHMuYXBwZW5kKGN1cnJlbnRfa3BbTm9uZV0pCgogICAgICAgICAgICBrZXlwb2ludHMgPSBucC5jb25jYXRlbmF0ZShrZXlwb2ludHMsIDApCiAgICAgICAgICAgIG5wLnNhdmV0eHQob3MucGF0aC5zcGxpdGV4dChuYW1lKVswXSsnLnR4dCcsIGtleXBvaW50cy5yZXNoYXBlKC0xKSkKICAgICAgICAgICAgcmV0dXJuIGtleXBvaW50cwogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHdoaWxlIFRydWU6CiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgd2l0aCB0b3JjaC5ub19ncmFkKCk6CiAgICAgICAgICAgICAgICAgICAgICAgICMgZmFjZSBkZXRlY3Rpb24gLT4gZmFjZSBhbGlnbm1lbnQuCiAgICAgICAgICAgICAgICAgICAgICAgIGltZyA9IG5wLmFycmF5KGltYWdlcykKICAgICAgICAgICAgICAgICAgICAgICAgYmJveGVzID0gc2VsZi5kZXRfbmV0LmRldGVjdF9mYWNlcyhpbWFnZXMsIDAuOTcpCiAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICBiYm94ZXMgPSBiYm94ZXNbMF0KICAgICAgICAgICAgICAgICAgICAgICAgaW1nID0gaW1nW2ludChiYm94ZXNbMV0pOmludChiYm94ZXNbM10pLCBpbnQoYmJveGVzWzBdKTppbnQoYmJveGVzWzJdKSwgOl0KCiAgICAgICAgICAgICAgICAgICAgICAgIGtleXBvaW50cyA9IGxhbmRtYXJrXzk4X3RvXzY4KHNlbGYuZGV0ZWN0b3IuZ2V0X2xhbmRtYXJrcyhpbWcpKSAjIFswXQoKICAgICAgICAgICAgICAgICAgICAgICAgIyMjIyBrZXlwb2ludHMgdG8gdGhlIG9yaWdpbmFsIGxvY2F0aW9uCiAgICAgICAgICAgICAgICAgICAgICAgIGtleXBvaW50c1s6LDBdICs9IGludChiYm94ZXNbMF0pCiAgICAgICAgICAgICAgICAgICAgICAgIGtleXBvaW50c1s6LDFdICs9IGludChiYm94ZXNbMV0pCgogICAgICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICAgICAgZXhjZXB0IFJ1bnRpbWVFcnJvciBhcyBlOgogICAgICAgICAgICAgICAgICAgIGlmIHN0cihlKS5zdGFydHN3aXRoKCdDVURBJyk6CiAgICAgICAgICAgICAgICAgICAgICAgIHByaW50KCJXYXJuaW5nOiBvdXQgb2YgbWVtb3J5LCBzbGVlcCBmb3IgMXMiKQogICAgICAgICAgICAgICAgICAgICAgICB0aW1lLnNsZWVwKDEpCiAgICAgICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQoZSkKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsgICAgCiAgICAgICAgICAgICAgICBleGNlcHQgVHlwZUVycm9yOgogICAgICAgICAgICAgICAgICAgIHByaW50KCdObyBmYWNlIGRldGVjdGVkIGluIHRoaXMgaW1hZ2UnKQogICAgICAgICAgICAgICAgICAgIHNoYXBlID0gWzY4LCAyXQogICAgICAgICAgICAgICAgICAgIGtleXBvaW50cyA9IC0xLiAqIG5wLm9uZXMoc2hhcGUpICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICBpZiBuYW1lIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgbnAuc2F2ZXR4dChvcy5wYXRoLnNwbGl0ZXh0KG5hbWUpWzBdKycudHh0Jywga2V5cG9pbnRzLnJlc2hhcGUoLTEpKQogICAgICAgICAgICByZXR1cm4ga2V5cG9pbnRzCgpkZWYgcmVhZF92aWRlbyhmaWxlbmFtZSk6CiAgICBmcmFtZXMgPSBbXQogICAgY2FwID0gY3YyLlZpZGVvQ2FwdHVyZShmaWxlbmFtZSkKICAgIHdoaWxlIGNhcC5pc09wZW5lZCgpOgogICAgICAgIHJldCwgZnJhbWUgPSBjYXAucmVhZCgpCiAgICAgICAgaWYgcmV0OgogICAgICAgICAgICBmcmFtZSA9IGN2Mi5jdnRDb2xvcihmcmFtZSwgY3YyLkNPTE9SX0JHUjJSR0IpCiAgICAgICAgICAgIGZyYW1lID0gSW1hZ2UuZnJvbWFycmF5KGZyYW1lKQogICAgICAgICAgICBmcmFtZXMuYXBwZW5kKGZyYW1lKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGJyZWFrCiAgICBjYXAucmVsZWFzZSgpCiAgICByZXR1cm4gZnJhbWVzCgpkZWYgcnVuKGRhdGEpOgogICAgZmlsZW5hbWUsIG9wdCwgZGV2aWNlID0gZGF0YQogICAgb3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9IGRldmljZQogICAga3BfZXh0cmFjdG9yID0gS2V5cG9pbnRFeHRyYWN0b3IoKQogICAgaW1hZ2VzID0gcmVhZF92aWRlbyhmaWxlbmFtZSkKICAgIG5hbWUgPSBmaWxlbmFtZS5zcGxpdCgnLycpWy0yOl0KICAgIG9zLm1ha2VkaXJzKG9zLnBhdGguam9pbihvcHQub3V0cHV0X2RpciwgbmFtZVstMl0pLCBleGlzdF9vaz1UcnVlKQogICAga3BfZXh0cmFjdG9yLmV4dHJhY3Rfa2V5cG9pbnQoCiAgICAgICAgaW1hZ2VzLCAKICAgICAgICBuYW1lPW9zLnBhdGguam9pbihvcHQub3V0cHV0X2RpciwgbmFtZVstMl0sIG5hbWVbLTFdKQogICAgKQoKaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIHNldF9zdGFydF9tZXRob2QoJ3NwYXduJykKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKGZvcm1hdHRlcl9jbGFzcz1hcmdwYXJzZS5Bcmd1bWVudERlZmF1bHRzSGVscEZvcm1hdHRlcikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0taW5wdXRfZGlyJywgdHlwZT1zdHIsIGhlbHA9J3RoZSBmb2xkZXIgb2YgdGhlIGlucHV0IGZpbGVzJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tb3V0cHV0X2RpcicsIHR5cGU9c3RyLCBoZWxwPSd0aGUgZm9sZGVyIG9mIHRoZSBvdXRwdXQgZmlsZXMnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1kZXZpY2VfaWRzJywgdHlwZT1zdHIsIGRlZmF1bHQ9JzAsMScpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXdvcmtlcnMnLCB0eXBlPWludCwgZGVmYXVsdD00KQoKICAgIG9wdCA9IHBhcnNlci5wYXJzZV9hcmdzKCkKICAgIGZpbGVuYW1lcyA9IGxpc3QoKQogICAgVklERU9fRVhURU5TSU9OU19MT1dFUkNBU0UgPSB7J21wNCd9CiAgICBWSURFT19FWFRFTlNJT05TID0gVklERU9fRVhURU5TSU9OU19MT1dFUkNBU0UudW5pb24oe2YudXBwZXIoKSBmb3IgZiBpbiBWSURFT19FWFRFTlNJT05TX0xPV0VSQ0FTRX0pCiAgICBleHRlbnNpb25zID0gVklERU9fRVhURU5TSU9OUwogICAgCiAgICBmb3IgZXh0IGluIGV4dGVuc2lvbnM6CiAgICAgICAgb3MubGlzdGRpcihmJ3tvcHQuaW5wdXRfZGlyfScpCiAgICAgICAgcHJpbnQoZid7b3B0LmlucHV0X2Rpcn0vKi57ZXh0fScpCiAgICAgICAgZmlsZW5hbWVzID0gc29ydGVkKGdsb2IuZ2xvYihmJ3tvcHQuaW5wdXRfZGlyfS8qLntleHR9JykpCiAgICBwcmludCgnVG90YWwgbnVtYmVyIG9mIHZpZGVvczonLCBsZW4oZmlsZW5hbWVzKSkKICAgIHBvb2wgPSBQb29sKG9wdC53b3JrZXJzKQogICAgYXJnc19saXN0ID0gY3ljbGUoW29wdF0pCiAgICBkZXZpY2VfaWRzID0gb3B0LmRldmljZV9pZHMuc3BsaXQoIiwiKQogICAgZGV2aWNlX2lkcyA9IGN5Y2xlKGRldmljZV9pZHMpCiAgICBmb3IgZGF0YSBpbiB0cWRtKHBvb2wuaW1hcF91bm9yZGVyZWQocnVuLCB6aXAoZmlsZW5hbWVzLCBhcmdzX2xpc3QsIGRldmljZV9pZHMpKSk6CiAgICAgICAgTm9uZQo=
+import os
+import cv2
+import time
+import glob
+import argparse
+import numpy as np
+from PIL import Image
+import torch
+from tqdm import tqdm
+from itertools import cycle
+from torch.multiprocessing import Pool, Process, set_start_method
+
+from facexlib.alignment import landmark_98_to_68
+from facexlib.detection import init_detection_model
+
+from facexlib.utils import load_file_from_url
+from facexlib.alignment.awing_arch import FAN
+
+def init_alignment_model(model_name, half=False, device='cuda', model_rootpath=None):
+    if model_name == 'awing_fan':
+        model = FAN(num_modules=4, num_landmarks=98, device=device)
+        model_url = 'https://github.com/xinntao/facexlib/releases/download/v0.1.0/alignment_WFLW_4HG.pth'
+    else:
+        raise NotImplementedError(f'{model_name} is not implemented.')
+
+    model_path = load_file_from_url(
+        url=model_url, model_dir='facexlib/weights', progress=True, file_name=None, save_dir=model_rootpath)
+    model.load_state_dict(torch.load(model_path, map_location=device)['state_dict'], strict=True)
+    model.eval()
+    model = model.to(device)
+    return model
+
+
+class KeypointExtractor():
+    def __init__(self, device='cuda'):
+
+        ### gfpgan/weights
+        try:
+            import webui  # in webui
+            root_path = 'extensions/SadTalker/gfpgan/weights' 
+
+        except:
+            root_path = 'gfpgan/weights'
+        root_path = 'gfpgan/weights'
+        self.detector = init_alignment_model('awing_fan',device=device, model_rootpath=root_path)   
+        self.det_net = init_detection_model('retinaface_resnet50', half=False,device=device, model_rootpath=root_path)
+
+    def extract_keypoint(self, images, name=None, info=True):
+        if isinstance(images, list):
+            keypoints = []
+            if info:
+                i_range = tqdm(images,desc='landmark Det:')
+            else:
+                i_range = images
+
+            for image in i_range:
+                current_kp = self.extract_keypoint(image)
+                # current_kp = self.detector.get_landmarks(np.array(image))
+                if np.mean(current_kp) == -1 and keypoints:
+                    keypoints.append(keypoints[-1])
+                else:
+                    keypoints.append(current_kp[None])
+
+            keypoints = np.concatenate(keypoints, 0)
+            np.savetxt(os.path.splitext(name)[0]+'.txt', keypoints.reshape(-1))
+            return keypoints
+        else:
+            while True:
+                try:
+                    with torch.no_grad():
+                        # face detection -> face alignment.
+                        img = np.array(images)
+                        bboxes = self.det_net.detect_faces(images, 0.97)
+                        
+                        bboxes = bboxes[0]
+                        img = img[int(bboxes[1]):int(bboxes[3]), int(bboxes[0]):int(bboxes[2]), :]
+
+                        keypoints = landmark_98_to_68(self.detector.get_landmarks(img)) # [0]
+
+                        #### keypoints to the original location
+                        keypoints[:,0] += int(bboxes[0])
+                        keypoints[:,1] += int(bboxes[1])
+
+                        break
+                except RuntimeError as e:
+                    if str(e).startswith('CUDA'):
+                        print("Warning: out of memory, sleep for 1s")
+                        time.sleep(1)
+                    else:
+                        print(e)
+                        break    
+                except TypeError:
+                    print('No face detected in this image')
+                    shape = [68, 2]
+                    keypoints = -1. * np.ones(shape)                    
+                    break
+            if name is not None:
+                np.savetxt(os.path.splitext(name)[0]+'.txt', keypoints.reshape(-1))
+            return keypoints
+
+def read_video(filename):
+    frames = []
+    cap = cv2.VideoCapture(filename)
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if ret:
+            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            frame = Image.fromarray(frame)
+            frames.append(frame)
+        else:
+            break
+    cap.release()
+    return frames
+
+def run(data):
+    filename, opt, device = data
+    os.environ['CUDA_VISIBLE_DEVICES'] = device
+    kp_extractor = KeypointExtractor()
+    images = read_video(filename)
+    name = filename.split('/')[-2:]
+    os.makedirs(os.path.join(opt.output_dir, name[-2]), exist_ok=True)
+    kp_extractor.extract_keypoint(
+        images, 
+        name=os.path.join(opt.output_dir, name[-2], name[-1])
+    )
+
+if __name__ == '__main__':
+    set_start_method('spawn')
+    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('--input_dir', type=str, help='the folder of the input files')
+    parser.add_argument('--output_dir', type=str, help='the folder of the output files')
+    parser.add_argument('--device_ids', type=str, default='0,1')
+    parser.add_argument('--workers', type=int, default=4)
+
+    opt = parser.parse_args()
+    filenames = list()
+    VIDEO_EXTENSIONS_LOWERCASE = {'mp4'}
+    VIDEO_EXTENSIONS = VIDEO_EXTENSIONS_LOWERCASE.union({f.upper() for f in VIDEO_EXTENSIONS_LOWERCASE})
+    extensions = VIDEO_EXTENSIONS
+    
+    for ext in extensions:
+        os.listdir(f'{opt.input_dir}')
+        print(f'{opt.input_dir}/*.{ext}')
+        filenames = sorted(glob.glob(f'{opt.input_dir}/*.{ext}'))
+    print('Total number of videos:', len(filenames))
+    pool = Pool(opt.workers)
+    args_list = cycle([opt])
+    device_ids = opt.device_ids.split(",")
+    device_ids = cycle(device_ids)
+    for data in tqdm(pool.imap_unordered(run, zip(filenames, args_list, device_ids))):
+        None

@@ -1,1 +1,12 @@
-CmltcG9ydCB0b3JjaAppbXBvcnQgdG9yY2gubm4gYXMgbm4KaW1wb3J0IHRvcmNoLm5uLmZ1bmN0aW9uYWwgYXMgRiAKCgpkZWYgaGVhdG1hcDJjb29yZChoZWF0bWFwLCB0b3BrPTkpOgogICAgTiwgQywgSCwgVyA9IGhlYXRtYXAuc2hhcGUKICAgIHNjb3JlLCBpbmRleCA9IGhlYXRtYXAudmlldyhOLEMsMSwtMSkudG9wayh0b3BrLCBkaW09LTEpCiAgICBjb29yZCA9IHRvcmNoLmNhdChbaW5kZXglVywgaW5kZXgvL1ddLCBkaW09MikKICAgIHJldHVybiAoY29vcmQqRi5zb2Z0bWF4KHNjb3JlLCBkaW09LTEpKS5zdW0oLTEpCiAgICA=
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F 
+
+
+def heatmap2coord(heatmap, topk=9):
+    N, C, H, W = heatmap.shape
+    score, index = heatmap.view(N,C,1,-1).topk(topk, dim=-1)
+    coord = torch.cat([index%W, index//W], dim=2)
+    return (coord*F.softmax(score, dim=-1)).sum(-1)
+    

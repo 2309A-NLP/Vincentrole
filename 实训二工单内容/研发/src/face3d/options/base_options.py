@@ -1,1 +1,169 @@
-IiIiVGhpcyBzY3JpcHQgY29udGFpbnMgYmFzZSBvcHRpb25zIGZvciBEZWVwM0RGYWNlUmVjb25fcHl0b3JjaAoiIiIKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgb3MKZnJvbSB1dGlsIGltcG9ydCB1dGlsCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgdG9yY2gKaW1wb3J0IGZhY2UzZC5tb2RlbHMgYXMgbW9kZWxzCmltcG9ydCBmYWNlM2QuZGF0YSBhcyBkYXRhCgoKY2xhc3MgQmFzZU9wdGlvbnMoKToKICAgICIiIlRoaXMgY2xhc3MgZGVmaW5lcyBvcHRpb25zIHVzZWQgZHVyaW5nIGJvdGggdHJhaW5pbmcgYW5kIHRlc3QgdGltZS4KCiAgICBJdCBhbHNvIGltcGxlbWVudHMgc2V2ZXJhbCBoZWxwZXIgZnVuY3Rpb25zIHN1Y2ggYXMgcGFyc2luZywgcHJpbnRpbmcsIGFuZCBzYXZpbmcgdGhlIG9wdGlvbnMuCiAgICBJdCBhbHNvIGdhdGhlcnMgYWRkaXRpb25hbCBvcHRpb25zIGRlZmluZWQgaW4gPG1vZGlmeV9jb21tYW5kbGluZV9vcHRpb25zPiBmdW5jdGlvbnMgaW4gYm90aCBkYXRhc2V0IGNsYXNzIGFuZCBtb2RlbCBjbGFzcy4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjbWRfbGluZT1Ob25lKToKICAgICAgICAiIiJSZXNldCB0aGUgY2xhc3M7IGluZGljYXRlcyB0aGUgY2xhc3MgaGFzbid0IGJlZW4gaW5pdGFpbGl6ZWQiIiIKICAgICAgICBzZWxmLmluaXRpYWxpemVkID0gRmFsc2UKICAgICAgICBzZWxmLmNtZF9saW5lID0gTm9uZQogICAgICAgIGlmIGNtZF9saW5lIGlzIG5vdCBOb25lOgogICAgICAgICAgICBzZWxmLmNtZF9saW5lID0gY21kX2xpbmUuc3BsaXQoKQoKICAgIGRlZiBpbml0aWFsaXplKHNlbGYsIHBhcnNlcik6CiAgICAgICAgIiIiRGVmaW5lIHRoZSBjb21tb24gb3B0aW9ucyB0aGF0IGFyZSB1c2VkIGluIGJvdGggdHJhaW5pbmcgYW5kIHRlc3QuIiIiCiAgICAgICAgIyBiYXNpYyBwYXJhbWV0ZXJzCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1uYW1lJywgdHlwZT1zdHIsIGRlZmF1bHQ9J2ZhY2VfcmVjb24nLCBoZWxwPSduYW1lIG9mIHRoZSBleHBlcmltZW50LiBJdCBkZWNpZGVzIHdoZXJlIHRvIHN0b3JlIHNhbXBsZXMgYW5kIG1vZGVscycpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1ncHVfaWRzJywgdHlwZT1zdHIsIGRlZmF1bHQ9JzAnLCBoZWxwPSdncHUgaWRzOiBlLmcuIDAgIDAsMSwyLCAwLDIuIHVzZSAtMSBmb3IgQ1BVJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWNoZWNrcG9pbnRzX2RpcicsIHR5cGU9c3RyLCBkZWZhdWx0PScuL2NoZWNrcG9pbnRzJywgaGVscD0nbW9kZWxzIGFyZSBzYXZlZCBoZXJlJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXZpc19iYXRjaF9udW1zJywgdHlwZT1mbG9hdCwgZGVmYXVsdD0xLCBoZWxwPSdiYXRjaCBudW1zIG9mIGltYWdlcyBmb3IgdmlzdWxpemF0aW9uJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWV2YWxfYmF0Y2hfbnVtcycsIHR5cGU9ZmxvYXQsIGRlZmF1bHQ9ZmxvYXQoJ2luZicpLCBoZWxwPSdiYXRjaCBudW1zIG9mIGltYWdlcyBmb3IgZXZhbHVhdGlvbicpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS11c2VfZGRwJywgdHlwZT11dGlsLnN0cjJib29sLCBuYXJncz0nPycsIGNvbnN0PVRydWUsIGRlZmF1bHQ9VHJ1ZSwgaGVscD0nd2hldGhlciB1c2UgZGlzdHJpYnV0ZWQgZGF0YSBwYXJhbGxlbCcpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1kZHBfcG9ydCcsIHR5cGU9c3RyLCBkZWZhdWx0PScxMjM1NScsIGhlbHA9J2RkcCBwb3J0JykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWRpc3BsYXlfcGVyX2JhdGNoJywgdHlwZT11dGlsLnN0cjJib29sLCBuYXJncz0nPycsIGNvbnN0PVRydWUsIGRlZmF1bHQ9VHJ1ZSwgaGVscD0nd2hldGhlciB1c2UgYmF0Y2ggdG8gc2hvdyBsb3NzZXMnKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tYWRkX2ltYWdlJywgdHlwZT11dGlsLnN0cjJib29sLCBuYXJncz0nPycsIGNvbnN0PVRydWUsIGRlZmF1bHQ9VHJ1ZSwgaGVscD0nd2hldGhlciBhZGQgaW1hZ2UgdG8gdGVuc29yYm9hcmQnKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0td29ybGRfc2l6ZScsIHR5cGU9aW50LCBkZWZhdWx0PTEsIGhlbHA9J2JhdGNoIG51bXMgb2YgaW1hZ2VzIGZvciBldmFsdWF0aW9uJykKCiAgICAgICAgIyBtb2RlbCBwYXJhbWV0ZXJzCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1tb2RlbCcsIHR5cGU9c3RyLCBkZWZhdWx0PSdmYWNlcmVjb24nLCBoZWxwPSdjaG9vc2VzIHdoaWNoIG1vZGVsIHRvIHVzZS4nKQoKICAgICAgICAjIGFkZGl0aW9uYWwgcGFyYW1ldGVycwogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tZXBvY2gnLCB0eXBlPXN0ciwgZGVmYXVsdD0nbGF0ZXN0JywgaGVscD0nd2hpY2ggZXBvY2ggdG8gbG9hZD8gc2V0IHRvIGxhdGVzdCB0byB1c2UgbGF0ZXN0IGNhY2hlZCBtb2RlbCcpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS12ZXJib3NlJywgYWN0aW9uPSdzdG9yZV90cnVlJywgaGVscD0naWYgc3BlY2lmaWVkLCBwcmludCBtb3JlIGRlYnVnZ2luZyBpbmZvcm1hdGlvbicpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1zdWZmaXgnLCBkZWZhdWx0PScnLCB0eXBlPXN0ciwgaGVscD0nY3VzdG9taXplZCBzdWZmaXg6IG9wdC5uYW1lID0gb3B0Lm5hbWUgKyBzdWZmaXg6IGUuZy4sIHttb2RlbH1fe25ldEd9X3NpemV7bG9hZF9zaXplfScpCgogICAgICAgIHNlbGYuaW5pdGlhbGl6ZWQgPSBUcnVlCiAgICAgICAgcmV0dXJuIHBhcnNlcgoKICAgIGRlZiBnYXRoZXJfb3B0aW9ucyhzZWxmKToKICAgICAgICAiIiJJbml0aWFsaXplIG91ciBwYXJzZXIgd2l0aCBiYXNpYyBvcHRpb25zKG9ubHkgb25jZSkuCiAgICAgICAgQWRkIGFkZGl0aW9uYWwgbW9kZWwtc3BlY2lmaWMgYW5kIGRhdGFzZXQtc3BlY2lmaWMgb3B0aW9ucy4KICAgICAgICBUaGVzZSBvcHRpb25zIGFyZSBkZWZpbmVkIGluIHRoZSA8bW9kaWZ5X2NvbW1hbmRsaW5lX29wdGlvbnM+IGZ1bmN0aW9uCiAgICAgICAgaW4gbW9kZWwgYW5kIGRhdGFzZXQgY2xhc3Nlcy4KICAgICAgICAiIiIKICAgICAgICBpZiBub3Qgc2VsZi5pbml0aWFsaXplZDogICMgY2hlY2sgaWYgaXQgaGFzIGJlZW4gaW5pdGlhbGl6ZWQKICAgICAgICAgICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoZm9ybWF0dGVyX2NsYXNzPWFyZ3BhcnNlLkFyZ3VtZW50RGVmYXVsdHNIZWxwRm9ybWF0dGVyKQogICAgICAgICAgICBwYXJzZXIgPSBzZWxmLmluaXRpYWxpemUocGFyc2VyKQoKICAgICAgICAjIGdldCB0aGUgYmFzaWMgb3B0aW9ucwogICAgICAgIGlmIHNlbGYuY21kX2xpbmUgaXMgTm9uZToKICAgICAgICAgICAgb3B0LCBfID0gcGFyc2VyLnBhcnNlX2tub3duX2FyZ3MoKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIG9wdCwgXyA9IHBhcnNlci5wYXJzZV9rbm93bl9hcmdzKHNlbGYuY21kX2xpbmUpCgogICAgICAgICMgc2V0IGN1ZGEgdmlzaWJsZSBkZXZpY2VzCiAgICAgICAgb3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9IG9wdC5ncHVfaWRzCgogICAgICAgICMgbW9kaWZ5IG1vZGVsLXJlbGF0ZWQgcGFyc2VyIG9wdGlvbnMKICAgICAgICBtb2RlbF9uYW1lID0gb3B0Lm1vZGVsCiAgICAgICAgbW9kZWxfb3B0aW9uX3NldHRlciA9IG1vZGVscy5nZXRfb3B0aW9uX3NldHRlcihtb2RlbF9uYW1lKQogICAgICAgIHBhcnNlciA9IG1vZGVsX29wdGlvbl9zZXR0ZXIocGFyc2VyLCBzZWxmLmlzVHJhaW4pCiAgICAgICAgaWYgc2VsZi5jbWRfbGluZSBpcyBOb25lOgogICAgICAgICAgICBvcHQsIF8gPSBwYXJzZXIucGFyc2Vfa25vd25fYXJncygpICAjIHBhcnNlIGFnYWluIHdpdGggbmV3IGRlZmF1bHRzCiAgICAgICAgZWxzZToKICAgICAgICAgICAgb3B0LCBfID0gcGFyc2VyLnBhcnNlX2tub3duX2FyZ3Moc2VsZi5jbWRfbGluZSkgICMgcGFyc2UgYWdhaW4gd2l0aCBuZXcgZGVmYXVsdHMKCiAgICAgICAgIyBtb2RpZnkgZGF0YXNldC1yZWxhdGVkIHBhcnNlciBvcHRpb25zCiAgICAgICAgaWYgb3B0LmRhdGFzZXRfbW9kZToKICAgICAgICAgICAgZGF0YXNldF9uYW1lID0gb3B0LmRhdGFzZXRfbW9kZQogICAgICAgICAgICBkYXRhc2V0X29wdGlvbl9zZXR0ZXIgPSBkYXRhLmdldF9vcHRpb25fc2V0dGVyKGRhdGFzZXRfbmFtZSkKICAgICAgICAgICAgcGFyc2VyID0gZGF0YXNldF9vcHRpb25fc2V0dGVyKHBhcnNlciwgc2VsZi5pc1RyYWluKQoKICAgICAgICAjIHNhdmUgYW5kIHJldHVybiB0aGUgcGFyc2VyCiAgICAgICAgc2VsZi5wYXJzZXIgPSBwYXJzZXIKICAgICAgICBpZiBzZWxmLmNtZF9saW5lIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybiBwYXJzZXIucGFyc2VfYXJncygpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmV0dXJuIHBhcnNlci5wYXJzZV9hcmdzKHNlbGYuY21kX2xpbmUpCgogICAgZGVmIHByaW50X29wdGlvbnMoc2VsZiwgb3B0KToKICAgICAgICAiIiJQcmludCBhbmQgc2F2ZSBvcHRpb25zCgogICAgICAgIEl0IHdpbGwgcHJpbnQgYm90aCBjdXJyZW50IG9wdGlvbnMgYW5kIGRlZmF1bHQgdmFsdWVzKGlmIGRpZmZlcmVudCkuCiAgICAgICAgSXQgd2lsbCBzYXZlIG9wdGlvbnMgaW50byBhIHRleHQgZmlsZSAvIFtjaGVja3BvaW50c19kaXJdIC8gb3B0LnR4dAogICAgICAgICIiIgogICAgICAgIG1lc3NhZ2UgPSAnJwogICAgICAgIG1lc3NhZ2UgKz0gJy0tLS0tLS0tLS0tLS0tLS0tIE9wdGlvbnMgLS0tLS0tLS0tLS0tLS0tXG4nCiAgICAgICAgZm9yIGssIHYgaW4gc29ydGVkKHZhcnMob3B0KS5pdGVtcygpKToKICAgICAgICAgICAgY29tbWVudCA9ICcnCiAgICAgICAgICAgIGRlZmF1bHQgPSBzZWxmLnBhcnNlci5nZXRfZGVmYXVsdChrKQogICAgICAgICAgICBpZiB2ICE9IGRlZmF1bHQ6CiAgICAgICAgICAgICAgICBjb21tZW50ID0gJ1x0W2RlZmF1bHQ6ICVzXScgJSBzdHIoZGVmYXVsdCkKICAgICAgICAgICAgbWVzc2FnZSArPSAnezo+MjV9OiB7OjwzMH17fVxuJy5mb3JtYXQoc3RyKGspLCBzdHIodiksIGNvbW1lbnQpCiAgICAgICAgbWVzc2FnZSArPSAnLS0tLS0tLS0tLS0tLS0tLS0gRW5kIC0tLS0tLS0tLS0tLS0tLS0tLS0nCiAgICAgICAgcHJpbnQobWVzc2FnZSkKCiAgICAgICAgIyBzYXZlIHRvIHRoZSBkaXNrCiAgICAgICAgZXhwcl9kaXIgPSBvcy5wYXRoLmpvaW4ob3B0LmNoZWNrcG9pbnRzX2Rpciwgb3B0Lm5hbWUpCiAgICAgICAgdXRpbC5ta2RpcnMoZXhwcl9kaXIpCiAgICAgICAgZmlsZV9uYW1lID0gb3MucGF0aC5qb2luKGV4cHJfZGlyLCAne31fb3B0LnR4dCcuZm9ybWF0KG9wdC5waGFzZSkpCiAgICAgICAgdHJ5OgogICAgICAgICAgICB3aXRoIG9wZW4oZmlsZV9uYW1lLCAnd3QnKSBhcyBvcHRfZmlsZToKICAgICAgICAgICAgICAgIG9wdF9maWxlLndyaXRlKG1lc3NhZ2UpCiAgICAgICAgICAgICAgICBvcHRfZmlsZS53cml0ZSgnXG4nKQogICAgICAgIGV4Y2VwdCBQZXJtaXNzaW9uRXJyb3IgYXMgZXJyb3I6CiAgICAgICAgICAgIHByaW50KCJwZXJtaXNzaW9uIGVycm9yIHt9Ii5mb3JtYXQoZXJyb3IpKQogICAgICAgICAgICBwYXNzCgogICAgZGVmIHBhcnNlKHNlbGYpOgogICAgICAgICIiIlBhcnNlIG91ciBvcHRpb25zLCBjcmVhdGUgY2hlY2twb2ludHMgZGlyZWN0b3J5IHN1ZmZpeCwgYW5kIHNldCB1cCBncHUgZGV2aWNlLiIiIgogICAgICAgIG9wdCA9IHNlbGYuZ2F0aGVyX29wdGlvbnMoKQogICAgICAgIG9wdC5pc1RyYWluID0gc2VsZi5pc1RyYWluICAgIyB0cmFpbiBvciB0ZXN0CgogICAgICAgICMgcHJvY2VzcyBvcHQuc3VmZml4CiAgICAgICAgaWYgb3B0LnN1ZmZpeDoKICAgICAgICAgICAgc3VmZml4ID0gKCdfJyArIG9wdC5zdWZmaXguZm9ybWF0KCoqdmFycyhvcHQpKSkgaWYgb3B0LnN1ZmZpeCAhPSAnJyBlbHNlICcnCiAgICAgICAgICAgIG9wdC5uYW1lID0gb3B0Lm5hbWUgKyBzdWZmaXgKCgogICAgICAgICMgc2V0IGdwdSBpZHMKICAgICAgICBzdHJfaWRzID0gb3B0LmdwdV9pZHMuc3BsaXQoJywnKQogICAgICAgIGdwdV9pZHMgPSBbXQogICAgICAgIGZvciBzdHJfaWQgaW4gc3RyX2lkczoKICAgICAgICAgICAgaWQgPSBpbnQoc3RyX2lkKQogICAgICAgICAgICBpZiBpZCA+PSAwOgogICAgICAgICAgICAgICAgZ3B1X2lkcy5hcHBlbmQoaWQpCiAgICAgICAgb3B0LndvcmxkX3NpemUgPSBsZW4oZ3B1X2lkcykKICAgICAgICAjIGlmIGxlbihvcHQuZ3B1X2lkcykgPiAwOgogICAgICAgICMgICAgIHRvcmNoLmN1ZGEuc2V0X2RldmljZShncHVfaWRzWzBdKQogICAgICAgIGlmIG9wdC53b3JsZF9zaXplID09IDE6CiAgICAgICAgICAgIG9wdC51c2VfZGRwID0gRmFsc2UKCiAgICAgICAgaWYgb3B0LnBoYXNlICE9ICd0ZXN0JzoKICAgICAgICAgICAgIyBzZXQgY29udGludWVfdHJhaW4gYXV0b21hdGljYWxseQogICAgICAgICAgICBpZiBvcHQucHJldHJhaW5lZF9uYW1lIGlzIE5vbmU6CiAgICAgICAgICAgICAgICBtb2RlbF9kaXIgPSBvcy5wYXRoLmpvaW4ob3B0LmNoZWNrcG9pbnRzX2Rpciwgb3B0Lm5hbWUpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBtb2RlbF9kaXIgPSBvcy5wYXRoLmpvaW4ob3B0LmNoZWNrcG9pbnRzX2Rpciwgb3B0LnByZXRyYWluZWRfbmFtZSkKICAgICAgICAgICAgaWYgb3MucGF0aC5pc2Rpcihtb2RlbF9kaXIpOgogICAgICAgICAgICAgICAgbW9kZWxfcHRocyA9IFtpIGZvciBpIGluIG9zLmxpc3RkaXIobW9kZWxfZGlyKSBpZiBpLmVuZHN3aXRoKCdwdGgnKV0KICAgICAgICAgICAgICAgIGlmIG9zLnBhdGguaXNkaXIobW9kZWxfZGlyKSBhbmQgbGVuKG1vZGVsX3B0aHMpICE9IDA6CiAgICAgICAgICAgICAgICAgICAgb3B0LmNvbnRpbnVlX3RyYWluPSBUcnVlCiAgICAgICAgCiAgICAgICAgICAgICMgdXBkYXRlIHRoZSBsYXRlc3QgZXBvY2ggY291bnQKICAgICAgICAgICAgaWYgb3B0LmNvbnRpbnVlX3RyYWluOgogICAgICAgICAgICAgICAgaWYgb3B0LmVwb2NoID09ICdsYXRlc3QnOgogICAgICAgICAgICAgICAgICAgIGVwb2NoX2NvdW50cyA9IFtpbnQoaS5zcGxpdCgnLicpWzBdLnNwbGl0KCdfJylbLTFdKSBmb3IgaSBpbiBtb2RlbF9wdGhzIGlmICdsYXRlc3QnIG5vdCBpbiBpXQogICAgICAgICAgICAgICAgICAgIGlmIGxlbihlcG9jaF9jb3VudHMpICE9IDA6CiAgICAgICAgICAgICAgICAgICAgICAgIG9wdC5lcG9jaF9jb3VudCA9IG1heChlcG9jaF9jb3VudHMpICsgMQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBvcHQuZXBvY2hfY291bnQgPSBpbnQob3B0LmVwb2NoKSArIDEKICAgICAgICAgICAgICAgICAgICAKCiAgICAgICAgc2VsZi5wcmludF9vcHRpb25zKG9wdCkKICAgICAgICBzZWxmLm9wdCA9IG9wdAogICAgICAgIHJldHVybiBzZWxmLm9wdAo=
+"""This script contains base options for Deep3DFaceRecon_pytorch
+"""
+
+import argparse
+import os
+from util import util
+import numpy as np
+import torch
+import face3d.models as models
+import face3d.data as data
+
+
+class BaseOptions():
+    """This class defines options used during both training and test time.
+
+    It also implements several helper functions such as parsing, printing, and saving the options.
+    It also gathers additional options defined in <modify_commandline_options> functions in both dataset class and model class.
+    """
+
+    def __init__(self, cmd_line=None):
+        """Reset the class; indicates the class hasn't been initailized"""
+        self.initialized = False
+        self.cmd_line = None
+        if cmd_line is not None:
+            self.cmd_line = cmd_line.split()
+
+    def initialize(self, parser):
+        """Define the common options that are used in both training and test."""
+        # basic parameters
+        parser.add_argument('--name', type=str, default='face_recon', help='name of the experiment. It decides where to store samples and models')
+        parser.add_argument('--gpu_ids', type=str, default='0', help='gpu ids: e.g. 0  0,1,2, 0,2. use -1 for CPU')
+        parser.add_argument('--checkpoints_dir', type=str, default='./checkpoints', help='models are saved here')
+        parser.add_argument('--vis_batch_nums', type=float, default=1, help='batch nums of images for visulization')
+        parser.add_argument('--eval_batch_nums', type=float, default=float('inf'), help='batch nums of images for evaluation')
+        parser.add_argument('--use_ddp', type=util.str2bool, nargs='?', const=True, default=True, help='whether use distributed data parallel')
+        parser.add_argument('--ddp_port', type=str, default='12355', help='ddp port')
+        parser.add_argument('--display_per_batch', type=util.str2bool, nargs='?', const=True, default=True, help='whether use batch to show losses')
+        parser.add_argument('--add_image', type=util.str2bool, nargs='?', const=True, default=True, help='whether add image to tensorboard')
+        parser.add_argument('--world_size', type=int, default=1, help='batch nums of images for evaluation')
+
+        # model parameters
+        parser.add_argument('--model', type=str, default='facerecon', help='chooses which model to use.')
+
+        # additional parameters
+        parser.add_argument('--epoch', type=str, default='latest', help='which epoch to load? set to latest to use latest cached model')
+        parser.add_argument('--verbose', action='store_true', help='if specified, print more debugging information')
+        parser.add_argument('--suffix', default='', type=str, help='customized suffix: opt.name = opt.name + suffix: e.g., {model}_{netG}_size{load_size}')
+
+        self.initialized = True
+        return parser
+
+    def gather_options(self):
+        """Initialize our parser with basic options(only once).
+        Add additional model-specific and dataset-specific options.
+        These options are defined in the <modify_commandline_options> function
+        in model and dataset classes.
+        """
+        if not self.initialized:  # check if it has been initialized
+            parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+            parser = self.initialize(parser)
+
+        # get the basic options
+        if self.cmd_line is None:
+            opt, _ = parser.parse_known_args()
+        else:
+            opt, _ = parser.parse_known_args(self.cmd_line)
+
+        # set cuda visible devices
+        os.environ['CUDA_VISIBLE_DEVICES'] = opt.gpu_ids
+
+        # modify model-related parser options
+        model_name = opt.model
+        model_option_setter = models.get_option_setter(model_name)
+        parser = model_option_setter(parser, self.isTrain)
+        if self.cmd_line is None:
+            opt, _ = parser.parse_known_args()  # parse again with new defaults
+        else:
+            opt, _ = parser.parse_known_args(self.cmd_line)  # parse again with new defaults
+
+        # modify dataset-related parser options
+        if opt.dataset_mode:
+            dataset_name = opt.dataset_mode
+            dataset_option_setter = data.get_option_setter(dataset_name)
+            parser = dataset_option_setter(parser, self.isTrain)
+
+        # save and return the parser
+        self.parser = parser
+        if self.cmd_line is None:
+            return parser.parse_args()
+        else:
+            return parser.parse_args(self.cmd_line)
+
+    def print_options(self, opt):
+        """Print and save options
+
+        It will print both current options and default values(if different).
+        It will save options into a text file / [checkpoints_dir] / opt.txt
+        """
+        message = ''
+        message += '----------------- Options ---------------\n'
+        for k, v in sorted(vars(opt).items()):
+            comment = ''
+            default = self.parser.get_default(k)
+            if v != default:
+                comment = '\t[default: %s]' % str(default)
+            message += '{:>25}: {:<30}{}\n'.format(str(k), str(v), comment)
+        message += '----------------- End -------------------'
+        print(message)
+
+        # save to the disk
+        expr_dir = os.path.join(opt.checkpoints_dir, opt.name)
+        util.mkdirs(expr_dir)
+        file_name = os.path.join(expr_dir, '{}_opt.txt'.format(opt.phase))
+        try:
+            with open(file_name, 'wt') as opt_file:
+                opt_file.write(message)
+                opt_file.write('\n')
+        except PermissionError as error:
+            print("permission error {}".format(error))
+            pass
+
+    def parse(self):
+        """Parse our options, create checkpoints directory suffix, and set up gpu device."""
+        opt = self.gather_options()
+        opt.isTrain = self.isTrain   # train or test
+
+        # process opt.suffix
+        if opt.suffix:
+            suffix = ('_' + opt.suffix.format(**vars(opt))) if opt.suffix != '' else ''
+            opt.name = opt.name + suffix
+
+
+        # set gpu ids
+        str_ids = opt.gpu_ids.split(',')
+        gpu_ids = []
+        for str_id in str_ids:
+            id = int(str_id)
+            if id >= 0:
+                gpu_ids.append(id)
+        opt.world_size = len(gpu_ids)
+        # if len(opt.gpu_ids) > 0:
+        #     torch.cuda.set_device(gpu_ids[0])
+        if opt.world_size == 1:
+            opt.use_ddp = False
+
+        if opt.phase != 'test':
+            # set continue_train automatically
+            if opt.pretrained_name is None:
+                model_dir = os.path.join(opt.checkpoints_dir, opt.name)
+            else:
+                model_dir = os.path.join(opt.checkpoints_dir, opt.pretrained_name)
+            if os.path.isdir(model_dir):
+                model_pths = [i for i in os.listdir(model_dir) if i.endswith('pth')]
+                if os.path.isdir(model_dir) and len(model_pths) != 0:
+                    opt.continue_train= True
+        
+            # update the latest epoch count
+            if opt.continue_train:
+                if opt.epoch == 'latest':
+                    epoch_counts = [int(i.split('.')[0].split('_')[-1]) for i in model_pths if 'latest' not in i]
+                    if len(epoch_counts) != 0:
+                        opt.epoch_count = max(epoch_counts) + 1
+                else:
+                    opt.epoch_count = int(opt.epoch) + 1
+                    
+
+        self.print_options(opt)
+        self.opt = opt
+        return self.opt

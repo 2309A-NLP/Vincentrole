@@ -1,1 +1,14 @@
-CmltcG9ydCBvcwppbXBvcnQgbG9nZ2luZwoKZGVmIGdldF9sYXRlc3RfbW9kaWZpZWRfZmlsZShkaXJlY3RvcnkpOgogICAgbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCiAgICAKICAgIGZpbGVzID0gW29zLnBhdGguam9pbihkaXJlY3RvcnksIGYpIGZvciBmIGluIG9zLmxpc3RkaXIoZGlyZWN0b3J5KV0gCiAgICBpZiBub3QgZmlsZXM6CiAgICAgICAgbG9nZ2VyLmxvZyhsb2dnaW5nLldBUk5JTkcsIGYnTm8gZmlsZXMgZm91bmQgaW4gdGhlIGRpcmVjdG9yeToge2RpcmVjdG9yeX0nKQogICAgICAgIHJldHVybiBOb25lCiAgICBsYXRlc3RfZmlsZSA9IG1heChmaWxlcywga2V5PW9zLnBhdGguZ2V0bXRpbWUpCgogICAgcmV0dXJuIGxhdGVzdF9maWxl
+
+import os
+import logging
+
+def get_latest_modified_file(directory):
+    logger = logging.getLogger(__name__)
+    
+    files = [os.path.join(directory, f) for f in os.listdir(directory)] 
+    if not files:
+        logger.log(logging.WARNING, f'No files found in the directory: {directory}')
+        return None
+    latest_file = max(files, key=os.path.getmtime)
+
+    return latest_file

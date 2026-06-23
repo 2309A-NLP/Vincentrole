@@ -1,1 +1,503 @@
-aW1wb3J0IExhbmdTZWdtZW50CmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgbGlicm9zYQppbXBvcnQgdG9yY2gKaW1wb3J0IHJlLCBvcwppbXBvcnQgbGlicm9zYQpmcm9tIHRyYW5zZm9ybWVycyBpbXBvcnQgQXV0b01vZGVsRm9yTWFza2VkTE0sIEF1dG9Ub2tlbml6ZXIKaW1wb3J0IHN5cwpzeXMucGF0aC5hcHBlbmQoJ0dQVF9Tb1ZJVFMvJykKZnJvbSB0ZXh0IGltcG9ydCBjbGVhbmVkX3RleHRfdG9fc2VxdWVuY2UKZnJvbSB0ZXh0LmNsZWFuZXIgaW1wb3J0IGNsZWFuX3RleHQKZnJvbSBmZWF0dXJlX2V4dHJhY3RvciBpbXBvcnQgY25odWJlcnQKZnJvbSBteV91dGlscyBpbXBvcnQgbG9hZF9hdWRpbwpmcm9tIG1vZHVsZS5tZWxfcHJvY2Vzc2luZyBpbXBvcnQgc3BlY3Ryb2dyYW1fdG9yY2gKZnJvbSBtb2R1bGUubW9kZWxzIGltcG9ydCBTeW50aGVzaXplclRybgpmcm9tIEFSLm1vZGVscy50MnNfbGlnaHRuaW5nX21vZHVsZSBpbXBvcnQgVGV4dDJTZW1hbnRpY0xpZ2h0bmluZ01vZHVsZQpmcm9tIHNjaXB5LmlvLndhdmZpbGUgaW1wb3J0IHdyaXRlCmZyb20gdGltZSBpbXBvcnQgdGltZSBhcyB0dGltZQoKaWYgdG9yY2guY3VkYS5pc19hdmFpbGFibGUoKToKICAgIGRldmljZSA9ICJjdWRhIgplbGlmIHRvcmNoLmJhY2tlbmRzLm1wcy5pc19hdmFpbGFibGUoKToKICAgIGRldmljZSA9ICJtcHMiCmVsc2U6CiAgICBkZXZpY2UgPSAiY3B1IgoKaXNfaGFsZiA9IFRydWUKc3BsaXRzID0geyLvvIwiLCAi44CCIiwgIu+8nyIsICLvvIEiLCAiLCIsICIuIiwgIj8iLCAiISIsICJ+IiwgIjoiLCAi77yaIiwgIuKAlCIsICLigKYiLCB9CmlmIGRldmljZSA9PSAiY3VkYSI6CiAgICBncHVfbmFtZSA9IHRvcmNoLmN1ZGEuZ2V0X2RldmljZV9uYW1lKDApCiAgICBpZiAoCiAgICAgICAgICAgICgiMTYiIGluIGdwdV9uYW1lIGFuZCAiVjEwMCIgbm90IGluIGdwdV9uYW1lLnVwcGVyKCkpCiAgICAgICAgICAgIG9yICJQNDAiIGluIGdwdV9uYW1lLnVwcGVyKCkKICAgICAgICAgICAgb3IgIlAxMCIgaW4gZ3B1X25hbWUudXBwZXIoKQogICAgICAgICAgICBvciAiMTA2MCIgaW4gZ3B1X25hbWUKICAgICAgICAgICAgb3IgIjEwNzAiIGluIGdwdV9uYW1lCiAgICAgICAgICAgIG9yICIxMDgwIiBpbiBncHVfbmFtZQogICAgKToKICAgICAgICBpc19oYWxmPUZhbHNlCgppZiBkZXZpY2U9PSJjcHUiOgogICAgaXNfaGFsZj1GYWxzZQoKZHR5cGU9dG9yY2guZmxvYXQxNiBpZiBpc19oYWxmID09IFRydWUgZWxzZSB0b3JjaC5mbG9hdDMyCmJlcnRfcGF0aCA9IG9zLmVudmlyb24uZ2V0KAogICAgImJlcnRfcGF0aCIsICJHUFRfU29WSVRTL3ByZXRyYWluZWRfbW9kZWxzL2NoaW5lc2Utcm9iZXJ0YS13d20tZXh0LWxhcmdlIgopCmNuaHViZXJ0X2Jhc2VfcGF0aCA9IG9zLmVudmlyb24uZ2V0KAogICAgImNuaHViZXJ0X2Jhc2VfcGF0aCIsICJHUFRfU29WSVRTL3ByZXRyYWluZWRfbW9kZWxzL2NoaW5lc2UtaHViZXJ0LWJhc2UiCikKY25odWJlcnQuY25odWJlcnRfYmFzZV9wYXRoID0gY25odWJlcnRfYmFzZV9wYXRoCgp0b2tlbml6ZXIgPSBBdXRvVG9rZW5pemVyLmZyb21fcHJldHJhaW5lZChiZXJ0X3BhdGgpCmJlcnRfbW9kZWwgPSBBdXRvTW9kZWxGb3JNYXNrZWRMTS5mcm9tX3ByZXRyYWluZWQoYmVydF9wYXRoKQoKaWYgaXNfaGFsZiA9PSBUcnVlOgogICAgYmVydF9tb2RlbCA9IGJlcnRfbW9kZWwuaGFsZigpLnRvKGRldmljZSkKZWxzZToKICAgIGJlcnRfbW9kZWwgPSBiZXJ0X21vZGVsLnRvKGRldmljZSkKCnNzbF9tb2RlbCA9IGNuaHViZXJ0LmdldF9tb2RlbCgpCmlmIGlzX2hhbGYgPT0gVHJ1ZToKICAgIHNzbF9tb2RlbCA9IHNzbF9tb2RlbC5oYWxmKCkudG8oZGV2aWNlKQplbHNlOgogICAgc3NsX21vZGVsID0gc3NsX21vZGVsLnRvKGRldmljZSkKCmRlZiBnZXRfc3BlcGMoaHBzLCBmaWxlbmFtZSk6CiAgICBhdWRpbyA9IGxvYWRfYXVkaW8oZmlsZW5hbWUsIGludChocHMuZGF0YS5zYW1wbGluZ19yYXRlKSkKICAgIGF1ZGlvID0gdG9yY2guRmxvYXRUZW5zb3IoYXVkaW8pCiAgICBhdWRpb19ub3JtID0gYXVkaW8KICAgIGF1ZGlvX25vcm0gPSBhdWRpb19ub3JtLnVuc3F1ZWV6ZSgwKQogICAgc3BlYyA9IHNwZWN0cm9ncmFtX3RvcmNoKAogICAgICAgIGF1ZGlvX25vcm0sCiAgICAgICAgaHBzLmRhdGEuZmlsdGVyX2xlbmd0aCwKICAgICAgICBocHMuZGF0YS5zYW1wbGluZ19yYXRlLAogICAgICAgIGhwcy5kYXRhLmhvcF9sZW5ndGgsCiAgICAgICAgaHBzLmRhdGEud2luX2xlbmd0aCwKICAgICAgICBjZW50ZXI9RmFsc2UsCiAgICApCiAgICByZXR1cm4gc3BlYwoKZGVmIGdldF9iZXJ0X2ZlYXR1cmUodGV4dCwgd29yZDJwaCk6CiAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICBpbnB1dHMgPSB0b2tlbml6ZXIodGV4dCwgcmV0dXJuX3RlbnNvcnM9InB0IikKICAgICAgICBmb3IgaSBpbiBpbnB1dHM6CiAgICAgICAgICAgIGlucHV0c1tpXSA9IGlucHV0c1tpXS50byhkZXZpY2UpCiAgICAgICAgcmVzID0gYmVydF9tb2RlbCgqKmlucHV0cywgb3V0cHV0X2hpZGRlbl9zdGF0ZXM9VHJ1ZSkKICAgICAgICByZXMgPSB0b3JjaC5jYXQocmVzWyJoaWRkZW5fc3RhdGVzIl1bLTM6LTJdLCAtMSlbMF0uY3B1KClbMTotMV0KICAgIGFzc2VydCBsZW4od29yZDJwaCkgPT0gbGVuKHRleHQpCiAgICBwaG9uZV9sZXZlbF9mZWF0dXJlID0gW10KICAgIGZvciBpIGluIHJhbmdlKGxlbih3b3JkMnBoKSk6CiAgICAgICAgcmVwZWF0X2ZlYXR1cmUgPSByZXNbaV0ucmVwZWF0KHdvcmQycGhbaV0sIDEpCiAgICAgICAgcGhvbmVfbGV2ZWxfZmVhdHVyZS5hcHBlbmQocmVwZWF0X2ZlYXR1cmUpCiAgICBwaG9uZV9sZXZlbF9mZWF0dXJlID0gdG9yY2guY2F0KHBob25lX2xldmVsX2ZlYXR1cmUsIGRpbT0wKQogICAgcmV0dXJuIHBob25lX2xldmVsX2ZlYXR1cmUuVAoKY2xhc3MgRGljdFRvQXR0clJlY3Vyc2l2ZShkaWN0KToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbnB1dF9kaWN0KToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKGlucHV0X2RpY3QpCiAgICAgICAgZm9yIGtleSwgdmFsdWUgaW4gaW5wdXRfZGljdC5pdGVtcygpOgogICAgICAgICAgICBpZiBpc2luc3RhbmNlKHZhbHVlLCBkaWN0KToKICAgICAgICAgICAgICAgIHZhbHVlID0gRGljdFRvQXR0clJlY3Vyc2l2ZSh2YWx1ZSkKICAgICAgICAgICAgc2VsZltrZXldID0gdmFsdWUKICAgICAgICAgICAgc2V0YXR0cihzZWxmLCBrZXksIHZhbHVlKQoKICAgIGRlZiBfX2dldGF0dHJfXyhzZWxmLCBpdGVtKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJldHVybiBzZWxmW2l0ZW1dCiAgICAgICAgZXhjZXB0IEtleUVycm9yOgogICAgICAgICAgICByYWlzZSBBdHRyaWJ1dGVFcnJvcihmIkF0dHJpYnV0ZSB7aXRlbX0gbm90IGZvdW5kIikKCiAgICBkZWYgX19zZXRhdHRyX18oc2VsZiwga2V5LCB2YWx1ZSk6CiAgICAgICAgaWYgaXNpbnN0YW5jZSh2YWx1ZSwgZGljdCk6CiAgICAgICAgICAgIHZhbHVlID0gRGljdFRvQXR0clJlY3Vyc2l2ZSh2YWx1ZSkKICAgICAgICBzdXBlcihEaWN0VG9BdHRyUmVjdXJzaXZlLCBzZWxmKS5fX3NldGl0ZW1fXyhrZXksIHZhbHVlKQogICAgICAgIHN1cGVyKCkuX19zZXRhdHRyX18oa2V5LCB2YWx1ZSkKCiAgICBkZWYgX19kZWxhdHRyX18oc2VsZiwgaXRlbSk6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBkZWwgc2VsZltpdGVtXQogICAgICAgIGV4Y2VwdCBLZXlFcnJvcjoKICAgICAgICAgICAgcmFpc2UgQXR0cmlidXRlRXJyb3IoZiJBdHRyaWJ1dGUge2l0ZW19IG5vdCBmb3VuZCIpCgpkZWYgY2xlYW5fdGV4dF9pbmYodGV4dCwgbGFuZ3VhZ2UpOgogICAgcGhvbmVzLCB3b3JkMnBoLCBub3JtX3RleHQgPSBjbGVhbl90ZXh0KHRleHQsIGxhbmd1YWdlLnJlcGxhY2UoImFsbF8iLCIiKSkKICAgIHBob25lcyA9IGNsZWFuZWRfdGV4dF90b19zZXF1ZW5jZShwaG9uZXMpCiAgICByZXR1cm4gcGhvbmVzLCB3b3JkMnBoLCBub3JtX3RleHQKCmRlZiBnZXRfYmVydF9pbmYocGhvbmVzLCB3b3JkMnBoLCBub3JtX3RleHQsIGxhbmd1YWdlKToKICAgIGxhbmd1YWdlPWxhbmd1YWdlLnJlcGxhY2UoImFsbF8iLCIiKQogICAgaWYgbGFuZ3VhZ2UgPT0gInpoIjoKICAgICAgICBiZXJ0ID0gZ2V0X2JlcnRfZmVhdHVyZShub3JtX3RleHQsIHdvcmQycGgpLnRvKGRldmljZSkjLnRvKGR0eXBlKQogICAgZWxzZToKICAgICAgICBiZXJ0ID0gdG9yY2guemVyb3MoCiAgICAgICAgICAgICgxMDI0LCBsZW4ocGhvbmVzKSksCiAgICAgICAgICAgIGR0eXBlPXRvcmNoLmZsb2F0MTYgaWYgaXNfaGFsZiA9PSBUcnVlIGVsc2UgdG9yY2guZmxvYXQzMiwKICAgICAgICApLnRvKGRldmljZSkKCiAgICByZXR1cm4gYmVydAoKZGVmIHNwbGl0ZV9lbl9pbmYoc2VudGVuY2UsIGxhbmd1YWdlKToKICAgIHBhdHRlcm4gPSByZS5jb21waWxlKHInW2EtekEtWiBdKycpCiAgICB0ZXh0bGlzdCA9IFtdCiAgICBsYW5nbGlzdCA9IFtdCiAgICBwb3MgPSAwCiAgICBmb3IgbWF0Y2ggaW4gcGF0dGVybi5maW5kaXRlcihzZW50ZW5jZSk6CiAgICAgICAgc3RhcnQsIGVuZCA9IG1hdGNoLnNwYW4oKQogICAgICAgIGlmIHN0YXJ0ID4gcG9zOgogICAgICAgICAgICB0ZXh0bGlzdC5hcHBlbmQoc2VudGVuY2VbcG9zOnN0YXJ0XSkKICAgICAgICAgICAgbGFuZ2xpc3QuYXBwZW5kKGxhbmd1YWdlKQogICAgICAgIHRleHRsaXN0LmFwcGVuZChzZW50ZW5jZVtzdGFydDplbmRdKQogICAgICAgIGxhbmdsaXN0LmFwcGVuZCgiZW4iKQogICAgICAgIHBvcyA9IGVuZAogICAgaWYgcG9zIDwgbGVuKHNlbnRlbmNlKToKICAgICAgICB0ZXh0bGlzdC5hcHBlbmQoc2VudGVuY2VbcG9zOl0pCiAgICAgICAgbGFuZ2xpc3QuYXBwZW5kKGxhbmd1YWdlKQogICAgIyBNZXJnZSBwdW5jdHVhdGlvbiBpbnRvIHByZXZpb3VzIHdvcmQKICAgIGZvciBpIGluIHJhbmdlKGxlbih0ZXh0bGlzdCktMSwgMCwgLTEpOgogICAgICAgIGlmIHJlLm1hdGNoKHInXltcV19dKyQnLCB0ZXh0bGlzdFtpXSk6CiAgICAgICAgICAgIHRleHRsaXN0W2ktMV0gKz0gdGV4dGxpc3RbaV0KICAgICAgICAgICAgZGVsIHRleHRsaXN0W2ldCiAgICAgICAgICAgIGRlbCBsYW5nbGlzdFtpXQogICAgIyBNZXJnZSBjb25zZWN1dGl2ZSB3b3JkcyB3aXRoIHRoZSBzYW1lIGxhbmd1YWdlIHRhZwogICAgaSA9IDAKICAgIHdoaWxlIGkgPCBsZW4obGFuZ2xpc3QpIC0gMToKICAgICAgICBpZiBsYW5nbGlzdFtpXSA9PSBsYW5nbGlzdFtpKzFdOgogICAgICAgICAgICB0ZXh0bGlzdFtpXSArPSB0ZXh0bGlzdFtpKzFdCiAgICAgICAgICAgIGRlbCB0ZXh0bGlzdFtpKzFdCiAgICAgICAgICAgIGRlbCBsYW5nbGlzdFtpKzFdCiAgICAgICAgZWxzZToKICAgICAgICAgICAgaSArPSAxCgogICAgcmV0dXJuIHRleHRsaXN0LCBsYW5nbGlzdAoKZGVmIG5vbmVuX2NsZWFuX3RleHRfaW5mKHRleHQsIGxhbmd1YWdlKToKICAgIGlmKGxhbmd1YWdlIT0iYXV0byIpOgogICAgICAgIHRleHRsaXN0LCBsYW5nbGlzdCA9IHNwbGl0ZV9lbl9pbmYodGV4dCwgbGFuZ3VhZ2UpCiAgICBlbHNlOgogICAgICAgIHRleHRsaXN0PVtdCiAgICAgICAgbGFuZ2xpc3Q9W10KICAgICAgICBmb3IgdG1wIGluIExhbmdTZWdtZW50LmdldFRleHRzKHRleHQpOgogICAgICAgICAgICBsYW5nbGlzdC5hcHBlbmQodG1wWyJsYW5nIl0pCiAgICAgICAgICAgIHRleHRsaXN0LmFwcGVuZCh0bXBbInRleHQiXSkKICAgIHByaW50KHRleHRsaXN0KQogICAgcHJpbnQobGFuZ2xpc3QpCiAgICBwaG9uZXNfbGlzdCA9IFtdCiAgICB3b3JkMnBoX2xpc3QgPSBbXQogICAgbm9ybV90ZXh0X2xpc3QgPSBbXQogICAgZm9yIGkgaW4gcmFuZ2UobGVuKHRleHRsaXN0KSk6CiAgICAgICAgbGFuZyA9IGxhbmdsaXN0W2ldCiAgICAgICAgcGhvbmVzLCB3b3JkMnBoLCBub3JtX3RleHQgPSBjbGVhbl90ZXh0X2luZih0ZXh0bGlzdFtpXSwgbGFuZykKICAgICAgICBwaG9uZXNfbGlzdC5hcHBlbmQocGhvbmVzKQogICAgICAgIGlmIGxhbmcgPT0gInpoIjoKICAgICAgICAgICAgd29yZDJwaF9saXN0LmFwcGVuZCh3b3JkMnBoKQogICAgICAgIG5vcm1fdGV4dF9saXN0LmFwcGVuZChub3JtX3RleHQpCiAgICBwcmludCh3b3JkMnBoX2xpc3QpCiAgICBwaG9uZXMgPSBzdW0ocGhvbmVzX2xpc3QsIFtdKQogICAgd29yZDJwaCA9IHN1bSh3b3JkMnBoX2xpc3QsIFtdKQogICAgbm9ybV90ZXh0ID0gJyAnLmpvaW4obm9ybV90ZXh0X2xpc3QpCgogICAgcmV0dXJuIHBob25lcywgd29yZDJwaCwgbm9ybV90ZXh0CgpkZWYgbm9uZW5fZ2V0X2JlcnRfaW5mKHRleHQsIGxhbmd1YWdlKToKICAgIGlmKGxhbmd1YWdlIT0iYXV0byIpOgogICAgICAgIHRleHRsaXN0LCBsYW5nbGlzdCA9IHNwbGl0ZV9lbl9pbmYodGV4dCwgbGFuZ3VhZ2UpCiAgICBlbHNlOgogICAgICAgIHRleHRsaXN0PVtdCiAgICAgICAgbGFuZ2xpc3Q9W10KICAgICAgICBmb3IgdG1wIGluIExhbmdTZWdtZW50LmdldFRleHRzKHRleHQpOgogICAgICAgICAgICBsYW5nbGlzdC5hcHBlbmQodG1wWyJsYW5nIl0pCiAgICAgICAgICAgIHRleHRsaXN0LmFwcGVuZCh0bXBbInRleHQiXSkKICAgIHByaW50KHRleHRsaXN0KQogICAgcHJpbnQobGFuZ2xpc3QpCiAgICBiZXJ0X2xpc3QgPSBbXQogICAgZm9yIGkgaW4gcmFuZ2UobGVuKHRleHRsaXN0KSk6CiAgICAgICAgdGV4dCA9IHRleHRsaXN0W2ldCiAgICAgICAgbGFuZyA9IGxhbmdsaXN0W2ldCiAgICAgICAgcGhvbmVzLCB3b3JkMnBoLCBub3JtX3RleHQgPSBjbGVhbl90ZXh0X2luZih0ZXh0LCBsYW5nKQogICAgICAgIGJlcnQgPSBnZXRfYmVydF9pbmYocGhvbmVzLCB3b3JkMnBoLCBub3JtX3RleHQsIGxhbmcpCiAgICAgICAgYmVydF9saXN0LmFwcGVuZChiZXJ0KQogICAgYmVydCA9IHRvcmNoLmNhdChiZXJ0X2xpc3QsIGRpbT0xKQoKICAgIHJldHVybiBiZXJ0CgpkZWYgZ2V0X2ZpcnN0KHRleHQpOgogICAgcGF0dGVybiA9ICJbIiArICIiLmpvaW4ocmUuZXNjYXBlKHNlcCkgZm9yIHNlcCBpbiBzcGxpdHMpICsgIl0iCiAgICB0ZXh0ID0gcmUuc3BsaXQocGF0dGVybiwgdGV4dClbMF0uc3RyaXAoKQogICAgcmV0dXJuIHRleHQKCmRlZiBnZXRfY2xlYW5lZF90ZXh0X2ZpYW5sKHRleHQsbGFuZ3VhZ2UpOgogICAgaWYgbGFuZ3VhZ2UgaW4geyJlbiIsImFsbF96aCIsImFsbF9qYSJ9OgogICAgICAgIHBob25lcywgd29yZDJwaCwgbm9ybV90ZXh0ID0gY2xlYW5fdGV4dF9pbmYodGV4dCwgbGFuZ3VhZ2UpCiAgICBlbGlmIGxhbmd1YWdlIGluIHsiemgiLCAiamEiLCJhdXRvIn06CiAgICAgICAgcGhvbmVzLCB3b3JkMnBoLCBub3JtX3RleHQgPSBub25lbl9jbGVhbl90ZXh0X2luZih0ZXh0LCBsYW5ndWFnZSkKICAgIHJldHVybiBwaG9uZXMsIHdvcmQycGgsIG5vcm1fdGV4dAoKZGVmIGdldF9iZXJ0X2ZpbmFsKHBob25lcywgd29yZDJwaCwgbm9ybV90ZXh0LCB0ZXh0X2xhbmd1YWdlLCBkZXZpY2UsIHRleHQpOgogICAgaWYgdGV4dF9sYW5ndWFnZSA9PSAiZW4iOgogICAgICAgIGJlcnQgPSBnZXRfYmVydF9pbmYocGhvbmVzLCB3b3JkMnBoLCBub3JtX3RleHQsIHRleHRfbGFuZ3VhZ2UpCiAgICBlbGlmIHRleHRfbGFuZ3VhZ2UgaW4geyJ6aCIsICJqYSIsImF1dG8ifToKICAgICAgICBiZXJ0ID0gbm9uZW5fZ2V0X2JlcnRfaW5mKHRleHQsIHRleHRfbGFuZ3VhZ2UpCiAgICBlbGlmIHRleHRfbGFuZ3VhZ2UgPT0gImFsbF96aCI6CiAgICAgICAgYmVydCA9IGdldF9iZXJ0X2ZlYXR1cmUobm9ybV90ZXh0LCB3b3JkMnBoKS50byhkZXZpY2UpCiAgICBlbHNlOgogICAgICAgIGJlcnQgPSB0b3JjaC56ZXJvcygoMTAyNCwgbGVuKHBob25lcykpKS50byhkZXZpY2UpCiAgICByZXR1cm4gYmVydAoKZGVmIHNwbGl0KHRvZG9fdGV4dCk6CiAgICB0b2RvX3RleHQgPSB0b2RvX3RleHQucmVwbGFjZSgi4oCm4oCmIiwgIuOAgiIpLnJlcGxhY2UoIuKAlOKAlCIsICLvvIwiKQogICAgaWYgdG9kb190ZXh0Wy0xXSBub3QgaW4gc3BsaXRzOgogICAgICAgIHRvZG9fdGV4dCArPSAi44CCIgogICAgaV9zcGxpdF9oZWFkID0gaV9zcGxpdF90YWlsID0gMAogICAgbGVuX3RleHQgPSBsZW4odG9kb190ZXh0KQogICAgdG9kb190ZXh0cyA9IFtdCiAgICB3aGlsZSAxOgogICAgICAgIGlmIGlfc3BsaXRfaGVhZCA+PSBsZW5fdGV4dDoKICAgICAgICAgICAgYnJlYWsgICMg57uT5bC+5LiA5a6a5pyJ5qCH54K577yM5omA5Lul55u05o6l6Lez5Ye65Y2z5Y+v77yM5pyA5ZCO5LiA5q615Zyo5LiK5qyh5bey5Yqg5YWlCiAgICAgICAgaWYgdG9kb190ZXh0W2lfc3BsaXRfaGVhZF0gaW4gc3BsaXRzOgogICAgICAgICAgICBpX3NwbGl0X2hlYWQgKz0gMQogICAgICAgICAgICB0b2RvX3RleHRzLmFwcGVuZCh0b2RvX3RleHRbaV9zcGxpdF90YWlsOmlfc3BsaXRfaGVhZF0pCiAgICAgICAgICAgIGlfc3BsaXRfdGFpbCA9IGlfc3BsaXRfaGVhZAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlfc3BsaXRfaGVhZCArPSAxCiAgICByZXR1cm4gdG9kb190ZXh0cwoKZGVmIGN1dDEoaW5wKToKICAgIGlucCA9IGlucC5zdHJpcCgiXG4iKQogICAgaW5wcyA9IHNwbGl0KGlucCkKICAgIHNwbGl0X2lkeCA9IGxpc3QocmFuZ2UoMCwgbGVuKGlucHMpLCA0KSkKICAgIHNwbGl0X2lkeFstMV0gPSBOb25lCiAgICBpZiBsZW4oc3BsaXRfaWR4KSA+IDE6CiAgICAgICAgb3B0cyA9IFtdCiAgICAgICAgZm9yIGlkeCBpbiByYW5nZShsZW4oc3BsaXRfaWR4KSAtIDEpOgogICAgICAgICAgICBvcHRzLmFwcGVuZCgiIi5qb2luKGlucHNbc3BsaXRfaWR4W2lkeF06IHNwbGl0X2lkeFtpZHggKyAxXV0pKQogICAgZWxzZToKICAgICAgICBvcHRzID0gW2lucF0KICAgIHJldHVybiAiXG4iLmpvaW4ob3B0cykKCmRlZiBjdXQyKGlucCk6CiAgICBpbnAgPSBpbnAuc3RyaXAoIlxuIikKICAgIGlucHMgPSBzcGxpdChpbnApCiAgICBpZiBsZW4oaW5wcykgPCAyOgogICAgICAgIHJldHVybiBpbnAKICAgIG9wdHMgPSBbXQogICAgc3VtbSA9IDAKICAgIHRtcF9zdHIgPSAiIgogICAgZm9yIGkgaW4gcmFuZ2UobGVuKGlucHMpKToKICAgICAgICBzdW1tICs9IGxlbihpbnBzW2ldKQogICAgICAgIHRtcF9zdHIgKz0gaW5wc1tpXQogICAgICAgIGlmIHN1bW0gPiA1MDoKICAgICAgICAgICAgc3VtbSA9IDAKICAgICAgICAgICAgb3B0cy5hcHBlbmQodG1wX3N0cikKICAgICAgICAgICAgdG1wX3N0ciA9ICIiCiAgICBpZiB0bXBfc3RyICE9ICIiOgogICAgICAgIG9wdHMuYXBwZW5kKHRtcF9zdHIpCiAgICAjIHByaW50KG9wdHMpCiAgICBpZiBsZW4ob3B0cykgPiAxIGFuZCBsZW4ob3B0c1stMV0pIDwgNTA6ICAjI+WmguaenOacgOWQjuS4gOS4quWkquefreS6hu+8jOWSjOWJjeS4gOS4quWQiOS4gOi1twogICAgICAgIG9wdHNbLTJdID0gb3B0c1stMl0gKyBvcHRzWy0xXQogICAgICAgIG9wdHMgPSBvcHRzWzotMV0KICAgIHJldHVybiAiXG4iLmpvaW4ob3B0cykKCmRlZiBjdXQzKGlucCk6CiAgICBpbnAgPSBpbnAuc3RyaXAoIlxuIikKICAgIHJldHVybiAiXG4iLmpvaW4oWyIlcyIgJSBpdGVtIGZvciBpdGVtIGluIGlucC5zdHJpcCgi44CCIikuc3BsaXQoIuOAgiIpXSkKCmRlZiBjdXQ0KGlucCk6CiAgICBpbnAgPSBpbnAuc3RyaXAoIlxuIikKICAgIHJldHVybiAiXG4iLmpvaW4oWyIlcyIgJSBpdGVtIGZvciBpdGVtIGluIGlucC5zdHJpcCgiLiIpLnNwbGl0KCIuIildKQoKIyBjb250cmlidXRlZCBieSBodHRwczovL2dpdGh1Yi5jb20vQUktSG9iYnlpc3QvR1BULVNvVklUUy9ibG9iL21haW4vR1BUX1NvVklUUy9pbmZlcmVuY2Vfd2VidWkucHkKZGVmIGN1dDUoaW5wKToKICAgICMgaWYgbm90IHJlLnNlYXJjaChyJ1teXHdcc10nLCBpbnBbLTFdKToKICAgICMgaW5wICs9ICfjgIInCiAgICBpbnAgPSBpbnAuc3RyaXAoIlxuIikKICAgIHB1bmRzID0gcidbLC47PyHjgIHvvIzjgILvvJ/vvIE777yaXScKICAgIGl0ZW1zID0gcmUuc3BsaXQoZicoe3B1bmRzfSknLCBpbnApCiAgICBpdGVtcyA9IFsiIi5qb2luKGdyb3VwKSBmb3IgZ3JvdXAgaW4gemlwKGl0ZW1zWzo6Ml0sIGl0ZW1zWzE6OjJdKV0KICAgIG9wdCA9ICJcbiIuam9pbihpdGVtcykKICAgIHJldHVybiBvcHQKCmNsYXNzIEdQVF9Tb1ZJVFM6CiAgICBkZWYgX19pbml0X18oc2VsZik6CiAgICAgICAgc2VsZi5tb2RlbCA9IE5vbmUKICAgICAgICAjIGlzX2hhbGYgPSBUcnVlCiAgICAgICAgIyBkZXZpY2UgPSAiY3VkYSIgaWYgdG9yY2guY3VkYS5pc19hdmFpbGFibGUoKSBlbHNlICJjcHUiCiAgICAgICAgCiAgICBkZWYgbG9hZF9tb2RlbChzZWxmLCBncHRfcGF0aCwgc292aXRzX3BhdGgpOgogICAgICAgIHNlbGYuaHogPSA1MAogICAgICAgIGRpY3RfczEgPSB0b3JjaC5sb2FkKGdwdF9wYXRoLCBtYXBfbG9jYXRpb249ImNwdSIpCiAgICAgICAgc2VsZi5jb25maWcgPSBkaWN0X3MxWyJjb25maWciXQogICAgICAgIHNlbGYubWF4X3NlYyA9IHNlbGYuY29uZmlnWyJkYXRhIl1bIm1heF9zZWMiXQogICAgICAgIHQyc19tb2RlbCA9IFRleHQyU2VtYW50aWNMaWdodG5pbmdNb2R1bGUoc2VsZi5jb25maWcsICIqKioqIiwgaXNfdHJhaW49RmFsc2UpCiAgICAgICAgdDJzX21vZGVsLmxvYWRfc3RhdGVfZGljdChkaWN0X3MxWyJ3ZWlnaHQiXSkKICAgICAgICBpZiBpc19oYWxmID09IFRydWU6CiAgICAgICAgICAgIHQyc19tb2RlbCA9IHQyc19tb2RlbC5oYWxmKCkKICAgICAgICBzZWxmLnQyc19tb2RlbCA9IHQyc19tb2RlbC50byhkZXZpY2UpCiAgICAgICAgc2VsZi50MnNfbW9kZWwuZXZhbCgpCiAgICAgICAgdG90YWwgPSBzdW0oW3BhcmFtLm5lbGVtZW50KCkgZm9yIHBhcmFtIGluIHQyc19tb2RlbC5wYXJhbWV0ZXJzKCldKQogICAgICAgIHByaW50KCJOdW1iZXIgb2YgcGFyYW1ldGVyOiAlLjJmTSIgJSAodG90YWwgLyAxZTYpKQogICAgICAgIAogICAgICAgIGRpY3RfczIgPSB0b3JjaC5sb2FkKHNvdml0c19wYXRoLCBtYXBfbG9jYXRpb249ImNwdSIpCiAgICAgICAgc2VsZi5ocHMgPSBkaWN0X3MyWyJjb25maWciXQogICAgICAgIHNlbGYuaHBzID0gRGljdFRvQXR0clJlY3Vyc2l2ZShzZWxmLmhwcykKICAgICAgICBzZWxmLmhwcy5tb2RlbC5zZW1hbnRpY19mcmFtZV9yYXRlID0gIjI1aHoiCiAgICAgICAgdnFfbW9kZWwgPSBTeW50aGVzaXplclRybigKICAgICAgICAgICAgc2VsZi5ocHMuZGF0YS5maWx0ZXJfbGVuZ3RoIC8vIDIgKyAxLAogICAgICAgICAgICBzZWxmLmhwcy50cmFpbi5zZWdtZW50X3NpemUgLy8gc2VsZi5ocHMuZGF0YS5ob3BfbGVuZ3RoLAogICAgICAgICAgICBuX3NwZWFrZXJzPXNlbGYuaHBzLmRhdGEubl9zcGVha2VycywKICAgICAgICAgICAgKipzZWxmLmhwcy5tb2RlbAogICAgICAgICkKICAgICAgICBpZiAoInByZXRyYWluZWQiIG5vdCBpbiBzb3ZpdHNfcGF0aCk6CiAgICAgICAgICAgIGRlbCB2cV9tb2RlbC5lbmNfcQogICAgICAgIGlmIGlzX2hhbGYgPT0gVHJ1ZToKICAgICAgICAgICAgc2VsZi52cV9tb2RlbCA9IHZxX21vZGVsLmhhbGYoKS50byhkZXZpY2UpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2VsZi52cV9tb2RlbCA9IHZxX21vZGVsLnRvKGRldmljZSkKICAgICAgICBzZWxmLnZxX21vZGVsLmV2YWwoKQogICAgICAgIHByaW50KHNlbGYudnFfbW9kZWwubG9hZF9zdGF0ZV9kaWN0KGRpY3RfczJbIndlaWdodCJdLCBzdHJpY3Q9RmFsc2UpKQogICAgCiAgICBkZWYgcHJlZGljdChzZWxmLCByZWZfd2F2X3BhdGgsIHByb21wdF90ZXh0LCBwcm9tcHRfbGFuZ3VhZ2UsIHRleHQsIHRleHRfbGFuZ3VhZ2UsIGhvd190b19jdXQ9IuS4jeWIhyIsIHNhdmVfcGF0aCA9ICd2aXRzX3Jlcy53YXYnKToKICAgICAgICBwcmludChyZWZfd2F2X3BhdGgsIHByb21wdF90ZXh0LCBwcm9tcHRfbGFuZ3VhZ2UsIHRleHQsIHRleHRfbGFuZ3VhZ2UsIGhvd190b19jdXQpCiAgICAgICAgcmV0dXJuIHNlbGYuZ2V0X3R0c193YXYocmVmX3dhdl9wYXRoLCBwcm9tcHRfdGV4dCwgcHJvbXB0X2xhbmd1YWdlLCB0ZXh0LCB0ZXh0X2xhbmd1YWdlLCBob3dfdG9fY3V0LCBzYXZlX3BhdGgpCgogICAgZGVmIGdldF90dHNfd2F2KHNlbGYsIHJlZl93YXZfcGF0aCwgcHJvbXB0X3RleHQsIHByb21wdF9sYW5ndWFnZSwgdGV4dCwgdGV4dF9sYW5ndWFnZSwgaG93X3RvX2N1dD0i5LiN5YiHIiwgc2F2ZV9wYXRoID0gJ3ZpdHNfcmVzLndhdicpOgogICAgICAgIHQwID0gdHRpbWUoKQogICAgICAgIHByb21wdF90ZXh0ID0gcHJvbXB0X3RleHQuc3RyaXAoIlxuIikKICAgICAgICBpZiAocHJvbXB0X3RleHRbLTFdIG5vdCBpbiBzcGxpdHMpOiBwcm9tcHRfdGV4dCArPSAi44CCIiBpZiBwcm9tcHRfbGFuZ3VhZ2UgIT0gImVuIiBlbHNlICIuIgogICAgICAgIHRleHQgPSB0ZXh0LnN0cmlwKCJcbiIpCiAgICAgICAgaWYgKHRleHRbMF0gbm90IGluIHNwbGl0cyBhbmQgbGVuKGdldF9maXJzdCh0ZXh0KSkgPCA0KTogdGV4dCA9ICLjgIIiICsgdGV4dCBpZiB0ZXh0X2xhbmd1YWdlICE9ICJlbiIgZWxzZSAiLiIgKyB0ZXh0CiAgICAgICAgcHJpbnQoIuWunumZhei+k+WFpeeahOWPguiAg+aWh+acrDoiLCBwcm9tcHRfdGV4dCkKICAgICAgICBwcmludCgi5a6e6ZmF6L6T5YWl55qE55uu5qCH5paH5pysOiIsIHRleHQpCiAgICAgICAgemVyb193YXYgPSBucC56ZXJvcygKICAgICAgICAgICAgaW50KHNlbGYuaHBzLmRhdGEuc2FtcGxpbmdfcmF0ZSAqIDAuMyksCiAgICAgICAgICAgIGR0eXBlPW5wLmZsb2F0MTYgaWYgaXNfaGFsZiA9PSBUcnVlIGVsc2UgbnAuZmxvYXQzMiwKICAgICAgICApCiAgICAgICAgd2l0aCB0b3JjaC5ub19ncmFkKCk6CiAgICAgICAgICAgIHdhdjE2aywgc3IgPSBsaWJyb3NhLmxvYWQocmVmX3dhdl9wYXRoLCBzcj0xNjAwMCkKICAgICAgICAgICAgaWYgKHdhdjE2ay5zaGFwZVswXSA+IDE2MDAwMCBvciB3YXYxNmsuc2hhcGVbMF0gPCA0ODAwMCk6CiAgICAgICAgICAgICAgICByYWlzZSBPU0Vycm9yKCLlj4LogIPpn7PpopHlnKgzfjEw56eS6IyD5Zu05aSW77yM6K+35pu05o2i77yBIikKICAgICAgICAgICAgd2F2MTZrID0gdG9yY2guZnJvbV9udW1weSh3YXYxNmspCiAgICAgICAgICAgIHplcm9fd2F2X3RvcmNoID0gdG9yY2guZnJvbV9udW1weSh6ZXJvX3dhdikKICAgICAgICAgICAgaWYgaXNfaGFsZiA9PSBUcnVlOgogICAgICAgICAgICAgICAgd2F2MTZrID0gd2F2MTZrLmhhbGYoKS50byhkZXZpY2UpCiAgICAgICAgICAgICAgICB6ZXJvX3dhdl90b3JjaCA9IHplcm9fd2F2X3RvcmNoLmhhbGYoKS50byhkZXZpY2UpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICB3YXYxNmsgPSB3YXYxNmsudG8oZGV2aWNlKQogICAgICAgICAgICAgICAgemVyb193YXZfdG9yY2ggPSB6ZXJvX3dhdl90b3JjaC50byhkZXZpY2UpCiAgICAgICAgICAgIHdhdjE2ayA9IHRvcmNoLmNhdChbd2F2MTZrLCB6ZXJvX3dhdl90b3JjaF0pCiAgICAgICAgICAgIHNzbF9jb250ZW50ID0gc3NsX21vZGVsLm1vZGVsKHdhdjE2ay51bnNxdWVlemUoMCkpWwogICAgICAgICAgICAgICAgImxhc3RfaGlkZGVuX3N0YXRlIgogICAgICAgICAgICBdLnRyYW5zcG9zZSgKICAgICAgICAgICAgICAgIDEsIDIKICAgICAgICAgICAgKSAgIyAuZmxvYXQoKQogICAgICAgICAgICBjb2RlcyA9IHNlbGYudnFfbW9kZWwuZXh0cmFjdF9sYXRlbnQoc3NsX2NvbnRlbnQpCiAgICAgICAgICAgIHByb21wdF9zZW1hbnRpYyA9IGNvZGVzWzAsIDBdCiAgICAgICAgdDEgPSB0dGltZSgpCiAgICAgICAgCiAgICAgICAgZGljdF9sYW5ndWFnZSA9IHsKICAgICAgICAgICAgIuS4reaWhyI6ICJhbGxfemgiLCPlhajpg6jmjInkuK3mlofor4bliKsKICAgICAgICAgICAgIuiLseaWhyI6ICJlbiIsI+WFqOmDqOaMieiLseaWh+ivhuWIqyMjIyMjIyPkuI3lj5gKICAgICAgICAgICAgIuaXpeaWhyI6ICJhbGxfamEiLCPlhajpg6jmjInml6Xmlofor4bliKsKICAgICAgICAgICAgIuS4reiLsea3t+WQiCI6ICJ6aCIsI+aMieS4reiLsea3t+WQiOivhuWIqyMjIyPkuI3lj5gKICAgICAgICAgICAgIuaXpeiLsea3t+WQiCI6ICJqYSIsI+aMieaXpeiLsea3t+WQiOivhuWIqyMjIyPkuI3lj5gKICAgICAgICAgICAgIuWkmuivreenjea3t+WQiCI6ICJhdXRvIiwj5aSa6K+t56eN5ZCv5Yqo5YiH5YiG6K+G5Yir6K+t56eNCiAgICAgICAgfQogICAgICAgIHByb21wdF9sYW5ndWFnZSA9IGRpY3RfbGFuZ3VhZ2VbcHJvbXB0X2xhbmd1YWdlXQogICAgICAgIHRleHRfbGFuZ3VhZ2UgPSBkaWN0X2xhbmd1YWdlW3RleHRfbGFuZ3VhZ2VdCgogICAgICAgIHBob25lczEsIHdvcmQycGgxLCBub3JtX3RleHQxPWdldF9jbGVhbmVkX3RleHRfZmlhbmwocHJvbXB0X3RleHQsIHByb21wdF9sYW5ndWFnZSkKCiAgICAgICAgaWYgKGhvd190b19jdXQgPT0gIuWHkeWbm+WPpeS4gOWIhyIpOgogICAgICAgICAgICB0ZXh0ID0gY3V0MSh0ZXh0KQogICAgICAgIGVsaWYgKGhvd190b19jdXQgPT0gIuWHkTUw5a2X5LiA5YiHIik6CiAgICAgICAgICAgIHRleHQgPSBjdXQyKHRleHQpCiAgICAgICAgZWxpZiAoaG93X3RvX2N1dCA9PSAi5oyJ5Lit5paH5Y+l5Y+344CC5YiHIik6CiAgICAgICAgICAgIHRleHQgPSBjdXQzKHRleHQpCiAgICAgICAgZWxpZiAoaG93X3RvX2N1dCA9PSAi5oyJ6Iux5paH5Y+l5Y+3LuWIhyIpOgogICAgICAgICAgICB0ZXh0ID0gY3V0NCh0ZXh0KQogICAgICAgIGVsaWYgKGhvd190b19jdXQgPT0gIuaMieagh+eCueespuWPt+WIhyIpOgogICAgICAgICAgICB0ZXh0ID0gY3V0NSh0ZXh0KQogICAgICAgIHRleHQgPSB0ZXh0LnJlcGxhY2UoIlxuXG4iLCAiXG4iKS5yZXBsYWNlKCJcblxuIiwgIlxuIikucmVwbGFjZSgiXG5cbiIsICJcbiIpCiAgICAgICAgcHJpbnQoIuWunumZhei+k+WFpeeahOebruagh+aWh+acrCjliIflj6XlkI4pOiIsIHRleHQpCiAgICAgICAgdGV4dHMgPSB0ZXh0LnNwbGl0KCJcbiIpCiAgICAgICAgYXVkaW9fb3B0ID0gW10KICAgICAgICBiZXJ0MT1nZXRfYmVydF9maW5hbChwaG9uZXMxLCB3b3JkMnBoMSwgbm9ybV90ZXh0MSwgcHJvbXB0X2xhbmd1YWdlLCBkZXZpY2UsIHRleHQpLnRvKGR0eXBlKQoKICAgICAgICBmb3IgdGV4dCBpbiB0ZXh0czoKICAgICAgICAgICAgIyDop6PlhrPovpPlhaXnm67moIfmlofmnKznmoTnqbrooYzlr7zoh7TmiqXplJnnmoTpl67popgKICAgICAgICAgICAgaWYgKGxlbih0ZXh0LnN0cmlwKCkpID09IDApOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgaWYgKHRleHRbLTFdIG5vdCBpbiBzcGxpdHMpOiB0ZXh0ICs9ICLjgIIiIGlmIHRleHRfbGFuZ3VhZ2UgIT0gImVuIiBlbHNlICIuIgogICAgICAgICAgICBwcmludCgi5a6e6ZmF6L6T5YWl55qE55uu5qCH5paH5pysKOavj+WPpSk6IiwgdGV4dCkKICAgICAgICAgICAgcGhvbmVzMiwgd29yZDJwaDIsIG5vcm1fdGV4dDIgPSBnZXRfY2xlYW5lZF90ZXh0X2ZpYW5sKHRleHQsIHRleHRfbGFuZ3VhZ2UpCiAgICAgICAgICAgIGJlcnQyID0gZ2V0X2JlcnRfZmluYWwocGhvbmVzMiwgd29yZDJwaDIsIG5vcm1fdGV4dDIsIHRleHRfbGFuZ3VhZ2UsIGRldmljZSwgdGV4dCkudG8oZHR5cGUpCgogICAgICAgICAgICBiZXJ0ID0gdG9yY2guY2F0KFtiZXJ0MSwgYmVydDJdLCAxKQoKICAgICAgICAgICAgYWxsX3Bob25lbWVfaWRzID0gdG9yY2guTG9uZ1RlbnNvcihwaG9uZXMxICsgcGhvbmVzMikudG8oZGV2aWNlKS51bnNxdWVlemUoMCkKICAgICAgICAgICAgYmVydCA9IGJlcnQudG8oZGV2aWNlKS51bnNxdWVlemUoMCkKICAgICAgICAgICAgYWxsX3Bob25lbWVfbGVuID0gdG9yY2gudGVuc29yKFthbGxfcGhvbmVtZV9pZHMuc2hhcGVbLTFdXSkudG8oZGV2aWNlKQogICAgICAgICAgICBwcm9tcHQgPSBwcm9tcHRfc2VtYW50aWMudW5zcXVlZXplKDApLnRvKGRldmljZSkKICAgICAgICAgICAgdDIgPSB0dGltZSgpCiAgICAgICAgICAgIHdpdGggdG9yY2gubm9fZ3JhZCgpOgogICAgICAgICAgICAgICAgIyBwcmVkX3NlbWFudGljID0gdDJzX21vZGVsLm1vZGVsLmluZmVyKAogICAgICAgICAgICAgICAgcHJlZF9zZW1hbnRpYywgaWR4ID0gc2VsZi50MnNfbW9kZWwubW9kZWwuaW5mZXJfcGFuZWwoCiAgICAgICAgICAgICAgICAgICAgYWxsX3Bob25lbWVfaWRzLAogICAgICAgICAgICAgICAgICAgIGFsbF9waG9uZW1lX2xlbiwKICAgICAgICAgICAgICAgICAgICBwcm9tcHQsCiAgICAgICAgICAgICAgICAgICAgYmVydCwKICAgICAgICAgICAgICAgICAgICAjIHByb21wdF9waG9uZV9sZW49cGhfb2Zmc2V0LAogICAgICAgICAgICAgICAgICAgIHRvcF9rPXNlbGYuY29uZmlnWyJpbmZlcmVuY2UiXVsidG9wX2siXSwKICAgICAgICAgICAgICAgICAgICBlYXJseV9zdG9wX251bT1zZWxmLmh6ICogc2VsZi5tYXhfc2VjLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB0MyA9IHR0aW1lKCkKICAgICAgICAgICAgIyBwcmludChwcmVkX3NlbWFudGljLnNoYXBlLGlkeCkKICAgICAgICAgICAgcHJlZF9zZW1hbnRpYyA9IHByZWRfc2VtYW50aWNbOiwgLWlkeDpdLnVuc3F1ZWV6ZSgKICAgICAgICAgICAgICAgIDAKICAgICAgICAgICAgKSAgIyAudW5zcXVlZXplKDApI21x6KaB5aSadW5zcXVlZXpl5LiA5qyhCiAgICAgICAgICAgIHJlZmVyID0gZ2V0X3NwZXBjKHNlbGYuaHBzLCByZWZfd2F2X3BhdGgpICAjIC50byhkZXZpY2UpCiAgICAgICAgICAgIGlmIGlzX2hhbGYgPT0gVHJ1ZToKICAgICAgICAgICAgICAgIHJlZmVyID0gcmVmZXIuaGFsZigpLnRvKGRldmljZSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHJlZmVyID0gcmVmZXIudG8oZGV2aWNlKQogICAgICAgICAgICAjIGF1ZGlvID0gdnFfbW9kZWwuZGVjb2RlKHByZWRfc2VtYW50aWMsIGFsbF9waG9uZW1lX2lkcywgcmVmZXIpLmRldGFjaCgpLmNwdSgpLm51bXB5KClbMCwgMF0KICAgICAgICAgICAgYXVkaW8gPSAoCiAgICAgICAgICAgICAgICBzZWxmLnZxX21vZGVsLmRlY29kZSgKICAgICAgICAgICAgICAgICAgICBwcmVkX3NlbWFudGljLCB0b3JjaC5Mb25nVGVuc29yKHBob25lczIpLnRvKGRldmljZSkudW5zcXVlZXplKDApLCByZWZlcgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIC5kZXRhY2goKQogICAgICAgICAgICAgICAgICAgIC5jcHUoKQogICAgICAgICAgICAgICAgICAgIC5udW1weSgpWzAsIDBdCiAgICAgICAgICAgICkgICMjI+ivleivlemHjeW7uuS4jeW4puS4inByb21wdOmDqOWIhgogICAgICAgICAgICBtYXhfYXVkaW89bnAuYWJzKGF1ZGlvKS5tYXgoKSPnroDljZXpmLLmraIxNmJpdOeIhumfswogICAgICAgICAgICBpZiBtYXhfYXVkaW8+MTphdWRpby89bWF4X2F1ZGlvCiAgICAgICAgICAgIGF1ZGlvX29wdC5hcHBlbmQoYXVkaW8pCiAgICAgICAgICAgIGF1ZGlvX29wdC5hcHBlbmQoemVyb193YXYpCiAgICAgICAgICAgIHQ0ID0gdHRpbWUoKQogICAgICAgIHByaW50KCIlLjNmXHQlLjNmXHQlLjNmXHQlLjNmIiAlICh0MSAtIHQwLCB0MiAtIHQxLCB0MyAtIHQyLCB0NCAtIHQzKSkKICAgICAgICBwcmludCgiJS4zZlx0JS4zZlx0JS4zZlx0JS4zZiIgJSAodDEgLSB0MCwgdDIgLSB0MSwgdDMgLSB0MiwgdDQgLSB0MykpCiAgICAgICAgIyB5aWVsZCBzZWxmLmhwcy5kYXRhLnNhbXBsaW5nX3JhdGUsIChucC5jb25jYXRlbmF0ZShhdWRpb19vcHQsIDApICogMzI3NjgpLmFzdHlwZSgKICAgICAgICAjICAgICBucC5pbnQxNgogICAgICAgICMgKQogICAgICAgIHdyaXRlKHNhdmVfcGF0aCwgc2VsZi5ocHMuZGF0YS5zYW1wbGluZ19yYXRlLCAobnAuY29uY2F0ZW5hdGUoYXVkaW9fb3B0LCAwKSAqIDMyNzY4KS5hc3R5cGUobnAuaW50MTYpKQogICAgICAgIHJldHVybiBzYXZlX3BhdGgKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIEdQVF9Tb1ZJVFNfaW5mZXJlbmNlID0gR1BUX1NvVklUUygpCiAgICBncHRfcGF0aCA9ICJHUFRfU29WSVRTL3ByZXRyYWluZWRfbW9kZWxzL0duZXdzLWUxNS5ja3B0IgogICAgc292aXRzX3BhdGggPSAiR1BUX1NvVklUUy9wcmV0cmFpbmVkX21vZGVscy9HbmV3c19lOF9zOTYucHRoIgogICAgR1BUX1NvVklUU19pbmZlcmVuY2UubG9hZF9tb2RlbChncHRfcGF0aCwgc292aXRzX3BhdGgpCiAgICByZWZfd2F2X3BhdGggPSAiR1BUX1NvVklUUy9yZWZlcmVuY2Vfd2F2L0duZXdzL0duZXdzLm1wM18wMDAwMjcwNzIwXzAwMDA0MjQ5NjAud2F2IgogICAgIyDlj4LogIPpn7PpopHnmoTmlofmnKwKICAgIGZyb20gQVNSIGltcG9ydCBXaGlzcGVyQVNSLCBGdW5BU1IKICAgIGFzciA9IEZ1bkFTUigpCiAgICBwcm9tcHRfdGV4dCA9ICIiCiAgICBwcm9tcHRfdGV4dCA9IGFzci50cmFuc2NyaWJlKHJlZl93YXZfcGF0aCkKICAgIHByb21wdF9sYW5ndWFnZSA9ICLkuK3mlociCiAgICB0ZXh0ID0gIuWkp+WutuWlve+8jOi/meaYr+aIkeivremfs+WFi+mahueahOWjsOmfs++8jOacrOi9r+S7tuS7pU1JVOWNj+iuruW8gOa6kCwg5L2c6ICF5LiN5a+56L2v5Lu25YW35aSH5Lu75L2V5o6n5Yi25YqbLCDkvb/nlKjova/ku7bogIXjgIHkvKDmkq3ova/ku7blr7zlh7rnmoTlo7Dpn7PogIXoh6rotJ/lhajotKMu5aaC5LiN6K6k5Y+v6K+l5p2h5qy+LCDliJnkuI3og73kvb/nlKjmiJblvJXnlKjova/ku7bljIXlhoXku7vkvZXku6PnoIHlkozmlofku7YuIOivpuingeagueebruW9lUxJQ0VOU0UuIgogICAgdGV4dF9sYW5ndWFnZSA9ICLkuK3oi7Hmt7flkIgiIAogICAgaG93X3RvX2N1dCA9ICLkuI3liIciICMgWyLkuI3liIciLCAi5YeR5Zub5Y+l5LiA5YiHIiwgIuWHkTUw5a2X5LiA5YiHIiwgIuaMieS4reaWh+WPpeWPt+OAguWIhyIsICLmjInoi7Hmloflj6Xlj7cu5YiHIiwgIuaMieagh+eCueespuWPt+WIhyJdCiAgICBwcmludCgi5Y+C6ICD6Z+z6aKR5paH5pys77yaIiwgcHJvbXB0X3RleHQpCiAgICBwcmludCgi55uu5qCH5paH5pys77yaIiwgdGV4dCkKICAgIHNhdmVfYXVkaW9fZmlsZSA9ICIuL3Jlc3VsdC53YXYiCiAgICBHUFRfU29WSVRTX2luZmVyZW5jZS5wcmVkaWN0KHJlZl93YXZfcGF0aCwgcHJvbXB0X3RleHQsIHByb21wdF9sYW5ndWFnZSwgdGV4dCwgdGV4dF9sYW5ndWFnZSwgaG93X3RvX2N1dCwgc2F2ZV9hdWRpb19maWxlKQ==
+import LangSegment
+import numpy as np
+import librosa
+import torch
+import re, os
+import librosa
+from transformers import AutoModelForMaskedLM, AutoTokenizer
+import sys
+sys.path.append('GPT_SoVITS/')
+from text import cleaned_text_to_sequence
+from text.cleaner import clean_text
+from feature_extractor import cnhubert
+from my_utils import load_audio
+from module.mel_processing import spectrogram_torch
+from module.models import SynthesizerTrn
+from AR.models.t2s_lightning_module import Text2SemanticLightningModule
+from scipy.io.wavfile import write
+from time import time as ttime
+
+if torch.cuda.is_available():
+    device = "cuda"
+elif torch.backends.mps.is_available():
+    device = "mps"
+else:
+    device = "cpu"
+
+is_half = True
+splits = {"，", "。", "？", "！", ",", ".", "?", "!", "~", ":", "：", "—", "…", }
+if device == "cuda":
+    gpu_name = torch.cuda.get_device_name(0)
+    if (
+            ("16" in gpu_name and "V100" not in gpu_name.upper())
+            or "P40" in gpu_name.upper()
+            or "P10" in gpu_name.upper()
+            or "1060" in gpu_name
+            or "1070" in gpu_name
+            or "1080" in gpu_name
+    ):
+        is_half=False
+
+if device=="cpu":
+    is_half=False
+
+dtype=torch.float16 if is_half == True else torch.float32
+bert_path = os.environ.get(
+    "bert_path", "GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large"
+)
+cnhubert_base_path = os.environ.get(
+    "cnhubert_base_path", "GPT_SoVITS/pretrained_models/chinese-hubert-base"
+)
+cnhubert.cnhubert_base_path = cnhubert_base_path
+
+tokenizer = AutoTokenizer.from_pretrained(bert_path)
+bert_model = AutoModelForMaskedLM.from_pretrained(bert_path)
+
+if is_half == True:
+    bert_model = bert_model.half().to(device)
+else:
+    bert_model = bert_model.to(device)
+
+ssl_model = cnhubert.get_model()
+if is_half == True:
+    ssl_model = ssl_model.half().to(device)
+else:
+    ssl_model = ssl_model.to(device)
+
+def get_spepc(hps, filename):
+    audio = load_audio(filename, int(hps.data.sampling_rate))
+    audio = torch.FloatTensor(audio)
+    audio_norm = audio
+    audio_norm = audio_norm.unsqueeze(0)
+    spec = spectrogram_torch(
+        audio_norm,
+        hps.data.filter_length,
+        hps.data.sampling_rate,
+        hps.data.hop_length,
+        hps.data.win_length,
+        center=False,
+    )
+    return spec
+
+def get_bert_feature(text, word2ph):
+    with torch.no_grad():
+        inputs = tokenizer(text, return_tensors="pt")
+        for i in inputs:
+            inputs[i] = inputs[i].to(device)
+        res = bert_model(**inputs, output_hidden_states=True)
+        res = torch.cat(res["hidden_states"][-3:-2], -1)[0].cpu()[1:-1]
+    assert len(word2ph) == len(text)
+    phone_level_feature = []
+    for i in range(len(word2ph)):
+        repeat_feature = res[i].repeat(word2ph[i], 1)
+        phone_level_feature.append(repeat_feature)
+    phone_level_feature = torch.cat(phone_level_feature, dim=0)
+    return phone_level_feature.T
+
+class DictToAttrRecursive(dict):
+    def __init__(self, input_dict):
+        super().__init__(input_dict)
+        for key, value in input_dict.items():
+            if isinstance(value, dict):
+                value = DictToAttrRecursive(value)
+            self[key] = value
+            setattr(self, key, value)
+
+    def __getattr__(self, item):
+        try:
+            return self[item]
+        except KeyError:
+            raise AttributeError(f"Attribute {item} not found")
+
+    def __setattr__(self, key, value):
+        if isinstance(value, dict):
+            value = DictToAttrRecursive(value)
+        super(DictToAttrRecursive, self).__setitem__(key, value)
+        super().__setattr__(key, value)
+
+    def __delattr__(self, item):
+        try:
+            del self[item]
+        except KeyError:
+            raise AttributeError(f"Attribute {item} not found")
+
+def clean_text_inf(text, language):
+    phones, word2ph, norm_text = clean_text(text, language.replace("all_",""))
+    phones = cleaned_text_to_sequence(phones)
+    return phones, word2ph, norm_text
+
+def get_bert_inf(phones, word2ph, norm_text, language):
+    language=language.replace("all_","")
+    if language == "zh":
+        bert = get_bert_feature(norm_text, word2ph).to(device)#.to(dtype)
+    else:
+        bert = torch.zeros(
+            (1024, len(phones)),
+            dtype=torch.float16 if is_half == True else torch.float32,
+        ).to(device)
+
+    return bert
+
+def splite_en_inf(sentence, language):
+    pattern = re.compile(r'[a-zA-Z ]+')
+    textlist = []
+    langlist = []
+    pos = 0
+    for match in pattern.finditer(sentence):
+        start, end = match.span()
+        if start > pos:
+            textlist.append(sentence[pos:start])
+            langlist.append(language)
+        textlist.append(sentence[start:end])
+        langlist.append("en")
+        pos = end
+    if pos < len(sentence):
+        textlist.append(sentence[pos:])
+        langlist.append(language)
+    # Merge punctuation into previous word
+    for i in range(len(textlist)-1, 0, -1):
+        if re.match(r'^[\W_]+$', textlist[i]):
+            textlist[i-1] += textlist[i]
+            del textlist[i]
+            del langlist[i]
+    # Merge consecutive words with the same language tag
+    i = 0
+    while i < len(langlist) - 1:
+        if langlist[i] == langlist[i+1]:
+            textlist[i] += textlist[i+1]
+            del textlist[i+1]
+            del langlist[i+1]
+        else:
+            i += 1
+
+    return textlist, langlist
+
+def nonen_clean_text_inf(text, language):
+    if(language!="auto"):
+        textlist, langlist = splite_en_inf(text, language)
+    else:
+        textlist=[]
+        langlist=[]
+        for tmp in LangSegment.getTexts(text):
+            langlist.append(tmp["lang"])
+            textlist.append(tmp["text"])
+    print(textlist)
+    print(langlist)
+    phones_list = []
+    word2ph_list = []
+    norm_text_list = []
+    for i in range(len(textlist)):
+        lang = langlist[i]
+        phones, word2ph, norm_text = clean_text_inf(textlist[i], lang)
+        phones_list.append(phones)
+        if lang == "zh":
+            word2ph_list.append(word2ph)
+        norm_text_list.append(norm_text)
+    print(word2ph_list)
+    phones = sum(phones_list, [])
+    word2ph = sum(word2ph_list, [])
+    norm_text = ' '.join(norm_text_list)
+
+    return phones, word2ph, norm_text
+
+def nonen_get_bert_inf(text, language):
+    if(language!="auto"):
+        textlist, langlist = splite_en_inf(text, language)
+    else:
+        textlist=[]
+        langlist=[]
+        for tmp in LangSegment.getTexts(text):
+            langlist.append(tmp["lang"])
+            textlist.append(tmp["text"])
+    print(textlist)
+    print(langlist)
+    bert_list = []
+    for i in range(len(textlist)):
+        text = textlist[i]
+        lang = langlist[i]
+        phones, word2ph, norm_text = clean_text_inf(text, lang)
+        bert = get_bert_inf(phones, word2ph, norm_text, lang)
+        bert_list.append(bert)
+    bert = torch.cat(bert_list, dim=1)
+
+    return bert
+
+def get_first(text):
+    pattern = "[" + "".join(re.escape(sep) for sep in splits) + "]"
+    text = re.split(pattern, text)[0].strip()
+    return text
+
+def get_cleaned_text_fianl(text,language):
+    if language in {"en","all_zh","all_ja"}:
+        phones, word2ph, norm_text = clean_text_inf(text, language)
+    elif language in {"zh", "ja","auto"}:
+        phones, word2ph, norm_text = nonen_clean_text_inf(text, language)
+    return phones, word2ph, norm_text
+
+def get_bert_final(phones, word2ph, norm_text, text_language, device, text):
+    if text_language == "en":
+        bert = get_bert_inf(phones, word2ph, norm_text, text_language)
+    elif text_language in {"zh", "ja","auto"}:
+        bert = nonen_get_bert_inf(text, text_language)
+    elif text_language == "all_zh":
+        bert = get_bert_feature(norm_text, word2ph).to(device)
+    else:
+        bert = torch.zeros((1024, len(phones))).to(device)
+    return bert
+
+def split(todo_text):
+    todo_text = todo_text.replace("……", "。").replace("——", "，")
+    if todo_text[-1] not in splits:
+        todo_text += "。"
+    i_split_head = i_split_tail = 0
+    len_text = len(todo_text)
+    todo_texts = []
+    while 1:
+        if i_split_head >= len_text:
+            break  # 结尾一定有标点，所以直接跳出即可，最后一段在上次已加入
+        if todo_text[i_split_head] in splits:
+            i_split_head += 1
+            todo_texts.append(todo_text[i_split_tail:i_split_head])
+            i_split_tail = i_split_head
+        else:
+            i_split_head += 1
+    return todo_texts
+
+def cut1(inp):
+    inp = inp.strip("\n")
+    inps = split(inp)
+    split_idx = list(range(0, len(inps), 4))
+    split_idx[-1] = None
+    if len(split_idx) > 1:
+        opts = []
+        for idx in range(len(split_idx) - 1):
+            opts.append("".join(inps[split_idx[idx]: split_idx[idx + 1]]))
+    else:
+        opts = [inp]
+    return "\n".join(opts)
+
+def cut2(inp):
+    inp = inp.strip("\n")
+    inps = split(inp)
+    if len(inps) < 2:
+        return inp
+    opts = []
+    summ = 0
+    tmp_str = ""
+    for i in range(len(inps)):
+        summ += len(inps[i])
+        tmp_str += inps[i]
+        if summ > 50:
+            summ = 0
+            opts.append(tmp_str)
+            tmp_str = ""
+    if tmp_str != "":
+        opts.append(tmp_str)
+    # print(opts)
+    if len(opts) > 1 and len(opts[-1]) < 50:  ##如果最后一个太短了，和前一个合一起
+        opts[-2] = opts[-2] + opts[-1]
+        opts = opts[:-1]
+    return "\n".join(opts)
+
+def cut3(inp):
+    inp = inp.strip("\n")
+    return "\n".join(["%s" % item for item in inp.strip("。").split("。")])
+
+def cut4(inp):
+    inp = inp.strip("\n")
+    return "\n".join(["%s" % item for item in inp.strip(".").split(".")])
+
+# contributed by https://github.com/AI-Hobbyist/GPT-SoVITS/blob/main/GPT_SoVITS/inference_webui.py
+def cut5(inp):
+    # if not re.search(r'[^\w\s]', inp[-1]):
+    # inp += '。'
+    inp = inp.strip("\n")
+    punds = r'[,.;?!、，。？！;：]'
+    items = re.split(f'({punds})', inp)
+    items = ["".join(group) for group in zip(items[::2], items[1::2])]
+    opt = "\n".join(items)
+    return opt
+
+class GPT_SoVITS:
+    def __init__(self):
+        self.model = None
+        # is_half = True
+        # device = "cuda" if torch.cuda.is_available() else "cpu"
+        
+    def load_model(self, gpt_path, sovits_path):
+        self.hz = 50
+        dict_s1 = torch.load(gpt_path, map_location="cpu")
+        self.config = dict_s1["config"]
+        self.max_sec = self.config["data"]["max_sec"]
+        t2s_model = Text2SemanticLightningModule(self.config, "****", is_train=False)
+        t2s_model.load_state_dict(dict_s1["weight"])
+        if is_half == True:
+            t2s_model = t2s_model.half()
+        self.t2s_model = t2s_model.to(device)
+        self.t2s_model.eval()
+        total = sum([param.nelement() for param in t2s_model.parameters()])
+        print("Number of parameter: %.2fM" % (total / 1e6))
+        
+        dict_s2 = torch.load(sovits_path, map_location="cpu")
+        self.hps = dict_s2["config"]
+        self.hps = DictToAttrRecursive(self.hps)
+        self.hps.model.semantic_frame_rate = "25hz"
+        vq_model = SynthesizerTrn(
+            self.hps.data.filter_length // 2 + 1,
+            self.hps.train.segment_size // self.hps.data.hop_length,
+            n_speakers=self.hps.data.n_speakers,
+            **self.hps.model
+        )
+        if ("pretrained" not in sovits_path):
+            del vq_model.enc_q
+        if is_half == True:
+            self.vq_model = vq_model.half().to(device)
+        else:
+            self.vq_model = vq_model.to(device)
+        self.vq_model.eval()
+        print(self.vq_model.load_state_dict(dict_s2["weight"], strict=False))
+    
+    def predict(self, ref_wav_path, prompt_text, prompt_language, text, text_language, how_to_cut="不切", save_path = 'vits_res.wav'):
+        print(ref_wav_path, prompt_text, prompt_language, text, text_language, how_to_cut)
+        return self.get_tts_wav(ref_wav_path, prompt_text, prompt_language, text, text_language, how_to_cut, save_path)
+
+    def get_tts_wav(self, ref_wav_path, prompt_text, prompt_language, text, text_language, how_to_cut="不切", save_path = 'vits_res.wav'):
+        t0 = ttime()
+        prompt_text = prompt_text.strip("\n")
+        if (prompt_text[-1] not in splits): prompt_text += "。" if prompt_language != "en" else "."
+        text = text.strip("\n")
+        if (text[0] not in splits and len(get_first(text)) < 4): text = "。" + text if text_language != "en" else "." + text
+        print("实际输入的参考文本:", prompt_text)
+        print("实际输入的目标文本:", text)
+        zero_wav = np.zeros(
+            int(self.hps.data.sampling_rate * 0.3),
+            dtype=np.float16 if is_half == True else np.float32,
+        )
+        with torch.no_grad():
+            wav16k, sr = librosa.load(ref_wav_path, sr=16000)
+            if (wav16k.shape[0] > 160000 or wav16k.shape[0] < 48000):
+                raise OSError("参考音频在3~10秒范围外，请更换！")
+            wav16k = torch.from_numpy(wav16k)
+            zero_wav_torch = torch.from_numpy(zero_wav)
+            if is_half == True:
+                wav16k = wav16k.half().to(device)
+                zero_wav_torch = zero_wav_torch.half().to(device)
+            else:
+                wav16k = wav16k.to(device)
+                zero_wav_torch = zero_wav_torch.to(device)
+            wav16k = torch.cat([wav16k, zero_wav_torch])
+            ssl_content = ssl_model.model(wav16k.unsqueeze(0))[
+                "last_hidden_state"
+            ].transpose(
+                1, 2
+            )  # .float()
+            codes = self.vq_model.extract_latent(ssl_content)
+            prompt_semantic = codes[0, 0]
+        t1 = ttime()
+        
+        dict_language = {
+            "中文": "all_zh",#全部按中文识别
+            "英文": "en",#全部按英文识别#######不变
+            "日文": "all_ja",#全部按日文识别
+            "中英混合": "zh",#按中英混合识别####不变
+            "日英混合": "ja",#按日英混合识别####不变
+            "多语种混合": "auto",#多语种启动切分识别语种
+        }
+        prompt_language = dict_language[prompt_language]
+        text_language = dict_language[text_language]
+
+        phones1, word2ph1, norm_text1=get_cleaned_text_fianl(prompt_text, prompt_language)
+
+        if (how_to_cut == "凑四句一切"):
+            text = cut1(text)
+        elif (how_to_cut == "凑50字一切"):
+            text = cut2(text)
+        elif (how_to_cut == "按中文句号。切"):
+            text = cut3(text)
+        elif (how_to_cut == "按英文句号.切"):
+            text = cut4(text)
+        elif (how_to_cut == "按标点符号切"):
+            text = cut5(text)
+        text = text.replace("\n\n", "\n").replace("\n\n", "\n").replace("\n\n", "\n")
+        print("实际输入的目标文本(切句后):", text)
+        texts = text.split("\n")
+        audio_opt = []
+        bert1=get_bert_final(phones1, word2ph1, norm_text1, prompt_language, device, text).to(dtype)
+
+        for text in texts:
+            # 解决输入目标文本的空行导致报错的问题
+            if (len(text.strip()) == 0):
+                continue
+            if (text[-1] not in splits): text += "。" if text_language != "en" else "."
+            print("实际输入的目标文本(每句):", text)
+            phones2, word2ph2, norm_text2 = get_cleaned_text_fianl(text, text_language)
+            bert2 = get_bert_final(phones2, word2ph2, norm_text2, text_language, device, text).to(dtype)
+
+            bert = torch.cat([bert1, bert2], 1)
+
+            all_phoneme_ids = torch.LongTensor(phones1 + phones2).to(device).unsqueeze(0)
+            bert = bert.to(device).unsqueeze(0)
+            all_phoneme_len = torch.tensor([all_phoneme_ids.shape[-1]]).to(device)
+            prompt = prompt_semantic.unsqueeze(0).to(device)
+            t2 = ttime()
+            with torch.no_grad():
+                # pred_semantic = t2s_model.model.infer(
+                pred_semantic, idx = self.t2s_model.model.infer_panel(
+                    all_phoneme_ids,
+                    all_phoneme_len,
+                    prompt,
+                    bert,
+                    # prompt_phone_len=ph_offset,
+                    top_k=self.config["inference"]["top_k"],
+                    early_stop_num=self.hz * self.max_sec,
+                )
+            t3 = ttime()
+            # print(pred_semantic.shape,idx)
+            pred_semantic = pred_semantic[:, -idx:].unsqueeze(
+                0
+            )  # .unsqueeze(0)#mq要多unsqueeze一次
+            refer = get_spepc(self.hps, ref_wav_path)  # .to(device)
+            if is_half == True:
+                refer = refer.half().to(device)
+            else:
+                refer = refer.to(device)
+            # audio = vq_model.decode(pred_semantic, all_phoneme_ids, refer).detach().cpu().numpy()[0, 0]
+            audio = (
+                self.vq_model.decode(
+                    pred_semantic, torch.LongTensor(phones2).to(device).unsqueeze(0), refer
+                )
+                    .detach()
+                    .cpu()
+                    .numpy()[0, 0]
+            )  ###试试重建不带上prompt部分
+            max_audio=np.abs(audio).max()#简单防止16bit爆音
+            if max_audio>1:audio/=max_audio
+            audio_opt.append(audio)
+            audio_opt.append(zero_wav)
+            t4 = ttime()
+        print("%.3f\t%.3f\t%.3f\t%.3f" % (t1 - t0, t2 - t1, t3 - t2, t4 - t3))
+        print("%.3f\t%.3f\t%.3f\t%.3f" % (t1 - t0, t2 - t1, t3 - t2, t4 - t3))
+        # yield self.hps.data.sampling_rate, (np.concatenate(audio_opt, 0) * 32768).astype(
+        #     np.int16
+        # )
+        write(save_path, self.hps.data.sampling_rate, (np.concatenate(audio_opt, 0) * 32768).astype(np.int16))
+        return save_path
+if __name__ == "__main__":
+    GPT_SoVITS_inference = GPT_SoVITS()
+    gpt_path = "GPT_SoVITS/pretrained_models/Gnews-e15.ckpt"
+    sovits_path = "GPT_SoVITS/pretrained_models/Gnews_e8_s96.pth"
+    GPT_SoVITS_inference.load_model(gpt_path, sovits_path)
+    ref_wav_path = "GPT_SoVITS/reference_wav/Gnews/Gnews.mp3_0000270720_0000424960.wav"
+    # 参考音频的文本
+    from ASR import WhisperASR, FunASR
+    asr = FunASR()
+    prompt_text = ""
+    prompt_text = asr.transcribe(ref_wav_path)
+    prompt_language = "中文"
+    text = "大家好，这是我语音克隆的声音，本软件以MIT协议开源, 作者不对软件具备任何控制力, 使用软件者、传播软件导出的声音者自负全责.如不认可该条款, 则不能使用或引用软件包内任何代码和文件. 详见根目录LICENSE."
+    text_language = "中英混合" 
+    how_to_cut = "不切" # ["不切", "凑四句一切", "凑50字一切", "按中文句号。切", "按英文句号.切", "按标点符号切"]
+    print("参考音频文本：", prompt_text)
+    print("目标文本：", text)
+    save_audio_file = "./result.wav"
+    GPT_SoVITS_inference.predict(ref_wav_path, prompt_text, prompt_language, text, text_language, how_to_cut, save_audio_file)

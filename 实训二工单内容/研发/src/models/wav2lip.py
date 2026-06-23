@@ -1,1 +1,184 @@
-aW1wb3J0IHRvcmNoCmZyb20gdG9yY2ggaW1wb3J0IG5uCmZyb20gdG9yY2gubm4gaW1wb3J0IGZ1bmN0aW9uYWwgYXMgRgppbXBvcnQgbWF0aAoKZnJvbSAuY29udiBpbXBvcnQgQ29udjJkVHJhbnNwb3NlLCBDb252MmQsIG5vbm9ybV9Db252MmQKCmNsYXNzIFdhdjJMaXAobm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmKToKICAgICAgICBzdXBlcihXYXYyTGlwLCBzZWxmKS5fX2luaXRfXygpCgogICAgICAgIHNlbGYuZmFjZV9lbmNvZGVyX2Jsb2NrcyA9IG5uLk1vZHVsZUxpc3QoWwogICAgICAgICAgICBubi5TZXF1ZW50aWFsKENvbnYyZCg2LCAxNiwga2VybmVsX3NpemU9Nywgc3RyaWRlPTEsIHBhZGRpbmc9MykpLCAjIDk2LDk2CgogICAgICAgICAgICBubi5TZXF1ZW50aWFsKENvbnYyZCgxNiwgMzIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0yLCBwYWRkaW5nPTEpLCAjIDQ4LDQ4CiAgICAgICAgICAgIENvbnYyZCgzMiwgMzIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIHJlc2lkdWFsPVRydWUpLAogICAgICAgICAgICBDb252MmQoMzIsIDMyLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSksCgogICAgICAgICAgICBubi5TZXF1ZW50aWFsKENvbnYyZCgzMiwgNjQsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0yLCBwYWRkaW5nPTEpLCAgICAjIDI0LDI0CiAgICAgICAgICAgIENvbnYyZCg2NCwgNjQsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIHJlc2lkdWFsPVRydWUpLAogICAgICAgICAgICBDb252MmQoNjQsIDY0LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSwKICAgICAgICAgICAgQ29udjJkKDY0LCA2NCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSkpLAoKICAgICAgICAgICAgbm4uU2VxdWVudGlhbChDb252MmQoNjQsIDEyOCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTIsIHBhZGRpbmc9MSksICAgIyAxMiwxMgogICAgICAgICAgICBDb252MmQoMTI4LCAxMjgsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIHJlc2lkdWFsPVRydWUpLAogICAgICAgICAgICBDb252MmQoMTI4LCAxMjgsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIHJlc2lkdWFsPVRydWUpKSwKCiAgICAgICAgICAgIG5uLlNlcXVlbnRpYWwoQ29udjJkKDEyOCwgMjU2LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MiwgcGFkZGluZz0xKSwgICAgICAgIyA2LDYKICAgICAgICAgICAgQ29udjJkKDI1NiwgMjU2LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSwKICAgICAgICAgICAgQ29udjJkKDI1NiwgMjU2LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSksCgogICAgICAgICAgICBubi5TZXF1ZW50aWFsKENvbnYyZCgyNTYsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTIsIHBhZGRpbmc9MSksICAgICAjIDMsMwogICAgICAgICAgICBDb252MmQoNTEyLCA1MTIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIHJlc2lkdWFsPVRydWUpLCksCiAgICAgICAgICAgIAogICAgICAgICAgICBubi5TZXF1ZW50aWFsKENvbnYyZCg1MTIsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MCksICAgICAjIDEsIDEKICAgICAgICAgICAgQ29udjJkKDUxMiwgNTEyLCBrZXJuZWxfc2l6ZT0xLCBzdHJpZGU9MSwgcGFkZGluZz0wKSksXSkKCiAgICAgICAgc2VsZi5hdWRpb19lbmNvZGVyID0gbm4uU2VxdWVudGlhbCgKICAgICAgICAgICAgQ29udjJkKDEsIDMyLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xKSwKICAgICAgICAgICAgQ29udjJkKDMyLCAzMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCiAgICAgICAgICAgIENvbnYyZCgzMiwgMzIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIHJlc2lkdWFsPVRydWUpLAoKICAgICAgICAgICAgQ29udjJkKDMyLCA2NCwga2VybmVsX3NpemU9Mywgc3RyaWRlPSgzLCAxKSwgcGFkZGluZz0xKSwKICAgICAgICAgICAgQ29udjJkKDY0LCA2NCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCiAgICAgICAgICAgIENvbnYyZCg2NCwgNjQsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIHJlc2lkdWFsPVRydWUpLAoKICAgICAgICAgICAgQ29udjJkKDY0LCAxMjgsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0zLCBwYWRkaW5nPTEpLAogICAgICAgICAgICBDb252MmQoMTI4LCAxMjgsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIHJlc2lkdWFsPVRydWUpLAogICAgICAgICAgICBDb252MmQoMTI4LCAxMjgsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIHJlc2lkdWFsPVRydWUpLAoKICAgICAgICAgICAgQ29udjJkKDEyOCwgMjU2LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9KDMsIDIpLCBwYWRkaW5nPTEpLAogICAgICAgICAgICBDb252MmQoMjU2LCAyNTYsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIHJlc2lkdWFsPVRydWUpLAoKICAgICAgICAgICAgQ29udjJkKDI1NiwgNTEyLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0wKSwKICAgICAgICAgICAgQ29udjJkKDUxMiwgNTEyLCBrZXJuZWxfc2l6ZT0xLCBzdHJpZGU9MSwgcGFkZGluZz0wKSwpCgogICAgICAgIHNlbGYuZmFjZV9kZWNvZGVyX2Jsb2NrcyA9IG5uLk1vZHVsZUxpc3QoWwogICAgICAgICAgICBubi5TZXF1ZW50aWFsKENvbnYyZCg1MTIsIDUxMiwga2VybmVsX3NpemU9MSwgc3RyaWRlPTEsIHBhZGRpbmc9MCksKSwKCiAgICAgICAgICAgIG5uLlNlcXVlbnRpYWwoQ29udjJkVHJhbnNwb3NlKDEwMjQsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MCksICMgMywzCiAgICAgICAgICAgIENvbnYyZCg1MTIsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksKSwKCiAgICAgICAgICAgIG5uLlNlcXVlbnRpYWwoQ29udjJkVHJhbnNwb3NlKDEwMjQsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTIsIHBhZGRpbmc9MSwgb3V0cHV0X3BhZGRpbmc9MSksCiAgICAgICAgICAgIENvbnYyZCg1MTIsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCiAgICAgICAgICAgIENvbnYyZCg1MTIsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksKSwgIyA2LCA2CgogICAgICAgICAgICBubi5TZXF1ZW50aWFsKENvbnYyZFRyYW5zcG9zZSg3NjgsIDM4NCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTIsIHBhZGRpbmc9MSwgb3V0cHV0X3BhZGRpbmc9MSksCiAgICAgICAgICAgIENvbnYyZCgzODQsIDM4NCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCiAgICAgICAgICAgIENvbnYyZCgzODQsIDM4NCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksKSwgIyAxMiwgMTIKCiAgICAgICAgICAgIG5uLlNlcXVlbnRpYWwoQ29udjJkVHJhbnNwb3NlKDUxMiwgMjU2LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MiwgcGFkZGluZz0xLCBvdXRwdXRfcGFkZGluZz0xKSwKICAgICAgICAgICAgQ29udjJkKDI1NiwgMjU2LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSwKICAgICAgICAgICAgQ29udjJkKDI1NiwgMjU2LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSwpLCAjIDI0LCAyNAoKICAgICAgICAgICAgbm4uU2VxdWVudGlhbChDb252MmRUcmFuc3Bvc2UoMzIwLCAxMjgsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0yLCBwYWRkaW5nPTEsIG91dHB1dF9wYWRkaW5nPTEpLCAKICAgICAgICAgICAgQ29udjJkKDEyOCwgMTI4LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSwKICAgICAgICAgICAgQ29udjJkKDEyOCwgMTI4LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSwpLCAjIDQ4LCA0OAoKICAgICAgICAgICAgbm4uU2VxdWVudGlhbChDb252MmRUcmFuc3Bvc2UoMTYwLCA2NCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTIsIHBhZGRpbmc9MSwgb3V0cHV0X3BhZGRpbmc9MSksCiAgICAgICAgICAgIENvbnYyZCg2NCwgNjQsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIHJlc2lkdWFsPVRydWUpLAogICAgICAgICAgICBDb252MmQoNjQsIDY0LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSwpLF0pICMgOTYsOTYKCiAgICAgICAgc2VsZi5vdXRwdXRfYmxvY2sgPSBubi5TZXF1ZW50aWFsKENvbnYyZCg4MCwgMzIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEpLAogICAgICAgICAgICBubi5Db252MmQoMzIsIDMsIGtlcm5lbF9zaXplPTEsIHN0cmlkZT0xLCBwYWRkaW5nPTApLAogICAgICAgICAgICBubi5TaWdtb2lkKCkpIAoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIGF1ZGlvX3NlcXVlbmNlcywgZmFjZV9zZXF1ZW5jZXMpOgogICAgICAgICMgYXVkaW9fc2VxdWVuY2VzID0gKEIsIFQsIDEsIDgwLCAxNikKICAgICAgICBCID0gYXVkaW9fc2VxdWVuY2VzLnNpemUoMCkKCiAgICAgICAgaW5wdXRfZGltX3NpemUgPSBsZW4oZmFjZV9zZXF1ZW5jZXMuc2l6ZSgpKQogICAgICAgIGlmIGlucHV0X2RpbV9zaXplID4gNDoKICAgICAgICAgICAgYXVkaW9fc2VxdWVuY2VzID0gdG9yY2guY2F0KFthdWRpb19zZXF1ZW5jZXNbOiwgaV0gZm9yIGkgaW4gcmFuZ2UoYXVkaW9fc2VxdWVuY2VzLnNpemUoMSkpXSwgZGltPTApCiAgICAgICAgICAgIGZhY2Vfc2VxdWVuY2VzID0gdG9yY2guY2F0KFtmYWNlX3NlcXVlbmNlc1s6LCA6LCBpXSBmb3IgaSBpbiByYW5nZShmYWNlX3NlcXVlbmNlcy5zaXplKDIpKV0sIGRpbT0wKQoKICAgICAgICBhdWRpb19lbWJlZGRpbmcgPSBzZWxmLmF1ZGlvX2VuY29kZXIoYXVkaW9fc2VxdWVuY2VzKSAjIEIsIDUxMiwgMSwgMQoKICAgICAgICBmZWF0cyA9IFtdCiAgICAgICAgeCA9IGZhY2Vfc2VxdWVuY2VzCiAgICAgICAgZm9yIGYgaW4gc2VsZi5mYWNlX2VuY29kZXJfYmxvY2tzOgogICAgICAgICAgICB4ID0gZih4KQogICAgICAgICAgICBmZWF0cy5hcHBlbmQoeCkKCiAgICAgICAgeCA9IGF1ZGlvX2VtYmVkZGluZwogICAgICAgIGZvciBmIGluIHNlbGYuZmFjZV9kZWNvZGVyX2Jsb2NrczoKICAgICAgICAgICAgeCA9IGYoeCkKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgeCA9IHRvcmNoLmNhdCgoeCwgZmVhdHNbLTFdKSwgZGltPTEpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgIHByaW50KHguc2l6ZSgpKQogICAgICAgICAgICAgICAgcHJpbnQoZmVhdHNbLTFdLnNpemUoKSkKICAgICAgICAgICAgICAgIHJhaXNlIGUKICAgICAgICAgICAgCiAgICAgICAgICAgIGZlYXRzLnBvcCgpCgogICAgICAgIHggPSBzZWxmLm91dHB1dF9ibG9jayh4KQoKICAgICAgICBpZiBpbnB1dF9kaW1fc2l6ZSA+IDQ6CiAgICAgICAgICAgIHggPSB0b3JjaC5zcGxpdCh4LCBCLCBkaW09MCkgIyBbKEIsIEMsIEgsIFcpXQogICAgICAgICAgICBvdXRwdXRzID0gdG9yY2guc3RhY2soeCwgZGltPTIpICMgKEIsIEMsIFQsIEgsIFcpCgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIG91dHB1dHMgPSB4CiAgICAgICAgICAgIAogICAgICAgIHJldHVybiBvdXRwdXRzCgpjbGFzcyBXYXYyTGlwX2Rpc2NfcXVhbChubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYpOgogICAgICAgIHN1cGVyKFdhdjJMaXBfZGlzY19xdWFsLCBzZWxmKS5fX2luaXRfXygpCgogICAgICAgIHNlbGYuZmFjZV9lbmNvZGVyX2Jsb2NrcyA9IG5uLk1vZHVsZUxpc3QoWwogICAgICAgICAgICBubi5TZXF1ZW50aWFsKG5vbm9ybV9Db252MmQoMywgMzIsIGtlcm5lbF9zaXplPTcsIHN0cmlkZT0xLCBwYWRkaW5nPTMpKSwgIyA0OCw5NgoKICAgICAgICAgICAgbm4uU2VxdWVudGlhbChub25vcm1fQ29udjJkKDMyLCA2NCwga2VybmVsX3NpemU9NSwgc3RyaWRlPSgxLCAyKSwgcGFkZGluZz0yKSwgIyA0OCw0OAogICAgICAgICAgICBub25vcm1fQ29udjJkKDY0LCA2NCwga2VybmVsX3NpemU9NSwgc3RyaWRlPTEsIHBhZGRpbmc9MikpLAoKICAgICAgICAgICAgbm4uU2VxdWVudGlhbChub25vcm1fQ29udjJkKDY0LCAxMjgsIGtlcm5lbF9zaXplPTUsIHN0cmlkZT0yLCBwYWRkaW5nPTIpLCAgICAjIDI0LDI0CiAgICAgICAgICAgIG5vbm9ybV9Db252MmQoMTI4LCAxMjgsIGtlcm5lbF9zaXplPTUsIHN0cmlkZT0xLCBwYWRkaW5nPTIpKSwKCiAgICAgICAgICAgIG5uLlNlcXVlbnRpYWwobm9ub3JtX0NvbnYyZCgxMjgsIDI1Niwga2VybmVsX3NpemU9NSwgc3RyaWRlPTIsIHBhZGRpbmc9MiksICAgIyAxMiwxMgogICAgICAgICAgICBub25vcm1fQ29udjJkKDI1NiwgMjU2LCBrZXJuZWxfc2l6ZT01LCBzdHJpZGU9MSwgcGFkZGluZz0yKSksCgogICAgICAgICAgICBubi5TZXF1ZW50aWFsKG5vbm9ybV9Db252MmQoMjU2LCA1MTIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0yLCBwYWRkaW5nPTEpLCAgICAgICAjIDYsNgogICAgICAgICAgICBub25vcm1fQ29udjJkKDUxMiwgNTEyLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xKSksCgogICAgICAgICAgICBubi5TZXF1ZW50aWFsKG5vbm9ybV9Db252MmQoNTEyLCA1MTIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0yLCBwYWRkaW5nPTEpLCAgICAgIyAzLDMKICAgICAgICAgICAgbm9ub3JtX0NvbnYyZCg1MTIsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSksKSwKICAgICAgICAgICAgCiAgICAgICAgICAgIG5uLlNlcXVlbnRpYWwobm9ub3JtX0NvbnYyZCg1MTIsIDUxMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MCksICAgICAjIDEsIDEKICAgICAgICAgICAgbm9ub3JtX0NvbnYyZCg1MTIsIDUxMiwga2VybmVsX3NpemU9MSwgc3RyaWRlPTEsIHBhZGRpbmc9MCkpLF0pCgogICAgICAgIHNlbGYuYmluYXJ5X3ByZWQgPSBubi5TZXF1ZW50aWFsKG5uLkNvbnYyZCg1MTIsIDEsIGtlcm5lbF9zaXplPTEsIHN0cmlkZT0xLCBwYWRkaW5nPTApLCBubi5TaWdtb2lkKCkpCiAgICAgICAgc2VsZi5sYWJlbF9ub2lzZSA9IC4wCgogICAgZGVmIGdldF9sb3dlcl9oYWxmKHNlbGYsIGZhY2Vfc2VxdWVuY2VzKToKICAgICAgICByZXR1cm4gZmFjZV9zZXF1ZW5jZXNbOiwgOiwgZmFjZV9zZXF1ZW5jZXMuc2l6ZSgyKS8vMjpdCgogICAgZGVmIHRvXzJkKHNlbGYsIGZhY2Vfc2VxdWVuY2VzKToKICAgICAgICBCID0gZmFjZV9zZXF1ZW5jZXMuc2l6ZSgwKQogICAgICAgIGZhY2Vfc2VxdWVuY2VzID0gdG9yY2guY2F0KFtmYWNlX3NlcXVlbmNlc1s6LCA6LCBpXSBmb3IgaSBpbiByYW5nZShmYWNlX3NlcXVlbmNlcy5zaXplKDIpKV0sIGRpbT0wKQogICAgICAgIHJldHVybiBmYWNlX3NlcXVlbmNlcwoKICAgIGRlZiBwZXJjZXB0dWFsX2ZvcndhcmQoc2VsZiwgZmFsc2VfZmFjZV9zZXF1ZW5jZXMpOgogICAgICAgIGZhbHNlX2ZhY2Vfc2VxdWVuY2VzID0gc2VsZi50b18yZChmYWxzZV9mYWNlX3NlcXVlbmNlcykKICAgICAgICBmYWxzZV9mYWNlX3NlcXVlbmNlcyA9IHNlbGYuZ2V0X2xvd2VyX2hhbGYoZmFsc2VfZmFjZV9zZXF1ZW5jZXMpCgogICAgICAgIGZhbHNlX2ZlYXRzID0gZmFsc2VfZmFjZV9zZXF1ZW5jZXMKICAgICAgICBmb3IgZiBpbiBzZWxmLmZhY2VfZW5jb2Rlcl9ibG9ja3M6CiAgICAgICAgICAgIGZhbHNlX2ZlYXRzID0gZihmYWxzZV9mZWF0cykKCiAgICAgICAgZmFsc2VfcHJlZF9sb3NzID0gRi5iaW5hcnlfY3Jvc3NfZW50cm9weShzZWxmLmJpbmFyeV9wcmVkKGZhbHNlX2ZlYXRzKS52aWV3KGxlbihmYWxzZV9mZWF0cyksIC0xKSwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b3JjaC5vbmVzKChsZW4oZmFsc2VfZmVhdHMpLCAxKSkuY3VkYSgpKQoKICAgICAgICByZXR1cm4gZmFsc2VfcHJlZF9sb3NzCgogICAgZGVmIGZvcndhcmQoc2VsZiwgZmFjZV9zZXF1ZW5jZXMpOgogICAgICAgIGZhY2Vfc2VxdWVuY2VzID0gc2VsZi50b18yZChmYWNlX3NlcXVlbmNlcykKICAgICAgICBmYWNlX3NlcXVlbmNlcyA9IHNlbGYuZ2V0X2xvd2VyX2hhbGYoZmFjZV9zZXF1ZW5jZXMpCgogICAgICAgIHggPSBmYWNlX3NlcXVlbmNlcwogICAgICAgIGZvciBmIGluIHNlbGYuZmFjZV9lbmNvZGVyX2Jsb2NrczoKICAgICAgICAgICAgeCA9IGYoeCkKCiAgICAgICAgcmV0dXJuIHNlbGYuYmluYXJ5X3ByZWQoeCkudmlldyhsZW4oeCksIC0xKQo=
+import torch
+from torch import nn
+from torch.nn import functional as F
+import math
+
+from .conv import Conv2dTranspose, Conv2d, nonorm_Conv2d
+
+class Wav2Lip(nn.Module):
+    def __init__(self):
+        super(Wav2Lip, self).__init__()
+
+        self.face_encoder_blocks = nn.ModuleList([
+            nn.Sequential(Conv2d(6, 16, kernel_size=7, stride=1, padding=3)), # 96,96
+
+            nn.Sequential(Conv2d(16, 32, kernel_size=3, stride=2, padding=1), # 48,48
+            Conv2d(32, 32, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(32, 32, kernel_size=3, stride=1, padding=1, residual=True)),
+
+            nn.Sequential(Conv2d(32, 64, kernel_size=3, stride=2, padding=1),    # 24,24
+            Conv2d(64, 64, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(64, 64, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(64, 64, kernel_size=3, stride=1, padding=1, residual=True)),
+
+            nn.Sequential(Conv2d(64, 128, kernel_size=3, stride=2, padding=1),   # 12,12
+            Conv2d(128, 128, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(128, 128, kernel_size=3, stride=1, padding=1, residual=True)),
+
+            nn.Sequential(Conv2d(128, 256, kernel_size=3, stride=2, padding=1),       # 6,6
+            Conv2d(256, 256, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(256, 256, kernel_size=3, stride=1, padding=1, residual=True)),
+
+            nn.Sequential(Conv2d(256, 512, kernel_size=3, stride=2, padding=1),     # 3,3
+            Conv2d(512, 512, kernel_size=3, stride=1, padding=1, residual=True),),
+            
+            nn.Sequential(Conv2d(512, 512, kernel_size=3, stride=1, padding=0),     # 1, 1
+            Conv2d(512, 512, kernel_size=1, stride=1, padding=0)),])
+
+        self.audio_encoder = nn.Sequential(
+            Conv2d(1, 32, kernel_size=3, stride=1, padding=1),
+            Conv2d(32, 32, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(32, 32, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(32, 64, kernel_size=3, stride=(3, 1), padding=1),
+            Conv2d(64, 64, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(64, 64, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(64, 128, kernel_size=3, stride=3, padding=1),
+            Conv2d(128, 128, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(128, 128, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(128, 256, kernel_size=3, stride=(3, 2), padding=1),
+            Conv2d(256, 256, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(256, 512, kernel_size=3, stride=1, padding=0),
+            Conv2d(512, 512, kernel_size=1, stride=1, padding=0),)
+
+        self.face_decoder_blocks = nn.ModuleList([
+            nn.Sequential(Conv2d(512, 512, kernel_size=1, stride=1, padding=0),),
+
+            nn.Sequential(Conv2dTranspose(1024, 512, kernel_size=3, stride=1, padding=0), # 3,3
+            Conv2d(512, 512, kernel_size=3, stride=1, padding=1, residual=True),),
+
+            nn.Sequential(Conv2dTranspose(1024, 512, kernel_size=3, stride=2, padding=1, output_padding=1),
+            Conv2d(512, 512, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(512, 512, kernel_size=3, stride=1, padding=1, residual=True),), # 6, 6
+
+            nn.Sequential(Conv2dTranspose(768, 384, kernel_size=3, stride=2, padding=1, output_padding=1),
+            Conv2d(384, 384, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(384, 384, kernel_size=3, stride=1, padding=1, residual=True),), # 12, 12
+
+            nn.Sequential(Conv2dTranspose(512, 256, kernel_size=3, stride=2, padding=1, output_padding=1),
+            Conv2d(256, 256, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(256, 256, kernel_size=3, stride=1, padding=1, residual=True),), # 24, 24
+
+            nn.Sequential(Conv2dTranspose(320, 128, kernel_size=3, stride=2, padding=1, output_padding=1), 
+            Conv2d(128, 128, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(128, 128, kernel_size=3, stride=1, padding=1, residual=True),), # 48, 48
+
+            nn.Sequential(Conv2dTranspose(160, 64, kernel_size=3, stride=2, padding=1, output_padding=1),
+            Conv2d(64, 64, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(64, 64, kernel_size=3, stride=1, padding=1, residual=True),),]) # 96,96
+
+        self.output_block = nn.Sequential(Conv2d(80, 32, kernel_size=3, stride=1, padding=1),
+            nn.Conv2d(32, 3, kernel_size=1, stride=1, padding=0),
+            nn.Sigmoid()) 
+
+    def forward(self, audio_sequences, face_sequences):
+        # audio_sequences = (B, T, 1, 80, 16)
+        B = audio_sequences.size(0)
+
+        input_dim_size = len(face_sequences.size())
+        if input_dim_size > 4:
+            audio_sequences = torch.cat([audio_sequences[:, i] for i in range(audio_sequences.size(1))], dim=0)
+            face_sequences = torch.cat([face_sequences[:, :, i] for i in range(face_sequences.size(2))], dim=0)
+
+        audio_embedding = self.audio_encoder(audio_sequences) # B, 512, 1, 1
+
+        feats = []
+        x = face_sequences
+        for f in self.face_encoder_blocks:
+            x = f(x)
+            feats.append(x)
+
+        x = audio_embedding
+        for f in self.face_decoder_blocks:
+            x = f(x)
+            try:
+                x = torch.cat((x, feats[-1]), dim=1)
+            except Exception as e:
+                print(x.size())
+                print(feats[-1].size())
+                raise e
+            
+            feats.pop()
+
+        x = self.output_block(x)
+
+        if input_dim_size > 4:
+            x = torch.split(x, B, dim=0) # [(B, C, H, W)]
+            outputs = torch.stack(x, dim=2) # (B, C, T, H, W)
+
+        else:
+            outputs = x
+            
+        return outputs
+
+class Wav2Lip_disc_qual(nn.Module):
+    def __init__(self):
+        super(Wav2Lip_disc_qual, self).__init__()
+
+        self.face_encoder_blocks = nn.ModuleList([
+            nn.Sequential(nonorm_Conv2d(3, 32, kernel_size=7, stride=1, padding=3)), # 48,96
+
+            nn.Sequential(nonorm_Conv2d(32, 64, kernel_size=5, stride=(1, 2), padding=2), # 48,48
+            nonorm_Conv2d(64, 64, kernel_size=5, stride=1, padding=2)),
+
+            nn.Sequential(nonorm_Conv2d(64, 128, kernel_size=5, stride=2, padding=2),    # 24,24
+            nonorm_Conv2d(128, 128, kernel_size=5, stride=1, padding=2)),
+
+            nn.Sequential(nonorm_Conv2d(128, 256, kernel_size=5, stride=2, padding=2),   # 12,12
+            nonorm_Conv2d(256, 256, kernel_size=5, stride=1, padding=2)),
+
+            nn.Sequential(nonorm_Conv2d(256, 512, kernel_size=3, stride=2, padding=1),       # 6,6
+            nonorm_Conv2d(512, 512, kernel_size=3, stride=1, padding=1)),
+
+            nn.Sequential(nonorm_Conv2d(512, 512, kernel_size=3, stride=2, padding=1),     # 3,3
+            nonorm_Conv2d(512, 512, kernel_size=3, stride=1, padding=1),),
+            
+            nn.Sequential(nonorm_Conv2d(512, 512, kernel_size=3, stride=1, padding=0),     # 1, 1
+            nonorm_Conv2d(512, 512, kernel_size=1, stride=1, padding=0)),])
+
+        self.binary_pred = nn.Sequential(nn.Conv2d(512, 1, kernel_size=1, stride=1, padding=0), nn.Sigmoid())
+        self.label_noise = .0
+
+    def get_lower_half(self, face_sequences):
+        return face_sequences[:, :, face_sequences.size(2)//2:]
+
+    def to_2d(self, face_sequences):
+        B = face_sequences.size(0)
+        face_sequences = torch.cat([face_sequences[:, :, i] for i in range(face_sequences.size(2))], dim=0)
+        return face_sequences
+
+    def perceptual_forward(self, false_face_sequences):
+        false_face_sequences = self.to_2d(false_face_sequences)
+        false_face_sequences = self.get_lower_half(false_face_sequences)
+
+        false_feats = false_face_sequences
+        for f in self.face_encoder_blocks:
+            false_feats = f(false_feats)
+
+        false_pred_loss = F.binary_cross_entropy(self.binary_pred(false_feats).view(len(false_feats), -1), 
+                                        torch.ones((len(false_feats), 1)).cuda())
+
+        return false_pred_loss
+
+    def forward(self, face_sequences):
+        face_sequences = self.to_2d(face_sequences)
+        face_sequences = self.get_lower_half(face_sequences)
+
+        x = face_sequences
+        for f in self.face_encoder_blocks:
+            x = f(x)
+
+        return self.binary_pred(x).view(len(x), -1)

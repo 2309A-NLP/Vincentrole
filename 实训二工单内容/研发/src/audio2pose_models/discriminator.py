@@ -1,1 +1,76 @@
-aW1wb3J0IHRvcmNoCmltcG9ydCB0b3JjaC5ubi5mdW5jdGlvbmFsIGFzIEYKZnJvbSB0b3JjaCBpbXBvcnQgbm4KCmNsYXNzIENvbnZOb3JtUmVsdShubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGNvbnZfdHlwZT0nMWQnLCBpbl9jaGFubmVscz0zLCBvdXRfY2hhbm5lbHM9NjQsIGRvd25zYW1wbGU9RmFsc2UsCiAgICAgICAgICAgICAgICAga2VybmVsX3NpemU9Tm9uZSwgc3RyaWRlPU5vbmUsIHBhZGRpbmc9Tm9uZSwgbm9ybT0nQk4nLCBsZWFreT1GYWxzZSk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygpCiAgICAgICAgaWYga2VybmVsX3NpemUgaXMgTm9uZToKICAgICAgICAgICAgaWYgZG93bnNhbXBsZToKICAgICAgICAgICAgICAgIGtlcm5lbF9zaXplLCBzdHJpZGUsIHBhZGRpbmcgPSA0LCAyLCAxCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBrZXJuZWxfc2l6ZSwgc3RyaWRlLCBwYWRkaW5nID0gMywgMSwgMQoKICAgICAgICBpZiBjb252X3R5cGUgPT0gJzJkJzoKICAgICAgICAgICAgc2VsZi5jb252ID0gbm4uQ29udjJkKAogICAgICAgICAgICAgICAgaW5fY2hhbm5lbHMsCiAgICAgICAgICAgICAgICBvdXRfY2hhbm5lbHMsCiAgICAgICAgICAgICAgICBrZXJuZWxfc2l6ZSwKICAgICAgICAgICAgICAgIHN0cmlkZSwKICAgICAgICAgICAgICAgIHBhZGRpbmcsCiAgICAgICAgICAgICAgICBiaWFzPUZhbHNlLAogICAgICAgICAgICApCiAgICAgICAgICAgIGlmIG5vcm0gPT0gJ0JOJzoKICAgICAgICAgICAgICAgIHNlbGYubm9ybSA9IG5uLkJhdGNoTm9ybTJkKG91dF9jaGFubmVscykKICAgICAgICAgICAgZWxpZiBub3JtID09ICdJTic6CiAgICAgICAgICAgICAgICBzZWxmLm5vcm0gPSBubi5JbnN0YW5jZU5vcm0yZChvdXRfY2hhbm5lbHMpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yCiAgICAgICAgZWxpZiBjb252X3R5cGUgPT0gJzFkJzoKICAgICAgICAgICAgc2VsZi5jb252ID0gbm4uQ29udjFkKAogICAgICAgICAgICAgICAgaW5fY2hhbm5lbHMsCiAgICAgICAgICAgICAgICBvdXRfY2hhbm5lbHMsCiAgICAgICAgICAgICAgICBrZXJuZWxfc2l6ZSwKICAgICAgICAgICAgICAgIHN0cmlkZSwKICAgICAgICAgICAgICAgIHBhZGRpbmcsCiAgICAgICAgICAgICAgICBiaWFzPUZhbHNlLAogICAgICAgICAgICApCiAgICAgICAgICAgIGlmIG5vcm0gPT0gJ0JOJzoKICAgICAgICAgICAgICAgIHNlbGYubm9ybSA9IG5uLkJhdGNoTm9ybTFkKG91dF9jaGFubmVscykKICAgICAgICAgICAgZWxpZiBub3JtID09ICdJTic6CiAgICAgICAgICAgICAgICBzZWxmLm5vcm0gPSBubi5JbnN0YW5jZU5vcm0xZChvdXRfY2hhbm5lbHMpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yCiAgICAgICAgbm4uaW5pdC5rYWltaW5nX25vcm1hbF8oc2VsZi5jb252LndlaWdodCkKCiAgICAgICAgc2VsZi5hY3QgPSBubi5MZWFreVJlTFUobmVnYXRpdmVfc2xvcGU9MC4yLCBpbnBsYWNlPUZhbHNlKSBpZiBsZWFreSBlbHNlIG5uLlJlTFUoaW5wbGFjZT1UcnVlKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIHggPSBzZWxmLmNvbnYoeCkKICAgICAgICBpZiBpc2luc3RhbmNlKHNlbGYubm9ybSwgbm4uSW5zdGFuY2VOb3JtMWQpOgogICAgICAgICAgICB4ID0gc2VsZi5ub3JtKHgucGVybXV0ZSgoMCwgMiwgMSkpKS5wZXJtdXRlKCgwLCAyLCAxKSkgICMgbm9ybWFsaXplIG9uIFtDXQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHggPSBzZWxmLm5vcm0oeCkKICAgICAgICB4ID0gc2VsZi5hY3QoeCkKICAgICAgICByZXR1cm4geAoKCmNsYXNzIFBvc2VTZXF1ZW5jZURpc2NyaW1pbmF0b3Iobm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjZmcpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oKQogICAgICAgIHNlbGYuY2ZnID0gY2ZnCiAgICAgICAgbGVha3kgPSBzZWxmLmNmZy5NT0RFTC5ESVNDUklNSU5BVE9SLkxFQUtZX1JFTFUKCiAgICAgICAgc2VsZi5zZXEgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICBDb252Tm9ybVJlbHUoJzFkJywgY2ZnLk1PREVMLkRJU0NSSU1JTkFUT1IuSU5QVVRfQ0hBTk5FTFMsIDI1NiwgZG93bnNhbXBsZT1UcnVlLCBsZWFreT1sZWFreSksICAjIEIsIDI1NiwgNjQKICAgICAgICAgICAgQ29udk5vcm1SZWx1KCcxZCcsIDI1NiwgNTEyLCBkb3duc2FtcGxlPVRydWUsIGxlYWt5PWxlYWt5KSwgICMgQiwgNTEyLCAzMgogICAgICAgICAgICBDb252Tm9ybVJlbHUoJzFkJywgNTEyLCAxMDI0LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCBsZWFreT1sZWFreSksICAjIEIsIDEwMjQsIDE2CiAgICAgICAgICAgIG5uLkNvbnYxZCgxMDI0LCAxLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCBiaWFzPVRydWUpICAjIEIsIDEsIDE2CiAgICAgICAgKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIHggPSB4LnJlc2hhcGUoeC5zaXplKDApLCB4LnNpemUoMSksIC0xKS50cmFuc3Bvc2UoMSwgMikKICAgICAgICB4ID0gc2VsZi5zZXEoeCkKICAgICAgICB4ID0geC5zcXVlZXplKDEpCiAgICAgICAgcmV0dXJuIHg=
+import torch
+import torch.nn.functional as F
+from torch import nn
+
+class ConvNormRelu(nn.Module):
+    def __init__(self, conv_type='1d', in_channels=3, out_channels=64, downsample=False,
+                 kernel_size=None, stride=None, padding=None, norm='BN', leaky=False):
+        super().__init__()
+        if kernel_size is None:
+            if downsample:
+                kernel_size, stride, padding = 4, 2, 1
+            else:
+                kernel_size, stride, padding = 3, 1, 1
+
+        if conv_type == '2d':
+            self.conv = nn.Conv2d(
+                in_channels,
+                out_channels,
+                kernel_size,
+                stride,
+                padding,
+                bias=False,
+            )
+            if norm == 'BN':
+                self.norm = nn.BatchNorm2d(out_channels)
+            elif norm == 'IN':
+                self.norm = nn.InstanceNorm2d(out_channels)
+            else:
+                raise NotImplementedError
+        elif conv_type == '1d':
+            self.conv = nn.Conv1d(
+                in_channels,
+                out_channels,
+                kernel_size,
+                stride,
+                padding,
+                bias=False,
+            )
+            if norm == 'BN':
+                self.norm = nn.BatchNorm1d(out_channels)
+            elif norm == 'IN':
+                self.norm = nn.InstanceNorm1d(out_channels)
+            else:
+                raise NotImplementedError
+        nn.init.kaiming_normal_(self.conv.weight)
+
+        self.act = nn.LeakyReLU(negative_slope=0.2, inplace=False) if leaky else nn.ReLU(inplace=True)
+
+    def forward(self, x):
+        x = self.conv(x)
+        if isinstance(self.norm, nn.InstanceNorm1d):
+            x = self.norm(x.permute((0, 2, 1))).permute((0, 2, 1))  # normalize on [C]
+        else:
+            x = self.norm(x)
+        x = self.act(x)
+        return x
+
+
+class PoseSequenceDiscriminator(nn.Module):
+    def __init__(self, cfg):
+        super().__init__()
+        self.cfg = cfg
+        leaky = self.cfg.MODEL.DISCRIMINATOR.LEAKY_RELU
+
+        self.seq = nn.Sequential(
+            ConvNormRelu('1d', cfg.MODEL.DISCRIMINATOR.INPUT_CHANNELS, 256, downsample=True, leaky=leaky),  # B, 256, 64
+            ConvNormRelu('1d', 256, 512, downsample=True, leaky=leaky),  # B, 512, 32
+            ConvNormRelu('1d', 512, 1024, kernel_size=3, stride=1, padding=1, leaky=leaky),  # B, 1024, 16
+            nn.Conv1d(1024, 1, kernel_size=3, stride=1, padding=1, bias=True)  # B, 1, 16
+        )
+
+    def forward(self, x):
+        x = x.reshape(x.size(0), x.size(1), -1).transpose(1, 2)
+        x = self.seq(x)
+        x = x.squeeze(1)
+        return x

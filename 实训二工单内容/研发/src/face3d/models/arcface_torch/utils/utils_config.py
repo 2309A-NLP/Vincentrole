@@ -1,1 +1,16 @@
-aW1wb3J0IGltcG9ydGxpYgppbXBvcnQgb3MucGF0aCBhcyBvc3AKCgpkZWYgZ2V0X2NvbmZpZyhjb25maWdfZmlsZSk6CiAgICBhc3NlcnQgY29uZmlnX2ZpbGUuc3RhcnRzd2l0aCgnY29uZmlncy8nKSwgJ2NvbmZpZyBmaWxlIHNldHRpbmcgbXVzdCBzdGFydCB3aXRoIGNvbmZpZ3MvJwogICAgdGVtcF9jb25maWdfbmFtZSA9IG9zcC5iYXNlbmFtZShjb25maWdfZmlsZSkKICAgIHRlbXBfbW9kdWxlX25hbWUgPSBvc3Auc3BsaXRleHQodGVtcF9jb25maWdfbmFtZSlbMF0KICAgIGNvbmZpZyA9IGltcG9ydGxpYi5pbXBvcnRfbW9kdWxlKCJjb25maWdzLmJhc2UiKQogICAgY2ZnID0gY29uZmlnLmNvbmZpZwogICAgY29uZmlnID0gaW1wb3J0bGliLmltcG9ydF9tb2R1bGUoImNvbmZpZ3MuJXMiICUgdGVtcF9tb2R1bGVfbmFtZSkKICAgIGpvYl9jZmcgPSBjb25maWcuY29uZmlnCiAgICBjZmcudXBkYXRlKGpvYl9jZmcpCiAgICBpZiBjZmcub3V0cHV0IGlzIE5vbmU6CiAgICAgICAgY2ZnLm91dHB1dCA9IG9zcC5qb2luKCd3b3JrX2RpcnMnLCB0ZW1wX21vZHVsZV9uYW1lKQogICAgcmV0dXJuIGNmZw==
+import importlib
+import os.path as osp
+
+
+def get_config(config_file):
+    assert config_file.startswith('configs/'), 'config file setting must start with configs/'
+    temp_config_name = osp.basename(config_file)
+    temp_module_name = osp.splitext(temp_config_name)[0]
+    config = importlib.import_module("configs.base")
+    cfg = config.config
+    config = importlib.import_module("configs.%s" % temp_module_name)
+    job_cfg = config.config
+    cfg.update(job_cfg)
+    if cfg.output is None:
+        cfg.output = osp.join('work_dirs', temp_module_name)
+    return cfg

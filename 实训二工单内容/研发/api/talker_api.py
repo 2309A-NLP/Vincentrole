@@ -1,1 +1,174 @@
-ZnJvbSBmYXN0YXBpIGltcG9ydCBGYXN0QVBJLCBIVFRQRXhjZXB0aW9uLCBRdWVyeSwgVXBsb2FkRmlsZSwgRmlsZSwgRm9ybQpmcm9tIHB5ZGFudGljIGltcG9ydCBCYXNlTW9kZWwKaW1wb3J0IHNodXRpbAppbXBvcnQgb3MKZnJvbSBsb2d1cnUgaW1wb3J0IGxvZ2dlcgppbXBvcnQgc3lzCmltcG9ydCBnYwppbXBvcnQgdG9yY2gKZnJvbSB0eXBpbmcgaW1wb3J0IE9wdGlvbmFsCmZyb20gZmFzdGFwaS5yZXNwb25zZXMgaW1wb3J0IEZpbGVSZXNwb25zZQoKc3lzLnBhdGguYXBwZW5kKCIuLyIpCmFwcCA9IEZhc3RBUEkoKQoKIyBHbG9iYWwgdmFyaWFibGUgdG8gc3RvcmUgdGhlIGN1cnJlbnRseSBsb2FkZWQgVGFsa2VyIG1vZGVsCnRhbGtlciA9IE5vbmUKClVTRV9SRUZfVklERU8gPSBGYWxzZQpSRUZfVklERU8gPSBOb25lClJFRl9JTkZPID0gJ3Bvc2UnClVTRV9JRExFX01PREUgPSBGYWxzZQpBVURJT19MRU5HVEggPSA1CgpjbGFzcyBUYWxrZXJSZXF1ZXN0KEJhc2VNb2RlbCk6CiAgICBwcmVwcm9jZXNzX3R5cGU6IHN0ciA9ICdjcm9wJwogICAgaXNfc3RpbGxfbW9kZTogYm9vbCA9IEZhbHNlCiAgICBlbmhhbmNlcjogYm9vbCA9IEZhbHNlCiAgICBiYXRjaF9zaXplOiBpbnQgPSA0CiAgICBzaXplX29mX2ltYWdlOiBpbnQgPSAyNTYKICAgIHBvc2Vfc3R5bGU6IGludCA9IDAKICAgIGZhY2VyZW5kZXI6IHN0ciA9ICdmYWNldmlkMnZpZCcKICAgIGV4cF93ZWlnaHQ6IGZsb2F0ID0gMS4wCiAgICBibGlua19ldmVyeTogYm9vbCA9IFRydWUKICAgIHRhbGtlcl9tZXRob2Q6IHN0ciA9ICdTYWRUYWxrZXInCiAgICBmcHM6IGludCA9IDMwCgphc3luYyBkZWYgY2xlYXJfbWVtb3J5KCk6CiAgICAiIiJBc3luY2hyb25vdXMgZnVuY3Rpb24gdG8gY2xlYXIgR1BVIG1lbW9yeS4iIiIKICAgIGxvZ2dlci5pbmZvKCJDbGVhcmluZyBHUFUgbWVtb3J5IHJlc291cmNlcyIpCiAgICBnYy5jb2xsZWN0KCkKICAgIGlmIHRvcmNoLmN1ZGEuaXNfYXZhaWxhYmxlKCk6CiAgICAgICAgdG9yY2guY3VkYS5lbXB0eV9jYWNoZSgpCiAgICAgICAgdG9yY2guY3VkYS5pcGNfY29sbGVjdCgpCiAgICAgICAgbG9nZ2VyLmluZm8oZiJHUFUgbWVtb3J5IHVzYWdlIGFmdGVyIGNsZWFyaW5nOiB7dG9yY2guY3VkYS5tZW1vcnlfYWxsb2NhdGVkKCkgLyAoMTAyNCAqKiAyKTouMmZ9IE1CIikKCkBhcHAucG9zdCgiL3RhbGtlcl9jaGFuZ2VfbW9kZWwvIikKYXN5bmMgZGVmIGNoYW5nZV9tb2RlbChtb2RlbF9uYW1lOiBzdHIgPSBRdWVyeSguLi4sIGRlc2NyaXB0aW9uPSJOYW1lIG9mIHRoZSBUYWxrZXIgbW9kZWwgdG8gbG9hZCIpKToKICAgICIiIkNoYW5nZSBkaWdpdGFsIGh1bWFuIGNvbnZlcnNhdGlvbiBtb2RlbCBhbmQgbG9hZCBjb3JyZXNwb25kaW5nIHJlc291cmNlcy4iIiIKICAgIGdsb2JhbCB0YWxrZXIKCiAgICAjIENsZWFyIG1lbW9yeSB0byBmcmVlIHVwIHVubmVjZXNzYXJ5IHJlc291cmNlcyBiZWZvcmUgbG9hZGluZyBhIG5ldyBtb2RlbAogICAgYXdhaXQgY2xlYXJfbWVtb3J5KCkKCiAgICBpZiBtb2RlbF9uYW1lIG5vdCBpbiBbJ1NhZFRhbGtlcicsICdXYXYyTGlwJywgJ1dhdjJMaXB2MicsICdOZVJGVGFsayddOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAwLCBkZXRhaWw9Ik90aGVyIG1vZGVscyBhcmUgbm90IGludGVncmF0ZWQgeWV0LiBQbGVhc2Ugd2FpdCBmb3IgdXBkYXRlcy4iKQoKICAgIHRyeToKICAgICAgICBpZiBtb2RlbF9uYW1lID09ICdTYWRUYWxrZXInOgogICAgICAgICAgICBmcm9tIFRGRyBpbXBvcnQgU2FkVGFsa2VyCiAgICAgICAgICAgIHRhbGtlciA9IFNhZFRhbGtlcihsYXp5X2xvYWQ9VHJ1ZSkKICAgICAgICAgICAgbG9nZ2VyLmluZm8oIlNhZFRhbGtlciBtb2RlbCBsb2FkZWQgc3VjY2Vzc2Z1bGx5IikKICAgICAgICBlbGlmIG1vZGVsX25hbWUgPT0gJ1dhdjJMaXAnOgogICAgICAgICAgICBmcm9tIFRGRyBpbXBvcnQgV2F2MkxpcAogICAgICAgICAgICB0YWxrZXIgPSBXYXYyTGlwKCJjaGVja3BvaW50cy93YXYybGlwX2dhbi5wdGgiKQogICAgICAgICAgICBsb2dnZXIuaW5mbygiV2F2MkxpcCBtb2RlbCBsb2FkZWQgc3VjY2Vzc2Z1bGx5IikKICAgICAgICBlbGlmIG1vZGVsX25hbWUgPT0gJ1dhdjJMaXB2Mic6CiAgICAgICAgICAgIGZyb20gVEZHIGltcG9ydCBXYXYyTGlwdjIKICAgICAgICAgICAgdGFsa2VyID0gV2F2MkxpcHYyKCdjaGVja3BvaW50cy93YXYybGlwdjIucHRoJykKICAgICAgICAgICAgbG9nZ2VyLmluZm8oIldhdjJMaXB2MiBtb2RlbCBsb2FkZWQgc3VjY2Vzc2Z1bGx5LCBjYXBhYmxlIG9mIGdlbmVyYXRpbmcgaGlnaGVyIHF1YWxpdHkgcmVzdWx0cyIpCiAgICAgICAgZWxpZiBtb2RlbF9uYW1lID09ICdOZVJGVGFsayc6CiAgICAgICAgICAgIGZyb20gVEZHIGltcG9ydCBOZVJGVGFsawogICAgICAgICAgICB0YWxrZXIgPSBOZVJGVGFsaygpCiAgICAgICAgICAgIHRhbGtlci5pbml0X21vZGVsKCdjaGVja3BvaW50cy9PYmFtYV9hdmUucHRoJywgJ2NoZWNrcG9pbnRzL09iYW1hLmpzb24nKQogICAgICAgICAgICBsb2dnZXIuaW5mbygiTmVSRlRhbGsgbW9kZWwgbG9hZGVkIHN1Y2Nlc3NmdWxseSIpCiAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKCJOZVJGVGFsayBtb2RlbCBpcyB0cmFpbmVkIG9ubHkgZm9yIGEgc2luZ2xlIHBlcnNvbiwgYnVpbHQtaW4gd2l0aCB0aGUgT2JhbWEgbW9kZWwsIHVwbG9hZGluZyBvdGhlciBpbWFnZXMgaXMgaW5lZmZlY3RpdmUuIikKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBsb2dnZXIuZXJyb3IoZiJGYWlsZWQgdG8gbG9hZCB7bW9kZWxfbmFtZX0gbW9kZWw6IHtlfSIpCiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT01MDAsIGRldGFpbD1mIkZhaWxlZCB0byBsb2FkIHttb2RlbF9uYW1lfSBtb2RlbDoge2V9IikKCiAgICByZXR1cm4geyJtZXNzYWdlIjogZiJ7bW9kZWxfbmFtZX0gbW9kZWwgbG9hZGVkIHN1Y2Nlc3NmdWxseSJ9CgpAYXBwLnBvc3QoIi90YWxrZXJfcmVzcG9uc2UvIikKYXN5bmMgZGVmIHRhbGtlcl9yZXNwb25zZSgKICAgIHByZXByb2Nlc3NfdHlwZTogc3RyID0gRm9ybSgnY3JvcCcpLAogICAgaXNfc3RpbGxfbW9kZTogYm9vbCA9IEZvcm0oRmFsc2UpLAogICAgZW5oYW5jZXI6IGJvb2wgPSBGb3JtKEZhbHNlKSwKICAgIGJhdGNoX3NpemU6IGludCA9IEZvcm0oNCksCiAgICBzaXplX29mX2ltYWdlOiBpbnQgPSBGb3JtKDI1NiksCiAgICBwb3NlX3N0eWxlOiBpbnQgPSBGb3JtKDApLAogICAgZmFjZXJlbmRlcjogc3RyID0gRm9ybSgnZmFjZXZpZDJ2aWQnKSwKICAgIGV4cF93ZWlnaHQ6IGZsb2F0ID0gRm9ybSgxLjApLAogICAgYmxpbmtfZXZlcnk6IGJvb2wgPSBGb3JtKFRydWUpLAogICAgdGFsa2VyX21ldGhvZDogc3RyID0gRm9ybSgnU2FkVGFsa2VyJyksCiAgICBmcHM6IGludCA9IEZvcm0oMzApLAogICAgc291cmNlX2ltYWdlOiBVcGxvYWRGaWxlID0gRmlsZSguLi4sIGRlc2NyaXB0aW9uPSJUaGUgc291cmNlIGltYWdlIGZpbGUiKSwKICAgIGRyaXZlbl9hdWRpbzogVXBsb2FkRmlsZSA9IEZpbGUoLi4uLCBkZXNjcmlwdGlvbj0iVGhlIGF1ZGlvIGZpbGUgdGhhdCB3aWxsIGRyaXZlIHRoZSB0YWxraW5nIGhlYWQiKSwKKToKICAgICIiIkhhbmRsZSBkaWdpdGFsIGh1bWFuIGNvbnZlcnNhdGlvbiByZXF1ZXN0cyBhbmQgZ2VuZXJhdGUgdmlkZW8uIiIiCiAgICBnbG9iYWwgdGFsa2VyCgogICAgaWYgdGFsa2VyIGlzIE5vbmU6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDAsIGRldGFpbD0iVGFsa2VyIG1vZGVsIG5vdCBsb2FkZWQuIFBsZWFzZSBsb2FkIGEgbW9kZWwgZmlyc3QuIikKCiAgICAjIEFzc2VtYmxlIHRoZSByZXF1ZXN0IGRhdGEgaW50byB0aGUgVGFsa2VyUmVxdWVzdCBtb2RlbAogICAgcmVxdWVzdCA9IFRhbGtlclJlcXVlc3QoCiAgICAgICAgcHJlcHJvY2Vzc190eXBlPXByZXByb2Nlc3NfdHlwZSwKICAgICAgICBpc19zdGlsbF9tb2RlPWlzX3N0aWxsX21vZGUsCiAgICAgICAgZW5oYW5jZXI9ZW5oYW5jZXIsCiAgICAgICAgYmF0Y2hfc2l6ZT1iYXRjaF9zaXplLAogICAgICAgIHNpemVfb2ZfaW1hZ2U9c2l6ZV9vZl9pbWFnZSwKICAgICAgICBwb3NlX3N0eWxlPXBvc2Vfc3R5bGUsCiAgICAgICAgZmFjZXJlbmRlcj1mYWNlcmVuZGVyLAogICAgICAgIGV4cF93ZWlnaHQ9ZXhwX3dlaWdodCwKICAgICAgICBibGlua19ldmVyeT1ibGlua19ldmVyeSwKICAgICAgICB0YWxrZXJfbWV0aG9kPXRhbGtlcl9tZXRob2QsCiAgICAgICAgZnBzPWZwcywKICAgICkKICAgICMgcHJpbnQocmVxdWVzdCkKCiAgICAjIFRlbXBvcmFyeSBmaWxlIHBhdGhzCiAgICB0ZW1wX2ltYWdlX3BhdGggPSAidGVtcF9zb3VyY2VfaW1hZ2UuanBnIgogICAgdGVtcF9hdWRpb19wYXRoID0gInRlbXBfZHJpdmVuX2F1ZGlvLndhdiIKCiAgICB0cnk6CiAgICAgICAgIyBTYXZlIHVwbG9hZGVkIGZpbGVzIHRlbXBvcmFyaWx5CiAgICAgICAgd2l0aCBvcGVuKHRlbXBfaW1hZ2VfcGF0aCwgIndiIikgYXMgaW1hZ2VfZmlsZToKICAgICAgICAgICAgc2h1dGlsLmNvcHlmaWxlb2JqKHNvdXJjZV9pbWFnZS5maWxlLCBpbWFnZV9maWxlKQogICAgICAgIHdpdGggb3Blbih0ZW1wX2F1ZGlvX3BhdGgsICJ3YiIpIGFzIGF1ZGlvX2ZpbGU6CiAgICAgICAgICAgIHNodXRpbC5jb3B5ZmlsZW9iaihkcml2ZW5fYXVkaW8uZmlsZSwgYXVkaW9fZmlsZSkKCiAgICAgICAgIyBWaWRlbyBnZW5lcmF0aW9uCiAgICAgICAgaWYgcmVxdWVzdC50YWxrZXJfbWV0aG9kID09ICdTYWRUYWxrZXInOgogICAgICAgICAgICB2aWRlb19wYXRoID0gdGFsa2VyLnRlc3QyKAogICAgICAgICAgICAgICAgdGVtcF9pbWFnZV9wYXRoLCAKICAgICAgICAgICAgICAgIHRlbXBfYXVkaW9fcGF0aCwKICAgICAgICAgICAgICAgIHJlcXVlc3QucHJlcHJvY2Vzc190eXBlLCAKICAgICAgICAgICAgICAgIHJlcXVlc3QuaXNfc3RpbGxfbW9kZSwgCiAgICAgICAgICAgICAgICByZXF1ZXN0LmVuaGFuY2VyLCAKICAgICAgICAgICAgICAgIHJlcXVlc3QuYmF0Y2hfc2l6ZSwgCiAgICAgICAgICAgICAgICByZXF1ZXN0LnNpemVfb2ZfaW1hZ2UsIAogICAgICAgICAgICAgICAgcmVxdWVzdC5wb3NlX3N0eWxlLCAKICAgICAgICAgICAgICAgIHJlcXVlc3QuZmFjZXJlbmRlciwgCiAgICAgICAgICAgICAgICByZXF1ZXN0LmV4cF93ZWlnaHQsIAogICAgICAgICAgICAgICAgUkVGX1ZJREVPLCBSRUZfSU5GTywgVVNFX0lETEVfTU9ERSwgQVVESU9fTEVOR1RILAogICAgICAgICAgICAgICAgcmVxdWVzdC5ibGlua19ldmVyeSwgCiAgICAgICAgICAgICAgICByZXF1ZXN0LmZwcywKICAgICAgICAgICAgKQogICAgICAgIGVsaWYgcmVxdWVzdC50YWxrZXJfbWV0aG9kID09ICdXYXYyTGlwJzoKICAgICAgICAgICAgdmlkZW9fcGF0aCA9IHRhbGtlci5wcmVkaWN0KHRlbXBfaW1hZ2VfcGF0aCwgdGVtcF9hdWRpb19wYXRoLCByZXF1ZXN0LmJhdGNoX3NpemUpCiAgICAgICAgZWxpZiByZXF1ZXN0LnRhbGtlcl9tZXRob2QgPT0gJ1dhdjJMaXB2Mic6CiAgICAgICAgICAgIHZpZGVvX3BhdGggPSB0YWxrZXIucnVuKHRlbXBfaW1hZ2VfcGF0aCwgdGVtcF9hdWRpb19wYXRoLCByZXF1ZXN0LmJhdGNoX3NpemUpCiAgICAgICAgZWxpZiByZXF1ZXN0LnRhbGtlcl9tZXRob2QgPT0gJ05lUkZUYWxrJzoKICAgICAgICAgICAgdmlkZW9fcGF0aCA9IHRhbGtlci5wcmVkaWN0KHRlbXBfYXVkaW9fcGF0aCkKICAgICAgICBlbHNlOgogICAgICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwMCwgZGV0YWlsPSJVbnN1cHBvcnRlZCBtZXRob2QiKQoKICAgICAgICAjIEVuc3VyZSB0aGUgdmlkZW8gZmlsZSBleGlzdHMgYW5kIHJldHVybiBpdAogICAgICAgIGlmIG9zLnBhdGguZXhpc3RzKHZpZGVvX3BhdGgpOgogICAgICAgICAgICByZXR1cm4gRmlsZVJlc3BvbnNlKHZpZGVvX3BhdGgsIG1lZGlhX3R5cGU9J3ZpZGVvL21wNCcsIGZpbGVuYW1lPW9zLnBhdGguYmFzZW5hbWUodmlkZW9fcGF0aCkpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDQsIGRldGFpbD0iVmlkZW8gZmlsZSBub3QgZm91bmQiKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIGxvZ2dlci5lcnJvcihmIlZpZGVvIGdlbmVyYXRpb24gZmFpbGVkOiB7ZX0iKQogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NTAwLCBkZXRhaWw9ZiJWaWRlbyBnZW5lcmF0aW9uIGZhaWxlZDoge2V9IikKICAgIGZpbmFsbHk6CiAgICAgICAgIyBDbGVhbiB1cCB0ZW1wb3JhcnkgZmlsZXMKICAgICAgICBpZiBvcy5wYXRoLmV4aXN0cyh0ZW1wX2ltYWdlX3BhdGgpOgogICAgICAgICAgICBvcy5yZW1vdmUodGVtcF9pbWFnZV9wYXRoKQogICAgICAgIGlmIG9zLnBhdGguZXhpc3RzKHRlbXBfYXVkaW9fcGF0aCk6CiAgICAgICAgICAgIG9zLnJlbW92ZSh0ZW1wX2F1ZGlvX3BhdGgpCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgaW1wb3J0IHV2aWNvcm4KICAgIHV2aWNvcm4ucnVuKGFwcCwgaG9zdD0iMC4wLjAuMCIsIHBvcnQ9ODAwMykK
+from fastapi import FastAPI, HTTPException, Query, UploadFile, File, Form
+from pydantic import BaseModel
+import shutil
+import os
+from loguru import logger
+import sys
+import gc
+import torch
+from typing import Optional
+from fastapi.responses import FileResponse
+
+sys.path.append("./")
+app = FastAPI()
+
+# Global variable to store the currently loaded Talker model
+talker = None
+
+USE_REF_VIDEO = False
+REF_VIDEO = None
+REF_INFO = 'pose'
+USE_IDLE_MODE = False
+AUDIO_LENGTH = 5
+
+class TalkerRequest(BaseModel):
+    preprocess_type: str = 'crop'
+    is_still_mode: bool = False
+    enhancer: bool = False
+    batch_size: int = 4
+    size_of_image: int = 256
+    pose_style: int = 0
+    facerender: str = 'facevid2vid'
+    exp_weight: float = 1.0
+    blink_every: bool = True
+    talker_method: str = 'SadTalker'
+    fps: int = 30
+
+async def clear_memory():
+    """Asynchronous function to clear GPU memory."""
+    logger.info("Clearing GPU memory resources")
+    gc.collect()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        torch.cuda.ipc_collect()
+        logger.info(f"GPU memory usage after clearing: {torch.cuda.memory_allocated() / (1024 ** 2):.2f} MB")
+
+@app.post("/talker_change_model/")
+async def change_model(model_name: str = Query(..., description="Name of the Talker model to load")):
+    """Change digital human conversation model and load corresponding resources."""
+    global talker
+
+    # Clear memory to free up unnecessary resources before loading a new model
+    await clear_memory()
+
+    if model_name not in ['SadTalker', 'Wav2Lip', 'Wav2Lipv2', 'NeRFTalk']:
+        raise HTTPException(status_code=400, detail="Other models are not integrated yet. Please wait for updates.")
+
+    try:
+        if model_name == 'SadTalker':
+            from TFG import SadTalker
+            talker = SadTalker(lazy_load=True)
+            logger.info("SadTalker model loaded successfully")
+        elif model_name == 'Wav2Lip':
+            from TFG import Wav2Lip
+            talker = Wav2Lip("checkpoints/wav2lip_gan.pth")
+            logger.info("Wav2Lip model loaded successfully")
+        elif model_name == 'Wav2Lipv2':
+            from TFG import Wav2Lipv2
+            talker = Wav2Lipv2('checkpoints/wav2lipv2.pth')
+            logger.info("Wav2Lipv2 model loaded successfully, capable of generating higher quality results")
+        elif model_name == 'NeRFTalk':
+            from TFG import NeRFTalk
+            talker = NeRFTalk()
+            talker.init_model('checkpoints/Obama_ave.pth', 'checkpoints/Obama.json')
+            logger.info("NeRFTalk model loaded successfully")
+            logger.warning("NeRFTalk model is trained only for a single person, built-in with the Obama model, uploading other images is ineffective.")
+    except Exception as e:
+        logger.error(f"Failed to load {model_name} model: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to load {model_name} model: {e}")
+
+    return {"message": f"{model_name} model loaded successfully"}
+
+@app.post("/talker_response/")
+async def talker_response(
+    preprocess_type: str = Form('crop'),
+    is_still_mode: bool = Form(False),
+    enhancer: bool = Form(False),
+    batch_size: int = Form(4),
+    size_of_image: int = Form(256),
+    pose_style: int = Form(0),
+    facerender: str = Form('facevid2vid'),
+    exp_weight: float = Form(1.0),
+    blink_every: bool = Form(True),
+    talker_method: str = Form('SadTalker'),
+    fps: int = Form(30),
+    source_image: UploadFile = File(..., description="The source image file"),
+    driven_audio: UploadFile = File(..., description="The audio file that will drive the talking head"),
+):
+    """Handle digital human conversation requests and generate video."""
+    global talker
+
+    if talker is None:
+        raise HTTPException(status_code=400, detail="Talker model not loaded. Please load a model first.")
+
+    # Assemble the request data into the TalkerRequest model
+    request = TalkerRequest(
+        preprocess_type=preprocess_type,
+        is_still_mode=is_still_mode,
+        enhancer=enhancer,
+        batch_size=batch_size,
+        size_of_image=size_of_image,
+        pose_style=pose_style,
+        facerender=facerender,
+        exp_weight=exp_weight,
+        blink_every=blink_every,
+        talker_method=talker_method,
+        fps=fps,
+    )
+    # print(request)
+
+    # Temporary file paths
+    temp_image_path = "temp_source_image.jpg"
+    temp_audio_path = "temp_driven_audio.wav"
+
+    try:
+        # Save uploaded files temporarily
+        with open(temp_image_path, "wb") as image_file:
+            shutil.copyfileobj(source_image.file, image_file)
+        with open(temp_audio_path, "wb") as audio_file:
+            shutil.copyfileobj(driven_audio.file, audio_file)
+
+        # Video generation
+        if request.talker_method == 'SadTalker':
+            video_path = talker.test2(
+                temp_image_path, 
+                temp_audio_path,
+                request.preprocess_type, 
+                request.is_still_mode, 
+                request.enhancer, 
+                request.batch_size, 
+                request.size_of_image, 
+                request.pose_style, 
+                request.facerender, 
+                request.exp_weight, 
+                REF_VIDEO, REF_INFO, USE_IDLE_MODE, AUDIO_LENGTH,
+                request.blink_every, 
+                request.fps,
+            )
+        elif request.talker_method == 'Wav2Lip':
+            video_path = talker.predict(temp_image_path, temp_audio_path, request.batch_size)
+        elif request.talker_method == 'Wav2Lipv2':
+            video_path = talker.run(temp_image_path, temp_audio_path, request.batch_size)
+        elif request.talker_method == 'NeRFTalk':
+            video_path = talker.predict(temp_audio_path)
+        else:
+            raise HTTPException(status_code=400, detail="Unsupported method")
+
+        # Ensure the video file exists and return it
+        if os.path.exists(video_path):
+            return FileResponse(video_path, media_type='video/mp4', filename=os.path.basename(video_path))
+        else:
+            raise HTTPException(status_code=404, detail="Video file not found")
+    except Exception as e:
+        logger.error(f"Video generation failed: {e}")
+        raise HTTPException(status_code=500, detail=f"Video generation failed: {e}")
+    finally:
+        # Clean up temporary files
+        if os.path.exists(temp_image_path):
+            os.remove(temp_image_path)
+        if os.path.exists(temp_audio_path):
+            os.remove(temp_audio_path)
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8003)

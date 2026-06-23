@@ -1,1 +1,24 @@
-aW1wb3J0IHRvcmNoCmltcG9ydCB0b3JjaC5ubiBhcyBubgppbXBvcnQgdG9yY2gubm4uZnVuY3Rpb25hbCBhcyBGCgoKX19hbGxfXyA9IFsgJ0JpbmFyeUhlYWRCbG9jaycgXQoKCmNsYXNzIEJpbmFyeUhlYWRCbG9jayhubi5Nb2R1bGUpOgogICAgIiIiQmluYXJ5SGVhZEJsb2NrCiAgICAiIiIKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbl9jaGFubmVscywgcHJval9jaGFubmVscywgb3V0X2NoYW5uZWxzLCAqKmt3YXJncyk6CiAgICAgICAgc3VwZXIoQmluYXJ5SGVhZEJsb2NrLCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgc2VsZi5sYXllcnMgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICBubi5Db252MmQoaW5fY2hhbm5lbHMsIHByb2pfY2hhbm5lbHMsIDEsIGJpYXM9RmFsc2UpLAogICAgICAgICAgICBubi5CYXRjaE5vcm0yZChwcm9qX2NoYW5uZWxzKSwKICAgICAgICAgICAgbm4uUmVMVShpbnBsYWNlPVRydWUpLAogICAgICAgICAgICBubi5Db252MmQocHJval9jaGFubmVscywgb3V0X2NoYW5uZWxzKjIsIDEsIGJpYXM9RmFsc2UpLAogICAgICAgICkKICAgICAgICAKICAgIGRlZiBmb3J3YXJkKHNlbGYsIGlucHV0KToKICAgICAgICBOLCBDLCBILCBXID0gaW5wdXQuc2hhcGUKICAgICAgICByZXR1cm4gc2VsZi5sYXllcnMoaW5wdXQpLnZpZXcoTiwgMiwgLTEsIEgsIFcpCgo=
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+
+__all__ = [ 'BinaryHeadBlock' ]
+
+
+class BinaryHeadBlock(nn.Module):
+    """BinaryHeadBlock
+    """
+    def __init__(self, in_channels, proj_channels, out_channels, **kwargs):
+        super(BinaryHeadBlock, self).__init__()
+        self.layers = nn.Sequential(
+            nn.Conv2d(in_channels, proj_channels, 1, bias=False),
+            nn.BatchNorm2d(proj_channels),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(proj_channels, out_channels*2, 1, bias=False),
+        )
+        
+    def forward(self, input):
+        N, C, H, W = input.shape
+        return self.layers(input).view(N, 2, -1, H, W)
+

@@ -1,1 +1,136 @@
-IyBDaGF0VFRTClsqKkVuZ2xpc2gqKl0oLi9SRUFETUUubWQpIHwgWyoq5Lit5paH566A5L2TKipdKC4vUkVBRE1FX0NOLm1kKQoKQ2hhdFRUU+aYr+S4k+mXqOS4uuWvueivneWcuuaZr+iuvuiuoeeahOaWh+acrOi9rOivremfs+aooeWei++8jOS+i+WmgkxMTeWKqeaJi+WvueivneS7u+WKoeOAguWug+aUr+aMgeiLseaWh+WSjOS4reaWh+S4pOenjeivreiogOOAguacgOWkp+eahOaooeWei+S9v+eUqOS6hjEw5LiH5bCP5pe25Lul5LiK55qE5Lit6Iux5paH5pWw5o2u6L+b6KGM6K6t57uD44CC5ZyoSHVnZ2luZ0ZhY2XkuK3lvIDmupDnmoTniYjmnKzkuLo05LiH5bCP5pe26K6t57uD5LiU5pyqU0ZU55qE54mI5pysLgoK5aaC6ZyA5bCx5qih5Z6L6L+b6KGM5q2j5byP5ZWG5Lia5ZKo6K+i77yM6K+35Y+R6YCB6YKu5Lu26IezICoqb3Blbi1zb3VyY2VAMm5vaXNlLmNvbSoq44CC5a+55LqO5Lit5paH55So5oi377yM5oKo5Y+v5Lul5Yqg5YWl5oiR5Lus55qEUVHnvqTvvJp+fjgwODM2NDIxNSAo5bey5ruhKX5+IDIzMDY5NjY5NCAo5LqM576kKSDov5vooYzorqjorrrjgILlkIzml7bmrKLov47lnKhHaXRIdWLkuIrmj5Dlh7rpl67popjjgILlpoLmnpzpgYfliLDml6Dms5Xkvb/nlKggKipbSHVnZ2luZ0ZhY2VdKGh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vMk5vaXNlL0NoYXRUVFMpKiog55qE5oOF5Ya1LOWPr+S7peWcqCBbbW9kZWxzY29wZV0oaHR0cHM6Ly93d3cubW9kZWxzY29wZS5jbi9tb2RlbHMvcHpjMTYzL2NoYXRUVFMpIOS4iui/m+ihjOS4i+i9vS4gCgotLS0KIyMg5Lqu54K5CjEuICoq5a+56K+d5byPIFRUUyoqOiBDaGF0VFRT6ZKI5a+55a+56K+d5byP5Lu75Yqh6L+b6KGM5LqG5LyY5YyW77yM5a6e546w5LqG6Ieq54S25rWB55WF55qE6K+t6Z+z5ZCI5oiQ77yM5ZCM5pe25pSv5oyB5aSa6K+06K+d5Lq644CCCjIuICoq57uG57KS5bqm5o6n5Yi2Kio6IOivpeaooeWei+iDveWkn+mihOa1i+WSjOaOp+WItue7hueykuW6pueahOmfteW+i+eJueW+ge+8jOWMheaLrOeskeWjsOOAgeWBnOmhv+WSjOaPkuWFpeivjeetieOAggozLiAqKuabtOWlveeahOmfteW+iyoqOiBDaGF0VFRT5Zyo6Z+15b6L5pa56Z2i6LaF6LaK5LqG5aSn6YOo5YiG5byA5rqQVFRT5qih5Z6L44CC5ZCM5pe25o+Q5L6b6aKE6K6t57uD5qih5Z6L77yM5pSv5oyB6L+b5LiA5q2l55qE56CU56m244CCCgrlr7nkuo7mqKHlnovnmoTlhbfkvZPku4vnu40sIOWPr+S7peWPguiAg0Lnq5nnmoQgKipb5a6j5Lyg6KeG6aKRXShodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxem40eTFvN2lWKSoqCgotLS0KCiMjIOWFjei0o+WjsOaYjgrmnKzmlofku7bkuK3nmoTkv6Hmga/ku4XkvpvlrabmnK/kuqTmtYHkvb/nlKjjgILlhbbnm67nmoTmmK/nlKjkuo7mlZnogrLlkoznoJTnqbbvvIzkuI3lvpfnlKjkuo7ku7vkvZXllYbkuJrmiJbms5Xlvovnm67nmoTjgILkvZzogIXkuI3kv53or4Hkv6Hmga/nmoTlh4bnoa7mgKfjgIHlrozmlbTmgKfmiJblj6/pnaDmgKfjgILmnKzmlofku7bkuK3kvb/nlKjnmoTkv6Hmga/lkozmlbDmja7vvIzku4XnlKjkuo7lrabmnK/noJTnqbbnm67nmoTjgILov5nkupvmlbDmja7mnaXoh6rlhazlvIDlj6/nlKjnmoTmnaXmupDvvIzkvZzogIXkuI3lr7nmlbDmja7nmoTmiYDmnInmnYPmiJbniYjmnYPmj5Dlh7rku7vkvZXkuLvlvKDjgIIKCkNoYXRUVFPmmK/kuIDkuKrlvLrlpKfnmoTmlofmnKzovazor63pn7Pns7vnu5/jgILnhLbogIzvvIzotJ/otKPku7vlnLDlkoznrKblkIjkvKbnkIblnLDliKnnlKjov5npobnmioDmnK/mmK/pnZ7luLjph43opoHnmoTjgILkuLrkuobpmZDliLZDaGF0VFRT55qE5L2/55So77yM5oiR5Lus5ZyoNHflsI/ml7bmqKHlnovnmoTorq3nu4Pov4fnqIvkuK3mt7vliqDkuoblsJHph4/pop3lpJbnmoTpq5jpopHlmarpn7PvvIzlubbnlKhtcDPmoLzlvI/lsL3lj6/og73ljovkvY7kuobpn7PotKjvvIzku6XpmLLkuI3ms5XliIblrZDnlKjkuo7mvZzlnKjnmoTniq/nvarlj6/og73jgILlkIzml7bmiJHku6zlnKjlhoXpg6jorq3nu4Pkuobmo4DmtYvmqKHlnovvvIzlubborqHliJLlnKjmnKrmnaXlvIDmlL7jgIIKCi0tLQojIyDnlKjms5UKCjxoND7ln7rmnKznlKjms5U8L2g0PgoKYGBgcHl0aG9uCmltcG9ydCBDaGF0VFRTCmZyb20gSVB5dGhvbi5kaXNwbGF5IGltcG9ydCBBdWRpbwoKY2hhdCA9IENoYXRUVFMuQ2hhdCgpCmNoYXQubG9hZF9tb2RlbHMoY29tcGlsZT1GYWxzZSkgIyDorr7nva7kuLpUcnVl5Lul6I635b6X5pu05b+r6YCf5bqmCgp0ZXh0cyA9IFsi5Zyo6L+Z6YeM6L6T5YWl5L2g55qE5paH5pysIixdCgp3YXZzID0gY2hhdC5pbmZlcih0ZXh0cywgdXNlX2RlY29kZXI9VHJ1ZSkKCnRvcmNoYXVkaW8uc2F2ZSgib3V0cHV0MS53YXYiLCB0b3JjaC5mcm9tX251bXB5KHdhdnNbMF0pLCAyNDAwMCkKYGBgCgo8aDQ+6L+b6Zi255So5rOVPC9oND4KCmBgYHB5dGhvbgojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIFNhbXBsZSBhIHNwZWFrZXIgZnJvbSBHYXVzc2lhbi4KCnJhbmRfc3BrID0gY2hhdC5zYW1wbGVfcmFuZG9tX3NwZWFrZXIoKQoKcGFyYW1zX2luZmVyX2NvZGUgPSB7CiAgJ3Nwa19lbWInOiByYW5kX3NwaywgIyBhZGQgc2FtcGxlZCBzcGVha2VyIAogICd0ZW1wZXJhdHVyZSc6IC4zLCAjIHVzaW5nIGN1c3RvbSB0ZW1wZXJhdHVyZQogICd0b3BfUCc6IDAuNywgIyB0b3AgUCBkZWNvZGUKICAndG9wX0snOiAyMCwgIyB0b3AgSyBkZWNvZGUKfQoKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKIyBGb3Igc2VudGVuY2UgbGV2ZWwgbWFudWFsIGNvbnRyb2wuCgojIHVzZSBvcmFsXygwLTkpLCBsYXVnaF8oMC0yKSwgYnJlYWtfKDAtNykgCiMgdG8gZ2VuZXJhdGUgc3BlY2lhbCB0b2tlbiBpbiB0ZXh0IHRvIHN5bnRoZXNpemUuCnBhcmFtc19yZWZpbmVfdGV4dCA9IHsKICAncHJvbXB0JzogJ1tvcmFsXzJdW2xhdWdoXzBdW2JyZWFrXzZdJwp9IAoKd2F2ID0gY2hhdC5pbmZlcih0ZXh0cywgcGFyYW1zX3JlZmluZV90ZXh0PXBhcmFtc19yZWZpbmVfdGV4dCwgcGFyYW1zX2luZmVyX2NvZGU9cGFyYW1zX2luZmVyX2NvZGUpCgojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIEZvciB3b3JkIGxldmVsIG1hbnVhbCBjb250cm9sLgojIHVzZV9kZWNvZGVyPUZhbHNlIHRvIGluZmVyIGZhc3RlciB3aXRoIGEgYml0IHdvcnNlIHF1YWxpdHkKdGV4dCA9ICdXaGF0IGlzIFt1dl9icmVha115b3VyIGZhdm9yaXRlIGVuZ2xpc2ggZm9vZD9bbGF1Z2hdW2xicmVha10nCndhdiA9IGNoYXQuaW5mZXIodGV4dCwgc2tpcF9yZWZpbmVfdGV4dD1UcnVlLCBwYXJhbXNfaW5mZXJfY29kZT1wYXJhbXNfaW5mZXJfY29kZSwgdXNlX2RlY29kZXI9RmFsc2UpCgp0b3JjaGF1ZGlvLnNhdmUoIm91dHB1dDIud2F2IiwgdG9yY2guZnJvbV9udW1weSh3YXZzWzBdKSwgMjQwMDApCmBgYAoKPGRldGFpbHMgb3Blbj4KICA8c3VtbWFyeT48aDQ+6Ieq5oiR5LuL57uN5qC35L6LPC9oND48L3N1bW1hcnk+CgpgYGBweXRob24KaW5wdXRzX2NuID0gIiIiCmNoYXQgVCBUIFMg5piv5LiA5qy+5by65aSn55qE5a+56K+d5byP5paH5pys6L2s6K+t6Z+z5qih5Z6L44CC5a6D5pyJ5Lit6Iux5re36K+75ZKM5aSa6K+06K+d5Lq655qE6IO95Yqb44CCCmNoYXQgVCBUIFMg5LiN5LuF6IO95aSf55Sf5oiQ6Ieq54S25rWB55WF55qE6K+t6Z+z77yM6L+Y6IO95o6n5Yi2W2xhdWdoXeeskeWjsOWViltsYXVnaF3vvIwK5YGc6aG/5ZWKW3V2X2JyZWFrXeivreawlOivjeWViuetieWJr+ivreiogOeOsOixoVt1dl9icmVha13jgILov5nkuKrpn7XlvovotoXotorkuoborrjlpJrlvIDmupDmqKHlnotbdXZfYnJlYWtd44CCCuivt+azqOaEj++8jGNoYXQgVCBUIFMg55qE5L2/55So5bqU6YG15a6I5rOV5b6L5ZKM5Lym55CG5YeG5YiZ77yM6YG/5YWN5rul55So55qE5a6J5YWo6aOO6Zmp44CCW3V2X2JyZWFrXScKIiIiLnJlcGxhY2UoJ1xuJywgJycpCgpwYXJhbXNfcmVmaW5lX3RleHQgPSB7CiAgJ3Byb21wdCc6ICdbb3JhbF8yXVtsYXVnaF8wXVticmVha180XScKfSAKYXVkaW9fYXJyYXlfY24gPSBjaGF0LmluZmVyKGlucHV0c19jbiwgcGFyYW1zX3JlZmluZV90ZXh0PXBhcmFtc19yZWZpbmVfdGV4dCkKIyBhdWRpb19hcnJheV9lbiA9IGNoYXQuaW5mZXIoaW5wdXRzX2VuLCBwYXJhbXNfcmVmaW5lX3RleHQ9cGFyYW1zX3JlZmluZV90ZXh0KQoKdG9yY2hhdWRpby5zYXZlKCJvdXRwdXQzLndhdiIsIHRvcmNoLmZyb21fbnVtcHkoYXVkaW9fYXJyYXlfY25bMF0pLCAyNDAwMCkKYGBgClvnlLfor7Tor53kurpdKGh0dHBzOi8vZ2l0aHViLmNvbS8ybm9pc2UvQ2hhdFRUUy9hc3NldHMvMTMwNjMxOTYzL2JiZmEzYjgzLTJiNjctNGJiNi05MzE1LTY0Yzk5MmI2Mzc4OCkKClvlpbPor7Tor53kurpdKGh0dHBzOi8vZ2l0aHViLmNvbS8ybm9pc2UvQ2hhdFRUUy9hc3NldHMvMTMwNjMxOTYzL2UwNjFmMjMwLTBlMDUtNDVlNi04ZTRlLTAxODlmMmQyNjBjNCkKPC9kZXRhaWxzPgoKCi0tLQojIyDorqHliJLot6/nur8KLSBbeF0g5byA5rqQNHflsI/ml7bln7rnoYDmqKHlnovlkoxzcGtfc3RhdHPmlofku7YKLSBbIF0g5byA5rqQVlEgZW5jb2RlcuWSjExvcmEg6K6t57uD5Luj56CBCi0gWyBdIOWcqOmdnnJlZmluZSB0ZXh05oOF5Ya15LiLLCDmtYHlvI/nlJ/miJDpn7PpopEqCi0gWyBdIOW8gOa6kOWkmuaDheaEn+WPr+aOp+eahDR35bCP5pe254mI5pysCi0gWyBdIENoYXRUVFMuY3BwIG1heWJlPyAo5qyi6L+O56S+5Yy6UFLmiJbni6znq4vnmoTmlrByZXBvKQoKLS0tCiMjIOW4uOingemXrumimAoKIyMjIyMg6L+e5LiN5LiKSHVnZ2luZ0ZhY2UK6K+35L2/55SoW21vZGVsc2NvcGVdKGh0dHBzOi8vd3d3Lm1vZGVsc2NvcGUuY24vbW9kZWxzL3B6YzE2My9jaGF0VFRTKeeahOeJiOacrC4g5bm26K6+572uY2FjaGXnmoTkvY3nva46CmBgYHB5dGhvbgpjaGF0LmxvYWRfbW9kZWxzKHNvdXJjZT0nbG9jYWwnLCBsb2NhbF9wYXRoPSfkvaDnmoTkuIvovb3kvY3nva4nKQpgYGAKCiMjIyMjIOaIkeimgeWkmuWwkeaYvuWtmD8gSW5mZXLnmoTpgJ/luqbmmK/mgI7kuYjmoLfnmoQ/CuWvueS6jjMwc+eahOmfs+mikSwg6Iez5bCR6ZyA6KaBNEfnmoTmmL7lrZguIOWvueS6jjQwOTAsIDFz55Sf5oiQ57qmN+S4quWtl+aJgOWvueW6lOeahOmfs+mikS4gUlRG57qmMC4zLgoKIyMjIyMg5qih5Z6L56iz5a6a5oCn5Ly85LmO5LiN5aSf5aW9LCDkvJrlh7rnjrDlhbbku5bor7Tor53kurrmiJbpn7PotKjlvojlt67nmoTnjrDosaEuCui/meaYr+iHquWbnuW9kuaooeWei+mAmuW4uOmDveS8muWHuueOsOeahOmXrumimC4g6K+06K+d5Lq65Y+v6IO95Lya5Zyo5Lit6Ze05Y+Y5YyWLCDlj6/og73kvJrph4fmoLfliLDpn7PotKjpnZ7luLjlt67nmoTnu5PmnpwsIOi/memAmuW4uOmavuS7pemBv+WFjS4g5Y+v5Lul5aSa6YeH5qC35Yeg5qyh5p2l5om+5Yiw5ZCI6YCC55qE57uT5p6cLgoKIyMjIyMg6Zmk5LqG56yR5aOw6L+Y6IO95o6n5Yi25LuA5LmI5ZCXPyDov5jog73mjqfliLblhbbku5bmg4XmhJ/lkJc/CuWcqOeOsOWcqOaUvuWHuueahOaooeWei+eJiOacrOS4rSwg5Y+q5pyJW2xhdWdoXeWSjFt1dl9icmVha10sIFtsYnJlYWtd5L2c5Li65a2X57qn5Yir55qE5o6n5Yi25Y2V5YWDLiDlnKjmnKrmnaXnmoTniYjmnKzkuK3miJHku6zlj6/og73kvJrlvIDmupDlhbbku5bmg4XmhJ/mjqfliLbnmoTniYjmnKwuCgotLS0KIyMg6Ie06LCiCi0gW2JhcmtdKGh0dHBzOi8vZ2l0aHViLmNvbS9zdW5vLWFpL2JhcmspLFtYVFRTdjJdKGh0dHBzOi8vZ2l0aHViLmNvbS9jb3F1aS1haS9UVFMp5ZKMW3ZhbGxlXShodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwMS4wMjExMSnlsZXnpLrkuoboh6rlm57lvZLku7vliqHnlKjkuo5UVFPku7vliqHnmoTlj6/og73mgKcuCi0gW2Zpc2gtc3BlZWNoXShodHRwczovL2dpdGh1Yi5jb20vZmlzaGF1ZGlvL2Zpc2gtc3BlZWNoKeS4gOS4quS8mOengOeahOiHquWbnuW9klRUU+aooeWeiywg5o+t56S65LqGR1ZR55So5LqOTExN5Lu75Yqh55qE5Y+v6IO95oCnLgotIFt2b2Nvc10oaHR0cHM6Ly9naXRodWIuY29tL2dlbWVsby1haS92b2NvcynkvZzkuLrmqKHlnovkuK3nmoR2b2NvZGVyLgoKLS0tCiMjIOeJueWIq+iHtOiwogotIFt3bHUtYXVkaW8gbGFiXShodHRwczovL2F1ZGlvLndlc3RsYWtlLmVkdS5jbi8p5Li65oiR5Lus5o+Q5L6b5LqG5pep5pyf566X5rOV6K+V6aqM55qE5pSv5oyBLgo=
+# ChatTTS
+[**English**](./README.md) | [**中文简体**](./README_CN.md)
+
+ChatTTS是专门为对话场景设计的文本转语音模型，例如LLM助手对话任务。它支持英文和中文两种语言。最大的模型使用了10万小时以上的中英文数据进行训练。在HuggingFace中开源的版本为4万小时训练且未SFT的版本.
+
+如需就模型进行正式商业咨询，请发送邮件至 **open-source@2noise.com**。对于中文用户，您可以加入我们的QQ群：~~808364215 (已满)~~ 230696694 (二群) 进行讨论。同时欢迎在GitHub上提出问题。如果遇到无法使用 **[HuggingFace](https://huggingface.co/2Noise/ChatTTS)** 的情况,可以在 [modelscope](https://www.modelscope.cn/models/pzc163/chatTTS) 上进行下载. 
+
+---
+## 亮点
+1. **对话式 TTS**: ChatTTS针对对话式任务进行了优化，实现了自然流畅的语音合成，同时支持多说话人。
+2. **细粒度控制**: 该模型能够预测和控制细粒度的韵律特征，包括笑声、停顿和插入词等。
+3. **更好的韵律**: ChatTTS在韵律方面超越了大部分开源TTS模型。同时提供预训练模型，支持进一步的研究。
+
+对于模型的具体介绍, 可以参考B站的 **[宣传视频](https://www.bilibili.com/video/BV1zn4y1o7iV)**
+
+---
+
+## 免责声明
+本文件中的信息仅供学术交流使用。其目的是用于教育和研究，不得用于任何商业或法律目的。作者不保证信息的准确性、完整性或可靠性。本文件中使用的信息和数据，仅用于学术研究目的。这些数据来自公开可用的来源，作者不对数据的所有权或版权提出任何主张。
+
+ChatTTS是一个强大的文本转语音系统。然而，负责任地和符合伦理地利用这项技术是非常重要的。为了限制ChatTTS的使用，我们在4w小时模型的训练过程中添加了少量额外的高频噪音，并用mp3格式尽可能压低了音质，以防不法分子用于潜在的犯罪可能。同时我们在内部训练了检测模型，并计划在未来开放。
+
+---
+## 用法
+
+<h4>基本用法</h4>
+
+```python
+import ChatTTS
+from IPython.display import Audio
+
+chat = ChatTTS.Chat()
+chat.load_models(compile=False) # 设置为True以获得更快速度
+
+texts = ["在这里输入你的文本",]
+
+wavs = chat.infer(texts, use_decoder=True)
+
+torchaudio.save("output1.wav", torch.from_numpy(wavs[0]), 24000)
+```
+
+<h4>进阶用法</h4>
+
+```python
+###################################
+# Sample a speaker from Gaussian.
+
+rand_spk = chat.sample_random_speaker()
+
+params_infer_code = {
+  'spk_emb': rand_spk, # add sampled speaker 
+  'temperature': .3, # using custom temperature
+  'top_P': 0.7, # top P decode
+  'top_K': 20, # top K decode
+}
+
+###################################
+# For sentence level manual control.
+
+# use oral_(0-9), laugh_(0-2), break_(0-7) 
+# to generate special token in text to synthesize.
+params_refine_text = {
+  'prompt': '[oral_2][laugh_0][break_6]'
+} 
+
+wav = chat.infer(texts, params_refine_text=params_refine_text, params_infer_code=params_infer_code)
+
+###################################
+# For word level manual control.
+# use_decoder=False to infer faster with a bit worse quality
+text = 'What is [uv_break]your favorite english food?[laugh][lbreak]'
+wav = chat.infer(text, skip_refine_text=True, params_infer_code=params_infer_code, use_decoder=False)
+
+torchaudio.save("output2.wav", torch.from_numpy(wavs[0]), 24000)
+```
+
+<details open>
+  <summary><h4>自我介绍样例</h4></summary>
+
+```python
+inputs_cn = """
+chat T T S 是一款强大的对话式文本转语音模型。它有中英混读和多说话人的能力。
+chat T T S 不仅能够生成自然流畅的语音，还能控制[laugh]笑声啊[laugh]，
+停顿啊[uv_break]语气词啊等副语言现象[uv_break]。这个韵律超越了许多开源模型[uv_break]。
+请注意，chat T T S 的使用应遵守法律和伦理准则，避免滥用的安全风险。[uv_break]'
+""".replace('\n', '')
+
+params_refine_text = {
+  'prompt': '[oral_2][laugh_0][break_4]'
+} 
+audio_array_cn = chat.infer(inputs_cn, params_refine_text=params_refine_text)
+# audio_array_en = chat.infer(inputs_en, params_refine_text=params_refine_text)
+
+torchaudio.save("output3.wav", torch.from_numpy(audio_array_cn[0]), 24000)
+```
+[男说话人](https://github.com/2noise/ChatTTS/assets/130631963/bbfa3b83-2b67-4bb6-9315-64c992b63788)
+
+[女说话人](https://github.com/2noise/ChatTTS/assets/130631963/e061f230-0e05-45e6-8e4e-0189f2d260c4)
+</details>
+
+
+---
+## 计划路线
+- [x] 开源4w小时基础模型和spk_stats文件
+- [ ] 开源VQ encoder和Lora 训练代码
+- [ ] 在非refine text情况下, 流式生成音频*
+- [ ] 开源多情感可控的4w小时版本
+- [ ] ChatTTS.cpp maybe? (欢迎社区PR或独立的新repo)
+
+---
+## 常见问题
+
+##### 连不上HuggingFace
+请使用[modelscope](https://www.modelscope.cn/models/pzc163/chatTTS)的版本. 并设置cache的位置:
+```python
+chat.load_models(source='local', local_path='你的下载位置')
+```
+
+##### 我要多少显存? Infer的速度是怎么样的?
+对于30s的音频, 至少需要4G的显存. 对于4090, 1s生成约7个字所对应的音频. RTF约0.3.
+
+##### 模型稳定性似乎不够好, 会出现其他说话人或音质很差的现象.
+这是自回归模型通常都会出现的问题. 说话人可能会在中间变化, 可能会采样到音质非常差的结果, 这通常难以避免. 可以多采样几次来找到合适的结果.
+
+##### 除了笑声还能控制什么吗? 还能控制其他情感吗?
+在现在放出的模型版本中, 只有[laugh]和[uv_break], [lbreak]作为字级别的控制单元. 在未来的版本中我们可能会开源其他情感控制的版本.
+
+---
+## 致谢
+- [bark](https://github.com/suno-ai/bark),[XTTSv2](https://github.com/coqui-ai/TTS)和[valle](https://arxiv.org/abs/2301.02111)展示了自回归任务用于TTS任务的可能性.
+- [fish-speech](https://github.com/fishaudio/fish-speech)一个优秀的自回归TTS模型, 揭示了GVQ用于LLM任务的可能性.
+- [vocos](https://github.com/gemelo-ai/vocos)作为模型中的vocoder.
+
+---
+## 特别致谢
+- [wlu-audio lab](https://audio.westlake.edu.cn/)为我们提供了早期算法试验的支持.

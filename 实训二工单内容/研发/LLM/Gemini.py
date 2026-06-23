@@ -1,1 +1,20 @@
-aW1wb3J0IG9zCmltcG9ydCBnb29nbGUuZ2VuZXJhdGl2ZWFpIGFzIGdlbmFpCgoKZGVmIGNvbmZpZ3VyZV9hcGkoYXBpX2tleSwgcHJveHlfdXJsPU5vbmUpOgogICAgaWYgcHJveHlfdXJsOgogICAgICAgIG9zLmVudmlyb25bJ2h0dHBzX3Byb3h5J10gPSBwcm94eV91cmwgaWYgcHJveHlfdXJsIGVsc2UgTm9uZQogICAgICAgIG9zLmVudmlyb25bJ2h0dHBfcHJveHknXSA9IHByb3h5X3VybCBpZiBwcm94eV91cmwgZWxzZSBOb25lCiAgICBnZW5haS5jb25maWd1cmUoYXBpX2tleT1hcGlfa2V5KQogICAgCiAgICAKY2xhc3MgR2VtaW5pOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG1vZGVsX3BhdGg9J2dlbWluaS1wcm8nLCBhcGlfa2V5PU5vbmUsIHByb3h5X3VybD1Ob25lKToKICAgICAgICBjb25maWd1cmVfYXBpKGFwaV9rZXksIHByb3h5X3VybCkKICAgICAgICBzZWxmLm1vZGVsID0gZ2VuYWkuR2VuZXJhdGl2ZU1vZGVsKG1vZGVsX3BhdGgpCiAgICAgICAgCiAgICBkZWYgZ2VuZXJhdGUoc2VsZiwgcXVlc3Rpb24pOgogICAgICAgIHJlc3BvbnNlID0gc2VsZi5tb2RlbC5nZW5lcmF0ZV9jb250ZW50KHF1ZXN0aW9uKQogICAgICAgIHJldHVybiByZXNwb25zZQogICAgICAgIA==
+import os
+import google.generativeai as genai
+
+
+def configure_api(api_key, proxy_url=None):
+    if proxy_url:
+        os.environ['https_proxy'] = proxy_url if proxy_url else None
+        os.environ['http_proxy'] = proxy_url if proxy_url else None
+    genai.configure(api_key=api_key)
+    
+    
+class Gemini:
+    def __init__(self, model_path='gemini-pro', api_key=None, proxy_url=None):
+        configure_api(api_key, proxy_url)
+        self.model = genai.GenerativeModel(model_path)
+        
+    def generate(self, question):
+        response = self.model.generate_content(question)
+        return response
+        

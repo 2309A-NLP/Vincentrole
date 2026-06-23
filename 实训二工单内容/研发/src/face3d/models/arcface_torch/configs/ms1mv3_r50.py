@@ -1,1 +1,26 @@
-ZnJvbSBlYXN5ZGljdCBpbXBvcnQgRWFzeURpY3QgYXMgZWRpY3QKCiMgbWFrZSB0cmFpbmluZyBmYXN0ZXIKIyBvdXIgUkFNIGlzIDI1NkcKIyBtb3VudCAtdCB0bXBmcyAtbyBzaXplPTE0MEcgIHRtcGZzIC90cmFpbl90bXAKCmNvbmZpZyA9IGVkaWN0KCkKY29uZmlnLmxvc3MgPSAiYXJjZmFjZSIKY29uZmlnLm5ldHdvcmsgPSAicjUwIgpjb25maWcucmVzdW1lID0gRmFsc2UKY29uZmlnLm91dHB1dCA9IE5vbmUKY29uZmlnLmVtYmVkZGluZ19zaXplID0gNTEyCmNvbmZpZy5zYW1wbGVfcmF0ZSA9IDEuMApjb25maWcuZnAxNiA9IFRydWUKY29uZmlnLm1vbWVudHVtID0gMC45CmNvbmZpZy53ZWlnaHRfZGVjYXkgPSA1ZS00CmNvbmZpZy5iYXRjaF9zaXplID0gMTI4CmNvbmZpZy5sciA9IDAuMSAgIyBiYXRjaCBzaXplIGlzIDUxMgoKY29uZmlnLnJlYyA9ICIvdHJhaW5fdG1wL21zMW0tcmV0aW5hZmFjZS10MSIKY29uZmlnLm51bV9jbGFzc2VzID0gOTM0MzEKY29uZmlnLm51bV9pbWFnZSA9IDUxNzk1MTAKY29uZmlnLm51bV9lcG9jaCA9IDI1CmNvbmZpZy53YXJtdXBfZXBvY2ggPSAtMQpjb25maWcuZGVjYXlfZXBvY2ggPSBbMTAsIDE2LCAyMl0KY29uZmlnLnZhbF90YXJnZXRzID0gWyJsZnciLCAiY2ZwX2ZwIiwgImFnZWRiXzMwIl0K
+from easydict import EasyDict as edict
+
+# make training faster
+# our RAM is 256G
+# mount -t tmpfs -o size=140G  tmpfs /train_tmp
+
+config = edict()
+config.loss = "arcface"
+config.network = "r50"
+config.resume = False
+config.output = None
+config.embedding_size = 512
+config.sample_rate = 1.0
+config.fp16 = True
+config.momentum = 0.9
+config.weight_decay = 5e-4
+config.batch_size = 128
+config.lr = 0.1  # batch size is 512
+
+config.rec = "/train_tmp/ms1m-retinaface-t1"
+config.num_classes = 93431
+config.num_image = 5179510
+config.num_epoch = 25
+config.warmup_epoch = -1
+config.decay_epoch = [10, 16, 22]
+config.val_targets = ["lfw", "cfp_fp", "agedb_30"]

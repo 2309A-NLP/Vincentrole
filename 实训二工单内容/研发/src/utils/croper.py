@@ -1,1 +1,144 @@
-aW1wb3J0IG9zCmltcG9ydCBjdjIKaW1wb3J0IHRpbWUKaW1wb3J0IGdsb2IKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBzY2lweQppbXBvcnQgbnVtcHkgYXMgbnAKZnJvbSBQSUwgaW1wb3J0IEltYWdlCmltcG9ydCB0b3JjaApmcm9tIHRxZG0gaW1wb3J0IHRxZG0KZnJvbSBpdGVydG9vbHMgaW1wb3J0IGN5Y2xlCgpmcm9tIHNyYy5mYWNlM2QuZXh0cmFjdF9rcF92aWRlb3Nfc2FmZSBpbXBvcnQgS2V5cG9pbnRFeHRyYWN0b3IKZnJvbSBmYWNleGxpYi5hbGlnbm1lbnQgaW1wb3J0IGxhbmRtYXJrXzk4X3RvXzY4CgppbXBvcnQgbnVtcHkgYXMgbnAKZnJvbSBQSUwgaW1wb3J0IEltYWdlCgpjbGFzcyBQcmVwcm9jZXNzZXI6CiAgICBkZWYgX19pbml0X18oc2VsZiwgZGV2aWNlPSdjdWRhJyk6CiAgICAgICAgc2VsZi5wcmVkaWN0b3IgPSBLZXlwb2ludEV4dHJhY3RvcihkZXZpY2UpCgogICAgZGVmIGdldF9sYW5kbWFyayhzZWxmLCBpbWdfbnApOgogICAgICAgICIiImdldCBsYW5kbWFyayB3aXRoIGRsaWIKICAgICAgICA6cmV0dXJuOiBucC5hcnJheSBzaGFwZT0oNjgsIDIpCiAgICAgICAgIiIiCiAgICAgICAgd2l0aCB0b3JjaC5ub19ncmFkKCk6CiAgICAgICAgICAgIGRldHMgPSBzZWxmLnByZWRpY3Rvci5kZXRfbmV0LmRldGVjdF9mYWNlcyhpbWdfbnAsIDAuOTcpCgogICAgICAgIGlmIGxlbihkZXRzKSA9PSAwOgogICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgIGRldCA9IGRldHNbMF0KCiAgICAgICAgaW1nID0gaW1nX25wW2ludChkZXRbMV0pOmludChkZXRbM10pLCBpbnQoZGV0WzBdKTppbnQoZGV0WzJdKSwgOl0KICAgICAgICBsbSA9IGxhbmRtYXJrXzk4X3RvXzY4KHNlbGYucHJlZGljdG9yLmRldGVjdG9yLmdldF9sYW5kbWFya3MoaW1nKSkgIyBbMF0KCiAgICAgICAgIyMjIyBrZXlwb2ludHMgdG8gdGhlIG9yaWdpbmFsIGxvY2F0aW9uCiAgICAgICAgbG1bOiwwXSArPSBpbnQoZGV0WzBdKQogICAgICAgIGxtWzosMV0gKz0gaW50KGRldFsxXSkKCiAgICAgICAgcmV0dXJuIGxtCgogICAgZGVmIGFsaWduX2ZhY2Uoc2VsZiwgaW1nLCBsbSwgb3V0cHV0X3NpemU9MTAyNCk6CiAgICAgICAgIiIiCiAgICAgICAgOnBhcmFtIGZpbGVwYXRoOiBzdHIKICAgICAgICA6cmV0dXJuOiBQSUwgSW1hZ2UKICAgICAgICAiIiIKICAgICAgICBsbV9jaGluID0gbG1bMDogMTddICAjIGxlZnQtcmlnaHQKICAgICAgICBsbV9leWVicm93X2xlZnQgPSBsbVsxNzogMjJdICAjIGxlZnQtcmlnaHQKICAgICAgICBsbV9leWVicm93X3JpZ2h0ID0gbG1bMjI6IDI3XSAgIyBsZWZ0LXJpZ2h0CiAgICAgICAgbG1fbm9zZSA9IGxtWzI3OiAzMV0gICMgdG9wLWRvd24KICAgICAgICBsbV9ub3N0cmlscyA9IGxtWzMxOiAzNl0gICMgdG9wLWRvd24KICAgICAgICBsbV9leWVfbGVmdCA9IGxtWzM2OiA0Ml0gICMgbGVmdC1jbG9ja3dpc2UKICAgICAgICBsbV9leWVfcmlnaHQgPSBsbVs0MjogNDhdICAjIGxlZnQtY2xvY2t3aXNlCiAgICAgICAgbG1fbW91dGhfb3V0ZXIgPSBsbVs0ODogNjBdICAjIGxlZnQtY2xvY2t3aXNlCiAgICAgICAgbG1fbW91dGhfaW5uZXIgPSBsbVs2MDogNjhdICAjIGxlZnQtY2xvY2t3aXNlCgogICAgICAgICMgQ2FsY3VsYXRlIGF1eGlsaWFyeSB2ZWN0b3JzLgogICAgICAgIGV5ZV9sZWZ0ID0gbnAubWVhbihsbV9leWVfbGVmdCwgYXhpcz0wKQogICAgICAgIGV5ZV9yaWdodCA9IG5wLm1lYW4obG1fZXllX3JpZ2h0LCBheGlzPTApCiAgICAgICAgZXllX2F2ZyA9IChleWVfbGVmdCArIGV5ZV9yaWdodCkgKiAwLjUKICAgICAgICBleWVfdG9fZXllID0gZXllX3JpZ2h0IC0gZXllX2xlZnQKICAgICAgICBtb3V0aF9sZWZ0ID0gbG1fbW91dGhfb3V0ZXJbMF0KICAgICAgICBtb3V0aF9yaWdodCA9IGxtX21vdXRoX291dGVyWzZdCiAgICAgICAgbW91dGhfYXZnID0gKG1vdXRoX2xlZnQgKyBtb3V0aF9yaWdodCkgKiAwLjUKICAgICAgICBleWVfdG9fbW91dGggPSBtb3V0aF9hdmcgLSBleWVfYXZnCgogICAgICAgICMgQ2hvb3NlIG9yaWVudGVkIGNyb3AgcmVjdGFuZ2xlLgogICAgICAgIHggPSBleWVfdG9fZXllIC0gbnAuZmxpcHVkKGV5ZV90b19tb3V0aCkgKiBbLTEsIDFdICAjIEFkZGl0aW9uIG9mIGJpbm9jdWxhciBkaWZmZXJlbmNlIGFuZCBkb3VibGUgbW91dGggZGlmZmVyZW5jZQogICAgICAgIHggLz0gbnAuaHlwb3QoKngpICAgIyBoeXBvdOWHveaVsOiuoeeul+ebtOinkuS4ieinkuW9oueahOaWnOi+uemVv++8jOeUqOaWnOi+uemVv+WvueS4ieinkuW9ouS4pOadoeebtOi+ueWBmuW9kuS4gOWMlgogICAgICAgIHggKj0gbWF4KG5wLmh5cG90KCpleWVfdG9fZXllKSAqIDIuMCwgbnAuaHlwb3QoKmV5ZV90b19tb3V0aCkgKiAxLjgpICAgICMg5Y+M55y85beu5ZKM55y85Zi05beu77yM6YCJ6L6D5aSn55qE5L2c5Li65Z+65YeG5bC65bqmCiAgICAgICAgeSA9IG5wLmZsaXB1ZCh4KSAqIFstMSwgMV0KICAgICAgICBjID0gZXllX2F2ZyArIGV5ZV90b19tb3V0aCAqIDAuMQogICAgICAgIHF1YWQgPSBucC5zdGFjayhbYyAtIHggLSB5LCBjIC0geCArIHksIGMgKyB4ICsgeSwgYyArIHggLSB5XSkgICAjIOWumuS5ieWbm+i+ueW9ou+8jOS7pemdoumDqOWfuuWHhuS9jee9ruS4uuS4reW/g+S4iuS4i+W3puWPs+W5s+enu+W+l+WIsOWbm+S4qumhtueCuQogICAgICAgIHFzaXplID0gbnAuaHlwb3QoKngpICogMiAgICAjIOWumuS5ieWbm+i+ueW9oueahOWkp+Wwj++8iOi+uemVv++8ie+8jOS4uuWfuuWHhuWwuuW6pueahDLlgI0KCiAgICAgICAgIyBTaHJpbmsuCiAgICAgICAgIyDlpoLmnpzorqHnrpflh7rnmoTlm5vovrnlvaLlpKrlpKfkuobvvIzlsLHmjInmr5TkvovnvKnlsI/lroMKICAgICAgICBzaHJpbmsgPSBpbnQobnAuZmxvb3IocXNpemUgLyBvdXRwdXRfc2l6ZSAqIDAuNSkpCiAgICAgICAgaWYgc2hyaW5rID4gMToKICAgICAgICAgICAgcnNpemUgPSAoaW50KG5wLnJpbnQoZmxvYXQoaW1nLnNpemVbMF0pIC8gc2hyaW5rKSksIGludChucC5yaW50KGZsb2F0KGltZy5zaXplWzFdKSAvIHNocmluaykpKQogICAgICAgICAgICBpbWcgPSBpbWcucmVzaXplKHJzaXplLCBJbWFnZS5BTlRJQUxJQVMpCiAgICAgICAgICAgIHF1YWQgLz0gc2hyaW5rCiAgICAgICAgICAgIHFzaXplIC89IHNocmluawogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJzaXplID0gKGludChucC5yaW50KGZsb2F0KGltZy5zaXplWzBdKSkpLCBpbnQobnAucmludChmbG9hdChpbWcuc2l6ZVsxXSkpKSkKCiAgICAgICAgIyBDcm9wLgogICAgICAgIGJvcmRlciA9IG1heChpbnQobnAucmludChxc2l6ZSAqIDAuMSkpLCAzKQogICAgICAgIGNyb3AgPSAoaW50KG5wLmZsb29yKG1pbihxdWFkWzosIDBdKSkpLCBpbnQobnAuZmxvb3IobWluKHF1YWRbOiwgMV0pKSksIGludChucC5jZWlsKG1heChxdWFkWzosIDBdKSkpLAogICAgICAgICAgICAgICAgaW50KG5wLmNlaWwobWF4KHF1YWRbOiwgMV0pKSkpCiAgICAgICAgY3JvcCA9IChtYXgoY3JvcFswXSAtIGJvcmRlciwgMCksIG1heChjcm9wWzFdIC0gYm9yZGVyLCAwKSwgbWluKGNyb3BbMl0gKyBib3JkZXIsIGltZy5zaXplWzBdKSwKICAgICAgICAgICAgICAgIG1pbihjcm9wWzNdICsgYm9yZGVyLCBpbWcuc2l6ZVsxXSkpCiAgICAgICAgaWYgY3JvcFsyXSAtIGNyb3BbMF0gPCBpbWcuc2l6ZVswXSBvciBjcm9wWzNdIC0gY3JvcFsxXSA8IGltZy5zaXplWzFdOgogICAgICAgICAgICAjIGltZyA9IGltZy5jcm9wKGNyb3ApCiAgICAgICAgICAgIHF1YWQgLT0gY3JvcFswOjJdCgogICAgICAgICMgUGFkLgogICAgICAgIHBhZCA9IChpbnQobnAuZmxvb3IobWluKHF1YWRbOiwgMF0pKSksIGludChucC5mbG9vcihtaW4ocXVhZFs6LCAxXSkpKSwgaW50KG5wLmNlaWwobWF4KHF1YWRbOiwgMF0pKSksCiAgICAgICAgICAgICAgIGludChucC5jZWlsKG1heChxdWFkWzosIDFdKSkpKQogICAgICAgIHBhZCA9IChtYXgoLXBhZFswXSArIGJvcmRlciwgMCksIG1heCgtcGFkWzFdICsgYm9yZGVyLCAwKSwgbWF4KHBhZFsyXSAtIGltZy5zaXplWzBdICsgYm9yZGVyLCAwKSwKICAgICAgICAgICAgICAgbWF4KHBhZFszXSAtIGltZy5zaXplWzFdICsgYm9yZGVyLCAwKSkKICAgICAgICAjIGlmIGVuYWJsZV9wYWRkaW5nIGFuZCBtYXgocGFkKSA+IGJvcmRlciAtIDQ6CiAgICAgICAgIyAgICAgcGFkID0gbnAubWF4aW11bShwYWQsIGludChucC5yaW50KHFzaXplICogMC4zKSkpCiAgICAgICAgIyAgICAgaW1nID0gbnAucGFkKG5wLmZsb2F0MzIoaW1nKSwgKChwYWRbMV0sIHBhZFszXSksIChwYWRbMF0sIHBhZFsyXSksICgwLCAwKSksICdyZWZsZWN0JykKICAgICAgICAjICAgICBoLCB3LCBfID0gaW1nLnNoYXBlCiAgICAgICAgIyAgICAgeSwgeCwgXyA9IG5wLm9ncmlkWzpoLCA6dywgOjFdCiAgICAgICAgIyAgICAgbWFzayA9IG5wLm1heGltdW0oMS4wIC0gbnAubWluaW11bShucC5mbG9hdDMyKHgpIC8gcGFkWzBdLCBucC5mbG9hdDMyKHcgLSAxIC0geCkgLyBwYWRbMl0pLAogICAgICAgICMgICAgICAgICAgICAgICAgICAgICAgIDEuMCAtIG5wLm1pbmltdW0obnAuZmxvYXQzMih5KSAvIHBhZFsxXSwgbnAuZmxvYXQzMihoIC0gMSAtIHkpIC8gcGFkWzNdKSkKICAgICAgICAjICAgICBibHVyID0gcXNpemUgKiAwLjAyCiAgICAgICAgIyAgICAgaW1nICs9IChzY2lweS5uZGltYWdlLmdhdXNzaWFuX2ZpbHRlcihpbWcsIFtibHVyLCBibHVyLCAwXSkgLSBpbWcpICogbnAuY2xpcChtYXNrICogMy4wICsgMS4wLCAwLjAsIDEuMCkKICAgICAgICAjICAgICBpbWcgKz0gKG5wLm1lZGlhbihpbWcsIGF4aXM9KDAsIDEpKSAtIGltZykgKiBucC5jbGlwKG1hc2ssIDAuMCwgMS4wKQogICAgICAgICMgICAgIGltZyA9IEltYWdlLmZyb21hcnJheShucC51aW50OChucC5jbGlwKG5wLnJpbnQoaW1nKSwgMCwgMjU1KSksICdSR0InKQogICAgICAgICMgICAgIHF1YWQgKz0gcGFkWzoyXQoKICAgICAgICAjIFRyYW5zZm9ybS4KICAgICAgICBxdWFkID0gKHF1YWQgKyAwLjUpLmZsYXR0ZW4oKQogICAgICAgIGx4ID0gbWF4KG1pbihxdWFkWzBdLCBxdWFkWzJdKSwgMCkKICAgICAgICBseSA9IG1heChtaW4ocXVhZFsxXSwgcXVhZFs3XSksIDApCiAgICAgICAgcnggPSBtaW4obWF4KHF1YWRbNF0sIHF1YWRbNl0pLCBpbWcuc2l6ZVswXSkKICAgICAgICByeSA9IG1pbihtYXgocXVhZFszXSwgcXVhZFs1XSksIGltZy5zaXplWzBdKQoKICAgICAgICAjIFNhdmUgYWxpZ25lZCBpbWFnZS4KICAgICAgICByZXR1cm4gcnNpemUsIGNyb3AsIFtseCwgbHksIHJ4LCByeV0KICAgIAogICAgZGVmIGNyb3Aoc2VsZiwgaW1nX25wX2xpc3QsIHN0aWxsPUZhbHNlLCB4c2l6ZT01MTIpOiAgICAjIGZpcnN0IGZyYW1lIGZvciBhbGwgdmlkZW8KICAgICAgICBpbWdfbnAgPSBpbWdfbnBfbGlzdFswXQogICAgICAgIGxtID0gc2VsZi5nZXRfbGFuZG1hcmsoaW1nX25wKQoKICAgICAgICBpZiBsbSBpcyBOb25lOgogICAgICAgICAgICByYWlzZSAnY2FuIG5vdCBkZXRlY3QgdGhlIGxhbmRtYXJrIGZyb20gc291cmNlIGltYWdlJwogICAgICAgIHJzaXplLCBjcm9wLCBxdWFkID0gc2VsZi5hbGlnbl9mYWNlKGltZz1JbWFnZS5mcm9tYXJyYXkoaW1nX25wKSwgbG09bG0sIG91dHB1dF9zaXplPXhzaXplKQogICAgICAgIGNseCwgY2x5LCBjcngsIGNyeSA9IGNyb3AKICAgICAgICBseCwgbHksIHJ4LCByeSA9IHF1YWQKICAgICAgICBseCwgbHksIHJ4LCByeSA9IGludChseCksIGludChseSksIGludChyeCksIGludChyeSkKICAgICAgICBmb3IgX2kgaW4gcmFuZ2UobGVuKGltZ19ucF9saXN0KSk6CiAgICAgICAgICAgIF9pbnAgPSBpbWdfbnBfbGlzdFtfaV0KICAgICAgICAgICAgX2lucCA9IGN2Mi5yZXNpemUoX2lucCwgKHJzaXplWzBdLCByc2l6ZVsxXSkpCiAgICAgICAgICAgIF9pbnAgPSBfaW5wW2NseTpjcnksIGNseDpjcnhdCiAgICAgICAgICAgIGlmIG5vdCBzdGlsbDoKICAgICAgICAgICAgICAgIF9pbnAgPSBfaW5wW2x5OnJ5LCBseDpyeF0KICAgICAgICAgICAgaW1nX25wX2xpc3RbX2ldID0gX2lucAogICAgICAgIHJldHVybiBpbWdfbnBfbGlzdCwgY3JvcCwgcXVhZAoK
+import os
+import cv2
+import time
+import glob
+import argparse
+import scipy
+import numpy as np
+from PIL import Image
+import torch
+from tqdm import tqdm
+from itertools import cycle
+
+from src.face3d.extract_kp_videos_safe import KeypointExtractor
+from facexlib.alignment import landmark_98_to_68
+
+import numpy as np
+from PIL import Image
+
+class Preprocesser:
+    def __init__(self, device='cuda'):
+        self.predictor = KeypointExtractor(device)
+
+    def get_landmark(self, img_np):
+        """get landmark with dlib
+        :return: np.array shape=(68, 2)
+        """
+        with torch.no_grad():
+            dets = self.predictor.det_net.detect_faces(img_np, 0.97)
+
+        if len(dets) == 0:
+            return None
+        det = dets[0]
+
+        img = img_np[int(det[1]):int(det[3]), int(det[0]):int(det[2]), :]
+        lm = landmark_98_to_68(self.predictor.detector.get_landmarks(img)) # [0]
+
+        #### keypoints to the original location
+        lm[:,0] += int(det[0])
+        lm[:,1] += int(det[1])
+
+        return lm
+
+    def align_face(self, img, lm, output_size=1024):
+        """
+        :param filepath: str
+        :return: PIL Image
+        """
+        lm_chin = lm[0: 17]  # left-right
+        lm_eyebrow_left = lm[17: 22]  # left-right
+        lm_eyebrow_right = lm[22: 27]  # left-right
+        lm_nose = lm[27: 31]  # top-down
+        lm_nostrils = lm[31: 36]  # top-down
+        lm_eye_left = lm[36: 42]  # left-clockwise
+        lm_eye_right = lm[42: 48]  # left-clockwise
+        lm_mouth_outer = lm[48: 60]  # left-clockwise
+        lm_mouth_inner = lm[60: 68]  # left-clockwise
+
+        # Calculate auxiliary vectors.
+        eye_left = np.mean(lm_eye_left, axis=0)
+        eye_right = np.mean(lm_eye_right, axis=0)
+        eye_avg = (eye_left + eye_right) * 0.5
+        eye_to_eye = eye_right - eye_left
+        mouth_left = lm_mouth_outer[0]
+        mouth_right = lm_mouth_outer[6]
+        mouth_avg = (mouth_left + mouth_right) * 0.5
+        eye_to_mouth = mouth_avg - eye_avg
+
+        # Choose oriented crop rectangle.
+        x = eye_to_eye - np.flipud(eye_to_mouth) * [-1, 1]  # Addition of binocular difference and double mouth difference
+        x /= np.hypot(*x)   # hypot函数计算直角三角形的斜边长，用斜边长对三角形两条直边做归一化
+        x *= max(np.hypot(*eye_to_eye) * 2.0, np.hypot(*eye_to_mouth) * 1.8)    # 双眼差和眼嘴差，选较大的作为基准尺度
+        y = np.flipud(x) * [-1, 1]
+        c = eye_avg + eye_to_mouth * 0.1
+        quad = np.stack([c - x - y, c - x + y, c + x + y, c + x - y])   # 定义四边形，以面部基准位置为中心上下左右平移得到四个顶点
+        qsize = np.hypot(*x) * 2    # 定义四边形的大小（边长），为基准尺度的2倍
+
+        # Shrink.
+        # 如果计算出的四边形太大了，就按比例缩小它
+        shrink = int(np.floor(qsize / output_size * 0.5))
+        if shrink > 1:
+            rsize = (int(np.rint(float(img.size[0]) / shrink)), int(np.rint(float(img.size[1]) / shrink)))
+            img = img.resize(rsize, Image.ANTIALIAS)
+            quad /= shrink
+            qsize /= shrink
+        else:
+            rsize = (int(np.rint(float(img.size[0]))), int(np.rint(float(img.size[1]))))
+
+        # Crop.
+        border = max(int(np.rint(qsize * 0.1)), 3)
+        crop = (int(np.floor(min(quad[:, 0]))), int(np.floor(min(quad[:, 1]))), int(np.ceil(max(quad[:, 0]))),
+                int(np.ceil(max(quad[:, 1]))))
+        crop = (max(crop[0] - border, 0), max(crop[1] - border, 0), min(crop[2] + border, img.size[0]),
+                min(crop[3] + border, img.size[1]))
+        if crop[2] - crop[0] < img.size[0] or crop[3] - crop[1] < img.size[1]:
+            # img = img.crop(crop)
+            quad -= crop[0:2]
+
+        # Pad.
+        pad = (int(np.floor(min(quad[:, 0]))), int(np.floor(min(quad[:, 1]))), int(np.ceil(max(quad[:, 0]))),
+               int(np.ceil(max(quad[:, 1]))))
+        pad = (max(-pad[0] + border, 0), max(-pad[1] + border, 0), max(pad[2] - img.size[0] + border, 0),
+               max(pad[3] - img.size[1] + border, 0))
+        # if enable_padding and max(pad) > border - 4:
+        #     pad = np.maximum(pad, int(np.rint(qsize * 0.3)))
+        #     img = np.pad(np.float32(img), ((pad[1], pad[3]), (pad[0], pad[2]), (0, 0)), 'reflect')
+        #     h, w, _ = img.shape
+        #     y, x, _ = np.ogrid[:h, :w, :1]
+        #     mask = np.maximum(1.0 - np.minimum(np.float32(x) / pad[0], np.float32(w - 1 - x) / pad[2]),
+        #                       1.0 - np.minimum(np.float32(y) / pad[1], np.float32(h - 1 - y) / pad[3]))
+        #     blur = qsize * 0.02
+        #     img += (scipy.ndimage.gaussian_filter(img, [blur, blur, 0]) - img) * np.clip(mask * 3.0 + 1.0, 0.0, 1.0)
+        #     img += (np.median(img, axis=(0, 1)) - img) * np.clip(mask, 0.0, 1.0)
+        #     img = Image.fromarray(np.uint8(np.clip(np.rint(img), 0, 255)), 'RGB')
+        #     quad += pad[:2]
+
+        # Transform.
+        quad = (quad + 0.5).flatten()
+        lx = max(min(quad[0], quad[2]), 0)
+        ly = max(min(quad[1], quad[7]), 0)
+        rx = min(max(quad[4], quad[6]), img.size[0])
+        ry = min(max(quad[3], quad[5]), img.size[0])
+
+        # Save aligned image.
+        return rsize, crop, [lx, ly, rx, ry]
+    
+    def crop(self, img_np_list, still=False, xsize=512):    # first frame for all video
+        img_np = img_np_list[0]
+        lm = self.get_landmark(img_np)
+
+        if lm is None:
+            raise 'can not detect the landmark from source image'
+        rsize, crop, quad = self.align_face(img=Image.fromarray(img_np), lm=lm, output_size=xsize)
+        clx, cly, crx, cry = crop
+        lx, ly, rx, ry = quad
+        lx, ly, rx, ry = int(lx), int(ly), int(rx), int(ry)
+        for _i in range(len(img_np_list)):
+            _inp = img_np_list[_i]
+            _inp = cv2.resize(_inp, (rsize[0], rsize[1]))
+            _inp = _inp[cly:cry, clx:crx]
+            if not still:
+                _inp = _inp[ly:ry, lx:rx]
+            img_np_list[_i] = _inp
+        return img_np_list, crop, quad
+

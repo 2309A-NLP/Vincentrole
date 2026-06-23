@@ -1,1 +1,8 @@
-b21lZ2Fjb25mfj0yLjMuMAp0b3JjaH49Mi4xLjAKdHFkbQplaW5vcHMKdmVjdG9yX3F1YW50aXplX3B5dG9yY2gKdHJhbnNmb3JtZXJzfj00LjQxLjEKdm9jb3MKSVB5dGhvbg==
+omegaconf~=2.3.0
+torch~=2.1.0
+tqdm
+einops
+vector_quantize_pytorch
+transformers~=4.41.1
+vocos
+IPython

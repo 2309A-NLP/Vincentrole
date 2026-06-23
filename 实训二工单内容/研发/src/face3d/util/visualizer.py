@@ -1,1 +1,227 @@
-IiIiVGhpcyBzY3JpcHQgZGVmaW5lcyB0aGUgdmlzdWFsaXplciBmb3IgRGVlcDNERmFjZVJlY29uX3B5dG9yY2gKIiIiCgppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IG9zCmltcG9ydCBzeXMKaW1wb3J0IG50cGF0aAppbXBvcnQgdGltZQpmcm9tIC4gaW1wb3J0IHV0aWwsIGh0bWwKZnJvbSBzdWJwcm9jZXNzIGltcG9ydCBQb3BlbiwgUElQRQpmcm9tIHRvcmNoLnV0aWxzLnRlbnNvcmJvYXJkIGltcG9ydCBTdW1tYXJ5V3JpdGVyCgpkZWYgc2F2ZV9pbWFnZXMod2VicGFnZSwgdmlzdWFscywgaW1hZ2VfcGF0aCwgYXNwZWN0X3JhdGlvPTEuMCwgd2lkdGg9MjU2KToKICAgICIiIlNhdmUgaW1hZ2VzIHRvIHRoZSBkaXNrLgoKICAgIFBhcmFtZXRlcnM6CiAgICAgICAgd2VicGFnZSAodGhlIEhUTUwgY2xhc3MpIC0tIHRoZSBIVE1MIHdlYnBhZ2UgY2xhc3MgdGhhdCBzdG9yZXMgdGhlc2UgaW1hZWdzIChzZWUgaHRtbC5weSBmb3IgbW9yZSBkZXRhaWxzKQogICAgICAgIHZpc3VhbHMgKE9yZGVyZWREaWN0KSAgICAtLSBhbiBvcmRlcmVkIGRpY3Rpb25hcnkgdGhhdCBzdG9yZXMgKG5hbWUsIGltYWdlcyAoZWl0aGVyIHRlbnNvciBvciBudW1weSkgKSBwYWlycwogICAgICAgIGltYWdlX3BhdGggKHN0cikgICAgICAgICAtLSB0aGUgc3RyaW5nIGlzIHVzZWQgdG8gY3JlYXRlIGltYWdlIHBhdGhzCiAgICAgICAgYXNwZWN0X3JhdGlvIChmbG9hdCkgICAgIC0tIHRoZSBhc3BlY3QgcmF0aW8gb2Ygc2F2ZWQgaW1hZ2VzCiAgICAgICAgd2lkdGggKGludCkgICAgICAgICAgICAgIC0tIHRoZSBpbWFnZXMgd2lsbCBiZSByZXNpemVkIHRvIHdpZHRoIHggd2lkdGgKCiAgICBUaGlzIGZ1bmN0aW9uIHdpbGwgc2F2ZSBpbWFnZXMgc3RvcmVkIGluICd2aXN1YWxzJyB0byB0aGUgSFRNTCBmaWxlIHNwZWNpZmllZCBieSAnd2VicGFnZScuCiAgICAiIiIKICAgIGltYWdlX2RpciA9IHdlYnBhZ2UuZ2V0X2ltYWdlX2RpcigpCiAgICBzaG9ydF9wYXRoID0gbnRwYXRoLmJhc2VuYW1lKGltYWdlX3BhdGhbMF0pCiAgICBuYW1lID0gb3MucGF0aC5zcGxpdGV4dChzaG9ydF9wYXRoKVswXQoKICAgIHdlYnBhZ2UuYWRkX2hlYWRlcihuYW1lKQogICAgaW1zLCB0eHRzLCBsaW5rcyA9IFtdLCBbXSwgW10KCiAgICBmb3IgbGFiZWwsIGltX2RhdGEgaW4gdmlzdWFscy5pdGVtcygpOgogICAgICAgIGltID0gdXRpbC50ZW5zb3IyaW0oaW1fZGF0YSkKICAgICAgICBpbWFnZV9uYW1lID0gJyVzLyVzLnBuZycgJSAobGFiZWwsIG5hbWUpCiAgICAgICAgb3MubWFrZWRpcnMob3MucGF0aC5qb2luKGltYWdlX2RpciwgbGFiZWwpLCBleGlzdF9vaz1UcnVlKQogICAgICAgIHNhdmVfcGF0aCA9IG9zLnBhdGguam9pbihpbWFnZV9kaXIsIGltYWdlX25hbWUpCiAgICAgICAgdXRpbC5zYXZlX2ltYWdlKGltLCBzYXZlX3BhdGgsIGFzcGVjdF9yYXRpbz1hc3BlY3RfcmF0aW8pCiAgICAgICAgaW1zLmFwcGVuZChpbWFnZV9uYW1lKQogICAgICAgIHR4dHMuYXBwZW5kKGxhYmVsKQogICAgICAgIGxpbmtzLmFwcGVuZChpbWFnZV9uYW1lKQogICAgd2VicGFnZS5hZGRfaW1hZ2VzKGltcywgdHh0cywgbGlua3MsIHdpZHRoPXdpZHRoKQoKCmNsYXNzIFZpc3VhbGl6ZXIoKToKICAgICIiIlRoaXMgY2xhc3MgaW5jbHVkZXMgc2V2ZXJhbCBmdW5jdGlvbnMgdGhhdCBjYW4gZGlzcGxheS9zYXZlIGltYWdlcyBhbmQgcHJpbnQvc2F2ZSBsb2dnaW5nIGluZm9ybWF0aW9uLgoKICAgIEl0IHVzZXMgYSBQeXRob24gbGlicmFyeSB0ZW5zcHJib2FyZFggZm9yIGRpc3BsYXksIGFuZCBhIFB5dGhvbiBsaWJyYXJ5ICdkb21pbmF0ZScgKHdyYXBwZWQgaW4gJ0hUTUwnKSBmb3IgY3JlYXRpbmcgSFRNTCBmaWxlcyB3aXRoIGltYWdlcy4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBvcHQpOgogICAgICAgICIiIkluaXRpYWxpemUgdGhlIFZpc3VhbGl6ZXIgY2xhc3MKCiAgICAgICAgUGFyYW1ldGVyczoKICAgICAgICAgICAgb3B0IC0tIHN0b3JlcyBhbGwgdGhlIGV4cGVyaW1lbnQgZmxhZ3M7IG5lZWRzIHRvIGJlIGEgc3ViY2xhc3Mgb2YgQmFzZU9wdGlvbnMKICAgICAgICBTdGVwIDE6IENhY2hlIHRoZSB0cmFpbmluZy90ZXN0IG9wdGlvbnMKICAgICAgICBTdGVwIDI6IGNyZWF0ZSBhIHRlbnNvcmJvYXJkIHdyaXRlcgogICAgICAgIFN0ZXAgMzogY3JlYXRlIGFuIEhUTUwgb2JqZWN0IGZvciBzYXZlaW5nIEhUTUwgZmlsdGVycwogICAgICAgIFN0ZXAgNDogY3JlYXRlIGEgbG9nZ2luZyBmaWxlIHRvIHN0b3JlIHRyYWluaW5nIGxvc3NlcwogICAgICAgICIiIgogICAgICAgIHNlbGYub3B0ID0gb3B0ICAjIGNhY2hlIHRoZSBvcHRpb24KICAgICAgICBzZWxmLnVzZV9odG1sID0gb3B0LmlzVHJhaW4gYW5kIG5vdCBvcHQubm9faHRtbAogICAgICAgIHNlbGYud3JpdGVyID0gU3VtbWFyeVdyaXRlcihvcy5wYXRoLmpvaW4ob3B0LmNoZWNrcG9pbnRzX2RpciwgJ2xvZ3MnLCBvcHQubmFtZSkpCiAgICAgICAgc2VsZi53aW5fc2l6ZSA9IG9wdC5kaXNwbGF5X3dpbnNpemUKICAgICAgICBzZWxmLm5hbWUgPSBvcHQubmFtZQogICAgICAgIHNlbGYuc2F2ZWQgPSBGYWxzZQogICAgICAgIGlmIHNlbGYudXNlX2h0bWw6ICAjIGNyZWF0ZSBhbiBIVE1MIG9iamVjdCBhdCA8Y2hlY2twb2ludHNfZGlyPi93ZWIvOyBpbWFnZXMgd2lsbCBiZSBzYXZlZCB1bmRlciA8Y2hlY2twb2ludHNfZGlyPi93ZWIvaW1hZ2VzLwogICAgICAgICAgICBzZWxmLndlYl9kaXIgPSBvcy5wYXRoLmpvaW4ob3B0LmNoZWNrcG9pbnRzX2Rpciwgb3B0Lm5hbWUsICd3ZWInKQogICAgICAgICAgICBzZWxmLmltZ19kaXIgPSBvcy5wYXRoLmpvaW4oc2VsZi53ZWJfZGlyLCAnaW1hZ2VzJykKICAgICAgICAgICAgcHJpbnQoJ2NyZWF0ZSB3ZWIgZGlyZWN0b3J5ICVzLi4uJyAlIHNlbGYud2ViX2RpcikKICAgICAgICAgICAgdXRpbC5ta2RpcnMoW3NlbGYud2ViX2Rpciwgc2VsZi5pbWdfZGlyXSkKICAgICAgICAjIGNyZWF0ZSBhIGxvZ2dpbmcgZmlsZSB0byBzdG9yZSB0cmFpbmluZyBsb3NzZXMKICAgICAgICBzZWxmLmxvZ19uYW1lID0gb3MucGF0aC5qb2luKG9wdC5jaGVja3BvaW50c19kaXIsIG9wdC5uYW1lLCAnbG9zc19sb2cudHh0JykKICAgICAgICB3aXRoIG9wZW4oc2VsZi5sb2dfbmFtZSwgImEiKSBhcyBsb2dfZmlsZToKICAgICAgICAgICAgbm93ID0gdGltZS5zdHJmdGltZSgiJWMiKQogICAgICAgICAgICBsb2dfZmlsZS53cml0ZSgnPT09PT09PT09PT09PT09PSBUcmFpbmluZyBMb3NzICglcykgPT09PT09PT09PT09PT09PVxuJyAlIG5vdykKCiAgICBkZWYgcmVzZXQoc2VsZik6CiAgICAgICAgIiIiUmVzZXQgdGhlIHNlbGYuc2F2ZWQgc3RhdHVzIiIiCiAgICAgICAgc2VsZi5zYXZlZCA9IEZhbHNlCgoKICAgIGRlZiBkaXNwbGF5X2N1cnJlbnRfcmVzdWx0cyhzZWxmLCB2aXN1YWxzLCB0b3RhbF9pdGVycywgZXBvY2gsIHNhdmVfcmVzdWx0KToKICAgICAgICAiIiJEaXNwbGF5IGN1cnJlbnQgcmVzdWx0cyBvbiB0ZW5zb3Jib2FkOyBzYXZlIGN1cnJlbnQgcmVzdWx0cyB0byBhbiBIVE1MIGZpbGUuCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIHZpc3VhbHMgKE9yZGVyZWREaWN0KSAtIC0gZGljdGlvbmFyeSBvZiBpbWFnZXMgdG8gZGlzcGxheSBvciBzYXZlCiAgICAgICAgICAgIHRvdGFsX2l0ZXJzIChpbnQpIC0tIHRvdGFsIGl0ZXJhdGlvbnMKICAgICAgICAgICAgZXBvY2ggKGludCkgLSAtIHRoZSBjdXJyZW50IGVwb2NoCiAgICAgICAgICAgIHNhdmVfcmVzdWx0IChib29sKSAtIC0gaWYgc2F2ZSB0aGUgY3VycmVudCByZXN1bHRzIHRvIGFuIEhUTUwgZmlsZQogICAgICAgICIiIgogICAgICAgIGZvciBsYWJlbCwgaW1hZ2UgaW4gdmlzdWFscy5pdGVtcygpOgogICAgICAgICAgICBzZWxmLndyaXRlci5hZGRfaW1hZ2UobGFiZWwsIHV0aWwudGVuc29yMmltKGltYWdlKSwgdG90YWxfaXRlcnMsIGRhdGFmb3JtYXRzPSdIV0MnKQoKICAgICAgICBpZiBzZWxmLnVzZV9odG1sIGFuZCAoc2F2ZV9yZXN1bHQgb3Igbm90IHNlbGYuc2F2ZWQpOiAgIyBzYXZlIGltYWdlcyB0byBhbiBIVE1MIGZpbGUgaWYgdGhleSBoYXZlbid0IGJlZW4gc2F2ZWQuCiAgICAgICAgICAgIHNlbGYuc2F2ZWQgPSBUcnVlCiAgICAgICAgICAgICMgc2F2ZSBpbWFnZXMgdG8gdGhlIGRpc2sKICAgICAgICAgICAgZm9yIGxhYmVsLCBpbWFnZSBpbiB2aXN1YWxzLml0ZW1zKCk6CiAgICAgICAgICAgICAgICBpbWFnZV9udW1weSA9IHV0aWwudGVuc29yMmltKGltYWdlKQogICAgICAgICAgICAgICAgaW1nX3BhdGggPSBvcy5wYXRoLmpvaW4oc2VsZi5pbWdfZGlyLCAnZXBvY2glLjNkXyVzLnBuZycgJSAoZXBvY2gsIGxhYmVsKSkKICAgICAgICAgICAgICAgIHV0aWwuc2F2ZV9pbWFnZShpbWFnZV9udW1weSwgaW1nX3BhdGgpCgogICAgICAgICAgICAjIHVwZGF0ZSB3ZWJzaXRlCiAgICAgICAgICAgIHdlYnBhZ2UgPSBodG1sLkhUTUwoc2VsZi53ZWJfZGlyLCAnRXhwZXJpbWVudCBuYW1lID0gJXMnICUgc2VsZi5uYW1lLCByZWZyZXNoPTApCiAgICAgICAgICAgIGZvciBuIGluIHJhbmdlKGVwb2NoLCAwLCAtMSk6CiAgICAgICAgICAgICAgICB3ZWJwYWdlLmFkZF9oZWFkZXIoJ2Vwb2NoIFslZF0nICUgbikKICAgICAgICAgICAgICAgIGltcywgdHh0cywgbGlua3MgPSBbXSwgW10sIFtdCgogICAgICAgICAgICAgICAgZm9yIGxhYmVsLCBpbWFnZV9udW1weSBpbiB2aXN1YWxzLml0ZW1zKCk6CiAgICAgICAgICAgICAgICAgICAgaW1hZ2VfbnVtcHkgPSB1dGlsLnRlbnNvcjJpbShpbWFnZSkKICAgICAgICAgICAgICAgICAgICBpbWdfcGF0aCA9ICdlcG9jaCUuM2RfJXMucG5nJyAlIChuLCBsYWJlbCkKICAgICAgICAgICAgICAgICAgICBpbXMuYXBwZW5kKGltZ19wYXRoKQogICAgICAgICAgICAgICAgICAgIHR4dHMuYXBwZW5kKGxhYmVsKQogICAgICAgICAgICAgICAgICAgIGxpbmtzLmFwcGVuZChpbWdfcGF0aCkKICAgICAgICAgICAgICAgIHdlYnBhZ2UuYWRkX2ltYWdlcyhpbXMsIHR4dHMsIGxpbmtzLCB3aWR0aD1zZWxmLndpbl9zaXplKQogICAgICAgICAgICB3ZWJwYWdlLnNhdmUoKQoKICAgIGRlZiBwbG90X2N1cnJlbnRfbG9zc2VzKHNlbGYsIHRvdGFsX2l0ZXJzLCBsb3NzZXMpOgogICAgICAgICMgR19sb3NzX2NvbGxlY3Rpb24gPSB7fQogICAgICAgICMgRF9sb3NzX2NvbGxlY3Rpb24gPSB7fQogICAgICAgICMgZm9yIG5hbWUsIHZhbHVlIGluIGxvc3Nlcy5pdGVtcygpOgogICAgICAgICMgICAgIGlmICdHJyBpbiBuYW1lIG9yICdOQ0UnIGluIG5hbWUgb3IgJ2lkdCcgaW4gbmFtZToKICAgICAgICAjICAgICAgICAgR19sb3NzX2NvbGxlY3Rpb25bbmFtZV0gPSB2YWx1ZQogICAgICAgICMgICAgIGVsc2U6CiAgICAgICAgIyAgICAgICAgIERfbG9zc19jb2xsZWN0aW9uW25hbWVdID0gdmFsdWUKICAgICAgICAjIHNlbGYud3JpdGVyLmFkZF9zY2FsYXJzKCdHX2NvbGxlYycsIEdfbG9zc19jb2xsZWN0aW9uLCB0b3RhbF9pdGVycykKICAgICAgICAjIHNlbGYud3JpdGVyLmFkZF9zY2FsYXJzKCdEX2NvbGxlYycsIERfbG9zc19jb2xsZWN0aW9uLCB0b3RhbF9pdGVycykKICAgICAgICBmb3IgbmFtZSwgdmFsdWUgaW4gbG9zc2VzLml0ZW1zKCk6CiAgICAgICAgICAgIHNlbGYud3JpdGVyLmFkZF9zY2FsYXIobmFtZSwgdmFsdWUsIHRvdGFsX2l0ZXJzKQoKICAgICMgbG9zc2VzOiBzYW1lIGZvcm1hdCBhcyB8bG9zc2VzfCBvZiBwbG90X2N1cnJlbnRfbG9zc2VzCiAgICBkZWYgcHJpbnRfY3VycmVudF9sb3NzZXMoc2VsZiwgZXBvY2gsIGl0ZXJzLCBsb3NzZXMsIHRfY29tcCwgdF9kYXRhKToKICAgICAgICAiIiJwcmludCBjdXJyZW50IGxvc3NlcyBvbiBjb25zb2xlOyBhbHNvIHNhdmUgdGhlIGxvc3NlcyB0byB0aGUgZGlzawoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBlcG9jaCAoaW50KSAtLSBjdXJyZW50IGVwb2NoCiAgICAgICAgICAgIGl0ZXJzIChpbnQpIC0tIGN1cnJlbnQgdHJhaW5pbmcgaXRlcmF0aW9uIGR1cmluZyB0aGlzIGVwb2NoIChyZXNldCB0byAwIGF0IHRoZSBlbmQgb2YgZXZlcnkgZXBvY2gpCiAgICAgICAgICAgIGxvc3NlcyAoT3JkZXJlZERpY3QpIC0tIHRyYWluaW5nIGxvc3NlcyBzdG9yZWQgaW4gdGhlIGZvcm1hdCBvZiAobmFtZSwgZmxvYXQpIHBhaXJzCiAgICAgICAgICAgIHRfY29tcCAoZmxvYXQpIC0tIGNvbXB1dGF0aW9uYWwgdGltZSBwZXIgZGF0YSBwb2ludCAobm9ybWFsaXplZCBieSBiYXRjaF9zaXplKQogICAgICAgICAgICB0X2RhdGEgKGZsb2F0KSAtLSBkYXRhIGxvYWRpbmcgdGltZSBwZXIgZGF0YSBwb2ludCAobm9ybWFsaXplZCBieSBiYXRjaF9zaXplKQogICAgICAgICIiIgogICAgICAgIG1lc3NhZ2UgPSAnKGVwb2NoOiAlZCwgaXRlcnM6ICVkLCB0aW1lOiAlLjNmLCBkYXRhOiAlLjNmKSAnICUgKGVwb2NoLCBpdGVycywgdF9jb21wLCB0X2RhdGEpCiAgICAgICAgZm9yIGssIHYgaW4gbG9zc2VzLml0ZW1zKCk6CiAgICAgICAgICAgIG1lc3NhZ2UgKz0gJyVzOiAlLjNmICcgJSAoaywgdikKCiAgICAgICAgcHJpbnQobWVzc2FnZSkgICMgcHJpbnQgdGhlIG1lc3NhZ2UKICAgICAgICB3aXRoIG9wZW4oc2VsZi5sb2dfbmFtZSwgImEiKSBhcyBsb2dfZmlsZToKICAgICAgICAgICAgbG9nX2ZpbGUud3JpdGUoJyVzXG4nICUgbWVzc2FnZSkgICMgc2F2ZSB0aGUgbWVzc2FnZQoKCmNsYXNzIE15VmlzdWFsaXplcjoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBvcHQpOgogICAgICAgICIiIkluaXRpYWxpemUgdGhlIFZpc3VhbGl6ZXIgY2xhc3MKCiAgICAgICAgUGFyYW1ldGVyczoKICAgICAgICAgICAgb3B0IC0tIHN0b3JlcyBhbGwgdGhlIGV4cGVyaW1lbnQgZmxhZ3M7IG5lZWRzIHRvIGJlIGEgc3ViY2xhc3Mgb2YgQmFzZU9wdGlvbnMKICAgICAgICBTdGVwIDE6IENhY2hlIHRoZSB0cmFpbmluZy90ZXN0IG9wdGlvbnMKICAgICAgICBTdGVwIDI6IGNyZWF0ZSBhIHRlbnNvcmJvYXJkIHdyaXRlcgogICAgICAgIFN0ZXAgMzogY3JlYXRlIGFuIEhUTUwgb2JqZWN0IGZvciBzYXZlaW5nIEhUTUwgZmlsdGVycwogICAgICAgIFN0ZXAgNDogY3JlYXRlIGEgbG9nZ2luZyBmaWxlIHRvIHN0b3JlIHRyYWluaW5nIGxvc3NlcwogICAgICAgICIiIgogICAgICAgIHNlbGYub3B0ID0gb3B0ICAjIGNhY2hlIHRoZSBvcHRpbwogICAgICAgIHNlbGYubmFtZSA9IG9wdC5uYW1lCiAgICAgICAgc2VsZi5pbWdfZGlyID0gb3MucGF0aC5qb2luKG9wdC5jaGVja3BvaW50c19kaXIsIG9wdC5uYW1lLCAncmVzdWx0cycpCiAgICAgICAgCiAgICAgICAgaWYgb3B0LnBoYXNlICE9ICd0ZXN0JzoKICAgICAgICAgICAgc2VsZi53cml0ZXIgPSBTdW1tYXJ5V3JpdGVyKG9zLnBhdGguam9pbihvcHQuY2hlY2twb2ludHNfZGlyLCBvcHQubmFtZSwgJ2xvZ3MnKSkKICAgICAgICAgICAgIyBjcmVhdGUgYSBsb2dnaW5nIGZpbGUgdG8gc3RvcmUgdHJhaW5pbmcgbG9zc2VzCiAgICAgICAgICAgIHNlbGYubG9nX25hbWUgPSBvcy5wYXRoLmpvaW4ob3B0LmNoZWNrcG9pbnRzX2Rpciwgb3B0Lm5hbWUsICdsb3NzX2xvZy50eHQnKQogICAgICAgICAgICB3aXRoIG9wZW4oc2VsZi5sb2dfbmFtZSwgImEiKSBhcyBsb2dfZmlsZToKICAgICAgICAgICAgICAgIG5vdyA9IHRpbWUuc3RyZnRpbWUoIiVjIikKICAgICAgICAgICAgICAgIGxvZ19maWxlLndyaXRlKCc9PT09PT09PT09PT09PT09IFRyYWluaW5nIExvc3MgKCVzKSA9PT09PT09PT09PT09PT09XG4nICUgbm93KQoKCiAgICBkZWYgZGlzcGxheV9jdXJyZW50X3Jlc3VsdHMoc2VsZiwgdmlzdWFscywgdG90YWxfaXRlcnMsIGVwb2NoLCBkYXRhc2V0PSd0cmFpbicsIHNhdmVfcmVzdWx0cz1GYWxzZSwgY291bnQ9MCwgbmFtZT1Ob25lLAogICAgICAgICAgICBhZGRfaW1hZ2U9VHJ1ZSk6CiAgICAgICAgIiIiRGlzcGxheSBjdXJyZW50IHJlc3VsdHMgb24gdGVuc29yYm9hZDsgc2F2ZSBjdXJyZW50IHJlc3VsdHMgdG8gYW4gSFRNTCBmaWxlLgoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICB2aXN1YWxzIChPcmRlcmVkRGljdCkgLSAtIGRpY3Rpb25hcnkgb2YgaW1hZ2VzIHRvIGRpc3BsYXkgb3Igc2F2ZQogICAgICAgICAgICB0b3RhbF9pdGVycyAoaW50KSAtLSB0b3RhbCBpdGVyYXRpb25zCiAgICAgICAgICAgIGVwb2NoIChpbnQpIC0gLSB0aGUgY3VycmVudCBlcG9jaAogICAgICAgICAgICBkYXRhc2V0IChzdHIpIC0gLSAndHJhaW4nIG9yICd2YWwnIG9yICd0ZXN0JwogICAgICAgICIiIgogICAgICAgICMgaWYgKG5vdCBhZGRfaW1hZ2UpIGFuZCAobm90IHNhdmVfcmVzdWx0cyk6IHJldHVybgogICAgICAgIAogICAgICAgIGZvciBsYWJlbCwgaW1hZ2UgaW4gdmlzdWFscy5pdGVtcygpOgogICAgICAgICAgICBmb3IgaSBpbiByYW5nZShpbWFnZS5zaGFwZVswXSk6CiAgICAgICAgICAgICAgICBpbWFnZV9udW1weSA9IHV0aWwudGVuc29yMmltKGltYWdlW2ldKQogICAgICAgICAgICAgICAgaWYgYWRkX2ltYWdlOgogICAgICAgICAgICAgICAgICAgIHNlbGYud3JpdGVyLmFkZF9pbWFnZShsYWJlbCArICclc18lMDJkJyUoZGF0YXNldCwgaSArIGNvdW50KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlX251bXB5LCB0b3RhbF9pdGVycywgZGF0YWZvcm1hdHM9J0hXQycpCgogICAgICAgICAgICAgICAgaWYgc2F2ZV9yZXN1bHRzOgogICAgICAgICAgICAgICAgICAgIHNhdmVfcGF0aCA9IG9zLnBhdGguam9pbihzZWxmLmltZ19kaXIsIGRhdGFzZXQsICdlcG9jaF8lc18lMDZkJyUoZXBvY2gsIHRvdGFsX2l0ZXJzKSkKICAgICAgICAgICAgICAgICAgICBpZiBub3Qgb3MucGF0aC5pc2RpcihzYXZlX3BhdGgpOgogICAgICAgICAgICAgICAgICAgICAgICBvcy5tYWtlZGlycyhzYXZlX3BhdGgpCgogICAgICAgICAgICAgICAgICAgIGlmIG5hbWUgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICAgICAgICAgIGltZ19wYXRoID0gb3MucGF0aC5qb2luKHNhdmVfcGF0aCwgJyVzLnBuZycgJSBuYW1lKQogICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgIGltZ19wYXRoID0gb3MucGF0aC5qb2luKHNhdmVfcGF0aCwgJyVzXyUwM2QucG5nJyAlIChsYWJlbCwgaSArIGNvdW50KSkKICAgICAgICAgICAgICAgICAgICB1dGlsLnNhdmVfaW1hZ2UoaW1hZ2VfbnVtcHksIGltZ19wYXRoKQoKCiAgICBkZWYgcGxvdF9jdXJyZW50X2xvc3NlcyhzZWxmLCB0b3RhbF9pdGVycywgbG9zc2VzLCBkYXRhc2V0PSd0cmFpbicpOgogICAgICAgIGZvciBuYW1lLCB2YWx1ZSBpbiBsb3NzZXMuaXRlbXMoKToKICAgICAgICAgICAgc2VsZi53cml0ZXIuYWRkX3NjYWxhcihuYW1lICsgJy8lcyclZGF0YXNldCwgdmFsdWUsIHRvdGFsX2l0ZXJzKQoKICAgICMgbG9zc2VzOiBzYW1lIGZvcm1hdCBhcyB8bG9zc2VzfCBvZiBwbG90X2N1cnJlbnRfbG9zc2VzCiAgICBkZWYgcHJpbnRfY3VycmVudF9sb3NzZXMoc2VsZiwgZXBvY2gsIGl0ZXJzLCBsb3NzZXMsIHRfY29tcCwgdF9kYXRhLCBkYXRhc2V0PSd0cmFpbicpOgogICAgICAgICIiInByaW50IGN1cnJlbnQgbG9zc2VzIG9uIGNvbnNvbGU7IGFsc28gc2F2ZSB0aGUgbG9zc2VzIHRvIHRoZSBkaXNrCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIGVwb2NoIChpbnQpIC0tIGN1cnJlbnQgZXBvY2gKICAgICAgICAgICAgaXRlcnMgKGludCkgLS0gY3VycmVudCB0cmFpbmluZyBpdGVyYXRpb24gZHVyaW5nIHRoaXMgZXBvY2ggKHJlc2V0IHRvIDAgYXQgdGhlIGVuZCBvZiBldmVyeSBlcG9jaCkKICAgICAgICAgICAgbG9zc2VzIChPcmRlcmVkRGljdCkgLS0gdHJhaW5pbmcgbG9zc2VzIHN0b3JlZCBpbiB0aGUgZm9ybWF0IG9mIChuYW1lLCBmbG9hdCkgcGFpcnMKICAgICAgICAgICAgdF9jb21wIChmbG9hdCkgLS0gY29tcHV0YXRpb25hbCB0aW1lIHBlciBkYXRhIHBvaW50IChub3JtYWxpemVkIGJ5IGJhdGNoX3NpemUpCiAgICAgICAgICAgIHRfZGF0YSAoZmxvYXQpIC0tIGRhdGEgbG9hZGluZyB0aW1lIHBlciBkYXRhIHBvaW50IChub3JtYWxpemVkIGJ5IGJhdGNoX3NpemUpCiAgICAgICAgIiIiCiAgICAgICAgbWVzc2FnZSA9ICcoZGF0YXNldDogJXMsIGVwb2NoOiAlZCwgaXRlcnM6ICVkLCB0aW1lOiAlLjNmLCBkYXRhOiAlLjNmKSAnICUgKAogICAgICAgICAgICBkYXRhc2V0LCBlcG9jaCwgaXRlcnMsIHRfY29tcCwgdF9kYXRhKQogICAgICAgIGZvciBrLCB2IGluIGxvc3Nlcy5pdGVtcygpOgogICAgICAgICAgICBtZXNzYWdlICs9ICclczogJS4zZiAnICUgKGssIHYpCgogICAgICAgIHByaW50KG1lc3NhZ2UpICAjIHByaW50IHRoZSBtZXNzYWdlCiAgICAgICAgd2l0aCBvcGVuKHNlbGYubG9nX25hbWUsICJhIikgYXMgbG9nX2ZpbGU6CiAgICAgICAgICAgIGxvZ19maWxlLndyaXRlKCclc1xuJyAlIG1lc3NhZ2UpICAjIHNhdmUgdGhlIG1lc3NhZ2UK
+"""This script defines the visualizer for Deep3DFaceRecon_pytorch
+"""
+
+import numpy as np
+import os
+import sys
+import ntpath
+import time
+from . import util, html
+from subprocess import Popen, PIPE
+from torch.utils.tensorboard import SummaryWriter
+
+def save_images(webpage, visuals, image_path, aspect_ratio=1.0, width=256):
+    """Save images to the disk.
+
+    Parameters:
+        webpage (the HTML class) -- the HTML webpage class that stores these imaegs (see html.py for more details)
+        visuals (OrderedDict)    -- an ordered dictionary that stores (name, images (either tensor or numpy) ) pairs
+        image_path (str)         -- the string is used to create image paths
+        aspect_ratio (float)     -- the aspect ratio of saved images
+        width (int)              -- the images will be resized to width x width
+
+    This function will save images stored in 'visuals' to the HTML file specified by 'webpage'.
+    """
+    image_dir = webpage.get_image_dir()
+    short_path = ntpath.basename(image_path[0])
+    name = os.path.splitext(short_path)[0]
+
+    webpage.add_header(name)
+    ims, txts, links = [], [], []
+
+    for label, im_data in visuals.items():
+        im = util.tensor2im(im_data)
+        image_name = '%s/%s.png' % (label, name)
+        os.makedirs(os.path.join(image_dir, label), exist_ok=True)
+        save_path = os.path.join(image_dir, image_name)
+        util.save_image(im, save_path, aspect_ratio=aspect_ratio)
+        ims.append(image_name)
+        txts.append(label)
+        links.append(image_name)
+    webpage.add_images(ims, txts, links, width=width)
+
+
+class Visualizer():
+    """This class includes several functions that can display/save images and print/save logging information.
+
+    It uses a Python library tensprboardX for display, and a Python library 'dominate' (wrapped in 'HTML') for creating HTML files with images.
+    """
+
+    def __init__(self, opt):
+        """Initialize the Visualizer class
+
+        Parameters:
+            opt -- stores all the experiment flags; needs to be a subclass of BaseOptions
+        Step 1: Cache the training/test options
+        Step 2: create a tensorboard writer
+        Step 3: create an HTML object for saveing HTML filters
+        Step 4: create a logging file to store training losses
+        """
+        self.opt = opt  # cache the option
+        self.use_html = opt.isTrain and not opt.no_html
+        self.writer = SummaryWriter(os.path.join(opt.checkpoints_dir, 'logs', opt.name))
+        self.win_size = opt.display_winsize
+        self.name = opt.name
+        self.saved = False
+        if self.use_html:  # create an HTML object at <checkpoints_dir>/web/; images will be saved under <checkpoints_dir>/web/images/
+            self.web_dir = os.path.join(opt.checkpoints_dir, opt.name, 'web')
+            self.img_dir = os.path.join(self.web_dir, 'images')
+            print('create web directory %s...' % self.web_dir)
+            util.mkdirs([self.web_dir, self.img_dir])
+        # create a logging file to store training losses
+        self.log_name = os.path.join(opt.checkpoints_dir, opt.name, 'loss_log.txt')
+        with open(self.log_name, "a") as log_file:
+            now = time.strftime("%c")
+            log_file.write('================ Training Loss (%s) ================\n' % now)
+
+    def reset(self):
+        """Reset the self.saved status"""
+        self.saved = False
+
+
+    def display_current_results(self, visuals, total_iters, epoch, save_result):
+        """Display current results on tensorboad; save current results to an HTML file.
+
+        Parameters:
+            visuals (OrderedDict) - - dictionary of images to display or save
+            total_iters (int) -- total iterations
+            epoch (int) - - the current epoch
+            save_result (bool) - - if save the current results to an HTML file
+        """
+        for label, image in visuals.items():
+            self.writer.add_image(label, util.tensor2im(image), total_iters, dataformats='HWC')
+
+        if self.use_html and (save_result or not self.saved):  # save images to an HTML file if they haven't been saved.
+            self.saved = True
+            # save images to the disk
+            for label, image in visuals.items():
+                image_numpy = util.tensor2im(image)
+                img_path = os.path.join(self.img_dir, 'epoch%.3d_%s.png' % (epoch, label))
+                util.save_image(image_numpy, img_path)
+
+            # update website
+            webpage = html.HTML(self.web_dir, 'Experiment name = %s' % self.name, refresh=0)
+            for n in range(epoch, 0, -1):
+                webpage.add_header('epoch [%d]' % n)
+                ims, txts, links = [], [], []
+
+                for label, image_numpy in visuals.items():
+                    image_numpy = util.tensor2im(image)
+                    img_path = 'epoch%.3d_%s.png' % (n, label)
+                    ims.append(img_path)
+                    txts.append(label)
+                    links.append(img_path)
+                webpage.add_images(ims, txts, links, width=self.win_size)
+            webpage.save()
+
+    def plot_current_losses(self, total_iters, losses):
+        # G_loss_collection = {}
+        # D_loss_collection = {}
+        # for name, value in losses.items():
+        #     if 'G' in name or 'NCE' in name or 'idt' in name:
+        #         G_loss_collection[name] = value
+        #     else:
+        #         D_loss_collection[name] = value
+        # self.writer.add_scalars('G_collec', G_loss_collection, total_iters)
+        # self.writer.add_scalars('D_collec', D_loss_collection, total_iters)
+        for name, value in losses.items():
+            self.writer.add_scalar(name, value, total_iters)
+
+    # losses: same format as |losses| of plot_current_losses
+    def print_current_losses(self, epoch, iters, losses, t_comp, t_data):
+        """print current losses on console; also save the losses to the disk
+
+        Parameters:
+            epoch (int) -- current epoch
+            iters (int) -- current training iteration during this epoch (reset to 0 at the end of every epoch)
+            losses (OrderedDict) -- training losses stored in the format of (name, float) pairs
+            t_comp (float) -- computational time per data point (normalized by batch_size)
+            t_data (float) -- data loading time per data point (normalized by batch_size)
+        """
+        message = '(epoch: %d, iters: %d, time: %.3f, data: %.3f) ' % (epoch, iters, t_comp, t_data)
+        for k, v in losses.items():
+            message += '%s: %.3f ' % (k, v)
+
+        print(message)  # print the message
+        with open(self.log_name, "a") as log_file:
+            log_file.write('%s\n' % message)  # save the message
+
+
+class MyVisualizer:
+    def __init__(self, opt):
+        """Initialize the Visualizer class
+
+        Parameters:
+            opt -- stores all the experiment flags; needs to be a subclass of BaseOptions
+        Step 1: Cache the training/test options
+        Step 2: create a tensorboard writer
+        Step 3: create an HTML object for saveing HTML filters
+        Step 4: create a logging file to store training losses
+        """
+        self.opt = opt  # cache the optio
+        self.name = opt.name
+        self.img_dir = os.path.join(opt.checkpoints_dir, opt.name, 'results')
+        
+        if opt.phase != 'test':
+            self.writer = SummaryWriter(os.path.join(opt.checkpoints_dir, opt.name, 'logs'))
+            # create a logging file to store training losses
+            self.log_name = os.path.join(opt.checkpoints_dir, opt.name, 'loss_log.txt')
+            with open(self.log_name, "a") as log_file:
+                now = time.strftime("%c")
+                log_file.write('================ Training Loss (%s) ================\n' % now)
+
+
+    def display_current_results(self, visuals, total_iters, epoch, dataset='train', save_results=False, count=0, name=None,
+            add_image=True):
+        """Display current results on tensorboad; save current results to an HTML file.
+
+        Parameters:
+            visuals (OrderedDict) - - dictionary of images to display or save
+            total_iters (int) -- total iterations
+            epoch (int) - - the current epoch
+            dataset (str) - - 'train' or 'val' or 'test'
+        """
+        # if (not add_image) and (not save_results): return
+        
+        for label, image in visuals.items():
+            for i in range(image.shape[0]):
+                image_numpy = util.tensor2im(image[i])
+                if add_image:
+                    self.writer.add_image(label + '%s_%02d'%(dataset, i + count),
+                            image_numpy, total_iters, dataformats='HWC')
+
+                if save_results:
+                    save_path = os.path.join(self.img_dir, dataset, 'epoch_%s_%06d'%(epoch, total_iters))
+                    if not os.path.isdir(save_path):
+                        os.makedirs(save_path)
+
+                    if name is not None:
+                        img_path = os.path.join(save_path, '%s.png' % name)
+                    else:
+                        img_path = os.path.join(save_path, '%s_%03d.png' % (label, i + count))
+                    util.save_image(image_numpy, img_path)
+
+
+    def plot_current_losses(self, total_iters, losses, dataset='train'):
+        for name, value in losses.items():
+            self.writer.add_scalar(name + '/%s'%dataset, value, total_iters)
+
+    # losses: same format as |losses| of plot_current_losses
+    def print_current_losses(self, epoch, iters, losses, t_comp, t_data, dataset='train'):
+        """print current losses on console; also save the losses to the disk
+
+        Parameters:
+            epoch (int) -- current epoch
+            iters (int) -- current training iteration during this epoch (reset to 0 at the end of every epoch)
+            losses (OrderedDict) -- training losses stored in the format of (name, float) pairs
+            t_comp (float) -- computational time per data point (normalized by batch_size)
+            t_data (float) -- data loading time per data point (normalized by batch_size)
+        """
+        message = '(dataset: %s, epoch: %d, iters: %d, time: %.3f, data: %.3f) ' % (
+            dataset, epoch, iters, t_comp, t_data)
+        for k, v in losses.items():
+            message += '%s: %.3f ' % (k, v)
+
+        print(message)  # print the message
+        with open(self.log_name, "a") as log_file:
+            log_file.write('%s\n' % message)  # save the message

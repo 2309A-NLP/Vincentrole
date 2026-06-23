@@ -1,1 +1,154 @@
-IyBMaW5seS1UYWxrZXIgQVBJIOaOpeWPo+aWh+ahowoKIyMgMC4g5a6J6KOF5L6d6LWWCgrpppblhYjvvIzlronoo4XmiYDpnIDnmoTkvp3otZblupPvvJoKCmBgYGJhc2gKcGlwIGluc3RhbGwgLXIgYXBpL3JlcXVpcmVtZW50cy50eHQKYGBgCgotLS0KCiMjIDEuIOaWh+Wtl+i9rOivremfsyAoVFRTKSBBUEkKCiMjIyDlkK/liqjlkb3ku6QKCuimgeWQr+WKqCBUVFMgQVBJIOacjeWKoe+8jOacieS4pOenjeaWueW8j++8mgoKMS4g5L2/55SoIGBmYXN0YXBpYCDlkb3ku6TvvJoKCiAgICBgYGBiYXNoCiAgICBmYXN0YXBpIGRldiBhcGkvdHRzX2FwaS5weSAtLWhvc3QgMC4wLjAuMCAtLXBvcnQgODAwMQogICAgYGBgCgoyLiDnm7TmjqXov5DooYwgUHl0aG9uIOiEmuacrO+8mgoKICAgIGBgYGJhc2gKICAgIHB5dGhvbiBhcGkvdHRzX2FwaS5weQogICAgYGBgCgrlkK/liqjmnI3liqHlkI7vvIzov5DooYzlrqLmiLfnq6/ohJrmnKzmnaXmtYvor5UgQVBJ77yaCgpgYGBiYXNoCnB5dGhvbiBhcGkvdHRzX2NsaWVudC5weQpgYGAKCueUn+aIkOeahCBXYXYg6Z+z6aKR5paH5Lu25Lya5L+d5a2Y5ZyoIGBvdXRwdXRgIOaWh+S7tuWkueS4i+OAggoKIyMjIEFQSSDnq6/ngrkKCi0gKirln7rnoYAgVVJMKio6IGBodHRwOi8vbG9jYWxob3N0OjgwMDFgCi0gKipBUEkg5paH5qGjKio6IFtodHRwOi8vbG9jYWxob3N0OjgwMDEvZG9jc10oaHR0cDovL2xvY2FsaG9zdDo4MDAxL2RvY3MpCi0gKirmm7TmjaLmqKHlnosqKjogW2h0dHA6Ly9sb2NhbGhvc3Q6ODAwMS9jaGFuZ2VfbW9kZWxdKGh0dHA6Ly9sb2NhbGhvc3Q6ODAwMS9jaGFuZ2VfbW9kZWwpCi0gKirmqKHlnovpooTmtYsqKjogW2h0dHA6Ly9sb2NhbGhvc3Q6ODAwMS90dHNfcmVzcG9uc2VdKGh0dHA6Ly9sb2NhbGhvc3Q6ODAwMS90dHNfcmVzcG9uc2UpCgojIyMgQVBJIOerr+eCueivtOaYjgoKLSAqKuabtOaNouaooeWeiyoqOiDnlKjkuo7liIfmjaLlvZPliY0gVFRTIOaooeWei+OAggotICoq5qih5Z6L6aKE5rWLKio6IOeUqOS6juivt+axgiBUVFMg55Sf5oiQ6Z+z6aKR44CCCgotLS0KCiMjIDIuIOWkp+ivreiogOaooeWeiyAoTExNKSBBUEkKCiMjIyDlkK/liqjlkb3ku6QKCuimgeWQr+WKqCBMTE0gQVBJIOacjeWKoe+8jOacieS4pOenjeaWueW8j++8mgoKMS4g5L2/55SoIGBmYXN0YXBpYCDlkb3ku6TvvJoKCiAgICBgYGBiYXNoCiAgICBmYXN0YXBpIGRldiBhcGkvbGxtX2FwaS5weSAtLWhvc3QgMC4wLjAuMCAtLXBvcnQgODAwMgogICAgYGBgCgoyLiDnm7TmjqXov5DooYwgUHl0aG9uIOiEmuacrO+8mgoKICAgIGBgYGJhc2gKICAgIHB5dGhvbiBhcGkvbGxtX2FwaS5weQogICAgYGBgCgrlkK/liqjmnI3liqHlkI7vvIzov5DooYzlrqLmiLfnq6/ohJrmnKzmnaXmtYvor5UgQVBJ77yaCgpgYGBiYXNoCnB5dGhvbiBhcGkvbGxtX2NsaWVudC5weQpgYGAKCiMjIyBBUEkg56uv54K5CgotICoq5Z+656GAIFVSTCoqOiBgaHR0cDovL2xvY2FsaG9zdDo4MDAyYAotICoqQVBJIOaWh+ahoyoqOiBbaHR0cDovL2xvY2FsaG9zdDo4MDAyL2RvY3NdKGh0dHA6Ly9sb2NhbGhvc3Q6ODAwMi9kb2NzKQotICoq5pu05o2i5qih5Z6LKio6IFtodHRwOi8vbG9jYWxob3N0OjgwMDIvY2hhbmdlX21vZGVsXShodHRwOi8vbG9jYWxob3N0OjgwMDIvY2hhbmdlX21vZGVsKQotICoq5qih5Z6L6aKE5rWLKio6IFtodHRwOi8vbG9jYWxob3N0OjgwMDIvbGxtX3Jlc3BvbnNlXShodHRwOi8vbG9jYWxob3N0OjgwMDIvbGxtX3Jlc3BvbnNlKQoKIyMjIEFQSSDnq6/ngrnor7TmmI4KCi0gKirmm7TmjaLmqKHlnosqKjog55So5LqO5YiH5o2i5b2T5YmNIExMTSDmqKHlnovjgIIKLSAqKuaooeWei+mihOa1iyoqOiDnlKjkuo7or7fmsYIgTExNIOeUn+aIkOaWh+acrOOAggoKLS0tCgojIyAzLiDlr7nor53nlJ/miJAgKFRhbGtlcikgQVBJCgojIyMg5ZCv5Yqo5ZG95LukCgropoHlkK/liqggVGFsa2VyIEFQSSDmnI3liqHvvIzmnInkuKTnp43mlrnlvI/vvJoKCjEuIOS9v+eUqCBgZmFzdGFwaWAg5ZG95Luk77yaCgogICAgYGBgYmFzaAogICAgZmFzdGFwaSBkZXYgYXBpL3RhbGtlcl9hcGkucHkgLS1ob3N0IDAuMC4wLjAgLS1wb3J0IDgwMDMKICAgIGBgYAoKMi4g55u05o6l6L+Q6KGMIFB5dGhvbiDohJrmnKzvvJoKCiAgICBgYGBiYXNoCiAgICBweXRob24gYXBpL3RhbGtlcl9hcGkucHkKICAgIGBgYAoK5ZCv5Yqo5pyN5Yqh5ZCO77yM6L+Q6KGM5a6i5oi356uv6ISa5pys5p2l5rWL6K+VIEFQSe+8mgoKYGBgYmFzaApweXRob24gYXBpL3RhbGtlcl9jbGllbnQucHkKYGBgCgrnlJ/miJDnmoQgbXA0IOmfs+mikeaWh+S7tuS8muS/neWtmOWcqCBgb3V0cHV0YCDmlofku7blpLnkuIvjgIIKCiMjIyBBUEkg56uv54K5CgotICoq5Z+656GAIFVSTCoqOiBgaHR0cDovL2xvY2FsaG9zdDo4MDAzYAotICoqQVBJIOaWh+ahoyoqOiBbaHR0cDovL2xvY2FsaG9zdDo4MDAzL2RvY3NdKGh0dHA6Ly9sb2NhbGhvc3Q6ODAwMy9kb2NzKQotICoq5pu05o2i5qih5Z6LKio6IFtodHRwOi8vbG9jYWxob3N0OjgwMDMvY2hhbmdlX21vZGVsXShodHRwOi8vbG9jYWxob3N0OjgwMDMvY2hhbmdlX21vZGVsKQotICoq5qih5Z6L6aKE5rWLKio6IFtodHRwOi8vbG9jYWxob3N0OjgwMDMvdGFsa2VyX3Jlc3BvbnNlXShodHRwOi8vbG9jYWxob3N0OjgwMDMvdGFsa2VyX3Jlc3BvbnNlKQoKIyMjIEFQSSDnq6/ngrnor7TmmI4KCi0gKirmm7TmjaLmqKHlnosqKjog55So5LqO5YiH5o2i5b2T5YmNIFRhbGtlciDmqKHlnovjgIIKLSAqKuaooeWei+mihOa1iyoqOiDnlKjkuo7or7fmsYIgVGFsa2VyIOeUn+aIkOWvueivneOAggoKLS0tCgojIyDluLjop4Hpl67popgKCiMjIyDlpoLkvZXmtYvor5UgQVBJ77yfCgrlj6/ku6XpgJrov4fov5DooYzmj5DkvpvnmoTlrqLmiLfnq6/ohJrmnKzvvIhgdHRzX2NsaWVudC5weWAsIGBsbG1fY2xpZW50LnB5YCwgYHRhbGtlcl9jbGllbnQucHlg77yJ5p2l5rWL6K+V5ZCE5LiqIEFQSeOAguehruS/neebuOW6lOeahCBBUEkg5pyN5Yqh5bey57uP5Zyo5oyH5a6a55qE56uv5Y+j5LiK6L+Q6KGM44CCCgojIyMg5aaC5L2V5aSE55CGIEFQSSDplJnor6/vvJ8KCuivt+ajgOafpSBBUEkg5pyN5Yqh55qE5pel5b+X5Lul6I635Y+W6K+m57uG55qE6ZSZ6K+v5L+h5oGv44CC5aaC5p6c5Ye6546w6Zeu6aKY77yM56Gu5L+d6K+35rGC5qC85byP5ZKM5YaF5a6556ym5ZCIIEFQSSDmlofmoaPkuK3nmoTop4TojIPjgIIKCiMjIyBBUEkg5piv5ZCm6ZyA6KaB6K6k6K+B77yfCgrlvZPliY3npLrkvosgQVBJIOaWh+aho+S4reacquaPkOWPiuiupOivgeOAguWmguaenOacieiupOivgemcgOaxgu+8jOivt+agueaNruWunumZheaDheWGtea3u+WKoOebuOW6lOeahOiupOivgeacuuWItu+8jOW5tuabtOaWsOaWh+aho+ivtOaYjuOAggoKIyMjIOWmguS9leafpeeciyBBUEkg5paH5qGj77yfCgrlkK/liqggQVBJIOacjeWKoeWQju+8jOWPr+S7peWcqOS7peS4iyBVUkwg5Lit5p+l55yLIEFQSSDmlofmoaPvvJoKCi0gVFRTIEFQSTogW2h0dHA6Ly9sb2NhbGhvc3Q6ODAwMS9kb2NzXShodHRwOi8vbG9jYWxob3N0OjgwMDEvZG9jcykKLSBMTE0gQVBJOiBbaHR0cDovL2xvY2FsaG9zdDo4MDAyL2RvY3NdKGh0dHA6Ly9sb2NhbGhvc3Q6ODAwMi9kb2NzKQotIFRhbGtlciBBUEk6IFtodHRwOi8vbG9jYWxob3N0OjgwMDMvZG9jc10oaHR0cDovL2xvY2FsaG9zdDo4MDAzL2RvY3MpCgotLS0KCg==
+# Linly-Talker API 接口文档
+
+## 0. 安装依赖
+
+首先，安装所需的依赖库：
+
+```bash
+pip install -r api/requirements.txt
+```
+
+---
+
+## 1. 文字转语音 (TTS) API
+
+### 启动命令
+
+要启动 TTS API 服务，有两种方式：
+
+1. 使用 `fastapi` 命令：
+
+    ```bash
+    fastapi dev api/tts_api.py --host 0.0.0.0 --port 8001
+    ```
+
+2. 直接运行 Python 脚本：
+
+    ```bash
+    python api/tts_api.py
+    ```
+
+启动服务后，运行客户端脚本来测试 API：
+
+```bash
+python api/tts_client.py
+```
+
+生成的 Wav 音频文件会保存在 `output` 文件夹下。
+
+### API 端点
+
+- **基础 URL**: `http://localhost:8001`
+- **API 文档**: [http://localhost:8001/docs](http://localhost:8001/docs)
+- **更换模型**: [http://localhost:8001/change_model](http://localhost:8001/change_model)
+- **模型预测**: [http://localhost:8001/tts_response](http://localhost:8001/tts_response)
+
+### API 端点说明
+
+- **更换模型**: 用于切换当前 TTS 模型。
+- **模型预测**: 用于请求 TTS 生成音频。
+
+---
+
+## 2. 大语言模型 (LLM) API
+
+### 启动命令
+
+要启动 LLM API 服务，有两种方式：
+
+1. 使用 `fastapi` 命令：
+
+    ```bash
+    fastapi dev api/llm_api.py --host 0.0.0.0 --port 8002
+    ```
+
+2. 直接运行 Python 脚本：
+
+    ```bash
+    python api/llm_api.py
+    ```
+
+启动服务后，运行客户端脚本来测试 API：
+
+```bash
+python api/llm_client.py
+```
+
+### API 端点
+
+- **基础 URL**: `http://localhost:8002`
+- **API 文档**: [http://localhost:8002/docs](http://localhost:8002/docs)
+- **更换模型**: [http://localhost:8002/change_model](http://localhost:8002/change_model)
+- **模型预测**: [http://localhost:8002/llm_response](http://localhost:8002/llm_response)
+
+### API 端点说明
+
+- **更换模型**: 用于切换当前 LLM 模型。
+- **模型预测**: 用于请求 LLM 生成文本。
+
+---
+
+## 3. 对话生成 (Talker) API
+
+### 启动命令
+
+要启动 Talker API 服务，有两种方式：
+
+1. 使用 `fastapi` 命令：
+
+    ```bash
+    fastapi dev api/talker_api.py --host 0.0.0.0 --port 8003
+    ```
+
+2. 直接运行 Python 脚本：
+
+    ```bash
+    python api/talker_api.py
+    ```
+
+启动服务后，运行客户端脚本来测试 API：
+
+```bash
+python api/talker_client.py
+```
+
+生成的 mp4 音频文件会保存在 `output` 文件夹下。
+
+### API 端点
+
+- **基础 URL**: `http://localhost:8003`
+- **API 文档**: [http://localhost:8003/docs](http://localhost:8003/docs)
+- **更换模型**: [http://localhost:8003/change_model](http://localhost:8003/change_model)
+- **模型预测**: [http://localhost:8003/talker_response](http://localhost:8003/talker_response)
+
+### API 端点说明
+
+- **更换模型**: 用于切换当前 Talker 模型。
+- **模型预测**: 用于请求 Talker 生成对话。
+
+---
+
+## 常见问题
+
+### 如何测试 API？
+
+可以通过运行提供的客户端脚本（`tts_client.py`, `llm_client.py`, `talker_client.py`）来测试各个 API。确保相应的 API 服务已经在指定的端口上运行。
+
+### 如何处理 API 错误？
+
+请检查 API 服务的日志以获取详细的错误信息。如果出现问题，确保请求格式和内容符合 API 文档中的规范。
+
+### API 是否需要认证？
+
+当前示例 API 文档中未提及认证。如果有认证需求，请根据实际情况添加相应的认证机制，并更新文档说明。
+
+### 如何查看 API 文档？
+
+启动 API 服务后，可以在以下 URL 中查看 API 文档：
+
+- TTS API: [http://localhost:8001/docs](http://localhost:8001/docs)
+- LLM API: [http://localhost:8002/docs](http://localhost:8002/docs)
+- Talker API: [http://localhost:8003/docs](http://localhost:8003/docs)
+
+---
+

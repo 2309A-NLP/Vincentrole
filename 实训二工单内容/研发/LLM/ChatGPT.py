@@ -1,1 +1,34 @@
-JycnCnBpcCBpbnN0YWxsIG9wZW5haQonJycKaW1wb3J0IG9zCmltcG9ydCBvcGVuYWkKCmNsYXNzIENoYXRHUFQoKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBtb2RlbF9wYXRoID0gJ2dwdC0zLjUtdHVyYm8nLCBhcGlfa2V5ID0gTm9uZSwgcHJveHlfdXJsID0gTm9uZSwgcHJlZml4X3Byb21wdCA9ICcnJ+ivt+eUqOWwkeS6jjI15Liq5a2X5Zue562U5Lul5LiL6Zeu6aKYXG5cbicnJyk6CiAgICAgICAgaWYgcHJveHlfdXJsOgogICAgICAgICAgICBvcy5lbnZpcm9uWydodHRwc19wcm94eSddID0gcHJveHlfdXJsIGlmIHByb3h5X3VybCBlbHNlIE5vbmUKICAgICAgICAgICAgb3MuZW52aXJvblsnaHR0cF9wcm94eSddID0gcHJveHlfdXJsIGlmIHByb3h5X3VybCBlbHNlIE5vbmUKICAgICAgICBvcGVuYWkuYXBpX2tleSA9IGFwaV9rZXkKICAgICAgICBzZWxmLm1vZGVsX3BhdGggPSBtb2RlbF9wYXRoCiAgICAgICAgc2VsZi5wcmVmaXhfcHJvbXB0ID0gcHJlZml4X3Byb21wdAoKICAgIGRlZiBnZW5lcmF0ZShzZWxmLCBtZXNzYWdlKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJlc3BvbnNlID0gb3BlbmFpLkNoYXRDb21wbGV0aW9uLmNyZWF0ZSgKICAgICAgICAgICAgICAgIG1vZGVsPXNlbGYubW9kZWxfcGF0aCwKICAgICAgICAgICAgICAgIG1lc3NhZ2VzPVsKICAgICAgICAgICAgICAgICAgICB7InJvbGUiOiAidXNlciIsICJjb250ZW50Ijogc2VsZi5wcmVmaXhfcHJvbXB0ICsgbWVzc2FnZX0KICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgKQogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2VbJ2Nob2ljZXMnXVswXVsnbWVzc2FnZSddWydjb250ZW50J10KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIHByaW50KGUpCiAgICAgICAgICAgIHJldHVybiAi5a+55LiN6LW377yM5L2g55qE6K+35rGC5Ye66ZSZ5LqG77yM6K+35YaN5qyh5bCd6K+V44CCXG5Tb3JyeSwgeW91ciByZXF1ZXN0IGhhcyBlbmNvdW50ZXJlZCBhbiBlcnJvci4gUGxlYXNlIHRyeSBhZ2Fpbi5cbiIKICAgICAgICAKaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIEFQSV9LRVkgPSAnKioqKioqJwogICAgIyDoi6Xkvb/nlKhDaGF0R1BU77yM6KaB5L+d6K+B6Ieq5bex55qEQVBJS0VZ5Y+v55So77yM5bm25LiU5pyN5Yqh5Zmo5Y+v6K6/6ZeuT1BFTkFJCiAgICBsbG0gPSBDaGF0R1BUKG1vZGVsX3BhdGg9J2dwdC0zLjUtdHVyYm8nLCBhcGlfa2V5PUFQSV9LRVksIHByb3h5X3VybD1Ob25lKQogICAgYW5zd2VyID0gbGxtLmdlbmVyYXRlKCLlpoLkvZXlupTlr7nljovlipvvvJ8iKQogICAgcHJpbnQoYW5zd2VyKQ==
+'''
+pip install openai
+'''
+import os
+import openai
+
+class ChatGPT():
+    def __init__(self, model_path = 'gpt-3.5-turbo', api_key = None, proxy_url = None, prefix_prompt = '''请用少于25个字回答以下问题\n\n'''):
+        if proxy_url:
+            os.environ['https_proxy'] = proxy_url if proxy_url else None
+            os.environ['http_proxy'] = proxy_url if proxy_url else None
+        openai.api_key = api_key
+        self.model_path = model_path
+        self.prefix_prompt = prefix_prompt
+
+    def generate(self, message):
+        try:
+            response = openai.ChatCompletion.create(
+                model=self.model_path,
+                messages=[
+                    {"role": "user", "content": self.prefix_prompt + message}
+                ]
+            )
+            return response['choices'][0]['message']['content']
+        except Exception as e:
+            print(e)
+            return "对不起，你的请求出错了，请再次尝试。\nSorry, your request has encountered an error. Please try again.\n"
+        
+if __name__ == '__main__':
+    API_KEY = '******'
+    # 若使用ChatGPT，要保证自己的APIKEY可用，并且服务器可访问OPENAI
+    llm = ChatGPT(model_path='gpt-3.5-turbo', api_key=API_KEY, proxy_url=None)
+    answer = llm.generate("如何应对压力？")
+    print(answer)

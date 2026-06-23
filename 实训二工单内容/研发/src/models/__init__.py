@@ -1,1 +1,2 @@
-ZnJvbSAud2F2MmxpcCBpbXBvcnQgV2F2MkxpcCwgV2F2MkxpcF9kaXNjX3F1YWwKZnJvbSAuc3luY25ldCBpbXBvcnQgU3luY05ldF9jb2xvcg==
+from .wav2lip import Wav2Lip, Wav2Lip_disc_qual
+from .syncnet import SyncNet_color

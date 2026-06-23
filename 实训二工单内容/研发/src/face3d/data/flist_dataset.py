@@ -1,1 +1,125 @@
-IiIiVGhpcyBzY3JpcHQgZGVmaW5lcyB0aGUgY3VzdG9tIGRhdGFzZXQgZm9yIERlZXAzREZhY2VSZWNvbl9weXRvcmNoCiIiIgoKaW1wb3J0IG9zLnBhdGgKZnJvbSBkYXRhLmJhc2VfZGF0YXNldCBpbXBvcnQgQmFzZURhdGFzZXQsIGdldF90cmFuc2Zvcm0sIGdldF9hZmZpbmVfbWF0LCBhcHBseV9pbWdfYWZmaW5lLCBhcHBseV9sbV9hZmZpbmUKZnJvbSBkYXRhLmltYWdlX2ZvbGRlciBpbXBvcnQgbWFrZV9kYXRhc2V0CmZyb20gUElMIGltcG9ydCBJbWFnZQppbXBvcnQgcmFuZG9tCmltcG9ydCB1dGlsLnV0aWwgYXMgdXRpbAppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IGpzb24KaW1wb3J0IHRvcmNoCmZyb20gc2NpcHkuaW8gaW1wb3J0IGxvYWRtYXQsIHNhdmVtYXQKaW1wb3J0IHBpY2tsZQpmcm9tIHV0aWwucHJlcHJvY2VzcyBpbXBvcnQgYWxpZ25faW1nLCBlc3RpbWF0ZV9ub3JtCmZyb20gdXRpbC5sb2FkX21hdHMgaW1wb3J0IGxvYWRfbG0zZAoKCmRlZiBkZWZhdWx0X2ZsaXN0X3JlYWRlcihmbGlzdCk6CiAgICAiIiIKICAgIGZsaXN0IGZvcm1hdDogaW1wYXRoIGxhYmVsXG5pbXBhdGggbGFiZWxcbiAuLi4oc2FtZSB0byBjYWZmZSdzIGZpbGVsaXN0KQogICAgIiIiCiAgICBpbWxpc3QgPSBbXQogICAgd2l0aCBvcGVuKGZsaXN0LCAncicpIGFzIHJmOgogICAgICAgIGZvciBsaW5lIGluIHJmLnJlYWRsaW5lcygpOgogICAgICAgICAgICBpbXBhdGggPSBsaW5lLnN0cmlwKCkKICAgICAgICAgICAgaW1saXN0LmFwcGVuZChpbXBhdGgpCgogICAgcmV0dXJuIGltbGlzdAoKZGVmIGphc29uX2ZsaXN0X3JlYWRlcihmbGlzdCk6CiAgICB3aXRoIG9wZW4oZmxpc3QsICdyJykgYXMgZnA6CiAgICAgICAgaW5mbyA9IGpzb24ubG9hZChmcCkKICAgIHJldHVybiBpbmZvCgpkZWYgcGFyc2VfbGFiZWwobGFiZWwpOgogICAgcmV0dXJuIHRvcmNoLnRlbnNvcihucC5hcnJheShsYWJlbCkuYXN0eXBlKG5wLmZsb2F0MzIpKQoKCmNsYXNzIEZsaXN0RGF0YXNldChCYXNlRGF0YXNldCk6CiAgICAiIiIKICAgIEl0IHJlcXVpcmVzIG9uZSBkaXJlY3RvcmllcyB0byBob3N0IHRyYWluaW5nIGltYWdlcyAnL3BhdGgvdG8vZGF0YS90cmFpbicKICAgIFlvdSBjYW4gdHJhaW4gdGhlIG1vZGVsIHdpdGggdGhlIGRhdGFzZXQgZmxhZyAnLS1kYXRhcm9vdCAvcGF0aC90by9kYXRhJy4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBvcHQpOgogICAgICAgICIiIkluaXRpYWxpemUgdGhpcyBkYXRhc2V0IGNsYXNzLgoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBvcHQgKE9wdGlvbiBjbGFzcykgLS0gc3RvcmVzIGFsbCB0aGUgZXhwZXJpbWVudCBmbGFnczsgbmVlZHMgdG8gYmUgYSBzdWJjbGFzcyBvZiBCYXNlT3B0aW9ucwogICAgICAgICIiIgogICAgICAgIEJhc2VEYXRhc2V0Ll9faW5pdF9fKHNlbGYsIG9wdCkKICAgICAgICAKICAgICAgICBzZWxmLmxtM2Rfc3RkID0gbG9hZF9sbTNkKG9wdC5iZm1fZm9sZGVyKQogICAgICAgIAogICAgICAgIG1za19uYW1lcyA9IGRlZmF1bHRfZmxpc3RfcmVhZGVyKG9wdC5mbGlzdCkKICAgICAgICBzZWxmLm1za19wYXRocyA9IFtvcy5wYXRoLmpvaW4ob3B0LmRhdGFfcm9vdCwgaSkgZm9yIGkgaW4gbXNrX25hbWVzXQoKICAgICAgICBzZWxmLnNpemUgPSBsZW4oc2VsZi5tc2tfcGF0aHMpIAogICAgICAgIHNlbGYub3B0ID0gb3B0CiAgICAgICAgCiAgICAgICAgc2VsZi5uYW1lID0gJ3RyYWluJyBpZiBvcHQuaXNUcmFpbiBlbHNlICd2YWwnCiAgICAgICAgaWYgJ18nIGluIG9wdC5mbGlzdDoKICAgICAgICAgICAgc2VsZi5uYW1lICs9ICdfJyArIG9wdC5mbGlzdC5zcGxpdChvcy5zZXApWy0xXS5zcGxpdCgnXycpWzBdCiAgICAgICAgCgogICAgZGVmIF9fZ2V0aXRlbV9fKHNlbGYsIGluZGV4KToKICAgICAgICAiIiJSZXR1cm4gYSBkYXRhIHBvaW50IGFuZCBpdHMgbWV0YWRhdGEgaW5mb3JtYXRpb24uCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIGluZGV4IChpbnQpICAgICAgLS0gYSByYW5kb20gaW50ZWdlciBmb3IgZGF0YSBpbmRleGluZwoKICAgICAgICBSZXR1cm5zIGEgZGljdGlvbmFyeSB0aGF0IGNvbnRhaW5zIEEsIEIsIEFfcGF0aHMgYW5kIEJfcGF0aHMKICAgICAgICAgICAgaW1nICh0ZW5zb3IpICAgICAgIC0tIGFuIGltYWdlIGluIHRoZSBpbnB1dCBkb21haW4KICAgICAgICAgICAgbXNrICh0ZW5zb3IpICAgICAgIC0tIGl0cyBjb3JyZXNwb25kaW5nIGF0dGVudGlvbiBtYXNrCiAgICAgICAgICAgIGxtICAodGVuc29yKSAgICAgICAtLSBpdHMgY29ycmVzcG9uZGluZyAzZCBsYW5kbWFya3MKICAgICAgICAgICAgaW1fcGF0aHMgKHN0cikgICAgIC0tIGltYWdlIHBhdGhzCiAgICAgICAgICAgIGF1Z19mbGFnIChib29sKSAgICAtLSBhIGZsYWcgdXNlZCB0byB0ZWxsIHdoZXRoZXIgaXRzIHJhdyBvciBhdWdtZW50ZWQKICAgICAgICAiIiIKICAgICAgICBtc2tfcGF0aCA9IHNlbGYubXNrX3BhdGhzW2luZGV4ICUgc2VsZi5zaXplXSAgIyBtYWtlIHN1cmUgaW5kZXggaXMgd2l0aGluIHRoZW4gcmFuZ2UKICAgICAgICBpbWdfcGF0aCA9IG1za19wYXRoLnJlcGxhY2UoJ21hc2svJywgJycpCiAgICAgICAgbG1fcGF0aCA9ICcuJy5qb2luKG1za19wYXRoLnJlcGxhY2UoJ21hc2snLCAnbGFuZG1hcmtzJykuc3BsaXQoJy4nKVs6LTFdKSArICcudHh0JwoKICAgICAgICByYXdfaW1nID0gSW1hZ2Uub3BlbihpbWdfcGF0aCkuY29udmVydCgnUkdCJykKICAgICAgICByYXdfbXNrID0gSW1hZ2Uub3Blbihtc2tfcGF0aCkuY29udmVydCgnUkdCJykKICAgICAgICByYXdfbG0gPSBucC5sb2FkdHh0KGxtX3BhdGgpLmFzdHlwZShucC5mbG9hdDMyKQoKICAgICAgICBfLCBpbWcsIGxtLCBtc2sgPSBhbGlnbl9pbWcocmF3X2ltZywgcmF3X2xtLCBzZWxmLmxtM2Rfc3RkLCByYXdfbXNrKQogICAgICAgIAogICAgICAgIGF1Z19mbGFnID0gc2VsZi5vcHQudXNlX2F1ZyBhbmQgc2VsZi5vcHQuaXNUcmFpbgogICAgICAgIGlmIGF1Z19mbGFnOgogICAgICAgICAgICBpbWcsIGxtLCBtc2sgPSBzZWxmLl9hdWdtZW50YXRpb24oaW1nLCBsbSwgc2VsZi5vcHQsIG1zaykKICAgICAgICAKICAgICAgICBfLCBIID0gaW1nLnNpemUKICAgICAgICBNID0gZXN0aW1hdGVfbm9ybShsbSwgSCkKICAgICAgICB0cmFuc2Zvcm0gPSBnZXRfdHJhbnNmb3JtKCkKICAgICAgICBpbWdfdGVuc29yID0gdHJhbnNmb3JtKGltZykKICAgICAgICBtc2tfdGVuc29yID0gdHJhbnNmb3JtKG1zaylbOjEsIC4uLl0KICAgICAgICBsbV90ZW5zb3IgPSBwYXJzZV9sYWJlbChsbSkKICAgICAgICBNX3RlbnNvciA9IHBhcnNlX2xhYmVsKE0pCgoKICAgICAgICByZXR1cm4geydpbWdzJzogaW1nX3RlbnNvciwgCiAgICAgICAgICAgICAgICAnbG1zJzogbG1fdGVuc29yLCAKICAgICAgICAgICAgICAgICdtc2tzJzogbXNrX3RlbnNvciwgCiAgICAgICAgICAgICAgICAnTSc6IE1fdGVuc29yLAogICAgICAgICAgICAgICAgJ2ltX3BhdGhzJzogaW1nX3BhdGgsIAogICAgICAgICAgICAgICAgJ2F1Z19mbGFnJzogYXVnX2ZsYWcsCiAgICAgICAgICAgICAgICAnZGF0YXNldCc6IHNlbGYubmFtZX0KCiAgICBkZWYgX2F1Z21lbnRhdGlvbihzZWxmLCBpbWcsIGxtLCBvcHQsIG1zaz1Ob25lKToKICAgICAgICBhZmZpbmUsIGFmZmluZV9pbnYsIGZsaXAgPSBnZXRfYWZmaW5lX21hdChvcHQsIGltZy5zaXplKQogICAgICAgIGltZyA9IGFwcGx5X2ltZ19hZmZpbmUoaW1nLCBhZmZpbmVfaW52KQogICAgICAgIGxtID0gYXBwbHlfbG1fYWZmaW5lKGxtLCBhZmZpbmUsIGZsaXAsIGltZy5zaXplKQogICAgICAgIGlmIG1zayBpcyBub3QgTm9uZToKICAgICAgICAgICAgbXNrID0gYXBwbHlfaW1nX2FmZmluZShtc2ssIGFmZmluZV9pbnYsIG1ldGhvZD1JbWFnZS5CSUxJTkVBUikKICAgICAgICByZXR1cm4gaW1nLCBsbSwgbXNrCiAgICAKCgoKICAgIGRlZiBfX2xlbl9fKHNlbGYpOgogICAgICAgICIiIlJldHVybiB0aGUgdG90YWwgbnVtYmVyIG9mIGltYWdlcyBpbiB0aGUgZGF0YXNldC4KICAgICAgICAiIiIKICAgICAgICByZXR1cm4gc2VsZi5zaXplCg==
+"""This script defines the custom dataset for Deep3DFaceRecon_pytorch
+"""
+
+import os.path
+from data.base_dataset import BaseDataset, get_transform, get_affine_mat, apply_img_affine, apply_lm_affine
+from data.image_folder import make_dataset
+from PIL import Image
+import random
+import util.util as util
+import numpy as np
+import json
+import torch
+from scipy.io import loadmat, savemat
+import pickle
+from util.preprocess import align_img, estimate_norm
+from util.load_mats import load_lm3d
+
+
+def default_flist_reader(flist):
+    """
+    flist format: impath label\nimpath label\n ...(same to caffe's filelist)
+    """
+    imlist = []
+    with open(flist, 'r') as rf:
+        for line in rf.readlines():
+            impath = line.strip()
+            imlist.append(impath)
+
+    return imlist
+
+def jason_flist_reader(flist):
+    with open(flist, 'r') as fp:
+        info = json.load(fp)
+    return info
+
+def parse_label(label):
+    return torch.tensor(np.array(label).astype(np.float32))
+
+
+class FlistDataset(BaseDataset):
+    """
+    It requires one directories to host training images '/path/to/data/train'
+    You can train the model with the dataset flag '--dataroot /path/to/data'.
+    """
+
+    def __init__(self, opt):
+        """Initialize this dataset class.
+
+        Parameters:
+            opt (Option class) -- stores all the experiment flags; needs to be a subclass of BaseOptions
+        """
+        BaseDataset.__init__(self, opt)
+        
+        self.lm3d_std = load_lm3d(opt.bfm_folder)
+        
+        msk_names = default_flist_reader(opt.flist)
+        self.msk_paths = [os.path.join(opt.data_root, i) for i in msk_names]
+
+        self.size = len(self.msk_paths) 
+        self.opt = opt
+        
+        self.name = 'train' if opt.isTrain else 'val'
+        if '_' in opt.flist:
+            self.name += '_' + opt.flist.split(os.sep)[-1].split('_')[0]
+        
+
+    def __getitem__(self, index):
+        """Return a data point and its metadata information.
+
+        Parameters:
+            index (int)      -- a random integer for data indexing
+
+        Returns a dictionary that contains A, B, A_paths and B_paths
+            img (tensor)       -- an image in the input domain
+            msk (tensor)       -- its corresponding attention mask
+            lm  (tensor)       -- its corresponding 3d landmarks
+            im_paths (str)     -- image paths
+            aug_flag (bool)    -- a flag used to tell whether its raw or augmented
+        """
+        msk_path = self.msk_paths[index % self.size]  # make sure index is within then range
+        img_path = msk_path.replace('mask/', '')
+        lm_path = '.'.join(msk_path.replace('mask', 'landmarks').split('.')[:-1]) + '.txt'
+
+        raw_img = Image.open(img_path).convert('RGB')
+        raw_msk = Image.open(msk_path).convert('RGB')
+        raw_lm = np.loadtxt(lm_path).astype(np.float32)
+
+        _, img, lm, msk = align_img(raw_img, raw_lm, self.lm3d_std, raw_msk)
+        
+        aug_flag = self.opt.use_aug and self.opt.isTrain
+        if aug_flag:
+            img, lm, msk = self._augmentation(img, lm, self.opt, msk)
+        
+        _, H = img.size
+        M = estimate_norm(lm, H)
+        transform = get_transform()
+        img_tensor = transform(img)
+        msk_tensor = transform(msk)[:1, ...]
+        lm_tensor = parse_label(lm)
+        M_tensor = parse_label(M)
+
+
+        return {'imgs': img_tensor, 
+                'lms': lm_tensor, 
+                'msks': msk_tensor, 
+                'M': M_tensor,
+                'im_paths': img_path, 
+                'aug_flag': aug_flag,
+                'dataset': self.name}
+
+    def _augmentation(self, img, lm, opt, msk=None):
+        affine, affine_inv, flip = get_affine_mat(opt, img.size)
+        img = apply_img_affine(img, affine_inv)
+        lm = apply_lm_affine(lm, affine, flip, img.size)
+        if msk is not None:
+            msk = apply_img_affine(msk, affine_inv, method=Image.BILINEAR)
+        return img, lm, msk
+    
+
+
+
+    def __len__(self):
+        """Return the total number of images in the dataset.
+        """
+        return self.size

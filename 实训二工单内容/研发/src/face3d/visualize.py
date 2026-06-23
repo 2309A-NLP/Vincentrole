@@ -1,1 +1,48 @@
-IyBjaGVjayB0aGUgc3luYyBvZiAzZG1tIGZlYXR1cmUgYW5kIHRoZSBhdWRpbwppbXBvcnQgY3YyCmltcG9ydCBudW1weSBhcyBucApmcm9tIHNyYy5mYWNlM2QubW9kZWxzLmJmbSBpbXBvcnQgUGFyYW1ldHJpY0ZhY2VNb2RlbApmcm9tIHNyYy5mYWNlM2QubW9kZWxzLmZhY2VyZWNvbl9tb2RlbCBpbXBvcnQgRmFjZVJlY29uTW9kZWwKaW1wb3J0IHRvcmNoCmltcG9ydCBzdWJwcm9jZXNzLCBwbGF0Zm9ybQppbXBvcnQgc2NpcHkuaW8gYXMgc2Npbwpmcm9tIHRxZG0gaW1wb3J0IHRxZG0gCgojIGRyYWZ0CmRlZiBnZW5fY29tcG9zZWRfdmlkZW8oYXJncywgZGV2aWNlLCBmaXJzdF9mcmFtZV9jb2VmZiwgY29lZmZfcGF0aCwgYXVkaW9fcGF0aCwgc2F2ZV9wYXRoLCBleHBfZGltPTY0KToKICAgIAogICAgY29lZmZfZmlyc3QgPSBzY2lvLmxvYWRtYXQoZmlyc3RfZnJhbWVfY29lZmYpWydmdWxsXzNkbW0nXQoKICAgIGNvZWZmX3ByZWQgPSBzY2lvLmxvYWRtYXQoY29lZmZfcGF0aClbJ2NvZWZmXzNkbW0nXQoKICAgIGNvZWZmX2Z1bGwgPSBucC5yZXBlYXQoY29lZmZfZmlyc3QsIGNvZWZmX3ByZWQuc2hhcGVbMF0sIGF4aXM9MCkgIyAyNTcKCiAgICBjb2VmZl9mdWxsWzosIDgwOjE0NF0gPSBjb2VmZl9wcmVkWzosIDA6NjRdCiAgICBjb2VmZl9mdWxsWzosIDIyNDoyMjddICA9IGNvZWZmX3ByZWRbOiwgNjQ6NjddICMgMyBkaW0gdHJhbnNsYXRpb24KICAgIGNvZWZmX2Z1bGxbOiwgMjU0Ol0gID0gY29lZmZfcHJlZFs6LCA2NzpdICMgMyBkaW0gdHJhbnNsYXRpb24KCiAgICB0bXBfdmlkZW9fcGF0aCA9ICcvdG1wL2ZhY2UzZHRtcC5tcDQnCgogICAgZmFjZW1vZGVsID0gRmFjZVJlY29uTW9kZWwoYXJncykKICAgIAogICAgdmlkZW8gPSBjdjIuVmlkZW9Xcml0ZXIodG1wX3ZpZGVvX3BhdGgsIGN2Mi5WaWRlb1dyaXRlcl9mb3VyY2MoKidtcDR2JyksIDI1LCAoMjI0LCAyMjQpKQoKICAgIGZvciBrIGluIHRxZG0ocmFuZ2UoY29lZmZfcHJlZC5zaGFwZVswXSksICdmYWNlM2QgcmVuZGVyaW5nOicpOgogICAgICAgIGN1cl9jb2VmZl9mdWxsID0gdG9yY2gudGVuc29yKGNvZWZmX2Z1bGxbazprKzFdLCBkZXZpY2U9ZGV2aWNlKQoKICAgICAgICBmYWNlbW9kZWwuZm9yd2FyZChjdXJfY29lZmZfZnVsbCwgZGV2aWNlKQoKICAgICAgICBwcmVkaWN0ZWRfbGFuZG1hcmsgPSBmYWNlbW9kZWwucHJlZF9sbSAjIFRPRE8uCiAgICAgICAgcHJlZGljdGVkX2xhbmRtYXJrID0gcHJlZGljdGVkX2xhbmRtYXJrLmNwdSgpLm51bXB5KCkuc3F1ZWV6ZSgpCgogICAgICAgIHJlbmRlcmVkX2ltZyA9IGZhY2Vtb2RlbC5wcmVkX2ZhY2UKICAgICAgICByZW5kZXJlZF9pbWcgPSAyNTUuICogcmVuZGVyZWRfaW1nLmNwdSgpLm51bXB5KCkuc3F1ZWV6ZSgpLnRyYW5zcG9zZSgxLDIsMCkKICAgICAgICBvdXRfaW1nID0gcmVuZGVyZWRfaW1nWzosIDosIDozXS5hc3R5cGUobnAudWludDgpCgogICAgICAgIHZpZGVvLndyaXRlKG5wLnVpbnQ4KG91dF9pbWdbOiw6LDo6LTFdKSkKCiAgICB2aWRlby5yZWxlYXNlKCkKCiAgICBjb21tYW5kID0gJ2ZmbXBlZyAtdiBxdWlldCAteSAtaSB7fSAtaSB7fSAtc3RyaWN0IC0yIC1xOnYgMSB7fScuZm9ybWF0KGF1ZGlvX3BhdGgsIHRtcF92aWRlb19wYXRoLCBzYXZlX3BhdGgpCiAgICBzdWJwcm9jZXNzLmNhbGwoY29tbWFuZCwgc2hlbGw9cGxhdGZvcm0uc3lzdGVtKCkgIT0gJ1dpbmRvd3MnKQoK
+# check the sync of 3dmm feature and the audio
+import cv2
+import numpy as np
+from src.face3d.models.bfm import ParametricFaceModel
+from src.face3d.models.facerecon_model import FaceReconModel
+import torch
+import subprocess, platform
+import scipy.io as scio
+from tqdm import tqdm 
+
+# draft
+def gen_composed_video(args, device, first_frame_coeff, coeff_path, audio_path, save_path, exp_dim=64):
+    
+    coeff_first = scio.loadmat(first_frame_coeff)['full_3dmm']
+
+    coeff_pred = scio.loadmat(coeff_path)['coeff_3dmm']
+
+    coeff_full = np.repeat(coeff_first, coeff_pred.shape[0], axis=0) # 257
+
+    coeff_full[:, 80:144] = coeff_pred[:, 0:64]
+    coeff_full[:, 224:227]  = coeff_pred[:, 64:67] # 3 dim translation
+    coeff_full[:, 254:]  = coeff_pred[:, 67:] # 3 dim translation
+
+    tmp_video_path = '/tmp/face3dtmp.mp4'
+
+    facemodel = FaceReconModel(args)
+    
+    video = cv2.VideoWriter(tmp_video_path, cv2.VideoWriter_fourcc(*'mp4v'), 25, (224, 224))
+
+    for k in tqdm(range(coeff_pred.shape[0]), 'face3d rendering:'):
+        cur_coeff_full = torch.tensor(coeff_full[k:k+1], device=device)
+
+        facemodel.forward(cur_coeff_full, device)
+
+        predicted_landmark = facemodel.pred_lm # TODO.
+        predicted_landmark = predicted_landmark.cpu().numpy().squeeze()
+
+        rendered_img = facemodel.pred_face
+        rendered_img = 255. * rendered_img.cpu().numpy().squeeze().transpose(1,2,0)
+        out_img = rendered_img[:, :, :3].astype(np.uint8)
+
+        video.write(np.uint8(out_img[:,:,::-1]))
+
+    video.release()
+
+    command = 'ffmpeg -v quiet -y -i {} -i {} -strict -2 -q:v 1 {}'.format(audio_path, tmp_video_path, save_path)
+    subprocess.call(command, shell=platform.system() != 'Windows')
+

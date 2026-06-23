@@ -1,1 +1,82 @@
-aW1wb3J0IG9zCmltcG9ydCB0b3JjaAppbXBvcnQgcmVxdWVzdHMKZnJvbSB0cmFuc2Zvcm1lcnMgaW1wb3J0IEF1dG9Nb2RlbEZvckNhdXNhbExNLCBBdXRvVG9rZW5pemVyCm9zLmVudmlyb25bJ0NVREFfTEFVTkNIX0JMT0NLSU5HJ10gPSAnMScKCmNsYXNzIFF3ZW4yOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG1vZGU9J29mZmxpbmUnLCBtb2RlbF9wYXRoPSJRd2VuL1F3ZW4xLjUtMC41Qi1DaGF0IiwgcHJlZml4X3Byb21wdCA9ICcnJ+ivt+eUqOWwkeS6jjI15Liq5a2X5Zue562U5Lul5LiL6Zeu6aKYXG5cbicnJyk6CiAgICAgICAgJycn5pqC5pe25LiN5YaZYXBp54mI5pysLOS4jkxpbmx5LWFwaeebuOexu+S8vCzmhJ/lhbTotqPlj6/ku6Xlrp7njrDkuIDkuIsnJycKICAgICAgICBzZWxmLnVybCA9ICJodHRwOi8vaXA6cG9ydCIgIyBsb2NhbCBzZXJ2ZXI6IGh0dHA6Ly9pcDpwb3J0CiAgICAgICAgc2VsZi5oZWFkZXJzID0gewogICAgICAgICAgICAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iCiAgICAgICAgfQogICAgICAgIHNlbGYuZGF0YSA9IHsKICAgICAgICAgICAgInF1ZXN0aW9uIjogIuWMl+S6rOacieS7gOS5iOWlveeOqeeahOWcsOaWue+8nyIKICAgICAgICB9CiAgICAgICAgc2VsZi5wcmVmaXhfcHJvbXB0ID0gcHJlZml4X3Byb21wdAogICAgICAgIHNlbGYubW9kZSA9IG1vZGUKICAgICAgICBzZWxmLm1vZGVsLCBzZWxmLnRva2VuaXplciA9IHNlbGYuaW5pdF9tb2RlbChtb2RlbF9wYXRoKQogICAgICAgIHNlbGYuaGlzdG9yeSA9IE5vbmUKICAgIAogICAgZGVmIGluaXRfbW9kZWwoc2VsZiwgcGF0aCA9ICJRd2VuL1F3ZW4yLTAuNUIiKToKICAgICAgICBtb2RlbCA9IEF1dG9Nb2RlbEZvckNhdXNhbExNLmZyb21fcHJldHJhaW5lZChwYXRoLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXZpY2VfbWFwPSJhdXRvIiwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9yY2hfZHR5cGU9ImF1dG8iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRydXN0X3JlbW90ZV9jb2RlPVRydWUpLmV2YWwoKQogICAgICAgIHRva2VuaXplciA9IEF1dG9Ub2tlbml6ZXIuZnJvbV9wcmV0cmFpbmVkKHBhdGgsIHRydXN0X3JlbW90ZV9jb2RlPVRydWUpCgogICAgICAgIHJldHVybiBtb2RlbCwgdG9rZW5pemVyICAgCiAgICAKICAgIGRlZiBnZW5lcmF0ZShzZWxmLCBxdWVzdGlvbiwgc3lzdGVtX3Byb21wdD0iWW91IGFyZSBhIGhlbHBmdWwgYXNzaXN0YW50LiIpOgogICAgICAgIGRldmljZSA9ICdjdWRhJyBpZiB0b3JjaC5jdWRhLmlzX2F2YWlsYWJsZSgpIGVsc2UgJ2NwdScKICAgICAgICBpZiBzZWxmLm1vZGUgIT0gJ2FwaSc6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgICMgcmVzcG9uc2UsIHNlbGYuaGlzdG9yeSA9IHNlbGYubW9kZWwuY2hhdChzZWxmLnRva2VuaXplciwgc2VsZi5kYXRhWyJxdWVzdGlvbiJdLCBoaXN0b3J5PXNlbGYuaGlzdG9yeSwgc3lzdGVtID0gc3lzdGVtX3Byb21wdCkKICAgICAgICAgICAgICAgIG1lc3NhZ2VzID0gWwogICAgICAgICAgICAgICAgICAgIHsicm9sZSI6ICJzeXN0ZW0iLCAiY29udGVudCI6IHN5c3RlbV9wcm9tcHR9LAogICAgICAgICAgICAgICAgICAgIHsicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiBzZWxmLnByZWZpeF9wcm9tcHQgKyBxdWVzdGlvbn0KICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgIHRleHQgPSBzZWxmLnRva2VuaXplci5hcHBseV9jaGF0X3RlbXBsYXRlKAogICAgICAgICAgICAgICAgICAgIG1lc3NhZ2VzLAogICAgICAgICAgICAgICAgICAgIHRva2VuaXplPUZhbHNlLAogICAgICAgICAgICAgICAgICAgIGFkZF9nZW5lcmF0aW9uX3Byb21wdD1UcnVlCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBtb2RlbF9pbnB1dHMgPSBzZWxmLnRva2VuaXplcihbdGV4dF0sIHJldHVybl90ZW5zb3JzPSJwdCIpLnRvKGRldmljZSkKICAgICAgICAgICAgICAgIGdlbmVyYXRlZF9pZHMgPSBzZWxmLm1vZGVsLmdlbmVyYXRlKAogICAgICAgICAgICAgICAgICAgIG1vZGVsX2lucHV0cy5pbnB1dF9pZHMsCiAgICAgICAgICAgICAgICAgICAgbWF4X25ld190b2tlbnM9NTEyCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBnZW5lcmF0ZWRfaWRzID0gWwogICAgICAgICAgICAgICAgICAgIG91dHB1dF9pZHNbbGVuKGlucHV0X2lkcyk6XSBmb3IgaW5wdXRfaWRzLCBvdXRwdXRfaWRzIGluIHppcChtb2RlbF9pbnB1dHMuaW5wdXRfaWRzLCBnZW5lcmF0ZWRfaWRzKQogICAgICAgICAgICAgICAgXQoKICAgICAgICAgICAgICAgIHJlc3BvbnNlID0gc2VsZi50b2tlbml6ZXIuYmF0Y2hfZGVjb2RlKGdlbmVyYXRlZF9pZHMsIHNraXBfc3BlY2lhbF90b2tlbnM9VHJ1ZSlbMF0KICAgICAgICAgICAgICAgICMgcHJpbnQoc2VsZi5oaXN0b3J5KQogICAgICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgIHByaW50KGUpCiAgICAgICAgICAgICAgICByZXR1cm4gIuWvueS4jei1t++8jOS9oOeahOivt+axguWHuumUmeS6hu+8jOivt+WGjeasoeWwneivleOAglxuU29ycnksIHlvdXIgcmVxdWVzdCBoYXMgZW5jb3VudGVyZWQgYW4gZXJyb3IuIFBsZWFzZSB0cnkgYWdhaW4uXG4iCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmV0dXJuIHNlbGYucHJlZGljdF9hcGkocXVlc3Rpb24pCiAgICBkZWYgcHJlZGljdF9hcGkoc2VsZiwgcXVlc3Rpb24pOgogICAgICAgICcnJ+aaguaXtuS4jeWGmWFwaeeJiOacrCzkuI5MaW5seS1hcGnnm7jnsbvkvLws5oSf5YW06Laj5Y+v5Lul5a6e546w5LiA5LiLJycnCiAgICAgICAgcGFzcyAKICAgIAogICAgZGVmIGNoYXQoc2VsZiwgc3lzdGVtX3Byb21wdCwgbWVzc2FnZSwgaGlzdG9yeSk6CiAgICAgICAgcmVzcG9uc2UgPSBzZWxmLmdlbmVyYXRlKG1lc3NhZ2UsIHN5c3RlbV9wcm9tcHQpCiAgICAgICAgaGlzdG9yeS5hcHBlbmQoKG1lc3NhZ2UsIHJlc3BvbnNlKSkKICAgICAgICByZXR1cm4gcmVzcG9uc2UsIGhpc3RvcnkKICAgIAogICAgZGVmIGNsZWFyX2hpc3Rvcnkoc2VsZik6CiAgICAgICAgIyDmuIXnqbrljoblj7LorrDlvZUKICAgICAgICBzZWxmLmhpc3RvcnkgPSBbXQogICAgCmRlZiB0ZXN0KCk6CiAgICBsbG0gPSBRd2VuMihtb2RlPSdvZmZsaW5lJywgbW9kZWxfcGF0aD0iUXdlbi9Rd2VuMS41LTAuNUItQ2hhdCIpCiAgICAjIGxsbSA9IFF3ZW4yKG1vZGU9J29mZmxpbmUnLCBtb2RlbF9wYXRoPSJRd2VuL1F3ZW4yLTAuNUIiKQogICAgYW5zd2VyID0gbGxtLmdlbmVyYXRlKCLlpoLkvZXlupTlr7nljovlipvvvJ8iKQogICAgcHJpbnQoYW5zd2VyKQoKaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIHRlc3QoKQo=
+import os
+import torch
+import requests
+from transformers import AutoModelForCausalLM, AutoTokenizer
+os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
+
+class Qwen2:
+    def __init__(self, mode='offline', model_path="Qwen/Qwen1.5-0.5B-Chat", prefix_prompt = '''请用少于25个字回答以下问题\n\n'''):
+        '''暂时不写api版本,与Linly-api相类似,感兴趣可以实现一下'''
+        self.url = "http://ip:port" # local server: http://ip:port
+        self.headers = {
+            "Content-Type": "application/json"
+        }
+        self.data = {
+            "question": "北京有什么好玩的地方？"
+        }
+        self.prefix_prompt = prefix_prompt
+        self.mode = mode
+        self.model, self.tokenizer = self.init_model(model_path)
+        self.history = None
+    
+    def init_model(self, path = "Qwen/Qwen2-0.5B"):
+        model = AutoModelForCausalLM.from_pretrained(path, 
+                                                     device_map="auto", 
+                                                     torch_dtype="auto",
+                                                     trust_remote_code=True).eval()
+        tokenizer = AutoTokenizer.from_pretrained(path, trust_remote_code=True)
+
+        return model, tokenizer   
+    
+    def generate(self, question, system_prompt="You are a helpful assistant."):
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        if self.mode != 'api':
+            try:
+                # response, self.history = self.model.chat(self.tokenizer, self.data["question"], history=self.history, system = system_prompt)
+                messages = [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": self.prefix_prompt + question}
+                ]
+                text = self.tokenizer.apply_chat_template(
+                    messages,
+                    tokenize=False,
+                    add_generation_prompt=True
+                )
+                model_inputs = self.tokenizer([text], return_tensors="pt").to(device)
+                generated_ids = self.model.generate(
+                    model_inputs.input_ids,
+                    max_new_tokens=512
+                )
+                generated_ids = [
+                    output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+                ]
+
+                response = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+                # print(self.history)
+                return response
+            except Exception as e:
+                print(e)
+                return "对不起，你的请求出错了，请再次尝试。\nSorry, your request has encountered an error. Please try again.\n"
+        else:
+            return self.predict_api(question)
+    def predict_api(self, question):
+        '''暂时不写api版本,与Linly-api相类似,感兴趣可以实现一下'''
+        pass 
+    
+    def chat(self, system_prompt, message, history):
+        response = self.generate(message, system_prompt)
+        history.append((message, response))
+        return response, history
+    
+    def clear_history(self):
+        # 清空历史记录
+        self.history = []
+    
+def test():
+    llm = Qwen2(mode='offline', model_path="Qwen/Qwen1.5-0.5B-Chat")
+    # llm = Qwen2(mode='offline', model_path="Qwen/Qwen2-0.5B")
+    answer = llm.generate("如何应对压力？")
+    print(answer)
+
+if __name__ == '__main__':
+    test()

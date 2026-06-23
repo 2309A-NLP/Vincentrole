@@ -1,1 +1,138 @@
-aW1wb3J0IG9zCmZyb20gcGFkZGxlc3BlZWNoLmNsaS50dHMuaW5mZXIgaW1wb3J0IFRUU0V4ZWN1dG9yCgoiIiIKUGFkZGxlU3BlZWNoCgrlo7DnoIHlmajor7TmmI7vvJrov5nph4zpooTliLbkuobkuInnp43lo7DnoIHlmajjgJBQV0dhbuOAkeOAkFdhdmVSbm7jgJHjgJBIaWZpR2Fu44CRLCDkuInnp43lo7DnoIHlmajmlYjmnpzlkoznlJ/miJDml7bpl7TmnInmr5TovoPlpKfnmoTlt67ot53vvIzor7fot5/ov5voh6rlt7HnmoTpnIDopoHov5vooYzpgInmi6njgILkuI3ov4flj6rpgInmi6nkuobliY3kuKTnp43vvIzlm6DkuLpXYXZlUk5O5aSq5oWi5LqGCgp8IOWjsOeggeWZqCB8IOmfs+mikei0qOmHjyB8IOeUn+aIkOmAn+W6piB8CnwgOi0tLS06IHwgOi0tLS06IHwgOi0tLS06IHwKfCBQV0dhbiB8IOS4reetiSB8IOS4reetiSB8CnwgV2F2ZVJubiB8IOmrmCB8IOmdnuW4uOaFou+8iOiAkOW/g+etieW+he+8iSB8CnwgSGlmaUdhbiB8IOS9jiB8IOW/qyB8Cgrov5nkuptQYWRkbGVTcGVlY2jkuK3nmoTmoLfkvovkuLvopoHmjInmlbDmja7pm4bliIbnsbvvvIzmiJHku6zkuLvopoHkvb/nlKjnmoRUVFPmlbDmja7pm4bmnInvvJoKCkNTTUNTICjmma7pgJror53ljZXlj5Hpn7PkuropCkFJU0hFTEwzICjmma7pgJror53lpJrlj5Hpn7PkuropCkxKU3BlZWNoICjoi7HmlofljZXlj5Hpn7PkuropClZDVEsgKOiLseaWh+WkmuWPkemfs+S6uikKClBhZGRsZVNwZWVjaCDnmoQgVFRTIOaooeWei+WFt+acieS7peS4i+aYoOWwhOWFs+ezu++8mgoKdHRzMCAtIFRhY290cm9uMgp0dHMxIC0gVHJhbnNmb3JtZXJUVFMKdHRzMiAtIFNwZWVkeVNwZWVjaAp0dHMzIC0gRmFzdFNwZWVjaDIKdm9jMCAtIFdhdmVGbG93CnZvYzEgLSBQYXJhbGxlbCBXYXZlR0FOCnZvYzIgLSBNZWxHQU4Kdm9jMyAtIE11bHRpQmFuZCBNZWxHQU4Kdm9jNCAtIFN0eWxlIE1lbEdBTgp2b2M1IC0gSGlGaUdBTgp2YzAgLSBUYWNvdHJvbjIgVm9pY2UgQ2xvbmUgd2l0aCBHRTJFCnZjMSAtIEZhc3RTcGVlY2gyIFZvaWNlIENsb25lIHdpdGggR0UyRQoK5Lul5LiL5pivIFBhZGRsZVNwZWVjaCDmj5DkvpvnmoTlj6/ku6Xooqvlkb3ku6TooYzlkowgcHl0aG9uIEFQSSDkvb/nlKjnmoTpooTorq3nu4PmqKHlnovliJfooajvvJoKCi0g5aOw5a2m5qih5Z6LCiAgfCDmqKHlnosgfCDor63oqIAgfAogIHwgOi0tLSB8IDotLS06IHwKICB8ICAgICAgc3BlZWR5c3BlZWNoX2NzbXNjICAgICAgfCAgICB6aCAgICB8CiAgfCAgICAgIGZhc3RzcGVlY2gyX2NzbXNjICAgICAgIHwgICAgemggICAgfAogIHwgICAgIGZhc3RzcGVlY2gyX2xqc3BlZWNoICAgICB8ICAgIGVuICAgIHwKICB8ICAgICBmYXN0c3BlZWNoMl9haXNoZWxsMyAgICAgfCAgICB6aCAgICB8CiAgfCAgICAgICBmYXN0c3BlZWNoMl92Y3RrICAgICAgIHwgICAgZW4gICAgfAogIHwgZmFzdHNwZWVjaDJfY25uZGVjb2Rlcl9jc21zYyB8ICAgIHpoICAgIHwKICB8ICAgICAgIGZhc3RzcGVlY2gyX21peCAgICAgICAgfCAgIG1peCAgICB8CiAgfCAgICAgICB0YWNvdHJvbjJfY3Ntc2MgICAgICAgIHwgICAgemggICAgfAogIHwgICAgICB0YWNvdHJvbjJfbGpzcGVlY2ggICAgICB8ICAgIGVuICAgIHwKICB8ICAgICAgIGZhc3RzcGVlY2gyX21hbGUgICAgICAgfCAgICB6aCAgICB8CiAgfCAgICAgICBmYXN0c3BlZWNoMl9tYWxlICAgICAgIHwgICAgZW4gICAgfAogIHwgICAgICAgZmFzdHNwZWVjaDJfbWFsZSAgICAgICB8ICAgbWl4ICAgIHwKICB8ICAgICAgIGZhc3RzcGVlY2gyX2NhbnRvbiAgICAgfCAgY2FudG9uICB8CgotIOWjsOeggeWZqAogIHwg5qih5Z6LIHwg6K+t6KiAIHwKICB8IDotLS0gfCA6LS0tOiB8CiAgfCAgICAgICAgIHB3Z2FuX2NzbXNjICAgICAgICAgIHwgICAgemggICAgfAogIHwgICAgICAgIHB3Z2FuX2xqc3BlZWNoICAgICAgICB8ICAgIGVuICAgIHwKICB8ICAgICAgICBwd2dhbl9haXNoZWxsMyAgICAgICAgfCAgICB6aCAgICB8CiAgfCAgICAgICAgICBwd2dhbl92Y3RrICAgICAgICAgIHwgICAgZW4gICAgfAogIHwgICAgICAgbWJfbWVsZ2FuX2NzbXNjICAgICAgICB8ICAgIHpoICAgIHwKICB8ICAgICAgc3R5bGVfbWVsZ2FuX2NzbXNjICAgICAgfCAgICB6aCAgICB8CiAgfCAgICAgICAgaGlmaWdhbl9jc21zYyAgICAgICAgIHwgICAgemggICAgfAogIHwgICAgICAgaGlmaWdhbl9sanNwZWVjaCAgICAgICB8ICAgIGVuICAgIHwKICB8ICAgICAgIGhpZmlnYW5fYWlzaGVsbDMgICAgICAgfCAgICB6aCAgICB8CiAgfCAgICAgICAgIGhpZmlnYW5fdmN0ayAgICAgICAgIHwgICAgZW4gICAgfAogIHwgICAgICAgIHdhdmVybm5fY3Ntc2MgICAgICAgICB8ICAgIHpoICAgIHwKICB8ICAgICAgICAgcHdnYW5fbWFsZSAgICAgICAgICAgfCAgICB6aCAgICB8CiAgfCAgICAgICAgaGlmaWdhbl9tYWxlICAgICAgICAgIHwgICAgemggICAgfAoiIiIKCgpjbGFzcyBQYWRkbGVUVFM6CiAgICBkZWYgX19pbml0X18oc2VsZikgLT4gTm9uZToKICAgICAgICBwYXNzCiAgICAgICAgCiAgICBkZWYgcHJlZGljdChzZWxmLCB0ZXh0LCBhbSwgdm9jLCBzcGtfaWQgPSAxNzQsIGxhbmcgPSAnemgnLCBtYWxlPUZhbHNlLCBzYXZlX3BhdGggPSAnb3V0cHV0LndhdicpOgogICAgICAgIHNlbGYudHRzID0gVFRTRXhlY3V0b3IoKQogICAgICAgIAogICAgICAgIHVzZV9vbm54ID0gVHJ1ZQogICAgICAgIHZvYyA9IHZvYy5sb3dlcigpCiAgICAgICAgYW0gPSBhbS5sb3dlcigpCiAgICAgICAgCiAgICAgICAgaWYgbWFsZToKICAgICAgICAgICAgYXNzZXJ0IHZvYyBpbiBbInB3Z2FuIiwgImhpZmlnYW4iXSwgIm1hbGUgdm9jIG11c3QgYmUgJ3B3Z2FuJyBvciAnaGlmaWdhbiciCiAgICAgICAgICAgIHdhdl9maWxlID0gc2VsZi50dHMoCiAgICAgICAgICAgIHRleHQgPSB0ZXh0LAogICAgICAgICAgICBvdXRwdXQgPSBzYXZlX3BhdGgsCiAgICAgICAgICAgIGFtPSdmYXN0c3BlZWNoMl9tYWxlJywKICAgICAgICAgICAgdm9jPSB2b2MgKyAnX21hbGUnLAogICAgICAgICAgICBsYW5nPWxhbmcsCiAgICAgICAgICAgIHVzZV9vbm54PXVzZV9vbm54CiAgICAgICAgICAgICkKICAgICAgICAgICAgcmV0dXJuIHdhdl9maWxlCiAgICAKICAgICAgICBhc3NlcnQgYW0gaW4gWyd0YWNvdHJvbjInLCAnZmFzdHNwZWVjaDInXSwgImFtIG11c3QgYmUgJ3RhY290cm9uMicgb3IgJ2Zhc3RzcGVlY2gyJyIKICAgICAgICAKICAgICAgICAjIOa3t+WQiOS4reaWh+iLseaWh+ivremfs+WQiOaIkAogICAgICAgIGlmIGxhbmcgPT0gJ21peCc6CiAgICAgICAgICAgICMgbWl45Y+q5pyJZmFzdHNwZWVjaDIKICAgICAgICAgICAgYW0gPSAnZmFzdHNwZWVjaDJfbWl4JwogICAgICAgICAgICB2b2MgKz0gJ19jc21zYycKICAgICAgICAjIOiLseaWh+ivremfs+WQiOaIkAogICAgICAgIGVsaWYgbGFuZyA9PSAnZW4nOgogICAgICAgICAgICBhbSArPSAnX2xqc3BlZWNoJwogICAgICAgICAgICB2b2MgKz0gJ19sanNwZWVjaCcKICAgICAgICAjIOS4reaWh+ivremfs+WQiOaIkAogICAgICAgIGVsaWYgbGFuZyA9PSAnemgnOgogICAgICAgICAgICBhc3NlcnQgdm9jIGluIFsnd2F2ZXJubicsICdwd2dhbicsICdoaWZpZ2FuJywgJ3N0eWxlX21lbGdhbicsICdtYl9tZWxnYW4nXSwgInZvYyBtdXN0IGJlICd3YXZlcm5uJyBvciAncHdnYW4nIG9yICdoaWZpZ2FuJyBvciAnc3R5bGVfbWVsZ2FuJyBvciAnbWJfbWVsZ2FuJyIKICAgICAgICAgICAgYW0gKz0gJ19jc21zYycKICAgICAgICAgICAgdm9jICs9ICdfY3Ntc2MnCiAgICAgICAgZWxpZiBsYW5nID09ICdjYW50b24nOgogICAgICAgICAgICBhbSA9ICdmYXN0c3BlZWNoMl9jYW50b24nCiAgICAgICAgICAgIHZvYyA9ICdwd2dhbl9haXNoZWxsMycKICAgICAgICAgICAgc3BrX2lkID0gMTAKICAgICAgICBwcmludCgiYW06IiwgYW0sICJ2b2M6Iiwgdm9jLCAibGFuZzoiLCBsYW5nLCAibWFsZToiLCBtYWxlLCAic3BrX2lkOiIsIHNwa19pZCkKICAgICAgICB0cnk6CiAgICAgICAgICAgIGNtZCA9IGYncGFkZGxlc3BlZWNoIHR0cyAtLWFtIHthbX0gLS12b2Mge3ZvY30gLS1pbnB1dCAie3RleHR9IiAtLW91dHB1dCB7c2F2ZV9wYXRofSAtLWxhbmcge2xhbmd9IC0tc3BrX2lkIHtzcGtfaWR9IC0tdXNlX29ubngge3VzZV9vbm54fScKICAgICAgICAgICAgb3Muc3lzdGVtKGNtZCkKICAgICAgICAgICAgd2F2X2ZpbGUgPSBzYXZlX3BhdGgKICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgICMg6K+t6Z+z5ZCI5oiQCiAgICAgICAgICAgIHdhdl9maWxlID0gc2VsZi50dHMoCiAgICAgICAgICAgICAgICB0ZXh0ID0gdGV4dCwKICAgICAgICAgICAgICAgIG91dHB1dCA9IHNhdmVfcGF0aCwKICAgICAgICAgICAgICAgIGFtID0gYW0sCiAgICAgICAgICAgICAgICB2b2MgPSB2b2MsCiAgICAgICAgICAgICAgICBsYW5nID0gbGFuZywKICAgICAgICAgICAgICAgIHNwa19pZCA9IHNwa19pZCwKICAgICAgICAgICAgICAgIHVzZV9vbm54PXVzZV9vbm54CiAgICAgICAgICAgICAgICApCiAgICAgICAgcmV0dXJuIHdhdl9maWxlIAogICAgICAgIAppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgdHRzID0gUGFkZGxlVFRTKCkKICAgIHR0cy5wcmVkaWN0KCJIZWxsbyB3b3JsZCIsICdGYXN0U3BlZWNoMicsICdQV0dhbicsIHNwa19pZD0xNzQsIGxhbmc9J2VuJywgbWFsZT1GYWxzZSwgc2F2ZV9wYXRoPSdvdXRwdXQud2F2Jyk=
+import os
+from paddlespeech.cli.tts.infer import TTSExecutor
+
+"""
+PaddleSpeech
+
+声码器说明：这里预制了三种声码器【PWGan】【WaveRnn】【HifiGan】, 三种声码器效果和生成时间有比较大的差距，请跟进自己的需要进行选择。不过只选择了前两种，因为WaveRNN太慢了
+
+| 声码器 | 音频质量 | 生成速度 |
+| :----: | :----: | :----: |
+| PWGan | 中等 | 中等 |
+| WaveRnn | 高 | 非常慢（耐心等待） |
+| HifiGan | 低 | 快 |
+
+这些PaddleSpeech中的样例主要按数据集分类，我们主要使用的TTS数据集有：
+
+CSMCS (普通话单发音人)
+AISHELL3 (普通话多发音人)
+LJSpeech (英文单发音人)
+VCTK (英文多发音人)
+
+PaddleSpeech 的 TTS 模型具有以下映射关系：
+
+tts0 - Tacotron2
+tts1 - TransformerTTS
+tts2 - SpeedySpeech
+tts3 - FastSpeech2
+voc0 - WaveFlow
+voc1 - Parallel WaveGAN
+voc2 - MelGAN
+voc3 - MultiBand MelGAN
+voc4 - Style MelGAN
+voc5 - HiFiGAN
+vc0 - Tacotron2 Voice Clone with GE2E
+vc1 - FastSpeech2 Voice Clone with GE2E
+
+以下是 PaddleSpeech 提供的可以被命令行和 python API 使用的预训练模型列表：
+
+- 声学模型
+  | 模型 | 语言 |
+  | :--- | :---: |
+  |      speedyspeech_csmsc      |    zh    |
+  |      fastspeech2_csmsc       |    zh    |
+  |     fastspeech2_ljspeech     |    en    |
+  |     fastspeech2_aishell3     |    zh    |
+  |       fastspeech2_vctk       |    en    |
+  | fastspeech2_cnndecoder_csmsc |    zh    |
+  |       fastspeech2_mix        |   mix    |
+  |       tacotron2_csmsc        |    zh    |
+  |      tacotron2_ljspeech      |    en    |
+  |       fastspeech2_male       |    zh    |
+  |       fastspeech2_male       |    en    |
+  |       fastspeech2_male       |   mix    |
+  |       fastspeech2_canton     |  canton  |
+
+- 声码器
+  | 模型 | 语言 |
+  | :--- | :---: |
+  |         pwgan_csmsc          |    zh    |
+  |        pwgan_ljspeech        |    en    |
+  |        pwgan_aishell3        |    zh    |
+  |          pwgan_vctk          |    en    |
+  |       mb_melgan_csmsc        |    zh    |
+  |      style_melgan_csmsc      |    zh    |
+  |        hifigan_csmsc         |    zh    |
+  |       hifigan_ljspeech       |    en    |
+  |       hifigan_aishell3       |    zh    |
+  |         hifigan_vctk         |    en    |
+  |        wavernn_csmsc         |    zh    |
+  |         pwgan_male           |    zh    |
+  |        hifigan_male          |    zh    |
+"""
+
+
+class PaddleTTS:
+    def __init__(self) -> None:
+        pass
+        
+    def predict(self, text, am, voc, spk_id = 174, lang = 'zh', male=False, save_path = 'output.wav'):
+        self.tts = TTSExecutor()
+        
+        use_onnx = True
+        voc = voc.lower()
+        am = am.lower()
+        
+        if male:
+            assert voc in ["pwgan", "hifigan"], "male voc must be 'pwgan' or 'hifigan'"
+            wav_file = self.tts(
+            text = text,
+            output = save_path,
+            am='fastspeech2_male',
+            voc= voc + '_male',
+            lang=lang,
+            use_onnx=use_onnx
+            )
+            return wav_file
+    
+        assert am in ['tacotron2', 'fastspeech2'], "am must be 'tacotron2' or 'fastspeech2'"
+        
+        # 混合中文英文语音合成
+        if lang == 'mix':
+            # mix只有fastspeech2
+            am = 'fastspeech2_mix'
+            voc += '_csmsc'
+        # 英文语音合成
+        elif lang == 'en':
+            am += '_ljspeech'
+            voc += '_ljspeech'
+        # 中文语音合成
+        elif lang == 'zh':
+            assert voc in ['wavernn', 'pwgan', 'hifigan', 'style_melgan', 'mb_melgan'], "voc must be 'wavernn' or 'pwgan' or 'hifigan' or 'style_melgan' or 'mb_melgan'"
+            am += '_csmsc'
+            voc += '_csmsc'
+        elif lang == 'canton':
+            am = 'fastspeech2_canton'
+            voc = 'pwgan_aishell3'
+            spk_id = 10
+        print("am:", am, "voc:", voc, "lang:", lang, "male:", male, "spk_id:", spk_id)
+        try:
+            cmd = f'paddlespeech tts --am {am} --voc {voc} --input "{text}" --output {save_path} --lang {lang} --spk_id {spk_id} --use_onnx {use_onnx}'
+            os.system(cmd)
+            wav_file = save_path
+        except:
+            # 语音合成
+            wav_file = self.tts(
+                text = text,
+                output = save_path,
+                am = am,
+                voc = voc,
+                lang = lang,
+                spk_id = spk_id,
+                use_onnx=use_onnx
+                )
+        return wav_file 
+        
+if __name__ == "__main__":
+    tts = PaddleTTS()
+    tts.predict("Hello world", 'FastSpeech2', 'PWGan', spk_id=174, lang='en', male=False, save_path='output.wav')

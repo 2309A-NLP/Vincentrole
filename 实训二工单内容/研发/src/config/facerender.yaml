@@ -1,1 +1,45 @@
-bW9kZWxfcGFyYW1zOgogIGNvbW1vbl9wYXJhbXM6CiAgICBudW1fa3A6IDE1IAogICAgaW1hZ2VfY2hhbm5lbDogMyAgICAgICAgICAgICAgICAgICAgCiAgICBmZWF0dXJlX2NoYW5uZWw6IDMyCiAgICBlc3RpbWF0ZV9qYWNvYmlhbjogRmFsc2UgICAjIFRydWUKICBrcF9kZXRlY3Rvcl9wYXJhbXM6CiAgICAgdGVtcGVyYXR1cmU6IDAuMQogICAgIGJsb2NrX2V4cGFuc2lvbjogMzIgICAgICAgICAgICAKICAgICBtYXhfZmVhdHVyZXM6IDEwMjQKICAgICBzY2FsZV9mYWN0b3I6IDAuMjUgICAgICAgICAjIDAuMjUKICAgICBudW1fYmxvY2tzOiA1CiAgICAgcmVzaGFwZV9jaGFubmVsOiAxNjM4NCAgIyAxNjM4NCA9IDEwMjQgKiAxNgogICAgIHJlc2hhcGVfZGVwdGg6IDE2CiAgaGVfZXN0aW1hdG9yX3BhcmFtczoKICAgICBibG9ja19leHBhbnNpb246IDY0ICAgICAgICAgICAgCiAgICAgbWF4X2ZlYXR1cmVzOiAyMDQ4CiAgICAgbnVtX2JpbnM6IDY2CiAgZ2VuZXJhdG9yX3BhcmFtczoKICAgIGJsb2NrX2V4cGFuc2lvbjogNjQKICAgIG1heF9mZWF0dXJlczogNTEyCiAgICBudW1fZG93bl9ibG9ja3M6IDIKICAgIHJlc2hhcGVfY2hhbm5lbDogMzIKICAgIHJlc2hhcGVfZGVwdGg6IDE2ICAgICAgICAgIyA1MTIgPSAzMiAqIDE2CiAgICBudW1fcmVzYmxvY2tzOiA2CiAgICBlc3RpbWF0ZV9vY2NsdXNpb25fbWFwOiBUcnVlCiAgICBkZW5zZV9tb3Rpb25fcGFyYW1zOgogICAgICBibG9ja19leHBhbnNpb246IDMyCiAgICAgIG1heF9mZWF0dXJlczogMTAyNAogICAgICBudW1fYmxvY2tzOiA1CiAgICAgIHJlc2hhcGVfZGVwdGg6IDE2CiAgICAgIGNvbXByZXNzOiA0CiAgZGlzY3JpbWluYXRvcl9wYXJhbXM6CiAgICBzY2FsZXM6IFsxXQogICAgYmxvY2tfZXhwYW5zaW9uOiAzMiAgICAgICAgICAgICAgICAgCiAgICBtYXhfZmVhdHVyZXM6IDUxMgogICAgbnVtX2Jsb2NrczogNAogICAgc246IFRydWUKICBtYXBwaW5nX3BhcmFtczoKICAgICAgY29lZmZfbmM6IDcwCiAgICAgIGRlc2NyaXB0b3JfbmM6IDEwMjQKICAgICAgbGF5ZXI6IDMKICAgICAgbnVtX2twOiAxNQogICAgICBudW1fYmluczogNjYKCg==
+model_params:
+  common_params:
+    num_kp: 15 
+    image_channel: 3                    
+    feature_channel: 32
+    estimate_jacobian: False   # True
+  kp_detector_params:
+     temperature: 0.1
+     block_expansion: 32            
+     max_features: 1024
+     scale_factor: 0.25         # 0.25
+     num_blocks: 5
+     reshape_channel: 16384  # 16384 = 1024 * 16
+     reshape_depth: 16
+  he_estimator_params:
+     block_expansion: 64            
+     max_features: 2048
+     num_bins: 66
+  generator_params:
+    block_expansion: 64
+    max_features: 512
+    num_down_blocks: 2
+    reshape_channel: 32
+    reshape_depth: 16         # 512 = 32 * 16
+    num_resblocks: 6
+    estimate_occlusion_map: True
+    dense_motion_params:
+      block_expansion: 32
+      max_features: 1024
+      num_blocks: 5
+      reshape_depth: 16
+      compress: 4
+  discriminator_params:
+    scales: [1]
+    block_expansion: 32                 
+    max_features: 512
+    num_blocks: 4
+    sn: True
+  mapping_params:
+      coeff_nc: 70
+      descriptor_nc: 1024
+      layer: 3
+      num_kp: 15
+      num_bins: 66
+

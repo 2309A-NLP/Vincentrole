@@ -1,1 +1,103 @@
-IiIiVGhpcyBzY3JpcHQgY29udGFpbnMgdGhlIGltYWdlIHByZXByb2Nlc3NpbmcgY29kZSBmb3IgRGVlcDNERmFjZVJlY29uX3B5dG9yY2gKIiIiCgppbXBvcnQgbnVtcHkgYXMgbnAKZnJvbSBzY2lweS5pbyBpbXBvcnQgbG9hZG1hdApmcm9tIFBJTCBpbXBvcnQgSW1hZ2UKaW1wb3J0IGN2MgppbXBvcnQgb3MKZnJvbSBza2ltYWdlIGltcG9ydCB0cmFuc2Zvcm0gYXMgdHJhbnMKaW1wb3J0IHRvcmNoCmltcG9ydCB3YXJuaW5ncwp3YXJuaW5ncy5maWx0ZXJ3YXJuaW5ncygiaWdub3JlIiwgY2F0ZWdvcnk9bnAuVmlzaWJsZURlcHJlY2F0aW9uV2FybmluZykgCndhcm5pbmdzLmZpbHRlcndhcm5pbmdzKCJpZ25vcmUiLCBjYXRlZ29yeT1GdXR1cmVXYXJuaW5nKSAKCgojIGNhbGN1bGF0aW5nIGxlYXN0IHNxdWFyZSBwcm9ibGVtIGZvciBpbWFnZSBhbGlnbm1lbnQKZGVmIFBPUyh4cCwgeCk6CiAgICBucHRzID0geHAuc2hhcGVbMV0KCiAgICBBID0gbnAuemVyb3MoWzIqbnB0cywgOF0pCgogICAgQVswOjIqbnB0cy0xOjIsIDA6M10gPSB4LnRyYW5zcG9zZSgpCiAgICBBWzA6MipucHRzLTE6MiwgM10gPSAxCgogICAgQVsxOjIqbnB0czoyLCA0OjddID0geC50cmFuc3Bvc2UoKQogICAgQVsxOjIqbnB0czoyLCA3XSA9IDEKCiAgICBiID0gbnAucmVzaGFwZSh4cC50cmFuc3Bvc2UoKSwgWzIqbnB0cywgMV0pCgogICAgaywgXywgXywgXyA9IG5wLmxpbmFsZy5sc3RzcShBLCBiKQoKICAgIFIxID0ga1swOjNdCiAgICBSMiA9IGtbNDo3XQogICAgc1R4ID0ga1szXQogICAgc1R5ID0ga1s3XQogICAgcyA9IChucC5saW5hbGcubm9ybShSMSkgKyBucC5saW5hbGcubm9ybShSMikpLzIKICAgIHQgPSBucC5zdGFjayhbc1R4LCBzVHldLCBheGlzPTApCgogICAgcmV0dXJuIHQsIHMKICAgIAojIHJlc2l6ZSBhbmQgY3JvcCBpbWFnZXMgZm9yIGZhY2UgcmVjb25zdHJ1Y3Rpb24KZGVmIHJlc2l6ZV9uX2Nyb3BfaW1nKGltZywgbG0sIHQsIHMsIHRhcmdldF9zaXplPTIyNC4sIG1hc2s9Tm9uZSk6CiAgICB3MCwgaDAgPSBpbWcuc2l6ZQogICAgdyA9ICh3MCpzKS5hc3R5cGUobnAuaW50MzIpCiAgICBoID0gKGgwKnMpLmFzdHlwZShucC5pbnQzMikKICAgIGxlZnQgPSAody8yIC0gdGFyZ2V0X3NpemUvMiArIGZsb2F0KCh0WzBdIC0gdzAvMikqcykpLmFzdHlwZShucC5pbnQzMikKICAgIHJpZ2h0ID0gbGVmdCArIHRhcmdldF9zaXplCiAgICB1cCA9IChoLzIgLSB0YXJnZXRfc2l6ZS8yICsgZmxvYXQoKGgwLzIgLSB0WzFdKSpzKSkuYXN0eXBlKG5wLmludDMyKQogICAgYmVsb3cgPSB1cCArIHRhcmdldF9zaXplCgogICAgaW1nID0gaW1nLnJlc2l6ZSgodywgaCksIHJlc2FtcGxlPUltYWdlLkJJQ1VCSUMpCiAgICBpbWcgPSBpbWcuY3JvcCgobGVmdCwgdXAsIHJpZ2h0LCBiZWxvdykpCgogICAgaWYgbWFzayBpcyBub3QgTm9uZToKICAgICAgICBtYXNrID0gbWFzay5yZXNpemUoKHcsIGgpLCByZXNhbXBsZT1JbWFnZS5CSUNVQklDKQogICAgICAgIG1hc2sgPSBtYXNrLmNyb3AoKGxlZnQsIHVwLCByaWdodCwgYmVsb3cpKQoKICAgIGxtID0gbnAuc3RhY2soW2xtWzosIDBdIC0gdFswXSArIHcwLzIsIGxtWzosIDFdIC0KICAgICAgICAgICAgICAgICAgdFsxXSArIGgwLzJdLCBheGlzPTEpKnMKICAgIGxtID0gbG0gLSBucC5yZXNoYXBlKAogICAgICAgICAgICBucC5hcnJheShbKHcvMiAtIHRhcmdldF9zaXplLzIpLCAoaC8yLXRhcmdldF9zaXplLzIpXSksIFsxLCAyXSkKCiAgICByZXR1cm4gaW1nLCBsbSwgbWFzawoKIyB1dGlscyBmb3IgZmFjZSByZWNvbnN0cnVjdGlvbgpkZWYgZXh0cmFjdF81cChsbSk6CiAgICBsbV9pZHggPSBucC5hcnJheShbMzEsIDM3LCA0MCwgNDMsIDQ2LCA0OSwgNTVdKSAtIDEKICAgIGxtNXAgPSBucC5zdGFjayhbbG1bbG1faWR4WzBdLCA6XSwgbnAubWVhbihsbVtsbV9pZHhbWzEsIDJdXSwgOl0sIDApLCBucC5tZWFuKAogICAgICAgIGxtW2xtX2lkeFtbMywgNF1dLCA6XSwgMCksIGxtW2xtX2lkeFs1XSwgOl0sIGxtW2xtX2lkeFs2XSwgOl1dLCBheGlzPTApCiAgICBsbTVwID0gbG01cFtbMSwgMiwgMCwgMywgNF0sIDpdCiAgICByZXR1cm4gbG01cAoKIyB1dGlscyBmb3IgZmFjZSByZWNvbnN0cnVjdGlvbgpkZWYgYWxpZ25faW1nKGltZywgbG0sIGxtM0QsIG1hc2s9Tm9uZSwgdGFyZ2V0X3NpemU9MjI0LiwgcmVzY2FsZV9mYWN0b3I9MTAyLik6CiAgICAiIiIKICAgIFJldHVybjoKICAgICAgICB0cmFuc3BhcmFtcyAgICAgICAgLS1udW1weS5hcnJheSAgKHJhd19XLCByYXdfSCwgc2NhbGUsIHR4LCB0eSkKICAgICAgICBpbWdfbmV3ICAgICAgICAgICAgLS1QSUwuSW1hZ2UgICh0YXJnZXRfc2l6ZSwgdGFyZ2V0X3NpemUsIDMpCiAgICAgICAgbG1fbmV3ICAgICAgICAgICAgIC0tbnVtcHkuYXJyYXkgICg2OCwgMiksIHkgZGlyZWN0aW9uIGlzIG9wcG9zaXRlIHRvIHYgZGlyZWN0aW9uCiAgICAgICAgbWFza19uZXcgICAgICAgICAgIC0tUElMLkltYWdlICAodGFyZ2V0X3NpemUsIHRhcmdldF9zaXplKQogICAgCiAgICBQYXJhbWV0ZXJzOgogICAgICAgIGltZyAgICAgICAgICAgICAgICAtLVBJTC5JbWFnZSAgKHJhd19ILCByYXdfVywgMykKICAgICAgICBsbSAgICAgICAgICAgICAgICAgLS1udW1weS5hcnJheSAgKDY4LCAyKSwgeSBkaXJlY3Rpb24gaXMgb3Bwb3NpdGUgdG8gdiBkaXJlY3Rpb24KICAgICAgICBsbTNEICAgICAgICAgICAgICAgLS1udW1weS5hcnJheSAgKDUsIDMpCiAgICAgICAgbWFzayAgICAgICAgICAgICAgIC0tUElMLkltYWdlICAocmF3X0gsIHJhd19XLCAzKQogICAgIiIiCgogICAgdzAsIGgwID0gaW1nLnNpemUKICAgIGlmIGxtLnNoYXBlWzBdICE9IDU6CiAgICAgICAgbG01cCA9IGV4dHJhY3RfNXAobG0pCiAgICBlbHNlOgogICAgICAgIGxtNXAgPSBsbQoKICAgICMgY2FsY3VsYXRlIHRyYW5zbGF0aW9uIGFuZCBzY2FsZSBmYWN0b3JzIHVzaW5nIDUgZmFjaWFsIGxhbmRtYXJrcyBhbmQgc3RhbmRhcmQgbGFuZG1hcmtzIG9mIGEgM0QgZmFjZQogICAgdCwgcyA9IFBPUyhsbTVwLnRyYW5zcG9zZSgpLCBsbTNELnRyYW5zcG9zZSgpKQogICAgcyA9IHJlc2NhbGVfZmFjdG9yL3MKCiAgICAjIHByb2Nlc3NpbmcgdGhlIGltYWdlCiAgICBpbWdfbmV3LCBsbV9uZXcsIG1hc2tfbmV3ID0gcmVzaXplX25fY3JvcF9pbWcoaW1nLCBsbSwgdCwgcywgdGFyZ2V0X3NpemU9dGFyZ2V0X3NpemUsIG1hc2s9bWFzaykKICAgIHRyYW5zX3BhcmFtcyA9IG5wLmFycmF5KFt3MCwgaDAsIHMsIHRbMF0sIHRbMV1dKQoKICAgIHJldHVybiB0cmFuc19wYXJhbXMsIGltZ19uZXcsIGxtX25ldywgbWFza19uZXcK
+"""This script contains the image preprocessing code for Deep3DFaceRecon_pytorch
+"""
+
+import numpy as np
+from scipy.io import loadmat
+from PIL import Image
+import cv2
+import os
+from skimage import transform as trans
+import torch
+import warnings
+warnings.filterwarnings("ignore", category=np.VisibleDeprecationWarning) 
+warnings.filterwarnings("ignore", category=FutureWarning) 
+
+
+# calculating least square problem for image alignment
+def POS(xp, x):
+    npts = xp.shape[1]
+
+    A = np.zeros([2*npts, 8])
+
+    A[0:2*npts-1:2, 0:3] = x.transpose()
+    A[0:2*npts-1:2, 3] = 1
+
+    A[1:2*npts:2, 4:7] = x.transpose()
+    A[1:2*npts:2, 7] = 1
+
+    b = np.reshape(xp.transpose(), [2*npts, 1])
+
+    k, _, _, _ = np.linalg.lstsq(A, b)
+
+    R1 = k[0:3]
+    R2 = k[4:7]
+    sTx = k[3]
+    sTy = k[7]
+    s = (np.linalg.norm(R1) + np.linalg.norm(R2))/2
+    t = np.stack([sTx, sTy], axis=0)
+
+    return t, s
+    
+# resize and crop images for face reconstruction
+def resize_n_crop_img(img, lm, t, s, target_size=224., mask=None):
+    w0, h0 = img.size
+    w = (w0*s).astype(np.int32)
+    h = (h0*s).astype(np.int32)
+    left = (w/2 - target_size/2 + float((t[0] - w0/2)*s)).astype(np.int32)
+    right = left + target_size
+    up = (h/2 - target_size/2 + float((h0/2 - t[1])*s)).astype(np.int32)
+    below = up + target_size
+
+    img = img.resize((w, h), resample=Image.BICUBIC)
+    img = img.crop((left, up, right, below))
+
+    if mask is not None:
+        mask = mask.resize((w, h), resample=Image.BICUBIC)
+        mask = mask.crop((left, up, right, below))
+
+    lm = np.stack([lm[:, 0] - t[0] + w0/2, lm[:, 1] -
+                  t[1] + h0/2], axis=1)*s
+    lm = lm - np.reshape(
+            np.array([(w/2 - target_size/2), (h/2-target_size/2)]), [1, 2])
+
+    return img, lm, mask
+
+# utils for face reconstruction
+def extract_5p(lm):
+    lm_idx = np.array([31, 37, 40, 43, 46, 49, 55]) - 1
+    lm5p = np.stack([lm[lm_idx[0], :], np.mean(lm[lm_idx[[1, 2]], :], 0), np.mean(
+        lm[lm_idx[[3, 4]], :], 0), lm[lm_idx[5], :], lm[lm_idx[6], :]], axis=0)
+    lm5p = lm5p[[1, 2, 0, 3, 4], :]
+    return lm5p
+
+# utils for face reconstruction
+def align_img(img, lm, lm3D, mask=None, target_size=224., rescale_factor=102.):
+    """
+    Return:
+        transparams        --numpy.array  (raw_W, raw_H, scale, tx, ty)
+        img_new            --PIL.Image  (target_size, target_size, 3)
+        lm_new             --numpy.array  (68, 2), y direction is opposite to v direction
+        mask_new           --PIL.Image  (target_size, target_size)
+    
+    Parameters:
+        img                --PIL.Image  (raw_H, raw_W, 3)
+        lm                 --numpy.array  (68, 2), y direction is opposite to v direction
+        lm3D               --numpy.array  (5, 3)
+        mask               --PIL.Image  (raw_H, raw_W, 3)
+    """
+
+    w0, h0 = img.size
+    if lm.shape[0] != 5:
+        lm5p = extract_5p(lm)
+    else:
+        lm5p = lm
+
+    # calculate translation and scale factors using 5 facial landmarks and standard landmarks of a 3D face
+    t, s = POS(lm5p.transpose(), lm3D.transpose())
+    s = rescale_factor/s
+
+    # processing the image
+    img_new, lm_new, mask_new = resize_n_crop_img(img, lm, t, s, target_size=target_size, mask=mask)
+    trans_params = np.array([w0, h0, s, t[0], t[1]])
+
+    return trans_params, img_new, lm_new, mask_new

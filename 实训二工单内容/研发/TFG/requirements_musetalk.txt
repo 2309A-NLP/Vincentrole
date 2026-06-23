@@ -1,1 +1,19 @@
-IyBwaXAgaW5zdGFsbCAtLW5vLWNhY2hlLWRpciAtVSBvcGVubWltIAojIG1pbSBpbnN0YWxsIG1tZW5naW5lIAojIG1pbSBpbnN0YWxsICJtbWN2Pj0yLjAuMSIgCiMgbWltIGluc3RhbGwgIm1tZGV0Pj0zLjEuMCIgCiMgbWltIGluc3RhbGwgIm1tcG9zZT49MS4xLjAiIAojID09PT09PT1NdXNlVGFsaz09PT09PT09PT09IwpmZm1wZWctcHl0aG9uCmRpZmZ1c2Vycz09MC4yNy4yCmFjY2VsZXJhdGU9PTAuMjguMApvcGVuY3YtcHl0aG9uPT00LjkuMC44MApzb3VuZGZpbGU9PTAuMTIuMQp0cmFuc2Zvcm1lcnM9PTQuMzkuMgpnZG93bgpyZXF1ZXN0cwppbWFnZWlvW2ZmbXBlZ10Kb21lZ2Fjb25mCmZmbXBlZy1weXRob24Kc3BhY2VzCm1vdmllcHkK
+# pip install --no-cache-dir -U openmim 
+# mim install mmengine 
+# mim install "mmcv>=2.0.1" 
+# mim install "mmdet>=3.1.0" 
+# mim install "mmpose>=1.1.0" 
+# =======MuseTalk===========#
+ffmpeg-python
+diffusers==0.27.2
+accelerate==0.28.0
+opencv-python==4.9.0.80
+soundfile==0.12.1
+transformers==4.39.2
+gdown
+requests
+imageio[ffmpeg]
+omegaconf
+ffmpeg-python
+spaces
+moviepy

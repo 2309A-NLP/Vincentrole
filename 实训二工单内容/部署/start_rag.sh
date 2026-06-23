@@ -1,1 +1,8 @@
-IyEvYmluL2Jhc2gKIyBMaW5seS1UYWxrZXIgKyDljLvnlpdSQUcg5LiA6ZSu5ZCv5YqoCmNkIC9yb290L0xpbmx5LVRhbGtlcgpwa2lsbCAtZiAibWluaWNvbmRhMy9iaW4vcHl0aG9uIHdlYnVpLnB5IiAyPi9kZXYvbnVsbCAgICMg5Y+q5p2A55yf5q2j55qE5pyN5Yqh6L+b56iLCnNsZWVwIDIKZXhwb3J0IFRPS0VOSVpFUlNfUEFSQUxMRUxJU009ZmFsc2UKc2V0c2lkIC9yb290L21pbmljb25kYTMvYmluL3B5dGhvbiB3ZWJ1aS5weSA+IC9yb290L0xpbmx5LVRhbGtlci93ZWJ1aS5sb2cgMj4mMSA8IC9kZXYvbnVsbCAmCmVjaG8gIuW3suWQjuWPsOWQr+WKqO+8jOe6pjkw56eS5ZCO6K6/6ZeuIEF1dG9ETOiHquWumuS5ieacjeWKoSg2MDA2KeOAgueci+aXpeW/lzogdGFpbCAtZiAvcm9vdC9MaW5seS1UYWxrZXIvd2VidWkubG9nIgo=
+#!/bin/bash
+# Linly-Talker + 医疗RAG 一键启动
+cd /root/Linly-Talker
+pkill -f "miniconda3/bin/python webui.py" 2>/dev/null   # 只杀真正的服务进程
+sleep 2
+export TOKENIZERS_PARALLELISM=false
+setsid /root/miniconda3/bin/python webui.py > /root/Linly-Talker/webui.log 2>&1 < /dev/null &
+echo "已后台启动，约90秒后访问 AutoDL自定义服务(6006)。看日志: tail -f /root/Linly-Talker/webui.log"

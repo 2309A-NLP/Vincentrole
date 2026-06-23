@@ -1,1 +1,164 @@
-IyBEaXN0cmlidXRlZCBBcmNmYWNlIFRyYWluaW5nIGluIFB5dG9yY2gKClRoaXMgaXMgYSBkZWVwIGxlYXJuaW5nIGxpYnJhcnkgdGhhdCBtYWtlcyBmYWNlIHJlY29nbml0aW9uIGVmZmljaWVudCwgYW5kIGVmZmVjdGl2ZSwgd2hpY2ggY2FuIHRyYWluIHRlbnMgb2YgbWlsbGlvbnMKaWRlbnRpdHkgb24gYSBzaW5nbGUgc2VydmVyLgoKIyMgUmVxdWlyZW1lbnRzCgotIEluc3RhbGwgW3B5dG9yY2hdKGh0dHA6Ly9weXRvcmNoLm9yZykgKHRvcmNoPj0xLjYuMCksIG91ciBkb2MgZm9yIFtpbnN0YWxsLm1kXShkb2NzL2luc3RhbGwubWQpLgotIGBwaXAgaW5zdGFsbCAtciByZXF1aXJlbWVudHMudHh0YC4KLSBEb3dubG9hZCB0aGUgZGF0YXNldAogIGZyb20gW2h0dHBzOi8vZ2l0aHViLmNvbS9kZWVwaW5zaWdodC9pbnNpZ2h0ZmFjZS90cmVlL21hc3Rlci9yZWNvZ25pdGlvbi9fZGF0YXNldHNfXShodHRwczovL2dpdGh1Yi5jb20vZGVlcGluc2lnaHQvaW5zaWdodGZhY2UvdHJlZS9tYXN0ZXIvcmVjb2duaXRpb24vX2RhdGFzZXRzXykKICAuCgojIyBIb3cgdG8gVHJhaW5pbmcKClRvIHRyYWluIGEgbW9kZWwsIHJ1biBgdHJhaW4ucHlgIHdpdGggdGhlIHBhdGggdG8gdGhlIGNvbmZpZ3M6CgojIyMgMS4gU2luZ2xlIG5vZGUsIDggR1BVczoKCmBgYHNoZWxsCnB5dGhvbiAtbSB0b3JjaC5kaXN0cmlidXRlZC5sYXVuY2ggLS1ucHJvY19wZXJfbm9kZT04IC0tbm5vZGVzPTEgLS1ub2RlX3Jhbms9MCAtLW1hc3Rlcl9hZGRyPSIxMjcuMC4wLjEiIC0tbWFzdGVyX3BvcnQ9MTIzNCB0cmFpbi5weSBjb25maWdzL21zMW12M19yNTAKYGBgCgojIyMgMi4gTXVsdGlwbGUgbm9kZXMsIGVhY2ggbm9kZSA4IEdQVXM6CgpOb2RlIDA6CgpgYGBzaGVsbApweXRob24gLW0gdG9yY2guZGlzdHJpYnV0ZWQubGF1bmNoIC0tbnByb2NfcGVyX25vZGU9OCAtLW5ub2Rlcz0yIC0tbm9kZV9yYW5rPTAgLS1tYXN0ZXJfYWRkcj0iaXAxIiAtLW1hc3Rlcl9wb3J0PTEyMzQgdHJhaW4ucHkgdHJhaW4ucHkgY29uZmlncy9tczFtdjNfcjUwCmBgYAoKTm9kZSAxOgoKYGBgc2hlbGwKcHl0aG9uIC1tIHRvcmNoLmRpc3RyaWJ1dGVkLmxhdW5jaCAtLW5wcm9jX3Blcl9ub2RlPTggLS1ubm9kZXM9MiAtLW5vZGVfcmFuaz0xIC0tbWFzdGVyX2FkZHI9ImlwMSIgLS1tYXN0ZXJfcG9ydD0xMjM0IHRyYWluLnB5IHRyYWluLnB5IGNvbmZpZ3MvbXMxbXYzX3I1MApgYGAKCiMjIyAzLlRyYWluaW5nIHJlc25ldDIwNjAgd2l0aCA4IEdQVXM6CgpgYGBzaGVsbApweXRob24gLW0gdG9yY2guZGlzdHJpYnV0ZWQubGF1bmNoIC0tbnByb2NfcGVyX25vZGU9OCAtLW5ub2Rlcz0xIC0tbm9kZV9yYW5rPTAgLS1tYXN0ZXJfYWRkcj0iMTI3LjAuMC4xIiAtLW1hc3Rlcl9wb3J0PTEyMzQgdHJhaW4ucHkgY29uZmlncy9tczFtdjNfcjIwNjAucHkKYGBgCgojIyBNb2RlbCBab28KCi0gVGhlIG1vZGVscyBhcmUgYXZhaWxhYmxlIGZvciBub24tY29tbWVyY2lhbCByZXNlYXJjaCBwdXJwb3NlcyBvbmx5LiAgCi0gQWxsIG1vZGVscyBjYW4gYmUgZm91bmQgaW4gaGVyZS4gIAotIFtCYWlkdSBZdW4gUGFuXShodHRwczovL3Bhbi5iYWlkdS5jb20vcy8xQ0wtbDR6V3FzSTFvRHVFRVlWaGotZyk6ICAgZThwdyAgCi0gW29uZWRyaXZlXShodHRwczovLzFkcnYubXMvdS9zIUFzd3BzRE8ydG9OS3EwbFdZNjl2TjU4R1I2bXc/ZT1wOU92NWQpCgojIyMgUGVyZm9ybWFuY2Ugb24gWyoqSUNDVjIwMjEtTUZSKipdKGh0dHA6Ly9pY2N2MjEtbWZyLmNvbS8pCgpJQ0NWMjAyMS1NRlIgdGVzdHNldCBjb25zaXN0cyBvZiBub24tY2VsZWJyaXRpZXMgc28gd2UgY2FuIGVuc3VyZSB0aGF0IGl0IGhhcyB2ZXJ5IGZldyBvdmVybGFwIHdpdGggcHVibGljIGF2YWlsYWJsZSBmYWNlIApyZWNvZ25pdGlvbiB0cmFpbmluZyBzZXQsIHN1Y2ggYXMgTVMxTSBhbmQgQ0FTSUEgYXMgdGhleSBtb3N0bHkgY29sbGVjdGVkIGZyb20gb25saW5lIGNlbGVicml0aWVzLiAKQXMgdGhlIHJlc3VsdCwgd2UgY2FuIGV2YWx1YXRlIHRoZSBGQUlSIHBlcmZvcm1hbmNlIGZvciBkaWZmZXJlbnQgYWxnb3JpdGhtcy4gIAoKRm9yICoqSUNDVjIwMjEtTUZSLUFMTCoqIHNldCwgVEFSIGlzIG1lYXN1cmVkIG9uIGFsbC10by1hbGwgMToxIHByb3RvY2FsLCB3aXRoIEZBUiBsZXNzIHRoYW4gMC4wMDAwMDEoZS02KS4gVGhlIApnbG9iYWxpc2VkIG11bHRpLXJhY2lhbCB0ZXN0c2V0IGNvbnRhaW5zIDI0MiwxNDMgaWRlbnRpdGllcyBhbmQgMSw2MjQsMzA1IGltYWdlcy4gCgpGb3IgKipJQ0NWMjAyMS1NRlItTUFTSyoqIHNldCwgVEFSIGlzIG1lYXN1cmVkIG9uIG1hc2stdG8tbm9ubWFzayAxOjEgcHJvdG9jYWwsIHdpdGggRkFSIGxlc3MgdGhhbiAwLjAwMDEoZS00KS4gCk1hc2sgdGVzdHNldCBjb250YWlucyA2LDk2NCBpZGVudGl0aWVzLCA2LDk2NCBtYXNrZWQgaW1hZ2VzIGFuZCAxMyw5Mjggbm9uLW1hc2tlZCBpbWFnZXMuIApUaGVyZSBhcmUgdG90YWxseSAxMyw5MjggcG9zaXRpdmUgcGFpcnMgYW5kIDk2LDk4Myw4MjQgbmVnYXRpdmUgcGFpcnMuCgp8IERhdGFzZXRzIHwgYmFja2JvbmUgIHwgVHJhaW5pbmcgdGhyb3VnaG91dCB8IFNpemUgLyBNQiAgfCAqKklDQ1YyMDIxLU1GUi1NQVNLKiogfCAqKklDQ1YyMDIxLU1GUi1BTEwqKiB8CnwgOi0tLTogICAgfCA6LS0tICAgICAgfCA6LS0tICAgICAgICAgICAgICAgIHwgOi0tLSAgICAgICB8Oi0tLSAgICAgICAgICAgICAgICAgICB8Oi0tLSAgICAgICAgICAgICAgICAgIHwgICAgIAp8IE1TMU1WMyAgICB8IHIxOCAgfCAtICAgICAgICAgICAgICB8IDkxICAgfCAqKjQ3Ljg1KiogfCAqKjY4LjMzKiogfAp8IEdsaW50MzYwayB8IHIxOCAgfCA4NTM2ICAgICAgICAgICB8IDkxICAgfCAqKjUzLjMyKiogfCAqKjcyLjA3KiogfAp8IE1TMU1WMyAgICB8IHIzNCAgfCAtICAgICAgICAgICAgICB8IDEzMCAgfCAqKjU4LjcyKiogfCAqKjc3LjM2KiogfAp8IEdsaW50MzYwayB8IHIzNCAgfCA2MzQ0ICAgICAgICAgICB8IDEzMCAgfCAqKjY1LjEwKiogfCAqKjgzLjAyKiogfAp8IE1TMU1WMyAgICB8IHI1MCAgfCA1NTAwICAgICAgICAgICB8IDE2NiAgfCAqKjYzLjg1KiogfCAqKjgwLjUzKiogfAp8IEdsaW50MzYwayB8IHI1MCAgfCA1MTM2ICAgICAgICAgICB8IDE2NiAgfCAqKjcwLjIzKiogfCAqKjg3LjA4KiogfAp8IE1TMU1WMyAgICB8IHIxMDAgfCAtICAgICAgICAgICAgICB8IDI0OCAgfCAqKjY5LjA5KiogfCAqKjg0LjMxKiogfAp8IEdsaW50MzYwayB8IHIxMDAgfCAzMzMyICAgICAgICAgICB8IDI0OCAgfCAqKjc1LjU3KiogfCAqKjkwLjY2KiogfAp8IE1TMU1WMyAgICB8IG1vYmlsZWZhY2VuZXQgfCAxMjE4NSB8IDcuOCAgfCAqKjQxLjUyKiogfCAqKjY1LjI2KiogfCAgICAgICAgCnwgR2xpbnQzNjBrIHwgbW9iaWxlZmFjZW5ldCB8IDExMTk3IHwgNy44ICB8ICoqNDQuNTIqKiB8ICoqNjYuNDgqKiB8ICAKCiMjIyBQZXJmb3JtYW5jZSBvbiBJSkItQyBhbmQgVmVyaWZpY2F0aW9uIERhdGFzZXRzCgp8ICAgRGF0YXNldHMgfCBiYWNrYm9uZSAgICAgIHwgSUpCQygxZS0wNSkgfCBJSkJDKDFlLTA0KSB8IGFnZWRiMzAgfCBjZnBfZnAgfCBsZncgIHwgIGxvZyAgICB8CnwgOi0tLTogICAgICB8ICAgIDotLS0gICAgICAgfCA6LS0tICAgICAgICAgIHwgOi0tLSAgfCA6LS0tICB8Oi0tLSAgIHw6LS0tICAgIHw6LS0tICAgICB8ICAKfCBNUzFNVjMgICAgIHwgcjE4ICAgICAgfCA5Mi4wNyB8IDk0LjY2IHwgOTcuNzcgfCA5Ny43MyB8IDk5Ljc3IHxbbG9nXShodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYW54aWFuZ3Npci9pbnNpZ2h0ZmFjZV9hcmNmYWNlX2xvZy9tYXN0ZXIvbXMxbXYzX2FyY2ZhY2VfcjE4X2ZwMTYvdHJhaW5pbmcubG9nKXwgICAgICAgICAKfCBNUzFNVjMgICAgIHwgcjM0ICAgICAgfCA5NC4xMCB8IDk1LjkwIHwgOTguMTAgfCA5OC42NyB8IDk5LjgwIHxbbG9nXShodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYW54aWFuZ3Npci9pbnNpZ2h0ZmFjZV9hcmNmYWNlX2xvZy9tYXN0ZXIvbXMxbXYzX2FyY2ZhY2VfcjM0X2ZwMTYvdHJhaW5pbmcubG9nKXwgICAgICAgIAp8IE1TMU1WMyAgICAgfCByNTAgICAgICB8IDk0Ljc5IHwgOTYuNDYgfCA5OC4zNSB8IDk4Ljk2IHwgOTkuODMgfFtsb2ddKGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9hbnhpYW5nc2lyL2luc2lnaHRmYWNlX2FyY2ZhY2VfbG9nL21hc3Rlci9tczFtdjNfYXJjZmFjZV9yNTBfZnAxNi90cmFpbmluZy5sb2cpfCAgICAgICAgIAp8IE1TMU1WMyAgICAgfCByMTAwICAgICB8IDk1LjMxIHwgOTYuODEgfCA5OC40OCB8IDk5LjA2IHwgOTkuODUgfFtsb2ddKGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9hbnhpYW5nc2lyL2luc2lnaHRmYWNlX2FyY2ZhY2VfbG9nL21hc3Rlci9tczFtdjNfYXJjZmFjZV9yMTAwX2ZwMTYvdHJhaW5pbmcubG9nKXwgICAgICAgIAp8IE1TMU1WMyAgICAgfCAqKnIyMDYwKip8IDk1LjM0IHwgOTcuMTEgfCA5OC42NyB8IDk5LjI0IHwgOTkuODcgfFtsb2ddKGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9hbnhpYW5nc2lyL2luc2lnaHRmYWNlX2FyY2ZhY2VfbG9nL21hc3Rlci9tczFtdjNfYXJjZmFjZV9yMjA2MF9mcDE2L3RyYWluaW5nLmxvZyl8CnwgR2xpbnQzNjBrICB8cjE4LTAuMSAgIHwgOTMuMTYgfCA5NS4zMyB8IDk3LjcyIHwgOTcuNzMgfCA5OS43NyB8W2xvZ10oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FueGlhbmdzaXIvaW5zaWdodGZhY2VfYXJjZmFjZV9sb2cvbWFzdGVyL2dsaW50MzYwa19jb3NmYWNlX3IxOF9mcDE2XzAuMS90cmFpbmluZy5sb2cpfCAKfCBHbGludDM2MGsgIHxyMzQtMC4xICAgfCA5NS4xNiB8IDk2LjU2IHwgOTguMzMgfCA5OC43OCB8IDk5LjgyIHxbbG9nXShodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYW54aWFuZ3Npci9pbnNpZ2h0ZmFjZV9hcmNmYWNlX2xvZy9tYXN0ZXIvZ2xpbnQzNjBrX2Nvc2ZhY2VfcjM0X2ZwMTZfMC4xL3RyYWluaW5nLmxvZyl8IAp8IEdsaW50MzYwayAgfHI1MC0wLjEgICB8IDk1LjYxIHwgOTYuOTcgfCA5OC4zOCB8IDk5LjIwIHwgOTkuODMgfFtsb2ddKGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9hbnhpYW5nc2lyL2luc2lnaHRmYWNlX2FyY2ZhY2VfbG9nL21hc3Rlci9nbGludDM2MGtfY29zZmFjZV9yNTBfZnAxNl8wLjEvdHJhaW5pbmcubG9nKXwgCnwgR2xpbnQzNjBrICB8cjEwMC0wLjEgIHwgOTUuODggfCA5Ny4zMiB8IDk4LjQ4IHwgOTkuMjkgfCA5OS44MiB8W2xvZ10oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FueGlhbmdzaXIvaW5zaWdodGZhY2VfYXJjZmFjZV9sb2cvbWFzdGVyL2dsaW50MzYwa19jb3NmYWNlX3IxMDBfZnAxNl8wLjEvdHJhaW5pbmcubG9nKXwKCltjb21tZW50XTogPD4gKE1vcmUgZGV0YWlscyBzZWUgW21vZGVsLm1kXSYjNDA7ZG9jcy9tb2RlbHpvby5tZCYjNDE7IGluIGRvY3MuKQoKCiMjIFtTcGVlZCBCZW5jaG1hcmtdKGRvY3Mvc3BlZWRfYmVuY2htYXJrLm1kKQoKKipBcmNmYWNlIFRvcmNoKiogY2FuIHRyYWluIGxhcmdlLXNjYWxlIGZhY2UgcmVjb2duaXRpb24gdHJhaW5pbmcgc2V0IGVmZmljaWVudGx5IGFuZCBxdWlja2x5LiBXaGVuIHRoZSBudW1iZXIgb2YKY2xhc3NlcyBpbiB0cmFpbmluZyBzZXRzIGlzIGdyZWF0ZXIgdGhhbiAzMDBLIGFuZCB0aGUgdHJhaW5pbmcgaXMgc3VmZmljaWVudCwgcGFydGlhbCBmYyBzYW1wbGluZyBzdHJhdGVneSB3aWxsIGdldCBzYW1lCmFjY3VyYWN5IHdpdGggc2V2ZXJhbCB0aW1lcyBmYXN0ZXIgdHJhaW5pbmcgcGVyZm9ybWFuY2UgYW5kIHNtYWxsZXIgR1BVIG1lbW9yeS4gClBhcnRpYWwgRkMgaXMgYSBzcGFyc2UgdmFyaWFudCBvZiB0aGUgbW9kZWwgcGFyYWxsZWwgYXJjaGl0ZWN0dXJlIGZvciBsYXJnZSBzYWNsZSAgZmFjZSByZWNvZ25pdGlvbi4gUGFydGlhbCBGQyB1c2UgYSAKc3BhcnNlIHNvZnRtYXgsIHdoZXJlIGVhY2ggYmF0Y2ggZHluYW1pY2x5IHNhbXBsZSBhIHN1YnNldCBvZiBjbGFzcyBjZW50ZXJzIGZvciB0cmFpbmluZy4gSW4gZWFjaCBpdGVyYXRpb24sIG9ubHkgYSAKc3BhcnNlIHBhcnQgb2YgdGhlIHBhcmFtZXRlcnMgd2lsbCBiZSB1cGRhdGVkLCB3aGljaCBjYW4gcmVkdWNlIGEgbG90IG9mIEdQVSBtZW1vcnkgYW5kIGNhbGN1bGF0aW9ucy4gV2l0aCBQYXJ0aWFsIEZDLCAKd2UgY2FuIHNjYWxlIHRyYWluc2V0IG9mIDI5IG1pbGxpb25zIGlkZW50aXRpZXMsIHRoZSBsYXJnZXN0IHRvIGRhdGUuIFBhcnRpYWwgRkMgYWxzbyBzdXBwb3J0cyBtdWx0aS1tYWNoaW5lIGRpc3RyaWJ1dGVkIAp0cmFpbmluZyBhbmQgbWl4ZWQgcHJlY2lzaW9uIHRyYWluaW5nLgoKIVtJbWFnZSB0ZXh0XShodHRwczovL2dpdGh1Yi5jb20vYW54aWFuZ3Npci9pbnNpZ2h0ZmFjZV9hcmNmYWNlX2xvZy9ibG9iL21hc3Rlci9wYXJ0aWFsX2ZjX3YyLnBuZykKCk1vcmUgZGV0YWlscyBzZWUgCltzcGVlZF9iZW5jaG1hcmsubWRdKGRvY3Mvc3BlZWRfYmVuY2htYXJrLm1kKSBpbiBkb2NzLgoKIyMjIDEuIFRyYWluaW5nIHNwZWVkIG9mIGRpZmZlcmVudCBwYXJhbGxlbCBtZXRob2RzIChzYW1wbGVzIC8gc2Vjb25kKSwgVGVzbGEgVjEwMCAzMkdCICogOC4gKExhcmdlciBpcyBiZXR0ZXIpCgpgLWAgbWVhbnMgdHJhaW5pbmcgZmFpbGVkIGJlY2F1c2Ugb2YgZ3B1IG1lbW9yeSBsaW1pdGF0aW9ucy4KCnwgTnVtYmVyIG9mIElkZW50aXRpZXMgaW4gRGF0YXNldCB8IERhdGEgUGFyYWxsZWwgfCBNb2RlbCBQYXJhbGxlbCB8IFBhcnRpYWwgRkMgMC4xIHwKfCA6LS0tICAgIHwgOi0tLSB8IDotLS0gfCA6LS0tIHwKfDEyNTAwMCAgIHwgNDY4MSAgICAgICAgIHwgNDgyNCAgICAgICAgICB8IDUwMDQgICAgIHwKfDE0MDAwMDAgIHwgKioxNjcyKiogICAgIHwgMzA0MyAgICAgICAgICB8IDQ3MzggICAgIHwKfDU1MDAwMDAgIHwgKiotKiogICAgICAgIHwgKioxMzg5KiogICAgICB8IDM5NzUgICAgIHwKfDgwMDAwMDAgIHwgKiotKiogICAgICAgIHwgKiotKiogICAgICAgICB8IDM1NjUgICAgIHwKfDE2MDAwMDAwIHwgKiotKiogICAgICAgIHwgKiotKiogICAgICAgICB8IDI2NzkgICAgIHwKfDI5MDAwMDAwIHwgKiotKiogICAgICAgIHwgKiotKiogICAgICAgICB8ICoqMTg1NSoqIHwKCiMjIyAyLiBHUFUgbWVtb3J5IGNvc3Qgb2YgZGlmZmVyZW50IHBhcmFsbGVsIG1ldGhvZHMgKE1CIHBlciBHUFUpLCBUZXNsYSBWMTAwIDMyR0IgKiA4LiAoU21hbGxlciBpcyBiZXR0ZXIpCgp8IE51bWJlciBvZiBJZGVudGl0aWVzIGluIERhdGFzZXQgfCBEYXRhIFBhcmFsbGVsIHwgTW9kZWwgUGFyYWxsZWwgfCBQYXJ0aWFsIEZDIDAuMSB8CnwgOi0tLSAgICB8IDotLS0gICAgICB8IDotLS0gICAgICB8IDotLS0gIHwKfDEyNTAwMCAgIHwgNzM1OCAgICAgIHwgNTMwNiAgICAgIHwgNDg2OCAgfAp8MTQwMDAwMCAgfCAzMjI1MiAgICAgfCAxMTE3OCAgICAgfCA2MDU2ICB8Cnw1NTAwMDAwICB8ICoqLSoqICAgICB8IDMyMTg4ICAgICB8IDk4NTQgIHwKfDgwMDAwMDAgIHwgKiotKiogICAgIHwgKiotKiogICAgIHwgMTIzMTAgfAp8MTYwMDAwMDAgfCAqKi0qKiAgICAgfCAqKi0qKiAgICAgfCAxOTk1MCB8CnwyOTAwMDAwMCB8ICoqLSoqICAgICB8ICoqLSoqICAgICB8IDMyMzI0IHwKCiMjIEV2YWx1YXRpb24gSUNDVjIwMjEtTUZSIGFuZCBJSkItQwoKTW9yZSBkZXRhaWxzIHNlZSBbZXZhbC5tZF0oZG9jcy9ldmFsLm1kKSBpbiBkb2NzLgoKIyMgVGVzdAoKV2UgdGVzdGVkIG1hbnkgdmVyc2lvbnMgb2YgUHlUb3JjaC4gUGxlYXNlIGNyZWF0ZSBhbiBpc3N1ZSBpZiB5b3UgYXJlIGhhdmluZyB0cm91YmxlLiAgCgotIFt4XSB0b3JjaCAxLjYuMAotIFt4XSB0b3JjaCAxLjcuMQotIFt4XSB0b3JjaCAxLjguMAotIFt4XSB0b3JjaCAxLjkuMAoKIyMgQ2l0YXRpb24KCmBgYApAaW5wcm9jZWVkaW5nc3tkZW5nMjAxOWFyY2ZhY2UsCiAgdGl0bGU9e0FyY2ZhY2U6IEFkZGl0aXZlIGFuZ3VsYXIgbWFyZ2luIGxvc3MgZm9yIGRlZXAgZmFjZSByZWNvZ25pdGlvbn0sCiAgYXV0aG9yPXtEZW5nLCBKaWFua2FuZyBhbmQgR3VvLCBKaWEgYW5kIFh1ZSwgTmlhbm5hbiBhbmQgWmFmZWlyaW91LCBTdGVmYW5vc30sCiAgYm9va3RpdGxlPXtQcm9jZWVkaW5ncyBvZiB0aGUgSUVFRSBDb25mZXJlbmNlIG9uIENvbXB1dGVyIFZpc2lvbiBhbmQgUGF0dGVybiBSZWNvZ25pdGlvbn0sCiAgcGFnZXM9ezQ2OTAtLTQ2OTl9LAogIHllYXI9ezIwMTl9Cn0KQGlucHJvY2VlZGluZ3N7YW4yMDIwcGFydGljYWxfZmMsCiAgdGl0bGU9e1BhcnRpYWwgRkM6IFRyYWluaW5nIDEwIE1pbGxpb24gSWRlbnRpdGllcyBvbiBhIFNpbmdsZSBNYWNoaW5lfSwKICBhdXRob3I9e0FuLCBYaWFuZyBhbmQgWmh1LCBYdWhhbiBhbmQgWGlhbywgWWFuZyBhbmQgV3UsIExhbiBhbmQgWmhhbmcsIE1pbmcgYW5kIEdhbywgWXVhbiBhbmQgUWluLCBCaW4gYW5kCiAgWmhhbmcsIERlYmluZyBhbmQgRnUgWWluZ30sCiAgYm9va3RpdGxlPXtBcnhpdiAyMDEwLjA1MjIyfSwKICB5ZWFyPXsyMDIwfQp9CmBgYAo=
+# Distributed Arcface Training in Pytorch
+
+This is a deep learning library that makes face recognition efficient, and effective, which can train tens of millions
+identity on a single server.
+
+## Requirements
+
+- Install [pytorch](http://pytorch.org) (torch>=1.6.0), our doc for [install.md](docs/install.md).
+- `pip install -r requirements.txt`.
+- Download the dataset
+  from [https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)
+  .
+
+## How to Training
+
+To train a model, run `train.py` with the path to the configs:
+
+### 1. Single node, 8 GPUs:
+
+```shell
+python -m torch.distributed.launch --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr="127.0.0.1" --master_port=1234 train.py configs/ms1mv3_r50
+```
+
+### 2. Multiple nodes, each node 8 GPUs:
+
+Node 0:
+
+```shell
+python -m torch.distributed.launch --nproc_per_node=8 --nnodes=2 --node_rank=0 --master_addr="ip1" --master_port=1234 train.py train.py configs/ms1mv3_r50
+```
+
+Node 1:
+
+```shell
+python -m torch.distributed.launch --nproc_per_node=8 --nnodes=2 --node_rank=1 --master_addr="ip1" --master_port=1234 train.py train.py configs/ms1mv3_r50
+```
+
+### 3.Training resnet2060 with 8 GPUs:
+
+```shell
+python -m torch.distributed.launch --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr="127.0.0.1" --master_port=1234 train.py configs/ms1mv3_r2060.py
+```
+
+## Model Zoo
+
+- The models are available for non-commercial research purposes only.  
+- All models can be found in here.  
+- [Baidu Yun Pan](https://pan.baidu.com/s/1CL-l4zWqsI1oDuEEYVhj-g):   e8pw  
+- [onedrive](https://1drv.ms/u/s!AswpsDO2toNKq0lWY69vN58GR6mw?e=p9Ov5d)
+
+### Performance on [**ICCV2021-MFR**](http://iccv21-mfr.com/)
+
+ICCV2021-MFR testset consists of non-celebrities so we can ensure that it has very few overlap with public available face 
+recognition training set, such as MS1M and CASIA as they mostly collected from online celebrities. 
+As the result, we can evaluate the FAIR performance for different algorithms.  
+
+For **ICCV2021-MFR-ALL** set, TAR is measured on all-to-all 1:1 protocal, with FAR less than 0.000001(e-6). The 
+globalised multi-racial testset contains 242,143 identities and 1,624,305 images. 
+
+For **ICCV2021-MFR-MASK** set, TAR is measured on mask-to-nonmask 1:1 protocal, with FAR less than 0.0001(e-4). 
+Mask testset contains 6,964 identities, 6,964 masked images and 13,928 non-masked images. 
+There are totally 13,928 positive pairs and 96,983,824 negative pairs.
+
+| Datasets | backbone  | Training throughout | Size / MB  | **ICCV2021-MFR-MASK** | **ICCV2021-MFR-ALL** |
+| :---:    | :---      | :---                | :---       |:---                   |:---                  |     
+| MS1MV3    | r18  | -              | 91   | **47.85** | **68.33** |
+| Glint360k | r18  | 8536           | 91   | **53.32** | **72.07** |
+| MS1MV3    | r34  | -              | 130  | **58.72** | **77.36** |
+| Glint360k | r34  | 6344           | 130  | **65.10** | **83.02** |
+| MS1MV3    | r50  | 5500           | 166  | **63.85** | **80.53** |
+| Glint360k | r50  | 5136           | 166  | **70.23** | **87.08** |
+| MS1MV3    | r100 | -              | 248  | **69.09** | **84.31** |
+| Glint360k | r100 | 3332           | 248  | **75.57** | **90.66** |
+| MS1MV3    | mobilefacenet | 12185 | 7.8  | **41.52** | **65.26** |        
+| Glint360k | mobilefacenet | 11197 | 7.8  | **44.52** | **66.48** |  
+
+### Performance on IJB-C and Verification Datasets
+
+|   Datasets | backbone      | IJBC(1e-05) | IJBC(1e-04) | agedb30 | cfp_fp | lfw  |  log    |
+| :---:      |    :---       | :---          | :---  | :---  |:---   |:---    |:---     |  
+| MS1MV3     | r18      | 92.07 | 94.66 | 97.77 | 97.73 | 99.77 |[log](https://raw.githubusercontent.com/anxiangsir/insightface_arcface_log/master/ms1mv3_arcface_r18_fp16/training.log)|         
+| MS1MV3     | r34      | 94.10 | 95.90 | 98.10 | 98.67 | 99.80 |[log](https://raw.githubusercontent.com/anxiangsir/insightface_arcface_log/master/ms1mv3_arcface_r34_fp16/training.log)|        
+| MS1MV3     | r50      | 94.79 | 96.46 | 98.35 | 98.96 | 99.83 |[log](https://raw.githubusercontent.com/anxiangsir/insightface_arcface_log/master/ms1mv3_arcface_r50_fp16/training.log)|         
+| MS1MV3     | r100     | 95.31 | 96.81 | 98.48 | 99.06 | 99.85 |[log](https://raw.githubusercontent.com/anxiangsir/insightface_arcface_log/master/ms1mv3_arcface_r100_fp16/training.log)|        
+| MS1MV3     | **r2060**| 95.34 | 97.11 | 98.67 | 99.24 | 99.87 |[log](https://raw.githubusercontent.com/anxiangsir/insightface_arcface_log/master/ms1mv3_arcface_r2060_fp16/training.log)|
+| Glint360k  |r18-0.1   | 93.16 | 95.33 | 97.72 | 97.73 | 99.77 |[log](https://raw.githubusercontent.com/anxiangsir/insightface_arcface_log/master/glint360k_cosface_r18_fp16_0.1/training.log)| 
+| Glint360k  |r34-0.1   | 95.16 | 96.56 | 98.33 | 98.78 | 99.82 |[log](https://raw.githubusercontent.com/anxiangsir/insightface_arcface_log/master/glint360k_cosface_r34_fp16_0.1/training.log)| 
+| Glint360k  |r50-0.1   | 95.61 | 96.97 | 98.38 | 99.20 | 99.83 |[log](https://raw.githubusercontent.com/anxiangsir/insightface_arcface_log/master/glint360k_cosface_r50_fp16_0.1/training.log)| 
+| Glint360k  |r100-0.1  | 95.88 | 97.32 | 98.48 | 99.29 | 99.82 |[log](https://raw.githubusercontent.com/anxiangsir/insightface_arcface_log/master/glint360k_cosface_r100_fp16_0.1/training.log)|
+
+[comment]: <> (More details see [model.md]&#40;docs/modelzoo.md&#41; in docs.)
+
+
+## [Speed Benchmark](docs/speed_benchmark.md)
+
+**Arcface Torch** can train large-scale face recognition training set efficiently and quickly. When the number of
+classes in training sets is greater than 300K and the training is sufficient, partial fc sampling strategy will get same
+accuracy with several times faster training performance and smaller GPU memory. 
+Partial FC is a sparse variant of the model parallel architecture for large sacle  face recognition. Partial FC use a 
+sparse softmax, where each batch dynamicly sample a subset of class centers for training. In each iteration, only a 
+sparse part of the parameters will be updated, which can reduce a lot of GPU memory and calculations. With Partial FC, 
+we can scale trainset of 29 millions identities, the largest to date. Partial FC also supports multi-machine distributed 
+training and mixed precision training.
+
+![Image text](https://github.com/anxiangsir/insightface_arcface_log/blob/master/partial_fc_v2.png)
+
+More details see 
+[speed_benchmark.md](docs/speed_benchmark.md) in docs.
+
+### 1. Training speed of different parallel methods (samples / second), Tesla V100 32GB * 8. (Larger is better)
+
+`-` means training failed because of gpu memory limitations.
+
+| Number of Identities in Dataset | Data Parallel | Model Parallel | Partial FC 0.1 |
+| :---    | :--- | :--- | :--- |
+|125000   | 4681         | 4824          | 5004     |
+|1400000  | **1672**     | 3043          | 4738     |
+|5500000  | **-**        | **1389**      | 3975     |
+|8000000  | **-**        | **-**         | 3565     |
+|16000000 | **-**        | **-**         | 2679     |
+|29000000 | **-**        | **-**         | **1855** |
+
+### 2. GPU memory cost of different parallel methods (MB per GPU), Tesla V100 32GB * 8. (Smaller is better)
+
+| Number of Identities in Dataset | Data Parallel | Model Parallel | Partial FC 0.1 |
+| :---    | :---      | :---      | :---  |
+|125000   | 7358      | 5306      | 4868  |
+|1400000  | 32252     | 11178     | 6056  |
+|5500000  | **-**     | 32188     | 9854  |
+|8000000  | **-**     | **-**     | 12310 |
+|16000000 | **-**     | **-**     | 19950 |
+|29000000 | **-**     | **-**     | 32324 |
+
+## Evaluation ICCV2021-MFR and IJB-C
+
+More details see [eval.md](docs/eval.md) in docs.
+
+## Test
+
+We tested many versions of PyTorch. Please create an issue if you are having trouble.  
+
+- [x] torch 1.6.0
+- [x] torch 1.7.1
+- [x] torch 1.8.0
+- [x] torch 1.9.0
+
+## Citation
+
+```
+@inproceedings{deng2019arcface,
+  title={Arcface: Additive angular margin loss for deep face recognition},
+  author={Deng, Jiankang and Guo, Jia and Xue, Niannan and Zafeiriou, Stefanos},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={4690--4699},
+  year={2019}
+}
+@inproceedings{an2020partical_fc,
+  title={Partial FC: Training 10 Million Identities on a Single Machine},
+  author={An, Xiang and Zhu, Xuhan and Xiao, Yang and Wu, Lan and Zhang, Ming and Gao, Yuan and Qin, Bin and
+  Zhang, Debing and Fu Ying},
+  booktitle={Arxiv 2010.05222},
+  year={2020}
+}
+```

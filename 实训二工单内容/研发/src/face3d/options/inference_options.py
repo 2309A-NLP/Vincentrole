@@ -1,1 +1,23 @@
-ZnJvbSBmYWNlM2Qub3B0aW9ucy5iYXNlX29wdGlvbnMgaW1wb3J0IEJhc2VPcHRpb25zCgoKY2xhc3MgSW5mZXJlbmNlT3B0aW9ucyhCYXNlT3B0aW9ucyk6CiAgICAiIiJUaGlzIGNsYXNzIGluY2x1ZGVzIHRlc3Qgb3B0aW9ucy4KCiAgICBJdCBhbHNvIGluY2x1ZGVzIHNoYXJlZCBvcHRpb25zIGRlZmluZWQgaW4gQmFzZU9wdGlvbnMuCiAgICAiIiIKCiAgICBkZWYgaW5pdGlhbGl6ZShzZWxmLCBwYXJzZXIpOgogICAgICAgIHBhcnNlciA9IEJhc2VPcHRpb25zLmluaXRpYWxpemUoc2VsZiwgcGFyc2VyKSAgIyBkZWZpbmUgc2hhcmVkIG9wdGlvbnMKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXBoYXNlJywgdHlwZT1zdHIsIGRlZmF1bHQ9J3Rlc3QnLCBoZWxwPSd0cmFpbiwgdmFsLCB0ZXN0LCBldGMnKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tZGF0YXNldF9tb2RlJywgdHlwZT1zdHIsIGRlZmF1bHQ9Tm9uZSwgaGVscD0nY2hvb3NlcyBob3cgZGF0YXNldHMgYXJlIGxvYWRlZC4gW05vbmUgfCBmbGlzdF0nKQoKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWlucHV0X2RpcicsIHR5cGU9c3RyLCBoZWxwPSd0aGUgZm9sZGVyIG9mIHRoZSBpbnB1dCBmaWxlcycpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1rZXlwb2ludF9kaXInLCB0eXBlPXN0ciwgaGVscD0ndGhlIGZvbGRlciBvZiB0aGUga2V5cG9pbnQgZmlsZXMnKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tb3V0cHV0X2RpcicsIHR5cGU9c3RyLCBkZWZhdWx0PSdtcDQnLCBoZWxwPSd0aGUgb3V0cHV0IGRpciB0byBzYXZlIHRoZSBleHRyYWN0ZWQgY29lZmZpY2llbnRzJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXNhdmVfc3BsaXRfZmlsZXMnLCBhY3Rpb249J3N0b3JlX3RydWUnLCBoZWxwPSdzYXZlIHNwbGl0IGZpbGVzIG9yIG5vdCcpCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1pbmZlcmVuY2VfYmF0Y2hfc2l6ZScsIHR5cGU9aW50LCBkZWZhdWx0PTgpCiAgICAgICAgCiAgICAgICAgIyBEcm9wb3V0IGFuZCBCYXRjaG5vcm0gaGFzIGRpZmZlcmVudCBiZWhhdmlvciBkdXJpbmcgdHJhaW5pbmcgYW5kIHRlc3QuCiAgICAgICAgc2VsZi5pc1RyYWluID0gRmFsc2UKICAgICAgICByZXR1cm4gcGFyc2VyCg==
+from face3d.options.base_options import BaseOptions
+
+
+class InferenceOptions(BaseOptions):
+    """This class includes test options.
+
+    It also includes shared options defined in BaseOptions.
+    """
+
+    def initialize(self, parser):
+        parser = BaseOptions.initialize(self, parser)  # define shared options
+        parser.add_argument('--phase', type=str, default='test', help='train, val, test, etc')
+        parser.add_argument('--dataset_mode', type=str, default=None, help='chooses how datasets are loaded. [None | flist]')
+
+        parser.add_argument('--input_dir', type=str, help='the folder of the input files')
+        parser.add_argument('--keypoint_dir', type=str, help='the folder of the keypoint files')
+        parser.add_argument('--output_dir', type=str, default='mp4', help='the output dir to save the extracted coefficients')
+        parser.add_argument('--save_split_files', action='store_true', help='save split files or not')
+        parser.add_argument('--inference_batch_size', type=int, default=8)
+        
+        # Dropout and Batchnorm has different behavior during training and test.
+        self.isTrain = False
+        return parser

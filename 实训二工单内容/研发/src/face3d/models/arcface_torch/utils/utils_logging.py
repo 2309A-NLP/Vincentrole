@@ -1,1 +1,41 @@
-aW1wb3J0IGxvZ2dpbmcKaW1wb3J0IG9zCmltcG9ydCBzeXMKCgpjbGFzcyBBdmVyYWdlTWV0ZXIob2JqZWN0KToKICAgICIiIkNvbXB1dGVzIGFuZCBzdG9yZXMgdGhlIGF2ZXJhZ2UgYW5kIGN1cnJlbnQgdmFsdWUKICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmKToKICAgICAgICBzZWxmLnZhbCA9IE5vbmUKICAgICAgICBzZWxmLmF2ZyA9IE5vbmUKICAgICAgICBzZWxmLnN1bSA9IE5vbmUKICAgICAgICBzZWxmLmNvdW50ID0gTm9uZQogICAgICAgIHNlbGYucmVzZXQoKQoKICAgIGRlZiByZXNldChzZWxmKToKICAgICAgICBzZWxmLnZhbCA9IDAKICAgICAgICBzZWxmLmF2ZyA9IDAKICAgICAgICBzZWxmLnN1bSA9IDAKICAgICAgICBzZWxmLmNvdW50ID0gMAoKICAgIGRlZiB1cGRhdGUoc2VsZiwgdmFsLCBuPTEpOgogICAgICAgIHNlbGYudmFsID0gdmFsCiAgICAgICAgc2VsZi5zdW0gKz0gdmFsICogbgogICAgICAgIHNlbGYuY291bnQgKz0gbgogICAgICAgIHNlbGYuYXZnID0gc2VsZi5zdW0gLyBzZWxmLmNvdW50CgoKZGVmIGluaXRfbG9nZ2luZyhyYW5rLCBtb2RlbHNfcm9vdCk6CiAgICBpZiByYW5rID09IDA6CiAgICAgICAgbG9nX3Jvb3QgPSBsb2dnaW5nLmdldExvZ2dlcigpCiAgICAgICAgbG9nX3Jvb3Quc2V0TGV2ZWwobG9nZ2luZy5JTkZPKQogICAgICAgIGZvcm1hdHRlciA9IGxvZ2dpbmcuRm9ybWF0dGVyKCJUcmFpbmluZzogJShhc2N0aW1lKXMtJShtZXNzYWdlKXMiKQogICAgICAgIGhhbmRsZXJfZmlsZSA9IGxvZ2dpbmcuRmlsZUhhbmRsZXIob3MucGF0aC5qb2luKG1vZGVsc19yb290LCAidHJhaW5pbmcubG9nIikpCiAgICAgICAgaGFuZGxlcl9zdHJlYW0gPSBsb2dnaW5nLlN0cmVhbUhhbmRsZXIoc3lzLnN0ZG91dCkKICAgICAgICBoYW5kbGVyX2ZpbGUuc2V0Rm9ybWF0dGVyKGZvcm1hdHRlcikKICAgICAgICBoYW5kbGVyX3N0cmVhbS5zZXRGb3JtYXR0ZXIoZm9ybWF0dGVyKQogICAgICAgIGxvZ19yb290LmFkZEhhbmRsZXIoaGFuZGxlcl9maWxlKQogICAgICAgIGxvZ19yb290LmFkZEhhbmRsZXIoaGFuZGxlcl9zdHJlYW0pCiAgICAgICAgbG9nX3Jvb3QuaW5mbygncmFua19pZDogJWQnICUgcmFuaykK
+import logging
+import os
+import sys
+
+
+class AverageMeter(object):
+    """Computes and stores the average and current value
+    """
+
+    def __init__(self):
+        self.val = None
+        self.avg = None
+        self.sum = None
+        self.count = None
+        self.reset()
+
+    def reset(self):
+        self.val = 0
+        self.avg = 0
+        self.sum = 0
+        self.count = 0
+
+    def update(self, val, n=1):
+        self.val = val
+        self.sum += val * n
+        self.count += n
+        self.avg = self.sum / self.count
+
+
+def init_logging(rank, models_root):
+    if rank == 0:
+        log_root = logging.getLogger()
+        log_root.setLevel(logging.INFO)
+        formatter = logging.Formatter("Training: %(asctime)s-%(message)s")
+        handler_file = logging.FileHandler(os.path.join(models_root, "training.log"))
+        handler_stream = logging.StreamHandler(sys.stdout)
+        handler_file.setFormatter(formatter)
+        handler_stream.setFormatter(formatter)
+        log_root.addHandler(handler_file)
+        log_root.addHandler(handler_stream)
+        log_root.info('rank_id: %d' % rank)

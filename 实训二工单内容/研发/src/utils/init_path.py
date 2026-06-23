@@ -1,1 +1,28 @@
-aW1wb3J0IG9zCgoKZGVmIGluaXRfcGF0aChjaGVja3BvaW50X2RpciwgY29uZmlnX2Rpciwgc2l6ZT01MTIsIG9sZF92ZXJzaW9uPUZhbHNlLCBwcmVwcm9jZXNzPSdjcm9wJyk6CiAgICBwcmludCgndXNpbmcgc2FmZXRlbnNvciBhcyBkZWZhdWx0JykKICAgIHNhZHRhbGtlcl9wYXRocyA9IHsKICAgICAgICAiY2hlY2twb2ludCI6b3MucGF0aC5qb2luKGNoZWNrcG9pbnRfZGlyLCAnU2FkVGFsa2VyX1YwLjAuMl8nK3N0cihzaXplKSsnLnNhZmV0ZW5zb3JzJyksCiAgICAgICAgfQogICAgdXNlX3NhZmV0ZW5zb3IgPSBUcnVlCgogICAgc2FkdGFsa2VyX3BhdGhzWydkaXJfb2ZfQkZNX2ZpdHRpbmcnXSA9IG9zLnBhdGguam9pbihjb25maWdfZGlyKSAjICwgJ0JGTV9GaXR0aW5nJwogICAgc2FkdGFsa2VyX3BhdGhzWydhdWRpbzJwb3NlX3lhbWxfcGF0aCddID0gb3MucGF0aC5qb2luKGNvbmZpZ19kaXIsICdhdWlkbzJwb3NlLnlhbWwnKQogICAgc2FkdGFsa2VyX3BhdGhzWydhdWRpbzJleHBfeWFtbF9wYXRoJ10gPSBvcy5wYXRoLmpvaW4oY29uZmlnX2RpciwgJ2F1aWRvMmV4cC55YW1sJykKICAgIHNhZHRhbGtlcl9wYXRoc1sncGlyZW5kZXJfeWFtbF9wYXRoJ10gPSBvcy5wYXRoLmpvaW4oY29uZmlnX2RpciwgJ2ZhY2VyZW5kZXJfcGlyZW5kZXIueWFtbCcpCiAgICBzYWR0YWxrZXJfcGF0aHNbJ3BpcmVuZGVyX2NoZWNrcG9pbnQnXSA9ICBvcy5wYXRoLmpvaW4oY2hlY2twb2ludF9kaXIsICdlcG9jaF8wMDE5MF9pdGVyYXRpb25fMDAwNDAwMDAwX2NoZWNrcG9pbnQucHQnKQogICAgc2FkdGFsa2VyX3BhdGhzWyd1c2Vfc2FmZXRlbnNvciddID0gIHVzZV9zYWZldGVuc29yICMgb3MucGF0aC5qb2luKGNvbmZpZ19kaXIsICdhdWlkbzJleHAueWFtbCcpCiAgICAKICAgIGlmICdmdWxsJyBpbiBwcmVwcm9jZXNzOgogICAgICAgIHNhZHRhbGtlcl9wYXRoc1snbWFwcGluZ25ldF9jaGVja3BvaW50J10gPSBvcy5wYXRoLmpvaW4oY2hlY2twb2ludF9kaXIsICdtYXBwaW5nXzAwMTA5LW1vZGVsLnB0aC50YXInKQogICAgICAgIHNhZHRhbGtlcl9wYXRoc1snZmFjZXJlbmRlcl95YW1sJ10gPSBvcy5wYXRoLmpvaW4oY29uZmlnX2RpciwgJ2ZhY2VyZW5kZXJfc3RpbGwueWFtbCcpCiAgICBlbHNlOgogICAgICAgIHNhZHRhbGtlcl9wYXRoc1snbWFwcGluZ25ldF9jaGVja3BvaW50J10gPSBvcy5wYXRoLmpvaW4oY2hlY2twb2ludF9kaXIsICdtYXBwaW5nXzAwMjI5LW1vZGVsLnB0aC50YXInKQogICAgICAgIHNhZHRhbGtlcl9wYXRoc1snZmFjZXJlbmRlcl95YW1sJ10gPSBvcy5wYXRoLmpvaW4oY29uZmlnX2RpciwgJ2ZhY2VyZW5kZXIueWFtbCcpCgogICAgIyBzYWR0YWxrZXJfcGF0aHNbJ21hcHBpbmduZXRfY2hlY2twb2ludCddID0gb3MucGF0aC5qb2luKGNoZWNrcG9pbnRfZGlyLCAnbWFwcGluZ18wMDIyOS1tb2RlbC5wdGgudGFyJykKICAgICMgc2FkdGFsa2VyX3BhdGhzWydmYWNlcmVuZGVyX3lhbWwnXSA9IG9zLnBhdGguam9pbihjb25maWdfZGlyLCAnZmFjZXJlbmRlci55YW1sJykKCiAgICByZXR1cm4gc2FkdGFsa2VyX3BhdGhz
+import os
+
+
+def init_path(checkpoint_dir, config_dir, size=512, old_version=False, preprocess='crop'):
+    print('using safetensor as default')
+    sadtalker_paths = {
+        "checkpoint":os.path.join(checkpoint_dir, 'SadTalker_V0.0.2_'+str(size)+'.safetensors'),
+        }
+    use_safetensor = True
+
+    sadtalker_paths['dir_of_BFM_fitting'] = os.path.join(config_dir) # , 'BFM_Fitting'
+    sadtalker_paths['audio2pose_yaml_path'] = os.path.join(config_dir, 'auido2pose.yaml')
+    sadtalker_paths['audio2exp_yaml_path'] = os.path.join(config_dir, 'auido2exp.yaml')
+    sadtalker_paths['pirender_yaml_path'] = os.path.join(config_dir, 'facerender_pirender.yaml')
+    sadtalker_paths['pirender_checkpoint'] =  os.path.join(checkpoint_dir, 'epoch_00190_iteration_000400000_checkpoint.pt')
+    sadtalker_paths['use_safetensor'] =  use_safetensor # os.path.join(config_dir, 'auido2exp.yaml')
+    
+    if 'full' in preprocess:
+        sadtalker_paths['mappingnet_checkpoint'] = os.path.join(checkpoint_dir, 'mapping_00109-model.pth.tar')
+        sadtalker_paths['facerender_yaml'] = os.path.join(config_dir, 'facerender_still.yaml')
+    else:
+        sadtalker_paths['mappingnet_checkpoint'] = os.path.join(checkpoint_dir, 'mapping_00229-model.pth.tar')
+        sadtalker_paths['facerender_yaml'] = os.path.join(config_dir, 'facerender.yaml')
+
+    # sadtalker_paths['mappingnet_checkpoint'] = os.path.join(checkpoint_dir, 'mapping_00229-model.pth.tar')
+    # sadtalker_paths['facerender_yaml'] = os.path.join(config_dir, 'facerender.yaml')
+
+    return sadtalker_paths

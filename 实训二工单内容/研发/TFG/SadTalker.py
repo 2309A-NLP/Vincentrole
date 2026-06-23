@@ -1,1 +1,306 @@
-aW1wb3J0IHN5cw0Kc3lzLnBhdGguYXBwZW5kKCcuLycpDQoNCmltcG9ydCB0b3JjaCwgdXVpZA0KaW1wb3J0IG9zLCBzeXMsIHNodXRpbCwgcGxhdGZvcm0NCiMgZnJvbSBzcmMuZmFjZXJlbmRlci5waXJlbmRlcl9hbmltYXRlIGltcG9ydCBBbmltYXRlRnJvbUNvZWZmX1BJUmVuZGVyDQpmcm9tIHNyYy51dGlscy5wcmVwcm9jZXNzIGltcG9ydCBDcm9wQW5kRXh0cmFjdA0KZnJvbSBzcmMudGVzdF9hdWRpbzJjb2VmZiBpbXBvcnQgQXVkaW8yQ29lZmYgIA0KZnJvbSBzcmMuZmFjZXJlbmRlci5hbmltYXRlIGltcG9ydCBBbmltYXRlRnJvbUNvZWZmDQpmcm9tIHNyYy5nZW5lcmF0ZV9iYXRjaCBpbXBvcnQgZ2V0X2RhdGENCmZyb20gc3JjLmdlbmVyYXRlX2ZhY2VyZW5kZXJfYmF0Y2ggaW1wb3J0IGdldF9mYWNlcmVuZGVyX2RhdGENCmZyb20gc3JjLnV0aWxzLmluaXRfcGF0aCBpbXBvcnQgaW5pdF9wYXRoDQoNCiMgZnJvbSBweWR1YiBpbXBvcnQgQXVkaW9TZWdtZW50DQojIGRlZiBtcDNfdG9fd2F2KG1wM19maWxlbmFtZSx3YXZfZmlsZW5hbWUsZnJhbWVfcmF0ZSk6DQojICAgICBtcDNfZmlsZSA9IEF1ZGlvU2VnbWVudC5mcm9tX2ZpbGUoZmlsZT1tcDNfZmlsZW5hbWUpDQojICAgICBtcDNfZmlsZS5zZXRfZnJhbWVfcmF0ZShmcmFtZV9yYXRlKS5leHBvcnQod2F2X2ZpbGVuYW1lLGZvcm1hdD0id2F2IikNCg0KY2xhc3MgU2FkVGFsa2VyKCk6DQoNCiAgICBkZWYgX19pbml0X18oc2VsZiwgY2hlY2twb2ludF9wYXRoPSdjaGVja3BvaW50cycsIGNvbmZpZ19wYXRoPSdzcmMvY29uZmlnJywgbGF6eV9sb2FkPUZhbHNlKToNCiAgICAgICAgaW1wb3J0IHBsYXRmb3JtDQogICAgICAgIGlmIHRvcmNoLmN1ZGEuaXNfYXZhaWxhYmxlKCk6DQogICAgICAgICAgICBkZXZpY2UgPSAiY3VkYSINCiAgICAgICAgZWxpZiBwbGF0Zm9ybS5zeXN0ZW0oKSA9PSAnRGFyd2luJzogIyBtYWNvcyANCiAgICAgICAgICAgIGRldmljZSA9ICJtcHMiDQogICAgICAgIGVsc2U6DQogICAgICAgICAgICBkZXZpY2UgPSAiY3B1Ig0KICAgICAgICANCiAgICAgICAgc2VsZi5kZXZpY2UgPSBkZXZpY2UNCg0KICAgICAgICBvcy5lbnZpcm9uWydUT1JDSF9IT01FJ109IGNoZWNrcG9pbnRfcGF0aA0KDQogICAgICAgIHNlbGYuY2hlY2twb2ludF9wYXRoID0gY2hlY2twb2ludF9wYXRoDQogICAgICAgIHNlbGYuY29uZmlnX3BhdGggPSBjb25maWdfcGF0aA0KICAgICAgICBzZWxmLnNhZHRhbGtlcl9wYXRocyA9IGluaXRfcGF0aChjaGVja3BvaW50X3BhdGgsIHNlbGYuY29uZmlnX3BhdGgsIDI1NiwgRmFsc2UsICdjcm9wJykNCiAgICAgICAgc2VsZi5hbmltYXRlX2Zyb21fY29lZmYgPSBBbmltYXRlRnJvbUNvZWZmKHNlbGYuc2FkdGFsa2VyX3BhdGhzLCBzZWxmLmRldmljZSkNCiAgICAgICAgc2VsZi5hdWRpb190b19jb2VmZiA9IEF1ZGlvMkNvZWZmKHNlbGYuc2FkdGFsa2VyX3BhdGhzLCBzZWxmLmRldmljZSkNCg0KICAgIGRlZiB0ZXN0KHNlbGYsIA0KICAgICAgICAgICAgcGljX3BhdGgsDQogICAgICAgICAgICBjcm9wX3BpY19wYXRoLA0KICAgICAgICAgICAgZmlyc3RfY29lZmZfcGF0aCwgDQogICAgICAgICAgICBjcm9wX2luZm8sDQogICAgICAgICAgICBzb3VyY2VfaW1hZ2UsIGRyaXZlbl9hdWRpbywgcHJlcHJvY2Vzcz0nY3JvcCcsIA0KICAgICAgICAgICAgc3RpbGxfbW9kZT1GYWxzZSwgIHVzZV9lbmhhbmNlcj1GYWxzZSwgYmF0Y2hfc2l6ZT0xLCBzaXplPTI1NiwgDQogICAgICAgICAgICBwb3NlX3N0eWxlID0gMCwgDQogICAgICAgICAgICBmYWNlcmVuZGVyPSdmYWNldmlkMnZpZCcsDQogICAgICAgICAgICBleHBfc2NhbGU9MS4wLCANCiAgICAgICAgICAgIHVzZV9yZWZfdmlkZW8gPSBGYWxzZSwNCiAgICAgICAgICAgIHJlZl92aWRlbyA9IE5vbmUsDQogICAgICAgICAgICByZWZfaW5mbyA9IE5vbmUsDQogICAgICAgICAgICB1c2VfaWRsZV9tb2RlID0gRmFsc2UsDQogICAgICAgICAgICBsZW5ndGhfb2ZfYXVkaW8gPSAwLCB1c2VfYmxpbms9VHJ1ZSwgZnBzPTIwLA0KICAgICAgICAgICAgcmVzdWx0X2Rpcj0nLi9yZXN1bHRzLycpOg0KDQogICAgICAgIA0KICAgICAgICAjIHByaW50KHNlbGYuc2FkdGFsa2VyX3BhdGhzKQ0KICAgICAgICAgICAgDQogICAgICAgIA0KICAgICAgICAjIHNlbGYucHJlcHJvY2Vzc19tb2RlbCA9IENyb3BBbmRFeHRyYWN0KHNlbGYuc2FkdGFsa2VyX3BhdGhzLCBzZWxmLmRldmljZSkNCiAgICAgICAgDQogICAgICAgICMgaWYgZmFjZXJlbmRlciA9PSAnZmFjZXZpZDJ2aWQnIGFuZCBzZWxmLmRldmljZSAhPSAnbXBzJzoNCiAgICAgICAgIyAgICAgc2VsZi5hbmltYXRlX2Zyb21fY29lZmYgPSBBbmltYXRlRnJvbUNvZWZmKHNlbGYuc2FkdGFsa2VyX3BhdGhzLCBzZWxmLmRldmljZSkNCiAgICAgICAgIyBlbGlmIGZhY2VyZW5kZXIgPT0gJ3BpcmVuZGVyJyBvciBzZWxmLmRldmljZSA9PSAnbXBzJzoNCiAgICAgICAgIyAgICAgc2VsZi5hbmltYXRlX2Zyb21fY29lZmYgPSBBbmltYXRlRnJvbUNvZWZmX1BJUmVuZGVyKHNlbGYuc2FkdGFsa2VyX3BhdGhzLCBzZWxmLmRldmljZSkNCiAgICAgICAgIyAgICAgZmFjZXJlbmRlciA9ICdwaXJlbmRlcicNCiAgICAgICAgIyBlbHNlOg0KICAgICAgICAjICAgICByYWlzZShSdW50aW1lRXJyb3IoJ1Vua25vd24gbW9kZWw6IHt9Jy5mb3JtYXQoZmFjZXJlbmRlcikpKQ0KICAgICAgICAgICAgDQoNCiAgICAgICAgIyB0aW1lX3RhZyA9IHN0cih1dWlkLnV1aWQ0KCkpDQogICAgICAgICMgc2F2ZV9kaXIgPSBvcy5wYXRoLmpvaW4ocmVzdWx0X2RpciwgdGltZV90YWcpDQogICAgICAgICMgb3MubWFrZWRpcnMoc2F2ZV9kaXIsIGV4aXN0X29rPVRydWUpDQogICAgICAgIHNhdmVfZGlyID0gcmVzdWx0X2Rpcg0KICAgICAgICBvcy5tYWtlZGlycyhzYXZlX2RpciwgZXhpc3Rfb2s9VHJ1ZSkNCiAgICAgICAgIyBpbnB1dF9kaXIgPSBvcy5wYXRoLmpvaW4oc2F2ZV9kaXIsICdpbnB1dCcpDQogICAgICAgICMgb3MubWFrZWRpcnMoaW5wdXRfZGlyLCBleGlzdF9vaz1UcnVlKQ0KDQogICAgICAgICMgcHJpbnQoc291cmNlX2ltYWdlKQ0KICAgICAgICAjIHBpY19wYXRoID0gb3MucGF0aC5qb2luKGlucHV0X2Rpciwgb3MucGF0aC5iYXNlbmFtZShzb3VyY2VfaW1hZ2UpKSANCiAgICAgICAgIyBzaHV0aWwuY29weShzb3VyY2VfaW1hZ2UsIGlucHV0X2RpcikNCg0KICAgICAgICAjIGlmIGRyaXZlbl9hdWRpbyBpcyBub3QgTm9uZSBhbmQgb3MucGF0aC5pc2ZpbGUoZHJpdmVuX2F1ZGlvKToNCiAgICAgICAgIyAgICAgYXVkaW9fcGF0aCA9IG9zLnBhdGguam9pbihpbnB1dF9kaXIsIG9zLnBhdGguYmFzZW5hbWUoZHJpdmVuX2F1ZGlvKSkgIA0KDQogICAgICAgICMgICAgICMjIyMgbXAzIHRvIHdhdg0KICAgICAgICAjICAgICBpZiAnLm1wMycgaW4gYXVkaW9fcGF0aDoNCiAgICAgICAgIyAgICAgICAgIG1wM190b193YXYoZHJpdmVuX2F1ZGlvLCBhdWRpb19wYXRoLnJlcGxhY2UoJy5tcDMnLCAnLndhdicpLCAxNjAwMCkNCiAgICAgICAgIyAgICAgICAgIGF1ZGlvX3BhdGggPSBhdWRpb19wYXRoLnJlcGxhY2UoJy5tcDMnLCAnLndhdicpDQogICAgICAgICMgICAgIGVsc2U6DQogICAgICAgICMgICAgICAgICBzaHV0aWwubW92ZShkcml2ZW5fYXVkaW8sIGlucHV0X2RpcikNCg0KICAgICAgICAjIGVsaWYgdXNlX2lkbGVfbW9kZToNCiAgICAgICAgIyAgICAgYXVkaW9fcGF0aCA9IG9zLnBhdGguam9pbihpbnB1dF9kaXIsICdpZGxlbW9kZV8nK3N0cihsZW5ndGhfb2ZfYXVkaW8pKycud2F2JykgIyMgZ2VuZXJhdGUgYXVkaW8gZnJvbSB0aGlzIG5ldyBhdWRpb19wYXRoDQogICAgICAgICMgICAgIGZyb20gcHlkdWIgaW1wb3J0IEF1ZGlvU2VnbWVudA0KICAgICAgICAjICAgICBvbmVfc2VjX3NlZ21lbnQgPSBBdWRpb1NlZ21lbnQuc2lsZW50KGR1cmF0aW9uPTEwMDAqbGVuZ3RoX29mX2F1ZGlvKSAgI2R1cmF0aW9uIGluIG1pbGxpc2Vjb25kcw0KICAgICAgICAjICAgICBvbmVfc2VjX3NlZ21lbnQuZXhwb3J0KGF1ZGlvX3BhdGgsIGZvcm1hdD0id2F2IikNCiAgICAgICAgIyBlbHNlOg0KICAgICAgICAjICAgICBwcmludCh1c2VfcmVmX3ZpZGVvLCByZWZfaW5mbykNCiAgICAgICAgIyAgICAgYXNzZXJ0IHVzZV9yZWZfdmlkZW8gPT0gVHJ1ZSBhbmQgcmVmX2luZm8gPT0gJ2FsbCcNCg0KICAgICAgICAjIGlmIHVzZV9yZWZfdmlkZW8gYW5kIHJlZl9pbmZvID09ICdhbGwnOiAjIGZ1bGwgcmVmIG1vZGUNCiAgICAgICAgIyAgICAgcmVmX3ZpZGVvX3ZpZGVvbmFtZSA9IG9zLnBhdGguYmFzZW5hbWUocmVmX3ZpZGVvKQ0KICAgICAgICAjICAgICBhdWRpb19wYXRoID0gb3MucGF0aC5qb2luKHNhdmVfZGlyLCByZWZfdmlkZW9fdmlkZW9uYW1lKycud2F2JykNCiAgICAgICAgIyAgICAgcHJpbnQoJ25ldyBhdWRpb3BhdGg6JyxhdWRpb19wYXRoKQ0KICAgICAgICAjICAgICAjIGlmIHJlZl92aWRlbyBjb250YWlucyBhdWRpbywgc2V0IHRoZSBhdWRpbyBmcm9tIHJlZl92aWRlby4NCiAgICAgICAgIyAgICAgY21kID0gciJmZm1wZWcgLXkgLWhpZGVfYmFubmVyIC1sb2dsZXZlbCBlcnJvciAtaSAlcyAlcyIlKHJlZl92aWRlbywgYXVkaW9fcGF0aCkNCiAgICAgICAgIyAgICAgb3Muc3lzdGVtKGNtZCkgICAgICAgIA0KDQogICAgICAgICMgb3MubWFrZWRpcnMoc2F2ZV9kaXIsIGV4aXN0X29rPVRydWUpDQogICAgICAgIA0KICAgICAgICAjY3JvcCBpbWFnZSBhbmQgZXh0cmFjdCAzZG1tIGZyb20gaW1hZ2UNCiAgICAgICAgIyBmaXJzdF9mcmFtZV9kaXIgPSBvcy5wYXRoLmpvaW4oc2F2ZV9kaXIsICdmaXJzdF9mcmFtZV9kaXInKQ0KICAgICAgICAjIG9zLm1ha2VkaXJzKGZpcnN0X2ZyYW1lX2RpciwgZXhpc3Rfb2s9VHJ1ZSkNCiAgICAgICAgIyBmaXJzdF9jb2VmZl9wYXRoLCBjcm9wX3BpY19wYXRoLCBjcm9wX2luZm8gPSBzZWxmLnByZXByb2Nlc3NfbW9kZWwuZ2VuZXJhdGUocGljX3BhdGgsIGZpcnN0X2ZyYW1lX2RpciwgcHJlcHJvY2VzcywgVHJ1ZSwgc2l6ZSkNCiAgICAgICAgDQogICAgICAgICMgaWYgZmlyc3RfY29lZmZfcGF0aCBpcyBOb25lOg0KICAgICAgICAjICAgICByYWlzZSBBdHRyaWJ1dGVFcnJvcigiTm8gZmFjZSBpcyBkZXRlY3RlZCIpDQoNCiAgICAgICAgIyBpZiB1c2VfcmVmX3ZpZGVvOg0KICAgICAgICAjICAgICBwcmludCgndXNpbmcgcmVmIHZpZGVvIGZvciBnZW5yZWF0aW9uJykNCiAgICAgICAgIyAgICAgcmVmX3ZpZGVvX3ZpZGVvbmFtZSA9IG9zLnBhdGguc3BsaXRleHQob3MucGF0aC5zcGxpdChyZWZfdmlkZW8pWy0xXSlbMF0NCiAgICAgICAgIyAgICAgcmVmX3ZpZGVvX2ZyYW1lX2RpciA9IG9zLnBhdGguam9pbihzYXZlX2RpciwgcmVmX3ZpZGVvX3ZpZGVvbmFtZSkNCiAgICAgICAgIyAgICAgb3MubWFrZWRpcnMocmVmX3ZpZGVvX2ZyYW1lX2RpciwgZXhpc3Rfb2s9VHJ1ZSkNCiAgICAgICAgIyAgICAgcHJpbnQoJzNETU0gRXh0cmFjdGlvbiBmb3IgdGhlIHJlZmVyZW5jZSB2aWRlbyBwcm92aWRpbmcgcG9zZScpDQogICAgICAgICMgICAgIHJlZl92aWRlb19jb2VmZl9wYXRoLCBfLCBfID0gIHNlbGYucHJlcHJvY2Vzc19tb2RlbC5nZW5lcmF0ZShyZWZfdmlkZW8sIHJlZl92aWRlb19mcmFtZV9kaXIsIHByZXByb2Nlc3MsIHNvdXJjZV9pbWFnZV9mbGFnPUZhbHNlKQ0KICAgICAgICAjIGVsc2U6DQogICAgICAgICMgICAgIHJlZl92aWRlb19jb2VmZl9wYXRoID0gTm9uZQ0KDQogICAgICAgICMgaWYgdXNlX3JlZl92aWRlbzoNCiAgICAgICAgIyAgICAgaWYgcmVmX2luZm8gPT0gJ3Bvc2UnOg0KICAgICAgICAjICAgICAgICAgcmVmX3Bvc2VfY29lZmZfcGF0aCA9IHJlZl92aWRlb19jb2VmZl9wYXRoDQogICAgICAgICMgICAgICAgICByZWZfZXllYmxpbmtfY29lZmZfcGF0aCA9IE5vbmUNCiAgICAgICAgIyAgICAgZWxpZiByZWZfaW5mbyA9PSAnYmxpbmsnOg0KICAgICAgICAjICAgICAgICAgcmVmX3Bvc2VfY29lZmZfcGF0aCA9IE5vbmUNCiAgICAgICAgIyAgICAgICAgIHJlZl9leWVibGlua19jb2VmZl9wYXRoID0gcmVmX3ZpZGVvX2NvZWZmX3BhdGgNCiAgICAgICAgIyAgICAgZWxpZiByZWZfaW5mbyA9PSAncG9zZStibGluayc6DQogICAgICAgICMgICAgICAgICByZWZfcG9zZV9jb2VmZl9wYXRoID0gcmVmX3ZpZGVvX2NvZWZmX3BhdGgNCiAgICAgICAgIyAgICAgICAgIHJlZl9leWVibGlua19jb2VmZl9wYXRoID0gcmVmX3ZpZGVvX2NvZWZmX3BhdGgNCiAgICAgICAgIyAgICAgZWxpZiByZWZfaW5mbyA9PSAnYWxsJzogICAgICAgICAgICANCiAgICAgICAgIyAgICAgICAgIHJlZl9wb3NlX2NvZWZmX3BhdGggPSBOb25lDQogICAgICAgICMgICAgICAgICByZWZfZXllYmxpbmtfY29lZmZfcGF0aCA9IE5vbmUNCiAgICAgICAgIyAgICAgZWxzZToNCiAgICAgICAgIyAgICAgICAgIHJhaXNlKCdlcnJvciBpbiByZWZpbmZvJykNCiAgICAgICAgIyBlbHNlOg0KICAgICAgICAjICAgICByZWZfcG9zZV9jb2VmZl9wYXRoID0gTm9uZQ0KICAgICAgICAjICAgICByZWZfZXllYmxpbmtfY29lZmZfcGF0aCA9IE5vbmUNCg0KICAgICAgICByZWZfcG9zZV9jb2VmZl9wYXRoID0gTm9uZQ0KICAgICAgICByZWZfZXllYmxpbmtfY29lZmZfcGF0aCA9IE5vbmUNCiAgICAgICAgYXVkaW9fcGF0aCA9IGRyaXZlbl9hdWRpbw0KICAgICAgICAjIGZwcyA9IDI1DQogICAgICAgICNhdWRpbzJjZW9mZg0KICAgICAgICAjIGlmIHVzZV9yZWZfdmlkZW8gYW5kIHJlZl9pbmZvID09ICdhbGwnOg0KICAgICAgICAjICAgICBjb2VmZl9wYXRoID0gcmVmX3ZpZGVvX2NvZWZmX3BhdGggIyBzZWxmLmF1ZGlvX3RvX2NvZWZmLmdlbmVyYXRlKGJhdGNoLCBzYXZlX2RpciwgcG9zZV9zdHlsZSwgcmVmX3Bvc2VfY29lZmZfcGF0aCkNCiAgICAgICAgIyBlbHNlOg0KICAgICAgICBiYXRjaCA9IGdldF9kYXRhKGZpcnN0X2NvZWZmX3BhdGgsIGF1ZGlvX3BhdGgsIHNlbGYuZGV2aWNlLCByZWZfZXllYmxpbmtfY29lZmZfcGF0aD1yZWZfZXllYmxpbmtfY29lZmZfcGF0aCwgc3RpbGw9c3RpbGxfbW9kZSwgXA0KICAgICAgICAgICAgaWRsZW1vZGU9dXNlX2lkbGVfbW9kZSwgbGVuZ3RoX29mX2F1ZGlvPWxlbmd0aF9vZl9hdWRpbywgdXNlX2JsaW5rPXVzZV9ibGluaywgZnBzID0gZnBzKSAjIGxvbmdlciBhdWRpbz8NCiAgICAgICAgY29lZmYgPSBzZWxmLmF1ZGlvX3RvX2NvZWZmLmdlbmVyYXRlKGJhdGNoLCBzYXZlX2RpciwgcG9zZV9zdHlsZSwgcmVmX3Bvc2VfY29lZmZfcGF0aCkNCg0KICAgICAgICAjY29lZmYydmlkZW8NCiAgICAgICAgZGF0YSA9IGdldF9mYWNlcmVuZGVyX2RhdGEoY29lZmYsIGNyb3BfcGljX3BhdGgsIGZpcnN0X2NvZWZmX3BhdGgsIGF1ZGlvX3BhdGgsIGJhdGNoX3NpemUsIHN0aWxsX21vZGU9c3RpbGxfbW9kZSwgXA0KICAgICAgICAgICAgcHJlcHJvY2Vzcz1wcmVwcm9jZXNzLCBzaXplPXNpemUsIGV4cHJlc3Npb25fc2NhbGUgPSBleHBfc2NhbGUsIGZhY2Vtb2RlbD1mYWNlcmVuZGVyKQ0KICAgICAgICByZXR1cm5fcGF0aCA9IHNlbGYuYW5pbWF0ZV9mcm9tX2NvZWZmLmdlbmVyYXRlKGRhdGEsIHNhdmVfZGlyLCAgcGljX3BhdGgsIGNyb3BfaW5mbywgZW5oYW5jZXI9J2dmcGdhbicgaWYgdXNlX2VuaGFuY2VyIGVsc2UgTm9uZSwgcHJlcHJvY2Vzcz1wcmVwcm9jZXNzLCBpbWdfc2l6ZT1zaXplLCBmcHMgPSBmcHMpDQogICAgICAgICMgdmlkZW9fbmFtZSA9IGRhdGFbJ3ZpZGVvX25hbWUnXQ0KICAgICAgICAjIHByaW50KGYnVGhlIGdlbmVyYXRlZCB2aWRlbyBpcyBuYW1lZCB7dmlkZW9fbmFtZX0gaW4ge3NhdmVfZGlyfScpDQoNCiAgICAgICAgIyBkZWwgc2VsZi5wcmVwcm9jZXNzX21vZGVsDQogICAgICAgICMgZGVsIHNlbGYuYXVkaW9fdG9fY29lZmYNCiAgICAgICAgIyBkZWwgc2VsZi5hbmltYXRlX2Zyb21fY29lZmYNCg0KICAgICAgICBpZiB0b3JjaC5jdWRhLmlzX2F2YWlsYWJsZSgpOg0KICAgICAgICAgICAgdG9yY2guY3VkYS5lbXB0eV9jYWNoZSgpDQogICAgICAgICAgICB0b3JjaC5jdWRhLnN5bmNocm9uaXplKCkNCiAgICAgICAgICAgIA0KICAgICAgICBpbXBvcnQgZ2M7IGdjLmNvbGxlY3QoKQ0KICAgICAgICANCiAgICAgICAgcmV0dXJuIHJldHVybl9wYXRoDQogICAgDQogICAgZGVmIHRlc3QyKHNlbGYsIHNvdXJjZV9pbWFnZSwgZHJpdmVuX2F1ZGlvLCBwcmVwcm9jZXNzPSdjcm9wJywgDQogICAgICAgIHN0aWxsX21vZGU9RmFsc2UsICB1c2VfZW5oYW5jZXI9RmFsc2UsIGJhdGNoX3NpemU9MSwgc2l6ZT0yNTYsIA0KICAgICAgICBwb3NlX3N0eWxlID0gMCwgDQogICAgICAgIGZhY2VyZW5kZXI9J2ZhY2V2aWQydmlkJywNCiAgICAgICAgZXhwX3NjYWxlPTEuMCwgDQogICAgICAgIHVzZV9yZWZfdmlkZW8gPSBGYWxzZSwNCiAgICAgICAgcmVmX3ZpZGVvID0gTm9uZSwNCiAgICAgICAgcmVmX2luZm8gPSBOb25lLA0KICAgICAgICB1c2VfaWRsZV9tb2RlID0gRmFsc2UsDQogICAgICAgIGxlbmd0aF9vZl9hdWRpbyA9IDAsIHVzZV9ibGluaz1UcnVlLCBmcHMgPSAyMCwNCiAgICAgICAgcmVzdWx0X2Rpcj0nLi9yZXN1bHRzLycpOg0KICAgICAgICBvcy5tYWtlZGlycyhyZXN1bHRfZGlyLCBleGlzdF9vaz1UcnVlKQ0KICAgICAgICBzZWxmLnNhZHRhbGtlcl9wYXRocyA9IGluaXRfcGF0aChzZWxmLmNoZWNrcG9pbnRfcGF0aCwgc2VsZi5jb25maWdfcGF0aCwgc2l6ZSwgRmFsc2UsIHByZXByb2Nlc3MpDQogICAgICAgIHByaW50KHNlbGYuc2FkdGFsa2VyX3BhdGhzKQ0KICAgICAgICAgICAgDQogICAgICAgIHNlbGYuYXVkaW9fdG9fY29lZmYgPSBBdWRpbzJDb2VmZihzZWxmLnNhZHRhbGtlcl9wYXRocywgc2VsZi5kZXZpY2UpDQogICAgICAgIHNlbGYucHJlcHJvY2Vzc19tb2RlbCA9IENyb3BBbmRFeHRyYWN0KHNlbGYuc2FkdGFsa2VyX3BhdGhzLCBzZWxmLmRldmljZSkNCiAgICAgICAgDQogICAgICAgIHNlbGYuYW5pbWF0ZV9mcm9tX2NvZWZmID0gQW5pbWF0ZUZyb21Db2VmZihzZWxmLnNhZHRhbGtlcl9wYXRocywgc2VsZi5kZXZpY2UpDQoNCiAgICAgICAgdGltZV90YWcgPSBzdHIodXVpZC51dWlkNCgpKQ0KICAgICAgICBzYXZlX2RpciA9IG9zLnBhdGguam9pbihyZXN1bHRfZGlyLCB0aW1lX3RhZykNCiAgICAgICAgb3MubWFrZWRpcnMoc2F2ZV9kaXIsIGV4aXN0X29rPVRydWUpDQoNCiAgICAgICAgaW5wdXRfZGlyID0gb3MucGF0aC5qb2luKHNhdmVfZGlyLCAnaW5wdXQnKQ0KICAgICAgICBvcy5tYWtlZGlycyhpbnB1dF9kaXIsIGV4aXN0X29rPVRydWUpDQoNCiAgICAgICAgcHJpbnQoc291cmNlX2ltYWdlKQ0KICAgICAgICBwaWNfcGF0aCA9IG9zLnBhdGguam9pbihpbnB1dF9kaXIsIG9zLnBhdGguYmFzZW5hbWUoc291cmNlX2ltYWdlKSkgDQogICAgICAgIHNodXRpbC5jb3B5KHNvdXJjZV9pbWFnZSwgaW5wdXRfZGlyKQ0KDQogICAgICAgIGlmIGRyaXZlbl9hdWRpbyBpcyBub3QgTm9uZSBhbmQgb3MucGF0aC5pc2ZpbGUoZHJpdmVuX2F1ZGlvKToNCiAgICAgICAgICAgIGF1ZGlvX3BhdGggPSBvcy5wYXRoLmpvaW4oaW5wdXRfZGlyLCBvcy5wYXRoLmJhc2VuYW1lKGRyaXZlbl9hdWRpbykpICANCiAgICAgICAgICAgIHNodXRpbC5jb3B5KGRyaXZlbl9hdWRpbywgaW5wdXRfZGlyKQ0KDQogICAgICAgIGVsaWYgdXNlX2lkbGVfbW9kZToNCiAgICAgICAgICAgIGF1ZGlvX3BhdGggPSBvcy5wYXRoLmpvaW4oaW5wdXRfZGlyLCAnaWRsZW1vZGVfJytzdHIobGVuZ3RoX29mX2F1ZGlvKSsnLndhdicpICMjIGdlbmVyYXRlIGF1ZGlvIGZyb20gdGhpcyBuZXcgYXVkaW9fcGF0aA0KICAgICAgICAgICAgZnJvbSBweWR1YiBpbXBvcnQgQXVkaW9TZWdtZW50DQogICAgICAgICAgICBvbmVfc2VjX3NlZ21lbnQgPSBBdWRpb1NlZ21lbnQuc2lsZW50KGR1cmF0aW9uPTEwMDAqbGVuZ3RoX29mX2F1ZGlvKSAgI2R1cmF0aW9uIGluIG1pbGxpc2Vjb25kcw0KICAgICAgICAgICAgb25lX3NlY19zZWdtZW50LmV4cG9ydChhdWRpb19wYXRoLCBmb3JtYXQ9IndhdiIpDQogICAgICAgIGVsc2U6DQogICAgICAgICAgICBhc3NlcnQgZHJpdmVuX2F1ZGlvIGlzIG5vdCBOb25lLCAiTm8gYXVkaW8gaXMgZ2l2ZW4iDQogICAgICAgICAgICBwcmludCh1c2VfcmVmX3ZpZGVvLCByZWZfaW5mbykNCiAgICAgICAgICAgIGFzc2VydCB1c2VfcmVmX3ZpZGVvID09IFRydWUgYW5kIHJlZl9pbmZvID09ICdhbGwnDQoNCiAgICAgICAgaWYgdXNlX3JlZl92aWRlbyBhbmQgcmVmX2luZm8gPT0gJ2FsbCc6ICMgZnVsbCByZWYgbW9kZQ0KICAgICAgICAgICAgcmVmX3ZpZGVvX3ZpZGVvbmFtZSA9IG9zLnBhdGguYmFzZW5hbWUocmVmX3ZpZGVvKQ0KICAgICAgICAgICAgYXVkaW9fcGF0aCA9IG9zLnBhdGguam9pbihzYXZlX2RpciwgcmVmX3ZpZGVvX3ZpZGVvbmFtZSsnLndhdicpDQogICAgICAgICAgICBwcmludCgnbmV3IGF1ZGlvcGF0aDonLGF1ZGlvX3BhdGgpDQogICAgICAgICAgICAjIGlmIHJlZl92aWRlbyBjb250YWlucyBhdWRpbywgc2V0IHRoZSBhdWRpbyBmcm9tIHJlZl92aWRlby4NCiAgICAgICAgICAgIGNtZCA9IHIiZmZtcGVnIC15IC1oaWRlX2Jhbm5lciAtbG9nbGV2ZWwgZXJyb3IgLWkgJXMgJXMiJShyZWZfdmlkZW8sIGF1ZGlvX3BhdGgpDQogICAgICAgICAgICBvcy5zeXN0ZW0oY21kKSAgICAgICAgDQoNCiAgICAgICAgb3MubWFrZWRpcnMoc2F2ZV9kaXIsIGV4aXN0X29rPVRydWUpDQogICAgICAgIA0KICAgICAgICAjY3JvcCBpbWFnZSBhbmQgZXh0cmFjdCAzZG1tIGZyb20gaW1hZ2UNCiAgICAgICAgZmlyc3RfZnJhbWVfZGlyID0gb3MucGF0aC5qb2luKHNhdmVfZGlyLCAnZmlyc3RfZnJhbWVfZGlyJykNCiAgICAgICAgb3MubWFrZWRpcnMoZmlyc3RfZnJhbWVfZGlyLCBleGlzdF9vaz1UcnVlKQ0KICAgICAgICBmaXJzdF9jb2VmZl9wYXRoLCBjcm9wX3BpY19wYXRoLCBjcm9wX2luZm8gPSBzZWxmLnByZXByb2Nlc3NfbW9kZWwuZ2VuZXJhdGUocGljX3BhdGgsIGZpcnN0X2ZyYW1lX2RpciwgcHJlcHJvY2VzcywgVHJ1ZSwgc2l6ZSkNCiAgICAgICAgcHJpbnQoZmlyc3RfY29lZmZfcGF0aCwgY3JvcF9pbmZvKQ0KICAgICAgICBpZiBmaXJzdF9jb2VmZl9wYXRoIGlzIE5vbmU6DQogICAgICAgICAgICByYWlzZSBBdHRyaWJ1dGVFcnJvcigiTm8gZmFjZSBpcyBkZXRlY3RlZCIpDQoNCiAgICAgICAgaWYgdXNlX3JlZl92aWRlbzoNCiAgICAgICAgICAgIHByaW50KCd1c2luZyByZWYgdmlkZW8gZm9yIGdlbnJlYXRpb24nKQ0KICAgICAgICAgICAgcmVmX3ZpZGVvX3ZpZGVvbmFtZSA9IG9zLnBhdGguc3BsaXRleHQob3MucGF0aC5zcGxpdChyZWZfdmlkZW8pWy0xXSlbMF0NCiAgICAgICAgICAgIHJlZl92aWRlb19mcmFtZV9kaXIgPSBvcy5wYXRoLmpvaW4oc2F2ZV9kaXIsIHJlZl92aWRlb192aWRlb25hbWUpDQogICAgICAgICAgICBvcy5tYWtlZGlycyhyZWZfdmlkZW9fZnJhbWVfZGlyLCBleGlzdF9vaz1UcnVlKQ0KICAgICAgICAgICAgcHJpbnQoJzNETU0gRXh0cmFjdGlvbiBmb3IgdGhlIHJlZmVyZW5jZSB2aWRlbyBwcm92aWRpbmcgcG9zZScpDQogICAgICAgICAgICByZWZfdmlkZW9fY29lZmZfcGF0aCwgXywgXyA9ICBzZWxmLnByZXByb2Nlc3NfbW9kZWwuZ2VuZXJhdGUocmVmX3ZpZGVvLCByZWZfdmlkZW9fZnJhbWVfZGlyLCBwcmVwcm9jZXNzLCBzb3VyY2VfaW1hZ2VfZmxhZz1GYWxzZSkNCiAgICAgICAgZWxzZToNCiAgICAgICAgICAgIHJlZl92aWRlb19jb2VmZl9wYXRoID0gTm9uZQ0KDQogICAgICAgIGlmIHVzZV9yZWZfdmlkZW86DQogICAgICAgICAgICBpZiByZWZfaW5mbyA9PSAncG9zZSc6DQogICAgICAgICAgICAgICAgcmVmX3Bvc2VfY29lZmZfcGF0aCA9IHJlZl92aWRlb19jb2VmZl9wYXRoDQogICAgICAgICAgICAgICAgcmVmX2V5ZWJsaW5rX2NvZWZmX3BhdGggPSBOb25lDQogICAgICAgICAgICBlbGlmIHJlZl9pbmZvID09ICdibGluayc6DQogICAgICAgICAgICAgICAgcmVmX3Bvc2VfY29lZmZfcGF0aCA9IE5vbmUNCiAgICAgICAgICAgICAgICByZWZfZXllYmxpbmtfY29lZmZfcGF0aCA9IHJlZl92aWRlb19jb2VmZl9wYXRoDQogICAgICAgICAgICBlbGlmIHJlZl9pbmZvID09ICdwb3NlK2JsaW5rJzoNCiAgICAgICAgICAgICAgICByZWZfcG9zZV9jb2VmZl9wYXRoID0gcmVmX3ZpZGVvX2NvZWZmX3BhdGgNCiAgICAgICAgICAgICAgICByZWZfZXllYmxpbmtfY29lZmZfcGF0aCA9IHJlZl92aWRlb19jb2VmZl9wYXRoDQogICAgICAgICAgICBlbGlmIHJlZl9pbmZvID09ICdhbGwnOiAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgIHJlZl9wb3NlX2NvZWZmX3BhdGggPSBOb25lDQogICAgICAgICAgICAgICAgcmVmX2V5ZWJsaW5rX2NvZWZmX3BhdGggPSBOb25lDQogICAgICAgICAgICBlbHNlOg0KICAgICAgICAgICAgICAgIHJhaXNlKCdlcnJvciBpbiByZWZpbmZvJykNCiAgICAgICAgZWxzZToNCiAgICAgICAgICAgIHJlZl9wb3NlX2NvZWZmX3BhdGggPSBOb25lDQogICAgICAgICAgICByZWZfZXllYmxpbmtfY29lZmZfcGF0aCA9IE5vbmUNCg0KICAgICAgICAjYXVkaW8yY2VvZmYNCiAgICAgICAgaWYgdXNlX3JlZl92aWRlbyBhbmQgcmVmX2luZm8gPT0gJ2FsbCc6DQogICAgICAgICAgICBjb2VmZl9wYXRoID0gcmVmX3ZpZGVvX2NvZWZmX3BhdGggIyBzZWxmLmF1ZGlvX3RvX2NvZWZmLmdlbmVyYXRlKGJhdGNoLCBzYXZlX2RpciwgcG9zZV9zdHlsZSwgcmVmX3Bvc2VfY29lZmZfcGF0aCkNCiAgICAgICAgZWxzZToNCiAgICAgICAgICAgIGJhdGNoID0gZ2V0X2RhdGEoZmlyc3RfY29lZmZfcGF0aCwgYXVkaW9fcGF0aCwgc2VsZi5kZXZpY2UsIHJlZl9leWVibGlua19jb2VmZl9wYXRoPXJlZl9leWVibGlua19jb2VmZl9wYXRoLCBzdGlsbD1zdGlsbF9tb2RlLCBcDQogICAgICAgICAgICAgICAgaWRsZW1vZGU9dXNlX2lkbGVfbW9kZSwgbGVuZ3RoX29mX2F1ZGlvPWxlbmd0aF9vZl9hdWRpbywgdXNlX2JsaW5rPXVzZV9ibGluaywgZnBzID0gZnBzKSAjIGxvbmdlciBhdWRpbz8NCiAgICAgICAgICAgIGNvZWZmX3BhdGggPSBzZWxmLmF1ZGlvX3RvX2NvZWZmLmdlbmVyYXRlKGJhdGNoLCBzYXZlX2RpciwgcG9zZV9zdHlsZSwgcmVmX3Bvc2VfY29lZmZfcGF0aCkNCg0KICAgICAgICAjY29lZmYydmlkZW8NCiAgICAgICAgZGF0YSA9IGdldF9mYWNlcmVuZGVyX2RhdGEoY29lZmZfcGF0aCwgY3JvcF9waWNfcGF0aCwgZmlyc3RfY29lZmZfcGF0aCwgYXVkaW9fcGF0aCwgYmF0Y2hfc2l6ZSwgc3RpbGxfbW9kZT1zdGlsbF9tb2RlLCBcDQogICAgICAgICAgICBwcmVwcm9jZXNzPXByZXByb2Nlc3MsIHNpemU9c2l6ZSwgZXhwcmVzc2lvbl9zY2FsZSA9IGV4cF9zY2FsZSwgZmFjZW1vZGVsPWZhY2VyZW5kZXIpDQogICAgICAgIHJldHVybl9wYXRoID0gc2VsZi5hbmltYXRlX2Zyb21fY29lZmYuZ2VuZXJhdGUoZGF0YSwgc2F2ZV9kaXIsICBwaWNfcGF0aCwgY3JvcF9pbmZvLCBlbmhhbmNlcj0nZ2ZwZ2FuJyBpZiB1c2VfZW5oYW5jZXIgZWxzZSBOb25lLCBwcmVwcm9jZXNzPXByZXByb2Nlc3MsIGltZ19zaXplPXNpemUsIGZwcyA9IGZwcykNCiAgICAgICAgIyB2aWRlb19uYW1lID0gZGF0YVsndmlkZW9fbmFtZSddDQogICAgICAgIHByaW50KGYnVGhlIGdlbmVyYXRlZCB2aWRlbyBpcyBzYXZlZCBpbiB7cmV0dXJuX3BhdGh9JykNCg0KICAgICAgICBkZWwgc2VsZi5wcmVwcm9jZXNzX21vZGVsDQogICAgICAgICMgZGVsIHNlbGYuYXVkaW9fdG9fY29lZmYNCiAgICAgICAgIyBkZWwgc2VsZi5hbmltYXRlX2Zyb21fY29lZmYNCg0KICAgICAgICBpZiB0b3JjaC5jdWRhLmlzX2F2YWlsYWJsZSgpOg0KICAgICAgICAgICAgdG9yY2guY3VkYS5lbXB0eV9jYWNoZSgpDQogICAgICAgICAgICB0b3JjaC5jdWRhLnN5bmNocm9uaXplKCkNCiAgICAgICAgICAgIA0KICAgICAgICBpbXBvcnQgZ2M7IGdjLmNvbGxlY3QoKQ0KICAgICAgICANCiAgICAgICAgcmV0dXJuIHJldHVybl9wYXRoDQogICAgDQogICAgDQppZiBfX25hbWVfXyA9PSAnX19tYWluX18nOg0KICAgIHNhZHRhbGtlciA9IFNhZFRhbGtlcigpDQogICAgc291cmNlX2ltYWdlID0gImlucHV0cy9naXJsLnBuZyINCiAgICBzb3VyY2VfYXVkaW8gPSAiYW5zd2VyLndhdiINCiAgICBzYWR0YWxrZXIudGVzdDIoc291cmNlX2ltYWdlLCBzb3VyY2VfYXVkaW8sIHVzZV9pZGxlX21vZGU9VHJ1ZSwgbGVuZ3RoX29mX2F1ZGlvPTUsIHJlc3VsdF9kaXI9J3Jlc3VsdHMvJykNCiAgICA=
+import sys
+sys.path.append('./')
+
+import torch, uuid
+import os, sys, shutil, platform
+# from src.facerender.pirender_animate import AnimateFromCoeff_PIRender
+from src.utils.preprocess import CropAndExtract
+from src.test_audio2coeff import Audio2Coeff  
+from src.facerender.animate import AnimateFromCoeff
+from src.generate_batch import get_data
+from src.generate_facerender_batch import get_facerender_data
+from src.utils.init_path import init_path
+
+# from pydub import AudioSegment
+# def mp3_to_wav(mp3_filename,wav_filename,frame_rate):
+#     mp3_file = AudioSegment.from_file(file=mp3_filename)
+#     mp3_file.set_frame_rate(frame_rate).export(wav_filename,format="wav")
+
+class SadTalker():
+
+    def __init__(self, checkpoint_path='checkpoints', config_path='src/config', lazy_load=False):
+        import platform
+        if torch.cuda.is_available():
+            device = "cuda"
+        elif platform.system() == 'Darwin': # macos 
+            device = "mps"
+        else:
+            device = "cpu"
+        
+        self.device = device
+
+        os.environ['TORCH_HOME']= checkpoint_path
+
+        self.checkpoint_path = checkpoint_path
+        self.config_path = config_path
+        self.sadtalker_paths = init_path(checkpoint_path, self.config_path, 256, False, 'crop')
+        self.animate_from_coeff = AnimateFromCoeff(self.sadtalker_paths, self.device)
+        self.audio_to_coeff = Audio2Coeff(self.sadtalker_paths, self.device)
+
+    def test(self, 
+            pic_path,
+            crop_pic_path,
+            first_coeff_path, 
+            crop_info,
+            source_image, driven_audio, preprocess='crop', 
+            still_mode=False,  use_enhancer=False, batch_size=1, size=256, 
+            pose_style = 0, 
+            facerender='facevid2vid',
+            exp_scale=1.0, 
+            use_ref_video = False,
+            ref_video = None,
+            ref_info = None,
+            use_idle_mode = False,
+            length_of_audio = 0, use_blink=True, fps=20,
+            result_dir='./results/'):
+
+        
+        # print(self.sadtalker_paths)
+            
+        
+        # self.preprocess_model = CropAndExtract(self.sadtalker_paths, self.device)
+        
+        # if facerender == 'facevid2vid' and self.device != 'mps':
+        #     self.animate_from_coeff = AnimateFromCoeff(self.sadtalker_paths, self.device)
+        # elif facerender == 'pirender' or self.device == 'mps':
+        #     self.animate_from_coeff = AnimateFromCoeff_PIRender(self.sadtalker_paths, self.device)
+        #     facerender = 'pirender'
+        # else:
+        #     raise(RuntimeError('Unknown model: {}'.format(facerender)))
+            
+
+        # time_tag = str(uuid.uuid4())
+        # save_dir = os.path.join(result_dir, time_tag)
+        # os.makedirs(save_dir, exist_ok=True)
+        save_dir = result_dir
+        os.makedirs(save_dir, exist_ok=True)
+        # input_dir = os.path.join(save_dir, 'input')
+        # os.makedirs(input_dir, exist_ok=True)
+
+        # print(source_image)
+        # pic_path = os.path.join(input_dir, os.path.basename(source_image)) 
+        # shutil.copy(source_image, input_dir)
+
+        # if driven_audio is not None and os.path.isfile(driven_audio):
+        #     audio_path = os.path.join(input_dir, os.path.basename(driven_audio))  
+
+        #     #### mp3 to wav
+        #     if '.mp3' in audio_path:
+        #         mp3_to_wav(driven_audio, audio_path.replace('.mp3', '.wav'), 16000)
+        #         audio_path = audio_path.replace('.mp3', '.wav')
+        #     else:
+        #         shutil.move(driven_audio, input_dir)
+
+        # elif use_idle_mode:
+        #     audio_path = os.path.join(input_dir, 'idlemode_'+str(length_of_audio)+'.wav') ## generate audio from this new audio_path
+        #     from pydub import AudioSegment
+        #     one_sec_segment = AudioSegment.silent(duration=1000*length_of_audio)  #duration in milliseconds
+        #     one_sec_segment.export(audio_path, format="wav")
+        # else:
+        #     print(use_ref_video, ref_info)
+        #     assert use_ref_video == True and ref_info == 'all'
+
+        # if use_ref_video and ref_info == 'all': # full ref mode
+        #     ref_video_videoname = os.path.basename(ref_video)
+        #     audio_path = os.path.join(save_dir, ref_video_videoname+'.wav')
+        #     print('new audiopath:',audio_path)
+        #     # if ref_video contains audio, set the audio from ref_video.
+        #     cmd = r"ffmpeg -y -hide_banner -loglevel error -i %s %s"%(ref_video, audio_path)
+        #     os.system(cmd)        
+
+        # os.makedirs(save_dir, exist_ok=True)
+        
+        #crop image and extract 3dmm from image
+        # first_frame_dir = os.path.join(save_dir, 'first_frame_dir')
+        # os.makedirs(first_frame_dir, exist_ok=True)
+        # first_coeff_path, crop_pic_path, crop_info = self.preprocess_model.generate(pic_path, first_frame_dir, preprocess, True, size)
+        
+        # if first_coeff_path is None:
+        #     raise AttributeError("No face is detected")
+
+        # if use_ref_video:
+        #     print('using ref video for genreation')
+        #     ref_video_videoname = os.path.splitext(os.path.split(ref_video)[-1])[0]
+        #     ref_video_frame_dir = os.path.join(save_dir, ref_video_videoname)
+        #     os.makedirs(ref_video_frame_dir, exist_ok=True)
+        #     print('3DMM Extraction for the reference video providing pose')
+        #     ref_video_coeff_path, _, _ =  self.preprocess_model.generate(ref_video, ref_video_frame_dir, preprocess, source_image_flag=False)
+        # else:
+        #     ref_video_coeff_path = None
+
+        # if use_ref_video:
+        #     if ref_info == 'pose':
+        #         ref_pose_coeff_path = ref_video_coeff_path
+        #         ref_eyeblink_coeff_path = None
+        #     elif ref_info == 'blink':
+        #         ref_pose_coeff_path = None
+        #         ref_eyeblink_coeff_path = ref_video_coeff_path
+        #     elif ref_info == 'pose+blink':
+        #         ref_pose_coeff_path = ref_video_coeff_path
+        #         ref_eyeblink_coeff_path = ref_video_coeff_path
+        #     elif ref_info == 'all':            
+        #         ref_pose_coeff_path = None
+        #         ref_eyeblink_coeff_path = None
+        #     else:
+        #         raise('error in refinfo')
+        # else:
+        #     ref_pose_coeff_path = None
+        #     ref_eyeblink_coeff_path = None
+
+        ref_pose_coeff_path = None
+        ref_eyeblink_coeff_path = None
+        audio_path = driven_audio
+        # fps = 25
+        #audio2ceoff
+        # if use_ref_video and ref_info == 'all':
+        #     coeff_path = ref_video_coeff_path # self.audio_to_coeff.generate(batch, save_dir, pose_style, ref_pose_coeff_path)
+        # else:
+        batch = get_data(first_coeff_path, audio_path, self.device, ref_eyeblink_coeff_path=ref_eyeblink_coeff_path, still=still_mode, \
+            idlemode=use_idle_mode, length_of_audio=length_of_audio, use_blink=use_blink, fps = fps) # longer audio?
+        coeff = self.audio_to_coeff.generate(batch, save_dir, pose_style, ref_pose_coeff_path)
+
+        #coeff2video
+        data = get_facerender_data(coeff, crop_pic_path, first_coeff_path, audio_path, batch_size, still_mode=still_mode, \
+            preprocess=preprocess, size=size, expression_scale = exp_scale, facemodel=facerender)
+        return_path = self.animate_from_coeff.generate(data, save_dir,  pic_path, crop_info, enhancer='gfpgan' if use_enhancer else None, preprocess=preprocess, img_size=size, fps = fps)
+        # video_name = data['video_name']
+        # print(f'The generated video is named {video_name} in {save_dir}')
+
+        # del self.preprocess_model
+        # del self.audio_to_coeff
+        # del self.animate_from_coeff
+
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            torch.cuda.synchronize()
+            
+        import gc; gc.collect()
+        
+        return return_path
+    
+    def test2(self, source_image, driven_audio, preprocess='crop', 
+        still_mode=False,  use_enhancer=False, batch_size=1, size=256, 
+        pose_style = 0, 
+        facerender='facevid2vid',
+        exp_scale=1.0, 
+        use_ref_video = False,
+        ref_video = None,
+        ref_info = None,
+        use_idle_mode = False,
+        length_of_audio = 0, use_blink=True, fps = 20,
+        result_dir='./results/'):
+        os.makedirs(result_dir, exist_ok=True)
+        self.sadtalker_paths = init_path(self.checkpoint_path, self.config_path, size, False, preprocess)
+        print(self.sadtalker_paths)
+            
+        self.audio_to_coeff = Audio2Coeff(self.sadtalker_paths, self.device)
+        self.preprocess_model = CropAndExtract(self.sadtalker_paths, self.device)
+        
+        self.animate_from_coeff = AnimateFromCoeff(self.sadtalker_paths, self.device)
+
+        time_tag = str(uuid.uuid4())
+        save_dir = os.path.join(result_dir, time_tag)
+        os.makedirs(save_dir, exist_ok=True)
+
+        input_dir = os.path.join(save_dir, 'input')
+        os.makedirs(input_dir, exist_ok=True)
+
+        print(source_image)
+        pic_path = os.path.join(input_dir, os.path.basename(source_image)) 
+        shutil.copy(source_image, input_dir)
+
+        if driven_audio is not None and os.path.isfile(driven_audio):
+            audio_path = os.path.join(input_dir, os.path.basename(driven_audio))  
+            shutil.copy(driven_audio, input_dir)
+
+        elif use_idle_mode:
+            audio_path = os.path.join(input_dir, 'idlemode_'+str(length_of_audio)+'.wav') ## generate audio from this new audio_path
+            from pydub import AudioSegment
+            one_sec_segment = AudioSegment.silent(duration=1000*length_of_audio)  #duration in milliseconds
+            one_sec_segment.export(audio_path, format="wav")
+        else:
+            assert driven_audio is not None, "No audio is given"
+            print(use_ref_video, ref_info)
+            assert use_ref_video == True and ref_info == 'all'
+
+        if use_ref_video and ref_info == 'all': # full ref mode
+            ref_video_videoname = os.path.basename(ref_video)
+            audio_path = os.path.join(save_dir, ref_video_videoname+'.wav')
+            print('new audiopath:',audio_path)
+            # if ref_video contains audio, set the audio from ref_video.
+            cmd = r"ffmpeg -y -hide_banner -loglevel error -i %s %s"%(ref_video, audio_path)
+            os.system(cmd)        
+
+        os.makedirs(save_dir, exist_ok=True)
+        
+        #crop image and extract 3dmm from image
+        first_frame_dir = os.path.join(save_dir, 'first_frame_dir')
+        os.makedirs(first_frame_dir, exist_ok=True)
+        first_coeff_path, crop_pic_path, crop_info = self.preprocess_model.generate(pic_path, first_frame_dir, preprocess, True, size)
+        print(first_coeff_path, crop_info)
+        if first_coeff_path is None:
+            raise AttributeError("No face is detected")
+
+        if use_ref_video:
+            print('using ref video for genreation')
+            ref_video_videoname = os.path.splitext(os.path.split(ref_video)[-1])[0]
+            ref_video_frame_dir = os.path.join(save_dir, ref_video_videoname)
+            os.makedirs(ref_video_frame_dir, exist_ok=True)
+            print('3DMM Extraction for the reference video providing pose')
+            ref_video_coeff_path, _, _ =  self.preprocess_model.generate(ref_video, ref_video_frame_dir, preprocess, source_image_flag=False)
+        else:
+            ref_video_coeff_path = None
+
+        if use_ref_video:
+            if ref_info == 'pose':
+                ref_pose_coeff_path = ref_video_coeff_path
+                ref_eyeblink_coeff_path = None
+            elif ref_info == 'blink':
+                ref_pose_coeff_path = None
+                ref_eyeblink_coeff_path = ref_video_coeff_path
+            elif ref_info == 'pose+blink':
+                ref_pose_coeff_path = ref_video_coeff_path
+                ref_eyeblink_coeff_path = ref_video_coeff_path
+            elif ref_info == 'all':            
+                ref_pose_coeff_path = None
+                ref_eyeblink_coeff_path = None
+            else:
+                raise('error in refinfo')
+        else:
+            ref_pose_coeff_path = None
+            ref_eyeblink_coeff_path = None
+
+        #audio2ceoff
+        if use_ref_video and ref_info == 'all':
+            coeff_path = ref_video_coeff_path # self.audio_to_coeff.generate(batch, save_dir, pose_style, ref_pose_coeff_path)
+        else:
+            batch = get_data(first_coeff_path, audio_path, self.device, ref_eyeblink_coeff_path=ref_eyeblink_coeff_path, still=still_mode, \
+                idlemode=use_idle_mode, length_of_audio=length_of_audio, use_blink=use_blink, fps = fps) # longer audio?
+            coeff_path = self.audio_to_coeff.generate(batch, save_dir, pose_style, ref_pose_coeff_path)
+
+        #coeff2video
+        data = get_facerender_data(coeff_path, crop_pic_path, first_coeff_path, audio_path, batch_size, still_mode=still_mode, \
+            preprocess=preprocess, size=size, expression_scale = exp_scale, facemodel=facerender)
+        return_path = self.animate_from_coeff.generate(data, save_dir,  pic_path, crop_info, enhancer='gfpgan' if use_enhancer else None, preprocess=preprocess, img_size=size, fps = fps)
+        # video_name = data['video_name']
+        print(f'The generated video is saved in {return_path}')
+
+        del self.preprocess_model
+        # del self.audio_to_coeff
+        # del self.animate_from_coeff
+
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            torch.cuda.synchronize()
+            
+        import gc; gc.collect()
+        
+        return return_path
+    
+    
+if __name__ == '__main__':
+    sadtalker = SadTalker()
+    source_image = "inputs/girl.png"
+    source_audio = "answer.wav"
+    sadtalker.test2(source_image, source_audio, use_idle_mode=True, length_of_audio=5, result_dir='results/')
+    

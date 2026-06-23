@@ -1,1 +1,3 @@
-ZnVuYXNyCm1vZGVsc2NvcGUKIyByb3RhcnlfZW1iZWRkaW5nX3RvcmNo
+funasr
+modelscope
+# rotary_embedding_torch

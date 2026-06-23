@@ -1,1 +1,129 @@
-JycnCmh0dHBzOi8vZ2l0aHViLmNvbS9vcGVuYWkvd2hpc3BlcgpwaXAgaW5zdGFsbCAtVSBvcGVuYWktd2hpc3BlcgonJycKaW1wb3J0IHdoaXNwZXIKaW1wb3J0IHN5cwpzeXMucGF0aC5hcHBlbmQoJy4vJykKZnJvbSBzcmMuY29zdF90aW1lIGltcG9ydCBjYWxjdWxhdGVfdGltZSAKCmNsYXNzIFdoaXNwZXJBU1I6CiAgICBkZWYgX19pbml0X18oc2VsZiwgbW9kZWxfcGF0aCk6CiAgICAgICAgc2VsZi5MQU5HVUFHRVMgPSB7CiAgICAgICAgICAgICJlbiI6ICJlbmdsaXNoIiwKICAgICAgICAgICAgInpoIjogImNoaW5lc2UiLAogICAgICAgICAgICAiZGUiOiAiZ2VybWFuIiwKICAgICAgICAgICAgImVzIjogInNwYW5pc2giLAogICAgICAgICAgICAicnUiOiAicnVzc2lhbiIsCiAgICAgICAgICAgICJrbyI6ICJrb3JlYW4iLAogICAgICAgICAgICAiZnIiOiAiZnJlbmNoIiwKICAgICAgICAgICAgImphIjogImphcGFuZXNlIiwKICAgICAgICAgICAgInB0IjogInBvcnR1Z3Vlc2UiLAogICAgICAgICAgICAidHIiOiAidHVya2lzaCIsCiAgICAgICAgICAgICJwbCI6ICJwb2xpc2giLAogICAgICAgICAgICAiY2EiOiAiY2F0YWxhbiIsCiAgICAgICAgICAgICJubCI6ICJkdXRjaCIsCiAgICAgICAgICAgICJhciI6ICJhcmFiaWMiLAogICAgICAgICAgICAic3YiOiAic3dlZGlzaCIsCiAgICAgICAgICAgICJpdCI6ICJpdGFsaWFuIiwKICAgICAgICAgICAgImlkIjogImluZG9uZXNpYW4iLAogICAgICAgICAgICAiaGkiOiAiaGluZGkiLAogICAgICAgICAgICAiZmkiOiAiZmlubmlzaCIsCiAgICAgICAgICAgICJ2aSI6ICJ2aWV0bmFtZXNlIiwKICAgICAgICAgICAgImhlIjogImhlYnJldyIsCiAgICAgICAgICAgICJ1ayI6ICJ1a3JhaW5pYW4iLAogICAgICAgICAgICAiZWwiOiAiZ3JlZWsiLAogICAgICAgICAgICAibXMiOiAibWFsYXkiLAogICAgICAgICAgICAiY3MiOiAiY3plY2giLAogICAgICAgICAgICAicm8iOiAicm9tYW5pYW4iLAogICAgICAgICAgICAiZGEiOiAiZGFuaXNoIiwKICAgICAgICAgICAgImh1IjogImh1bmdhcmlhbiIsCiAgICAgICAgICAgICJ0YSI6ICJ0YW1pbCIsCiAgICAgICAgICAgICJubyI6ICJub3J3ZWdpYW4iLAogICAgICAgICAgICAidGgiOiAidGhhaSIsCiAgICAgICAgICAgICJ1ciI6ICJ1cmR1IiwKICAgICAgICAgICAgImhyIjogImNyb2F0aWFuIiwKICAgICAgICAgICAgImJnIjogImJ1bGdhcmlhbiIsCiAgICAgICAgICAgICJsdCI6ICJsaXRodWFuaWFuIiwKICAgICAgICAgICAgImxhIjogImxhdGluIiwKICAgICAgICAgICAgIm1pIjogIm1hb3JpIiwKICAgICAgICAgICAgIm1sIjogIm1hbGF5YWxhbSIsCiAgICAgICAgICAgICJjeSI6ICJ3ZWxzaCIsCiAgICAgICAgICAgICJzayI6ICJzbG92YWsiLAogICAgICAgICAgICAidGUiOiAidGVsdWd1IiwKICAgICAgICAgICAgImZhIjogInBlcnNpYW4iLAogICAgICAgICAgICAibHYiOiAibGF0dmlhbiIsCiAgICAgICAgICAgICJibiI6ICJiZW5nYWxpIiwKICAgICAgICAgICAgInNyIjogInNlcmJpYW4iLAogICAgICAgICAgICAiYXoiOiAiYXplcmJhaWphbmkiLAogICAgICAgICAgICAic2wiOiAic2xvdmVuaWFuIiwKICAgICAgICAgICAgImtuIjogImthbm5hZGEiLAogICAgICAgICAgICAiZXQiOiAiZXN0b25pYW4iLAogICAgICAgICAgICAibWsiOiAibWFjZWRvbmlhbiIsCiAgICAgICAgICAgICJiciI6ICJicmV0b24iLAogICAgICAgICAgICAiZXUiOiAiYmFzcXVlIiwKICAgICAgICAgICAgImlzIjogImljZWxhbmRpYyIsCiAgICAgICAgICAgICJoeSI6ICJhcm1lbmlhbiIsCiAgICAgICAgICAgICJuZSI6ICJuZXBhbGkiLAogICAgICAgICAgICAibW4iOiAibW9uZ29saWFuIiwKICAgICAgICAgICAgImJzIjogImJvc25pYW4iLAogICAgICAgICAgICAia2siOiAia2F6YWtoIiwKICAgICAgICAgICAgInNxIjogImFsYmFuaWFuIiwKICAgICAgICAgICAgInN3IjogInN3YWhpbGkiLAogICAgICAgICAgICAiZ2wiOiAiZ2FsaWNpYW4iLAogICAgICAgICAgICAibXIiOiAibWFyYXRoaSIsCiAgICAgICAgICAgICJwYSI6ICJwdW5qYWJpIiwKICAgICAgICAgICAgInNpIjogInNpbmhhbGEiLAogICAgICAgICAgICAia20iOiAia2htZXIiLAogICAgICAgICAgICAic24iOiAic2hvbmEiLAogICAgICAgICAgICAieW8iOiAieW9ydWJhIiwKICAgICAgICAgICAgInNvIjogInNvbWFsaSIsCiAgICAgICAgICAgICJhZiI6ICJhZnJpa2FhbnMiLAogICAgICAgICAgICAib2MiOiAib2NjaXRhbiIsCiAgICAgICAgICAgICJrYSI6ICJnZW9yZ2lhbiIsCiAgICAgICAgICAgICJiZSI6ICJiZWxhcnVzaWFuIiwKICAgICAgICAgICAgInRnIjogInRhamlrIiwKICAgICAgICAgICAgInNkIjogInNpbmRoaSIsCiAgICAgICAgICAgICJndSI6ICJndWphcmF0aSIsCiAgICAgICAgICAgICJhbSI6ICJhbWhhcmljIiwKICAgICAgICAgICAgInlpIjogInlpZGRpc2giLAogICAgICAgICAgICAibG8iOiAibGFvIiwKICAgICAgICAgICAgInV6IjogInV6YmVrIiwKICAgICAgICAgICAgImZvIjogImZhcm9lc2UiLAogICAgICAgICAgICAiaHQiOiAiaGFpdGlhbiBjcmVvbGUiLAogICAgICAgICAgICAicHMiOiAicGFzaHRvIiwKICAgICAgICAgICAgInRrIjogInR1cmttZW4iLAogICAgICAgICAgICAibm4iOiAibnlub3JzayIsCiAgICAgICAgICAgICJtdCI6ICJtYWx0ZXNlIiwKICAgICAgICAgICAgInNhIjogInNhbnNrcml0IiwKICAgICAgICAgICAgImxiIjogImx1eGVtYm91cmdpc2giLAogICAgICAgICAgICAibXkiOiAibXlhbm1hciIsCiAgICAgICAgICAgICJibyI6ICJ0aWJldGFuIiwKICAgICAgICAgICAgInRsIjogInRhZ2Fsb2ciLAogICAgICAgICAgICAibWciOiAibWFsYWdhc3kiLAogICAgICAgICAgICAiYXMiOiAiYXNzYW1lc2UiLAogICAgICAgICAgICAidHQiOiAidGF0YXIiLAogICAgICAgICAgICAiaGF3IjogImhhd2FpaWFuIiwKICAgICAgICAgICAgImxuIjogImxpbmdhbGEiLAogICAgICAgICAgICAiaGEiOiAiaGF1c2EiLAogICAgICAgICAgICAiYmEiOiAiYmFzaGtpciIsCiAgICAgICAgICAgICJqdyI6ICJqYXZhbmVzZSIsCiAgICAgICAgICAgICJzdSI6ICJzdW5kYW5lc2UiLAogICAgICAgIH0KICAgICAgICBzZWxmLm1vZGVsID0gd2hpc3Blci5sb2FkX21vZGVsKG1vZGVsX3BhdGgpCgogICAgQGNhbGN1bGF0ZV90aW1lCiAgICBkZWYgdHJhbnNjcmliZShzZWxmLCBhdWRpb19maWxlKToKICAgICAgICByZXN1bHQgPSBzZWxmLm1vZGVsLnRyYW5zY3JpYmUoYXVkaW9fZmlsZSkKICAgICAgICByZXR1cm4gcmVzdWx0WyJ0ZXh0Il0KCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgaW1wb3J0IG9zCiAgICAjIOWIm+W7ukFTUuWvueixoeW5tui/m+ihjOivremfs+ivhuWIqwogICAgbW9kZWxfcGF0aCA9ICIuL1doaXNwZXIvdGlueS5wdCIgICMg5qih5Z6L6Lev5b6ECiAgICBhdWRpb19maWxlID0gIm91dHB1dC53YXYiICAjIOmfs+mikeaWh+S7tui3r+W+hAogICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKGF1ZGlvX2ZpbGUpOgogICAgICAgIG9zLnN5c3RlbSgnZWRnZS10dHMgLS10ZXh0ICJoZWxsbyIgLS13cml0ZS1tZWRpYSBvdXRwdXQud2F2JykKICAgIGFzciA9IFdoaXNwZXJBU1IobW9kZWxfcGF0aCkKICAgIHByaW50KGFzci50cmFuc2NyaWJlKGF1ZGlvX2ZpbGUpKQ==
+'''
+https://github.com/openai/whisper
+pip install -U openai-whisper
+'''
+import whisper
+import sys
+sys.path.append('./')
+from src.cost_time import calculate_time 
+
+class WhisperASR:
+    def __init__(self, model_path):
+        self.LANGUAGES = {
+            "en": "english",
+            "zh": "chinese",
+            "de": "german",
+            "es": "spanish",
+            "ru": "russian",
+            "ko": "korean",
+            "fr": "french",
+            "ja": "japanese",
+            "pt": "portuguese",
+            "tr": "turkish",
+            "pl": "polish",
+            "ca": "catalan",
+            "nl": "dutch",
+            "ar": "arabic",
+            "sv": "swedish",
+            "it": "italian",
+            "id": "indonesian",
+            "hi": "hindi",
+            "fi": "finnish",
+            "vi": "vietnamese",
+            "he": "hebrew",
+            "uk": "ukrainian",
+            "el": "greek",
+            "ms": "malay",
+            "cs": "czech",
+            "ro": "romanian",
+            "da": "danish",
+            "hu": "hungarian",
+            "ta": "tamil",
+            "no": "norwegian",
+            "th": "thai",
+            "ur": "urdu",
+            "hr": "croatian",
+            "bg": "bulgarian",
+            "lt": "lithuanian",
+            "la": "latin",
+            "mi": "maori",
+            "ml": "malayalam",
+            "cy": "welsh",
+            "sk": "slovak",
+            "te": "telugu",
+            "fa": "persian",
+            "lv": "latvian",
+            "bn": "bengali",
+            "sr": "serbian",
+            "az": "azerbaijani",
+            "sl": "slovenian",
+            "kn": "kannada",
+            "et": "estonian",
+            "mk": "macedonian",
+            "br": "breton",
+            "eu": "basque",
+            "is": "icelandic",
+            "hy": "armenian",
+            "ne": "nepali",
+            "mn": "mongolian",
+            "bs": "bosnian",
+            "kk": "kazakh",
+            "sq": "albanian",
+            "sw": "swahili",
+            "gl": "galician",
+            "mr": "marathi",
+            "pa": "punjabi",
+            "si": "sinhala",
+            "km": "khmer",
+            "sn": "shona",
+            "yo": "yoruba",
+            "so": "somali",
+            "af": "afrikaans",
+            "oc": "occitan",
+            "ka": "georgian",
+            "be": "belarusian",
+            "tg": "tajik",
+            "sd": "sindhi",
+            "gu": "gujarati",
+            "am": "amharic",
+            "yi": "yiddish",
+            "lo": "lao",
+            "uz": "uzbek",
+            "fo": "faroese",
+            "ht": "haitian creole",
+            "ps": "pashto",
+            "tk": "turkmen",
+            "nn": "nynorsk",
+            "mt": "maltese",
+            "sa": "sanskrit",
+            "lb": "luxembourgish",
+            "my": "myanmar",
+            "bo": "tibetan",
+            "tl": "tagalog",
+            "mg": "malagasy",
+            "as": "assamese",
+            "tt": "tatar",
+            "haw": "hawaiian",
+            "ln": "lingala",
+            "ha": "hausa",
+            "ba": "bashkir",
+            "jw": "javanese",
+            "su": "sundanese",
+        }
+        self.model = whisper.load_model(model_path)
+
+    @calculate_time
+    def transcribe(self, audio_file):
+        result = self.model.transcribe(audio_file)
+        return result["text"]
+
+
+if __name__ == "__main__":
+    import os
+    # 创建ASR对象并进行语音识别
+    model_path = "./Whisper/tiny.pt"  # 模型路径
+    audio_file = "output.wav"  # 音频文件路径
+    if not os.path.exists(audio_file):
+        os.system('edge-tts --text "hello" --write-media output.wav')
+    asr = WhisperASR(model_path)
+    print(asr.transcribe(audio_file))

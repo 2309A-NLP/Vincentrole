@@ -1,1 +1,20 @@
-aW1wb3J0IG9zCmltcG9ydCB0ZW1wZmlsZQpmcm9tIFRUUy5hcGkgaW1wb3J0IFRUUwoKCmNsYXNzIFRUU1RhbGtlcigpOgogICAgZGVmIF9faW5pdF9fKHNlbGYpIC0+IE5vbmU6CiAgICAgICAgbW9kZWxfbmFtZSA9IFRUUy5saXN0X21vZGVscygpWzBdCiAgICAgICAgc2VsZi50dHMgPSBUVFMobW9kZWxfbmFtZSkKCiAgICBkZWYgdGVzdChzZWxmLCB0ZXh0LCBsYW5ndWFnZT0nZW4nKToKCiAgICAgICAgdGVtcGYgID0gdGVtcGZpbGUuTmFtZWRUZW1wb3JhcnlGaWxlKAogICAgICAgICAgICAgICAgZGVsZXRlID0gRmFsc2UsCiAgICAgICAgICAgICAgICBzdWZmaXggPSAoJy4nKyd3YXYnKSwKICAgICAgICAgICAgKQoKICAgICAgICBzZWxmLnR0cy50dHNfdG9fZmlsZSh0ZXh0LCBzcGVha2VyPXNlbGYudHRzLnNwZWFrZXJzWzBdLCBsYW5ndWFnZT1sYW5ndWFnZSwgZmlsZV9wYXRoPXRlbXBmLm5hbWUpCgogICAgICAgIHJldHVybiB0ZW1wZi5uYW1l
+import os
+import tempfile
+from TTS.api import TTS
+
+
+class TTSTalker():
+    def __init__(self) -> None:
+        model_name = TTS.list_models()[0]
+        self.tts = TTS(model_name)
+
+    def test(self, text, language='en'):
+
+        tempf  = tempfile.NamedTemporaryFile(
+                delete = False,
+                suffix = ('.'+'wav'),
+            )
+
+        self.tts.tts_to_file(text, speaker=self.tts.speakers[0], language=language, file_path=tempf.name)
+
+        return tempf.name

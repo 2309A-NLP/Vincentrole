@@ -1,1 +1,61 @@
-JycnCnBpcCBpbnN0YWxsIC1VIGc0ZlthbGxdCmh0dHBzOi8vZ2l0aHViLmNvbS94dGVra3kvZ3B0NGZyZWUKJycnCmZyb20gZzRmLmNsaWVudCBpbXBvcnQgQ2xpZW50CgpjbGFzcyBHUFQ0RlJFRToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBwcmVmaXhfcHJvbXB0ID0gJycn6K+355So5bCR5LqOMjXkuKrlrZflm57nrZTku6XkuIvpl67pophcblxuJycnKToKICAgICAgICBzZWxmLmNsaWVudCA9IENsaWVudCgpCiAgICAgICAgc2VsZi5wcmVmaXhfcHJvbXB0ID0gcHJlZml4X3Byb21wdAogICAgICAgIHNlbGYuaGlzdG9yeSA9IFtdCiAgICAgICAgJycnCiAgICAgICAgcmVzcG9uc2UgPSBjbGllbnQuY2hhdC5jb21wbGV0aW9ucy5jcmVhdGUoCiAgICAgICAgICAgIG1vZGVsPSJncHQtMy41LXR1cmJvIiwKICAgICAgICAgICAgbWVzc2FnZXM9W3sicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiAiSGVsbG8ifV0sCiAgICAgICAgICAgIC4uLgogICAgICAgICkKICAgICAgICBwcmludChyZXNwb25zZS5jaG9pY2VzWzBdLm1lc3NhZ2UuY29udGVudCkKICAgICAgICAnJycKICAgIGRlZiBnZW5lcmF0ZShzZWxmLCBxdWVzdGlvbiwgc3lzdGVtX3Byb21wdD0iWW91IGFyZSBhIGhlbHBmdWwgYXNzaXN0YW50LiIpOgogICAgICAgIHNlbGYuaGlzdG9yeSArPSBbewogICAgICAgICAgICAgICAgInJvbGUiOiAidXNlciIsIAogICAgICAgICAgICAgICAgImNvbnRlbnQiOiBzZWxmLnByZWZpeF9wcm9tcHQgKyBxdWVzdGlvbgogICAgICAgICAgICB9XQogICAgICAgIHJlc3BvbnNlID0gc2VsZi5jbGllbnQuY2hhdC5jb21wbGV0aW9ucy5jcmVhdGUoCiAgICAgICAgICAgIG1vZGVsPSJncHQtMy41LXR1cmJvIiwKICAgICAgICAgICAgbWVzc2FnZXM9IFt7InJvbGUiOiAic3lzdGVtIiwgCiAgICAgICAgICAgICAgICAgICAgICAgICJjb250ZW50Ijogc3lzdGVtX3Byb21wdH1dIAogICAgICAgICAgICAgICAgICAgICAgICBpZiBzeXN0ZW1fcHJvbXB0IGVsc2UgW10gKyBzZWxmLmhpc3RvcnksCiAgICAgICAgKQogICAgICAgIAogICAgICAgIGFuc3dlciA9IHJlc3BvbnNlLmNob2ljZXNbMF0ubWVzc2FnZS5jb250ZW50CiAgICAgICAgaWYgJ3NvcnJ5JyBpbiBhbnN3ZXIubG93ZXIoKToKICAgICAgICAgICAgcmV0dXJuICflr7nkuI3otbfvvIzkvaDnmoTor7fmsYLlh7rplJnkuobvvIzor7flho3mrKHlsJ3or5XjgIJcblNvcnJ5LCB5b3VyIHJlcXVlc3QgaGFzIGVuY291bnRlcmVkIGFuIGVycm9yLiBQbGVhc2UgdHJ5IGFnYWluLlxuJwogICAgICAgIAogICAgICAgIHJldHVybiByZXNwb25zZS5jaG9pY2VzWzBdLm1lc3NhZ2UuY29udGVudAogICAgZGVmIGNoYXQoc2VsZiwgc3lzdGVtX3Byb21wdCA9ICJZb3UgYXJlIGEgaGVscGZ1bCBhc3Npc3RhbnQuIiwgbWVzc2FnZSA9ICIiLCBoaXN0b3J5PVtdKToKICAgICAgICByZXNwb25zZSA9IHNlbGYuZ2VuZXJhdGUobWVzc2FnZSwgc3lzdGVtX3Byb21wdCkKICAgICAgICBzZWxmLmhpc3RvcnkgKz0gW3sKICAgICAgICAgICAgInJvbGUiOiAiYXNzaXN0YW50cyIsCiAgICAgICAgICAgICJjb250ZW50IjogcmVzcG9uc2UKICAgICAgICB9XQogICAgICAgIGhpc3RvcnkuYXBwZW5kKChtZXNzYWdlLCByZXNwb25zZSkpCiAgICAgICAgcmV0dXJuIHJlc3BvbnNlLCBoaXN0b3J5CiAgICBkZWYgY2xlYXJfaGlzdG9yeShzZWxmKToKICAgICAgICAjIOa4heepuuWOhuWPsuiusOW9lQogICAgICAgIHNlbGYuaGlzdG9yeSA9IFtdCgoKZGVmIHRlc3QoKToKICAgIGxsbSA9IEdQVDRGUkVFKCkKICAgIGFuc3dlciwgaGlzdG9yeSA9IGxsbS5jaGF0KCIiLCAi5aaC5L2V5bqU5a+55Y6L5Yqb77yfIikKICAgIHByaW50KGFuc3dlciwgaGlzdG9yeSkKICAgIGZyb20gdGltZSBpbXBvcnQgc2xlZXAKICAgIHNsZWVwKDUpCiAgICBhbnN3ZXIsIGhpc3RvcnkgPSBsbG0uY2hhdCgiIiwgIuiDveS4jeiDveabtOWKoOivpue7huS4gOeCueWRoiIpCiAgICBwcmludChhbnN3ZXIsIGhpc3RvcnkpCgoKaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIHRlc3QoKQ==
+'''
+pip install -U g4f[all]
+https://github.com/xtekky/gpt4free
+'''
+from g4f.client import Client
+
+class GPT4FREE:
+    def __init__(self, prefix_prompt = '''请用少于25个字回答以下问题\n\n'''):
+        self.client = Client()
+        self.prefix_prompt = prefix_prompt
+        self.history = []
+        '''
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": "Hello"}],
+            ...
+        )
+        print(response.choices[0].message.content)
+        '''
+    def generate(self, question, system_prompt="You are a helpful assistant."):
+        self.history += [{
+                "role": "user", 
+                "content": self.prefix_prompt + question
+            }]
+        response = self.client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages= [{"role": "system", 
+                        "content": system_prompt}] 
+                        if system_prompt else [] + self.history,
+        )
+        
+        answer = response.choices[0].message.content
+        if 'sorry' in answer.lower():
+            return '对不起，你的请求出错了，请再次尝试。\nSorry, your request has encountered an error. Please try again.\n'
+        
+        return response.choices[0].message.content
+    def chat(self, system_prompt = "You are a helpful assistant.", message = "", history=[]):
+        response = self.generate(message, system_prompt)
+        self.history += [{
+            "role": "assistants",
+            "content": response
+        }]
+        history.append((message, response))
+        return response, history
+    def clear_history(self):
+        # 清空历史记录
+        self.history = []
+
+
+def test():
+    llm = GPT4FREE()
+    answer, history = llm.chat("", "如何应对压力？")
+    print(answer, history)
+    from time import sleep
+    sleep(5)
+    answer, history = llm.chat("", "能不能更加详细一点呢")
+    print(answer, history)
+
+
+if __name__ == '__main__':
+    test()

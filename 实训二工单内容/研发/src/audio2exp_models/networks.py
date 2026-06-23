@@ -1,1 +1,74 @@
-aW1wb3J0IHRvcmNoCmltcG9ydCB0b3JjaC5ubi5mdW5jdGlvbmFsIGFzIEYKZnJvbSB0b3JjaCBpbXBvcnQgbm4KCmNsYXNzIENvbnYyZChubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGNpbiwgY291dCwga2VybmVsX3NpemUsIHN0cmlkZSwgcGFkZGluZywgcmVzaWR1YWw9RmFsc2UsIHVzZV9hY3QgPSBUcnVlLCAqYXJncywgKiprd2FyZ3MpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oKmFyZ3MsICoqa3dhcmdzKQogICAgICAgIHNlbGYuY29udl9ibG9jayA9IG5uLlNlcXVlbnRpYWwoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBubi5Db252MmQoY2luLCBjb3V0LCBrZXJuZWxfc2l6ZSwgc3RyaWRlLCBwYWRkaW5nKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5uLkJhdGNoTm9ybTJkKGNvdXQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgc2VsZi5hY3QgPSBubi5SZUxVKCkKICAgICAgICBzZWxmLnJlc2lkdWFsID0gcmVzaWR1YWwKICAgICAgICBzZWxmLnVzZV9hY3QgPSB1c2VfYWN0CgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCk6CiAgICAgICAgb3V0ID0gc2VsZi5jb252X2Jsb2NrKHgpCiAgICAgICAgaWYgc2VsZi5yZXNpZHVhbDoKICAgICAgICAgICAgb3V0ICs9IHgKICAgICAgICAKICAgICAgICBpZiBzZWxmLnVzZV9hY3Q6CiAgICAgICAgICAgIHJldHVybiBzZWxmLmFjdChvdXQpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmV0dXJuIG91dAoKY2xhc3MgU2ltcGxlV3JhcHBlclYyKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZikgLT4gTm9uZToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLmF1ZGlvX2VuY29kZXIgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICBDb252MmQoMSwgMzIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEpLAogICAgICAgICAgICBDb252MmQoMzIsIDMyLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSwKICAgICAgICAgICAgQ29udjJkKDMyLCAzMiwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCgogICAgICAgICAgICBDb252MmQoMzIsIDY0LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9KDMsIDEpLCBwYWRkaW5nPTEpLAogICAgICAgICAgICBDb252MmQoNjQsIDY0LCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9MSwgcGFkZGluZz0xLCByZXNpZHVhbD1UcnVlKSwKICAgICAgICAgICAgQ29udjJkKDY0LCA2NCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCgogICAgICAgICAgICBDb252MmQoNjQsIDEyOCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTMsIHBhZGRpbmc9MSksCiAgICAgICAgICAgIENvbnYyZCgxMjgsIDEyOCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCiAgICAgICAgICAgIENvbnYyZCgxMjgsIDEyOCwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCgogICAgICAgICAgICBDb252MmQoMTI4LCAyNTYsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0oMywgMiksIHBhZGRpbmc9MSksCiAgICAgICAgICAgIENvbnYyZCgyNTYsIDI1Niwga2VybmVsX3NpemU9Mywgc3RyaWRlPTEsIHBhZGRpbmc9MSwgcmVzaWR1YWw9VHJ1ZSksCgogICAgICAgICAgICBDb252MmQoMjU2LCA1MTIsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTApLAogICAgICAgICAgICBDb252MmQoNTEyLCA1MTIsIGtlcm5lbF9zaXplPTEsIHN0cmlkZT0xLCBwYWRkaW5nPTApLAogICAgICAgICAgICApCgogICAgICAgICMjIyMgbG9hZCB0aGUgcHJlLXRyYWluZWQgYXVkaW9fZW5jb2RlciAKICAgICAgICAjc2VsZi5hdWRpb19lbmNvZGVyID0gc2VsZi5hdWRpb19lbmNvZGVyLnRvKGRldmljZSkgIAogICAgICAgICcnJwogICAgICAgIHdhdjJsaXBfc3RhdGVfZGljdCA9IHRvcmNoLmxvYWQoJy9hcGRjZXBoZnNfY3EyL3NoYXJlXzEyOTA5Mzkvd2VueHVhemhhbmcvY2hlY2twb2ludHMvd2F2MmxpcC5wdGgnKVsnc3RhdGVfZGljdCddCiAgICAgICAgc3RhdGVfZGljdCA9IHNlbGYuYXVkaW9fZW5jb2Rlci5zdGF0ZV9kaWN0KCkKCiAgICAgICAgZm9yIGssdiBpbiB3YXYybGlwX3N0YXRlX2RpY3QuaXRlbXMoKToKICAgICAgICAgICAgaWYgJ2F1ZGlvX2VuY29kZXInIGluIGs6CiAgICAgICAgICAgICAgICBwcmludCgnaW5pdDonLCBrKQogICAgICAgICAgICAgICAgc3RhdGVfZGljdFtrLnJlcGxhY2UoJ21vZHVsZS5hdWRpb19lbmNvZGVyLicsICcnKV0gPSB2CiAgICAgICAgc2VsZi5hdWRpb19lbmNvZGVyLmxvYWRfc3RhdGVfZGljdChzdGF0ZV9kaWN0KQogICAgICAgICcnJwoKICAgICAgICBzZWxmLm1hcHBpbmcxID0gbm4uTGluZWFyKDUxMis2NCsxLCA2NCkKICAgICAgICAjc2VsZi5tYXBwaW5nMiA9IG5uLkxpbmVhcigzMCwgNjQpCiAgICAgICAgI25uLmluaXQuY29uc3RhbnRfKHNlbGYubWFwcGluZzEud2VpZ2h0LCAwLikKICAgICAgICBubi5pbml0LmNvbnN0YW50XyhzZWxmLm1hcHBpbmcxLmJpYXMsIDAuKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgsIHJlZiwgcmF0aW8pOgogICAgICAgIHggPSBzZWxmLmF1ZGlvX2VuY29kZXIoeCkudmlldyh4LnNpemUoMCksIC0xKQogICAgICAgIHJlZl9yZXNoYXBlID0gcmVmLnJlc2hhcGUoeC5zaXplKDApLCAtMSkKICAgICAgICByYXRpbyA9IHJhdGlvLnJlc2hhcGUoeC5zaXplKDApLCAtMSkKICAgICAgICAKICAgICAgICB5ID0gc2VsZi5tYXBwaW5nMSh0b3JjaC5jYXQoW3gsIHJlZl9yZXNoYXBlLCByYXRpb10sIGRpbT0xKSkgCiAgICAgICAgb3V0ID0geS5yZXNoYXBlKHJlZi5zaGFwZVswXSwgcmVmLnNoYXBlWzFdLCAtMSkgIysgcmVmICMgcmVzdWRpYWwKICAgICAgICByZXR1cm4gb3V0Cg==
+import torch
+import torch.nn.functional as F
+from torch import nn
+
+class Conv2d(nn.Module):
+    def __init__(self, cin, cout, kernel_size, stride, padding, residual=False, use_act = True, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.conv_block = nn.Sequential(
+                            nn.Conv2d(cin, cout, kernel_size, stride, padding),
+                            nn.BatchNorm2d(cout)
+                            )
+        self.act = nn.ReLU()
+        self.residual = residual
+        self.use_act = use_act
+
+    def forward(self, x):
+        out = self.conv_block(x)
+        if self.residual:
+            out += x
+        
+        if self.use_act:
+            return self.act(out)
+        else:
+            return out
+
+class SimpleWrapperV2(nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+        self.audio_encoder = nn.Sequential(
+            Conv2d(1, 32, kernel_size=3, stride=1, padding=1),
+            Conv2d(32, 32, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(32, 32, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(32, 64, kernel_size=3, stride=(3, 1), padding=1),
+            Conv2d(64, 64, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(64, 64, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(64, 128, kernel_size=3, stride=3, padding=1),
+            Conv2d(128, 128, kernel_size=3, stride=1, padding=1, residual=True),
+            Conv2d(128, 128, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(128, 256, kernel_size=3, stride=(3, 2), padding=1),
+            Conv2d(256, 256, kernel_size=3, stride=1, padding=1, residual=True),
+
+            Conv2d(256, 512, kernel_size=3, stride=1, padding=0),
+            Conv2d(512, 512, kernel_size=1, stride=1, padding=0),
+            )
+
+        #### load the pre-trained audio_encoder 
+        #self.audio_encoder = self.audio_encoder.to(device)  
+        '''
+        wav2lip_state_dict = torch.load('/apdcephfs_cq2/share_1290939/wenxuazhang/checkpoints/wav2lip.pth')['state_dict']
+        state_dict = self.audio_encoder.state_dict()
+
+        for k,v in wav2lip_state_dict.items():
+            if 'audio_encoder' in k:
+                print('init:', k)
+                state_dict[k.replace('module.audio_encoder.', '')] = v
+        self.audio_encoder.load_state_dict(state_dict)
+        '''
+
+        self.mapping1 = nn.Linear(512+64+1, 64)
+        #self.mapping2 = nn.Linear(30, 64)
+        #nn.init.constant_(self.mapping1.weight, 0.)
+        nn.init.constant_(self.mapping1.bias, 0.)
+
+    def forward(self, x, ref, ratio):
+        x = self.audio_encoder(x).view(x.size(0), -1)
+        ref_reshape = ref.reshape(x.size(0), -1)
+        ratio = ratio.reshape(x.size(0), -1)
+        
+        y = self.mapping1(torch.cat([x, ref_reshape, ratio], dim=1)) 
+        out = y.reshape(ref.shape[0], ref.shape[1], -1) #+ ref # resudial
+        return out

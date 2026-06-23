@@ -1,1 +1,23 @@
-ZnJvbSBlYXN5ZGljdCBpbXBvcnQgRWFzeURpY3QgYXMgZWRpY3QKCiMgY29uZmlncyBmb3IgdGVzdCBzcGVlZAoKY29uZmlnID0gZWRpY3QoKQpjb25maWcubG9zcyA9ICJhcmNmYWNlIgpjb25maWcubmV0d29yayA9ICJyNTAiCmNvbmZpZy5yZXN1bWUgPSBGYWxzZQpjb25maWcub3V0cHV0ID0gTm9uZQpjb25maWcuZW1iZWRkaW5nX3NpemUgPSA1MTIKY29uZmlnLnNhbXBsZV9yYXRlID0gMS4wCmNvbmZpZy5mcDE2ID0gVHJ1ZQpjb25maWcubW9tZW50dW0gPSAwLjkKY29uZmlnLndlaWdodF9kZWNheSA9IDVlLTQKY29uZmlnLmJhdGNoX3NpemUgPSAxMjgKY29uZmlnLmxyID0gMC4xICAjIGJhdGNoIHNpemUgaXMgNTEyCgpjb25maWcucmVjID0gInN5bnRoZXRpYyIKY29uZmlnLm51bV9jbGFzc2VzID0gMTAwICogMTAwMDAKY29uZmlnLm51bV9lcG9jaCA9IDMwCmNvbmZpZy53YXJtdXBfZXBvY2ggPSAtMQpjb25maWcuZGVjYXlfZXBvY2ggPSBbMTAsIDE2LCAyMl0KY29uZmlnLnZhbF90YXJnZXRzID0gW10K
+from easydict import EasyDict as edict
+
+# configs for test speed
+
+config = edict()
+config.loss = "arcface"
+config.network = "r50"
+config.resume = False
+config.output = None
+config.embedding_size = 512
+config.sample_rate = 1.0
+config.fp16 = True
+config.momentum = 0.9
+config.weight_decay = 5e-4
+config.batch_size = 128
+config.lr = 0.1  # batch size is 512
+
+config.rec = "synthetic"
+config.num_classes = 100 * 10000
+config.num_epoch = 30
+config.warmup_epoch = -1
+config.decay_epoch = [10, 16, 22]
+config.val_targets = []

@@ -1,1 +1,88 @@
-ZnJvbSB0eXBpbmcgaW1wb3J0IERpY3QsIExpc3QKCmltcG9ydCB0b3JjaAoKaWYgdG9yY2guX192ZXJzaW9uX18gPCAnMS45JzoKICAgIEl0ZXJhYmxlID0gdG9yY2guX3NpeC5jb250YWluZXJfYWJjcy5JdGVyYWJsZQplbHNlOgogICAgaW1wb3J0IGNvbGxlY3Rpb25zCgogICAgSXRlcmFibGUgPSBjb2xsZWN0aW9ucy5hYmMuSXRlcmFibGUKZnJvbSB0b3JjaC5jdWRhLmFtcCBpbXBvcnQgR3JhZFNjYWxlcgoKCmNsYXNzIF9NdWx0aURldmljZVJlcGxpY2F0b3Iob2JqZWN0KToKICAgICIiIgogICAgTGF6aWx5IHNlcnZlcyBjb3BpZXMgb2YgYSB0ZW5zb3IgdG8gcmVxdWVzdGVkIGRldmljZXMuICBDb3BpZXMgYXJlIGNhY2hlZCBwZXItZGV2aWNlLgogICAgIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG1hc3Rlcl90ZW5zb3I6IHRvcmNoLlRlbnNvcikgLT4gTm9uZToKICAgICAgICBhc3NlcnQgbWFzdGVyX3RlbnNvci5pc19jdWRhCiAgICAgICAgc2VsZi5tYXN0ZXIgPSBtYXN0ZXJfdGVuc29yCiAgICAgICAgc2VsZi5fcGVyX2RldmljZV90ZW5zb3JzOiBEaWN0W3RvcmNoLmRldmljZSwgdG9yY2guVGVuc29yXSA9IHt9CgogICAgZGVmIGdldChzZWxmLCBkZXZpY2UpIC0+IHRvcmNoLlRlbnNvcjoKICAgICAgICByZXR2YWwgPSBzZWxmLl9wZXJfZGV2aWNlX3RlbnNvcnMuZ2V0KGRldmljZSwgTm9uZSkKICAgICAgICBpZiByZXR2YWwgaXMgTm9uZToKICAgICAgICAgICAgcmV0dmFsID0gc2VsZi5tYXN0ZXIudG8oZGV2aWNlPWRldmljZSwgbm9uX2Jsb2NraW5nPVRydWUsIGNvcHk9VHJ1ZSkKICAgICAgICAgICAgc2VsZi5fcGVyX2RldmljZV90ZW5zb3JzW2RldmljZV0gPSByZXR2YWwKICAgICAgICByZXR1cm4gcmV0dmFsCgoKY2xhc3MgTWF4Q2xpcEdyYWRTY2FsZXIoR3JhZFNjYWxlcik6CiAgICBkZWYgX19pbml0X18oc2VsZiwgaW5pdF9zY2FsZSwgbWF4X3NjYWxlOiBmbG9hdCwgZ3Jvd3RoX2ludGVydmFsPTEwMCk6CiAgICAgICAgR3JhZFNjYWxlci5fX2luaXRfXyhzZWxmLCBpbml0X3NjYWxlPWluaXRfc2NhbGUsIGdyb3d0aF9pbnRlcnZhbD1ncm93dGhfaW50ZXJ2YWwpCiAgICAgICAgc2VsZi5tYXhfc2NhbGUgPSBtYXhfc2NhbGUKCiAgICBkZWYgc2NhbGVfY2xpcChzZWxmKToKICAgICAgICBpZiBzZWxmLmdldF9zY2FsZSgpID09IHNlbGYubWF4X3NjYWxlOgogICAgICAgICAgICBzZWxmLnNldF9ncm93dGhfZmFjdG9yKDEpCiAgICAgICAgZWxpZiBzZWxmLmdldF9zY2FsZSgpIDwgc2VsZi5tYXhfc2NhbGU6CiAgICAgICAgICAgIHNlbGYuc2V0X2dyb3d0aF9mYWN0b3IoMikKICAgICAgICBlbGlmIHNlbGYuZ2V0X3NjYWxlKCkgPiBzZWxmLm1heF9zY2FsZToKICAgICAgICAgICAgc2VsZi5fc2NhbGUuZmlsbF8oc2VsZi5tYXhfc2NhbGUpCiAgICAgICAgICAgIHNlbGYuc2V0X2dyb3d0aF9mYWN0b3IoMSkKCiAgICBkZWYgc2NhbGUoc2VsZiwgb3V0cHV0cyk6CiAgICAgICAgIiIiCiAgICAgICAgTXVsdGlwbGllcyAoJ3NjYWxlcycpIGEgdGVuc29yIG9yIGxpc3Qgb2YgdGVuc29ycyBieSB0aGUgc2NhbGUgZmFjdG9yLgoKICAgICAgICBSZXR1cm5zIHNjYWxlZCBvdXRwdXRzLiAgSWYgdGhpcyBpbnN0YW5jZSBvZiA6Y2xhc3M6YEdyYWRTY2FsZXJgIGlzIG5vdCBlbmFibGVkLCBvdXRwdXRzIGFyZSByZXR1cm5lZAogICAgICAgIHVubW9kaWZpZWQuCgogICAgICAgIEFyZ3VtZW50czoKICAgICAgICAgICAgb3V0cHV0cyAoVGVuc29yIG9yIGl0ZXJhYmxlIG9mIFRlbnNvcnMpOiAgT3V0cHV0cyB0byBzY2FsZS4KICAgICAgICAiIiIKICAgICAgICBpZiBub3Qgc2VsZi5fZW5hYmxlZDoKICAgICAgICAgICAgcmV0dXJuIG91dHB1dHMKICAgICAgICBzZWxmLnNjYWxlX2NsaXAoKQogICAgICAgICMgU2hvcnQtY2lyY3VpdCBmb3IgdGhlIGNvbW1vbiBjYXNlLgogICAgICAgIGlmIGlzaW5zdGFuY2Uob3V0cHV0cywgdG9yY2guVGVuc29yKToKICAgICAgICAgICAgYXNzZXJ0IG91dHB1dHMuaXNfY3VkYQogICAgICAgICAgICBpZiBzZWxmLl9zY2FsZSBpcyBOb25lOgogICAgICAgICAgICAgICAgc2VsZi5fbGF6eV9pbml0X3NjYWxlX2dyb3d0aF90cmFja2VyKG91dHB1dHMuZGV2aWNlKQogICAgICAgICAgICBhc3NlcnQgc2VsZi5fc2NhbGUgaXMgbm90IE5vbmUKICAgICAgICAgICAgcmV0dXJuIG91dHB1dHMgKiBzZWxmLl9zY2FsZS50byhkZXZpY2U9b3V0cHV0cy5kZXZpY2UsIG5vbl9ibG9ja2luZz1UcnVlKQoKICAgICAgICAjIEludm9rZSB0aGUgbW9yZSBjb21wbGV4IG1hY2hpbmVyeSBvbmx5IGlmIHdlJ3JlIHRyZWF0aW5nIG11bHRpcGxlIG91dHB1dHMuCiAgICAgICAgc3Rhc2g6IExpc3RbX011bHRpRGV2aWNlUmVwbGljYXRvcl0gPSBbXSAgIyBob2xkcyBhIHJlZmVyZW5jZSB0aGF0IGNhbiBiZSBvdmVyd3JpdHRlbiBieSBhcHBseV9zY2FsZQoKICAgICAgICBkZWYgYXBwbHlfc2NhbGUodmFsKToKICAgICAgICAgICAgaWYgaXNpbnN0YW5jZSh2YWwsIHRvcmNoLlRlbnNvcik6CiAgICAgICAgICAgICAgICBhc3NlcnQgdmFsLmlzX2N1ZGEKICAgICAgICAgICAgICAgIGlmIGxlbihzdGFzaCkgPT0gMDoKICAgICAgICAgICAgICAgICAgICBpZiBzZWxmLl9zY2FsZSBpcyBOb25lOgogICAgICAgICAgICAgICAgICAgICAgICBzZWxmLl9sYXp5X2luaXRfc2NhbGVfZ3Jvd3RoX3RyYWNrZXIodmFsLmRldmljZSkKICAgICAgICAgICAgICAgICAgICBhc3NlcnQgc2VsZi5fc2NhbGUgaXMgbm90IE5vbmUKICAgICAgICAgICAgICAgICAgICBzdGFzaC5hcHBlbmQoX011bHRpRGV2aWNlUmVwbGljYXRvcihzZWxmLl9zY2FsZSkpCiAgICAgICAgICAgICAgICByZXR1cm4gdmFsICogc3Rhc2hbMF0uZ2V0KHZhbC5kZXZpY2UpCiAgICAgICAgICAgIGVsaWYgaXNpbnN0YW5jZSh2YWwsIEl0ZXJhYmxlKToKICAgICAgICAgICAgICAgIGl0ZXJhYmxlID0gbWFwKGFwcGx5X3NjYWxlLCB2YWwpCiAgICAgICAgICAgICAgICBpZiBpc2luc3RhbmNlKHZhbCwgbGlzdCkgb3IgaXNpbnN0YW5jZSh2YWwsIHR1cGxlKToKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHlwZSh2YWwpKGl0ZXJhYmxlKQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICByZXR1cm4gaXRlcmFibGUKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIm91dHB1dHMgbXVzdCBiZSBhIFRlbnNvciBvciBhbiBpdGVyYWJsZSBvZiBUZW5zb3JzIikKCiAgICAgICAgcmV0dXJuIGFwcGx5X3NjYWxlKG91dHB1dHMpCg==
+from typing import Dict, List
+
+import torch
+
+if torch.__version__ < '1.9':
+    Iterable = torch._six.container_abcs.Iterable
+else:
+    import collections
+
+    Iterable = collections.abc.Iterable
+from torch.cuda.amp import GradScaler
+
+
+class _MultiDeviceReplicator(object):
+    """
+    Lazily serves copies of a tensor to requested devices.  Copies are cached per-device.
+    """
+
+    def __init__(self, master_tensor: torch.Tensor) -> None:
+        assert master_tensor.is_cuda
+        self.master = master_tensor
+        self._per_device_tensors: Dict[torch.device, torch.Tensor] = {}
+
+    def get(self, device) -> torch.Tensor:
+        retval = self._per_device_tensors.get(device, None)
+        if retval is None:
+            retval = self.master.to(device=device, non_blocking=True, copy=True)
+            self._per_device_tensors[device] = retval
+        return retval
+
+
+class MaxClipGradScaler(GradScaler):
+    def __init__(self, init_scale, max_scale: float, growth_interval=100):
+        GradScaler.__init__(self, init_scale=init_scale, growth_interval=growth_interval)
+        self.max_scale = max_scale
+
+    def scale_clip(self):
+        if self.get_scale() == self.max_scale:
+            self.set_growth_factor(1)
+        elif self.get_scale() < self.max_scale:
+            self.set_growth_factor(2)
+        elif self.get_scale() > self.max_scale:
+            self._scale.fill_(self.max_scale)
+            self.set_growth_factor(1)
+
+    def scale(self, outputs):
+        """
+        Multiplies ('scales') a tensor or list of tensors by the scale factor.
+
+        Returns scaled outputs.  If this instance of :class:`GradScaler` is not enabled, outputs are returned
+        unmodified.
+
+        Arguments:
+            outputs (Tensor or iterable of Tensors):  Outputs to scale.
+        """
+        if not self._enabled:
+            return outputs
+        self.scale_clip()
+        # Short-circuit for the common case.
+        if isinstance(outputs, torch.Tensor):
+            assert outputs.is_cuda
+            if self._scale is None:
+                self._lazy_init_scale_growth_tracker(outputs.device)
+            assert self._scale is not None
+            return outputs * self._scale.to(device=outputs.device, non_blocking=True)
+
+        # Invoke the more complex machinery only if we're treating multiple outputs.
+        stash: List[_MultiDeviceReplicator] = []  # holds a reference that can be overwritten by apply_scale
+
+        def apply_scale(val):
+            if isinstance(val, torch.Tensor):
+                assert val.is_cuda
+                if len(stash) == 0:
+                    if self._scale is None:
+                        self._lazy_init_scale_growth_tracker(val.device)
+                    assert self._scale is not None
+                    stash.append(_MultiDeviceReplicator(self._scale))
+                return val * stash[0].get(val.device)
+            elif isinstance(val, Iterable):
+                iterable = map(apply_scale, val)
+                if isinstance(val, list) or isinstance(val, tuple):
+                    return type(val)(iterable)
+                else:
+                    return iterable
+            else:
+                raise ValueError("outputs must be a Tensor or an iterable of Tensors")
+
+        return apply_scale(outputs)

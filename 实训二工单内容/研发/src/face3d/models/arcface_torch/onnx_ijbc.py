@@ -1,1 +1,267 @@
-aW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBvcwppbXBvcnQgcGlja2xlCmltcG9ydCB0aW1laXQKCmltcG9ydCBjdjIKaW1wb3J0IG14bmV0IGFzIG14CmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgcGFuZGFzIGFzIHBkCmltcG9ydCBwcmV0dHl0YWJsZQppbXBvcnQgc2tpbWFnZS50cmFuc2Zvcm0KZnJvbSBza2xlYXJuLm1ldHJpY3MgaW1wb3J0IHJvY19jdXJ2ZQpmcm9tIHNrbGVhcm4ucHJlcHJvY2Vzc2luZyBpbXBvcnQgbm9ybWFsaXplCgpmcm9tIG9ubnhfaGVscGVyIGltcG9ydCBBcmNGYWNlT1JUCgpTUkMgPSBucC5hcnJheSgKICAgIFsKICAgICAgICBbMzAuMjk0NiwgNTEuNjk2M10sCiAgICAgICAgWzY1LjUzMTgsIDUxLjUwMTRdLAogICAgICAgIFs0OC4wMjUyLCA3MS43MzY2XSwKICAgICAgICBbMzMuNTQ5MywgOTIuMzY1NV0sCiAgICAgICAgWzYyLjcyOTksIDkyLjIwNDFdXQogICAgLCBkdHlwZT1ucC5mbG9hdDMyKQpTUkNbOiwgMF0gKz0gOC4wCgoKY2xhc3MgQWxpZ25lZERhdGFTZXQobXguZ2x1b24uZGF0YS5EYXRhc2V0KToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCByb290LCBsaW5lcywgYWxpZ249VHJ1ZSk6CiAgICAgICAgc2VsZi5saW5lcyA9IGxpbmVzCiAgICAgICAgc2VsZi5yb290ID0gcm9vdAogICAgICAgIHNlbGYuYWxpZ24gPSBhbGlnbgoKICAgIGRlZiBfX2xlbl9fKHNlbGYpOgogICAgICAgIHJldHVybiBsZW4oc2VsZi5saW5lcykKCiAgICBkZWYgX19nZXRpdGVtX18oc2VsZiwgaWR4KToKICAgICAgICBlYWNoX2xpbmUgPSBzZWxmLmxpbmVzW2lkeF0KICAgICAgICBuYW1lX2xta19zY29yZSA9IGVhY2hfbGluZS5zdHJpcCgpLnNwbGl0KCcgJykKICAgICAgICBuYW1lID0gb3MucGF0aC5qb2luKHNlbGYucm9vdCwgbmFtZV9sbWtfc2NvcmVbMF0pCiAgICAgICAgaW1nID0gY3YyLmN2dENvbG9yKGN2Mi5pbXJlYWQobmFtZSksIGN2Mi5DT0xPUl9CR1IyUkdCKQogICAgICAgIGxhbmRtYXJrNSA9IG5wLmFycmF5KFtmbG9hdCh4KSBmb3IgeCBpbiBuYW1lX2xta19zY29yZVsxOi0xXV0sIGR0eXBlPW5wLmZsb2F0MzIpLnJlc2hhcGUoKDUsIDIpKQogICAgICAgIHN0ID0gc2tpbWFnZS50cmFuc2Zvcm0uU2ltaWxhcml0eVRyYW5zZm9ybSgpCiAgICAgICAgc3QuZXN0aW1hdGUobGFuZG1hcms1LCBTUkMpCiAgICAgICAgaW1nID0gY3YyLndhcnBBZmZpbmUoaW1nLCBzdC5wYXJhbXNbMDoyLCA6XSwgKDExMiwgMTEyKSwgYm9yZGVyVmFsdWU9MC4wKQogICAgICAgIGltZ18xID0gbnAuZXhwYW5kX2RpbXMoaW1nLCAwKQogICAgICAgIGltZ18yID0gbnAuZXhwYW5kX2RpbXMobnAuZmxpcGxyKGltZyksIDApCiAgICAgICAgb3V0cHV0ID0gbnAuY29uY2F0ZW5hdGUoKGltZ18xLCBpbWdfMiksIGF4aXM9MCkuYXN0eXBlKG5wLmZsb2F0MzIpCiAgICAgICAgb3V0cHV0ID0gbnAudHJhbnNwb3NlKG91dHB1dCwgKDAsIDMsIDEsIDIpKQogICAgICAgIG91dHB1dCA9IG14Lm5kLmFycmF5KG91dHB1dCkKICAgICAgICByZXR1cm4gb3V0cHV0CgoKZGVmIGV4dHJhY3QobW9kZWxfcm9vdCwgZGF0YXNldCk6CiAgICBtb2RlbCA9IEFyY0ZhY2VPUlQobW9kZWxfcGF0aD1tb2RlbF9yb290KQogICAgbW9kZWwuY2hlY2soKQogICAgZmVhdF9tYXQgPSBucC56ZXJvcyhzaGFwZT0obGVuKGRhdGFzZXQpLCAyICogbW9kZWwuZmVhdF9kaW0pKQoKICAgIGRlZiBiYXRjaGlmeV9mbihkYXRhKToKICAgICAgICByZXR1cm4gbXgubmQuY29uY2F0KCpkYXRhLCBkaW09MCkKCiAgICBkYXRhX2xvYWRlciA9IG14LmdsdW9uLmRhdGEuRGF0YUxvYWRlcigKICAgICAgICBkYXRhc2V0LCAxMjgsIGxhc3RfYmF0Y2g9J2tlZXAnLCBudW1fd29ya2Vycz00LAogICAgICAgIHRocmVhZF9wb29sPVRydWUsIHByZWZldGNoPTE2LCBiYXRjaGlmeV9mbj1iYXRjaGlmeV9mbikKICAgIG51bV9pdGVyID0gMAogICAgZm9yIGJhdGNoIGluIGRhdGFfbG9hZGVyOgogICAgICAgIGJhdGNoID0gYmF0Y2guYXNudW1weSgpCiAgICAgICAgYmF0Y2ggPSAoYmF0Y2ggLSBtb2RlbC5pbnB1dF9tZWFuKSAvIG1vZGVsLmlucHV0X3N0ZAogICAgICAgIGZlYXQgPSBtb2RlbC5zZXNzaW9uLnJ1bihtb2RlbC5vdXRwdXRfbmFtZXMsIHttb2RlbC5pbnB1dF9uYW1lOiBiYXRjaH0pWzBdCiAgICAgICAgZmVhdCA9IG5wLnJlc2hhcGUoZmVhdCwgKC0xLCBtb2RlbC5mZWF0X2RpbSAqIDIpKQogICAgICAgIGZlYXRfbWF0WzEyOCAqIG51bV9pdGVyOiAxMjggKiBudW1faXRlciArIGZlYXQuc2hhcGVbMF0sIDpdID0gZmVhdAogICAgICAgIG51bV9pdGVyICs9IDEKICAgICAgICBpZiBudW1faXRlciAlIDUwID09IDA6CiAgICAgICAgICAgIHByaW50KG51bV9pdGVyKQogICAgcmV0dXJuIGZlYXRfbWF0CgoKZGVmIHJlYWRfdGVtcGxhdGVfbWVkaWFfbGlzdChwYXRoKToKICAgIGlqYl9tZXRhID0gcGQucmVhZF9jc3YocGF0aCwgc2VwPScgJywgaGVhZGVyPU5vbmUpLnZhbHVlcwogICAgdGVtcGxhdGVzID0gaWpiX21ldGFbOiwgMV0uYXN0eXBlKG5wLmludCkKICAgIG1lZGlhcyA9IGlqYl9tZXRhWzosIDJdLmFzdHlwZShucC5pbnQpCiAgICByZXR1cm4gdGVtcGxhdGVzLCBtZWRpYXMKCgpkZWYgcmVhZF90ZW1wbGF0ZV9wYWlyX2xpc3QocGF0aCk6CiAgICBwYWlycyA9IHBkLnJlYWRfY3N2KHBhdGgsIHNlcD0nICcsIGhlYWRlcj1Ob25lKS52YWx1ZXMKICAgIHQxID0gcGFpcnNbOiwgMF0uYXN0eXBlKG5wLmludCkKICAgIHQyID0gcGFpcnNbOiwgMV0uYXN0eXBlKG5wLmludCkKICAgIGxhYmVsID0gcGFpcnNbOiwgMl0uYXN0eXBlKG5wLmludCkKICAgIHJldHVybiB0MSwgdDIsIGxhYmVsCgoKZGVmIHJlYWRfaW1hZ2VfZmVhdHVyZShwYXRoKToKICAgIHdpdGggb3BlbihwYXRoLCAncmInKSBhcyBmaWQ6CiAgICAgICAgaW1nX2ZlYXRzID0gcGlja2xlLmxvYWQoZmlkKQogICAgcmV0dXJuIGltZ19mZWF0cwoKCmRlZiBpbWFnZTJ0ZW1wbGF0ZV9mZWF0dXJlKGltZ19mZWF0cz1Ob25lLAogICAgICAgICAgICAgICAgICAgICAgICAgICB0ZW1wbGF0ZXM9Tm9uZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgbWVkaWFzPU5vbmUpOgogICAgdW5pcXVlX3RlbXBsYXRlcyA9IG5wLnVuaXF1ZSh0ZW1wbGF0ZXMpCiAgICB0ZW1wbGF0ZV9mZWF0cyA9IG5wLnplcm9zKChsZW4odW5pcXVlX3RlbXBsYXRlcyksIGltZ19mZWF0cy5zaGFwZVsxXSkpCiAgICBmb3IgY291bnRfdGVtcGxhdGUsIHVxdCBpbiBlbnVtZXJhdGUodW5pcXVlX3RlbXBsYXRlcyk6CiAgICAgICAgKGluZF90LCkgPSBucC53aGVyZSh0ZW1wbGF0ZXMgPT0gdXF0KQogICAgICAgIGZhY2Vfbm9ybV9mZWF0cyA9IGltZ19mZWF0c1tpbmRfdF0KICAgICAgICBmYWNlX21lZGlhcyA9IG1lZGlhc1tpbmRfdF0KICAgICAgICB1bmlxdWVfbWVkaWFzLCB1bmlxdWVfbWVkaWFfY291bnRzID0gbnAudW5pcXVlKGZhY2VfbWVkaWFzLCByZXR1cm5fY291bnRzPVRydWUpCiAgICAgICAgbWVkaWFfbm9ybV9mZWF0cyA9IFtdCiAgICAgICAgZm9yIHUsIGN0IGluIHppcCh1bmlxdWVfbWVkaWFzLCB1bmlxdWVfbWVkaWFfY291bnRzKToKICAgICAgICAgICAgKGluZF9tLCkgPSBucC53aGVyZShmYWNlX21lZGlhcyA9PSB1KQogICAgICAgICAgICBpZiBjdCA9PSAxOgogICAgICAgICAgICAgICAgbWVkaWFfbm9ybV9mZWF0cyArPSBbZmFjZV9ub3JtX2ZlYXRzW2luZF9tXV0KICAgICAgICAgICAgZWxzZTogICMgaW1hZ2UgZmVhdHVyZXMgZnJvbSB0aGUgc2FtZSB2aWRlbyB3aWxsIGJlIGFnZ3JlZ2F0ZWQgaW50byBvbmUgZmVhdHVyZQogICAgICAgICAgICAgICAgbWVkaWFfbm9ybV9mZWF0cyArPSBbbnAubWVhbihmYWNlX25vcm1fZmVhdHNbaW5kX21dLCBheGlzPTAsIGtlZXBkaW1zPVRydWUpLCBdCiAgICAgICAgbWVkaWFfbm9ybV9mZWF0cyA9IG5wLmFycmF5KG1lZGlhX25vcm1fZmVhdHMpCiAgICAgICAgdGVtcGxhdGVfZmVhdHNbY291bnRfdGVtcGxhdGVdID0gbnAuc3VtKG1lZGlhX25vcm1fZmVhdHMsIGF4aXM9MCkKICAgICAgICBpZiBjb3VudF90ZW1wbGF0ZSAlIDIwMDAgPT0gMDoKICAgICAgICAgICAgcHJpbnQoJ0ZpbmlzaCBDYWxjdWxhdGluZyB7fSB0ZW1wbGF0ZSBmZWF0dXJlcy4nLmZvcm1hdCgKICAgICAgICAgICAgICAgIGNvdW50X3RlbXBsYXRlKSkKICAgIHRlbXBsYXRlX25vcm1fZmVhdHMgPSBub3JtYWxpemUodGVtcGxhdGVfZmVhdHMpCiAgICByZXR1cm4gdGVtcGxhdGVfbm9ybV9mZWF0cywgdW5pcXVlX3RlbXBsYXRlcwoKCmRlZiB2ZXJpZmljYXRpb24odGVtcGxhdGVfbm9ybV9mZWF0cz1Ob25lLAogICAgICAgICAgICAgICAgIHVuaXF1ZV90ZW1wbGF0ZXM9Tm9uZSwKICAgICAgICAgICAgICAgICBwMT1Ob25lLAogICAgICAgICAgICAgICAgIHAyPU5vbmUpOgogICAgdGVtcGxhdGUyaWQgPSBucC56ZXJvcygobWF4KHVuaXF1ZV90ZW1wbGF0ZXMpICsgMSwgMSksIGR0eXBlPWludCkKICAgIGZvciBjb3VudF90ZW1wbGF0ZSwgdXF0IGluIGVudW1lcmF0ZSh1bmlxdWVfdGVtcGxhdGVzKToKICAgICAgICB0ZW1wbGF0ZTJpZFt1cXRdID0gY291bnRfdGVtcGxhdGUKICAgIHNjb3JlID0gbnAuemVyb3MoKGxlbihwMSksKSkKICAgIHRvdGFsX3BhaXJzID0gbnAuYXJyYXkocmFuZ2UobGVuKHAxKSkpCiAgICBiYXRjaHNpemUgPSAxMDAwMDAKICAgIHN1Ymxpc3RzID0gW3RvdGFsX3BhaXJzW2k6IGkgKyBiYXRjaHNpemVdIGZvciBpIGluIHJhbmdlKDAsIGxlbihwMSksIGJhdGNoc2l6ZSldCiAgICB0b3RhbF9zdWJsaXN0cyA9IGxlbihzdWJsaXN0cykKICAgIGZvciBjLCBzIGluIGVudW1lcmF0ZShzdWJsaXN0cyk6CiAgICAgICAgZmVhdDEgPSB0ZW1wbGF0ZV9ub3JtX2ZlYXRzW3RlbXBsYXRlMmlkW3AxW3NdXV0KICAgICAgICBmZWF0MiA9IHRlbXBsYXRlX25vcm1fZmVhdHNbdGVtcGxhdGUyaWRbcDJbc11dXQogICAgICAgIHNpbWlsYXJpdHlfc2NvcmUgPSBucC5zdW0oZmVhdDEgKiBmZWF0MiwgLTEpCiAgICAgICAgc2NvcmVbc10gPSBzaW1pbGFyaXR5X3Njb3JlLmZsYXR0ZW4oKQogICAgICAgIGlmIGMgJSAxMCA9PSAwOgogICAgICAgICAgICBwcmludCgnRmluaXNoIHt9L3t9IHBhaXJzLicuZm9ybWF0KGMsIHRvdGFsX3N1Ymxpc3RzKSkKICAgIHJldHVybiBzY29yZQoKCmRlZiB2ZXJpZmljYXRpb24yKHRlbXBsYXRlX25vcm1fZmVhdHM9Tm9uZSwKICAgICAgICAgICAgICAgICAgdW5pcXVlX3RlbXBsYXRlcz1Ob25lLAogICAgICAgICAgICAgICAgICBwMT1Ob25lLAogICAgICAgICAgICAgICAgICBwMj1Ob25lKToKICAgIHRlbXBsYXRlMmlkID0gbnAuemVyb3MoKG1heCh1bmlxdWVfdGVtcGxhdGVzKSArIDEsIDEpLCBkdHlwZT1pbnQpCiAgICBmb3IgY291bnRfdGVtcGxhdGUsIHVxdCBpbiBlbnVtZXJhdGUodW5pcXVlX3RlbXBsYXRlcyk6CiAgICAgICAgdGVtcGxhdGUyaWRbdXF0XSA9IGNvdW50X3RlbXBsYXRlCiAgICBzY29yZSA9IG5wLnplcm9zKChsZW4ocDEpLCkpICAjIHNhdmUgY29zaW5lIGRpc3RhbmNlIGJldHdlZW4gcGFpcnMKICAgIHRvdGFsX3BhaXJzID0gbnAuYXJyYXkocmFuZ2UobGVuKHAxKSkpCiAgICBiYXRjaHNpemUgPSAxMDAwMDAgICMgc21hbGwgYmF0Y2hzaXplIGluc3RlYWQgb2YgYWxsIHBhaXJzIGluIG9uZSBiYXRjaCBkdWUgdG8gdGhlIG1lbW9yeSBsaW1pYXRpb24KICAgIHN1Ymxpc3RzID0gW3RvdGFsX3BhaXJzW2k6aSArIGJhdGNoc2l6ZV0gZm9yIGkgaW4gcmFuZ2UoMCwgbGVuKHAxKSwgYmF0Y2hzaXplKV0KICAgIHRvdGFsX3N1Ymxpc3RzID0gbGVuKHN1Ymxpc3RzKQogICAgZm9yIGMsIHMgaW4gZW51bWVyYXRlKHN1Ymxpc3RzKToKICAgICAgICBmZWF0MSA9IHRlbXBsYXRlX25vcm1fZmVhdHNbdGVtcGxhdGUyaWRbcDFbc11dXQogICAgICAgIGZlYXQyID0gdGVtcGxhdGVfbm9ybV9mZWF0c1t0ZW1wbGF0ZTJpZFtwMltzXV1dCiAgICAgICAgc2ltaWxhcml0eV9zY29yZSA9IG5wLnN1bShmZWF0MSAqIGZlYXQyLCAtMSkKICAgICAgICBzY29yZVtzXSA9IHNpbWlsYXJpdHlfc2NvcmUuZmxhdHRlbigpCiAgICAgICAgaWYgYyAlIDEwID09IDA6CiAgICAgICAgICAgIHByaW50KCdGaW5pc2gge30ve30gcGFpcnMuJy5mb3JtYXQoYywgdG90YWxfc3VibGlzdHMpKQogICAgcmV0dXJuIHNjb3JlCgoKZGVmIG1haW4oYXJncyk6CiAgICB1c2Vfbm9ybV9zY29yZSA9IFRydWUgICMgaWYgVHVyZSwgVGVzdE1vZGUoTjEpCiAgICB1c2VfZGV0ZWN0b3Jfc2NvcmUgPSBUcnVlICAjIGlmIFR1cmUsIFRlc3RNb2RlKEQxKQogICAgdXNlX2ZsaXBfdGVzdCA9IFRydWUgICMgaWYgVHVyZSwgVGVzdE1vZGUoRjEpCiAgICBhc3NlcnQgYXJncy50YXJnZXQgPT0gJ0lKQkMnIG9yIGFyZ3MudGFyZ2V0ID09ICdJSkJCJwoKICAgIHN0YXJ0ID0gdGltZWl0LmRlZmF1bHRfdGltZXIoKQogICAgdGVtcGxhdGVzLCBtZWRpYXMgPSByZWFkX3RlbXBsYXRlX21lZGlhX2xpc3QoCiAgICAgICAgb3MucGF0aC5qb2luKCclcy9tZXRhJyAlIGFyZ3MuaW1hZ2VfcGF0aCwgJyVzX2ZhY2VfdGlkX21pZC50eHQnICUgYXJncy50YXJnZXQubG93ZXIoKSkpCiAgICBzdG9wID0gdGltZWl0LmRlZmF1bHRfdGltZXIoKQogICAgcHJpbnQoJ1RpbWU6ICUuMmYgcy4gJyAlIChzdG9wIC0gc3RhcnQpKQoKICAgIHN0YXJ0ID0gdGltZWl0LmRlZmF1bHRfdGltZXIoKQogICAgcDEsIHAyLCBsYWJlbCA9IHJlYWRfdGVtcGxhdGVfcGFpcl9saXN0KAogICAgICAgIG9zLnBhdGguam9pbignJXMvbWV0YScgJSBhcmdzLmltYWdlX3BhdGgsCiAgICAgICAgICAgICAgICAgICAgICclc190ZW1wbGF0ZV9wYWlyX2xhYmVsLnR4dCcgJSBhcmdzLnRhcmdldC5sb3dlcigpKSkKICAgIHN0b3AgPSB0aW1laXQuZGVmYXVsdF90aW1lcigpCiAgICBwcmludCgnVGltZTogJS4yZiBzLiAnICUgKHN0b3AgLSBzdGFydCkpCgogICAgc3RhcnQgPSB0aW1laXQuZGVmYXVsdF90aW1lcigpCiAgICBpbWdfcGF0aCA9ICclcy9sb29zZV9jcm9wJyAlIGFyZ3MuaW1hZ2VfcGF0aAogICAgaW1nX2xpc3RfcGF0aCA9ICclcy9tZXRhLyVzX25hbWVfNXB0c19zY29yZS50eHQnICUgKGFyZ3MuaW1hZ2VfcGF0aCwgYXJncy50YXJnZXQubG93ZXIoKSkKICAgIGltZ19saXN0ID0gb3BlbihpbWdfbGlzdF9wYXRoKQogICAgZmlsZXMgPSBpbWdfbGlzdC5yZWFkbGluZXMoKQogICAgZGF0YXNldCA9IEFsaWduZWREYXRhU2V0KHJvb3Q9aW1nX3BhdGgsIGxpbmVzPWZpbGVzLCBhbGlnbj1UcnVlKQogICAgaW1nX2ZlYXRzID0gZXh0cmFjdChhcmdzLm1vZGVsX3Jvb3QsIGRhdGFzZXQpCgogICAgZmFjZW5lc3Nfc2NvcmVzID0gW10KICAgIGZvciBlYWNoX2xpbmUgaW4gZmlsZXM6CiAgICAgICAgbmFtZV9sbWtfc2NvcmUgPSBlYWNoX2xpbmUuc3BsaXQoKQogICAgICAgIGZhY2VuZXNzX3Njb3Jlcy5hcHBlbmQobmFtZV9sbWtfc2NvcmVbLTFdKQogICAgZmFjZW5lc3Nfc2NvcmVzID0gbnAuYXJyYXkoZmFjZW5lc3Nfc2NvcmVzKS5hc3R5cGUobnAuZmxvYXQzMikKICAgIHN0b3AgPSB0aW1laXQuZGVmYXVsdF90aW1lcigpCiAgICBwcmludCgnVGltZTogJS4yZiBzLiAnICUgKHN0b3AgLSBzdGFydCkpCiAgICBwcmludCgnRmVhdHVyZSBTaGFwZTogKHt9ICwge30pIC4nLmZvcm1hdChpbWdfZmVhdHMuc2hhcGVbMF0sIGltZ19mZWF0cy5zaGFwZVsxXSkpCiAgICBzdGFydCA9IHRpbWVpdC5kZWZhdWx0X3RpbWVyKCkKCiAgICBpZiB1c2VfZmxpcF90ZXN0OgogICAgICAgIGltZ19pbnB1dF9mZWF0cyA9IGltZ19mZWF0c1s6LCAwOmltZ19mZWF0cy5zaGFwZVsxXSAvLyAyXSArIGltZ19mZWF0c1s6LCBpbWdfZmVhdHMuc2hhcGVbMV0gLy8gMjpdCiAgICBlbHNlOgogICAgICAgIGltZ19pbnB1dF9mZWF0cyA9IGltZ19mZWF0c1s6LCAwOmltZ19mZWF0cy5zaGFwZVsxXSAvLyAyXQoKICAgIGlmIHVzZV9ub3JtX3Njb3JlOgogICAgICAgIGltZ19pbnB1dF9mZWF0cyA9IGltZ19pbnB1dF9mZWF0cwogICAgZWxzZToKICAgICAgICBpbWdfaW5wdXRfZmVhdHMgPSBpbWdfaW5wdXRfZmVhdHMgLyBucC5zcXJ0KG5wLnN1bShpbWdfaW5wdXRfZmVhdHMgKiogMiwgLTEsIGtlZXBkaW1zPVRydWUpKQoKICAgIGlmIHVzZV9kZXRlY3Rvcl9zY29yZToKICAgICAgICBwcmludChpbWdfaW5wdXRfZmVhdHMuc2hhcGUsIGZhY2VuZXNzX3Njb3Jlcy5zaGFwZSkKICAgICAgICBpbWdfaW5wdXRfZmVhdHMgPSBpbWdfaW5wdXRfZmVhdHMgKiBmYWNlbmVzc19zY29yZXNbOiwgbnAubmV3YXhpc10KICAgIGVsc2U6CiAgICAgICAgaW1nX2lucHV0X2ZlYXRzID0gaW1nX2lucHV0X2ZlYXRzCgogICAgdGVtcGxhdGVfbm9ybV9mZWF0cywgdW5pcXVlX3RlbXBsYXRlcyA9IGltYWdlMnRlbXBsYXRlX2ZlYXR1cmUoCiAgICAgICAgaW1nX2lucHV0X2ZlYXRzLCB0ZW1wbGF0ZXMsIG1lZGlhcykKICAgIHN0b3AgPSB0aW1laXQuZGVmYXVsdF90aW1lcigpCiAgICBwcmludCgnVGltZTogJS4yZiBzLiAnICUgKHN0b3AgLSBzdGFydCkpCgogICAgc3RhcnQgPSB0aW1laXQuZGVmYXVsdF90aW1lcigpCiAgICBzY29yZSA9IHZlcmlmaWNhdGlvbih0ZW1wbGF0ZV9ub3JtX2ZlYXRzLCB1bmlxdWVfdGVtcGxhdGVzLCBwMSwgcDIpCiAgICBzdG9wID0gdGltZWl0LmRlZmF1bHRfdGltZXIoKQogICAgcHJpbnQoJ1RpbWU6ICUuMmYgcy4gJyAlIChzdG9wIC0gc3RhcnQpKQogICAgc2F2ZV9wYXRoID0gb3MucGF0aC5qb2luKGFyZ3MucmVzdWx0X2RpciwgInt9X3Jlc3VsdCIuZm9ybWF0KGFyZ3MudGFyZ2V0KSkKICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhzYXZlX3BhdGgpOgogICAgICAgIG9zLm1ha2VkaXJzKHNhdmVfcGF0aCkKICAgIHNjb3JlX3NhdmVfZmlsZSA9IG9zLnBhdGguam9pbihzYXZlX3BhdGgsICJ7fS5ucHkiLmZvcm1hdChhcmdzLm1vZGVsX3Jvb3QpKQogICAgbnAuc2F2ZShzY29yZV9zYXZlX2ZpbGUsIHNjb3JlKQogICAgZmlsZXMgPSBbc2NvcmVfc2F2ZV9maWxlXQogICAgbWV0aG9kcyA9IFtdCiAgICBzY29yZXMgPSBbXQogICAgZm9yIGZpbGUgaW4gZmlsZXM6CiAgICAgICAgbWV0aG9kcy5hcHBlbmQob3MucGF0aC5iYXNlbmFtZShmaWxlKSkKICAgICAgICBzY29yZXMuYXBwZW5kKG5wLmxvYWQoZmlsZSkpCiAgICBtZXRob2RzID0gbnAuYXJyYXkobWV0aG9kcykKICAgIHNjb3JlcyA9IGRpY3QoemlwKG1ldGhvZHMsIHNjb3JlcykpCiAgICB4X2xhYmVscyA9IFsxMCAqKiAtNiwgMTAgKiogLTUsIDEwICoqIC00LCAxMCAqKiAtMywgMTAgKiogLTIsIDEwICoqIC0xXQogICAgdHByX2Zwcl90YWJsZSA9IHByZXR0eXRhYmxlLlByZXR0eVRhYmxlKFsnTWV0aG9kcyddICsgW3N0cih4KSBmb3IgeCBpbiB4X2xhYmVsc10pCiAgICBmb3IgbWV0aG9kIGluIG1ldGhvZHM6CiAgICAgICAgZnByLCB0cHIsIF8gPSByb2NfY3VydmUobGFiZWwsIHNjb3Jlc1ttZXRob2RdKQogICAgICAgIGZwciA9IG5wLmZsaXB1ZChmcHIpCiAgICAgICAgdHByID0gbnAuZmxpcHVkKHRwcikKICAgICAgICB0cHJfZnByX3JvdyA9IFtdCiAgICAgICAgdHByX2Zwcl9yb3cuYXBwZW5kKCIlcy0lcyIgJSAobWV0aG9kLCBhcmdzLnRhcmdldCkpCiAgICAgICAgZm9yIGZwcl9pdGVyIGluIG5wLmFyYW5nZShsZW4oeF9sYWJlbHMpKToKICAgICAgICAgICAgXywgbWluX2luZGV4ID0gbWluKAogICAgICAgICAgICAgICAgbGlzdCh6aXAoYWJzKGZwciAtIHhfbGFiZWxzW2Zwcl9pdGVyXSksIHJhbmdlKGxlbihmcHIpKSkpKQogICAgICAgICAgICB0cHJfZnByX3Jvdy5hcHBlbmQoJyUuMmYnICUgKHRwclttaW5faW5kZXhdICogMTAwKSkKICAgICAgICB0cHJfZnByX3RhYmxlLmFkZF9yb3codHByX2Zwcl9yb3cpCiAgICBwcmludCh0cHJfZnByX3RhYmxlKQoKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcihkZXNjcmlwdGlvbj0nZG8gaWpiIHRlc3QnKQogICAgIyBnZW5lcmFsCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLW1vZGVsLXJvb3QnLCBkZWZhdWx0PScnLCBoZWxwPSdwYXRoIHRvIGxvYWQgbW9kZWwuJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0taW1hZ2UtcGF0aCcsIGRlZmF1bHQ9JycsIHR5cGU9c3RyLCBoZWxwPScnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1yZXN1bHQtZGlyJywgZGVmYXVsdD0nLicsIHR5cGU9c3RyLCBoZWxwPScnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS10YXJnZXQnLCBkZWZhdWx0PSdJSkJDJywgdHlwZT1zdHIsIGhlbHA9J3RhcmdldCwgc2V0IHRvIElKQkMgb3IgSUpCQicpCiAgICBtYWluKHBhcnNlci5wYXJzZV9hcmdzKCkpCg==
+import argparse
+import os
+import pickle
+import timeit
+
+import cv2
+import mxnet as mx
+import numpy as np
+import pandas as pd
+import prettytable
+import skimage.transform
+from sklearn.metrics import roc_curve
+from sklearn.preprocessing import normalize
+
+from onnx_helper import ArcFaceORT
+
+SRC = np.array(
+    [
+        [30.2946, 51.6963],
+        [65.5318, 51.5014],
+        [48.0252, 71.7366],
+        [33.5493, 92.3655],
+        [62.7299, 92.2041]]
+    , dtype=np.float32)
+SRC[:, 0] += 8.0
+
+
+class AlignedDataSet(mx.gluon.data.Dataset):
+    def __init__(self, root, lines, align=True):
+        self.lines = lines
+        self.root = root
+        self.align = align
+
+    def __len__(self):
+        return len(self.lines)
+
+    def __getitem__(self, idx):
+        each_line = self.lines[idx]
+        name_lmk_score = each_line.strip().split(' ')
+        name = os.path.join(self.root, name_lmk_score[0])
+        img = cv2.cvtColor(cv2.imread(name), cv2.COLOR_BGR2RGB)
+        landmark5 = np.array([float(x) for x in name_lmk_score[1:-1]], dtype=np.float32).reshape((5, 2))
+        st = skimage.transform.SimilarityTransform()
+        st.estimate(landmark5, SRC)
+        img = cv2.warpAffine(img, st.params[0:2, :], (112, 112), borderValue=0.0)
+        img_1 = np.expand_dims(img, 0)
+        img_2 = np.expand_dims(np.fliplr(img), 0)
+        output = np.concatenate((img_1, img_2), axis=0).astype(np.float32)
+        output = np.transpose(output, (0, 3, 1, 2))
+        output = mx.nd.array(output)
+        return output
+
+
+def extract(model_root, dataset):
+    model = ArcFaceORT(model_path=model_root)
+    model.check()
+    feat_mat = np.zeros(shape=(len(dataset), 2 * model.feat_dim))
+
+    def batchify_fn(data):
+        return mx.nd.concat(*data, dim=0)
+
+    data_loader = mx.gluon.data.DataLoader(
+        dataset, 128, last_batch='keep', num_workers=4,
+        thread_pool=True, prefetch=16, batchify_fn=batchify_fn)
+    num_iter = 0
+    for batch in data_loader:
+        batch = batch.asnumpy()
+        batch = (batch - model.input_mean) / model.input_std
+        feat = model.session.run(model.output_names, {model.input_name: batch})[0]
+        feat = np.reshape(feat, (-1, model.feat_dim * 2))
+        feat_mat[128 * num_iter: 128 * num_iter + feat.shape[0], :] = feat
+        num_iter += 1
+        if num_iter % 50 == 0:
+            print(num_iter)
+    return feat_mat
+
+
+def read_template_media_list(path):
+    ijb_meta = pd.read_csv(path, sep=' ', header=None).values
+    templates = ijb_meta[:, 1].astype(np.int)
+    medias = ijb_meta[:, 2].astype(np.int)
+    return templates, medias
+
+
+def read_template_pair_list(path):
+    pairs = pd.read_csv(path, sep=' ', header=None).values
+    t1 = pairs[:, 0].astype(np.int)
+    t2 = pairs[:, 1].astype(np.int)
+    label = pairs[:, 2].astype(np.int)
+    return t1, t2, label
+
+
+def read_image_feature(path):
+    with open(path, 'rb') as fid:
+        img_feats = pickle.load(fid)
+    return img_feats
+
+
+def image2template_feature(img_feats=None,
+                           templates=None,
+                           medias=None):
+    unique_templates = np.unique(templates)
+    template_feats = np.zeros((len(unique_templates), img_feats.shape[1]))
+    for count_template, uqt in enumerate(unique_templates):
+        (ind_t,) = np.where(templates == uqt)
+        face_norm_feats = img_feats[ind_t]
+        face_medias = medias[ind_t]
+        unique_medias, unique_media_counts = np.unique(face_medias, return_counts=True)
+        media_norm_feats = []
+        for u, ct in zip(unique_medias, unique_media_counts):
+            (ind_m,) = np.where(face_medias == u)
+            if ct == 1:
+                media_norm_feats += [face_norm_feats[ind_m]]
+            else:  # image features from the same video will be aggregated into one feature
+                media_norm_feats += [np.mean(face_norm_feats[ind_m], axis=0, keepdims=True), ]
+        media_norm_feats = np.array(media_norm_feats)
+        template_feats[count_template] = np.sum(media_norm_feats, axis=0)
+        if count_template % 2000 == 0:
+            print('Finish Calculating {} template features.'.format(
+                count_template))
+    template_norm_feats = normalize(template_feats)
+    return template_norm_feats, unique_templates
+
+
+def verification(template_norm_feats=None,
+                 unique_templates=None,
+                 p1=None,
+                 p2=None):
+    template2id = np.zeros((max(unique_templates) + 1, 1), dtype=int)
+    for count_template, uqt in enumerate(unique_templates):
+        template2id[uqt] = count_template
+    score = np.zeros((len(p1),))
+    total_pairs = np.array(range(len(p1)))
+    batchsize = 100000
+    sublists = [total_pairs[i: i + batchsize] for i in range(0, len(p1), batchsize)]
+    total_sublists = len(sublists)
+    for c, s in enumerate(sublists):
+        feat1 = template_norm_feats[template2id[p1[s]]]
+        feat2 = template_norm_feats[template2id[p2[s]]]
+        similarity_score = np.sum(feat1 * feat2, -1)
+        score[s] = similarity_score.flatten()
+        if c % 10 == 0:
+            print('Finish {}/{} pairs.'.format(c, total_sublists))
+    return score
+
+
+def verification2(template_norm_feats=None,
+                  unique_templates=None,
+                  p1=None,
+                  p2=None):
+    template2id = np.zeros((max(unique_templates) + 1, 1), dtype=int)
+    for count_template, uqt in enumerate(unique_templates):
+        template2id[uqt] = count_template
+    score = np.zeros((len(p1),))  # save cosine distance between pairs
+    total_pairs = np.array(range(len(p1)))
+    batchsize = 100000  # small batchsize instead of all pairs in one batch due to the memory limiation
+    sublists = [total_pairs[i:i + batchsize] for i in range(0, len(p1), batchsize)]
+    total_sublists = len(sublists)
+    for c, s in enumerate(sublists):
+        feat1 = template_norm_feats[template2id[p1[s]]]
+        feat2 = template_norm_feats[template2id[p2[s]]]
+        similarity_score = np.sum(feat1 * feat2, -1)
+        score[s] = similarity_score.flatten()
+        if c % 10 == 0:
+            print('Finish {}/{} pairs.'.format(c, total_sublists))
+    return score
+
+
+def main(args):
+    use_norm_score = True  # if Ture, TestMode(N1)
+    use_detector_score = True  # if Ture, TestMode(D1)
+    use_flip_test = True  # if Ture, TestMode(F1)
+    assert args.target == 'IJBC' or args.target == 'IJBB'
+
+    start = timeit.default_timer()
+    templates, medias = read_template_media_list(
+        os.path.join('%s/meta' % args.image_path, '%s_face_tid_mid.txt' % args.target.lower()))
+    stop = timeit.default_timer()
+    print('Time: %.2f s. ' % (stop - start))
+
+    start = timeit.default_timer()
+    p1, p2, label = read_template_pair_list(
+        os.path.join('%s/meta' % args.image_path,
+                     '%s_template_pair_label.txt' % args.target.lower()))
+    stop = timeit.default_timer()
+    print('Time: %.2f s. ' % (stop - start))
+
+    start = timeit.default_timer()
+    img_path = '%s/loose_crop' % args.image_path
+    img_list_path = '%s/meta/%s_name_5pts_score.txt' % (args.image_path, args.target.lower())
+    img_list = open(img_list_path)
+    files = img_list.readlines()
+    dataset = AlignedDataSet(root=img_path, lines=files, align=True)
+    img_feats = extract(args.model_root, dataset)
+
+    faceness_scores = []
+    for each_line in files:
+        name_lmk_score = each_line.split()
+        faceness_scores.append(name_lmk_score[-1])
+    faceness_scores = np.array(faceness_scores).astype(np.float32)
+    stop = timeit.default_timer()
+    print('Time: %.2f s. ' % (stop - start))
+    print('Feature Shape: ({} , {}) .'.format(img_feats.shape[0], img_feats.shape[1]))
+    start = timeit.default_timer()
+
+    if use_flip_test:
+        img_input_feats = img_feats[:, 0:img_feats.shape[1] // 2] + img_feats[:, img_feats.shape[1] // 2:]
+    else:
+        img_input_feats = img_feats[:, 0:img_feats.shape[1] // 2]
+
+    if use_norm_score:
+        img_input_feats = img_input_feats
+    else:
+        img_input_feats = img_input_feats / np.sqrt(np.sum(img_input_feats ** 2, -1, keepdims=True))
+
+    if use_detector_score:
+        print(img_input_feats.shape, faceness_scores.shape)
+        img_input_feats = img_input_feats * faceness_scores[:, np.newaxis]
+    else:
+        img_input_feats = img_input_feats
+
+    template_norm_feats, unique_templates = image2template_feature(
+        img_input_feats, templates, medias)
+    stop = timeit.default_timer()
+    print('Time: %.2f s. ' % (stop - start))
+
+    start = timeit.default_timer()
+    score = verification(template_norm_feats, unique_templates, p1, p2)
+    stop = timeit.default_timer()
+    print('Time: %.2f s. ' % (stop - start))
+    save_path = os.path.join(args.result_dir, "{}_result".format(args.target))
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
+    score_save_file = os.path.join(save_path, "{}.npy".format(args.model_root))
+    np.save(score_save_file, score)
+    files = [score_save_file]
+    methods = []
+    scores = []
+    for file in files:
+        methods.append(os.path.basename(file))
+        scores.append(np.load(file))
+    methods = np.array(methods)
+    scores = dict(zip(methods, scores))
+    x_labels = [10 ** -6, 10 ** -5, 10 ** -4, 10 ** -3, 10 ** -2, 10 ** -1]
+    tpr_fpr_table = prettytable.PrettyTable(['Methods'] + [str(x) for x in x_labels])
+    for method in methods:
+        fpr, tpr, _ = roc_curve(label, scores[method])
+        fpr = np.flipud(fpr)
+        tpr = np.flipud(tpr)
+        tpr_fpr_row = []
+        tpr_fpr_row.append("%s-%s" % (method, args.target))
+        for fpr_iter in np.arange(len(x_labels)):
+            _, min_index = min(
+                list(zip(abs(fpr - x_labels[fpr_iter]), range(len(fpr)))))
+            tpr_fpr_row.append('%.2f' % (tpr[min_index] * 100))
+        tpr_fpr_table.add_row(tpr_fpr_row)
+    print(tpr_fpr_table)
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='do ijb test')
+    # general
+    parser.add_argument('--model-root', default='', help='path to load model.')
+    parser.add_argument('--image-path', default='', type=str, help='')
+    parser.add_argument('--result-dir', default='.', type=str, help='')
+    parser.add_argument('--target', default='IJBC', type=str, help='target, set to IJBC or IJBB')
+    main(parser.parse_args())

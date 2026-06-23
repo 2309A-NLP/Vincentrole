@@ -1,1 +1,11 @@
-aW1wb3J0IHRpbWUKCiMg5a6a5LmJ6KOF6aWw5ZmoCmRlZiBjYWxjdWxhdGVfdGltZShmdW5jKToKICAgIGRlZiB3cmFwcGVyKCphcmdzLCAqKmt3YXJncyk6CiAgICAgICAgc3RhcnRfdGltZSA9IHRpbWUudGltZSgpCiAgICAgICAgcmVzdWx0ID0gZnVuYygqYXJncywgKiprd2FyZ3MpCiAgICAgICAgZW5kX3RpbWUgPSB0aW1lLnRpbWUoKQogICAgICAgIHByaW50KGYi5Ye95pWwIHtmdW5jLl9fbmFtZV9ffSDov5DooYzml7bpl7TvvJoge2VuZF90aW1lIC0gc3RhcnRfdGltZX0g56eSIikKICAgICAgICByZXR1cm4gcmVzdWx0CiAgICByZXR1cm4gd3JhcHBlcg==
+import time
+
+# 定义装饰器
+def calculate_time(func):
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        print(f"函数 {func.__name__} 运行时间： {end_time - start_time} 秒")
+        return result
+    return wrapper

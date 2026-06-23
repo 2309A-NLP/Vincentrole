@@ -1,1 +1,93 @@
-IyMgVGVzdCBUcmFpbmluZyBTcGVlZAoKLSBUZXN0IENvbW1hbmRzCgpZb3UgbmVlZCB0byB1c2UgdGhlIGZvbGxvd2luZyB0d28gY29tbWFuZHMgdG8gdGVzdCB0aGUgUGFydGlhbCBGQyB0cmFpbmluZyBwZXJmb3JtYW5jZS4gClRoZSBudW1iZXIgb2YgaWRlbnRpdGVzIGlzICoqMyBtaWxsaW9ucyoqIChzeW50aGV0aWMgZGF0YSksIHR1cm4gbWl4ZWQgcHJlY2lzaW9uICB0cmFpbmluZyBvbiwgYmFja2JvbmUgaXMgcmVzbmV0NTAsIApiYXRjaCBzaXplIGlzIDEwMjQuCmBgYHNoZWxsCiMgTW9kZWwgUGFyYWxsZWwKcHl0aG9uIC1tIHRvcmNoLmRpc3RyaWJ1dGVkLmxhdW5jaCAtLW5wcm9jX3Blcl9ub2RlPTggLS1ubm9kZXM9MSAtLW5vZGVfcmFuaz0wIC0tbWFzdGVyX2FkZHI9IjEyNy4wLjAuMSIgLS1tYXN0ZXJfcG9ydD0xMjM0IHRyYWluLnB5IGNvbmZpZ3MvM21pbGxpb25zCiMgUGFydGlhbCBGQyAwLjEKcHl0aG9uIC1tIHRvcmNoLmRpc3RyaWJ1dGVkLmxhdW5jaCAtLW5wcm9jX3Blcl9ub2RlPTggLS1ubm9kZXM9MSAtLW5vZGVfcmFuaz0wIC0tbWFzdGVyX2FkZHI9IjEyNy4wLjAuMSIgLS1tYXN0ZXJfcG9ydD0xMjM0IHRyYWluLnB5IGNvbmZpZ3MvM21pbGxpb25zX3BmYwpgYGAKCi0gR1BVIE1lbW9yeQoKYGBgCiMgKE1vZGVsIFBhcmFsbGVsKSBncHVzdGF0IC1pClswXSBUZXNsYSBWMTAwLVNYTTItMzJHQiB8IDY0J0MsICA5NCAlIHwgMzAzMzggLyAzMjUxMCBNQiAKWzFdIFRlc2xhIFYxMDAtU1hNMi0zMkdCIHwgNjAnQywgIDk5ICUgfCAyODg3NiAvIDMyNTEwIE1CIApbMl0gVGVzbGEgVjEwMC1TWE0yLTMyR0IgfCA2MCdDLCAgOTkgJSB8IDI4ODcyIC8gMzI1MTAgTUIgClszXSBUZXNsYSBWMTAwLVNYTTItMzJHQiB8IDY5J0MsICA5OSAlIHwgMjg4NzIgLyAzMjUxMCBNQiAKWzRdIFRlc2xhIFYxMDAtU1hNMi0zMkdCIHwgNjYnQywgIDk5ICUgfCAyODg4OCAvIDMyNTEwIE1CIApbNV0gVGVzbGEgVjEwMC1TWE0yLTMyR0IgfCA2MCdDLCAgOTkgJSB8IDI4OTMyIC8gMzI1MTAgTUIgCls2XSBUZXNsYSBWMTAwLVNYTTItMzJHQiB8IDY4J0MsIDEwMCAlIHwgMjg5MTYgLyAzMjUxMCBNQiAKWzddIFRlc2xhIFYxMDAtU1hNMi0zMkdCIHwgNjUnQywgIDk5ICUgfCAyODg2MCAvIDMyNTEwIE1CIAoKIyAoUGFydGlhbCBGQyAwLjEpIGdwdXN0YXQgLWkKWzBdIFRlc2xhIFYxMDAtU1hNMi0zMkdCIHwgNjAnQywgIDk1ICUgfCAxMDQ4OCAvIDMyNTEwIE1CICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCwrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCtwpbMV0gVGVzbGEgVjEwMC1TWE0yLTMyR0IgfCA2MCdDLCAgOTcgJSB8IDEwMzQ0IC8gMzI1MTAgTUIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilILCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3ClsyXSBUZXNsYSBWMTAwLVNYTTItMzJHQiB8IDYxJ0MsICA5NSAlIHwgMTAzNDAgLyAzMjUxMCBNQiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUgsK3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrcKWzNdIFRlc2xhIFYxMDAtU1hNMi0zMkdCIHwgNjYnQywgIDk1ICUgfCAxMDM0MCAvIDMyNTEwIE1CICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCwrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCtwpbNF0gVGVzbGEgVjEwMC1TWE0yLTMyR0IgfCA2NSdDLCAgOTQgJSB8IDEwMzU2IC8gMzI1MTAgTUIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilILCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3Cls1XSBUZXNsYSBWMTAwLVNYTTItMzJHQiB8IDYxJ0MsICA5NSAlIHwgMTA0MDAgLyAzMjUxMCBNQiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUgsK3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrcKWzZdIFRlc2xhIFYxMDAtU1hNMi0zMkdCIHwgNjgnQywgIDk2ICUgfCAxMDM4NCAvIDMyNTEwIE1CICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCwrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCtwpbN10gVGVzbGEgVjEwMC1TWE0yLTMyR0IgfCA2NCdDLCAgOTUgJSB8IDEwMzI4IC8gMzI1MTAgTUIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCwrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCt8K3wrfCtwpgYGAKCi0gVHJhaW5pbmcgU3BlZWQKCmBgYHB5dGhvbgojIChNb2RlbCBQYXJhbGxlbCkgdHJhaW5naW5nLmxvZwpUcmFpbmluZzogU3BlZWQgMjI3MS4zMyBzYW1wbGVzL3NlYyAgIExvc3MgMS4xNjI0ICAgTGVhcm5pbmdSYXRlIDAuMjAwMCAgIEVwb2NoOiAwICAgR2xvYmFsIFN0ZXA6IDEwMCAKVHJhaW5pbmc6IFNwZWVkIDIyNjkuOTQgc2FtcGxlcy9zZWMgICBMb3NzIDAuMDAwMCAgIExlYXJuaW5nUmF0ZSAwLjIwMDAgICBFcG9jaDogMCAgIEdsb2JhbCBTdGVwOiAxNTAgClRyYWluaW5nOiBTcGVlZCAyMjcyLjY3IHNhbXBsZXMvc2VjICAgTG9zcyAwLjAwMDAgICBMZWFybmluZ1JhdGUgMC4yMDAwICAgRXBvY2g6IDAgICBHbG9iYWwgU3RlcDogMjAwIApUcmFpbmluZzogU3BlZWQgMjI2Ni41NSBzYW1wbGVzL3NlYyAgIExvc3MgMC4wMDAwICAgTGVhcm5pbmdSYXRlIDAuMjAwMCAgIEVwb2NoOiAwICAgR2xvYmFsIFN0ZXA6IDI1MCAKVHJhaW5pbmc6IFNwZWVkIDIyNzIuNTQgc2FtcGxlcy9zZWMgICBMb3NzIDAuMDAwMCAgIExlYXJuaW5nUmF0ZSAwLjIwMDAgICBFcG9jaDogMCAgIEdsb2JhbCBTdGVwOiAzMDAgCgojIChQYXJ0aWFsIEZDIDAuMSkgdHJhaW5naW5nLmxvZwpUcmFpbmluZzogU3BlZWQgNTI5OS41NiBzYW1wbGVzL3NlYyAgIExvc3MgMS4wOTY1ICAgTGVhcm5pbmdSYXRlIDAuMjAwMCAgIEVwb2NoOiAwICAgR2xvYmFsIFN0ZXA6IDEwMCAgClRyYWluaW5nOiBTcGVlZCA1Mjk2LjM3IHNhbXBsZXMvc2VjICAgTG9zcyAwLjAwMDAgICBMZWFybmluZ1JhdGUgMC4yMDAwICAgRXBvY2g6IDAgICBHbG9iYWwgU3RlcDogMTUwICAKVHJhaW5pbmc6IFNwZWVkIDUzMDQuMzcgc2FtcGxlcy9zZWMgICBMb3NzIDAuMDAwMCAgIExlYXJuaW5nUmF0ZSAwLjIwMDAgICBFcG9jaDogMCAgIEdsb2JhbCBTdGVwOiAyMDAgIApUcmFpbmluZzogU3BlZWQgNTI3NC40MyBzYW1wbGVzL3NlYyAgIExvc3MgMC4wMDAwICAgTGVhcm5pbmdSYXRlIDAuMjAwMCAgIEVwb2NoOiAwICAgR2xvYmFsIFN0ZXA6IDI1MCAgClRyYWluaW5nOiBTcGVlZCA1MzAwLjEwIHNhbXBsZXMvc2VjICAgTG9zcyAwLjAwMDAgICBMZWFybmluZ1JhdGUgMC4yMDAwICAgRXBvY2g6IDAgICBHbG9iYWwgU3RlcDogMzAwICAgCmBgYAoKSW4gdGhpcyB0ZXN0IGNhc2UsIFBhcnRpYWwgRkMgMC4xIG9ubHkgdXNlMSAxLzMgb2YgdGhlIEdQVSBtZW1vcnkgb2YgdGhlIG1vZGVsIHBhcmFsbGVsLCAKYW5kIHRoZSB0cmFpbmluZyBzcGVlZCBpcyAyLjUgdGltZXMgZmFzdGVyIHRoYW4gdGhlIG1vZGVsIHBhcmFsbGVsLgoKCiMjIFNwZWVkIEJlbmNobWFyawoKMS4gVHJhaW5pbmcgc3BlZWQgb2YgZGlmZmVyZW50IHBhcmFsbGVsIG1ldGhvZHMgKHNhbXBsZXMvc2Vjb25kKSwgVGVzbGEgVjEwMCAzMkdCICogOC4gKExhcmdlciBpcyBiZXR0ZXIpCgp8IE51bWJlciBvZiBJZGVudGl0aWVzIGluIERhdGFzZXQgfCBEYXRhIFBhcmFsbGVsIHwgTW9kZWwgUGFyYWxsZWwgfCBQYXJ0aWFsIEZDIDAuMSB8CnwgOi0tLSAgICB8IDotLS0gfCA6LS0tIHwgOi0tLSB8CnwxMjUwMDAgICB8IDQ2ODEgfCA0ODI0IHwgNTAwNCB8CnwyNTAwMDAgICB8IDQwNDcgfCA0NTIxIHwgNDk3NiB8Cnw1MDAwMDAgICB8IDMwODcgfCA0MDEzIHwgNDkwMCB8CnwxMDAwMDAwICB8IDIwOTAgfCAzNDQ5IHwgNDgwMyB8CnwxNDAwMDAwICB8IDE2NzIgfCAzMDQzIHwgNDczOCB8CnwyMDAwMDAwICB8IC0gICAgfCAyNTkzIHwgNDYyNiB8Cnw0MDAwMDAwICB8IC0gICAgfCAxNzQ4IHwgNDIwOCB8Cnw1NTAwMDAwICB8IC0gICAgfCAxMzg5IHwgMzk3NSB8Cnw4MDAwMDAwICB8IC0gICAgfCAtICAgIHwgMzU2NSB8CnwxNjAwMDAwMCB8IC0gICAgfCAtICAgIHwgMjY3OSB8CnwyOTAwMDAwMCB8IC0gICAgfCAtICAgIHwgMTg1NSB8CgoyLiBHUFUgbWVtb3J5IGNvc3Qgb2YgZGlmZmVyZW50IHBhcmFsbGVsIG1ldGhvZHMgKEdCIHBlciBHUFUpLCBUZXNsYSBWMTAwIDMyR0IgKiA4LiAoU21hbGxlciBpcyBiZXR0ZXIpCgp8IE51bWJlciBvZiBJZGVudGl0aWVzIGluIERhdGFzZXQgfCBEYXRhIFBhcmFsbGVsIHwgTW9kZWwgUGFyYWxsZWwgfCBQYXJ0aWFsIEZDIDAuMSB8CnwgOi0tLSAgICB8IDotLS0gIHwgOi0tLSAgfCA6LS0tICB8CnwxMjUwMDAgICB8IDczNTggIHwgNTMwNiAgfCA0ODY4ICB8CnwyNTAwMDAgICB8IDk5NDAgIHwgNTgyNiAgfCA1MDA0ICB8Cnw1MDAwMDAgICB8IDE0MjIwIHwgNzExNCAgfCA1MjAyICB8CnwxMDAwMDAwICB8IDIzNzA4IHwgOTk2NiAgfCA1NjIwICB8CnwxNDAwMDAwICB8IDMyMjUyIHwgMTExNzggfCA2MDU2ICB8CnwyMDAwMDAwICB8IC0gICAgIHwgMTM5NzggfCA2NDcyICB8Cnw0MDAwMDAwICB8IC0gICAgIHwgMjMyMzggfCA4Mjg0ICB8Cnw1NTAwMDAwICB8IC0gICAgIHwgMzIxODggfCA5ODU0ICB8Cnw4MDAwMDAwICB8IC0gICAgIHwgLSAgICAgfCAxMjMxMCB8CnwxNjAwMDAwMCB8IC0gICAgIHwgLSAgICAgfCAxOTk1MCB8CnwyOTAwMDAwMCB8IC0gICAgIHwgLSAgICAgfCAzMjMyNCB8Cg==
+## Test Training Speed
+
+- Test Commands
+
+You need to use the following two commands to test the Partial FC training performance. 
+The number of identites is **3 millions** (synthetic data), turn mixed precision  training on, backbone is resnet50, 
+batch size is 1024.
+```shell
+# Model Parallel
+python -m torch.distributed.launch --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr="127.0.0.1" --master_port=1234 train.py configs/3millions
+# Partial FC 0.1
+python -m torch.distributed.launch --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr="127.0.0.1" --master_port=1234 train.py configs/3millions_pfc
+```
+
+- GPU Memory
+
+```
+# (Model Parallel) gpustat -i
+[0] Tesla V100-SXM2-32GB | 64'C,  94 % | 30338 / 32510 MB 
+[1] Tesla V100-SXM2-32GB | 60'C,  99 % | 28876 / 32510 MB 
+[2] Tesla V100-SXM2-32GB | 60'C,  99 % | 28872 / 32510 MB 
+[3] Tesla V100-SXM2-32GB | 69'C,  99 % | 28872 / 32510 MB 
+[4] Tesla V100-SXM2-32GB | 66'C,  99 % | 28888 / 32510 MB 
+[5] Tesla V100-SXM2-32GB | 60'C,  99 % | 28932 / 32510 MB 
+[6] Tesla V100-SXM2-32GB | 68'C, 100 % | 28916 / 32510 MB 
+[7] Tesla V100-SXM2-32GB | 65'C,  99 % | 28860 / 32510 MB 
+
+# (Partial FC 0.1) gpustat -i
+[0] Tesla V100-SXM2-32GB | 60'C,  95 % | 10488 / 32510 MB                                                                                                                                          │·······················
+[1] Tesla V100-SXM2-32GB | 60'C,  97 % | 10344 / 32510 MB                                                                                                                                          │·······················
+[2] Tesla V100-SXM2-32GB | 61'C,  95 % | 10340 / 32510 MB                                                                                                                                          │·······················
+[3] Tesla V100-SXM2-32GB | 66'C,  95 % | 10340 / 32510 MB                                                                                                                                          │·······················
+[4] Tesla V100-SXM2-32GB | 65'C,  94 % | 10356 / 32510 MB                                                                                                                                          │·······················
+[5] Tesla V100-SXM2-32GB | 61'C,  95 % | 10400 / 32510 MB                                                                                                                                          │·······················
+[6] Tesla V100-SXM2-32GB | 68'C,  96 % | 10384 / 32510 MB                                                                                                                                          │·······················
+[7] Tesla V100-SXM2-32GB | 64'C,  95 % | 10328 / 32510 MB                                                                                                                                        │·······················
+```
+
+- Training Speed
+
+```python
+# (Model Parallel) trainging.log
+Training: Speed 2271.33 samples/sec   Loss 1.1624   LearningRate 0.2000   Epoch: 0   Global Step: 100 
+Training: Speed 2269.94 samples/sec   Loss 0.0000   LearningRate 0.2000   Epoch: 0   Global Step: 150 
+Training: Speed 2272.67 samples/sec   Loss 0.0000   LearningRate 0.2000   Epoch: 0   Global Step: 200 
+Training: Speed 2266.55 samples/sec   Loss 0.0000   LearningRate 0.2000   Epoch: 0   Global Step: 250 
+Training: Speed 2272.54 samples/sec   Loss 0.0000   LearningRate 0.2000   Epoch: 0   Global Step: 300 
+
+# (Partial FC 0.1) trainging.log
+Training: Speed 5299.56 samples/sec   Loss 1.0965   LearningRate 0.2000   Epoch: 0   Global Step: 100  
+Training: Speed 5296.37 samples/sec   Loss 0.0000   LearningRate 0.2000   Epoch: 0   Global Step: 150  
+Training: Speed 5304.37 samples/sec   Loss 0.0000   LearningRate 0.2000   Epoch: 0   Global Step: 200  
+Training: Speed 5274.43 samples/sec   Loss 0.0000   LearningRate 0.2000   Epoch: 0   Global Step: 250  
+Training: Speed 5300.10 samples/sec   Loss 0.0000   LearningRate 0.2000   Epoch: 0   Global Step: 300   
+```
+
+In this test case, Partial FC 0.1 only use1 1/3 of the GPU memory of the model parallel, 
+and the training speed is 2.5 times faster than the model parallel.
+
+
+## Speed Benchmark
+
+1. Training speed of different parallel methods (samples/second), Tesla V100 32GB * 8. (Larger is better)
+
+| Number of Identities in Dataset | Data Parallel | Model Parallel | Partial FC 0.1 |
+| :---    | :--- | :--- | :--- |
+|125000   | 4681 | 4824 | 5004 |
+|250000   | 4047 | 4521 | 4976 |
+|500000   | 3087 | 4013 | 4900 |
+|1000000  | 2090 | 3449 | 4803 |
+|1400000  | 1672 | 3043 | 4738 |
+|2000000  | -    | 2593 | 4626 |
+|4000000  | -    | 1748 | 4208 |
+|5500000  | -    | 1389 | 3975 |
+|8000000  | -    | -    | 3565 |
+|16000000 | -    | -    | 2679 |
+|29000000 | -    | -    | 1855 |
+
+2. GPU memory cost of different parallel methods (GB per GPU), Tesla V100 32GB * 8. (Smaller is better)
+
+| Number of Identities in Dataset | Data Parallel | Model Parallel | Partial FC 0.1 |
+| :---    | :---  | :---  | :---  |
+|125000   | 7358  | 5306  | 4868  |
+|250000   | 9940  | 5826  | 5004  |
+|500000   | 14220 | 7114  | 5202  |
+|1000000  | 23708 | 9966  | 5620  |
+|1400000  | 32252 | 11178 | 6056  |
+|2000000  | -     | 13978 | 6472  |
+|4000000  | -     | 23238 | 8284  |
+|5500000  | -     | 32188 | 9854  |
+|8000000  | -     | -     | 12310 |
+|16000000 | -     | -     | 19950 |
+|29000000 | -     | -     | 32324 |

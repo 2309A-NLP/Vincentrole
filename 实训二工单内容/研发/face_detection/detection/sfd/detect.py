@@ -1,1 +1,112 @@
-aW1wb3J0IHRvcmNoCmltcG9ydCB0b3JjaC5ubi5mdW5jdGlvbmFsIGFzIEYKCmltcG9ydCBvcwppbXBvcnQgc3lzCmltcG9ydCBjdjIKaW1wb3J0IHJhbmRvbQppbXBvcnQgZGF0ZXRpbWUKaW1wb3J0IG1hdGgKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBudW1weSBhcyBucAoKaW1wb3J0IHNjaXB5LmlvIGFzIHNpbwppbXBvcnQgemlwZmlsZQpmcm9tIC5uZXRfczNmZCBpbXBvcnQgczNmZApmcm9tIC5iYm94IGltcG9ydCAqCgoKZGVmIGRldGVjdChuZXQsIGltZywgZGV2aWNlKToKICAgIGltZyA9IGltZyAtIG5wLmFycmF5KFsxMDQsIDExNywgMTIzXSkKICAgIGltZyA9IGltZy50cmFuc3Bvc2UoMiwgMCwgMSkKICAgIGltZyA9IGltZy5yZXNoYXBlKCgxLCkgKyBpbWcuc2hhcGUpCgogICAgaWYgJ2N1ZGEnIGluIGRldmljZToKICAgICAgICB0b3JjaC5iYWNrZW5kcy5jdWRubi5iZW5jaG1hcmsgPSBUcnVlCgogICAgaW1nID0gdG9yY2guZnJvbV9udW1weShpbWcpLmZsb2F0KCkudG8oZGV2aWNlKQogICAgQkIsIENDLCBISCwgV1cgPSBpbWcuc2l6ZSgpCiAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICBvbGlzdCA9IG5ldChpbWcpCgogICAgYmJveGxpc3QgPSBbXQogICAgZm9yIGkgaW4gcmFuZ2UobGVuKG9saXN0KSAvLyAyKToKICAgICAgICBvbGlzdFtpICogMl0gPSBGLnNvZnRtYXgob2xpc3RbaSAqIDJdLCBkaW09MSkKICAgIG9saXN0ID0gW29lbGVtLmRhdGEuY3B1KCkgZm9yIG9lbGVtIGluIG9saXN0XQogICAgZm9yIGkgaW4gcmFuZ2UobGVuKG9saXN0KSAvLyAyKToKICAgICAgICBvY2xzLCBvcmVnID0gb2xpc3RbaSAqIDJdLCBvbGlzdFtpICogMiArIDFdCiAgICAgICAgRkIsIEZDLCBGSCwgRlcgPSBvY2xzLnNpemUoKSAgIyBmZWF0dXJlIG1hcCBzaXplCiAgICAgICAgc3RyaWRlID0gMioqKGkgKyAyKSAgICAjIDQsOCwxNiwzMiw2NCwxMjgKICAgICAgICBhbmNob3IgPSBzdHJpZGUgKiA0CiAgICAgICAgcG9zcyA9IHppcCgqbnAud2hlcmUob2Nsc1s6LCAxLCA6LCA6XSA+IDAuMDUpKQogICAgICAgIGZvciBJaW5kZXgsIGhpbmRleCwgd2luZGV4IGluIHBvc3M6CiAgICAgICAgICAgIGF4YywgYXljID0gc3RyaWRlIC8gMiArIHdpbmRleCAqIHN0cmlkZSwgc3RyaWRlIC8gMiArIGhpbmRleCAqIHN0cmlkZQogICAgICAgICAgICBzY29yZSA9IG9jbHNbMCwgMSwgaGluZGV4LCB3aW5kZXhdCiAgICAgICAgICAgIGxvYyA9IG9yZWdbMCwgOiwgaGluZGV4LCB3aW5kZXhdLmNvbnRpZ3VvdXMoKS52aWV3KDEsIDQpCiAgICAgICAgICAgIHByaW9ycyA9IHRvcmNoLlRlbnNvcihbW2F4YyAvIDEuMCwgYXljIC8gMS4wLCBzdHJpZGUgKiA0IC8gMS4wLCBzdHJpZGUgKiA0IC8gMS4wXV0pCiAgICAgICAgICAgIHZhcmlhbmNlcyA9IFswLjEsIDAuMl0KICAgICAgICAgICAgYm94ID0gZGVjb2RlKGxvYywgcHJpb3JzLCB2YXJpYW5jZXMpCiAgICAgICAgICAgIHgxLCB5MSwgeDIsIHkyID0gYm94WzBdICogMS4wCiAgICAgICAgICAgICMgY3YyLnJlY3RhbmdsZShpbWdzaG93LChpbnQoeDEpLGludCh5MSkpLChpbnQoeDIpLGludCh5MikpLCgwLDAsMjU1KSwxKQogICAgICAgICAgICBiYm94bGlzdC5hcHBlbmQoW3gxLCB5MSwgeDIsIHkyLCBzY29yZV0pCiAgICBiYm94bGlzdCA9IG5wLmFycmF5KGJib3hsaXN0KQogICAgaWYgMCA9PSBsZW4oYmJveGxpc3QpOgogICAgICAgIGJib3hsaXN0ID0gbnAuemVyb3MoKDEsIDUpKQoKICAgIHJldHVybiBiYm94bGlzdAoKZGVmIGJhdGNoX2RldGVjdChuZXQsIGltZ3MsIGRldmljZSk6CiAgICBpbWdzID0gaW1ncyAtIG5wLmFycmF5KFsxMDQsIDExNywgMTIzXSkKICAgIGltZ3MgPSBpbWdzLnRyYW5zcG9zZSgwLCAzLCAxLCAyKQoKICAgIGlmICdjdWRhJyBpbiBkZXZpY2U6CiAgICAgICAgdG9yY2guYmFja2VuZHMuY3Vkbm4uYmVuY2htYXJrID0gVHJ1ZQoKICAgIGltZ3MgPSB0b3JjaC5mcm9tX251bXB5KGltZ3MpLmZsb2F0KCkudG8oZGV2aWNlKQogICAgQkIsIENDLCBISCwgV1cgPSBpbWdzLnNpemUoKQogICAgd2l0aCB0b3JjaC5ub19ncmFkKCk6CiAgICAgICAgb2xpc3QgPSBuZXQoaW1ncykKCiAgICBiYm94bGlzdCA9IFtdCiAgICBmb3IgaSBpbiByYW5nZShsZW4ob2xpc3QpIC8vIDIpOgogICAgICAgIG9saXN0W2kgKiAyXSA9IEYuc29mdG1heChvbGlzdFtpICogMl0sIGRpbT0xKQogICAgb2xpc3QgPSBbb2VsZW0uZGF0YS5jcHUoKSBmb3Igb2VsZW0gaW4gb2xpc3RdCiAgICBmb3IgaSBpbiByYW5nZShsZW4ob2xpc3QpIC8vIDIpOgogICAgICAgIG9jbHMsIG9yZWcgPSBvbGlzdFtpICogMl0sIG9saXN0W2kgKiAyICsgMV0KICAgICAgICBGQiwgRkMsIEZILCBGVyA9IG9jbHMuc2l6ZSgpICAjIGZlYXR1cmUgbWFwIHNpemUKICAgICAgICBzdHJpZGUgPSAyKiooaSArIDIpICAgICMgNCw4LDE2LDMyLDY0LDEyOAogICAgICAgIGFuY2hvciA9IHN0cmlkZSAqIDQKICAgICAgICBwb3NzID0gemlwKCpucC53aGVyZShvY2xzWzosIDEsIDosIDpdID4gMC4wNSkpCiAgICAgICAgZm9yIElpbmRleCwgaGluZGV4LCB3aW5kZXggaW4gcG9zczoKICAgICAgICAgICAgYXhjLCBheWMgPSBzdHJpZGUgLyAyICsgd2luZGV4ICogc3RyaWRlLCBzdHJpZGUgLyAyICsgaGluZGV4ICogc3RyaWRlCiAgICAgICAgICAgIHNjb3JlID0gb2Nsc1s6LCAxLCBoaW5kZXgsIHdpbmRleF0KICAgICAgICAgICAgbG9jID0gb3JlZ1s6LCA6LCBoaW5kZXgsIHdpbmRleF0uY29udGlndW91cygpLnZpZXcoQkIsIDEsIDQpCiAgICAgICAgICAgIHByaW9ycyA9IHRvcmNoLlRlbnNvcihbW2F4YyAvIDEuMCwgYXljIC8gMS4wLCBzdHJpZGUgKiA0IC8gMS4wLCBzdHJpZGUgKiA0IC8gMS4wXV0pLnZpZXcoMSwgMSwgNCkKICAgICAgICAgICAgdmFyaWFuY2VzID0gWzAuMSwgMC4yXQogICAgICAgICAgICBib3ggPSBiYXRjaF9kZWNvZGUobG9jLCBwcmlvcnMsIHZhcmlhbmNlcykKICAgICAgICAgICAgYm94ID0gYm94WzosIDBdICogMS4wCiAgICAgICAgICAgICMgY3YyLnJlY3RhbmdsZShpbWdzaG93LChpbnQoeDEpLGludCh5MSkpLChpbnQoeDIpLGludCh5MikpLCgwLDAsMjU1KSwxKQogICAgICAgICAgICBiYm94bGlzdC5hcHBlbmQodG9yY2guY2F0KFtib3gsIHNjb3JlLnVuc3F1ZWV6ZSgxKV0sIDEpLmNwdSgpLm51bXB5KCkpCiAgICBiYm94bGlzdCA9IG5wLmFycmF5KGJib3hsaXN0KQogICAgaWYgMCA9PSBsZW4oYmJveGxpc3QpOgogICAgICAgIGJib3hsaXN0ID0gbnAuemVyb3MoKDEsIEJCLCA1KSkKCiAgICByZXR1cm4gYmJveGxpc3QKCmRlZiBmbGlwX2RldGVjdChuZXQsIGltZywgZGV2aWNlKToKICAgIGltZyA9IGN2Mi5mbGlwKGltZywgMSkKICAgIGIgPSBkZXRlY3QobmV0LCBpbWcsIGRldmljZSkKCiAgICBiYm94bGlzdCA9IG5wLnplcm9zKGIuc2hhcGUpCiAgICBiYm94bGlzdFs6LCAwXSA9IGltZy5zaGFwZVsxXSAtIGJbOiwgMl0KICAgIGJib3hsaXN0WzosIDFdID0gYls6LCAxXQogICAgYmJveGxpc3RbOiwgMl0gPSBpbWcuc2hhcGVbMV0gLSBiWzosIDBdCiAgICBiYm94bGlzdFs6LCAzXSA9IGJbOiwgM10KICAgIGJib3hsaXN0WzosIDRdID0gYls6LCA0XQogICAgcmV0dXJuIGJib3hsaXN0CgoKZGVmIHB0c190b19iYihwdHMpOgogICAgbWluX3gsIG1pbl95ID0gbnAubWluKHB0cywgYXhpcz0wKQogICAgbWF4X3gsIG1heF95ID0gbnAubWF4KHB0cywgYXhpcz0wKQogICAgcmV0dXJuIG5wLmFycmF5KFttaW5feCwgbWluX3ksIG1heF94LCBtYXhfeV0pCg==
+import torch
+import torch.nn.functional as F
+
+import os
+import sys
+import cv2
+import random
+import datetime
+import math
+import argparse
+import numpy as np
+
+import scipy.io as sio
+import zipfile
+from .net_s3fd import s3fd
+from .bbox import *
+
+
+def detect(net, img, device):
+    img = img - np.array([104, 117, 123])
+    img = img.transpose(2, 0, 1)
+    img = img.reshape((1,) + img.shape)
+
+    if 'cuda' in device:
+        torch.backends.cudnn.benchmark = True
+
+    img = torch.from_numpy(img).float().to(device)
+    BB, CC, HH, WW = img.size()
+    with torch.no_grad():
+        olist = net(img)
+
+    bboxlist = []
+    for i in range(len(olist) // 2):
+        olist[i * 2] = F.softmax(olist[i * 2], dim=1)
+    olist = [oelem.data.cpu() for oelem in olist]
+    for i in range(len(olist) // 2):
+        ocls, oreg = olist[i * 2], olist[i * 2 + 1]
+        FB, FC, FH, FW = ocls.size()  # feature map size
+        stride = 2**(i + 2)    # 4,8,16,32,64,128
+        anchor = stride * 4
+        poss = zip(*np.where(ocls[:, 1, :, :] > 0.05))
+        for Iindex, hindex, windex in poss:
+            axc, ayc = stride / 2 + windex * stride, stride / 2 + hindex * stride
+            score = ocls[0, 1, hindex, windex]
+            loc = oreg[0, :, hindex, windex].contiguous().view(1, 4)
+            priors = torch.Tensor([[axc / 1.0, ayc / 1.0, stride * 4 / 1.0, stride * 4 / 1.0]])
+            variances = [0.1, 0.2]
+            box = decode(loc, priors, variances)
+            x1, y1, x2, y2 = box[0] * 1.0
+            # cv2.rectangle(imgshow,(int(x1),int(y1)),(int(x2),int(y2)),(0,0,255),1)
+            bboxlist.append([x1, y1, x2, y2, score])
+    bboxlist = np.array(bboxlist)
+    if 0 == len(bboxlist):
+        bboxlist = np.zeros((1, 5))
+
+    return bboxlist
+
+def batch_detect(net, imgs, device):
+    imgs = imgs - np.array([104, 117, 123])
+    imgs = imgs.transpose(0, 3, 1, 2)
+
+    if 'cuda' in device:
+        torch.backends.cudnn.benchmark = True
+
+    imgs = torch.from_numpy(imgs).float().to(device)
+    BB, CC, HH, WW = imgs.size()
+    with torch.no_grad():
+        olist = net(imgs)
+
+    bboxlist = []
+    for i in range(len(olist) // 2):
+        olist[i * 2] = F.softmax(olist[i * 2], dim=1)
+    olist = [oelem.data.cpu() for oelem in olist]
+    for i in range(len(olist) // 2):
+        ocls, oreg = olist[i * 2], olist[i * 2 + 1]
+        FB, FC, FH, FW = ocls.size()  # feature map size
+        stride = 2**(i + 2)    # 4,8,16,32,64,128
+        anchor = stride * 4
+        poss = zip(*np.where(ocls[:, 1, :, :] > 0.05))
+        for Iindex, hindex, windex in poss:
+            axc, ayc = stride / 2 + windex * stride, stride / 2 + hindex * stride
+            score = ocls[:, 1, hindex, windex]
+            loc = oreg[:, :, hindex, windex].contiguous().view(BB, 1, 4)
+            priors = torch.Tensor([[axc / 1.0, ayc / 1.0, stride * 4 / 1.0, stride * 4 / 1.0]]).view(1, 1, 4)
+            variances = [0.1, 0.2]
+            box = batch_decode(loc, priors, variances)
+            box = box[:, 0] * 1.0
+            # cv2.rectangle(imgshow,(int(x1),int(y1)),(int(x2),int(y2)),(0,0,255),1)
+            bboxlist.append(torch.cat([box, score.unsqueeze(1)], 1).cpu().numpy())
+    bboxlist = np.array(bboxlist)
+    if 0 == len(bboxlist):
+        bboxlist = np.zeros((1, BB, 5))
+
+    return bboxlist
+
+def flip_detect(net, img, device):
+    img = cv2.flip(img, 1)
+    b = detect(net, img, device)
+
+    bboxlist = np.zeros(b.shape)
+    bboxlist[:, 0] = img.shape[1] - b[:, 2]
+    bboxlist[:, 1] = b[:, 1]
+    bboxlist[:, 2] = img.shape[1] - b[:, 0]
+    bboxlist[:, 3] = b[:, 3]
+    bboxlist[:, 4] = b[:, 4]
+    return bboxlist
+
+
+def pts_to_bb(pts):
+    min_x, min_y = np.min(pts, axis=0)
+    max_x, max_y = np.max(pts, axis=0)
+    return np.array([min_x, min_y, max_x, max_y])

@@ -1,1 +1,128 @@
-aW1wb3J0IGN2MgppbXBvcnQgbnVtcHkgYXMgbnAKZnJvbSBza2ltYWdlIGltcG9ydCB0cmFuc2Zvcm0gYXMgdHJhbnMKCgphcmNmYWNlX3NyYyA9IG5wLmFycmF5KFtbMzguMjk0NiwgNTEuNjk2M10sCiAgICAgICAgICAgICAgICAgICAgICAgIFs3My41MzE4LCA1MS41MDE0XSwKICAgICAgICAgICAgICAgICAgICAgICAgWzU2LjAyNTIsIDcxLjczNjZdLAogICAgICAgICAgICAgICAgICAgICAgICBbNDEuNTQ5MywgOTIuMzY1NV0sCiAgICAgICAgICAgICAgICAgICAgICAgIFs3MC43Mjk5LCA5Mi4yMDQxXV0sIGR0eXBlPW5wLmZsb2F0MzIpCmFyY2ZhY2Vfc3JjID0gbnAuZXhwYW5kX2RpbXMoYXJjZmFjZV9zcmMsIGF4aXM9MCkKCgpkZWYgZXN0aW1hdGVfbm9ybShsbWssIGZhY2Vfc2l6ZSwgZHN0X2ZhY2Vfc2l6ZSwgZXhwYW5kX3NpemUpOgogICAgYXNzZXJ0IGxtay5zaGFwZSA9PSAoNSwgMikKICAgIHRmb3JtID0gdHJhbnMuU2ltaWxhcml0eVRyYW5zZm9ybSgpCiAgICBsbWtfdHJhbiA9IG5wLmluc2VydChsbWssIDIsIHZhbHVlcz1ucC5vbmVzKDUpLCBheGlzPTEpIAogICAgbWluX00gPSBbXSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgIG1pbl9pbmRleCA9IFtdICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICBtaW5fZXJyb3IgPSBmbG9hdCgnaW5mJykgICAKCiAgICBhc3NlcnQgZmFjZV9zaXplID09IDExMgogICAgc3JjID0gKGFyY2ZhY2Vfc3JjIC8gZmFjZV9zaXplICogZHN0X2ZhY2Vfc2l6ZSkgKyAoZXhwYW5kX3NpemUgLSBkc3RfZmFjZV9zaXplKSAvIDIgICAgICAgICAgICAgICAgCiAgIAogICAgZm9yIGkgaW4gbnAuYXJhbmdlKHNyYy5zaGFwZVswXSk6CiAgICAgICAgdGZvcm0uZXN0aW1hdGUobG1rLCBzcmNbaV0pCiAgICAgICAgTSA9IHRmb3JtLnBhcmFtc1swOjIsIDpdCiAgICAgICAgcmVzdWx0cyA9IG5wLmRvdChNLCBsbWtfdHJhbi5UKQogICAgICAgIHJlc3VsdHMgPSByZXN1bHRzLlQKICAgICAgICBlcnJvciA9IG5wLnN1bShucC5zcXJ0KG5wLnN1bSgocmVzdWx0cyAtIHNyY1tpXSkgKiogMiwgYXhpcz0xKSkpCgogICAgICAgIGlmIGVycm9yIDwgbWluX2Vycm9yOgogICAgICAgICAgICBtaW5fZXJyb3IgPSBlcnJvcgogICAgICAgICAgICBtaW5fTSA9IE0KICAgICAgICAgICAgbWluX2luZGV4ID0gaQogICAgcmV0dXJuIG1pbl9NLCBtaW5faW5kZXgKCgpkZWYgbWV0cml4X00oZmFjZV9zaXplLCBleHBhbmRfc2l6ZSwga2V5cG9pbnRzPU5vbmUpOgogICAgaWRfc2l6ZSA9IDExMgogICAgZGV0ZWN0ZWRfbG1rID0gbnAuY29uY2F0ZW5hdGUoa2V5cG9pbnRzKS5yZXNoYXBlKDUsIDIpCiAgICBNLCBfID0gZXN0aW1hdGVfbm9ybShkZXRlY3RlZF9sbWssIGlkX3NpemUsIGZhY2Vfc2l6ZSwgZXhwYW5kX3NpemUpCiAgICBNaW52ID0gbnAuaWRlbnRpdHkoMywgZHR5cGU9bnAuc2luZ2xlKQogICAgTWludlswOjIsIDpdID0gTQogICAgTSA9IE1pbnZbMDoyLCA6XQogICAgcmV0dXJuIE0gICAKCgpkZWYgZGVjb21wb3NlX3RmbSh0Zm0pOgogICAgdGZtID0gdGZtLmNvcHkoKQogICAgc194ID0gbnAuc3FydCh0Zm1bMF1bMF0gKiogMiArIHRmbVswXVsxXSAqKiAyKQogICAgc195ID0gbnAuc3FydCh0Zm1bMV1bMF0gKiogMiArIHRmbVsxXVsxXSAqKiAyKQoKICAgIHRfeCA9IHRmbVswXVsyXQogICAgdF95ID0gdGZtWzFdWzJdCgogICAgI+W5s+enu+aXi+i9rOefqemYtXJ0CiAgICBydCA9IG5wLmFycmF5KFsKICAgICAgICBbdGZtWzBdWzBdIC8gc194LCB0Zm1bMF1bMV0gLyBzX3gsIHRfeCAvIHNfeF0sCiAgICAgICAgW3RmbVsxXVswXSAvIHNfeSwgdGZtWzFdWzFdIC8gc195LCB0X3kgLyBzX3ldLAogICAgXSkKCiAgICAj57yp5pS+55+p6Zi1cwogICAgcyA9IG5wLmFycmF5KFsKICAgICAgICBbc194LCAwLCAwXSwKICAgICAgICBbMCwgc195LCAwXQogICAgXSkKCiAgICAjIF9ydCA9IG5wLnZzdGFjayhbcnQsIFtbMCwgMCwgMV1dXSkKICAgICMgX3MgPSBucC52c3RhY2soW3MsIFtbMCwgMCwgMV1dXSkKICAgICMgcHJpbnQobnAuZG90KF9zLCBfcnQpWzoyXSAtIHRmbSkKCiAgICByZXR1cm4gcnQsIHMKCgpkZWYgaW1nX3dhcnAoaW1nLCBNLCBleHBhbmRfc2l6ZSwgYWRqdXN0PTApOgogICAgd2FycGVkID0gY3YyLndhcnBBZmZpbmUoaW1nLCBNLCAoZXhwYW5kX3NpemUsIGV4cGFuZF9zaXplKSkKICAgIHdhcnBlZCA9IHdhcnBlZCAtIG5wLnVpbnQ4KGFkanVzdCkKICAgIHdhcnBlZCA9IG5wLmNsaXAod2FycGVkLCAwLCAyNTUpCiAgICByZXR1cm4gd2FycGVkCgoKZGVmIGltZ193YXJwX2JhY2tfaW52X20oaW1nLCBpbWdfdG8sIGludl9tKToKICAgIGhfdXAsIHdfdXAsIGMgPSBpbWdfdG8uc2hhcGUKCiAgICBtYXNrID0gbnAub25lc19saWtlKGltZykuYXN0eXBlKG5wLmZsb2F0MzIpCiAgICBpbnZfbWFzayA9IGN2Mi53YXJwQWZmaW5lKG1hc2ssIGludl9tLCAod191cCwgaF91cCkpCiAgICBpbnZfaW1nID0gY3YyLndhcnBBZmZpbmUoaW1nLCBpbnZfbSwgKHdfdXAsIGhfdXApKQoKICAgIGltZ190b1tpbnZfbWFzayA9PSAxXSA9IGludl9pbWdbaW52X21hc2sgPT0gMV0KICAgIHJldHVybiBpbWdfdG8KCgpkZWYgZ2V0X3ZpZGVvX2Zwcyh2ZmlsZSk6CiAgICBjYXAgPSBjdjIuVmlkZW9DYXB0dXJlKHZmaWxlKQogICAgZnBzID0gY2FwLmdldChjdjIuQ0FQX1BST1BfRlBTKQogICAgY2FwLnJlbGVhc2UoKQogICAgcmV0dXJuIGZwcwoKCmNsYXNzIGxhcGxhY2lhblNtb290aChvYmplY3QpOgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzbW9vdGhBbHBoYT0wLjMpOgogICAgICAgIHNlbGYuc21vb3RoQWxwaGEgPSBzbW9vdGhBbHBoYQogICAgICAgIHNlbGYucHRzX2xhc3QgPSBOb25lCgogICAgZGVmIHNtb290aChzZWxmLCBwdHNfY3VyKToKICAgICAgICBpZiBzZWxmLnB0c19sYXN0IGlzIE5vbmU6CiAgICAgICAgICAgIHNlbGYucHRzX2xhc3QgPSBwdHNfY3VyLmNvcHkoKQogICAgICAgICAgICByZXR1cm4gcHRzX2N1ci5jb3B5KCkKICAgICAgICB4MSA9IG1pbihwdHNfY3VyWzosIDBdKQogICAgICAgIHgyID0gbWF4KHB0c19jdXJbOiwgMF0pCiAgICAgICAgeTEgPSBtaW4ocHRzX2N1cls6LCAxXSkKICAgICAgICB5MiA9IG1heChwdHNfY3VyWzosIDFdKQogICAgICAgIHdpZHRoID0geDIgLSB4MQogICAgICAgIHB0c191cGRhdGUgPSBbXQogICAgICAgIGZvciBpIGluIHJhbmdlKGxlbihwdHNfY3VyKSk6CiAgICAgICAgICAgIHhfbmV3LCB5X25ldyA9IHB0c19jdXJbaV0KICAgICAgICAgICAgeF9vbGQsIHlfb2xkID0gc2VsZi5wdHNfbGFzdFtpXQogICAgICAgICAgICB0bXAgPSAoeF9uZXcgLSB4X29sZCkgKiogMiArICh5X25ldyAtIHlfb2xkKSAqKiAyCiAgICAgICAgICAgIHcgPSBucC5leHAoLXRtcCAvICh3aWR0aCAqIHNlbGYuc21vb3RoQWxwaGEpKQogICAgICAgICAgICB4ID0geF9vbGQgKiB3ICsgeF9uZXcgKiAoMSAtIHcpCiAgICAgICAgICAgIHkgPSB5X29sZCAqIHcgKyB5X25ldyAqICgxIC0gdykKICAgICAgICAgICAgcHRzX3VwZGF0ZS5hcHBlbmQoW3gsIHldKQogICAgICAgIHB0c191cGRhdGUgPSBucC5hcnJheShwdHNfdXBkYXRlKQogICAgICAgIHNlbGYucHRzX2xhc3QgPSBwdHNfdXBkYXRlLmNvcHkoKQoKICAgICAgICByZXR1cm4gcHRzX3VwZGF0ZQo=
+import cv2
+import numpy as np
+from skimage import transform as trans
+
+
+arcface_src = np.array([[38.2946, 51.6963],
+                        [73.5318, 51.5014],
+                        [56.0252, 71.7366],
+                        [41.5493, 92.3655],
+                        [70.7299, 92.2041]], dtype=np.float32)
+arcface_src = np.expand_dims(arcface_src, axis=0)
+
+
+def estimate_norm(lmk, face_size, dst_face_size, expand_size):
+    assert lmk.shape == (5, 2)
+    tform = trans.SimilarityTransform()
+    lmk_tran = np.insert(lmk, 2, values=np.ones(5), axis=1) 
+    min_M = []                                              
+    min_index = []                                          
+    min_error = float('inf')   
+
+    assert face_size == 112
+    src = (arcface_src / face_size * dst_face_size) + (expand_size - dst_face_size) / 2                
+   
+    for i in np.arange(src.shape[0]):
+        tform.estimate(lmk, src[i])
+        M = tform.params[0:2, :]
+        results = np.dot(M, lmk_tran.T)
+        results = results.T
+        error = np.sum(np.sqrt(np.sum((results - src[i]) ** 2, axis=1)))
+
+        if error < min_error:
+            min_error = error
+            min_M = M
+            min_index = i
+    return min_M, min_index
+
+
+def metrix_M(face_size, expand_size, keypoints=None):
+    id_size = 112
+    detected_lmk = np.concatenate(keypoints).reshape(5, 2)
+    M, _ = estimate_norm(detected_lmk, id_size, face_size, expand_size)
+    Minv = np.identity(3, dtype=np.single)
+    Minv[0:2, :] = M
+    M = Minv[0:2, :]
+    return M   
+
+
+def decompose_tfm(tfm):
+    tfm = tfm.copy()
+    s_x = np.sqrt(tfm[0][0] ** 2 + tfm[0][1] ** 2)
+    s_y = np.sqrt(tfm[1][0] ** 2 + tfm[1][1] ** 2)
+
+    t_x = tfm[0][2]
+    t_y = tfm[1][2]
+
+    #平移旋转矩阵rt
+    rt = np.array([
+        [tfm[0][0] / s_x, tfm[0][1] / s_x, t_x / s_x],
+        [tfm[1][0] / s_y, tfm[1][1] / s_y, t_y / s_y],
+    ])
+
+    #缩放矩阵s
+    s = np.array([
+        [s_x, 0, 0],
+        [0, s_y, 0]
+    ])
+
+    # _rt = np.vstack([rt, [[0, 0, 1]]])
+    # _s = np.vstack([s, [[0, 0, 1]]])
+    # print(np.dot(_s, _rt)[:2] - tfm)
+
+    return rt, s
+
+
+def img_warp(img, M, expand_size, adjust=0):
+    warped = cv2.warpAffine(img, M, (expand_size, expand_size))
+    warped = warped - np.uint8(adjust)
+    warped = np.clip(warped, 0, 255)
+    return warped
+
+
+def img_warp_back_inv_m(img, img_to, inv_m):
+    h_up, w_up, c = img_to.shape
+
+    mask = np.ones_like(img).astype(np.float32)
+    inv_mask = cv2.warpAffine(mask, inv_m, (w_up, h_up))
+    inv_img = cv2.warpAffine(img, inv_m, (w_up, h_up))
+
+    img_to[inv_mask == 1] = inv_img[inv_mask == 1]
+    return img_to
+
+
+def get_video_fps(vfile):
+    cap = cv2.VideoCapture(vfile)
+    fps = cap.get(cv2.CAP_PROP_FPS)
+    cap.release()
+    return fps
+
+
+class laplacianSmooth(object):
+
+    def __init__(self, smoothAlpha=0.3):
+        self.smoothAlpha = smoothAlpha
+        self.pts_last = None
+
+    def smooth(self, pts_cur):
+        if self.pts_last is None:
+            self.pts_last = pts_cur.copy()
+            return pts_cur.copy()
+        x1 = min(pts_cur[:, 0])
+        x2 = max(pts_cur[:, 0])
+        y1 = min(pts_cur[:, 1])
+        y2 = max(pts_cur[:, 1])
+        width = x2 - x1
+        pts_update = []
+        for i in range(len(pts_cur)):
+            x_new, y_new = pts_cur[i]
+            x_old, y_old = self.pts_last[i]
+            tmp = (x_new - x_old) ** 2 + (y_new - y_old) ** 2
+            w = np.exp(-tmp / (width * self.smoothAlpha))
+            x = x_old * w + x_new * (1 - w)
+            y = y_old * w + y_new * (1 - w)
+            pts_update.append([x, y])
+        pts_update = np.array(pts_update)
+        self.pts_last = pts_update.copy()
+
+        return pts_update

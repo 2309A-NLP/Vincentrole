@@ -1,1 +1,124 @@
-aW1wb3J0IG51bWJlcnMKaW1wb3J0IG9zCmltcG9ydCBxdWV1ZSBhcyBRdWV1ZQppbXBvcnQgdGhyZWFkaW5nCgppbXBvcnQgbXhuZXQgYXMgbXgKaW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCB0b3JjaApmcm9tIHRvcmNoLnV0aWxzLmRhdGEgaW1wb3J0IERhdGFMb2FkZXIsIERhdGFzZXQKZnJvbSB0b3JjaHZpc2lvbiBpbXBvcnQgdHJhbnNmb3JtcwoKCmNsYXNzIEJhY2tncm91bmRHZW5lcmF0b3IodGhyZWFkaW5nLlRocmVhZCk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgZ2VuZXJhdG9yLCBsb2NhbF9yYW5rLCBtYXhfcHJlZmV0Y2g9Nik6CiAgICAgICAgc3VwZXIoQmFja2dyb3VuZEdlbmVyYXRvciwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYucXVldWUgPSBRdWV1ZS5RdWV1ZShtYXhfcHJlZmV0Y2gpCiAgICAgICAgc2VsZi5nZW5lcmF0b3IgPSBnZW5lcmF0b3IKICAgICAgICBzZWxmLmxvY2FsX3JhbmsgPSBsb2NhbF9yYW5rCiAgICAgICAgc2VsZi5kYWVtb24gPSBUcnVlCiAgICAgICAgc2VsZi5zdGFydCgpCgogICAgZGVmIHJ1bihzZWxmKToKICAgICAgICB0b3JjaC5jdWRhLnNldF9kZXZpY2Uoc2VsZi5sb2NhbF9yYW5rKQogICAgICAgIGZvciBpdGVtIGluIHNlbGYuZ2VuZXJhdG9yOgogICAgICAgICAgICBzZWxmLnF1ZXVlLnB1dChpdGVtKQogICAgICAgIHNlbGYucXVldWUucHV0KE5vbmUpCgogICAgZGVmIG5leHQoc2VsZik6CiAgICAgICAgbmV4dF9pdGVtID0gc2VsZi5xdWV1ZS5nZXQoKQogICAgICAgIGlmIG5leHRfaXRlbSBpcyBOb25lOgogICAgICAgICAgICByYWlzZSBTdG9wSXRlcmF0aW9uCiAgICAgICAgcmV0dXJuIG5leHRfaXRlbQoKICAgIGRlZiBfX25leHRfXyhzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5uZXh0KCkKCiAgICBkZWYgX19pdGVyX18oc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYKCgpjbGFzcyBEYXRhTG9hZGVyWChEYXRhTG9hZGVyKToKCiAgICBkZWYgX19pbml0X18oc2VsZiwgbG9jYWxfcmFuaywgKiprd2FyZ3MpOgogICAgICAgIHN1cGVyKERhdGFMb2FkZXJYLCBzZWxmKS5fX2luaXRfXygqKmt3YXJncykKICAgICAgICBzZWxmLnN0cmVhbSA9IHRvcmNoLmN1ZGEuU3RyZWFtKGxvY2FsX3JhbmspCiAgICAgICAgc2VsZi5sb2NhbF9yYW5rID0gbG9jYWxfcmFuawoKICAgIGRlZiBfX2l0ZXJfXyhzZWxmKToKICAgICAgICBzZWxmLml0ZXIgPSBzdXBlcihEYXRhTG9hZGVyWCwgc2VsZikuX19pdGVyX18oKQogICAgICAgIHNlbGYuaXRlciA9IEJhY2tncm91bmRHZW5lcmF0b3Ioc2VsZi5pdGVyLCBzZWxmLmxvY2FsX3JhbmspCiAgICAgICAgc2VsZi5wcmVsb2FkKCkKICAgICAgICByZXR1cm4gc2VsZgoKICAgIGRlZiBwcmVsb2FkKHNlbGYpOgogICAgICAgIHNlbGYuYmF0Y2ggPSBuZXh0KHNlbGYuaXRlciwgTm9uZSkKICAgICAgICBpZiBzZWxmLmJhdGNoIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgd2l0aCB0b3JjaC5jdWRhLnN0cmVhbShzZWxmLnN0cmVhbSk6CiAgICAgICAgICAgIGZvciBrIGluIHJhbmdlKGxlbihzZWxmLmJhdGNoKSk6CiAgICAgICAgICAgICAgICBzZWxmLmJhdGNoW2tdID0gc2VsZi5iYXRjaFtrXS50byhkZXZpY2U9c2VsZi5sb2NhbF9yYW5rLCBub25fYmxvY2tpbmc9VHJ1ZSkKCiAgICBkZWYgX19uZXh0X18oc2VsZik6CiAgICAgICAgdG9yY2guY3VkYS5jdXJyZW50X3N0cmVhbSgpLndhaXRfc3RyZWFtKHNlbGYuc3RyZWFtKQogICAgICAgIGJhdGNoID0gc2VsZi5iYXRjaAogICAgICAgIGlmIGJhdGNoIGlzIE5vbmU6CiAgICAgICAgICAgIHJhaXNlIFN0b3BJdGVyYXRpb24KICAgICAgICBzZWxmLnByZWxvYWQoKQogICAgICAgIHJldHVybiBiYXRjaAoKCmNsYXNzIE1YRmFjZURhdGFzZXQoRGF0YXNldCk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgcm9vdF9kaXIsIGxvY2FsX3JhbmspOgogICAgICAgIHN1cGVyKE1YRmFjZURhdGFzZXQsIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLnRyYW5zZm9ybSA9IHRyYW5zZm9ybXMuQ29tcG9zZSgKICAgICAgICAgICAgW3RyYW5zZm9ybXMuVG9QSUxJbWFnZSgpLAogICAgICAgICAgICAgdHJhbnNmb3Jtcy5SYW5kb21Ib3Jpem9udGFsRmxpcCgpLAogICAgICAgICAgICAgdHJhbnNmb3Jtcy5Ub1RlbnNvcigpLAogICAgICAgICAgICAgdHJhbnNmb3Jtcy5Ob3JtYWxpemUobWVhbj1bMC41LCAwLjUsIDAuNV0sIHN0ZD1bMC41LCAwLjUsIDAuNV0pLAogICAgICAgICAgICAgXSkKICAgICAgICBzZWxmLnJvb3RfZGlyID0gcm9vdF9kaXIKICAgICAgICBzZWxmLmxvY2FsX3JhbmsgPSBsb2NhbF9yYW5rCiAgICAgICAgcGF0aF9pbWdyZWMgPSBvcy5wYXRoLmpvaW4ocm9vdF9kaXIsICd0cmFpbi5yZWMnKQogICAgICAgIHBhdGhfaW1naWR4ID0gb3MucGF0aC5qb2luKHJvb3RfZGlyLCAndHJhaW4uaWR4JykKICAgICAgICBzZWxmLmltZ3JlYyA9IG14LnJlY29yZGlvLk1YSW5kZXhlZFJlY29yZElPKHBhdGhfaW1naWR4LCBwYXRoX2ltZ3JlYywgJ3InKQogICAgICAgIHMgPSBzZWxmLmltZ3JlYy5yZWFkX2lkeCgwKQogICAgICAgIGhlYWRlciwgXyA9IG14LnJlY29yZGlvLnVucGFjayhzKQogICAgICAgIGlmIGhlYWRlci5mbGFnID4gMDoKICAgICAgICAgICAgc2VsZi5oZWFkZXIwID0gKGludChoZWFkZXIubGFiZWxbMF0pLCBpbnQoaGVhZGVyLmxhYmVsWzFdKSkKICAgICAgICAgICAgc2VsZi5pbWdpZHggPSBucC5hcnJheShyYW5nZSgxLCBpbnQoaGVhZGVyLmxhYmVsWzBdKSkpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2VsZi5pbWdpZHggPSBucC5hcnJheShsaXN0KHNlbGYuaW1ncmVjLmtleXMpKQoKICAgIGRlZiBfX2dldGl0ZW1fXyhzZWxmLCBpbmRleCk6CiAgICAgICAgaWR4ID0gc2VsZi5pbWdpZHhbaW5kZXhdCiAgICAgICAgcyA9IHNlbGYuaW1ncmVjLnJlYWRfaWR4KGlkeCkKICAgICAgICBoZWFkZXIsIGltZyA9IG14LnJlY29yZGlvLnVucGFjayhzKQogICAgICAgIGxhYmVsID0gaGVhZGVyLmxhYmVsCiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UobGFiZWwsIG51bWJlcnMuTnVtYmVyKToKICAgICAgICAgICAgbGFiZWwgPSBsYWJlbFswXQogICAgICAgIGxhYmVsID0gdG9yY2gudGVuc29yKGxhYmVsLCBkdHlwZT10b3JjaC5sb25nKQogICAgICAgIHNhbXBsZSA9IG14LmltYWdlLmltZGVjb2RlKGltZykuYXNudW1weSgpCiAgICAgICAgaWYgc2VsZi50cmFuc2Zvcm0gaXMgbm90IE5vbmU6CiAgICAgICAgICAgIHNhbXBsZSA9IHNlbGYudHJhbnNmb3JtKHNhbXBsZSkKICAgICAgICByZXR1cm4gc2FtcGxlLCBsYWJlbAoKICAgIGRlZiBfX2xlbl9fKHNlbGYpOgogICAgICAgIHJldHVybiBsZW4oc2VsZi5pbWdpZHgpCgoKY2xhc3MgU3ludGhldGljRGF0YXNldChEYXRhc2V0KToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBsb2NhbF9yYW5rKToKICAgICAgICBzdXBlcihTeW50aGV0aWNEYXRhc2V0LCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgaW1nID0gbnAucmFuZG9tLnJhbmRpbnQoMCwgMjU1LCBzaXplPSgxMTIsIDExMiwgMyksIGR0eXBlPW5wLmludDMyKQogICAgICAgIGltZyA9IG5wLnRyYW5zcG9zZShpbWcsICgyLCAwLCAxKSkKICAgICAgICBpbWcgPSB0b3JjaC5mcm9tX251bXB5KGltZykuc3F1ZWV6ZSgwKS5mbG9hdCgpCiAgICAgICAgaW1nID0gKChpbWcgLyAyNTUpIC0gMC41KSAvIDAuNQogICAgICAgIHNlbGYuaW1nID0gaW1nCiAgICAgICAgc2VsZi5sYWJlbCA9IDEKCiAgICBkZWYgX19nZXRpdGVtX18oc2VsZiwgaW5kZXgpOgogICAgICAgIHJldHVybiBzZWxmLmltZywgc2VsZi5sYWJlbAoKICAgIGRlZiBfX2xlbl9fKHNlbGYpOgogICAgICAgIHJldHVybiAxMDAwMDAwCg==
+import numbers
+import os
+import queue as Queue
+import threading
+
+import mxnet as mx
+import numpy as np
+import torch
+from torch.utils.data import DataLoader, Dataset
+from torchvision import transforms
+
+
+class BackgroundGenerator(threading.Thread):
+    def __init__(self, generator, local_rank, max_prefetch=6):
+        super(BackgroundGenerator, self).__init__()
+        self.queue = Queue.Queue(max_prefetch)
+        self.generator = generator
+        self.local_rank = local_rank
+        self.daemon = True
+        self.start()
+
+    def run(self):
+        torch.cuda.set_device(self.local_rank)
+        for item in self.generator:
+            self.queue.put(item)
+        self.queue.put(None)
+
+    def next(self):
+        next_item = self.queue.get()
+        if next_item is None:
+            raise StopIteration
+        return next_item
+
+    def __next__(self):
+        return self.next()
+
+    def __iter__(self):
+        return self
+
+
+class DataLoaderX(DataLoader):
+
+    def __init__(self, local_rank, **kwargs):
+        super(DataLoaderX, self).__init__(**kwargs)
+        self.stream = torch.cuda.Stream(local_rank)
+        self.local_rank = local_rank
+
+    def __iter__(self):
+        self.iter = super(DataLoaderX, self).__iter__()
+        self.iter = BackgroundGenerator(self.iter, self.local_rank)
+        self.preload()
+        return self
+
+    def preload(self):
+        self.batch = next(self.iter, None)
+        if self.batch is None:
+            return None
+        with torch.cuda.stream(self.stream):
+            for k in range(len(self.batch)):
+                self.batch[k] = self.batch[k].to(device=self.local_rank, non_blocking=True)
+
+    def __next__(self):
+        torch.cuda.current_stream().wait_stream(self.stream)
+        batch = self.batch
+        if batch is None:
+            raise StopIteration
+        self.preload()
+        return batch
+
+
+class MXFaceDataset(Dataset):
+    def __init__(self, root_dir, local_rank):
+        super(MXFaceDataset, self).__init__()
+        self.transform = transforms.Compose(
+            [transforms.ToPILImage(),
+             transforms.RandomHorizontalFlip(),
+             transforms.ToTensor(),
+             transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5]),
+             ])
+        self.root_dir = root_dir
+        self.local_rank = local_rank
+        path_imgrec = os.path.join(root_dir, 'train.rec')
+        path_imgidx = os.path.join(root_dir, 'train.idx')
+        self.imgrec = mx.recordio.MXIndexedRecordIO(path_imgidx, path_imgrec, 'r')
+        s = self.imgrec.read_idx(0)
+        header, _ = mx.recordio.unpack(s)
+        if header.flag > 0:
+            self.header0 = (int(header.label[0]), int(header.label[1]))
+            self.imgidx = np.array(range(1, int(header.label[0])))
+        else:
+            self.imgidx = np.array(list(self.imgrec.keys))
+
+    def __getitem__(self, index):
+        idx = self.imgidx[index]
+        s = self.imgrec.read_idx(idx)
+        header, img = mx.recordio.unpack(s)
+        label = header.label
+        if not isinstance(label, numbers.Number):
+            label = label[0]
+        label = torch.tensor(label, dtype=torch.long)
+        sample = mx.image.imdecode(img).asnumpy()
+        if self.transform is not None:
+            sample = self.transform(sample)
+        return sample, label
+
+    def __len__(self):
+        return len(self.imgidx)
+
+
+class SyntheticDataset(Dataset):
+    def __init__(self, local_rank):
+        super(SyntheticDataset, self).__init__()
+        img = np.random.randint(0, 255, size=(112, 112, 3), dtype=np.int32)
+        img = np.transpose(img, (2, 0, 1))
+        img = torch.from_numpy(img).squeeze(0).float()
+        img = ((img / 255) - 0.5) / 0.5
+        self.img = img
+        self.label = 1
+
+    def __getitem__(self, index):
+        return self.img, self.label
+
+    def __len__(self):
+        return 1000000

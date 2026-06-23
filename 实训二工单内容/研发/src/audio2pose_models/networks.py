@@ -1,1 +1,140 @@
-aW1wb3J0IHRvcmNoLm5uIGFzIG5uCmltcG9ydCB0b3JjaAoKCmNsYXNzIFJlc2lkdWFsQ29udihubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGlucHV0X2RpbSwgb3V0cHV0X2RpbSwgc3RyaWRlLCBwYWRkaW5nKToKICAgICAgICBzdXBlcihSZXNpZHVhbENvbnYsIHNlbGYpLl9faW5pdF9fKCkKCiAgICAgICAgc2VsZi5jb252X2Jsb2NrID0gbm4uU2VxdWVudGlhbCgKICAgICAgICAgICAgbm4uQmF0Y2hOb3JtMmQoaW5wdXRfZGltKSwKICAgICAgICAgICAgbm4uUmVMVSgpLAogICAgICAgICAgICBubi5Db252MmQoCiAgICAgICAgICAgICAgICBpbnB1dF9kaW0sIG91dHB1dF9kaW0sIGtlcm5lbF9zaXplPTMsIHN0cmlkZT1zdHJpZGUsIHBhZGRpbmc9cGFkZGluZwogICAgICAgICAgICApLAogICAgICAgICAgICBubi5CYXRjaE5vcm0yZChvdXRwdXRfZGltKSwKICAgICAgICAgICAgbm4uUmVMVSgpLAogICAgICAgICAgICBubi5Db252MmQob3V0cHV0X2RpbSwgb3V0cHV0X2RpbSwga2VybmVsX3NpemU9MywgcGFkZGluZz0xKSwKICAgICAgICApCiAgICAgICAgc2VsZi5jb252X3NraXAgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICBubi5Db252MmQoaW5wdXRfZGltLCBvdXRwdXRfZGltLCBrZXJuZWxfc2l6ZT0zLCBzdHJpZGU9c3RyaWRlLCBwYWRkaW5nPTEpLAogICAgICAgICAgICBubi5CYXRjaE5vcm0yZChvdXRwdXRfZGltKSwKICAgICAgICApCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCk6CgogICAgICAgIHJldHVybiBzZWxmLmNvbnZfYmxvY2soeCkgKyBzZWxmLmNvbnZfc2tpcCh4KQoKCmNsYXNzIFVwc2FtcGxlKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgaW5wdXRfZGltLCBvdXRwdXRfZGltLCBrZXJuZWwsIHN0cmlkZSk6CiAgICAgICAgc3VwZXIoVXBzYW1wbGUsIHNlbGYpLl9faW5pdF9fKCkKCiAgICAgICAgc2VsZi51cHNhbXBsZSA9IG5uLkNvbnZUcmFuc3Bvc2UyZCgKICAgICAgICAgICAgaW5wdXRfZGltLCBvdXRwdXRfZGltLCBrZXJuZWxfc2l6ZT1rZXJuZWwsIHN0cmlkZT1zdHJpZGUKICAgICAgICApCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCk6CiAgICAgICAgcmV0dXJuIHNlbGYudXBzYW1wbGUoeCkKCgpjbGFzcyBTcXVlZXplX0V4Y2l0ZV9CbG9jayhubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGNoYW5uZWwsIHJlZHVjdGlvbj0xNik6CiAgICAgICAgc3VwZXIoU3F1ZWV6ZV9FeGNpdGVfQmxvY2ssIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLmF2Z19wb29sID0gbm4uQWRhcHRpdmVBdmdQb29sMmQoMSkKICAgICAgICBzZWxmLmZjID0gbm4uU2VxdWVudGlhbCgKICAgICAgICAgICAgbm4uTGluZWFyKGNoYW5uZWwsIGNoYW5uZWwgLy8gcmVkdWN0aW9uLCBiaWFzPUZhbHNlKSwKICAgICAgICAgICAgbm4uUmVMVShpbnBsYWNlPVRydWUpLAogICAgICAgICAgICBubi5MaW5lYXIoY2hhbm5lbCAvLyByZWR1Y3Rpb24sIGNoYW5uZWwsIGJpYXM9RmFsc2UpLAogICAgICAgICAgICBubi5TaWdtb2lkKCksCiAgICAgICAgKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIGIsIGMsIF8sIF8gPSB4LnNpemUoKQogICAgICAgIHkgPSBzZWxmLmF2Z19wb29sKHgpLnZpZXcoYiwgYykKICAgICAgICB5ID0gc2VsZi5mYyh5KS52aWV3KGIsIGMsIDEsIDEpCiAgICAgICAgcmV0dXJuIHggKiB5LmV4cGFuZF9hcyh4KQoKCmNsYXNzIEFTUFAobm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbl9kaW1zLCBvdXRfZGltcywgcmF0ZT1bNiwgMTIsIDE4XSk6CiAgICAgICAgc3VwZXIoQVNQUCwgc2VsZikuX19pbml0X18oKQoKICAgICAgICBzZWxmLmFzcHBfYmxvY2sxID0gbm4uU2VxdWVudGlhbCgKICAgICAgICAgICAgbm4uQ29udjJkKAogICAgICAgICAgICAgICAgaW5fZGltcywgb3V0X2RpbXMsIDMsIHN0cmlkZT0xLCBwYWRkaW5nPXJhdGVbMF0sIGRpbGF0aW9uPXJhdGVbMF0KICAgICAgICAgICAgKSwKICAgICAgICAgICAgbm4uUmVMVShpbnBsYWNlPVRydWUpLAogICAgICAgICAgICBubi5CYXRjaE5vcm0yZChvdXRfZGltcyksCiAgICAgICAgKQogICAgICAgIHNlbGYuYXNwcF9ibG9jazIgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICBubi5Db252MmQoCiAgICAgICAgICAgICAgICBpbl9kaW1zLCBvdXRfZGltcywgMywgc3RyaWRlPTEsIHBhZGRpbmc9cmF0ZVsxXSwgZGlsYXRpb249cmF0ZVsxXQogICAgICAgICAgICApLAogICAgICAgICAgICBubi5SZUxVKGlucGxhY2U9VHJ1ZSksCiAgICAgICAgICAgIG5uLkJhdGNoTm9ybTJkKG91dF9kaW1zKSwKICAgICAgICApCiAgICAgICAgc2VsZi5hc3BwX2Jsb2NrMyA9IG5uLlNlcXVlbnRpYWwoCiAgICAgICAgICAgIG5uLkNvbnYyZCgKICAgICAgICAgICAgICAgIGluX2RpbXMsIG91dF9kaW1zLCAzLCBzdHJpZGU9MSwgcGFkZGluZz1yYXRlWzJdLCBkaWxhdGlvbj1yYXRlWzJdCiAgICAgICAgICAgICksCiAgICAgICAgICAgIG5uLlJlTFUoaW5wbGFjZT1UcnVlKSwKICAgICAgICAgICAgbm4uQmF0Y2hOb3JtMmQob3V0X2RpbXMpLAogICAgICAgICkKCiAgICAgICAgc2VsZi5vdXRwdXQgPSBubi5Db252MmQobGVuKHJhdGUpICogb3V0X2RpbXMsIG91dF9kaW1zLCAxKQogICAgICAgIHNlbGYuX2luaXRfd2VpZ2h0cygpCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCk6CiAgICAgICAgeDEgPSBzZWxmLmFzcHBfYmxvY2sxKHgpCiAgICAgICAgeDIgPSBzZWxmLmFzcHBfYmxvY2syKHgpCiAgICAgICAgeDMgPSBzZWxmLmFzcHBfYmxvY2szKHgpCiAgICAgICAgb3V0ID0gdG9yY2guY2F0KFt4MSwgeDIsIHgzXSwgZGltPTEpCiAgICAgICAgcmV0dXJuIHNlbGYub3V0cHV0KG91dCkKCiAgICBkZWYgX2luaXRfd2VpZ2h0cyhzZWxmKToKICAgICAgICBmb3IgbSBpbiBzZWxmLm1vZHVsZXMoKToKICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShtLCBubi5Db252MmQpOgogICAgICAgICAgICAgICAgbm4uaW5pdC5rYWltaW5nX25vcm1hbF8obS53ZWlnaHQpCiAgICAgICAgICAgIGVsaWYgaXNpbnN0YW5jZShtLCBubi5CYXRjaE5vcm0yZCk6CiAgICAgICAgICAgICAgICBtLndlaWdodC5kYXRhLmZpbGxfKDEpCiAgICAgICAgICAgICAgICBtLmJpYXMuZGF0YS56ZXJvXygpCgoKY2xhc3MgVXBzYW1wbGVfKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgc2NhbGU9Mik6CiAgICAgICAgc3VwZXIoVXBzYW1wbGVfLCBzZWxmKS5fX2luaXRfXygpCgogICAgICAgIHNlbGYudXBzYW1wbGUgPSBubi5VcHNhbXBsZShtb2RlPSJiaWxpbmVhciIsIHNjYWxlX2ZhY3Rvcj1zY2FsZSkKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4KToKICAgICAgICByZXR1cm4gc2VsZi51cHNhbXBsZSh4KQoKCmNsYXNzIEF0dGVudGlvbkJsb2NrKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgaW5wdXRfZW5jb2RlciwgaW5wdXRfZGVjb2Rlciwgb3V0cHV0X2RpbSk6CiAgICAgICAgc3VwZXIoQXR0ZW50aW9uQmxvY2ssIHNlbGYpLl9faW5pdF9fKCkKCiAgICAgICAgc2VsZi5jb252X2VuY29kZXIgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICBubi5CYXRjaE5vcm0yZChpbnB1dF9lbmNvZGVyKSwKICAgICAgICAgICAgbm4uUmVMVSgpLAogICAgICAgICAgICBubi5Db252MmQoaW5wdXRfZW5jb2Rlciwgb3V0cHV0X2RpbSwgMywgcGFkZGluZz0xKSwKICAgICAgICAgICAgbm4uTWF4UG9vbDJkKDIsIDIpLAogICAgICAgICkKCiAgICAgICAgc2VsZi5jb252X2RlY29kZXIgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICBubi5CYXRjaE5vcm0yZChpbnB1dF9kZWNvZGVyKSwKICAgICAgICAgICAgbm4uUmVMVSgpLAogICAgICAgICAgICBubi5Db252MmQoaW5wdXRfZGVjb2Rlciwgb3V0cHV0X2RpbSwgMywgcGFkZGluZz0xKSwKICAgICAgICApCgogICAgICAgIHNlbGYuY29udl9hdHRuID0gbm4uU2VxdWVudGlhbCgKICAgICAgICAgICAgbm4uQmF0Y2hOb3JtMmQob3V0cHV0X2RpbSksCiAgICAgICAgICAgIG5uLlJlTFUoKSwKICAgICAgICAgICAgbm4uQ29udjJkKG91dHB1dF9kaW0sIDEsIDEpLAogICAgICAgICkKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4MSwgeDIpOgogICAgICAgIG91dCA9IHNlbGYuY29udl9lbmNvZGVyKHgxKSArIHNlbGYuY29udl9kZWNvZGVyKHgyKQogICAgICAgIG91dCA9IHNlbGYuY29udl9hdHRuKG91dCkKICAgICAgICByZXR1cm4gb3V0ICogeDI=
+import torch.nn as nn
+import torch
+
+
+class ResidualConv(nn.Module):
+    def __init__(self, input_dim, output_dim, stride, padding):
+        super(ResidualConv, self).__init__()
+
+        self.conv_block = nn.Sequential(
+            nn.BatchNorm2d(input_dim),
+            nn.ReLU(),
+            nn.Conv2d(
+                input_dim, output_dim, kernel_size=3, stride=stride, padding=padding
+            ),
+            nn.BatchNorm2d(output_dim),
+            nn.ReLU(),
+            nn.Conv2d(output_dim, output_dim, kernel_size=3, padding=1),
+        )
+        self.conv_skip = nn.Sequential(
+            nn.Conv2d(input_dim, output_dim, kernel_size=3, stride=stride, padding=1),
+            nn.BatchNorm2d(output_dim),
+        )
+
+    def forward(self, x):
+
+        return self.conv_block(x) + self.conv_skip(x)
+
+
+class Upsample(nn.Module):
+    def __init__(self, input_dim, output_dim, kernel, stride):
+        super(Upsample, self).__init__()
+
+        self.upsample = nn.ConvTranspose2d(
+            input_dim, output_dim, kernel_size=kernel, stride=stride
+        )
+
+    def forward(self, x):
+        return self.upsample(x)
+
+
+class Squeeze_Excite_Block(nn.Module):
+    def __init__(self, channel, reduction=16):
+        super(Squeeze_Excite_Block, self).__init__()
+        self.avg_pool = nn.AdaptiveAvgPool2d(1)
+        self.fc = nn.Sequential(
+            nn.Linear(channel, channel // reduction, bias=False),
+            nn.ReLU(inplace=True),
+            nn.Linear(channel // reduction, channel, bias=False),
+            nn.Sigmoid(),
+        )
+
+    def forward(self, x):
+        b, c, _, _ = x.size()
+        y = self.avg_pool(x).view(b, c)
+        y = self.fc(y).view(b, c, 1, 1)
+        return x * y.expand_as(x)
+
+
+class ASPP(nn.Module):
+    def __init__(self, in_dims, out_dims, rate=[6, 12, 18]):
+        super(ASPP, self).__init__()
+
+        self.aspp_block1 = nn.Sequential(
+            nn.Conv2d(
+                in_dims, out_dims, 3, stride=1, padding=rate[0], dilation=rate[0]
+            ),
+            nn.ReLU(inplace=True),
+            nn.BatchNorm2d(out_dims),
+        )
+        self.aspp_block2 = nn.Sequential(
+            nn.Conv2d(
+                in_dims, out_dims, 3, stride=1, padding=rate[1], dilation=rate[1]
+            ),
+            nn.ReLU(inplace=True),
+            nn.BatchNorm2d(out_dims),
+        )
+        self.aspp_block3 = nn.Sequential(
+            nn.Conv2d(
+                in_dims, out_dims, 3, stride=1, padding=rate[2], dilation=rate[2]
+            ),
+            nn.ReLU(inplace=True),
+            nn.BatchNorm2d(out_dims),
+        )
+
+        self.output = nn.Conv2d(len(rate) * out_dims, out_dims, 1)
+        self._init_weights()
+
+    def forward(self, x):
+        x1 = self.aspp_block1(x)
+        x2 = self.aspp_block2(x)
+        x3 = self.aspp_block3(x)
+        out = torch.cat([x1, x2, x3], dim=1)
+        return self.output(out)
+
+    def _init_weights(self):
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d):
+                nn.init.kaiming_normal_(m.weight)
+            elif isinstance(m, nn.BatchNorm2d):
+                m.weight.data.fill_(1)
+                m.bias.data.zero_()
+
+
+class Upsample_(nn.Module):
+    def __init__(self, scale=2):
+        super(Upsample_, self).__init__()
+
+        self.upsample = nn.Upsample(mode="bilinear", scale_factor=scale)
+
+    def forward(self, x):
+        return self.upsample(x)
+
+
+class AttentionBlock(nn.Module):
+    def __init__(self, input_encoder, input_decoder, output_dim):
+        super(AttentionBlock, self).__init__()
+
+        self.conv_encoder = nn.Sequential(
+            nn.BatchNorm2d(input_encoder),
+            nn.ReLU(),
+            nn.Conv2d(input_encoder, output_dim, 3, padding=1),
+            nn.MaxPool2d(2, 2),
+        )
+
+        self.conv_decoder = nn.Sequential(
+            nn.BatchNorm2d(input_decoder),
+            nn.ReLU(),
+            nn.Conv2d(input_decoder, output_dim, 3, padding=1),
+        )
+
+        self.conv_attn = nn.Sequential(
+            nn.BatchNorm2d(output_dim),
+            nn.ReLU(),
+            nn.Conv2d(output_dim, 1, 1),
+        )
+
+    def forward(self, x1, x2):
+        out = self.conv_encoder(x1) + self.conv_decoder(x2)
+        out = self.conv_attn(out)
+        return out * x2

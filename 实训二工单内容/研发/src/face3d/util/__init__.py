@@ -1,1 +1,3 @@
-IiIiVGhpcyBwYWNrYWdlIGluY2x1ZGVzIGEgbWlzY2VsbGFuZW91cyBjb2xsZWN0aW9uIG9mIHVzZWZ1bCBoZWxwZXIgZnVuY3Rpb25zLiIiIgpmcm9tIHNyYy5mYWNlM2QudXRpbCBpbXBvcnQgKgoK
+"""This package includes a miscellaneous collection of useful helper functions."""
+from src.face3d.util import *
+

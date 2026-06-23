@@ -1,1 +1,149 @@
-aW1wb3J0IHRvcmNoCmltcG9ydCB0b3JjaC5ubi5mdW5jdGlvbmFsIGFzIEYKZnJvbSB0b3JjaCBpbXBvcnQgbm4KZnJvbSBzcmMuYXVkaW8ycG9zZV9tb2RlbHMucmVzX3VuZXQgaW1wb3J0IFJlc1VuZXQKCmRlZiBjbGFzczJvbmVob3QoaWR4LCBjbGFzc19udW0pOgoKICAgIGFzc2VydCB0b3JjaC5tYXgoaWR4KS5pdGVtKCkgPCBjbGFzc19udW0KICAgIG9uZWhvdCA9IHRvcmNoLnplcm9zKGlkeC5zaXplKDApLCBjbGFzc19udW0pLnRvKGlkeC5kZXZpY2UpCiAgICBvbmVob3Quc2NhdHRlcl8oMSwgaWR4LCAxKQogICAgcmV0dXJuIG9uZWhvdAoKY2xhc3MgQ1ZBRShubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGNmZyk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygpCiAgICAgICAgZW5jb2Rlcl9sYXllcl9zaXplcyA9IGNmZy5NT0RFTC5DVkFFLkVOQ09ERVJfTEFZRVJfU0laRVMKICAgICAgICBkZWNvZGVyX2xheWVyX3NpemVzID0gY2ZnLk1PREVMLkNWQUUuREVDT0RFUl9MQVlFUl9TSVpFUwogICAgICAgIGxhdGVudF9zaXplID0gY2ZnLk1PREVMLkNWQUUuTEFURU5UX1NJWkUKICAgICAgICBudW1fY2xhc3NlcyA9IGNmZy5EQVRBU0VULk5VTV9DTEFTU0VTCiAgICAgICAgYXVkaW9fZW1iX2luX3NpemUgPSBjZmcuTU9ERUwuQ1ZBRS5BVURJT19FTUJfSU5fU0laRQogICAgICAgIGF1ZGlvX2VtYl9vdXRfc2l6ZSA9IGNmZy5NT0RFTC5DVkFFLkFVRElPX0VNQl9PVVRfU0laRQogICAgICAgIHNlcV9sZW4gPSBjZmcuTU9ERUwuQ1ZBRS5TRVFfTEVOCgogICAgICAgIHNlbGYubGF0ZW50X3NpemUgPSBsYXRlbnRfc2l6ZQoKICAgICAgICBzZWxmLmVuY29kZXIgPSBFTkNPREVSKGVuY29kZXJfbGF5ZXJfc2l6ZXMsIGxhdGVudF9zaXplLCBudW1fY2xhc3NlcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdWRpb19lbWJfaW5fc2l6ZSwgYXVkaW9fZW1iX291dF9zaXplLCBzZXFfbGVuKQogICAgICAgIHNlbGYuZGVjb2RlciA9IERFQ09ERVIoZGVjb2Rlcl9sYXllcl9zaXplcywgbGF0ZW50X3NpemUsIG51bV9jbGFzc2VzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF1ZGlvX2VtYl9pbl9zaXplLCBhdWRpb19lbWJfb3V0X3NpemUsIHNlcV9sZW4pCiAgICBkZWYgcmVwYXJhbWV0ZXJpemUoc2VsZiwgbXUsIGxvZ3Zhcik6CiAgICAgICAgc3RkID0gdG9yY2guZXhwKDAuNSAqIGxvZ3ZhcikKICAgICAgICBlcHMgPSB0b3JjaC5yYW5kbl9saWtlKHN0ZCkKICAgICAgICByZXR1cm4gbXUgKyBlcHMgKiBzdGQKCiAgICBkZWYgZm9yd2FyZChzZWxmLCBiYXRjaCk6CiAgICAgICAgYmF0Y2ggPSBzZWxmLmVuY29kZXIoYmF0Y2gpCiAgICAgICAgbXUgPSBiYXRjaFsnbXUnXQogICAgICAgIGxvZ3ZhciA9IGJhdGNoWydsb2d2YXInXQogICAgICAgIHogPSBzZWxmLnJlcGFyYW1ldGVyaXplKG11LCBsb2d2YXIpCiAgICAgICAgYmF0Y2hbJ3onXSA9IHoKICAgICAgICByZXR1cm4gc2VsZi5kZWNvZGVyKGJhdGNoKQoKICAgIGRlZiB0ZXN0KHNlbGYsIGJhdGNoKToKICAgICAgICAnJycKICAgICAgICBjbGFzc19pZCA9IGJhdGNoWydjbGFzcyddCiAgICAgICAgeiA9IHRvcmNoLnJhbmRuKFtjbGFzc19pZC5zaXplKDApLCBzZWxmLmxhdGVudF9zaXplXSkudG8oY2xhc3NfaWQuZGV2aWNlKQogICAgICAgIGJhdGNoWyd6J10gPSB6CiAgICAgICAgJycnCiAgICAgICAgcmV0dXJuIHNlbGYuZGVjb2RlcihiYXRjaCkKCmNsYXNzIEVOQ09ERVIobm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBsYXllcl9zaXplcywgbGF0ZW50X3NpemUsIG51bV9jbGFzc2VzLCAKICAgICAgICAgICAgICAgIGF1ZGlvX2VtYl9pbl9zaXplLCBhdWRpb19lbWJfb3V0X3NpemUsIHNlcV9sZW4pOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oKQoKICAgICAgICBzZWxmLnJlc3VuZXQgPSBSZXNVbmV0KCkKICAgICAgICBzZWxmLm51bV9jbGFzc2VzID0gbnVtX2NsYXNzZXMKICAgICAgICBzZWxmLnNlcV9sZW4gPSBzZXFfbGVuCgogICAgICAgIHNlbGYuTUxQID0gbm4uU2VxdWVudGlhbCgpCiAgICAgICAgbGF5ZXJfc2l6ZXNbMF0gKz0gbGF0ZW50X3NpemUgKyBzZXFfbGVuKmF1ZGlvX2VtYl9vdXRfc2l6ZSArIDYKICAgICAgICBmb3IgaSwgKGluX3NpemUsIG91dF9zaXplKSBpbiBlbnVtZXJhdGUoemlwKGxheWVyX3NpemVzWzotMV0sIGxheWVyX3NpemVzWzE6XSkpOgogICAgICAgICAgICBzZWxmLk1MUC5hZGRfbW9kdWxlKAogICAgICAgICAgICAgICAgbmFtZT0iTHs6ZH0iLmZvcm1hdChpKSwgbW9kdWxlPW5uLkxpbmVhcihpbl9zaXplLCBvdXRfc2l6ZSkpCiAgICAgICAgICAgIHNlbGYuTUxQLmFkZF9tb2R1bGUobmFtZT0iQXs6ZH0iLmZvcm1hdChpKSwgbW9kdWxlPW5uLlJlTFUoKSkKCiAgICAgICAgc2VsZi5saW5lYXJfbWVhbnMgPSBubi5MaW5lYXIobGF5ZXJfc2l6ZXNbLTFdLCBsYXRlbnRfc2l6ZSkKICAgICAgICBzZWxmLmxpbmVhcl9sb2d2YXIgPSBubi5MaW5lYXIobGF5ZXJfc2l6ZXNbLTFdLCBsYXRlbnRfc2l6ZSkKICAgICAgICBzZWxmLmxpbmVhcl9hdWRpbyA9IG5uLkxpbmVhcihhdWRpb19lbWJfaW5fc2l6ZSwgYXVkaW9fZW1iX291dF9zaXplKQoKICAgICAgICBzZWxmLmNsYXNzYmlhcyA9IG5uLlBhcmFtZXRlcih0b3JjaC5yYW5kbihzZWxmLm51bV9jbGFzc2VzLCBsYXRlbnRfc2l6ZSkpCgogICAgZGVmIGZvcndhcmQoc2VsZiwgYmF0Y2gpOgogICAgICAgIGNsYXNzX2lkID0gYmF0Y2hbJ2NsYXNzJ10KICAgICAgICBwb3NlX21vdGlvbl9ndCA9IGJhdGNoWydwb3NlX21vdGlvbl9ndCddICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjYnMgc2VxX2xlbiA2CiAgICAgICAgcmVmID0gYmF0Y2hbJ3JlZiddICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjYnMgNgogICAgICAgIGJzID0gcG9zZV9tb3Rpb25fZ3Quc2hhcGVbMF0KICAgICAgICBhdWRpb19pbiA9IGJhdGNoWydhdWRpb19lbWInXSAgICAgICAgICAgICAgICAgICAgICAgICAgIyBicyBzZXFfbGVuIGF1ZGlvX2VtYl9pbl9zaXplCgogICAgICAgICNwb3NlIGVuY29kZQogICAgICAgIHBvc2VfZW1iID0gc2VsZi5yZXN1bmV0KHBvc2VfbW90aW9uX2d0LnVuc3F1ZWV6ZSgxKSkgICAgICAgICAgI2JzIDEgc2VxX2xlbiA2IAogICAgICAgIHBvc2VfZW1iID0gcG9zZV9lbWIucmVzaGFwZShicywgLTEpICAgICAgICAgICAgICAgICAgICAjYnMgc2VxX2xlbio2CgogICAgICAgICNhdWRpbyBtYXBwaW5nCiAgICAgICAgcHJpbnQoYXVkaW9faW4uc2hhcGUpCiAgICAgICAgYXVkaW9fb3V0ID0gc2VsZi5saW5lYXJfYXVkaW8oYXVkaW9faW4pICAgICAgICAgICAgICAgICMgYnMgc2VxX2xlbiBhdWRpb19lbWJfb3V0X3NpemUKICAgICAgICBhdWRpb19vdXQgPSBhdWRpb19vdXQucmVzaGFwZShicywgLTEpCgogICAgICAgIGNsYXNzX2JpYXMgPSBzZWxmLmNsYXNzYmlhc1tjbGFzc19pZF0gICAgICAgICAgICAgICAgICAjYnMgbGF0ZW50X3NpemUKICAgICAgICB4X2luID0gdG9yY2guY2F0KFtyZWYsIHBvc2VfZW1iLCBhdWRpb19vdXQsIGNsYXNzX2JpYXNdLCBkaW09LTEpICNicyBzZXFfbGVuKihhdWRpb19lbWJfb3V0X3NpemUrNikrbGF0ZW50X3NpemUKICAgICAgICB4X291dCA9IHNlbGYuTUxQKHhfaW4pCgogICAgICAgIG11ID0gc2VsZi5saW5lYXJfbWVhbnMoeF9vdXQpCiAgICAgICAgbG9ndmFyID0gc2VsZi5saW5lYXJfbWVhbnMoeF9vdXQpICAgICAgICAgICAgICAgICAgICAgICNicyBsYXRlbnRfc2l6ZSAKCiAgICAgICAgYmF0Y2gudXBkYXRlKHsnbXUnOm11LCAnbG9ndmFyJzpsb2d2YXJ9KQogICAgICAgIHJldHVybiBiYXRjaAoKY2xhc3MgREVDT0RFUihubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGxheWVyX3NpemVzLCBsYXRlbnRfc2l6ZSwgbnVtX2NsYXNzZXMsIAogICAgICAgICAgICAgICAgYXVkaW9fZW1iX2luX3NpemUsIGF1ZGlvX2VtYl9vdXRfc2l6ZSwgc2VxX2xlbik6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygpCgogICAgICAgIHNlbGYucmVzdW5ldCA9IFJlc1VuZXQoKQogICAgICAgIHNlbGYubnVtX2NsYXNzZXMgPSBudW1fY2xhc3NlcwogICAgICAgIHNlbGYuc2VxX2xlbiA9IHNlcV9sZW4KCiAgICAgICAgc2VsZi5NTFAgPSBubi5TZXF1ZW50aWFsKCkKICAgICAgICBpbnB1dF9zaXplID0gbGF0ZW50X3NpemUgKyBzZXFfbGVuKmF1ZGlvX2VtYl9vdXRfc2l6ZSArIDYKICAgICAgICBmb3IgaSwgKGluX3NpemUsIG91dF9zaXplKSBpbiBlbnVtZXJhdGUoemlwKFtpbnB1dF9zaXplXStsYXllcl9zaXplc1s6LTFdLCBsYXllcl9zaXplcykpOgogICAgICAgICAgICBzZWxmLk1MUC5hZGRfbW9kdWxlKAogICAgICAgICAgICAgICAgbmFtZT0iTHs6ZH0iLmZvcm1hdChpKSwgbW9kdWxlPW5uLkxpbmVhcihpbl9zaXplLCBvdXRfc2l6ZSkpCiAgICAgICAgICAgIGlmIGkrMSA8IGxlbihsYXllcl9zaXplcyk6CiAgICAgICAgICAgICAgICBzZWxmLk1MUC5hZGRfbW9kdWxlKG5hbWU9IkF7OmR9Ii5mb3JtYXQoaSksIG1vZHVsZT1ubi5SZUxVKCkpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBzZWxmLk1MUC5hZGRfbW9kdWxlKG5hbWU9InNpZ21vaWQiLCBtb2R1bGU9bm4uU2lnbW9pZCgpKQogICAgICAgIAogICAgICAgIHNlbGYucG9zZV9saW5lYXIgPSBubi5MaW5lYXIoNiwgNikKICAgICAgICBzZWxmLmxpbmVhcl9hdWRpbyA9IG5uLkxpbmVhcihhdWRpb19lbWJfaW5fc2l6ZSwgYXVkaW9fZW1iX291dF9zaXplKQoKICAgICAgICBzZWxmLmNsYXNzYmlhcyA9IG5uLlBhcmFtZXRlcih0b3JjaC5yYW5kbihzZWxmLm51bV9jbGFzc2VzLCBsYXRlbnRfc2l6ZSkpCgogICAgZGVmIGZvcndhcmQoc2VsZiwgYmF0Y2gpOgoKICAgICAgICB6ID0gYmF0Y2hbJ3onXSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICNicyBsYXRlbnRfc2l6ZQogICAgICAgIGJzID0gei5zaGFwZVswXQogICAgICAgIGNsYXNzX2lkID0gYmF0Y2hbJ2NsYXNzJ10KICAgICAgICByZWYgPSBiYXRjaFsncmVmJ10gICAgICAgICAgICAgICAgICAgICAgICAgICAgICNicyA2CiAgICAgICAgYXVkaW9faW4gPSBiYXRjaFsnYXVkaW9fZW1iJ10gICAgICAgICAgICAgICAgICAgICAgICAgICAjIGJzIHNlcV9sZW4gYXVkaW9fZW1iX2luX3NpemUKICAgICAgICAjcHJpbnQoJ2F1ZGlvX2luOiAnLCBhdWRpb19pbls6LCA6LCA6MTBdKQoKICAgICAgICBhdWRpb19vdXQgPSBzZWxmLmxpbmVhcl9hdWRpbyhhdWRpb19pbikgICAgICAgICAgICAgICAgICMgYnMgc2VxX2xlbiBhdWRpb19lbWJfb3V0X3NpemUKICAgICAgICAjcHJpbnQoJ2F1ZGlvX291dDogJywgYXVkaW9fb3V0WzosIDosIDoxMF0pCiAgICAgICAgYXVkaW9fb3V0ID0gYXVkaW9fb3V0LnJlc2hhcGUoW2JzLCAtMV0pICAgICAgICAgICAgICAgICAjIGJzIHNlcV9sZW4qYXVkaW9fZW1iX291dF9zaXplCiAgICAgICAgY2xhc3NfYmlhcyA9IHNlbGYuY2xhc3NiaWFzW2NsYXNzX2lkXSAgICAgICAgICAgICAgICAgICAjYnMgbGF0ZW50X3NpemUKCiAgICAgICAgeiA9IHogKyBjbGFzc19iaWFzCiAgICAgICAgeF9pbiA9IHRvcmNoLmNhdChbcmVmLCB6LCBhdWRpb19vdXRdLCBkaW09LTEpCiAgICAgICAgeF9vdXQgPSBzZWxmLk1MUCh4X2luKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIGJzIGxheWVyX3NpemVzWy0xXQogICAgICAgIHhfb3V0ID0geF9vdXQucmVzaGFwZSgoYnMsIHNlbGYuc2VxX2xlbiwgLTEpKQoKICAgICAgICAjcHJpbnQoJ3hfb3V0OiAnLCB4X291dCkKCiAgICAgICAgcG9zZV9lbWIgPSBzZWxmLnJlc3VuZXQoeF9vdXQudW5zcXVlZXplKDEpKSAgICAgICAgICAgICAjYnMgMSBzZXFfbGVuIDYKCiAgICAgICAgcG9zZV9tb3Rpb25fcHJlZCA9IHNlbGYucG9zZV9saW5lYXIocG9zZV9lbWIuc3F1ZWV6ZSgxKSkgICAgICAgI2JzIHNlcV9sZW4gNgoKICAgICAgICBiYXRjaC51cGRhdGUoeydwb3NlX21vdGlvbl9wcmVkJzpwb3NlX21vdGlvbl9wcmVkfSkKICAgICAgICByZXR1cm4gYmF0Y2gK
+import torch
+import torch.nn.functional as F
+from torch import nn
+from src.audio2pose_models.res_unet import ResUnet
+
+def class2onehot(idx, class_num):
+
+    assert torch.max(idx).item() < class_num
+    onehot = torch.zeros(idx.size(0), class_num).to(idx.device)
+    onehot.scatter_(1, idx, 1)
+    return onehot
+
+class CVAE(nn.Module):
+    def __init__(self, cfg):
+        super().__init__()
+        encoder_layer_sizes = cfg.MODEL.CVAE.ENCODER_LAYER_SIZES
+        decoder_layer_sizes = cfg.MODEL.CVAE.DECODER_LAYER_SIZES
+        latent_size = cfg.MODEL.CVAE.LATENT_SIZE
+        num_classes = cfg.DATASET.NUM_CLASSES
+        audio_emb_in_size = cfg.MODEL.CVAE.AUDIO_EMB_IN_SIZE
+        audio_emb_out_size = cfg.MODEL.CVAE.AUDIO_EMB_OUT_SIZE
+        seq_len = cfg.MODEL.CVAE.SEQ_LEN
+
+        self.latent_size = latent_size
+
+        self.encoder = ENCODER(encoder_layer_sizes, latent_size, num_classes,
+                                audio_emb_in_size, audio_emb_out_size, seq_len)
+        self.decoder = DECODER(decoder_layer_sizes, latent_size, num_classes,
+                                audio_emb_in_size, audio_emb_out_size, seq_len)
+    def reparameterize(self, mu, logvar):
+        std = torch.exp(0.5 * logvar)
+        eps = torch.randn_like(std)
+        return mu + eps * std
+
+    def forward(self, batch):
+        batch = self.encoder(batch)
+        mu = batch['mu']
+        logvar = batch['logvar']
+        z = self.reparameterize(mu, logvar)
+        batch['z'] = z
+        return self.decoder(batch)
+
+    def test(self, batch):
+        '''
+        class_id = batch['class']
+        z = torch.randn([class_id.size(0), self.latent_size]).to(class_id.device)
+        batch['z'] = z
+        '''
+        return self.decoder(batch)
+
+class ENCODER(nn.Module):
+    def __init__(self, layer_sizes, latent_size, num_classes, 
+                audio_emb_in_size, audio_emb_out_size, seq_len):
+        super().__init__()
+
+        self.resunet = ResUnet()
+        self.num_classes = num_classes
+        self.seq_len = seq_len
+
+        self.MLP = nn.Sequential()
+        layer_sizes[0] += latent_size + seq_len*audio_emb_out_size + 6
+        for i, (in_size, out_size) in enumerate(zip(layer_sizes[:-1], layer_sizes[1:])):
+            self.MLP.add_module(
+                name="L{:d}".format(i), module=nn.Linear(in_size, out_size))
+            self.MLP.add_module(name="A{:d}".format(i), module=nn.ReLU())
+
+        self.linear_means = nn.Linear(layer_sizes[-1], latent_size)
+        self.linear_logvar = nn.Linear(layer_sizes[-1], latent_size)
+        self.linear_audio = nn.Linear(audio_emb_in_size, audio_emb_out_size)
+
+        self.classbias = nn.Parameter(torch.randn(self.num_classes, latent_size))
+
+    def forward(self, batch):
+        class_id = batch['class']
+        pose_motion_gt = batch['pose_motion_gt']                             #bs seq_len 6
+        ref = batch['ref']                             #bs 6
+        bs = pose_motion_gt.shape[0]
+        audio_in = batch['audio_emb']                          # bs seq_len audio_emb_in_size
+
+        #pose encode
+        pose_emb = self.resunet(pose_motion_gt.unsqueeze(1))          #bs 1 seq_len 6 
+        pose_emb = pose_emb.reshape(bs, -1)                    #bs seq_len*6
+
+        #audio mapping
+        print(audio_in.shape)
+        audio_out = self.linear_audio(audio_in)                # bs seq_len audio_emb_out_size
+        audio_out = audio_out.reshape(bs, -1)
+
+        class_bias = self.classbias[class_id]                  #bs latent_size
+        x_in = torch.cat([ref, pose_emb, audio_out, class_bias], dim=-1) #bs seq_len*(audio_emb_out_size+6)+latent_size
+        x_out = self.MLP(x_in)
+
+        mu = self.linear_means(x_out)
+        logvar = self.linear_means(x_out)                      #bs latent_size 
+
+        batch.update({'mu':mu, 'logvar':logvar})
+        return batch
+
+class DECODER(nn.Module):
+    def __init__(self, layer_sizes, latent_size, num_classes, 
+                audio_emb_in_size, audio_emb_out_size, seq_len):
+        super().__init__()
+
+        self.resunet = ResUnet()
+        self.num_classes = num_classes
+        self.seq_len = seq_len
+
+        self.MLP = nn.Sequential()
+        input_size = latent_size + seq_len*audio_emb_out_size + 6
+        for i, (in_size, out_size) in enumerate(zip([input_size]+layer_sizes[:-1], layer_sizes)):
+            self.MLP.add_module(
+                name="L{:d}".format(i), module=nn.Linear(in_size, out_size))
+            if i+1 < len(layer_sizes):
+                self.MLP.add_module(name="A{:d}".format(i), module=nn.ReLU())
+            else:
+                self.MLP.add_module(name="sigmoid", module=nn.Sigmoid())
+        
+        self.pose_linear = nn.Linear(6, 6)
+        self.linear_audio = nn.Linear(audio_emb_in_size, audio_emb_out_size)
+
+        self.classbias = nn.Parameter(torch.randn(self.num_classes, latent_size))
+
+    def forward(self, batch):
+
+        z = batch['z']                                          #bs latent_size
+        bs = z.shape[0]
+        class_id = batch['class']
+        ref = batch['ref']                             #bs 6
+        audio_in = batch['audio_emb']                           # bs seq_len audio_emb_in_size
+        #print('audio_in: ', audio_in[:, :, :10])
+
+        audio_out = self.linear_audio(audio_in)                 # bs seq_len audio_emb_out_size
+        #print('audio_out: ', audio_out[:, :, :10])
+        audio_out = audio_out.reshape([bs, -1])                 # bs seq_len*audio_emb_out_size
+        class_bias = self.classbias[class_id]                   #bs latent_size
+
+        z = z + class_bias
+        x_in = torch.cat([ref, z, audio_out], dim=-1)
+        x_out = self.MLP(x_in)                                  # bs layer_sizes[-1]
+        x_out = x_out.reshape((bs, self.seq_len, -1))
+
+        #print('x_out: ', x_out)
+
+        pose_emb = self.resunet(x_out.unsqueeze(1))             #bs 1 seq_len 6
+
+        pose_motion_pred = self.pose_linear(pose_emb.squeeze(1))       #bs seq_len 6
+
+        batch.update({'pose_motion_pred':pose_motion_pred})
+        return batch

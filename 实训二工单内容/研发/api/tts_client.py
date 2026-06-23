@@ -1,1 +1,98 @@
-aW1wb3J0IG9zCmltcG9ydCByZXF1ZXN0cwoKdHRzX3NlcnZpY2VfaG9zdCA9IG9zLmVudmlyb24uZ2V0KCJUVFNfU0VSVklDRV9IT1NUIiwgImxvY2FsaG9zdCIpCnR0c19zZXJ2aWNlX3BvcnQgPSBvcy5lbnZpcm9uLmdldCgiVFRTX1NFUlZJQ0VfUE9SVCIsIDgwMDEpCgojIEFQSSBlbmRwb2ludCBVUkxzCkNIQU5HRV9NT0RFTF9VUkwgPSBmImh0dHA6Ly97dHRzX3NlcnZpY2VfaG9zdH06e3R0c19zZXJ2aWNlX3BvcnR9L3R0c19jaGFuZ2VfbW9kZWwvIgpUVFNfUkVTUE9OU0VfVVJMID0gZiJodHRwOi8ve3R0c19zZXJ2aWNlX2hvc3R9Ont0dHNfc2VydmljZV9wb3J0fS90dHNfcmVzcG9uc2UvIgoKZGVmIGNoYW5nZV9tb2RlbChtb2RlbF9uYW1lKToKICAgICIiIuivt+axguabtOaNolRUU+aooeWeiyIiIgogICAgcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KENIQU5HRV9NT0RFTF9VUkwsIHBhcmFtcz17Im1vZGVsX25hbWUiOiBtb2RlbF9uYW1lfSkKICAgIGlmIHJlc3BvbnNlLnN0YXR1c19jb2RlID09IDIwMDoKICAgICAgICBwcmludChmIuaooeWei+abtOaNouaIkOWKnzoge3Jlc3BvbnNlLmpzb24oKX0iKQogICAgZWxzZToKICAgICAgICBwcmludChmIuaooeWei+abtOaNouWksei0pToge3Jlc3BvbnNlLnN0YXR1c19jb2RlfSwge3Jlc3BvbnNlLnRleHR9IikKCmRlZiByZXF1ZXN0X3R0cyhwYXlsb2FkLCByZWZfYXVkaW9fcGF0aD1Ob25lLCBvdXRwdXRfd2F2X3BhdGg9J291dHB1dF90dHMud2F2Jyk6CiAgICAiIiLor7fmsYJUVFPnlJ/miJDpn7PpopHvvIzmlK/mjIHkuIrkvKDmlofku7YiIiIKICAgIGZpbGVzID0ge30KICAgIGlmIHJlZl9hdWRpb19wYXRoOgogICAgICAgIGZpbGVzWydyZWZfYXVkaW8nXSA9IG9wZW4ocmVmX2F1ZGlvX3BhdGgsICdyYicpCiAgICB0cnk6CiAgICAgICAgcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KFRUU19SRVNQT05TRV9VUkwsIGRhdGE9cGF5bG9hZCwgZmlsZXM9ZmlsZXMpCiAgICAgICAgcmVzcG9uc2UucmFpc2VfZm9yX3N0YXR1cygpICAjIFJhaXNlIGFuIGV4Y2VwdGlvbiBmb3IgSFRUUCBlcnJvcnMKICAgICAgICB3aXRoIG9wZW4ob3V0cHV0X3dhdl9wYXRoLCAnd2InKSBhcyB3YXZfZmlsZToKICAgICAgICAgICAgd2F2X2ZpbGUud3JpdGUocmVzcG9uc2UuY29udGVudCkgICAgCiAgICAgICAgcHJpbnQoZiJUVFPnlJ/miJDmiJDlip8sIOmfs+mikeS/neWtmOS4ujoge291dHB1dF93YXZfcGF0aH0iKQogICAgZXhjZXB0IHJlcXVlc3RzLlJlcXVlc3RFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludChmIlRUU+eUn+aIkOWksei0pToge2V9IikKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICByZXN1bHRfZGlyID0gIm91dHB1dHMiCiAgICBvcy5tYWtlZGlycyhyZXN1bHRfZGlyLCBleGlzdF9vaz1UcnVlKQoKICAgICMg6KaB5rWL6K+V55qE5qih5Z6L5YiX6KGoCiAgICBtb2RlbHMgPSBbCiAgICAgICAgIkVkZ2VUVFMiLAogICAgICAgICJQYWRkbGVUVFMiLAogICAgXQoKICAgICMg5b6q546v5pu05o2i5qih5Z6L5bm255Sf5oiQVFRTCiAgICBmb3IgbW9kZWxfbmFtZSBpbiBtb2RlbHM6CiAgICAgICAgcHJpbnQoZiLliIfmjaLliLDmqKHlnos6IHttb2RlbF9uYW1lfSIpCiAgICAgICAgY2hhbmdlX21vZGVsKG1vZGVsX25hbWUpCgogICAgICAgICMg6K+35rGCVFRT55Sf5oiQ6Z+z6aKRCiAgICAgICAgdGV4dCA9ICLkvaDlpb3vvIzmiJHmmK9MaW5seS1UYWxrZXLvvIzlvojpq5jlhbTorqTor4blpKflrrYiCiAgICAgICAgcGF5bG9hZCA9IHsKICAgICAgICAgICAgInRleHQiOiB0ZXh0LAogICAgICAgICAgICAidHRzX21ldGhvZCI6IG1vZGVsX25hbWUsCiAgICAgICAgICAgICJzYXZlX3BhdGgiOiBmIm91dHB1dF97bW9kZWxfbmFtZX0ud2F2IgogICAgICAgIH0KICAgICAgICBvdXRwdXRfd2F2X3BhdGggPSBvcy5wYXRoLmpvaW4ocmVzdWx0X2RpciwgZiJvdXRwdXRfe21vZGVsX25hbWV9LndhdiIpCiAgICAgICAgcmVxdWVzdF90dHMocGF5bG9hZCwgb3V0cHV0X3dhdl9wYXRoPW91dHB1dF93YXZfcGF0aCkKICAgICAgICBwcmludCgiXG4iICsgIi0iICogNTAgKyAiXG4iKQoKICAgICMg5rWL6K+VIEdQVC1Tb1ZJVFMKICAgIG1vZGVsX25hbWUgPSAiR1BULVNvVklUU+WFi+mahuWjsOmfsyIKICAgIHByaW50KGYi5YiH5o2i5Yiw5qih5Z6LOiB7bW9kZWxfbmFtZX0iKQogICAgY2hhbmdlX21vZGVsKG1vZGVsX25hbWUpCgogICAgIyDor7fmsYJUVFPnlJ/miJDpn7PpopEKICAgIHBheWxvYWQgPSB7CiAgICAgICAgInRleHQiOiAi5L2g5aW977yM5oiR5pivTGlubHktVGFsa2Vy77yM5b6I6auY5YW06K6k6K+G5aSn5a62IiwKICAgICAgICAidHRzX21ldGhvZCI6IG1vZGVsX25hbWUsCiAgICAgICAgInByb21wdF90ZXh0IjogIuS9oOWlve+8jOaIkeaYr0xpbmx5LVRhbGtlcu+8jOaIkeaYr+WFi+mahueUn+aIkOeahCIsCiAgICAgICAgInJlZl90ZXh0IjogIuS9oOWlve+8jOaIkeaYr0xpbmx5LVRhbGtlcuOAgiIsCiAgICAgICAgInByb21wdF9sYW5ndWFnZSI6ICLkuK3mlociLAogICAgICAgICJyZWZfbGFuZ3VhZ2UiOiAi5Lit5paHIiwKICAgICAgICAic2F2ZV9wYXRoIjogZiJvdXRwdXRfe21vZGVsX25hbWV9LndhdiIKICAgIH0KICAgIHJlZl9hdWRpb19wYXRoID0gb3MucGF0aC5qb2luKHJlc3VsdF9kaXIsICJvdXRwdXRfRWRnZVRUUy53YXYiKQogICAgb3V0cHV0X3dhdl9wYXRoID0gb3MucGF0aC5qb2luKHJlc3VsdF9kaXIsICJvdXRwdXRfR1BUX1NvVklUUy53YXYiKQogICAgcmVxdWVzdF90dHMocGF5bG9hZCwgcmVmX2F1ZGlvX3BhdGg9cmVmX2F1ZGlvX3BhdGgsIG91dHB1dF93YXZfcGF0aD1vdXRwdXRfd2F2X3BhdGgpCiAgICBwcmludCgiXG4iICsgIi0iICogNTAgKyAiXG4iKQoKICAgICMg5rWL6K+VIENvc3lWb2ljZQogICAgY29zeXZvaWNlX21vZGVscyA9IFsKICAgICAgICAiQ29zeVZvaWNlLVNGVOaooeW8jyIsCiAgICAgICAgIkNvc3lWb2ljZS3lhYvpmobnv7vor5HmqKHlvI8iCiAgICBdCgogICAgZm9yIGNvc3lfbW9kZWwgaW4gY29zeXZvaWNlX21vZGVsczoKICAgICAgICBwcmludChmIuWIh+aNouWIsOaooeWeizoge2Nvc3lfbW9kZWx9IikKICAgICAgICBjaGFuZ2VfbW9kZWwoY29zeV9tb2RlbCkKICAgICAgICAjIOivt+axglRUU+eUn+aIkOmfs+mikQogICAgICAgIHBheWxvYWQgPSB7CiAgICAgICAgICAgICJ0ZXh0IjogIuS9oOS7rOWlve+8jOS7iuWkqeWkqeawlOW+iOWlve+8jOS9oOS7rOmDveimgeWkqeWkqeW8gOW/g+WTpiIsCiAgICAgICAgICAgICJ0dHNfbWV0aG9kIjogY29zeV9tb2RlbCwKICAgICAgICAgICAgImNvc3l2b2ljZV9tb2RlIjogIumihOiuree7g+mfs+iJsiIgaWYgIlNGVOaooeW8jyIgaW4gY29zeV9tb2RlbCBlbHNlICIzc+aegemAn+WkjeWIuyIsCiAgICAgICAgICAgICJyZWZfdGV4dCI6ICLkvaDlpb3vvIzmiJHmmK9MaW5seS1UYWxrZXLvvIzlvojpq5jlhbTorqTor4blpKflrrYiLAogICAgICAgIH0KICAgICAgICByZWZfYXVkaW9fcGF0aCA9IG9zLnBhdGguam9pbihyZXN1bHRfZGlyLCAib3V0cHV0X0VkZ2VUVFMud2F2IikgaWYgIuWFi+mahue/u+ivkeaooeW8jyIgaW4gY29zeV9tb2RlbCBlbHNlIE5vbmUKICAgICAgICBvdXRwdXRfd2F2X3BhdGggPSBvcy5wYXRoLmpvaW4ocmVzdWx0X2RpciwgZiJvdXRwdXRfe2Nvc3lfbW9kZWx9LndhdiIpCiAgICAgICAgcmVxdWVzdF90dHMocGF5bG9hZCwgcmVmX2F1ZGlvX3BhdGg9cmVmX2F1ZGlvX3BhdGgsIG91dHB1dF93YXZfcGF0aD1vdXRwdXRfd2F2X3BhdGgpCiAgICAgICAgcHJpbnQoIlxuIiArICItIiAqIDUwICsgIlxuIik=
+import os
+import requests
+
+tts_service_host = os.environ.get("TTS_SERVICE_HOST", "localhost")
+tts_service_port = os.environ.get("TTS_SERVICE_PORT", 8001)
+
+# API endpoint URLs
+CHANGE_MODEL_URL = f"http://{tts_service_host}:{tts_service_port}/tts_change_model/"
+TTS_RESPONSE_URL = f"http://{tts_service_host}:{tts_service_port}/tts_response/"
+
+def change_model(model_name):
+    """请求更换TTS模型"""
+    response = requests.post(CHANGE_MODEL_URL, params={"model_name": model_name})
+    if response.status_code == 200:
+        print(f"模型更换成功: {response.json()}")
+    else:
+        print(f"模型更换失败: {response.status_code}, {response.text}")
+
+def request_tts(payload, ref_audio_path=None, output_wav_path='output_tts.wav'):
+    """请求TTS生成音频，支持上传文件"""
+    files = {}
+    if ref_audio_path:
+        files['ref_audio'] = open(ref_audio_path, 'rb')
+    try:
+        response = requests.post(TTS_RESPONSE_URL, data=payload, files=files)
+        response.raise_for_status()  # Raise an exception for HTTP errors
+        with open(output_wav_path, 'wb') as wav_file:
+            wav_file.write(response.content)    
+        print(f"TTS生成成功, 音频保存为: {output_wav_path}")
+    except requests.RequestException as e:
+        print(f"TTS生成失败: {e}")
+
+if __name__ == "__main__":
+    result_dir = "outputs"
+    os.makedirs(result_dir, exist_ok=True)
+
+    # 要测试的模型列表
+    models = [
+        "EdgeTTS",
+        "PaddleTTS",
+    ]
+
+    # 循环更换模型并生成TTS
+    for model_name in models:
+        print(f"切换到模型: {model_name}")
+        change_model(model_name)
+
+        # 请求TTS生成音频
+        text = "你好，我是Linly-Talker，很高兴认识大家"
+        payload = {
+            "text": text,
+            "tts_method": model_name,
+            "save_path": f"output_{model_name}.wav"
+        }
+        output_wav_path = os.path.join(result_dir, f"output_{model_name}.wav")
+        request_tts(payload, output_wav_path=output_wav_path)
+        print("\n" + "-" * 50 + "\n")
+
+    # 测试 GPT-SoVITS
+    model_name = "GPT-SoVITS克隆声音"
+    print(f"切换到模型: {model_name}")
+    change_model(model_name)
+
+    # 请求TTS生成音频
+    payload = {
+        "text": "你好，我是Linly-Talker，很高兴认识大家",
+        "tts_method": model_name,
+        "prompt_text": "你好，我是Linly-Talker，我是克隆生成的",
+        "ref_text": "你好，我是Linly-Talker。",
+        "prompt_language": "中文",
+        "ref_language": "中文",
+        "save_path": f"output_{model_name}.wav"
+    }
+    ref_audio_path = os.path.join(result_dir, "output_EdgeTTS.wav")
+    output_wav_path = os.path.join(result_dir, "output_GPT_SoVITS.wav")
+    request_tts(payload, ref_audio_path=ref_audio_path, output_wav_path=output_wav_path)
+    print("\n" + "-" * 50 + "\n")
+
+    # 测试 CosyVoice
+    cosyvoice_models = [
+        "CosyVoice-SFT模式",
+        "CosyVoice-克隆翻译模式"
+    ]
+
+    for cosy_model in cosyvoice_models:
+        print(f"切换到模型: {cosy_model}")
+        change_model(cosy_model)
+        # 请求TTS生成音频
+        payload = {
+            "text": "你们好，今天天气很好，你们都要天天开心哦",
+            "tts_method": cosy_model,
+            "cosyvoice_mode": "预训练音色" if "SFT模式" in cosy_model else "3s极速复刻",
+            "ref_text": "你好，我是Linly-Talker，很高兴认识大家",
+        }
+        ref_audio_path = os.path.join(result_dir, "output_EdgeTTS.wav") if "克隆翻译模式" in cosy_model else None
+        output_wav_path = os.path.join(result_dir, f"output_{cosy_model}.wav")
+        request_tts(payload, ref_audio_path=ref_audio_path, output_wav_path=output_wav_path)
+        print("\n" + "-" * 50 + "\n")

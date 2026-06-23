@@ -1,1 +1,220 @@
-IiIiVGhpcyBzY3JpcHQgZGVmaW5lcyB0aGUgZmFjZSByZWNvbnN0cnVjdGlvbiBtb2RlbCBmb3IgRGVlcDNERmFjZVJlY29uX3B5dG9yY2gKIiIiCgppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IHRvcmNoCmZyb20gc3JjLmZhY2UzZC5tb2RlbHMuYmFzZV9tb2RlbCBpbXBvcnQgQmFzZU1vZGVsCmZyb20gc3JjLmZhY2UzZC5tb2RlbHMgaW1wb3J0IG5ldHdvcmtzCmZyb20gc3JjLmZhY2UzZC5tb2RlbHMuYmZtIGltcG9ydCBQYXJhbWV0cmljRmFjZU1vZGVsCmZyb20gc3JjLmZhY2UzZC5tb2RlbHMubG9zc2VzIGltcG9ydCBwZXJjZXB0dWFsX2xvc3MsIHBob3RvX2xvc3MsIHJlZ19sb3NzLCByZWZsZWN0YW5jZV9sb3NzLCBsYW5kbWFya19sb3NzCmZyb20gc3JjLmZhY2UzZC51dGlsIGltcG9ydCB1dGlsIApmcm9tIHNyYy5mYWNlM2QudXRpbC5udmRpZmZyYXN0IGltcG9ydCBNZXNoUmVuZGVyZXIKIyBmcm9tIHNyYy5mYWNlM2QudXRpbC5wcmVwcm9jZXNzIGltcG9ydCBlc3RpbWF0ZV9ub3JtX3RvcmNoCgppbXBvcnQgdHJpbWVzaApmcm9tIHNjaXB5LmlvIGltcG9ydCBzYXZlbWF0CgpjbGFzcyBGYWNlUmVjb25Nb2RlbChCYXNlTW9kZWwpOgoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBtb2RpZnlfY29tbWFuZGxpbmVfb3B0aW9ucyhwYXJzZXIsIGlzX3RyYWluPUZhbHNlKToKICAgICAgICAiIiIgIENvbmZpZ3VyZXMgb3B0aW9ucyBzcGVjaWZpYyBmb3IgQ1VUIG1vZGVsCiAgICAgICAgIiIiCiAgICAgICAgIyBuZXQgc3RydWN0dXJlIGFuZCBwYXJhbWV0ZXJzCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1uZXRfcmVjb24nLCB0eXBlPXN0ciwgZGVmYXVsdD0ncmVzbmV0NTAnLCBjaG9pY2VzPVsncmVzbmV0MTgnLCAncmVzbmV0MzQnLCAncmVzbmV0NTAnXSwgaGVscD0nbmV0d29yayBzdHJ1Y3R1cmUnKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0taW5pdF9wYXRoJywgdHlwZT1zdHIsIGRlZmF1bHQ9Jy4vY2hlY2twb2ludHMvaW5pdF9tb2RlbC9yZXNuZXQ1MC0wNjc2YmE2MS5wdGgnKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tdXNlX2xhc3RfZmMnLCB0eXBlPXV0aWwuc3RyMmJvb2wsIG5hcmdzPSc/JywgY29uc3Q9VHJ1ZSwgZGVmYXVsdD1GYWxzZSwgaGVscD0nemVybyBpbml0aWFsaXplIHRoZSBsYXN0IGZjJykKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWJmbV9mb2xkZXInLCB0eXBlPXN0ciwgZGVmYXVsdD0nLi9jaGVja3BvaW50cy9CRk1fRml0dGluZy8nKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tYmZtX21vZGVsJywgdHlwZT1zdHIsIGRlZmF1bHQ9J0JGTV9tb2RlbF9mcm9udC5tYXQnLCBoZWxwPSdiZm0gbW9kZWwnKQoKICAgICAgICAjIHJlbmRlcmVyIHBhcmFtZXRlcnMKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWZvY2FsJywgdHlwZT1mbG9hdCwgZGVmYXVsdD0xMDE1LikKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWNlbnRlcicsIHR5cGU9ZmxvYXQsIGRlZmF1bHQ9MTEyLikKICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWNhbWVyYV9kJywgdHlwZT1mbG9hdCwgZGVmYXVsdD0xMC4pCiAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS16X25lYXInLCB0eXBlPWZsb2F0LCBkZWZhdWx0PTUuKQogICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tel9mYXInLCB0eXBlPWZsb2F0LCBkZWZhdWx0PTE1LikKCiAgICAgICAgaWYgaXNfdHJhaW46CiAgICAgICAgICAgICMgdHJhaW5pbmcgcGFyYW1ldGVycwogICAgICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLW5ldF9yZWNvZycsIHR5cGU9c3RyLCBkZWZhdWx0PSdyNTAnLCBjaG9pY2VzPVsncjE4JywgJ3I0MycsICdyNTAnXSwgaGVscD0nZmFjZSByZWNvZyBuZXR3b3JrIHN0cnVjdHVyZScpCiAgICAgICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tbmV0X3JlY29nX3BhdGgnLCB0eXBlPXN0ciwgZGVmYXVsdD0nY2hlY2twb2ludHMvcmVjb2dfbW9kZWwvbXMxbXYzX2FyY2ZhY2VfcjUwX2ZwMTYvYmFja2JvbmUucHRoJykKICAgICAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS11c2VfY3JvcF9mYWNlJywgdHlwZT11dGlsLnN0cjJib29sLCBuYXJncz0nPycsIGNvbnN0PVRydWUsIGRlZmF1bHQ9RmFsc2UsIGhlbHA9J3VzZSBjcm9wIG1hc2sgZm9yIHBob3RvIGxvc3MnKQogICAgICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXVzZV9wcmVkZWZfTScsIHR5cGU9dXRpbC5zdHIyYm9vbCwgbmFyZ3M9Jz8nLCBjb25zdD1UcnVlLCBkZWZhdWx0PUZhbHNlLCBoZWxwPSd1c2UgcHJlZGVmaW5lZCBNIGZvciBwcmVkaWN0ZWQgZmFjZScpCgogICAgICAgICAgICAKICAgICAgICAgICAgIyBhdWdtZW50YXRpb24gcGFyYW1ldGVycwogICAgICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXNoaWZ0X3BpeHMnLCB0eXBlPWZsb2F0LCBkZWZhdWx0PTEwLiwgaGVscD0nc2hpZnQgcGl4ZWxzJykKICAgICAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1zY2FsZV9kZWx0YScsIHR5cGU9ZmxvYXQsIGRlZmF1bHQ9MC4xLCBoZWxwPSdkZWx0YSBzY2FsZSBmYWN0b3InKQogICAgICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXJvdF9hbmdsZScsIHR5cGU9ZmxvYXQsIGRlZmF1bHQ9MTAuLCBoZWxwPSdyb3QgYW5nbGVzLCBkZWdyZWUnKQoKICAgICAgICAgICAgIyBsb3NzIHdlaWdodHMKICAgICAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS13X2ZlYXQnLCB0eXBlPWZsb2F0LCBkZWZhdWx0PTAuMiwgaGVscD0nd2VpZ2h0IGZvciBmZWF0IGxvc3MnKQogICAgICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXdfY29sb3InLCB0eXBlPWZsb2F0LCBkZWZhdWx0PTEuOTIsIGhlbHA9J3dlaWdodCBmb3IgbG9zcyBsb3NzJykKICAgICAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS13X3JlZycsIHR5cGU9ZmxvYXQsIGRlZmF1bHQ9My4wZS00LCBoZWxwPSd3ZWlnaHQgZm9yIHJlZyBsb3NzJykKICAgICAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS13X2lkJywgdHlwZT1mbG9hdCwgZGVmYXVsdD0xLjAsIGhlbHA9J3dlaWdodCBmb3IgaWRfcmVnIGxvc3MnKQogICAgICAgICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXdfZXhwJywgdHlwZT1mbG9hdCwgZGVmYXVsdD0wLjgsIGhlbHA9J3dlaWdodCBmb3IgZXhwX3JlZyBsb3NzJykKICAgICAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS13X3RleCcsIHR5cGU9ZmxvYXQsIGRlZmF1bHQ9MS43ZS0yLCBoZWxwPSd3ZWlnaHQgZm9yIHRleF9yZWcgbG9zcycpCiAgICAgICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0td19nYW1tYScsIHR5cGU9ZmxvYXQsIGRlZmF1bHQ9MTAuMCwgaGVscD0nd2VpZ2h0IGZvciBnYW1tYSBsb3NzJykKICAgICAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS13X2xtJywgdHlwZT1mbG9hdCwgZGVmYXVsdD0xLjZlLTMsIGhlbHA9J3dlaWdodCBmb3IgbG0gbG9zcycpCiAgICAgICAgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0td19yZWZsYycsIHR5cGU9ZmxvYXQsIGRlZmF1bHQ9NS4wLCBoZWxwPSd3ZWlnaHQgZm9yIHJlZmxjIGxvc3MnKQoKICAgICAgICBvcHQsIF8gPSBwYXJzZXIucGFyc2Vfa25vd25fYXJncygpCiAgICAgICAgcGFyc2VyLnNldF9kZWZhdWx0cygKICAgICAgICAgICAgICAgIGZvY2FsPTEwMTUuLCBjZW50ZXI9MTEyLiwgY2FtZXJhX2Q9MTAuLCB1c2VfbGFzdF9mYz1GYWxzZSwgel9uZWFyPTUuLCB6X2Zhcj0xNS4KICAgICAgICAgICAgKQogICAgICAgIGlmIGlzX3RyYWluOgogICAgICAgICAgICBwYXJzZXIuc2V0X2RlZmF1bHRzKAogICAgICAgICAgICAgICAgdXNlX2Nyb3BfZmFjZT1UcnVlLCB1c2VfcHJlZGVmX009RmFsc2UKICAgICAgICAgICAgKQogICAgICAgIHJldHVybiBwYXJzZXIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgb3B0KToKICAgICAgICAiIiJJbml0aWFsaXplIHRoaXMgbW9kZWwgY2xhc3MuCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIG9wdCAtLSB0cmFpbmluZy90ZXN0IG9wdGlvbnMKCiAgICAgICAgQSBmZXcgdGhpbmdzIGNhbiBiZSBkb25lIGhlcmUuCiAgICAgICAgLSAocmVxdWlyZWQpIGNhbGwgdGhlIGluaXRpYWxpemF0aW9uIGZ1bmN0aW9uIG9mIEJhc2VNb2RlbAogICAgICAgIC0gZGVmaW5lIGxvc3MgZnVuY3Rpb24sIHZpc3VhbGl6YXRpb24gaW1hZ2VzLCBtb2RlbCBuYW1lcywgYW5kIG9wdGltaXplcnMKICAgICAgICAiIiIKICAgICAgICBCYXNlTW9kZWwuX19pbml0X18oc2VsZiwgb3B0KSAgIyBjYWxsIHRoZSBpbml0aWFsaXphdGlvbiBtZXRob2Qgb2YgQmFzZU1vZGVsCiAgICAgICAgCiAgICAgICAgc2VsZi52aXN1YWxfbmFtZXMgPSBbJ291dHB1dF92aXMnXQogICAgICAgIHNlbGYubW9kZWxfbmFtZXMgPSBbJ25ldF9yZWNvbiddCiAgICAgICAgc2VsZi5wYXJhbGxlbF9uYW1lcyA9IHNlbGYubW9kZWxfbmFtZXMgKyBbJ3JlbmRlcmVyJ10KCiAgICAgICAgc2VsZi5mYWNlbW9kZWwgPSBQYXJhbWV0cmljRmFjZU1vZGVsKAogICAgICAgICAgICBiZm1fZm9sZGVyPW9wdC5iZm1fZm9sZGVyLCBjYW1lcmFfZGlzdGFuY2U9b3B0LmNhbWVyYV9kLCBmb2NhbD1vcHQuZm9jYWwsIGNlbnRlcj1vcHQuY2VudGVyLAogICAgICAgICAgICBpc190cmFpbj1zZWxmLmlzVHJhaW4sIGRlZmF1bHRfbmFtZT1vcHQuYmZtX21vZGVsCiAgICAgICAgKQogICAgICAgIAogICAgICAgIGZvdiA9IDIgKiBucC5hcmN0YW4ob3B0LmNlbnRlciAvIG9wdC5mb2NhbCkgKiAxODAgLyBucC5waQogICAgICAgIHNlbGYucmVuZGVyZXIgPSBNZXNoUmVuZGVyZXIoCiAgICAgICAgICAgIHJhc3Rlcml6ZV9mb3Y9Zm92LCB6bmVhcj1vcHQuel9uZWFyLCB6ZmFyPW9wdC56X2ZhciwgcmFzdGVyaXplX3NpemU9aW50KDIgKiBvcHQuY2VudGVyKQogICAgICAgICkKCiAgICAgICAgaWYgc2VsZi5pc1RyYWluOgogICAgICAgICAgICBzZWxmLmxvc3NfbmFtZXMgPSBbJ2FsbCcsICdmZWF0JywgJ2NvbG9yJywgJ2xtJywgJ3JlZycsICdnYW1tYScsICdyZWZsYyddCgogICAgICAgICAgICBzZWxmLm5ldF9yZWNvZyA9IG5ldHdvcmtzLmRlZmluZV9uZXRfcmVjb2coCiAgICAgICAgICAgICAgICBuZXRfcmVjb2c9b3B0Lm5ldF9yZWNvZywgcHJldHJhaW5lZF9wYXRoPW9wdC5uZXRfcmVjb2dfcGF0aAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAjIGxvc3MgZnVuYyBuYW1lOiAoY29tcHV0ZV8lc19sb3NzKSAlIGxvc3NfbmFtZQogICAgICAgICAgICBzZWxmLmNvbXB1dGVfZmVhdF9sb3NzID0gcGVyY2VwdHVhbF9sb3NzCiAgICAgICAgICAgIHNlbGYuY29tdXB0ZV9jb2xvcl9sb3NzID0gcGhvdG9fbG9zcwogICAgICAgICAgICBzZWxmLmNvbXB1dGVfbG1fbG9zcyA9IGxhbmRtYXJrX2xvc3MKICAgICAgICAgICAgc2VsZi5jb21wdXRlX3JlZ19sb3NzID0gcmVnX2xvc3MKICAgICAgICAgICAgc2VsZi5jb21wdXRlX3JlZmxjX2xvc3MgPSByZWZsZWN0YW5jZV9sb3NzCgogICAgICAgICAgICBzZWxmLm9wdGltaXplciA9IHRvcmNoLm9wdGltLkFkYW0oc2VsZi5uZXRfcmVjb24ucGFyYW1ldGVycygpLCBscj1vcHQubHIpCiAgICAgICAgICAgIHNlbGYub3B0aW1pemVycyA9IFtzZWxmLm9wdGltaXplcl0KICAgICAgICAgICAgc2VsZi5wYXJhbGxlbF9uYW1lcyArPSBbJ25ldF9yZWNvZyddCiAgICAgICAgIyBPdXIgcHJvZ3JhbSB3aWxsIGF1dG9tYXRpY2FsbHkgY2FsbCA8bW9kZWwuc2V0dXA+IHRvIGRlZmluZSBzY2hlZHVsZXJzLCBsb2FkIG5ldHdvcmtzLCBhbmQgcHJpbnQgbmV0d29ya3MKCiAgICBkZWYgc2V0X2lucHV0KHNlbGYsIGlucHV0KToKICAgICAgICAiIiJVbnBhY2sgaW5wdXQgZGF0YSBmcm9tIHRoZSBkYXRhbG9hZGVyIGFuZCBwZXJmb3JtIG5lY2Vzc2FyeSBwcmUtcHJvY2Vzc2luZyBzdGVwcy4KCiAgICAgICAgUGFyYW1ldGVyczoKICAgICAgICAgICAgaW5wdXQ6IGEgZGljdGlvbmFyeSB0aGF0IGNvbnRhaW5zIHRoZSBkYXRhIGl0c2VsZiBhbmQgaXRzIG1ldGFkYXRhIGluZm9ybWF0aW9uLgogICAgICAgICIiIgogICAgICAgIHNlbGYuaW5wdXRfaW1nID0gaW5wdXRbJ2ltZ3MnXS50byhzZWxmLmRldmljZSkgCiAgICAgICAgc2VsZi5hdHRlbl9tYXNrID0gaW5wdXRbJ21za3MnXS50byhzZWxmLmRldmljZSkgaWYgJ21za3MnIGluIGlucHV0IGVsc2UgTm9uZQogICAgICAgIHNlbGYuZ3RfbG0gPSBpbnB1dFsnbG1zJ10udG8oc2VsZi5kZXZpY2UpICBpZiAnbG1zJyBpbiBpbnB1dCBlbHNlIE5vbmUKICAgICAgICBzZWxmLnRyYW5zX20gPSBpbnB1dFsnTSddLnRvKHNlbGYuZGV2aWNlKSBpZiAnTScgaW4gaW5wdXQgZWxzZSBOb25lCiAgICAgICAgc2VsZi5pbWFnZV9wYXRocyA9IGlucHV0WydpbV9wYXRocyddIGlmICdpbV9wYXRocycgaW4gaW5wdXQgZWxzZSBOb25lCgogICAgZGVmIGZvcndhcmQoc2VsZiwgb3V0cHV0X2NvZWZmLCBkZXZpY2UpOgogICAgICAgIHNlbGYuZmFjZW1vZGVsLnRvKGRldmljZSkKICAgICAgICBzZWxmLnByZWRfdmVydGV4LCBzZWxmLnByZWRfdGV4LCBzZWxmLnByZWRfY29sb3IsIHNlbGYucHJlZF9sbSA9IFwKICAgICAgICAgICAgc2VsZi5mYWNlbW9kZWwuY29tcHV0ZV9mb3JfcmVuZGVyKG91dHB1dF9jb2VmZikKICAgICAgICBzZWxmLnByZWRfbWFzaywgXywgc2VsZi5wcmVkX2ZhY2UgPSBzZWxmLnJlbmRlcmVyKAogICAgICAgICAgICBzZWxmLnByZWRfdmVydGV4LCBzZWxmLmZhY2Vtb2RlbC5mYWNlX2J1ZiwgZmVhdD1zZWxmLnByZWRfY29sb3IpCiAgICAgICAgCiAgICAgICAgc2VsZi5wcmVkX2NvZWZmc19kaWN0ID0gc2VsZi5mYWNlbW9kZWwuc3BsaXRfY29lZmYob3V0cHV0X2NvZWZmKQoKCiAgICBkZWYgY29tcHV0ZV9sb3NzZXMoc2VsZik6CiAgICAgICAgIiIiQ2FsY3VsYXRlIGxvc3NlcywgZ3JhZGllbnRzLCBhbmQgdXBkYXRlIG5ldHdvcmsgd2VpZ2h0czsgY2FsbGVkIGluIGV2ZXJ5IHRyYWluaW5nIGl0ZXJhdGlvbiIiIgoKICAgICAgICBhc3NlcnQgc2VsZi5uZXRfcmVjb2cudHJhaW5pbmcgPT0gRmFsc2UKICAgICAgICB0cmFuc19tID0gc2VsZi50cmFuc19tCiAgICAgICAgaWYgbm90IHNlbGYub3B0LnVzZV9wcmVkZWZfTToKICAgICAgICAgICAgdHJhbnNfbSA9IGVzdGltYXRlX25vcm1fdG9yY2goc2VsZi5wcmVkX2xtLCBzZWxmLmlucHV0X2ltZy5zaGFwZVstMl0pCgogICAgICAgIHByZWRfZmVhdCA9IHNlbGYubmV0X3JlY29nKHNlbGYucHJlZF9mYWNlLCB0cmFuc19tKQogICAgICAgIGd0X2ZlYXQgPSBzZWxmLm5ldF9yZWNvZyhzZWxmLmlucHV0X2ltZywgc2VsZi50cmFuc19tKQogICAgICAgIHNlbGYubG9zc19mZWF0ID0gc2VsZi5vcHQud19mZWF0ICogc2VsZi5jb21wdXRlX2ZlYXRfbG9zcyhwcmVkX2ZlYXQsIGd0X2ZlYXQpCgogICAgICAgIGZhY2VfbWFzayA9IHNlbGYucHJlZF9tYXNrCiAgICAgICAgaWYgc2VsZi5vcHQudXNlX2Nyb3BfZmFjZToKICAgICAgICAgICAgZmFjZV9tYXNrLCBfLCBfID0gc2VsZi5yZW5kZXJlcihzZWxmLnByZWRfdmVydGV4LCBzZWxmLmZhY2Vtb2RlbC5mcm9udF9mYWNlX2J1ZikKICAgICAgICAKICAgICAgICBmYWNlX21hc2sgPSBmYWNlX21hc2suZGV0YWNoKCkKICAgICAgICBzZWxmLmxvc3NfY29sb3IgPSBzZWxmLm9wdC53X2NvbG9yICogc2VsZi5jb211cHRlX2NvbG9yX2xvc3MoCiAgICAgICAgICAgIHNlbGYucHJlZF9mYWNlLCBzZWxmLmlucHV0X2ltZywgc2VsZi5hdHRlbl9tYXNrICogZmFjZV9tYXNrKQogICAgICAgIAogICAgICAgIGxvc3NfcmVnLCBsb3NzX2dhbW1hID0gc2VsZi5jb21wdXRlX3JlZ19sb3NzKHNlbGYucHJlZF9jb2VmZnNfZGljdCwgc2VsZi5vcHQpCiAgICAgICAgc2VsZi5sb3NzX3JlZyA9IHNlbGYub3B0LndfcmVnICogbG9zc19yZWcKICAgICAgICBzZWxmLmxvc3NfZ2FtbWEgPSBzZWxmLm9wdC53X2dhbW1hICogbG9zc19nYW1tYQoKICAgICAgICBzZWxmLmxvc3NfbG0gPSBzZWxmLm9wdC53X2xtICogc2VsZi5jb21wdXRlX2xtX2xvc3Moc2VsZi5wcmVkX2xtLCBzZWxmLmd0X2xtKQoKICAgICAgICBzZWxmLmxvc3NfcmVmbGMgPSBzZWxmLm9wdC53X3JlZmxjICogc2VsZi5jb21wdXRlX3JlZmxjX2xvc3Moc2VsZi5wcmVkX3RleCwgc2VsZi5mYWNlbW9kZWwuc2tpbl9tYXNrKQoKICAgICAgICBzZWxmLmxvc3NfYWxsID0gc2VsZi5sb3NzX2ZlYXQgKyBzZWxmLmxvc3NfY29sb3IgKyBzZWxmLmxvc3NfcmVnICsgc2VsZi5sb3NzX2dhbW1hIFwKICAgICAgICAgICAgICAgICAgICAgICAgKyBzZWxmLmxvc3NfbG0gKyBzZWxmLmxvc3NfcmVmbGMKICAgICAgICAgICAgCgogICAgZGVmIG9wdGltaXplX3BhcmFtZXRlcnMoc2VsZiwgaXNUcmFpbj1UcnVlKToKICAgICAgICBzZWxmLmZvcndhcmQoKSAgICAgICAgICAgICAgIAogICAgICAgIHNlbGYuY29tcHV0ZV9sb3NzZXMoKQogICAgICAgICIiIlVwZGF0ZSBuZXR3b3JrIHdlaWdodHM7IGl0IHdpbGwgYmUgY2FsbGVkIGluIGV2ZXJ5IHRyYWluaW5nIGl0ZXJhdGlvbi4iIiIKICAgICAgICBpZiBpc1RyYWluOgogICAgICAgICAgICBzZWxmLm9wdGltaXplci56ZXJvX2dyYWQoKSAgCiAgICAgICAgICAgIHNlbGYubG9zc19hbGwuYmFja3dhcmQoKSAgICAgICAgIAogICAgICAgICAgICBzZWxmLm9wdGltaXplci5zdGVwKCkgICAgICAgIAoKICAgIGRlZiBjb21wdXRlX3Zpc3VhbHMoc2VsZik6CiAgICAgICAgd2l0aCB0b3JjaC5ub19ncmFkKCk6CiAgICAgICAgICAgIGlucHV0X2ltZ19udW1weSA9IDI1NS4gKiBzZWxmLmlucHV0X2ltZy5kZXRhY2goKS5jcHUoKS5wZXJtdXRlKDAsIDIsIDMsIDEpLm51bXB5KCkKICAgICAgICAgICAgb3V0cHV0X3ZpcyA9IHNlbGYucHJlZF9mYWNlICogc2VsZi5wcmVkX21hc2sgKyAoMSAtIHNlbGYucHJlZF9tYXNrKSAqIHNlbGYuaW5wdXRfaW1nCiAgICAgICAgICAgIG91dHB1dF92aXNfbnVtcHlfcmF3ID0gMjU1LiAqIG91dHB1dF92aXMuZGV0YWNoKCkuY3B1KCkucGVybXV0ZSgwLCAyLCAzLCAxKS5udW1weSgpCiAgICAgICAgICAgIAogICAgICAgICAgICBpZiBzZWxmLmd0X2xtIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgZ3RfbG1fbnVtcHkgPSBzZWxmLmd0X2xtLmNwdSgpLm51bXB5KCkKICAgICAgICAgICAgICAgIHByZWRfbG1fbnVtcHkgPSBzZWxmLnByZWRfbG0uZGV0YWNoKCkuY3B1KCkubnVtcHkoKQogICAgICAgICAgICAgICAgb3V0cHV0X3Zpc19udW1weSA9IHV0aWwuZHJhd19sYW5kbWFya3Mob3V0cHV0X3Zpc19udW1weV9yYXcsIGd0X2xtX251bXB5LCAnYicpCiAgICAgICAgICAgICAgICBvdXRwdXRfdmlzX251bXB5ID0gdXRpbC5kcmF3X2xhbmRtYXJrcyhvdXRwdXRfdmlzX251bXB5LCBwcmVkX2xtX251bXB5LCAncicpCiAgICAgICAgICAgIAogICAgICAgICAgICAgICAgb3V0cHV0X3Zpc19udW1weSA9IG5wLmNvbmNhdGVuYXRlKChpbnB1dF9pbWdfbnVtcHksIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdXRwdXRfdmlzX251bXB5X3Jhdywgb3V0cHV0X3Zpc19udW1weSksIGF4aXM9LTIpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBvdXRwdXRfdmlzX251bXB5ID0gbnAuY29uY2F0ZW5hdGUoKGlucHV0X2ltZ19udW1weSwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG91dHB1dF92aXNfbnVtcHlfcmF3KSwgYXhpcz0tMikKCiAgICAgICAgICAgIHNlbGYub3V0cHV0X3ZpcyA9IHRvcmNoLnRlbnNvcigKICAgICAgICAgICAgICAgICAgICBvdXRwdXRfdmlzX251bXB5IC8gMjU1LiwgZHR5cGU9dG9yY2guZmxvYXQzMgogICAgICAgICAgICAgICAgKS5wZXJtdXRlKDAsIDMsIDEsIDIpLnRvKHNlbGYuZGV2aWNlKQoKICAgIGRlZiBzYXZlX21lc2goc2VsZiwgbmFtZSk6CgogICAgICAgIHJlY29uX3NoYXBlID0gc2VsZi5wcmVkX3ZlcnRleCAgIyBnZXQgcmVjb25zdHJ1Y3RlZCBzaGFwZQogICAgICAgIHJlY29uX3NoYXBlWy4uLiwgLTFdID0gMTAgLSByZWNvbl9zaGFwZVsuLi4sIC0xXSAjIGZyb20gY2FtZXJhIHNwYWNlIHRvIHdvcmxkIHNwYWNlCiAgICAgICAgcmVjb25fc2hhcGUgPSByZWNvbl9zaGFwZS5jcHUoKS5udW1weSgpWzBdCiAgICAgICAgcmVjb25fY29sb3IgPSBzZWxmLnByZWRfY29sb3IKICAgICAgICByZWNvbl9jb2xvciA9IHJlY29uX2NvbG9yLmNwdSgpLm51bXB5KClbMF0KICAgICAgICB0cmkgPSBzZWxmLmZhY2Vtb2RlbC5mYWNlX2J1Zi5jcHUoKS5udW1weSgpCiAgICAgICAgbWVzaCA9IHRyaW1lc2guVHJpbWVzaCh2ZXJ0aWNlcz1yZWNvbl9zaGFwZSwgZmFjZXM9dHJpLCB2ZXJ0ZXhfY29sb3JzPW5wLmNsaXAoMjU1LiAqIHJlY29uX2NvbG9yLCAwLCAyNTUpLmFzdHlwZShucC51aW50OCkpCiAgICAgICAgbWVzaC5leHBvcnQobmFtZSkKCiAgICBkZWYgc2F2ZV9jb2VmZihzZWxmLG5hbWUpOgoKICAgICAgICBwcmVkX2NvZWZmcyA9IHtrZXk6c2VsZi5wcmVkX2NvZWZmc19kaWN0W2tleV0uY3B1KCkubnVtcHkoKSBmb3Iga2V5IGluIHNlbGYucHJlZF9jb2VmZnNfZGljdH0KICAgICAgICBwcmVkX2xtID0gc2VsZi5wcmVkX2xtLmNwdSgpLm51bXB5KCkKICAgICAgICBwcmVkX2xtID0gbnAuc3RhY2soW3ByZWRfbG1bOiw6LDBdLHNlbGYuaW5wdXRfaW1nLnNoYXBlWzJdLTEtcHJlZF9sbVs6LDosMV1dLGF4aXM9MikgIyB0cmFuc2ZlciB0byBpbWFnZSBjb29yZGluYXRlCiAgICAgICAgcHJlZF9jb2VmZnNbJ2xtNjgnXSA9IHByZWRfbG0KICAgICAgICBzYXZlbWF0KG5hbWUscHJlZF9jb2VmZnMpCgoKCg==
+"""This script defines the face reconstruction model for Deep3DFaceRecon_pytorch
+"""
+
+import numpy as np
+import torch
+from src.face3d.models.base_model import BaseModel
+from src.face3d.models import networks
+from src.face3d.models.bfm import ParametricFaceModel
+from src.face3d.models.losses import perceptual_loss, photo_loss, reg_loss, reflectance_loss, landmark_loss
+from src.face3d.util import util 
+from src.face3d.util.nvdiffrast import MeshRenderer
+# from src.face3d.util.preprocess import estimate_norm_torch
+
+import trimesh
+from scipy.io import savemat
+
+class FaceReconModel(BaseModel):
+
+    @staticmethod
+    def modify_commandline_options(parser, is_train=False):
+        """  Configures options specific for CUT model
+        """
+        # net structure and parameters
+        parser.add_argument('--net_recon', type=str, default='resnet50', choices=['resnet18', 'resnet34', 'resnet50'], help='network structure')
+        parser.add_argument('--init_path', type=str, default='./checkpoints/init_model/resnet50-0676ba61.pth')
+        parser.add_argument('--use_last_fc', type=util.str2bool, nargs='?', const=True, default=False, help='zero initialize the last fc')
+        parser.add_argument('--bfm_folder', type=str, default='./checkpoints/BFM_Fitting/')
+        parser.add_argument('--bfm_model', type=str, default='BFM_model_front.mat', help='bfm model')
+
+        # renderer parameters
+        parser.add_argument('--focal', type=float, default=1015.)
+        parser.add_argument('--center', type=float, default=112.)
+        parser.add_argument('--camera_d', type=float, default=10.)
+        parser.add_argument('--z_near', type=float, default=5.)
+        parser.add_argument('--z_far', type=float, default=15.)
+
+        if is_train:
+            # training parameters
+            parser.add_argument('--net_recog', type=str, default='r50', choices=['r18', 'r43', 'r50'], help='face recog network structure')
+            parser.add_argument('--net_recog_path', type=str, default='checkpoints/recog_model/ms1mv3_arcface_r50_fp16/backbone.pth')
+            parser.add_argument('--use_crop_face', type=util.str2bool, nargs='?', const=True, default=False, help='use crop mask for photo loss')
+            parser.add_argument('--use_predef_M', type=util.str2bool, nargs='?', const=True, default=False, help='use predefined M for predicted face')
+
+            
+            # augmentation parameters
+            parser.add_argument('--shift_pixs', type=float, default=10., help='shift pixels')
+            parser.add_argument('--scale_delta', type=float, default=0.1, help='delta scale factor')
+            parser.add_argument('--rot_angle', type=float, default=10., help='rot angles, degree')
+
+            # loss weights
+            parser.add_argument('--w_feat', type=float, default=0.2, help='weight for feat loss')
+            parser.add_argument('--w_color', type=float, default=1.92, help='weight for loss loss')
+            parser.add_argument('--w_reg', type=float, default=3.0e-4, help='weight for reg loss')
+            parser.add_argument('--w_id', type=float, default=1.0, help='weight for id_reg loss')
+            parser.add_argument('--w_exp', type=float, default=0.8, help='weight for exp_reg loss')
+            parser.add_argument('--w_tex', type=float, default=1.7e-2, help='weight for tex_reg loss')
+            parser.add_argument('--w_gamma', type=float, default=10.0, help='weight for gamma loss')
+            parser.add_argument('--w_lm', type=float, default=1.6e-3, help='weight for lm loss')
+            parser.add_argument('--w_reflc', type=float, default=5.0, help='weight for reflc loss')
+
+        opt, _ = parser.parse_known_args()
+        parser.set_defaults(
+                focal=1015., center=112., camera_d=10., use_last_fc=False, z_near=5., z_far=15.
+            )
+        if is_train:
+            parser.set_defaults(
+                use_crop_face=True, use_predef_M=False
+            )
+        return parser
+
+    def __init__(self, opt):
+        """Initialize this model class.
+
+        Parameters:
+            opt -- training/test options
+
+        A few things can be done here.
+        - (required) call the initialization function of BaseModel
+        - define loss function, visualization images, model names, and optimizers
+        """
+        BaseModel.__init__(self, opt)  # call the initialization method of BaseModel
+        
+        self.visual_names = ['output_vis']
+        self.model_names = ['net_recon']
+        self.parallel_names = self.model_names + ['renderer']
+
+        self.facemodel = ParametricFaceModel(
+            bfm_folder=opt.bfm_folder, camera_distance=opt.camera_d, focal=opt.focal, center=opt.center,
+            is_train=self.isTrain, default_name=opt.bfm_model
+        )
+        
+        fov = 2 * np.arctan(opt.center / opt.focal) * 180 / np.pi
+        self.renderer = MeshRenderer(
+            rasterize_fov=fov, znear=opt.z_near, zfar=opt.z_far, rasterize_size=int(2 * opt.center)
+        )
+
+        if self.isTrain:
+            self.loss_names = ['all', 'feat', 'color', 'lm', 'reg', 'gamma', 'reflc']
+
+            self.net_recog = networks.define_net_recog(
+                net_recog=opt.net_recog, pretrained_path=opt.net_recog_path
+                )
+            # loss func name: (compute_%s_loss) % loss_name
+            self.compute_feat_loss = perceptual_loss
+            self.comupte_color_loss = photo_loss
+            self.compute_lm_loss = landmark_loss
+            self.compute_reg_loss = reg_loss
+            self.compute_reflc_loss = reflectance_loss
+
+            self.optimizer = torch.optim.Adam(self.net_recon.parameters(), lr=opt.lr)
+            self.optimizers = [self.optimizer]
+            self.parallel_names += ['net_recog']
+        # Our program will automatically call <model.setup> to define schedulers, load networks, and print networks
+
+    def set_input(self, input):
+        """Unpack input data from the dataloader and perform necessary pre-processing steps.
+
+        Parameters:
+            input: a dictionary that contains the data itself and its metadata information.
+        """
+        self.input_img = input['imgs'].to(self.device) 
+        self.atten_mask = input['msks'].to(self.device) if 'msks' in input else None
+        self.gt_lm = input['lms'].to(self.device)  if 'lms' in input else None
+        self.trans_m = input['M'].to(self.device) if 'M' in input else None
+        self.image_paths = input['im_paths'] if 'im_paths' in input else None
+
+    def forward(self, output_coeff, device):
+        self.facemodel.to(device)
+        self.pred_vertex, self.pred_tex, self.pred_color, self.pred_lm = \
+            self.facemodel.compute_for_render(output_coeff)
+        self.pred_mask, _, self.pred_face = self.renderer(
+            self.pred_vertex, self.facemodel.face_buf, feat=self.pred_color)
+        
+        self.pred_coeffs_dict = self.facemodel.split_coeff(output_coeff)
+
+
+    def compute_losses(self):
+        """Calculate losses, gradients, and update network weights; called in every training iteration"""
+
+        assert self.net_recog.training == False
+        trans_m = self.trans_m
+        if not self.opt.use_predef_M:
+            trans_m = estimate_norm_torch(self.pred_lm, self.input_img.shape[-2])
+
+        pred_feat = self.net_recog(self.pred_face, trans_m)
+        gt_feat = self.net_recog(self.input_img, self.trans_m)
+        self.loss_feat = self.opt.w_feat * self.compute_feat_loss(pred_feat, gt_feat)
+
+        face_mask = self.pred_mask
+        if self.opt.use_crop_face:
+            face_mask, _, _ = self.renderer(self.pred_vertex, self.facemodel.front_face_buf)
+        
+        face_mask = face_mask.detach()
+        self.loss_color = self.opt.w_color * self.comupte_color_loss(
+            self.pred_face, self.input_img, self.atten_mask * face_mask)
+        
+        loss_reg, loss_gamma = self.compute_reg_loss(self.pred_coeffs_dict, self.opt)
+        self.loss_reg = self.opt.w_reg * loss_reg
+        self.loss_gamma = self.opt.w_gamma * loss_gamma
+
+        self.loss_lm = self.opt.w_lm * self.compute_lm_loss(self.pred_lm, self.gt_lm)
+
+        self.loss_reflc = self.opt.w_reflc * self.compute_reflc_loss(self.pred_tex, self.facemodel.skin_mask)
+
+        self.loss_all = self.loss_feat + self.loss_color + self.loss_reg + self.loss_gamma \
+                        + self.loss_lm + self.loss_reflc
+            
+
+    def optimize_parameters(self, isTrain=True):
+        self.forward()               
+        self.compute_losses()
+        """Update network weights; it will be called in every training iteration."""
+        if isTrain:
+            self.optimizer.zero_grad()  
+            self.loss_all.backward()         
+            self.optimizer.step()        
+
+    def compute_visuals(self):
+        with torch.no_grad():
+            input_img_numpy = 255. * self.input_img.detach().cpu().permute(0, 2, 3, 1).numpy()
+            output_vis = self.pred_face * self.pred_mask + (1 - self.pred_mask) * self.input_img
+            output_vis_numpy_raw = 255. * output_vis.detach().cpu().permute(0, 2, 3, 1).numpy()
+            
+            if self.gt_lm is not None:
+                gt_lm_numpy = self.gt_lm.cpu().numpy()
+                pred_lm_numpy = self.pred_lm.detach().cpu().numpy()
+                output_vis_numpy = util.draw_landmarks(output_vis_numpy_raw, gt_lm_numpy, 'b')
+                output_vis_numpy = util.draw_landmarks(output_vis_numpy, pred_lm_numpy, 'r')
+            
+                output_vis_numpy = np.concatenate((input_img_numpy, 
+                                    output_vis_numpy_raw, output_vis_numpy), axis=-2)
+            else:
+                output_vis_numpy = np.concatenate((input_img_numpy, 
+                                    output_vis_numpy_raw), axis=-2)
+
+            self.output_vis = torch.tensor(
+                    output_vis_numpy / 255., dtype=torch.float32
+                ).permute(0, 3, 1, 2).to(self.device)
+
+    def save_mesh(self, name):
+
+        recon_shape = self.pred_vertex  # get reconstructed shape
+        recon_shape[..., -1] = 10 - recon_shape[..., -1] # from camera space to world space
+        recon_shape = recon_shape.cpu().numpy()[0]
+        recon_color = self.pred_color
+        recon_color = recon_color.cpu().numpy()[0]
+        tri = self.facemodel.face_buf.cpu().numpy()
+        mesh = trimesh.Trimesh(vertices=recon_shape, faces=tri, vertex_colors=np.clip(255. * recon_color, 0, 255).astype(np.uint8))
+        mesh.export(name)
+
+    def save_coeff(self,name):
+
+        pred_coeffs = {key:self.pred_coeffs_dict[key].cpu().numpy() for key in self.pred_coeffs_dict}
+        pred_lm = self.pred_lm.cpu().numpy()
+        pred_lm = np.stack([pred_lm[:,:,0],self.input_img.shape[2]-1-pred_lm[:,:,1]],axis=2) # transfer to image coordinate
+        pred_coeffs['lm68'] = pred_lm
+        savemat(name,pred_coeffs)
+
+
+

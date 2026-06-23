@@ -1,1 +1,413 @@
-CmltcG9ydCBvcwppbXBvcnQgc3VicHJvY2VzcwppbXBvcnQgdXVpZAppbXBvcnQgdGltZQppbXBvcnQgdG9yY2gKaW1wb3J0IHRvcmNoYXVkaW8KCiMgbGFuZ2lkIGlzIHVzZWQgdG8gZGV0ZWN0IGxhbmd1YWdlIGZvciBsb25nZXIgdGV4dAojIE1vc3QgdXNlcnMgZXhwZWN0IHRleHQgdG8gYmUgdGhlaXIgb3duIGxhbmd1YWdlLCB0aGVyZSBpcyBjaGVja2JveCB0byBkaXNhYmxlIGl0CmltcG9ydCBsYW5naWQKaW1wb3J0IHJlCmltcG9ydCBncmFkaW8gYXMgZ3IKZnJvbSBUVFMudHRzLmNvbmZpZ3MueHR0c19jb25maWcgaW1wb3J0IFh0dHNDb25maWcKZnJvbSBUVFMudHRzLm1vZGVscy54dHRzIGltcG9ydCBYdHRzCmZyb20gVFRTLnV0aWxzLmdlbmVyaWNfdXRpbHMgaW1wb3J0IGdldF91c2VyX2RhdGFfZGlyCgpjbGFzcyBYVFRTKCk6CiAgICBkZWYgX19pbml0X18oc2VsZik6CiAgICAgICAgbW9kZWxfbmFtZSA9ICJ0dHNfbW9kZWxzL211bHRpbGluZ3VhbC9tdWx0aS1kYXRhc2V0L3h0dHNfdjIiCiAgICAgICAgIyBNb2RlbE1hbmFnZXIoKS5kb3dubG9hZF9tb2RlbChtb2RlbF9uYW1lKQogICAgICAgIG1vZGVsX3BhdGggPSBvcy5wYXRoLmpvaW4oZ2V0X3VzZXJfZGF0YV9kaXIoInR0cyIpLCBtb2RlbF9uYW1lLnJlcGxhY2UoIi8iLCAiLS0iKSkKICAgICAgICAjIHByaW50KCJYVFRTIGRvd25sb2FkZWQiKQoKICAgICAgICBjb25maWcgPSBYdHRzQ29uZmlnKCkKICAgICAgICBjb25maWcubG9hZF9qc29uKG9zLnBhdGguam9pbihtb2RlbF9wYXRoLCAiY29uZmlnLmpzb24iKSkKCiAgICAgICAgc2VsZi5tb2RlbCA9IFh0dHMuaW5pdF9mcm9tX2NvbmZpZyhjb25maWcpCiAgICAgICAgc2VsZi5tb2RlbC5sb2FkX2NoZWNrcG9pbnQoCiAgICAgICAgICAgIGNvbmZpZywKICAgICAgICAgICAgY2hlY2twb2ludF9wYXRoPW9zLnBhdGguam9pbihtb2RlbF9wYXRoLCAibW9kZWwucHRoIiksCiAgICAgICAgICAgIHZvY2FiX3BhdGg9b3MucGF0aC5qb2luKG1vZGVsX3BhdGgsICJ2b2NhYi5qc29uIiksCiAgICAgICAgICAgIGV2YWw9VHJ1ZSwKICAgICAgICAgICAgdXNlX2RlZXBzcGVlZD1UcnVlLAogICAgICAgICkKICAgICAgICBzZWxmLm1vZGVsLmN1ZGEoKQoKICAgICAgICBzZWxmLnN1cHBvcnRlZF9sYW5ndWFnZXMgPSBjb25maWcubGFuZ3VhZ2VzCgogICAgZGVmIHByZWRpY3Qoc2VsZiwgCiAgICAgICAgcHJvbXB0LAogICAgICAgIGxhbmd1YWdlLAogICAgICAgIGF1ZGlvX2ZpbGVfcHRoLAogICAgICAgIHZvaWNlX2NsZWFudXAsCiAgICApOgogICAgICAgICMg5qih5Z6L5LiN5pSv5oyB6K+t6KiACiAgICAgICAgaWYgbGFuZ3VhZ2Ugbm90IGluIHNlbGYuc3VwcG9ydGVkX2xhbmd1YWdlczoKICAgICAgICAgICAgZ3IuV2FybmluZygKICAgICAgICAgICAgICAgIGYiTGFuZ3VhZ2UgeW91IHB1dCB7bGFuZ3VhZ2V9IGluIGlzIG5vdCBpbiBpcyBub3QgaW4gb3VyIFN1cHBvcnRlZCBMYW5ndWFnZXMsIHBsZWFzZSBjaG9vc2UgZnJvbSBkcm9wZG93biIKICAgICAgICAgICAgKQoKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICAgICAgTm9uZSwKICAgICAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgICkKCiAgICAgICAgbGFuZ3VhZ2VfcHJlZGljdGVkID0gbGFuZ2lkLmNsYXNzaWZ5KHByb21wdClbCiAgICAgICAgICAgIDAKICAgICAgICBdLnN0cmlwKCkgICMgc3RyaXAgbmVlZCBhcyB0aGVyZSBpcyBzcGFjZSBhdCBlbmQhCgogICAgICAgICMgdHRzIGV4cGVjdHMgY2hpbmVzZSBhcyB6aC1jbgogICAgICAgIGlmIGxhbmd1YWdlX3ByZWRpY3RlZCA9PSAiemgiOgogICAgICAgICAgICAjIHdlIHVzZSB6aC1jbgogICAgICAgICAgICBsYW5ndWFnZV9wcmVkaWN0ZWQgPSAiemgtY24iCgogICAgICAgIHByaW50KGYiRGV0ZWN0ZWQgbGFuZ3VhZ2U6e2xhbmd1YWdlX3ByZWRpY3RlZH0sIENob3NlbiBsYW5ndWFnZTp7bGFuZ3VhZ2V9IikKCiAgICAgICAgc3BlYWtlcl93YXYgPSBhdWRpb19maWxlX3B0aAoKICAgICAgICAjIEZpbHRlcmluZyBmb3IgbWljcm9waG9uZSBpbnB1dCwgYXMgaXQgaGFzIEJHIG5vaXNlLCBtYXliZSBzaWxlbmNlIGluIGJlZ2lubmluZyBhbmQgZW5kCiAgICAgICAgIyBUaGlzIGlzIGZhc3QgZmlsdGVyaW5nIG5vdCBwZXJmZWN0CgogICAgICAgICMgQXBwbHkgYWxsIG9uIGRlbWFuZAogICAgICAgIGxvd3Bhc3NmaWx0ZXIgPSBkZW5vaXNlID0gdHJpbSA9IGxvdWRuZXNzID0gVHJ1ZQoKICAgICAgICBpZiBsb3dwYXNzZmlsdGVyOgogICAgICAgICAgICBsb3dwYXNzX2hpZ2hwYXNzID0gImxvd3Bhc3M9ODAwMCxoaWdocGFzcz03NSwiCiAgICAgICAgZWxzZToKICAgICAgICAgICAgbG93cGFzc19oaWdocGFzcyA9ICIiCgogICAgICAgIGlmIHRyaW06CiAgICAgICAgICAgICMgYmV0dGVyIHRvIHJlbW92ZSBzaWxlbmNlIGluIGJlZ2lubmluZyBhbmQgZW5kIGZvciBtaWNyb3Bob25lCiAgICAgICAgICAgIHRyaW1fc2lsZW5jZSA9ICJhcmV2ZXJzZSxzaWxlbmNlcmVtb3ZlPXN0YXJ0X3BlcmlvZHM9MTpzdGFydF9zaWxlbmNlPTA6c3RhcnRfdGhyZXNob2xkPTAuMDIsYXJldmVyc2Usc2lsZW5jZXJlbW92ZT1zdGFydF9wZXJpb2RzPTE6c3RhcnRfc2lsZW5jZT0wOnN0YXJ0X3RocmVzaG9sZD0wLjAyLCIKICAgICAgICBlbHNlOgogICAgICAgICAgICB0cmltX3NpbGVuY2UgPSAiIgoKICAgICAgICBpZiB2b2ljZV9jbGVhbnVwOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBvdXRfZmlsZW5hbWUgPSAoCiAgICAgICAgICAgICAgICAgICAgc3BlYWtlcl93YXYgKyBzdHIodXVpZC51dWlkNCgpKSArICIud2F2IgogICAgICAgICAgICAgICAgKSAgIyBmZm1wZWcgdG8ga25vdyBvdXRwdXQgZm9ybWF0CgogICAgICAgICAgICAgICAgIyB3ZSB3aWxsIHVzZSBuZXdlciBmZm1wZWcgYXMgdGhhdCBoYXMgYWZmdG4gZGVub2lzZSBmaWx0ZXIKICAgICAgICAgICAgICAgIHNoZWxsX2NvbW1hbmQgPSBmImZmbXBlZyAteSAtaSB7c3BlYWtlcl93YXZ9IC1hZiB7bG93cGFzc19oaWdocGFzc317dHJpbV9zaWxlbmNlfSB7b3V0X2ZpbGVuYW1lfSIuc3BsaXQoCiAgICAgICAgICAgICAgICAgICAgIiAiCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgY29tbWFuZF9yZXN1bHQgPSBzdWJwcm9jZXNzLnJ1bigKICAgICAgICAgICAgICAgICAgICBbaXRlbSBmb3IgaXRlbSBpbiBzaGVsbF9jb21tYW5kXSwKICAgICAgICAgICAgICAgICAgICBjYXB0dXJlX291dHB1dD1GYWxzZSwKICAgICAgICAgICAgICAgICAgICB0ZXh0PVRydWUsCiAgICAgICAgICAgICAgICAgICAgY2hlY2s9VHJ1ZSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHNwZWFrZXJfd2F2ID0gb3V0X2ZpbGVuYW1lCiAgICAgICAgICAgICAgICBwcmludCgiRmlsdGVyZWQgbWljcm9waG9uZSBpbnB1dCIpCiAgICAgICAgICAgIGV4Y2VwdCBzdWJwcm9jZXNzLkNhbGxlZFByb2Nlc3NFcnJvcjoKICAgICAgICAgICAgICAgICMgVGhlcmUgd2FzIGFuIGVycm9yIC0gY29tbWFuZCBleGl0ZWQgd2l0aCBub24temVybyBjb2RlCiAgICAgICAgICAgICAgICBwcmludCgiRXJyb3I6IGZhaWxlZCBmaWx0ZXJpbmcsIHVzZSBvcmlnaW5hbCBtaWNyb3Bob25lIGlucHV0IikKICAgICAgICBlbHNlOgogICAgICAgICAgICBzcGVha2VyX3dhdiA9IHNwZWFrZXJfd2F2CgogICAgICAgIGlmIGxlbihwcm9tcHQpIDwgMjoKICAgICAgICAgICAgZ3IuV2FybmluZygiUGxlYXNlIGdpdmUgYSBsb25nZXIgcHJvbXB0IHRleHQiKQogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgTm9uZSwKICAgICAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICAgICAgTm9uZSwKICAgICAgICAgICAgKQogICAgICAgIAogICAgICAgIG1ldHJpY3NfdGV4dCA9ICIiCiAgICAgICAgdF9sYXRlbnQgPSB0aW1lLnRpbWUoKQoKICAgICAgICAjIG5vdGUgZGlmZnVzaW9uX2NvbmRpdGlvbmluZyBub3QgdXNlZCBvbiBoaWZpZ2FuIChkZWZhdWx0IG1vZGUpLCBpdCB3aWxsIGJlIGVtcHR5IGJ1dCBuZWVkIHRvIHBhc3MgaXQgdG8gbW9kZWwuaW5mZXJlbmNlCiAgICAgICAgdHJ5OgogICAgICAgICAgICAoCiAgICAgICAgICAgICAgICBncHRfY29uZF9sYXRlbnQsCiAgICAgICAgICAgICAgICBzcGVha2VyX2VtYmVkZGluZywKICAgICAgICAgICAgKSA9IHNlbGYubW9kZWwuZ2V0X2NvbmRpdGlvbmluZ19sYXRlbnRzKGF1ZGlvX3BhdGg9c3BlYWtlcl93YXYsIGdwdF9jb25kX2xlbj0zMCwgZ3B0X2NvbmRfY2h1bmtfbGVuPTQsIG1heF9yZWZfbGVuZ3RoPTYwKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgcHJpbnQoIlNwZWFrZXIgZW5jb2RpbmcgZXJyb3IiLCBzdHIoZSkpCiAgICAgICAgICAgIGdyLldhcm5pbmcoCiAgICAgICAgICAgICAgICAiSXQgYXBwZWFycyBzb21ldGhpbmcgd3Jvbmcgd2l0aCByZWZlcmVuY2UsIGRpZCB5b3UgdW5tdXRlIHlvdXIgbWljcm9waG9uZT8iCiAgICAgICAgICAgICkKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgIE5vbmUsCiAgICAgICAgICAgICAgICBOb25lLAogICAgICAgICAgICAgICAgTm9uZSwKICAgICAgICAgICAgKQoKICAgICAgICBsYXRlbnRfY2FsY3VsYXRpb25fdGltZSA9IHRpbWUudGltZSgpIC0gdF9sYXRlbnQKICAgICAgICAjIG1ldHJpY3NfdGV4dD1mIkVtYmVkZGluZyBjYWxjdWxhdGlvbiB0aW1lOiB7bGF0ZW50X2NhbGN1bGF0aW9uX3RpbWU6LjJmfSBzZWNvbmRzXG4iCgogICAgICAgICMgdGVtcG9yYXJ5IGNvbW1hIGZpeAogICAgICAgIHByb21wdD0gcmUuc3ViKCIoW15ceDAwLVx4N0ZdfFx3KShcLnxc44CCfFw/KSIsciJcMSBcMlwyIixwcm9tcHQpCgogICAgICAgIHdhdl9jaHVua3MgPSBbXQogICAgICAgICMjIERpcmVjdCBtb2RlCiAgICAgICAgCiAgICAgICAgcHJpbnQoIkk6IEdlbmVyYXRpbmcgbmV3IGF1ZGlvLi4uIikKICAgICAgICB0MCA9IHRpbWUudGltZSgpCiAgICAgICAgb3V0ID0gc2VsZi5tb2RlbC5pbmZlcmVuY2UoCiAgICAgICAgICAgIHByb21wdCwKICAgICAgICAgICAgbGFuZ3VhZ2UsCiAgICAgICAgICAgIGdwdF9jb25kX2xhdGVudCwKICAgICAgICAgICAgc3BlYWtlcl9lbWJlZGRpbmcsCiAgICAgICAgICAgIHJlcGV0aXRpb25fcGVuYWx0eT01LjAsCiAgICAgICAgICAgIHRlbXBlcmF0dXJlPTAuNzUsCiAgICAgICAgKQogICAgICAgIGluZmVyZW5jZV90aW1lID0gdGltZS50aW1lKCkgLSB0MAogICAgICAgIHByaW50KGYiSTogVGltZSB0byBnZW5lcmF0ZSBhdWRpbzoge3JvdW5kKGluZmVyZW5jZV90aW1lKjEwMDApfSBtaWxsaXNlY29uZHMiKQogICAgICAgIG1ldHJpY3NfdGV4dCs9ZiJUaW1lIHRvIGdlbmVyYXRlIGF1ZGlvOiB7cm91bmQoaW5mZXJlbmNlX3RpbWUqMTAwMCl9IG1pbGxpc2Vjb25kc1xuIgogICAgICAgIHJlYWxfdGltZV9mYWN0b3I9ICh0aW1lLnRpbWUoKSAtIHQwKSAvIG91dFsnd2F2J10uc2hhcGVbLTFdICogMjQwMDAKICAgICAgICBwcmludChmIlJlYWwtdGltZSBmYWN0b3IgKFJURik6IHtyZWFsX3RpbWVfZmFjdG9yfSIpCiAgICAgICAgbWV0cmljc190ZXh0Kz1mIlJlYWwtdGltZSBmYWN0b3IgKFJURik6IHtyZWFsX3RpbWVfZmFjdG9yOi4yZn1cbiIKICAgICAgICB0b3JjaGF1ZGlvLnNhdmUoIm91dHB1dC53YXYiLCB0b3JjaC50ZW5zb3Iob3V0WyJ3YXYiXSkudW5zcXVlZXplKDApLCAyNDAwMCkKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAib3V0cHV0LndhdiIsCiAgICAgICAgICAgIG1ldHJpY3NfdGV4dCwKICAgICAgICAgICAgc3BlYWtlcl93YXYsCiAgICAgICAgKQoKdGl0bGUgPSAi6K+t6Z+z5YWL6ZqGIENvcXVp8J+QuCBYVFRTIgoKZXhhbXBsZXMgPSBbCiAgICBbCiAgICAgICAgIk9uY2Ugd2hlbiBJIHdhcyBzaXggeWVhcnMgb2xkIEkgc2F3IGEgbWFnbmlmaWNlbnQgcGljdHVyZSIsCiAgICAgICAgImVuIiwKICAgICAgICAiZXhhbXBsZXMvZmVtYWxlLndhdiIsCiAgICAgICAgTm9uZSwKICAgICAgICBGYWxzZSwKICAgICAgICBGYWxzZSwKICAgICAgICBGYWxzZSwKICAgICAgICBUcnVlLAogICAgXSwKICAgIFsKICAgICAgICAiTG9yc3F1ZSBqJ2F2YWlzIHNpeCBhbnMgaidhaSB2dSwgdW5lIGZvaXMsIHVuZSBtYWduaWZpcXVlIGltYWdlIiwKICAgICAgICAiZnIiLAogICAgICAgICJleGFtcGxlcy9tYWxlLndhdiIsCiAgICAgICAgTm9uZSwKICAgICAgICBGYWxzZSwKICAgICAgICBGYWxzZSwKICAgICAgICBGYWxzZSwKICAgICAgICBUcnVlLAogICAgXSwKICAgIFsKICAgICAgICAiQWxzIGljaCBzZWNocyB3YXIsIHNhaCBpY2ggZWlubWFsIGVpbiB3dW5kZXJiYXJlcyBCaWxkIiwKICAgICAgICAiZGUiLAogICAgICAgICJleGFtcGxlcy9mZW1hbGUud2F2IiwKICAgICAgICBOb25lLAogICAgICAgIEZhbHNlLAogICAgICAgIEZhbHNlLAogICAgICAgIEZhbHNlLAogICAgICAgIFRydWUsCiAgICBdLAogICAgWwogICAgICAgICJDdWFuZG8gdGVuw61hIHNlaXMgYcOxb3MsIHZpIHVuYSB2ZXogdW5hIGltYWdlbiBtYWduw61maWNhIiwKICAgICAgICAiZXMiLAogICAgICAgICJleGFtcGxlcy9tYWxlLndhdiIsCiAgICAgICAgTm9uZSwKICAgICAgICBGYWxzZSwKICAgICAgICBGYWxzZSwKICAgICAgICBGYWxzZSwKICAgICAgICBUcnVlLAogICAgXSwKICAgIFsKICAgICAgICAiUXVhbmRvIGV1IHRpbmhhIHNlaXMgYW5vcyBldSB2aSwgdW1hIHZleiwgdW1hIGltYWdlbSBtYWduw61maWNhIiwKICAgICAgICAicHQiLAogICAgICAgICJleGFtcGxlcy9mZW1hbGUud2F2IiwKICAgICAgICBOb25lLAogICAgICAgIEZhbHNlLAogICAgICAgIEZhbHNlLAogICAgICAgIEZhbHNlLAogICAgICAgIFRydWUsCiAgICBdLAogICAgWwogICAgICAgICJLaWVkeSBtaWHFgmVtIHN6ZcWbxIcgbGF0LCB6b2JhY3p5xYJlbSBwZXduZWdvIHJhenUgd3NwYW5pYcWCeSBvYnJhemVrIiwKICAgICAgICAicGwiLAogICAgICAgICJleGFtcGxlcy9tYWxlLndhdiIsCiAgICAgICAgTm9uZSwKICAgICAgICBGYWxzZSwKICAgICAgICBGYWxzZSwKICAgICAgICBGYWxzZSwKICAgICAgICBUcnVlLAogICAgXSwKICAgIFsKICAgICAgICAiVW4gdGVtcG8gbG9udGFubywgcXVhbmRvIGF2ZXZvIHNlaSBhbm5pLCB2aWRpIHVuIG1hZ25pZmljbyBkaXNlZ25vIiwKICAgICAgICAiaXQiLAogICAgICAgICJleGFtcGxlcy9mZW1hbGUud2F2IiwKICAgICAgICBOb25lLAogICAgICAgIEZhbHNlLAogICAgICAgIEZhbHNlLAogICAgICAgIEZhbHNlLAogICAgICAgIFRydWUsCiAgICBdLAogICAgWwogICAgICAgICJCaXIgemFtYW5sYXIsIGFsdMSxIHlhxZ/EsW5kYXlrZW4sIG11aHRlxZ9lbSBiaXIgcmVzaW0gZ8O2cmTDvG0iLAogICAgICAgICJ0ciIsCiAgICAgICAgImV4YW1wbGVzL2ZlbWFsZS53YXYiLAogICAgICAgIE5vbmUsCiAgICAgICAgRmFsc2UsCiAgICAgICAgRmFsc2UsCiAgICAgICAgRmFsc2UsCiAgICAgICAgVHJ1ZSwKICAgIF0sCiAgICBbCiAgICAgICAgItCa0L7Qs9C00LAg0LzQvdC1INCx0YvQu9C+INGI0LXRgdGC0Ywg0LvQtdGCLCDRjyDRg9Cy0LjQtNC10Lsg0L7QtNC90LDQttC00Ysg0YPQtNC40LLQuNGC0LXQu9GM0L3Rg9GOINC60LDRgNGC0LjQvdC60YMiLAogICAgICAgICJydSIsCiAgICAgICAgImV4YW1wbGVzL2ZlbWFsZS53YXYiLAogICAgICAgIE5vbmUsCiAgICAgICAgRmFsc2UsCiAgICAgICAgRmFsc2UsCiAgICAgICAgRmFsc2UsCiAgICAgICAgVHJ1ZSwKICAgIF0sCiAgICBbCiAgICAgICAgIlRvZW4gaWsgZWVuIGphYXIgb2YgemVzIHdhcywgemFnIGlrIG9wIGVlbiBrZWVyIGVlbiBwcmFjaHRpZ2UgcGxhYXQiLAogICAgICAgICJubCIsCiAgICAgICAgImV4YW1wbGVzL21hbGUud2F2IiwKICAgICAgICBOb25lLAogICAgICAgIEZhbHNlLAogICAgICAgIEZhbHNlLAogICAgICAgIEZhbHNlLAogICAgICAgIFRydWUsCiAgICBdLAogICAgWwogICAgICAgICJLZHnFviBtaSBieWxvIMWhZXN0IGxldCwgdmlkxJtsIGpzZW0gamVkbm91IG7DoWRoZXJuw70gb2Jyw6F6ZWsiLAogICAgICAgICJjcyIsCiAgICAgICAgImV4YW1wbGVzL2ZlbWFsZS53YXYiLAogICAgICAgIE5vbmUsCiAgICAgICAgRmFsc2UsCiAgICAgICAgRmFsc2UsCiAgICAgICAgRmFsc2UsCiAgICAgICAgVHJ1ZSwKICAgIF0sCiAgICBbCiAgICAgICAgIuW9k+aIkei/mOWPquacieWFreWygeeahOaXtuWAme+8jCDnnIvliLDkuobkuIDlia/nsr7lvannmoTmj5LnlLsiLAogICAgICAgICJ6aC1jbiIsCiAgICAgICAgImV4YW1wbGVzL2ZlbWFsZS53YXYiLAogICAgICAgIE5vbmUsCiAgICAgICAgRmFsc2UsCiAgICAgICAgRmFsc2UsCiAgICAgICAgRmFsc2UsCiAgICAgICAgVHJ1ZSwKICAgIF0sCiAgICBbCiAgICAgICAgIuOBi+OBpOOBpiDlha3mrbPjga7jgajjgY3jgIHntKDmmbTjgonjgZfjgYTntbXjgpLopovjgb7jgZfjgZ8iLAogICAgICAgICJqYSIsCiAgICAgICAgImV4YW1wbGVzL2ZlbWFsZS53YXYiLAogICAgICAgIE5vbmUsCiAgICAgICAgRmFsc2UsCiAgICAgICAgVHJ1ZSwKICAgICAgICBGYWxzZSwKICAgICAgICBUcnVlLAogICAgXSwKICAgIFsKICAgICAgICAi7ZWc67KI7J2AIOuCtOqwgCDsl6zshK8g7IK07J207JeI7J2EIOuVjCDrqYvsp4Qg6re466a87J2EIOuztOyVmOyKteuLiOuLpC4iLAogICAgICAgICJrbyIsCiAgICAgICAgImV4YW1wbGVzL2ZlbWFsZS53YXYiLAogICAgICAgIE5vbmUsCiAgICAgICAgRmFsc2UsCiAgICAgICAgVHJ1ZSwKICAgICAgICBGYWxzZSwKICAgICAgICBUcnVlLAogICAgXSwKICAgICAgICBbCiAgICAgICAgIkVneXN6ZXIgaGF0IMOpdmVzIGtvcm9tYmFuIGzDoXR0YW0gZWd5IGNzb2TDoWxhdG9zIGvDqXBldCIsCiAgICAgICAgImh1IiwKICAgICAgICAiZXhhbXBsZXMvbWFsZS53YXYiLAogICAgICAgIE5vbmUsCiAgICAgICAgRmFsc2UsCiAgICAgICAgVHJ1ZSwKICAgICAgICBGYWxzZSwKICAgICAgICBUcnVlLAogICAgXSwKXQoKCgpkZWYgbWFpbigpOgogICAgd2l0aCBnci5CbG9ja3MoYW5hbHl0aWNzX2VuYWJsZWQ9RmFsc2UpIGFzIGRlbW86CiAgICAgICAgd2l0aCBnci5Sb3coKToKICAgICAgICAgICAgd2l0aCBnci5Db2x1bW4oKToKICAgICAgICAgICAgICAgIGdyLk1hcmtkb3duKAogICAgICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICAgICAgICAgICMjIOivremfs+WFi+mahiAoQ29xdWkgVFRTKQogICAgICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB3aXRoIGdyLkNvbHVtbigpOgogICAgICAgICAgICAgICAgIyDnlKjkuo7lr7npvZDlm77lg4/nmoTljaDkvY3nrKYKICAgICAgICAgICAgICAgIHBhc3MKCiAgICAgICAgd2l0aCBnci5Sb3coKToKICAgICAgICAgICAgd2l0aCBnci5Db2x1bW4oKToKICAgICAgICAgICAgICAgIGdyLk1hcmtkb3duKCLmlofmnKzmj5DnpLo6IOS4gOasoeS4gOS4pOS4quWPpeWtkOacgOWlveOAguacgOWkmjIwMOS4quaWh+acrOWtl+espuOAgiIpCiAgICAgICAgICAgIHdpdGggZ3IuQ29sdW1uKCk6CiAgICAgICAgICAgICAgICBnci5NYXJrZG93bigi6K+t6KiAOiDpgInmi6nnlKjkuo7lkIjmiJDor63pn7PnmoTovpPlh7ror63oqIDjgIIiKQoKICAgICAgICB3aXRoIGdyLlJvdygpOgogICAgICAgICAgICB3aXRoIGdyLkNvbHVtbigpOgogICAgICAgICAgICAgICAgaW5wdXRfdGV4dF9nciA9IGdyLlRleHRib3goCiAgICAgICAgICAgICAgICAgICAgbGFiZWw9IuaWh+acrOaPkOekuiIsCiAgICAgICAgICAgICAgICAgICAgaW5mbz0i5LiA5qyh5LiA5Lik5Liq5Y+l5a2Q5pyA5aW944CC5pyA5aSaMjAw5Liq5paH5pys5a2X56ym44CCIiwKICAgICAgICAgICAgICAgICAgICB2YWx1ZT0i5Zeo77yM5oiR5piv5L2g55qE5paw6K+t6Z+z5YWL6ZqG44CC6K+35bC96YeP5LiK5Lyg6auY6LSo6YeP55qE6Z+z6aKR44CCIiwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGxhbmd1YWdlX2dyID0gZ3IuRHJvcGRvd24oCiAgICAgICAgICAgICAgICAgICAgbGFiZWw9IuivreiogCIsCiAgICAgICAgICAgICAgICAgICAgaW5mbz0i6YCJ5oup55So5LqO5ZCI5oiQ6K+t6Z+z55qE6L6T5Ye66K+t6KiAIiwKICAgICAgICAgICAgICAgICAgICBjaG9pY2VzPVsKICAgICAgICAgICAgICAgICAgICAgICAgImVuIiwKICAgICAgICAgICAgICAgICAgICAgICAgImVzIiwKICAgICAgICAgICAgICAgICAgICAgICAgImZyIiwKICAgICAgICAgICAgICAgICAgICAgICAgImRlIiwKICAgICAgICAgICAgICAgICAgICAgICAgIml0IiwKICAgICAgICAgICAgICAgICAgICAgICAgInB0IiwKICAgICAgICAgICAgICAgICAgICAgICAgInBsIiwKICAgICAgICAgICAgICAgICAgICAgICAgInRyIiwKICAgICAgICAgICAgICAgICAgICAgICAgInJ1IiwKICAgICAgICAgICAgICAgICAgICAgICAgIm5sIiwKICAgICAgICAgICAgICAgICAgICAgICAgImNzIiwKICAgICAgICAgICAgICAgICAgICAgICAgImFyIiwKICAgICAgICAgICAgICAgICAgICAgICAgInpoLWNuIiwKICAgICAgICAgICAgICAgICAgICAgICAgImphIiwKICAgICAgICAgICAgICAgICAgICAgICAgImtvIiwKICAgICAgICAgICAgICAgICAgICAgICAgImh1IiwKICAgICAgICAgICAgICAgICAgICAgICAgImhpIgogICAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICAgbWF4X2Nob2ljZXM9MSwKICAgICAgICAgICAgICAgICAgICB2YWx1ZT0iZW4iLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgcmVmX2dyID0gZ3IuQXVkaW8oCiAgICAgICAgICAgICAgICAgICAgbGFiZWw9IuWPguiAg+mfs+mikSIsCiAgICAgICAgICAgICAgICAgICAgdHlwZT0iZmlsZXBhdGgiLAogICAgICAgICAgICAgICAgICAgIHZhbHVlPSJleGFtcGxlcy9mZW1hbGUud2F2IiwKICAgICAgICAgICAgICAgICAgICBzb3VyY2VzPVsibWljcm9waG9uZSIsICJ1cGxvYWQiXSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGNsZWFuX3JlZl9nciA9IGdyLkNoZWNrYm94KAogICAgICAgICAgICAgICAgICAgIGxhYmVsPSLmuIXnkIblj4LogIPor63pn7MiLAogICAgICAgICAgICAgICAgICAgIHZhbHVlPUZhbHNlLAogICAgICAgICAgICAgICAgICAgIGluZm89IuWmguaenOaCqOeahOm6puWFi+mjjuaIluWPguiAg+ivremfs+acieWZqumfs++8jOatpOmAiemhueWPr+S7peaUueWWhOi+k+WHuuOAgiIsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB0dHNfYnV0dG9uID0gZ3IuQnV0dG9uKCLlj5HpgIEiLCBlbGVtX2lkPSJzZW5kLWJ0biIsIHZpc2libGU9VHJ1ZSkKCgogICAgICAgICAgICB3aXRoIGdyLkNvbHVtbigpOgogICAgICAgICAgICAgICAgYXVkaW9fZ3IgPSBnci5BdWRpbyhsYWJlbD0i5ZCI5oiQ6Z+z6aKRIiwgYXV0b3BsYXk9VHJ1ZSkKICAgICAgICAgICAgICAgIG91dF90ZXh0X2dyID0gZ3IuVGV4dChsYWJlbD0i5oyH5qCHIikKICAgICAgICAgICAgICAgIHJlZl9hdWRpb19nciA9IGdyLkF1ZGlvKGxhYmVsPSLkvb/nlKjnmoTlj4LogIPpn7PpopEiKQogICAgICAgIHdpdGggZ3IuUm93KCk6CiAgICAgICAgICAgIGdyLkV4YW1wbGVzKGV4YW1wbGVzLAogICAgICAgICAgICAgICAgICAgICAgICBsYWJlbD0i56S65L6LIiwKICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRzPVtpbnB1dF90ZXh0X2dyLCBsYW5ndWFnZV9nciwgcmVmX2dyLCBjbGVhbl9yZWZfZ3JdLAogICAgICAgICAgICAgICAgICAgICAgICBvdXRwdXRzPVthdWRpb19nciwgb3V0X3RleHRfZ3IsIHJlZl9hdWRpb19ncl0sCiAgICAgICAgICAgICAgICAgICAgICAgIGZuPVhUVFMoKS5wcmVkaWN0LAogICAgICAgICAgICAgICAgICAgICAgICBjYWNoZV9leGFtcGxlcz1GYWxzZSwpCiAgICAgICAgdHRzX2J1dHRvbi5jbGljayhYVFRTKCkucHJlZGljdCwgW2lucHV0X3RleHRfZ3IsIGxhbmd1YWdlX2dyLCByZWZfZ3IsIGNsZWFuX3JlZl9ncl0sIG91dHB1dHM9W2F1ZGlvX2dyLCBvdXRfdGV4dF9nciwgcmVmX2F1ZGlvX2dyXSkKICAgIHJldHVybiBkZW1vCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOiAgCiAgICBkZW1vID0gbWFpbigpICAKICAgIGRlbW8ubGF1bmNoKCk=
+
+import os
+import subprocess
+import uuid
+import time
+import torch
+import torchaudio
+
+# langid is used to detect language for longer text
+# Most users expect text to be their own language, there is checkbox to disable it
+import langid
+import re
+import gradio as gr
+from TTS.tts.configs.xtts_config import XttsConfig
+from TTS.tts.models.xtts import Xtts
+from TTS.utils.generic_utils import get_user_data_dir
+
+class XTTS():
+    def __init__(self):
+        model_name = "tts_models/multilingual/multi-dataset/xtts_v2"
+        # ModelManager().download_model(model_name)
+        model_path = os.path.join(get_user_data_dir("tts"), model_name.replace("/", "--"))
+        # print("XTTS downloaded")
+
+        config = XttsConfig()
+        config.load_json(os.path.join(model_path, "config.json"))
+
+        self.model = Xtts.init_from_config(config)
+        self.model.load_checkpoint(
+            config,
+            checkpoint_path=os.path.join(model_path, "model.pth"),
+            vocab_path=os.path.join(model_path, "vocab.json"),
+            eval=True,
+            use_deepspeed=True,
+        )
+        self.model.cuda()
+
+        self.supported_languages = config.languages
+
+    def predict(self, 
+        prompt,
+        language,
+        audio_file_pth,
+        voice_cleanup,
+    ):
+        # 模型不支持语言
+        if language not in self.supported_languages:
+            gr.Warning(
+                f"Language you put {language} in is not in is not in our Supported Languages, please choose from dropdown"
+            )
+
+            return (
+                None,
+                None,
+                None,
+                None,
+            )
+
+        language_predicted = langid.classify(prompt)[
+            0
+        ].strip()  # strip need as there is space at end!
+
+        # tts expects chinese as zh-cn
+        if language_predicted == "zh":
+            # we use zh-cn
+            language_predicted = "zh-cn"
+
+        print(f"Detected language:{language_predicted}, Chosen language:{language}")
+
+        speaker_wav = audio_file_pth
+
+        # Filtering for microphone input, as it has BG noise, maybe silence in beginning and end
+        # This is fast filtering not perfect
+
+        # Apply all on demand
+        lowpassfilter = denoise = trim = loudness = True
+
+        if lowpassfilter:
+            lowpass_highpass = "lowpass=8000,highpass=75,"
+        else:
+            lowpass_highpass = ""
+
+        if trim:
+            # better to remove silence in beginning and end for microphone
+            trim_silence = "areverse,silenceremove=start_periods=1:start_silence=0:start_threshold=0.02,areverse,silenceremove=start_periods=1:start_silence=0:start_threshold=0.02,"
+        else:
+            trim_silence = ""
+
+        if voice_cleanup:
+            try:
+                out_filename = (
+                    speaker_wav + str(uuid.uuid4()) + ".wav"
+                )  # ffmpeg to know output format
+
+                # we will use newer ffmpeg as that has afftn denoise filter
+                shell_command = f"ffmpeg -y -i {speaker_wav} -af {lowpass_highpass}{trim_silence} {out_filename}".split(
+                    " "
+                )
+
+                command_result = subprocess.run(
+                    [item for item in shell_command],
+                    capture_output=False,
+                    text=True,
+                    check=True,
+                )
+                speaker_wav = out_filename
+                print("Filtered microphone input")
+            except subprocess.CalledProcessError:
+                # There was an error - command exited with non-zero code
+                print("Error: failed filtering, use original microphone input")
+        else:
+            speaker_wav = speaker_wav
+
+        if len(prompt) < 2:
+            gr.Warning("Please give a longer prompt text")
+            return (
+                None,
+                None,
+                None,
+                None,
+            )
+        
+        metrics_text = ""
+        t_latent = time.time()
+
+        # note diffusion_conditioning not used on hifigan (default mode), it will be empty but need to pass it to model.inference
+        try:
+            (
+                gpt_cond_latent,
+                speaker_embedding,
+            ) = self.model.get_conditioning_latents(audio_path=speaker_wav, gpt_cond_len=30, gpt_cond_chunk_len=4, max_ref_length=60)
+        except Exception as e:
+            print("Speaker encoding error", str(e))
+            gr.Warning(
+                "It appears something wrong with reference, did you unmute your microphone?"
+            )
+            return (
+                None,
+                None,
+                None,
+            )
+
+        latent_calculation_time = time.time() - t_latent
+        # metrics_text=f"Embedding calculation time: {latent_calculation_time:.2f} seconds\n"
+
+        # temporary comma fix
+        prompt= re.sub("([^\x00-\x7F]|\w)(\.|\。|\?)",r"\1 \2\2",prompt)
+
+        wav_chunks = []
+        ## Direct mode
+        
+        print("I: Generating new audio...")
+        t0 = time.time()
+        out = self.model.inference(
+            prompt,
+            language,
+            gpt_cond_latent,
+            speaker_embedding,
+            repetition_penalty=5.0,
+            temperature=0.75,
+        )
+        inference_time = time.time() - t0
+        print(f"I: Time to generate audio: {round(inference_time*1000)} milliseconds")
+        metrics_text+=f"Time to generate audio: {round(inference_time*1000)} milliseconds\n"
+        real_time_factor= (time.time() - t0) / out['wav'].shape[-1] * 24000
+        print(f"Real-time factor (RTF): {real_time_factor}")
+        metrics_text+=f"Real-time factor (RTF): {real_time_factor:.2f}\n"
+        torchaudio.save("output.wav", torch.tensor(out["wav"]).unsqueeze(0), 24000)
+        return (
+            "output.wav",
+            metrics_text,
+            speaker_wav,
+        )
+
+title = "语音克隆 Coqui🐸 XTTS"
+
+examples = [
+    [
+        "Once when I was six years old I saw a magnificent picture",
+        "en",
+        "examples/female.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "Lorsque j'avais six ans j'ai vu, une fois, une magnifique image",
+        "fr",
+        "examples/male.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "Als ich sechs war, sah ich einmal ein wunderbares Bild",
+        "de",
+        "examples/female.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "Cuando tenía seis años, vi una vez una imagen magnífica",
+        "es",
+        "examples/male.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "Quando eu tinha seis anos eu vi, uma vez, uma imagem magnífica",
+        "pt",
+        "examples/female.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "Kiedy miałem sześć lat, zobaczyłem pewnego razu wspaniały obrazek",
+        "pl",
+        "examples/male.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "Un tempo lontano, quando avevo sei anni, vidi un magnifico disegno",
+        "it",
+        "examples/female.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "Bir zamanlar, altı yaşındayken, muhteşem bir resim gördüm",
+        "tr",
+        "examples/female.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "Когда мне было шесть лет, я увидел однажды удивительную картинку",
+        "ru",
+        "examples/female.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "Toen ik een jaar of zes was, zag ik op een keer een prachtige plaat",
+        "nl",
+        "examples/male.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "Když mi bylo šest let, viděl jsem jednou nádherný obrázek",
+        "cs",
+        "examples/female.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "当我还只有六岁的时候， 看到了一副精彩的插画",
+        "zh-cn",
+        "examples/female.wav",
+        None,
+        False,
+        False,
+        False,
+        True,
+    ],
+    [
+        "かつて 六歳のとき、素晴らしい絵を見ました",
+        "ja",
+        "examples/female.wav",
+        None,
+        False,
+        True,
+        False,
+        True,
+    ],
+    [
+        "한번은 내가 여섯 살이었을 때 멋진 그림을 보았습니다.",
+        "ko",
+        "examples/female.wav",
+        None,
+        False,
+        True,
+        False,
+        True,
+    ],
+        [
+        "Egyszer hat éves koromban láttam egy csodálatos képet",
+        "hu",
+        "examples/male.wav",
+        None,
+        False,
+        True,
+        False,
+        True,
+    ],
+]
+
+
+
+def main():
+    with gr.Blocks(analytics_enabled=False) as demo:
+        with gr.Row():
+            with gr.Column():
+                gr.Markdown(
+                    """
+                    ## 语音克隆 (Coqui TTS)
+                    """
+                )
+            with gr.Column():
+                # 用于对齐图像的占位符
+                pass
+
+        with gr.Row():
+            with gr.Column():
+                gr.Markdown("文本提示: 一次一两个句子最好。最多200个文本字符。")
+            with gr.Column():
+                gr.Markdown("语言: 选择用于合成语音的输出语言。")
+
+        with gr.Row():
+            with gr.Column():
+                input_text_gr = gr.Textbox(
+                    label="文本提示",
+                    info="一次一两个句子最好。最多200个文本字符。",
+                    value="嗨，我是你的新语音克隆。请尽量上传高质量的音频。",
+                )
+                language_gr = gr.Dropdown(
+                    label="语言",
+                    info="选择用于合成语音的输出语言",
+                    choices=[
+                        "en",
+                        "es",
+                        "fr",
+                        "de",
+                        "it",
+                        "pt",
+                        "pl",
+                        "tr",
+                        "ru",
+                        "nl",
+                        "cs",
+                        "ar",
+                        "zh-cn",
+                        "ja",
+                        "ko",
+                        "hu",
+                        "hi"
+                    ],
+                    max_choices=1,
+                    value="en",
+                )
+                ref_gr = gr.Audio(
+                    label="参考音频",
+                    type="filepath",
+                    value="examples/female.wav",
+                    sources=["microphone", "upload"],
+                )
+                clean_ref_gr = gr.Checkbox(
+                    label="清理参考语音",
+                    value=False,
+                    info="如果您的麦克风或参考语音有噪音，此选项可以改善输出。",
+                )
+                tts_button = gr.Button("发送", elem_id="send-btn", visible=True)
+
+
+            with gr.Column():
+                audio_gr = gr.Audio(label="合成音频", autoplay=True)
+                out_text_gr = gr.Text(label="指标")
+                ref_audio_gr = gr.Audio(label="使用的参考音频")
+        with gr.Row():
+            gr.Examples(examples,
+                        label="示例",
+                        inputs=[input_text_gr, language_gr, ref_gr, clean_ref_gr],
+                        outputs=[audio_gr, out_text_gr, ref_audio_gr],
+                        fn=XTTS().predict,
+                        cache_examples=False,)
+        tts_button.click(XTTS().predict, [input_text_gr, language_gr, ref_gr, clean_ref_gr], outputs=[audio_gr, out_text_gr, ref_audio_gr])
+    return demo
+
+if __name__ == "__main__":  
+    demo = main()  
+    demo.launch()

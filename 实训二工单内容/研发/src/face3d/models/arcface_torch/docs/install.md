@@ -1,1 +1,51 @@
-IyMgdjEuOC4wIAojIyMgTGludXggYW5kIFdpbmRvd3MgIApgYGBzaGVsbAojIENVREEgMTEuMApwaXAgLS1kZWZhdWx0LXRpbWVvdXQ9MTAwIGluc3RhbGwgdG9yY2g9PTEuOC4wK2N1MTExIHRvcmNodmlzaW9uPT0wLjkuMCtjdTExMSB0b3JjaGF1ZGlvPT0wLjguMCAtZiBodHRwczovL2Rvd25sb2FkLnB5dG9yY2gub3JnL3dobC90b3JjaF9zdGFibGUuaHRtbAoKIyBDVURBIDEwLjIKcGlwIC0tZGVmYXVsdC10aW1lb3V0PTEwMCBpbnN0YWxsIHRvcmNoPT0xLjguMCB0b3JjaHZpc2lvbj09MC45LjAgdG9yY2hhdWRpbz09MC44LjAKCiMgQ1BVIG9ubHkKcGlwIC0tZGVmYXVsdC10aW1lb3V0PTEwMCBpbnN0YWxsIHRvcmNoPT0xLjguMCtjcHUgdG9yY2h2aXNpb249PTAuOS4wK2NwdSB0b3JjaGF1ZGlvPT0wLjguMCAtZiBodHRwczovL2Rvd25sb2FkLnB5dG9yY2gub3JnL3dobC90b3JjaF9zdGFibGUuaHRtbAoKYGBgCgoKIyMgdjEuNy4xICAKIyMjIExpbnV4IGFuZCBXaW5kb3dzICAKYGBgc2hlbGwKIyBDVURBIDExLjAKcGlwIGluc3RhbGwgdG9yY2g9PTEuNy4xK2N1MTEwIHRvcmNodmlzaW9uPT0wLjguMitjdTExMCB0b3JjaGF1ZGlvPT0wLjcuMiAtZiBodHRwczovL2Rvd25sb2FkLnB5dG9yY2gub3JnL3dobC90b3JjaF9zdGFibGUuaHRtbAoKIyBDVURBIDEwLjIKcGlwIGluc3RhbGwgdG9yY2g9PTEuNy4xIHRvcmNodmlzaW9uPT0wLjguMiB0b3JjaGF1ZGlvPT0wLjcuMgoKIyBDVURBIDEwLjEKcGlwIGluc3RhbGwgdG9yY2g9PTEuNy4xK2N1MTAxIHRvcmNodmlzaW9uPT0wLjguMitjdTEwMSB0b3JjaGF1ZGlvPT0wLjcuMiAtZiBodHRwczovL2Rvd25sb2FkLnB5dG9yY2gub3JnL3dobC90b3JjaF9zdGFibGUuaHRtbAoKIyBDVURBIDkuMgpwaXAgaW5zdGFsbCB0b3JjaD09MS43LjErY3U5MiB0b3JjaHZpc2lvbj09MC44LjIrY3U5MiB0b3JjaGF1ZGlvPT0wLjcuMiAtZiBodHRwczovL2Rvd25sb2FkLnB5dG9yY2gub3JnL3dobC90b3JjaF9zdGFibGUuaHRtbAoKIyBDUFUgb25seQpwaXAgaW5zdGFsbCB0b3JjaD09MS43LjErY3B1IHRvcmNodmlzaW9uPT0wLjguMitjcHUgdG9yY2hhdWRpbz09MC43LjIgLWYgaHR0cHM6Ly9kb3dubG9hZC5weXRvcmNoLm9yZy93aGwvdG9yY2hfc3RhYmxlLmh0bWwKYGBgCgoKIyMgdjEuNi4wICAKCiMjIyBMaW51eCBhbmQgV2luZG93cwpgYGBzaGVsbAojIENVREEgMTAuMgpwaXAgaW5zdGFsbCB0b3JjaD09MS42LjAgdG9yY2h2aXNpb249PTAuNy4wCgojIENVREEgMTAuMQpwaXAgaW5zdGFsbCB0b3JjaD09MS42LjArY3UxMDEgdG9yY2h2aXNpb249PTAuNy4wK2N1MTAxIC1mIGh0dHBzOi8vZG93bmxvYWQucHl0b3JjaC5vcmcvd2hsL3RvcmNoX3N0YWJsZS5odG1sCgojIENVREEgOS4yCnBpcCBpbnN0YWxsIHRvcmNoPT0xLjYuMCtjdTkyIHRvcmNodmlzaW9uPT0wLjcuMCtjdTkyIC1mIGh0dHBzOi8vZG93bmxvYWQucHl0b3JjaC5vcmcvd2hsL3RvcmNoX3N0YWJsZS5odG1sCgojIENQVSBvbmx5CnBpcCBpbnN0YWxsIHRvcmNoPT0xLjYuMCtjcHUgdG9yY2h2aXNpb249PTAuNy4wK2NwdSAtZiBodHRwczovL2Rvd25sb2FkLnB5dG9yY2gub3JnL3dobC90b3JjaF9zdGFibGUuaHRtbApgYGA=
+## v1.8.0 
+### Linux and Windows  
+```shell
+# CUDA 11.0
+pip --default-timeout=100 install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+# CUDA 10.2
+pip --default-timeout=100 install torch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0
+
+# CPU only
+pip --default-timeout=100 install torch==1.8.0+cpu torchvision==0.9.0+cpu torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+```
+
+
+## v1.7.1  
+### Linux and Windows  
+```shell
+# CUDA 11.0
+pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+
+# CUDA 10.2
+pip install torch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2
+
+# CUDA 10.1
+pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+
+# CUDA 9.2
+pip install torch==1.7.1+cu92 torchvision==0.8.2+cu92 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+
+# CPU only
+pip install torch==1.7.1+cpu torchvision==0.8.2+cpu torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+
+## v1.6.0  
+
+### Linux and Windows
+```shell
+# CUDA 10.2
+pip install torch==1.6.0 torchvision==0.7.0
+
+# CUDA 10.1
+pip install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+
+# CUDA 9.2
+pip install torch==1.6.0+cu92 torchvision==0.7.0+cu92 -f https://download.pytorch.org/whl/torch_stable.html
+
+# CPU only
+pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+```

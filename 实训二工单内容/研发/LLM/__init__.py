@@ -1,1 +1,105 @@
-ZnJvbSAuTGlubHkgaW1wb3J0IExpbmx5CmZyb20gLlF3ZW4gaW1wb3J0IFF3ZW4KZnJvbSAuUXdlbjIgaW1wb3J0IFF3ZW4yCnRyeToKICAgIGZyb20gLkdlbWluaSBpbXBvcnQgR2VtaW5pCmV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgIHByaW50KCJHZW1pbmnmqKHlnovliqDovb3lpLHotKXvvIzlj6/og73mmK/lm6DkuLrmsqHmnIlnb29nbGUtZ2VuZXJhdGl2ZWFp5bqT77yM5L2G5pivR2VtaW5p5qih5Z6L5LiN5piv5b+F6aGC55qE77yM5Y+v5Lul5b+955WlIikKZnJvbSAuQ2hhdEdQVCBpbXBvcnQgQ2hhdEdQVApmcm9tIC5DaGF0R0xNIGltcG9ydCBDaGF0R0xNCmZyb20gLkxsYW1hMkNoaW5lc2UgaW1wb3J0IExsYW1hMkNoaW5lc2UKZnJvbSAuR1BUNEZyZWUgaW1wb3J0IEdQVDRGUkVFCmZyb20gLlFBbnl0aGluZyBpbXBvcnQgUUFueXRoaW5nCgpkZWYgdGVzdF9MaW5seShxdWVzdGlvbiA9ICLlpoLkvZXlupTlr7nljovlipvvvJ8iLCBtb2RlPSdvZmZsaW5lJywgbW9kZWxfcGF0aD0iTGlubHktQUkvQ2hpbmVzZS1MTGFNQS0yLTdCLWhmIik6CiAgICBsbG0gPSBMaW5seShtb2RlLCBtb2RlbF9wYXRoKQogICAgYW5zd2VyID0gbGxtLmdlbmVyYXRlKHF1ZXN0aW9uKQogICAgcHJpbnQoYW5zd2VyKQogICAgCmRlZiB0ZXN0X1F3ZW4ocXVlc3Rpb24gPSAi5aaC5L2V5bqU5a+55Y6L5Yqb77yfIiwgbW9kZT0nb2ZmbGluZScsIG1vZGVsX3BhdGg9IlF3ZW4vUXdlbi0xXzhCLUNoYXQiKToKICAgIGxsbSA9IFF3ZW4obW9kZSwgbW9kZWxfcGF0aCkKICAgIGFuc3dlciA9IGxsbS5nZW5lcmF0ZShxdWVzdGlvbikKICAgIHByaW50KGFuc3dlcikKICAgIApkZWYgdGVzdF9HZW1pbmkocXVlc3Rpb24gPSAi5aaC5L2V5bqU5a+55Y6L5Yqb77yfIiwgbW9kZWxfcGF0aD0nZ2VtaW5pLXBybycsIGFwaV9rZXk9Tm9uZSwgcHJveHlfdXJsPU5vbmUpOgogICAgbGxtID0gR2VtaW5pKG1vZGVsX3BhdGgsIGFwaV9rZXksIHByb3h5X3VybCkKICAgIGFuc3dlciA9IGxsbS5nZW5lcmF0ZShxdWVzdGlvbikKICAgIHByaW50KGFuc3dlcikKICAgIApkZWYgdGVzdF9DaGF0R1BUKHF1ZXN0aW9uID0gIuWmguS9leW6lOWvueWOi+WKm++8nyIsIG1vZGVsX3BhdGggPSAnZ3B0LTMuNS10dXJibycsIGFwaV9rZXkgPSBOb25lLCBwcm94eV91cmwgPSBOb25lKToKICAgIGxsbSA9IENoYXRHUFQobW9kZWxfcGF0aCwgYXBpX2tleSwgcHJveHlfdXJsKQogICAgYW5zd2VyID0gbGxtLmdlbmVyYXRlKHF1ZXN0aW9uKQogICAgcHJpbnQoYW5zd2VyKQogICAgCmNsYXNzIExMTToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBtb2RlPSdvZmZsaW5lJyk6CiAgICAgICAgc2VsZi5tb2RlID0gbW9kZQogICAgICAgIAogICAgZGVmIGluaXRfbW9kZWwoc2VsZiwgbW9kZWxfbmFtZSwgbW9kZWxfcGF0aD0nJywgYXBpX2tleT1Ob25lLCBwcm94eV91cmw9Tm9uZSwgcHJlZml4X3Byb21wdD0nJyfor7fnlKjlsJHkuo4yNeS4quWtl+WbnuetlOS7peS4i+mXrumimFxuXG4nJycpOgogICAgICAgIGlmIG1vZGVsX25hbWUgbm90IGluIFsnTGlubHknLCAnUXdlbicsICdRd2VuMicsICdHZW1pbmknLCAnQ2hhdEdMTScsICdDaGF0R1BUJywgJ0xsYW1hMkNoaW5lc2UnLCAnR1BUNEZyZWUnLCAnUUFueXRoaW5nJywgJ+ebtOaOpeWbnuWkjSBEaXJlY3QgUmVwbHknXToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigibW9kZWxfbmFtZSBtdXN0IGJlIG9uZSBvZiBbJ0xpbmx5JywgJ1F3ZW4nLCAnUXdlbjInLCAnR2VtaW5pJywgJ0NoYXRHTE0nLCAnQ2hhdEdQVCcsICdMbGFtYTJDaGluZXNlJywgJ0dQVDRGcmVlJywgJ1FBbnl0aGluZycsICfnm7TmjqXlm57lpI0gRGlyZWN0IFJlcGx5J10iKQogICAgICAgIGlmIG1vZGVsX25hbWUgPT0gJ0xpbmx5JzoKICAgICAgICAgICAgbGxtID0gTGlubHkoc2VsZi5tb2RlLCBtb2RlbF9wYXRoKQogICAgICAgIGVsaWYgbW9kZWxfbmFtZSA9PSAnUXdlbic6CiAgICAgICAgICAgIGxsbSA9IFF3ZW4oc2VsZi5tb2RlLCBtb2RlbF9wYXRoKQogICAgICAgIGVsaWYgbW9kZWxfbmFtZSA9PSAnUXdlbjInOgogICAgICAgICAgICBsbG0gPSBRd2VuMihzZWxmLm1vZGUsIG1vZGVsX3BhdGgpCiAgICAgICAgZWxpZiBtb2RlbF9uYW1lID09ICdHZW1pbmknOgogICAgICAgICAgICBsbG0gPSBHZW1pbmkobW9kZWxfcGF0aCwgYXBpX2tleSwgcHJveHlfdXJsKQogICAgICAgIGVsaWYgbW9kZWxfbmFtZSA9PSAnQ2hhdEdMTSc6CiAgICAgICAgICAgIGxsbSA9IENoYXRHTE0oc2VsZi5tb2RlLCBtb2RlbF9wYXRoKQogICAgICAgIGVsaWYgbW9kZWxfbmFtZSA9PSAnQ2hhdEdQVCc6CiAgICAgICAgICAgIGxsbSA9IENoYXRHUFQobW9kZWxfcGF0aCwgYXBpX2tleSwgcHJveHlfdXJsKQogICAgICAgIGVsaWYgbW9kZWxfbmFtZSA9PSAnTGxhbWEyQ2hpbmVzZSc6CiAgICAgICAgICAgIGxsbSA9IExsYW1hMkNoaW5lc2UobW9kZWxfcGF0aCwgc2VsZi5tb2RlKQogICAgICAgIGVsaWYgbW9kZWxfbmFtZSA9PSAnR1BUNEZyZWUnOgogICAgICAgICAgICBsbG0gPSBHUFQ0RlJFRSgpCiAgICAgICAgZWxpZiBtb2RlbF9uYW1lID09ICdRQW55dGhpbmcnOgogICAgICAgICAgICBsbG0gPSBRQW55dGhpbmcoKQogICAgICAgIGVsaWYgbW9kZWxfbmFtZSA9PSAn55u05o6l5Zue5aSNIERpcmVjdCBSZXBseSc6CiAgICAgICAgICAgIGxsbSA9IHNlbGYKICAgICAgICBsbG0ucHJlZml4X3Byb21wdCA9IHByZWZpeF9wcm9tcHQKICAgICAgICByZXR1cm4gbGxtCiAgICAKICAgIGRlZiBjaGF0KHNlbGYsIHN5c3RlbV9wcm9tcHQsIG1lc3NhZ2UsIGhpc3RvcnkpOgogICAgICAgIHJlc3BvbnNlID0gc2VsZi5nZW5lcmF0ZShtZXNzYWdlLCBzeXN0ZW1fcHJvbXB0KQogICAgICAgIGhpc3RvcnkuYXBwZW5kKChtZXNzYWdlLCByZXNwb25zZSkpCiAgICAgICAgcmV0dXJuIHJlc3BvbnNlLCBoaXN0b3J5CgogICAgZGVmIGdlbmVyYXRlKHNlbGYsIHF1ZXN0aW9uLCBzeXN0ZW1fcHJvbXB0ID0gJ3N5c3RlbeaXoOaViCcpOgogICAgICAgIHJldHVybiBxdWVzdGlvbgogICAgCiAgICBkZWYgdGVzdF9MaW5seShzZWxmLCBxdWVzdGlvbj0i5aaC5L2V5bqU5a+55Y6L5Yqb77yfIiwgbW9kZWxfcGF0aD0iTGlubHktQUkvQ2hpbmVzZS1MTGFNQS0yLTdCLWhmIik6CiAgICAgICAgbGxtID0gTGlubHkoc2VsZi5tb2RlLCBtb2RlbF9wYXRoKQogICAgICAgIGFuc3dlciA9IGxsbS5nZW5lcmF0ZShxdWVzdGlvbikKICAgICAgICBwcmludChhbnN3ZXIpCgogICAgZGVmIHRlc3RfUXdlbihzZWxmLCBxdWVzdGlvbj0i5aaC5L2V5bqU5a+55Y6L5Yqb77yfIiwgbW9kZWxfcGF0aD0iUXdlbi9Rd2VuLTFfOEItQ2hhdCIpOgogICAgICAgIGxsbSA9IFF3ZW4oc2VsZi5tb2RlLCBtb2RlbF9wYXRoKQogICAgICAgIGFuc3dlciA9IGxsbS5nZW5lcmF0ZShxdWVzdGlvbikKICAgICAgICBwcmludChhbnN3ZXIpCgogICAgZGVmIHRlc3RfR2VtaW5pKHNlbGYsIHF1ZXN0aW9uPSLlpoLkvZXlupTlr7nljovlipvvvJ8iLCBtb2RlbF9wYXRoPSdnZW1pbmktcHJvJywgYXBpX2tleT1Ob25lLCBwcm94eV91cmw9Tm9uZSk6CiAgICAgICAgbGxtID0gR2VtaW5pKG1vZGVsX3BhdGgsIGFwaV9rZXksIHByb3h5X3VybCkKICAgICAgICBhbnN3ZXIgPSBsbG0uZ2VuZXJhdGUocXVlc3Rpb24pCiAgICAgICAgcHJpbnQoYW5zd2VyKQogICAgCiAgICBkZWYgdGVzdF9DaGF0R1BUKHNlbGYsIHF1ZXN0aW9uPSLlpoLkvZXlupTlr7nljovlipvvvJ8iLCBtb2RlbF9wYXRoID0gJ2dwdC0zLjUtdHVyYm8nLCBhcGlfa2V5ID0gTm9uZSwgcHJveHlfdXJsID0gTm9uZSk6CiAgICAgICAgbGxtID0gQ2hhdEdQVChtb2RlbF9wYXRoLCBhcGlfa2V5LCBwcm94eV91cmwpCiAgICAgICAgYW5zd2VyID0gbGxtLmdlbmVyYXRlKHF1ZXN0aW9uKQogICAgICAgIHByaW50KGFuc3dlcikKICAgICAgICAKICAgIGRlZiB0ZXN0X0NoYXRHTE0oc2VsZiwgcXVlc3Rpb249IuWmguS9leW6lOWvueWOi+WKm++8nyIsIG1vZGVsX3BhdGg9IlRIVURNL2NoYXRnbG0tNmIiKToKICAgICAgICBsbG0gPSBDaGF0R0xNKG1vZGU9c2VsZi5tb2RlLCBtb2RlbF9uYW1lX29yX3BhdGg9bW9kZWxfcGF0aCkKICAgICAgICBhbnN3ZXIgPSBsbG0uZ2VuZXJhdGUocXVlc3Rpb24pCiAgICAgICAgcHJpbnQoYW5zd2VyKQoKaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIGxsbV9jbGFzcyA9IExMTShtb2RlPSdvZmZsaW5lJykKICAgIGxsbV9jbGFzcy5pbml0X21vZGVsKCfnm7TmjqXlm57lpI0gRGlyZWN0IFJlcGx5JykKICAgIHF1ZXN0aW9uID0gJ+WmguS9leW6lOWvueWOi+WKm++8nycKICAgIGFuc3dlciA9IGxsbV9jbGFzcy5nZW5lcmF0ZShxdWVzdGlvbikKICAgICMgbGxtLnRlc3RfUXdlbigpCiAgICAjIGxsbS50ZXN0X0xpbmx5KCkKICAgICMgbGxtLnRlc3RfR2VtaW5pKCkKICAgICMgbGxtLnRlc3RfQ2hhdEdMTSgp
+from .Linly import Linly
+from .Qwen import Qwen
+from .Qwen2 import Qwen2
+try:
+    from .Gemini import Gemini
+except Exception as e:
+    print("Gemini模型加载失败，可能是因为没有google-generativeai库，但是Gemini模型不是必顂的，可以忽略")
+from .ChatGPT import ChatGPT
+from .ChatGLM import ChatGLM
+from .Llama2Chinese import Llama2Chinese
+from .GPT4Free import GPT4FREE
+from .QAnything import QAnything
+
+def test_Linly(question = "如何应对压力？", mode='offline', model_path="Linly-AI/Chinese-LLaMA-2-7B-hf"):
+    llm = Linly(mode, model_path)
+    answer = llm.generate(question)
+    print(answer)
+    
+def test_Qwen(question = "如何应对压力？", mode='offline', model_path="Qwen/Qwen-1_8B-Chat"):
+    llm = Qwen(mode, model_path)
+    answer = llm.generate(question)
+    print(answer)
+    
+def test_Gemini(question = "如何应对压力？", model_path='gemini-pro', api_key=None, proxy_url=None):
+    llm = Gemini(model_path, api_key, proxy_url)
+    answer = llm.generate(question)
+    print(answer)
+    
+def test_ChatGPT(question = "如何应对压力？", model_path = 'gpt-3.5-turbo', api_key = None, proxy_url = None):
+    llm = ChatGPT(model_path, api_key, proxy_url)
+    answer = llm.generate(question)
+    print(answer)
+    
+class LLM:
+    def __init__(self, mode='offline'):
+        self.mode = mode
+        
+    def init_model(self, model_name, model_path='', api_key=None, proxy_url=None, prefix_prompt='''请用少于25个字回答以下问题\n\n'''):
+        if model_name not in ['Linly', 'Qwen', 'Qwen2', 'Gemini', 'ChatGLM', 'ChatGPT', 'Llama2Chinese', 'GPT4Free', 'QAnything', '直接回复 Direct Reply']:
+            raise ValueError("model_name must be one of ['Linly', 'Qwen', 'Qwen2', 'Gemini', 'ChatGLM', 'ChatGPT', 'Llama2Chinese', 'GPT4Free', 'QAnything', '直接回复 Direct Reply']")
+        if model_name == 'Linly':
+            llm = Linly(self.mode, model_path)
+        elif model_name == 'Qwen':
+            llm = Qwen(self.mode, model_path)
+        elif model_name == 'Qwen2':
+            llm = Qwen2(self.mode, model_path)
+        elif model_name == 'Gemini':
+            llm = Gemini(model_path, api_key, proxy_url)
+        elif model_name == 'ChatGLM':
+            llm = ChatGLM(self.mode, model_path)
+        elif model_name == 'ChatGPT':
+            llm = ChatGPT(model_path, api_key, proxy_url)
+        elif model_name == 'Llama2Chinese':
+            llm = Llama2Chinese(model_path, self.mode)
+        elif model_name == 'GPT4Free':
+            llm = GPT4FREE()
+        elif model_name == 'QAnything':
+            llm = QAnything()
+        elif model_name == '直接回复 Direct Reply':
+            llm = self
+        llm.prefix_prompt = prefix_prompt
+        return llm
+    
+    def chat(self, system_prompt, message, history):
+        response = self.generate(message, system_prompt)
+        history.append((message, response))
+        return response, history
+
+    def generate(self, question, system_prompt = 'system无效'):
+        return question
+    
+    def test_Linly(self, question="如何应对压力？", model_path="Linly-AI/Chinese-LLaMA-2-7B-hf"):
+        llm = Linly(self.mode, model_path)
+        answer = llm.generate(question)
+        print(answer)
+
+    def test_Qwen(self, question="如何应对压力？", model_path="Qwen/Qwen-1_8B-Chat"):
+        llm = Qwen(self.mode, model_path)
+        answer = llm.generate(question)
+        print(answer)
+
+    def test_Gemini(self, question="如何应对压力？", model_path='gemini-pro', api_key=None, proxy_url=None):
+        llm = Gemini(model_path, api_key, proxy_url)
+        answer = llm.generate(question)
+        print(answer)
+    
+    def test_ChatGPT(self, question="如何应对压力？", model_path = 'gpt-3.5-turbo', api_key = None, proxy_url = None):
+        llm = ChatGPT(model_path, api_key, proxy_url)
+        answer = llm.generate(question)
+        print(answer)
+        
+    def test_ChatGLM(self, question="如何应对压力？", model_path="THUDM/chatglm-6b"):
+        llm = ChatGLM(mode=self.mode, model_name_or_path=model_path)
+        answer = llm.generate(question)
+        print(answer)
+
+if __name__ == '__main__':
+    llm_class = LLM(mode='offline')
+    llm_class.init_model('直接回复 Direct Reply')
+    question = '如何应对压力？'
+    answer = llm_class.generate(question)
+    # llm.test_Qwen()
+    # llm.test_Linly()
+    # llm.test_Gemini()
+    # llm.test_ChatGLM()

@@ -1,1 +1,4 @@
-IyBwaXAgaW5zdGFsbCBtb2RlbHNjb3BlCiMgaHR0cHM6Ly93d3cubW9kZWxzY29wZS5jbi9tb2RlbHMvS2VkcmVhbWl4L0xpbmx5LVRhbGtlci9zdW1tYXJ5CmZyb20gbW9kZWxzY29wZSBpbXBvcnQgc25hcHNob3RfZG93bmxvYWQKbW9kZWxfZGlyID0gc25hcHNob3RfZG93bmxvYWQoJ0tlZHJlYW1peC9MaW5seS1UYWxrZXInLCBjYWNoZV9kaXI9Jy4vJywgcmV2aXNpb249J21hc3Rlcicp
+# pip install modelscope
+# https://www.modelscope.cn/models/Kedreamix/Linly-Talker/summary
+from modelscope import snapshot_download
+model_dir = snapshot_download('Kedreamix/Linly-Talker', cache_dir='./', revision='master')

@@ -1,1 +1,125 @@
-IiIiVGhpcyBzY3JpcHQgaXMgdG8gZ2VuZXJhdGUgc2tpbiBhdHRlbnRpb24gbWFzayBmb3IgRGVlcDNERmFjZVJlY29uX3B5dG9yY2gKIiIiCgppbXBvcnQgbWF0aAppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IG9zCmltcG9ydCBjdjIKCmNsYXNzIEdNTToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBkaW0sIG51bSwgdywgbXUsIGNvdiwgY292X2RldCwgY292X2ludik6CiAgICAgICAgc2VsZi5kaW0gPSBkaW0gIyBmZWF0dXJlIGRpbWVuc2lvbgogICAgICAgIHNlbGYubnVtID0gbnVtICMgbnVtYmVyIG9mIEdhdXNzaWFuIGNvbXBvbmVudHMKICAgICAgICBzZWxmLncgPSB3ICMgd2VpZ2h0cyBvZiBHYXVzc2lhbiBjb21wb25lbnRzIChhIGxpc3Qgb2Ygc2NhbGFycykKICAgICAgICBzZWxmLm11PSBtdSAjIG1lYW4gb2YgR2F1c3NpYW4gY29tcG9uZW50cyAoYSBsaXN0IG9mIDF4ZGltIHZlY3RvcnMpCiAgICAgICAgc2VsZi5jb3YgPSBjb3YgIyBjb3ZhcmlhbmNlIG1hdHJpeCBvZiBHYXVzc2lhbiBjb21wb25lbnRzIChhIGxpc3Qgb2YgZGlteGRpbSBtYXRyaWNlcykKICAgICAgICBzZWxmLmNvdl9kZXQgPSBjb3ZfZGV0ICMgcHJlLWNvbXB1dGVkIGRldGVybWluZXQgb2YgY292YXJpYW5jZSBtYXRyaWNlcyAoYSBsaXN0IG9mIHNjYWxhcnMpCiAgICAgICAgc2VsZi5jb3ZfaW52ID0gY292X2ludiAjIHByZS1jb21wdXRlZCBpbnZlcnNlIGNvdmFyaWFuY2UgbWF0cmljZXMgKGEgbGlzdCBvZiBkaW14ZGltIG1hdHJpY2VzKQoKICAgICAgICBzZWxmLmZhY3RvciA9IFswXSpudW0KICAgICAgICBmb3IgaSBpbiByYW5nZShzZWxmLm51bSk6CiAgICAgICAgICAgIHNlbGYuZmFjdG9yW2ldID0gKDIqbWF0aC5waSkqKihzZWxmLmRpbS8yKSAqIHNlbGYuY292X2RldFtpXSoqMC41CiAgICAgICAgCiAgICBkZWYgbGlrZWxpaG9vZChzZWxmLCBkYXRhKToKICAgICAgICBhc3NlcnQoZGF0YS5zaGFwZVsxXSA9PSBzZWxmLmRpbSkKICAgICAgICBOID0gZGF0YS5zaGFwZVswXQogICAgICAgIGxoID0gbnAuemVyb3MoTikKCiAgICAgICAgZm9yIGkgaW4gcmFuZ2Uoc2VsZi5udW0pOgogICAgICAgICAgICBkYXRhXyA9IGRhdGEgLSBzZWxmLm11W2ldCgogICAgICAgICAgICB0bXAgPSBucC5tYXRtdWwoZGF0YV8sc2VsZi5jb3ZfaW52W2ldKSAqIGRhdGFfCiAgICAgICAgICAgIHRtcCA9IG5wLnN1bSh0bXAsYXhpcz0xKQogICAgICAgICAgICBwb3dlciA9IC0wLjUgKiB0bXAKCiAgICAgICAgICAgIHAgPSBucC5hcnJheShbbWF0aC5leHAocG93ZXJbal0pIGZvciBqIGluIHJhbmdlKE4pXSkKICAgICAgICAgICAgcCA9IHAvc2VsZi5mYWN0b3JbaV0KICAgICAgICAgICAgbGggKz0gcCpzZWxmLndbaV0KICAgICAgICAKICAgICAgICByZXR1cm4gbGgKCgpkZWYgX3JnYjJ5Y2JjcihyZ2IpOgogICAgbSA9IG5wLmFycmF5KFtbNjUuNDgxLCAxMjguNTUzLCAyNC45NjZdLAogICAgICAgICAgICAgICAgICBbLTM3Ljc5NywgLTc0LjIwMywgMTEyXSwKICAgICAgICAgICAgICAgICAgWzExMiwgLTkzLjc4NiwgLTE4LjIxNF1dKQogICAgc2hhcGUgPSByZ2Iuc2hhcGUKICAgIHJnYiA9IHJnYi5yZXNoYXBlKChzaGFwZVswXSAqIHNoYXBlWzFdLCAzKSkKICAgIHljYmNyID0gbnAuZG90KHJnYiwgbS50cmFuc3Bvc2UoKSAvIDI1NS4pCiAgICB5Y2Jjcls6LCAwXSArPSAxNi4KICAgIHljYmNyWzosIDE6XSArPSAxMjguCiAgICByZXR1cm4geWNiY3IucmVzaGFwZShzaGFwZSkKCgpkZWYgX2JncjJ5Y2JjcihiZ3IpOgogICAgcmdiID0gYmdyWy4uLiwgOjotMV0KICAgIHJldHVybiBfcmdiMnljYmNyKHJnYikKCgpnbW1fc2tpbl93ID0gWzAuMjQwNjM5MzMsIDAuMTYzNjU5ODcsIDAuMjYwMzQ2NjUsIDAuMzM1MzU0MTVdCmdtbV9za2luX211ID0gW25wLmFycmF5KFsxMTMuNzE4NjIsIDEwMy4zOTYxMywgMTY0LjA4MjI2XSksCiAgICAgICAgICAgICAgICBucC5hcnJheShbMTUwLjE5ODU4LCAxMDUuMTg0NjcsIDE1NS41MTQyOF0pLAogICAgICAgICAgICAgICAgbnAuYXJyYXkoWzE4My45Mjk3NiwgMTA3LjYyNDY4LCAxNTIuNzE4MjBdKSwKICAgICAgICAgICAgICAgIG5wLmFycmF5KFsxMTQuOTA1MjQsIDExMy41OTc4MiwgMTUxLjM4MjE3XSldCmdtbV9za2luX2Nvdl9kZXQgPSBbNTY5Mjg0Mi41LCA1ODUxOTMwLjUsIDIzMjkxMzEuLCAxNTg1OTcxLl0KZ21tX3NraW5fY292X2ludiA9IFtucC5hcnJheShbWzAuMDAxOTQ3MjA2OSwgMC4wMDIwNDUwNzU5LCAtMC4wMDA2MDI0Mzk5OF0sWzAuMDAyMDQ1MDc1OSwgMC4wMTc3MDA1MjUsIDAuMDA1MTQyMDAxNF0sWy0wLjAwMDYwMjQzOTk4LCAwLjAwNTE0MjAwMTQsIDAuMDA4MTMwODk1MF1dKSwKICAgICAgICAgICAgICAgICAgICBucC5hcnJheShbWzAuMDAyNzExMDE0MSwgMC4wMDExMDM2OTkwLCAwLjAwMjMxMjIyOTldLFswLjAwMTEwMzY5OTAsIDAuMDEwNzA3NzI0LCAwLjAxMDc0Mjg1Nl0sWzAuMDAyMzEyMjI5OSwgMC4wMTA3NDI4NTYsIDAuMDE3NDgxNjI5XV0pLAogICAgICAgICAgICAgICAgICAgIG5wLmFycmF5KFtbMC4wMDQ4MDI2ODcxLCAwLjAwMDIyOTM1MTcyLCAwLjAwNzc2NjgzNzddLFswLjAwMDIyOTM1MTcyLCAwLjAxMTcyOTY5NiwgMC4wMDgxNjYxODY1XSxbMC4wMDc3NjY4Mzc3LCAwLjAwODE2NjE4NjUsIDAuMDI1Mzc0MzUzXV0pLAogICAgICAgICAgICAgICAgICAgIG5wLmFycmF5KFtbMC4wMDExOTg5Njk5LCAwLjAwMjI0NTMxNzIsIC0wLjAwMTA3NDg5NTddLFswLjAwMjI0NTMxNzIsIDAuMDQ3NzU4NTY0LCAwLjAyMDMzMjEwMl0sWy0wLjAwMTA3NDg5NTcsIDAuMDIwMzMyMTAyLCAwLjAyNDUwMjI1MV1dKV0KCmdtbV9za2luID0gR01NKDMsIDQsIGdtbV9za2luX3csIGdtbV9za2luX211LCBbXSwgZ21tX3NraW5fY292X2RldCwgZ21tX3NraW5fY292X2ludikKCmdtbV9ub25za2luX3cgPSBbMC4xMjc5MTA3MCwgMC4zMTEzMDc2MSwgMC4zNDI0NTc3NywgMC4yMTgzMjM5M10KZ21tX25vbnNraW5fbXUgPSBbbnAuYXJyYXkoWzk5LjIwMDg1MSwgMTEyLjA3NTMzLCAxNDAuMjA2MDJdKSwKICAgICAgICAgICAgICAgICAgICBucC5hcnJheShbMTEwLjkxMzkyLCAxMjUuNTI5NjksIDEzMC4xOTIzN10pLAogICAgICAgICAgICAgICAgICAgIG5wLmFycmF5KFsxMjkuNzU4NjQsIDEyOS45NjEwNywgMTI2Ljk2ODA4XSksCiAgICAgICAgICAgICAgICAgICAgbnAuYXJyYXkoWzExMi4yOTU4NywgMTI4Ljg1MTIxLCAxMjkuMDU0MzFdKV0KZ21tX25vbnNraW5fY292X2RldCA9IFs0NTg3MDM2NDguLCA2NDY2NDg4LiwgOTA2MTEzNzYuLCAxMzMwOTcuNjNdCmdtbV9ub25za2luX2Nvdl9pbnYgPSBbbnAuYXJyYXkoW1swLjAwMDg1MzcxNjU3LCAwLjAwMDcxMTk3Mjg4LCAwLjAwMDIzOTU4OTE2XSxbMC4wMDA3MTE5NzI4OCwgMC4wMDI1OTM1NjIwLCAwLjAwMDc2NTU3NzA4XSxbMC4wMDAyMzk1ODkxNiwgMC4wMDA3NjU1NzcwOCwgMC4wMDE1MDQyMzMyXV0pLAogICAgICAgICAgICAgICAgICAgIG5wLmFycmF5KFtbMC4wMDAyNDY1MDE1MCwgMC4wMDA0NTU0MjQyOCwgMC4wMDAxNTAxOTQyMl0sWzAuMDAwNDU1NDI0MjgsIDAuMDI2NDEyMTQ0LCAwLjAxODQxOTc2OV0sWzAuMDAwMTUwMTk0MjIsIDAuMDE4NDE5NzY5LCAwLjAzNzQ5NzM4M11dKSwKICAgICAgICAgICAgICAgICAgICBucC5hcnJheShbWzAuMDAwMzcwNTQ5NzQsIDAuMDAwMzgxNDY3NjAsIDAuMDAwNDA0MDg3NjVdLFswLjAwMDM4MTQ2NzYwLCAwLjAwODU1MDU3MjIsIDAuMDA3OTEzNjI4Nl0sWzAuMDAwNDA0MDg3NjUsIDAuMDA3OTEzNjI4NiwgMC4wMTA5ODIzNTJdXSksCiAgICAgICAgICAgICAgICAgICAgbnAuYXJyYXkoW1swLjAwMDEzNzA5NzMzLCAwLjAwMDUxMjI4NDI4LCAwLjAwMDEyNzc3NDMwXSxbMC4wMDA1MTIyODQyOCwgMC4yODIzNzExMywgMC4xMDUyODM3MF0sWzAuMDAwMTI3Nzc0MzAsIDAuMTA1MjgzNzAsIDAuMjM0Njg5NDddXSldCgpnbW1fbm9uc2tpbiA9IEdNTSgzLCA0LCBnbW1fbm9uc2tpbl93LCBnbW1fbm9uc2tpbl9tdSwgW10sIGdtbV9ub25za2luX2Nvdl9kZXQsIGdtbV9ub25za2luX2Nvdl9pbnYpCgpwcmlvcl9za2luID0gMC44CnByaW9yX25vbnNraW4gPSAxIC0gcHJpb3Jfc2tpbgoKCiMgY2FsY3VsYXRlIHNraW4gYXR0ZW50aW9uIG1hc2sKZGVmIHNraW5tYXNrKGltYmdyKToKICAgIGltID0gX2JncjJ5Y2JjcihpbWJncikKCiAgICBkYXRhID0gaW0ucmVzaGFwZSgoLTEsMykpCgogICAgbGhfc2tpbiA9IGdtbV9za2luLmxpa2VsaWhvb2QoZGF0YSkKICAgIGxoX25vbnNraW4gPSBnbW1fbm9uc2tpbi5saWtlbGlob29kKGRhdGEpCgogICAgdG1wMSA9IHByaW9yX3NraW4gKiBsaF9za2luCiAgICB0bXAyID0gcHJpb3Jfbm9uc2tpbiAqIGxoX25vbnNraW4KICAgIHBvc3Rfc2tpbiA9IHRtcDEgLyAodG1wMSt0bXAyKSAjIHBvc3RlcmlvciBwcm9iYWJpbGl0eQoKICAgIHBvc3Rfc2tpbiA9IHBvc3Rfc2tpbi5yZXNoYXBlKChpbS5zaGFwZVswXSxpbS5zaGFwZVsxXSkpCgogICAgcG9zdF9za2luID0gbnAucm91bmQocG9zdF9za2luKjI1NSkKICAgIHBvc3Rfc2tpbiA9IHBvc3Rfc2tpbi5hc3R5cGUobnAudWludDgpCiAgICBwb3N0X3NraW4gPSBucC50aWxlKG5wLmV4cGFuZF9kaW1zKHBvc3Rfc2tpbiwyKSxbMSwxLDNdKSAjIHJlc2hhcGUgdG8gSCpXKjMKCiAgICByZXR1cm4gcG9zdF9za2luCgoKZGVmIGdldF9za2luX21hc2soaW1nX3BhdGgpOgogICAgcHJpbnQoJ2dlbmVyYXRpbmcgc2tpbiBtYXNrcy4uLi4uLicpCiAgICBuYW1lcyA9IFtpIGZvciBpIGluIHNvcnRlZChvcy5saXN0ZGlyKAogICAgICAgIGltZ19wYXRoKSkgaWYgJ2pwZycgaW4gaSBvciAncG5nJyBpbiBpIG9yICdqcGVnJyBpbiBpIG9yICdQTkcnIGluIGldCiAgICBzYXZlX3BhdGggPSBvcy5wYXRoLmpvaW4oaW1nX3BhdGgsICdtYXNrJykKICAgIGlmIG5vdCBvcy5wYXRoLmlzZGlyKHNhdmVfcGF0aCk6CiAgICAgICAgb3MubWFrZWRpcnMoc2F2ZV9wYXRoKQogICAgCiAgICBmb3IgaSBpbiByYW5nZSgwLCBsZW4obmFtZXMpKToKICAgICAgICBuYW1lID0gbmFtZXNbaV0KICAgICAgICBwcmludCgnJTA1ZCcgJSAoaSksICcgJywgbmFtZSkKICAgICAgICBmdWxsX2ltYWdlX25hbWUgPSBvcy5wYXRoLmpvaW4oaW1nX3BhdGgsIG5hbWUpCiAgICAgICAgaW1nID0gY3YyLmltcmVhZChmdWxsX2ltYWdlX25hbWUpLmFzdHlwZShucC5mbG9hdDMyKQogICAgICAgIHNraW5faW1nID0gc2tpbm1hc2soaW1nKQogICAgICAgIGN2Mi5pbXdyaXRlKG9zLnBhdGguam9pbihzYXZlX3BhdGgsIG5hbWUpLCBza2luX2ltZy5hc3R5cGUobnAudWludDgpKQo=
+"""This script is to generate skin attention mask for Deep3DFaceRecon_pytorch
+"""
+
+import math
+import numpy as np
+import os
+import cv2
+
+class GMM:
+    def __init__(self, dim, num, w, mu, cov, cov_det, cov_inv):
+        self.dim = dim # feature dimension
+        self.num = num # number of Gaussian components
+        self.w = w # weights of Gaussian components (a list of scalars)
+        self.mu= mu # mean of Gaussian components (a list of 1xdim vectors)
+        self.cov = cov # covariance matrix of Gaussian components (a list of dimxdim matrices)
+        self.cov_det = cov_det # pre-computed determinet of covariance matrices (a list of scalars)
+        self.cov_inv = cov_inv # pre-computed inverse covariance matrices (a list of dimxdim matrices)
+
+        self.factor = [0]*num
+        for i in range(self.num):
+            self.factor[i] = (2*math.pi)**(self.dim/2) * self.cov_det[i]**0.5
+        
+    def likelihood(self, data):
+        assert(data.shape[1] == self.dim)
+        N = data.shape[0]
+        lh = np.zeros(N)
+
+        for i in range(self.num):
+            data_ = data - self.mu[i]
+
+            tmp = np.matmul(data_,self.cov_inv[i]) * data_
+            tmp = np.sum(tmp,axis=1)
+            power = -0.5 * tmp
+
+            p = np.array([math.exp(power[j]) for j in range(N)])
+            p = p/self.factor[i]
+            lh += p*self.w[i]
+        
+        return lh
+
+
+def _rgb2ycbcr(rgb):
+    m = np.array([[65.481, 128.553, 24.966],
+                  [-37.797, -74.203, 112],
+                  [112, -93.786, -18.214]])
+    shape = rgb.shape
+    rgb = rgb.reshape((shape[0] * shape[1], 3))
+    ycbcr = np.dot(rgb, m.transpose() / 255.)
+    ycbcr[:, 0] += 16.
+    ycbcr[:, 1:] += 128.
+    return ycbcr.reshape(shape)
+
+
+def _bgr2ycbcr(bgr):
+    rgb = bgr[..., ::-1]
+    return _rgb2ycbcr(rgb)
+
+
+gmm_skin_w = [0.24063933, 0.16365987, 0.26034665, 0.33535415]
+gmm_skin_mu = [np.array([113.71862, 103.39613, 164.08226]),
+                np.array([150.19858, 105.18467, 155.51428]),
+                np.array([183.92976, 107.62468, 152.71820]),
+                np.array([114.90524, 113.59782, 151.38217])]
+gmm_skin_cov_det = [5692842.5, 5851930.5, 2329131., 1585971.]
+gmm_skin_cov_inv = [np.array([[0.0019472069, 0.0020450759, -0.00060243998],[0.0020450759, 0.017700525, 0.0051420014],[-0.00060243998, 0.0051420014, 0.0081308950]]),
+                    np.array([[0.0027110141, 0.0011036990, 0.0023122299],[0.0011036990, 0.010707724, 0.010742856],[0.0023122299, 0.010742856, 0.017481629]]),
+                    np.array([[0.0048026871, 0.00022935172, 0.0077668377],[0.00022935172, 0.011729696, 0.0081661865],[0.0077668377, 0.0081661865, 0.025374353]]),
+                    np.array([[0.0011989699, 0.0022453172, -0.0010748957],[0.0022453172, 0.047758564, 0.020332102],[-0.0010748957, 0.020332102, 0.024502251]])]
+
+gmm_skin = GMM(3, 4, gmm_skin_w, gmm_skin_mu, [], gmm_skin_cov_det, gmm_skin_cov_inv)
+
+gmm_nonskin_w = [0.12791070, 0.31130761, 0.34245777, 0.21832393]
+gmm_nonskin_mu = [np.array([99.200851, 112.07533, 140.20602]),
+                    np.array([110.91392, 125.52969, 130.19237]),
+                    np.array([129.75864, 129.96107, 126.96808]),
+                    np.array([112.29587, 128.85121, 129.05431])]
+gmm_nonskin_cov_det = [458703648., 6466488., 90611376., 133097.63]
+gmm_nonskin_cov_inv = [np.array([[0.00085371657, 0.00071197288, 0.00023958916],[0.00071197288, 0.0025935620, 0.00076557708],[0.00023958916, 0.00076557708, 0.0015042332]]),
+                    np.array([[0.00024650150, 0.00045542428, 0.00015019422],[0.00045542428, 0.026412144, 0.018419769],[0.00015019422, 0.018419769, 0.037497383]]),
+                    np.array([[0.00037054974, 0.00038146760, 0.00040408765],[0.00038146760, 0.0085505722, 0.0079136286],[0.00040408765, 0.0079136286, 0.010982352]]),
+                    np.array([[0.00013709733, 0.00051228428, 0.00012777430],[0.00051228428, 0.28237113, 0.10528370],[0.00012777430, 0.10528370, 0.23468947]])]
+
+gmm_nonskin = GMM(3, 4, gmm_nonskin_w, gmm_nonskin_mu, [], gmm_nonskin_cov_det, gmm_nonskin_cov_inv)
+
+prior_skin = 0.8
+prior_nonskin = 1 - prior_skin
+
+
+# calculate skin attention mask
+def skinmask(imbgr):
+    im = _bgr2ycbcr(imbgr)
+
+    data = im.reshape((-1,3))
+
+    lh_skin = gmm_skin.likelihood(data)
+    lh_nonskin = gmm_nonskin.likelihood(data)
+
+    tmp1 = prior_skin * lh_skin
+    tmp2 = prior_nonskin * lh_nonskin
+    post_skin = tmp1 / (tmp1+tmp2) # posterior probability
+
+    post_skin = post_skin.reshape((im.shape[0],im.shape[1]))
+
+    post_skin = np.round(post_skin*255)
+    post_skin = post_skin.astype(np.uint8)
+    post_skin = np.tile(np.expand_dims(post_skin,2),[1,1,3]) # reshape to H*W*3
+
+    return post_skin
+
+
+def get_skin_mask(img_path):
+    print('generating skin masks......')
+    names = [i for i in sorted(os.listdir(
+        img_path)) if 'jpg' in i or 'png' in i or 'jpeg' in i or 'PNG' in i]
+    save_path = os.path.join(img_path, 'mask')
+    if not os.path.isdir(save_path):
+        os.makedirs(save_path)
+    
+    for i in range(0, len(names)):
+        name = names[i]
+        print('%05d' % (i), ' ', name)
+        full_image_name = os.path.join(img_path, name)
+        img = cv2.imread(full_image_name).astype(np.float32)
+        skin_img = skinmask(img)
+        cv2.imwrite(os.path.join(save_path, name), skin_img.astype(np.uint8))

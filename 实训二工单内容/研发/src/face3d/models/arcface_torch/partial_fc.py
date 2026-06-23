@@ -1,1 +1,222 @@
-aW1wb3J0IGxvZ2dpbmcKaW1wb3J0IG9zCgppbXBvcnQgdG9yY2gKaW1wb3J0IHRvcmNoLmRpc3RyaWJ1dGVkIGFzIGRpc3QKZnJvbSB0b3JjaC5ubiBpbXBvcnQgTW9kdWxlCmZyb20gdG9yY2gubm4uZnVuY3Rpb25hbCBpbXBvcnQgbm9ybWFsaXplLCBsaW5lYXIKZnJvbSB0b3JjaC5ubi5wYXJhbWV0ZXIgaW1wb3J0IFBhcmFtZXRlcgoKCmNsYXNzIFBhcnRpYWxGQyhNb2R1bGUpOgogICAgIiIiCiAgICBBdXRob3I6IHtYaWFuZyBBbiwgWWFuZyBYaWFvLCBYdUhhbiBaaHV9IGluIERlZXBHbGludCwKICAgIFBhcnRpYWwgRkM6IFRyYWluaW5nIDEwIE1pbGxpb24gSWRlbnRpdGllcyBvbiBhIFNpbmdsZSBNYWNoaW5lCiAgICBTZWUgdGhlIG9yaWdpbmFsIHBhcGVyOgogICAgaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIwMTAuMDUyMjIKICAgICIiIgoKICAgIEB0b3JjaC5ub19ncmFkKCkKICAgIGRlZiBfX2luaXRfXyhzZWxmLCByYW5rLCBsb2NhbF9yYW5rLCB3b3JsZF9zaXplLCBiYXRjaF9zaXplLCByZXN1bWUsCiAgICAgICAgICAgICAgICAgbWFyZ2luX3NvZnRtYXgsIG51bV9jbGFzc2VzLCBzYW1wbGVfcmF0ZT0xLjAsIGVtYmVkZGluZ19zaXplPTUxMiwgcHJlZml4PSIuLyIpOgogICAgICAgICIiIgogICAgICAgIHJhbms6IGludAogICAgICAgICAgICBVbmlxdWUgcHJvY2VzcyhHUFUpIElEIGZyb20gMCB0byB3b3JsZF9zaXplIC0gMS4KICAgICAgICBsb2NhbF9yYW5rOiBpbnQKICAgICAgICAgICAgVW5pcXVlIHByb2Nlc3MoR1BVKSBJRCB3aXRoaW4gdGhlIHNlcnZlciBmcm9tIDAgdG8gNy4KICAgICAgICB3b3JsZF9zaXplOiBpbnQKICAgICAgICAgICAgTnVtYmVyIG9mIEdQVS4KICAgICAgICBiYXRjaF9zaXplOiBpbnQKICAgICAgICAgICAgQmF0Y2ggc2l6ZSBvbiBjdXJyZW50IHJhbmsoR1BVKS4KICAgICAgICByZXN1bWU6IGJvb2wKICAgICAgICAgICAgU2VsZWN0IHdoZXRoZXIgdG8gcmVzdG9yZSB0aGUgd2VpZ2h0IG9mIHNvZnRtYXguCiAgICAgICAgbWFyZ2luX3NvZnRtYXg6IGNhbGxhYmxlCiAgICAgICAgICAgIEEgZnVuY3Rpb24gb2YgbWFyZ2luIHNvZnRtYXgsIGVnOiBjb3NmYWNlLCBhcmNmYWNlLgogICAgICAgIG51bV9jbGFzc2VzOiBpbnQKICAgICAgICAgICAgVGhlIG51bWJlciBvZiBjbGFzcyBjZW50ZXIgc3RvcmFnZSBpbiBjdXJyZW50IHJhbmsoQ1BVL0dQVSksIHVzdWFsbHkgaXMgdG90YWxfY2xhc3NlcyAvLyB3b3JsZF9zaXplLAogICAgICAgICAgICByZXF1aXJlZC4KICAgICAgICBzYW1wbGVfcmF0ZTogZmxvYXQKICAgICAgICAgICAgVGhlIHBhcnRpYWwgZmMgc2FtcGxpbmcgcmF0ZSwgd2hlbiB0aGUgbnVtYmVyIG9mIGNsYXNzZXMgaW5jcmVhc2VzIHRvIG1vcmUgdGhhbiAyIG1pbGxpb25zLCBTYW1wbGluZwogICAgICAgICAgICBjYW4gZ3JlYXRseSBzcGVlZCB1cCB0cmFpbmluZywgYW5kIHJlZHVjZSBhIGxvdCBvZiBHUFUgbWVtb3J5LCBkZWZhdWx0IGlzIDEuMC4KICAgICAgICBlbWJlZGRpbmdfc2l6ZTogaW50CiAgICAgICAgICAgIFRoZSBmZWF0dXJlIGRpbWVuc2lvbiwgZGVmYXVsdCBpcyA1MTIuCiAgICAgICAgcHJlZml4OiBzdHIKICAgICAgICAgICAgUGF0aCBmb3Igc2F2ZSBjaGVja3BvaW50LCBkZWZhdWx0IGlzICcuLycuCiAgICAgICAgIiIiCiAgICAgICAgc3VwZXIoUGFydGlhbEZDLCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgIwogICAgICAgIHNlbGYubnVtX2NsYXNzZXM6IGludCA9IG51bV9jbGFzc2VzCiAgICAgICAgc2VsZi5yYW5rOiBpbnQgPSByYW5rCiAgICAgICAgc2VsZi5sb2NhbF9yYW5rOiBpbnQgPSBsb2NhbF9yYW5rCiAgICAgICAgc2VsZi5kZXZpY2U6IHRvcmNoLmRldmljZSA9IHRvcmNoLmRldmljZSgiY3VkYTp7fSIuZm9ybWF0KHNlbGYubG9jYWxfcmFuaykpCiAgICAgICAgc2VsZi53b3JsZF9zaXplOiBpbnQgPSB3b3JsZF9zaXplCiAgICAgICAgc2VsZi5iYXRjaF9zaXplOiBpbnQgPSBiYXRjaF9zaXplCiAgICAgICAgc2VsZi5tYXJnaW5fc29mdG1heDogY2FsbGFibGUgPSBtYXJnaW5fc29mdG1heAogICAgICAgIHNlbGYuc2FtcGxlX3JhdGU6IGZsb2F0ID0gc2FtcGxlX3JhdGUKICAgICAgICBzZWxmLmVtYmVkZGluZ19zaXplOiBpbnQgPSBlbWJlZGRpbmdfc2l6ZQogICAgICAgIHNlbGYucHJlZml4OiBzdHIgPSBwcmVmaXgKICAgICAgICBzZWxmLm51bV9sb2NhbDogaW50ID0gbnVtX2NsYXNzZXMgLy8gd29ybGRfc2l6ZSArIGludChyYW5rIDwgbnVtX2NsYXNzZXMgJSB3b3JsZF9zaXplKQogICAgICAgIHNlbGYuY2xhc3Nfc3RhcnQ6IGludCA9IG51bV9jbGFzc2VzIC8vIHdvcmxkX3NpemUgKiByYW5rICsgbWluKHJhbmssIG51bV9jbGFzc2VzICUgd29ybGRfc2l6ZSkKICAgICAgICBzZWxmLm51bV9zYW1wbGU6IGludCA9IGludChzZWxmLnNhbXBsZV9yYXRlICogc2VsZi5udW1fbG9jYWwpCgogICAgICAgIHNlbGYud2VpZ2h0X25hbWUgPSBvcy5wYXRoLmpvaW4oc2VsZi5wcmVmaXgsICJyYW5rX3t9X3NvZnRtYXhfd2VpZ2h0LnB0Ii5mb3JtYXQoc2VsZi5yYW5rKSkKICAgICAgICBzZWxmLndlaWdodF9tb21fbmFtZSA9IG9zLnBhdGguam9pbihzZWxmLnByZWZpeCwgInJhbmtfe31fc29mdG1heF93ZWlnaHRfbW9tLnB0Ii5mb3JtYXQoc2VsZi5yYW5rKSkKCiAgICAgICAgaWYgcmVzdW1lOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBzZWxmLndlaWdodDogdG9yY2guVGVuc29yID0gdG9yY2gubG9hZChzZWxmLndlaWdodF9uYW1lKQogICAgICAgICAgICAgICAgc2VsZi53ZWlnaHRfbW9tOiB0b3JjaC5UZW5zb3IgPSB0b3JjaC5sb2FkKHNlbGYud2VpZ2h0X21vbV9uYW1lKQogICAgICAgICAgICAgICAgaWYgc2VsZi53ZWlnaHQuc2hhcGVbMF0gIT0gc2VsZi5udW1fbG9jYWwgb3Igc2VsZi53ZWlnaHRfbW9tLnNoYXBlWzBdICE9IHNlbGYubnVtX2xvY2FsOgogICAgICAgICAgICAgICAgICAgIHJhaXNlIEluZGV4RXJyb3IKICAgICAgICAgICAgICAgIGxvZ2dpbmcuaW5mbygic29mdG1heCB3ZWlnaHQgcmVzdW1lIHN1Y2Nlc3NmdWxseSEiKQogICAgICAgICAgICAgICAgbG9nZ2luZy5pbmZvKCJzb2Z0bWF4IHdlaWdodCBtb20gcmVzdW1lIHN1Y2Nlc3NmdWxseSEiKQogICAgICAgICAgICBleGNlcHQgKEZpbGVOb3RGb3VuZEVycm9yLCBLZXlFcnJvciwgSW5kZXhFcnJvcik6CiAgICAgICAgICAgICAgICBzZWxmLndlaWdodCA9IHRvcmNoLm5vcm1hbCgwLCAwLjAxLCAoc2VsZi5udW1fbG9jYWwsIHNlbGYuZW1iZWRkaW5nX3NpemUpLCBkZXZpY2U9c2VsZi5kZXZpY2UpCiAgICAgICAgICAgICAgICBzZWxmLndlaWdodF9tb206IHRvcmNoLlRlbnNvciA9IHRvcmNoLnplcm9zX2xpa2Uoc2VsZi53ZWlnaHQpCiAgICAgICAgICAgICAgICBsb2dnaW5nLmluZm8oInNvZnRtYXggd2VpZ2h0IGluaXQhIikKICAgICAgICAgICAgICAgIGxvZ2dpbmcuaW5mbygic29mdG1heCB3ZWlnaHQgbW9tIGluaXQhIikKICAgICAgICBlbHNlOgogICAgICAgICAgICBzZWxmLndlaWdodCA9IHRvcmNoLm5vcm1hbCgwLCAwLjAxLCAoc2VsZi5udW1fbG9jYWwsIHNlbGYuZW1iZWRkaW5nX3NpemUpLCBkZXZpY2U9c2VsZi5kZXZpY2UpCiAgICAgICAgICAgIHNlbGYud2VpZ2h0X21vbTogdG9yY2guVGVuc29yID0gdG9yY2guemVyb3NfbGlrZShzZWxmLndlaWdodCkKICAgICAgICAgICAgbG9nZ2luZy5pbmZvKCJzb2Z0bWF4IHdlaWdodCBpbml0IHN1Y2Nlc3NmdWxseSEiKQogICAgICAgICAgICBsb2dnaW5nLmluZm8oInNvZnRtYXggd2VpZ2h0IG1vbSBpbml0IHN1Y2Nlc3NmdWxseSEiKQogICAgICAgIHNlbGYuc3RyZWFtOiB0b3JjaC5jdWRhLlN0cmVhbSA9IHRvcmNoLmN1ZGEuU3RyZWFtKGxvY2FsX3JhbmspCgogICAgICAgIHNlbGYuaW5kZXggPSBOb25lCiAgICAgICAgaWYgaW50KHNlbGYuc2FtcGxlX3JhdGUpID09IDE6CiAgICAgICAgICAgIHNlbGYudXBkYXRlID0gbGFtYmRhOiAwCiAgICAgICAgICAgIHNlbGYuc3ViX3dlaWdodCA9IFBhcmFtZXRlcihzZWxmLndlaWdodCkKICAgICAgICAgICAgc2VsZi5zdWJfd2VpZ2h0X21vbSA9IHNlbGYud2VpZ2h0X21vbQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHNlbGYuc3ViX3dlaWdodCA9IFBhcmFtZXRlcih0b3JjaC5lbXB0eSgoMCwgMCkpLmN1ZGEobG9jYWxfcmFuaykpCgogICAgZGVmIHNhdmVfcGFyYW1zKHNlbGYpOgogICAgICAgICIiIiBTYXZlIHNvZnRtYXggd2VpZ2h0IGZvciBlYWNoIHJhbmsgb24gcHJlZml4CiAgICAgICAgIiIiCiAgICAgICAgdG9yY2guc2F2ZShzZWxmLndlaWdodC5kYXRhLCBzZWxmLndlaWdodF9uYW1lKQogICAgICAgIHRvcmNoLnNhdmUoc2VsZi53ZWlnaHRfbW9tLCBzZWxmLndlaWdodF9tb21fbmFtZSkKCiAgICBAdG9yY2gubm9fZ3JhZCgpCiAgICBkZWYgc2FtcGxlKHNlbGYsIHRvdGFsX2xhYmVsKToKICAgICAgICAiIiIKICAgICAgICBTYW1wbGUgYWxsIHBvc2l0aXZlIGNsYXNzIGNlbnRlcnMgaW4gZWFjaCByYW5rLCBhbmQgcmFuZG9tIHNlbGVjdCBuZWcgY2xhc3MgY2VudGVycyB0byBmaWxsaW5nIGEgZml4ZWQKICAgICAgICBgbnVtX3NhbXBsZWAuCgogICAgICAgIHRvdGFsX2xhYmVsOiB0ZW5zb3IKICAgICAgICAgICAgTGFiZWwgYWZ0ZXIgYWxsIGdhdGhlciwgd2hpY2ggY3Jvc3MgYWxsIEdQVXMuCiAgICAgICAgIiIiCiAgICAgICAgaW5kZXhfcG9zaXRpdmUgPSAoc2VsZi5jbGFzc19zdGFydCA8PSB0b3RhbF9sYWJlbCkgJiAodG90YWxfbGFiZWwgPCBzZWxmLmNsYXNzX3N0YXJ0ICsgc2VsZi5udW1fbG9jYWwpCiAgICAgICAgdG90YWxfbGFiZWxbfmluZGV4X3Bvc2l0aXZlXSA9IC0xCiAgICAgICAgdG90YWxfbGFiZWxbaW5kZXhfcG9zaXRpdmVdIC09IHNlbGYuY2xhc3Nfc3RhcnQKICAgICAgICBpZiBpbnQoc2VsZi5zYW1wbGVfcmF0ZSkgIT0gMToKICAgICAgICAgICAgcG9zaXRpdmUgPSB0b3JjaC51bmlxdWUodG90YWxfbGFiZWxbaW5kZXhfcG9zaXRpdmVdLCBzb3J0ZWQ9VHJ1ZSkKICAgICAgICAgICAgaWYgc2VsZi5udW1fc2FtcGxlIC0gcG9zaXRpdmUuc2l6ZSgwKSA+PSAwOgogICAgICAgICAgICAgICAgcGVybSA9IHRvcmNoLnJhbmQoc2l6ZT1bc2VsZi5udW1fbG9jYWxdLCBkZXZpY2U9c2VsZi5kZXZpY2UpCiAgICAgICAgICAgICAgICBwZXJtW3Bvc2l0aXZlXSA9IDIuMAogICAgICAgICAgICAgICAgaW5kZXggPSB0b3JjaC50b3BrKHBlcm0sIGs9c2VsZi5udW1fc2FtcGxlKVsxXQogICAgICAgICAgICAgICAgaW5kZXggPSBpbmRleC5zb3J0KClbMF0KICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGluZGV4ID0gcG9zaXRpdmUKICAgICAgICAgICAgc2VsZi5pbmRleCA9IGluZGV4CiAgICAgICAgICAgIHRvdGFsX2xhYmVsW2luZGV4X3Bvc2l0aXZlXSA9IHRvcmNoLnNlYXJjaHNvcnRlZChpbmRleCwgdG90YWxfbGFiZWxbaW5kZXhfcG9zaXRpdmVdKQogICAgICAgICAgICBzZWxmLnN1Yl93ZWlnaHQgPSBQYXJhbWV0ZXIoc2VsZi53ZWlnaHRbaW5kZXhdKQogICAgICAgICAgICBzZWxmLnN1Yl93ZWlnaHRfbW9tID0gc2VsZi53ZWlnaHRfbW9tW2luZGV4XQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHRvdGFsX2ZlYXR1cmVzLCBub3JtX3dlaWdodCk6CiAgICAgICAgIiIiIFBhcnRpYWwgZmMgZm9yd2FyZCwgYGxvZ2l0cyA9IFggKiBzYW1wbGUoVylgCiAgICAgICAgIiIiCiAgICAgICAgdG9yY2guY3VkYS5jdXJyZW50X3N0cmVhbSgpLndhaXRfc3RyZWFtKHNlbGYuc3RyZWFtKQogICAgICAgIGxvZ2l0cyA9IGxpbmVhcih0b3RhbF9mZWF0dXJlcywgbm9ybV93ZWlnaHQpCiAgICAgICAgcmV0dXJuIGxvZ2l0cwoKICAgIEB0b3JjaC5ub19ncmFkKCkKICAgIGRlZiB1cGRhdGUoc2VsZik6CiAgICAgICAgIiIiIFNldCB1cGRhdGVkIHdlaWdodCBhbmQgd2VpZ2h0X21vbSB0byBtZW1vcnkgYmFuay4KICAgICAgICAiIiIKICAgICAgICBzZWxmLndlaWdodF9tb21bc2VsZi5pbmRleF0gPSBzZWxmLnN1Yl93ZWlnaHRfbW9tCiAgICAgICAgc2VsZi53ZWlnaHRbc2VsZi5pbmRleF0gPSBzZWxmLnN1Yl93ZWlnaHQKCiAgICBkZWYgcHJlcGFyZShzZWxmLCBsYWJlbCwgb3B0aW1pemVyKToKICAgICAgICAiIiIKICAgICAgICBnZXQgc2FtcGxlZCBjbGFzcyBjZW50ZXJzIGZvciBjYWwgc29mdG1heC4KCiAgICAgICAgbGFiZWw6IHRlbnNvcgogICAgICAgICAgICBMYWJlbCB0ZW5zb3Igb24gZWFjaCByYW5rLgogICAgICAgIG9wdGltaXplcjogb3B0CiAgICAgICAgICAgIE9wdGltaXplciBmb3IgcGFydGlhbCBmYywgd2hpY2ggbmVlZCB0byBnZXQgd2VpZ2h0IG1vbS4KICAgICAgICAiIiIKICAgICAgICB3aXRoIHRvcmNoLmN1ZGEuc3RyZWFtKHNlbGYuc3RyZWFtKToKICAgICAgICAgICAgdG90YWxfbGFiZWwgPSB0b3JjaC56ZXJvcygKICAgICAgICAgICAgICAgIHNpemU9W3NlbGYuYmF0Y2hfc2l6ZSAqIHNlbGYud29ybGRfc2l6ZV0sIGRldmljZT1zZWxmLmRldmljZSwgZHR5cGU9dG9yY2gubG9uZykKICAgICAgICAgICAgZGlzdC5hbGxfZ2F0aGVyKGxpc3QodG90YWxfbGFiZWwuY2h1bmsoc2VsZi53b3JsZF9zaXplLCBkaW09MCkpLCBsYWJlbCkKICAgICAgICAgICAgc2VsZi5zYW1wbGUodG90YWxfbGFiZWwpCiAgICAgICAgICAgIG9wdGltaXplci5zdGF0ZS5wb3Aob3B0aW1pemVyLnBhcmFtX2dyb3Vwc1stMV1bJ3BhcmFtcyddWzBdLCBOb25lKQogICAgICAgICAgICBvcHRpbWl6ZXIucGFyYW1fZ3JvdXBzWy0xXVsncGFyYW1zJ11bMF0gPSBzZWxmLnN1Yl93ZWlnaHQKICAgICAgICAgICAgb3B0aW1pemVyLnN0YXRlW3NlbGYuc3ViX3dlaWdodF1bJ21vbWVudHVtX2J1ZmZlciddID0gc2VsZi5zdWJfd2VpZ2h0X21vbQogICAgICAgICAgICBub3JtX3dlaWdodCA9IG5vcm1hbGl6ZShzZWxmLnN1Yl93ZWlnaHQpCiAgICAgICAgICAgIHJldHVybiB0b3RhbF9sYWJlbCwgbm9ybV93ZWlnaHQKCiAgICBkZWYgZm9yd2FyZF9iYWNrd2FyZChzZWxmLCBsYWJlbCwgZmVhdHVyZXMsIG9wdGltaXplcik6CiAgICAgICAgIiIiCiAgICAgICAgUGFydGlhbCBmYyBmb3J3YXJkIGFuZCBiYWNrd2FyZCB3aXRoIG1vZGVsIHBhcmFsbGVsCgogICAgICAgIGxhYmVsOiB0ZW5zb3IKICAgICAgICAgICAgTGFiZWwgdGVuc29yIG9uIGVhY2ggcmFuayhHUFUpCiAgICAgICAgZmVhdHVyZXM6IHRlbnNvcgogICAgICAgICAgICBGZWF0dXJlcyB0ZW5zb3Igb24gZWFjaCByYW5rKEdQVSkKICAgICAgICBvcHRpbWl6ZXI6IG9wdGltaXplcgogICAgICAgICAgICBPcHRpbWl6ZXIgZm9yIHBhcnRpYWwgZmMKCiAgICAgICAgUmV0dXJuczoKICAgICAgICAtLS0tLS0tLQogICAgICAgIHhfZ3JhZDogdGVuc29yCiAgICAgICAgICAgIFRoZSBncmFkaWVudCBvZiBmZWF0dXJlcy4KICAgICAgICBsb3NzX3Y6IHRlbnNvcgogICAgICAgICAgICBMb3NzIHZhbHVlIGZvciBjcm9zcyBlbnRyb3B5LgogICAgICAgICIiIgogICAgICAgIHRvdGFsX2xhYmVsLCBub3JtX3dlaWdodCA9IHNlbGYucHJlcGFyZShsYWJlbCwgb3B0aW1pemVyKQogICAgICAgIHRvdGFsX2ZlYXR1cmVzID0gdG9yY2guemVyb3MoCiAgICAgICAgICAgIHNpemU9W3NlbGYuYmF0Y2hfc2l6ZSAqIHNlbGYud29ybGRfc2l6ZSwgc2VsZi5lbWJlZGRpbmdfc2l6ZV0sIGRldmljZT1zZWxmLmRldmljZSkKICAgICAgICBkaXN0LmFsbF9nYXRoZXIobGlzdCh0b3RhbF9mZWF0dXJlcy5jaHVuayhzZWxmLndvcmxkX3NpemUsIGRpbT0wKSksIGZlYXR1cmVzLmRhdGEpCiAgICAgICAgdG90YWxfZmVhdHVyZXMucmVxdWlyZXNfZ3JhZCA9IFRydWUKCiAgICAgICAgbG9naXRzID0gc2VsZi5mb3J3YXJkKHRvdGFsX2ZlYXR1cmVzLCBub3JtX3dlaWdodCkKICAgICAgICBsb2dpdHMgPSBzZWxmLm1hcmdpbl9zb2Z0bWF4KGxvZ2l0cywgdG90YWxfbGFiZWwpCgogICAgICAgIHdpdGggdG9yY2gubm9fZ3JhZCgpOgogICAgICAgICAgICBtYXhfZmMgPSB0b3JjaC5tYXgobG9naXRzLCBkaW09MSwga2VlcGRpbT1UcnVlKVswXQogICAgICAgICAgICBkaXN0LmFsbF9yZWR1Y2UobWF4X2ZjLCBkaXN0LlJlZHVjZU9wLk1BWCkKCiAgICAgICAgICAgICMgY2FsY3VsYXRlIGV4cChsb2dpdHMpIGFuZCBhbGwtcmVkdWNlCiAgICAgICAgICAgIGxvZ2l0c19leHAgPSB0b3JjaC5leHAobG9naXRzIC0gbWF4X2ZjKQogICAgICAgICAgICBsb2dpdHNfc3VtX2V4cCA9IGxvZ2l0c19leHAuc3VtKGRpbT0xLCBrZWVwZGltcz1UcnVlKQogICAgICAgICAgICBkaXN0LmFsbF9yZWR1Y2UobG9naXRzX3N1bV9leHAsIGRpc3QuUmVkdWNlT3AuU1VNKQoKICAgICAgICAgICAgIyBjYWxjdWxhdGUgcHJvYgogICAgICAgICAgICBsb2dpdHNfZXhwLmRpdl8obG9naXRzX3N1bV9leHApCgogICAgICAgICAgICAjIGdldCBvbmUtaG90CiAgICAgICAgICAgIGdyYWQgPSBsb2dpdHNfZXhwCiAgICAgICAgICAgIGluZGV4ID0gdG9yY2gud2hlcmUodG90YWxfbGFiZWwgIT0gLTEpWzBdCiAgICAgICAgICAgIG9uZV9ob3QgPSB0b3JjaC56ZXJvcyhzaXplPVtpbmRleC5zaXplKClbMF0sIGdyYWQuc2l6ZSgpWzFdXSwgZGV2aWNlPWdyYWQuZGV2aWNlKQogICAgICAgICAgICBvbmVfaG90LnNjYXR0ZXJfKDEsIHRvdGFsX2xhYmVsW2luZGV4LCBOb25lXSwgMSkKCiAgICAgICAgICAgICMgY2FsY3VsYXRlIGxvc3MKICAgICAgICAgICAgbG9zcyA9IHRvcmNoLnplcm9zKGdyYWQuc2l6ZSgpWzBdLCAxLCBkZXZpY2U9Z3JhZC5kZXZpY2UpCiAgICAgICAgICAgIGxvc3NbaW5kZXhdID0gZ3JhZFtpbmRleF0uZ2F0aGVyKDEsIHRvdGFsX2xhYmVsW2luZGV4LCBOb25lXSkKICAgICAgICAgICAgZGlzdC5hbGxfcmVkdWNlKGxvc3MsIGRpc3QuUmVkdWNlT3AuU1VNKQogICAgICAgICAgICBsb3NzX3YgPSBsb3NzLmNsYW1wX21pbl8oMWUtMzApLmxvZ18oKS5tZWFuKCkgKiAoLTEpCgogICAgICAgICAgICAjIGNhbGN1bGF0ZSBncmFkCiAgICAgICAgICAgIGdyYWRbaW5kZXhdIC09IG9uZV9ob3QKICAgICAgICAgICAgZ3JhZC5kaXZfKHNlbGYuYmF0Y2hfc2l6ZSAqIHNlbGYud29ybGRfc2l6ZSkKCiAgICAgICAgbG9naXRzLmJhY2t3YXJkKGdyYWQpCiAgICAgICAgaWYgdG90YWxfZmVhdHVyZXMuZ3JhZCBpcyBub3QgTm9uZToKICAgICAgICAgICAgdG90YWxfZmVhdHVyZXMuZ3JhZC5kZXRhY2hfKCkKICAgICAgICB4X2dyYWQ6IHRvcmNoLlRlbnNvciA9IHRvcmNoLnplcm9zX2xpa2UoZmVhdHVyZXMsIHJlcXVpcmVzX2dyYWQ9VHJ1ZSkKICAgICAgICAjIGZlYXR1cmUgZ3JhZGllbnQgYWxsLXJlZHVjZQogICAgICAgIGRpc3QucmVkdWNlX3NjYXR0ZXIoeF9ncmFkLCBsaXN0KHRvdGFsX2ZlYXR1cmVzLmdyYWQuY2h1bmsoc2VsZi53b3JsZF9zaXplLCBkaW09MCkpKQogICAgICAgIHhfZ3JhZCA9IHhfZ3JhZCAqIHNlbGYud29ybGRfc2l6ZQogICAgICAgICMgYmFja3dhcmQgYmFja2JvbmUKICAgICAgICByZXR1cm4geF9ncmFkLCBsb3NzX3YK
+import logging
+import os
+
+import torch
+import torch.distributed as dist
+from torch.nn import Module
+from torch.nn.functional import normalize, linear
+from torch.nn.parameter import Parameter
+
+
+class PartialFC(Module):
+    """
+    Author: {Xiang An, Yang Xiao, XuHan Zhu} in DeepGlint,
+    Partial FC: Training 10 Million Identities on a Single Machine
+    See the original paper:
+    https://arxiv.org/abs/2010.05222
+    """
+
+    @torch.no_grad()
+    def __init__(self, rank, local_rank, world_size, batch_size, resume,
+                 margin_softmax, num_classes, sample_rate=1.0, embedding_size=512, prefix="./"):
+        """
+        rank: int
+            Unique process(GPU) ID from 0 to world_size - 1.
+        local_rank: int
+            Unique process(GPU) ID within the server from 0 to 7.
+        world_size: int
+            Number of GPU.
+        batch_size: int
+            Batch size on current rank(GPU).
+        resume: bool
+            Select whether to restore the weight of softmax.
+        margin_softmax: callable
+            A function of margin softmax, eg: cosface, arcface.
+        num_classes: int
+            The number of class center storage in current rank(CPU/GPU), usually is total_classes // world_size,
+            required.
+        sample_rate: float
+            The partial fc sampling rate, when the number of classes increases to more than 2 millions, Sampling
+            can greatly speed up training, and reduce a lot of GPU memory, default is 1.0.
+        embedding_size: int
+            The feature dimension, default is 512.
+        prefix: str
+            Path for save checkpoint, default is './'.
+        """
+        super(PartialFC, self).__init__()
+        #
+        self.num_classes: int = num_classes
+        self.rank: int = rank
+        self.local_rank: int = local_rank
+        self.device: torch.device = torch.device("cuda:{}".format(self.local_rank))
+        self.world_size: int = world_size
+        self.batch_size: int = batch_size
+        self.margin_softmax: callable = margin_softmax
+        self.sample_rate: float = sample_rate
+        self.embedding_size: int = embedding_size
+        self.prefix: str = prefix
+        self.num_local: int = num_classes // world_size + int(rank < num_classes % world_size)
+        self.class_start: int = num_classes // world_size * rank + min(rank, num_classes % world_size)
+        self.num_sample: int = int(self.sample_rate * self.num_local)
+
+        self.weight_name = os.path.join(self.prefix, "rank_{}_softmax_weight.pt".format(self.rank))
+        self.weight_mom_name = os.path.join(self.prefix, "rank_{}_softmax_weight_mom.pt".format(self.rank))
+
+        if resume:
+            try:
+                self.weight: torch.Tensor = torch.load(self.weight_name)
+                self.weight_mom: torch.Tensor = torch.load(self.weight_mom_name)
+                if self.weight.shape[0] != self.num_local or self.weight_mom.shape[0] != self.num_local:
+                    raise IndexError
+                logging.info("softmax weight resume successfully!")
+                logging.info("softmax weight mom resume successfully!")
+            except (FileNotFoundError, KeyError, IndexError):
+                self.weight = torch.normal(0, 0.01, (self.num_local, self.embedding_size), device=self.device)
+                self.weight_mom: torch.Tensor = torch.zeros_like(self.weight)
+                logging.info("softmax weight init!")
+                logging.info("softmax weight mom init!")
+        else:
+            self.weight = torch.normal(0, 0.01, (self.num_local, self.embedding_size), device=self.device)
+            self.weight_mom: torch.Tensor = torch.zeros_like(self.weight)
+            logging.info("softmax weight init successfully!")
+            logging.info("softmax weight mom init successfully!")
+        self.stream: torch.cuda.Stream = torch.cuda.Stream(local_rank)
+
+        self.index = None
+        if int(self.sample_rate) == 1:
+            self.update = lambda: 0
+            self.sub_weight = Parameter(self.weight)
+            self.sub_weight_mom = self.weight_mom
+        else:
+            self.sub_weight = Parameter(torch.empty((0, 0)).cuda(local_rank))
+
+    def save_params(self):
+        """ Save softmax weight for each rank on prefix
+        """
+        torch.save(self.weight.data, self.weight_name)
+        torch.save(self.weight_mom, self.weight_mom_name)
+
+    @torch.no_grad()
+    def sample(self, total_label):
+        """
+        Sample all positive class centers in each rank, and random select neg class centers to filling a fixed
+        `num_sample`.
+
+        total_label: tensor
+            Label after all gather, which cross all GPUs.
+        """
+        index_positive = (self.class_start <= total_label) & (total_label < self.class_start + self.num_local)
+        total_label[~index_positive] = -1
+        total_label[index_positive] -= self.class_start
+        if int(self.sample_rate) != 1:
+            positive = torch.unique(total_label[index_positive], sorted=True)
+            if self.num_sample - positive.size(0) >= 0:
+                perm = torch.rand(size=[self.num_local], device=self.device)
+                perm[positive] = 2.0
+                index = torch.topk(perm, k=self.num_sample)[1]
+                index = index.sort()[0]
+            else:
+                index = positive
+            self.index = index
+            total_label[index_positive] = torch.searchsorted(index, total_label[index_positive])
+            self.sub_weight = Parameter(self.weight[index])
+            self.sub_weight_mom = self.weight_mom[index]
+
+    def forward(self, total_features, norm_weight):
+        """ Partial fc forward, `logits = X * sample(W)`
+        """
+        torch.cuda.current_stream().wait_stream(self.stream)
+        logits = linear(total_features, norm_weight)
+        return logits
+
+    @torch.no_grad()
+    def update(self):
+        """ Set updated weight and weight_mom to memory bank.
+        """
+        self.weight_mom[self.index] = self.sub_weight_mom
+        self.weight[self.index] = self.sub_weight
+
+    def prepare(self, label, optimizer):
+        """
+        get sampled class centers for cal softmax.
+
+        label: tensor
+            Label tensor on each rank.
+        optimizer: opt
+            Optimizer for partial fc, which need to get weight mom.
+        """
+        with torch.cuda.stream(self.stream):
+            total_label = torch.zeros(
+                size=[self.batch_size * self.world_size], device=self.device, dtype=torch.long)
+            dist.all_gather(list(total_label.chunk(self.world_size, dim=0)), label)
+            self.sample(total_label)
+            optimizer.state.pop(optimizer.param_groups[-1]['params'][0], None)
+            optimizer.param_groups[-1]['params'][0] = self.sub_weight
+            optimizer.state[self.sub_weight]['momentum_buffer'] = self.sub_weight_mom
+            norm_weight = normalize(self.sub_weight)
+            return total_label, norm_weight
+
+    def forward_backward(self, label, features, optimizer):
+        """
+        Partial fc forward and backward with model parallel
+
+        label: tensor
+            Label tensor on each rank(GPU)
+        features: tensor
+            Features tensor on each rank(GPU)
+        optimizer: optimizer
+            Optimizer for partial fc
+
+        Returns:
+        --------
+        x_grad: tensor
+            The gradient of features.
+        loss_v: tensor
+            Loss value for cross entropy.
+        """
+        total_label, norm_weight = self.prepare(label, optimizer)
+        total_features = torch.zeros(
+            size=[self.batch_size * self.world_size, self.embedding_size], device=self.device)
+        dist.all_gather(list(total_features.chunk(self.world_size, dim=0)), features.data)
+        total_features.requires_grad = True
+
+        logits = self.forward(total_features, norm_weight)
+        logits = self.margin_softmax(logits, total_label)
+
+        with torch.no_grad():
+            max_fc = torch.max(logits, dim=1, keepdim=True)[0]
+            dist.all_reduce(max_fc, dist.ReduceOp.MAX)
+
+            # calculate exp(logits) and all-reduce
+            logits_exp = torch.exp(logits - max_fc)
+            logits_sum_exp = logits_exp.sum(dim=1, keepdims=True)
+            dist.all_reduce(logits_sum_exp, dist.ReduceOp.SUM)
+
+            # calculate prob
+            logits_exp.div_(logits_sum_exp)
+
+            # get one-hot
+            grad = logits_exp
+            index = torch.where(total_label != -1)[0]
+            one_hot = torch.zeros(size=[index.size()[0], grad.size()[1]], device=grad.device)
+            one_hot.scatter_(1, total_label[index, None], 1)
+
+            # calculate loss
+            loss = torch.zeros(grad.size()[0], 1, device=grad.device)
+            loss[index] = grad[index].gather(1, total_label[index, None])
+            dist.all_reduce(loss, dist.ReduceOp.SUM)
+            loss_v = loss.clamp_min_(1e-30).log_().mean() * (-1)
+
+            # calculate grad
+            grad[index] -= one_hot
+            grad.div_(self.batch_size * self.world_size)
+
+        logits.backward(grad)
+        if total_features.grad is not None:
+            total_features.grad.detach_()
+        x_grad: torch.Tensor = torch.zeros_like(features, requires_grad=True)
+        # feature gradient all-reduce
+        dist.reduce_scatter(x_grad, list(total_features.grad.chunk(self.world_size, dim=0)))
+        x_grad = x_grad * self.world_size
+        # backward backbone
+        return x_grad, loss_v

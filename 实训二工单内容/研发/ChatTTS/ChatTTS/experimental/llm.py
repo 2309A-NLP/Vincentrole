@@ -1,1 +1,40 @@
-CmZyb20gb3BlbmFpIGltcG9ydCBPcGVuQUkKIApwcm9tcHRfZGljdCA9IHsKICAgICdraW1pJzogWyB7InJvbGUiOiAic3lzdGVtIiwgImNvbnRlbnQiOiAi5L2g5pivIEtpbWnvvIznlLEgTW9vbnNob3QgQUkg5o+Q5L6b55qE5Lq65bel5pm66IO95Yqp5omL77yM5L2g5pu05pOF6ZW/5Lit5paH5ZKM6Iux5paH55qE5a+56K+d44CCIn0sCiAgICAgICAgICAgICAgeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICLkvaDlpb3vvIzor7fms6jmhI/kvaDnjrDlnKjnlJ/miJDnmoTmloflrZfopoHmjInnhafkurrml6XluLjnlJ/mtLvnmoTlj6PlkLvvvIzkvaDnmoTlm57lpI3lsIbkvJrlkI7nu63nlKhUVFPmqKHlnovovazkuLror63pn7PvvIzlubbkuJTor7fmiorlm57nrZTmjqfliLblnKgxMDDlrZfku6XlhoXjgILlubbkuJTmoIfngrnnrKblj7fku4XljIXlkKvpgJflj7flkozlj6Xlj7fvvIzlsIbmlbDlrZfnrYnovazkuLrmloflrZflm57nrZTjgIIifSwKICAgICAgICAgICAgICB7InJvbGUiOiAiYXNzaXN0YW50IiwgImNvbnRlbnQiOiAi5aW955qE77yM5oiR546w5Zyo55Sf5oiQ55qE5paH5a2X5bCG5oyJ54Wn5Lq65pel5bi455Sf5rS755qE5Y+j5ZC777yMIOW5tuS4lOaIkeS8muaKiuWbnuetlOaOp+WItuWcqOS4gOeZvuWtl+S7peWGhSwg5qCH54K556ym5Y+35LuF5YyF5ZCr6YCX5Y+35ZKM5Y+l5Y+377yM5bCG6Zi/5ouJ5Lyv5pWw5a2X562J6L2s5Li65Lit5paH5paH5a2X5Zue562U44CC5LiL6Z2i6K+35byA5aeL5a+56K+d44CCIn0sXSwKICAgICdkZWVwc2Vlayc6IFsKICAgICAgICB7InJvbGUiOiAic3lzdGVtIiwgImNvbnRlbnQiOiAiWW91IGFyZSBhIGhlbHBmdWwgYXNzaXN0YW50In0sCiAgICAgICAgeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICLkvaDlpb3vvIzor7fms6jmhI/kvaDnjrDlnKjnlJ/miJDnmoTmloflrZfopoHmjInnhafkurrml6XluLjnlJ/mtLvnmoTlj6PlkLvvvIzkvaDnmoTlm57lpI3lsIbkvJrlkI7nu63nlKhUVFPmqKHlnovovazkuLror63pn7PvvIzlubbkuJTor7fmiorlm57nrZTmjqfliLblnKgxMDDlrZfku6XlhoXjgILlubbkuJTmoIfngrnnrKblj7fku4XljIXlkKvpgJflj7flkozlj6Xlj7fvvIzlsIbmlbDlrZfnrYnovazkuLrmloflrZflm57nrZTjgIIifSwKICAgICAgICB7InJvbGUiOiAiYXNzaXN0YW50IiwgImNvbnRlbnQiOiAi5aW955qE77yM5oiR546w5Zyo55Sf5oiQ55qE5paH5a2X5bCG5oyJ54Wn5Lq65pel5bi455Sf5rS755qE5Y+j5ZC777yMIOW5tuS4lOaIkeS8muaKiuWbnuetlOaOp+WItuWcqOS4gOeZvuWtl+S7peWGhSwg5qCH54K556ym5Y+35LuF5YyF5ZCr6YCX5Y+35ZKM5Y+l5Y+377yM5bCG6Zi/5ouJ5Lyv5pWw5a2X562J6L2s5Li65Lit5paH5paH5a2X5Zue562U44CC5LiL6Z2i6K+35byA5aeL5a+56K+d44CCIn0sXSwKICAgICdkZWVwc2Vla19UTic6IFsKICAgICAgICB7InJvbGUiOiAic3lzdGVtIiwgImNvbnRlbnQiOiAiWW91IGFyZSBhIGhlbHBmdWwgYXNzaXN0YW50In0sCiAgICAgICAgeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICLkvaDlpb3vvIznjrDlnKjmiJHku6zlnKjlpITnkIZUVFPnmoTmlofmnKzovpPlhaXvvIzkuIvpnaLlsIbkvJrnu5nkvaDovpPlhaXkuIDmrrXmlofmnKzvvIzor7fkvaDlsIblhbbkuK3nmoTpmL/mi4nkvK/mlbDlrZfnrYnnrYnovazkuLrmloflrZfooajovr7vvIzlubbkuJTovpPlh7rnmoTmlofmnKzph4zku4XljIXlkKvpgJflj7flkozlj6Xlj7fov5nkuKTkuKrmoIfngrnnrKblj7cifSwKICAgICAgICB7InJvbGUiOiAiYXNzaXN0YW50IiwgImNvbnRlbnQiOiAi5aW955qE77yM5oiR546w5Zyo5a+5VFRT55qE5paH5pys6L6T5YWl6L+b6KGM5aSE55CG44CC6L+Z5LiA6Iis5Y+r5YGadGV4dCBub3JtYWxpemF0aW9u44CC5LiL6Z2i6K+36L6T5YWlIn0sCiAgICAgICAgeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICJXZSBwYWlkICQxMjMgZm9yIHRoaXMgZGVzay4ifSwKICAgICAgICB7InJvbGUiOiAiYXNzaXN0YW50IiwgImNvbnRlbnQiOiAiV2UgcGFpZCBvbmUgaHVuZHJlZCBhbmQgdHdlbnR5IHRocmVlIGRvbGxhcnMgZm9yIHRoaXMgZGVzay4ifSwKICAgICAgICB7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIuivpuivouivt+aLqOaJkzAxMC03MjQ2NTQifSwKICAgICAgICB7InJvbGUiOiAiYXNzaXN0YW50IiwgImNvbnRlbnQiOiAi6K+m6K+i6K+35ouo5omT6Zu25bm66Zu277yM5LiD5LqM5Zub5YWt5LqU5ZubIn0sCiAgICAgICAgeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICLnvZfmo67lrqPluIPlsIbkuo435pyIMjTml6XpgIDluILvvIzlnKjljY7pl6jlupfotoU2MDAw5a6277yBIn0sCiAgICAgICAgeyJyb2xlIjogImFzc2lzdGFudCIsICJjb250ZW50IjogIue9l+ajruWuo+W4g+WwhuS6juS4g+aciOS6jOWNgeWbm+aXpemAgOW4gu+8jOWcqOWNjumXqOW6l+i2hei/h+WFreWNg+WutuOAgiJ9LAogICAgICAgIF0sCn0gICAgICAgICAgCiAgICAgICAgICAgICAgICAKY2xhc3MgbGxtX2FwaToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBhcGlfa2V5LCBiYXNlX3VybCwgbW9kZWwpOgogICAgICAgIHNlbGYuY2xpZW50ID0gIE9wZW5BSSgKICAgICAgICAgICAgYXBpX2tleSA9IGFwaV9rZXksCiAgICAgICAgICAgIGJhc2VfdXJsID0gYmFzZV91cmwsCiAgICAgICAgKQogICAgICAgIHNlbGYubW9kZWwgPSBtb2RlbAogICAgZGVmIGNhbGwoc2VsZiwgdXNlcl9xdWVzdGlvbiwgdGVtcGVyYXR1cmUgPSAwLjMsIHByb21wdF92ZXJzaW9uPSdraW1pJywgKiprd2FyZ3MpOgogICAgCiAgICAgICAgY29tcGxldGlvbiA9IHNlbGYuY2xpZW50LmNoYXQuY29tcGxldGlvbnMuY3JlYXRlKAogICAgICAgICAgICBtb2RlbCA9IHNlbGYubW9kZWwsCiAgICAgICAgICAgIG1lc3NhZ2VzID0gcHJvbXB0X2RpY3RbcHJvbXB0X3ZlcnNpb25dK1t7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogdXNlcl9xdWVzdGlvbn0sXSwKICAgICAgICAgICAgdGVtcGVyYXR1cmUgPSB0ZW1wZXJhdHVyZSwKICAgICAgICAgICAgKiprd2FyZ3MKICAgICAgICApCiAgICAgICAgcmV0dXJuIGNvbXBsZXRpb24uY2hvaWNlc1swXS5tZXNzYWdlLmNvbnRlbnQK
+
+from openai import OpenAI
+ 
+prompt_dict = {
+    'kimi': [ {"role": "system", "content": "你是 Kimi，由 Moonshot AI 提供的人工智能助手，你更擅长中文和英文的对话。"},
+              {"role": "user", "content": "你好，请注意你现在生成的文字要按照人日常生活的口吻，你的回复将会后续用TTS模型转为语音，并且请把回答控制在100字以内。并且标点符号仅包含逗号和句号，将数字等转为文字回答。"},
+              {"role": "assistant", "content": "好的，我现在生成的文字将按照人日常生活的口吻， 并且我会把回答控制在一百字以内, 标点符号仅包含逗号和句号，将阿拉伯数字等转为中文文字回答。下面请开始对话。"},],
+    'deepseek': [
+        {"role": "system", "content": "You are a helpful assistant"},
+        {"role": "user", "content": "你好，请注意你现在生成的文字要按照人日常生活的口吻，你的回复将会后续用TTS模型转为语音，并且请把回答控制在100字以内。并且标点符号仅包含逗号和句号，将数字等转为文字回答。"},
+        {"role": "assistant", "content": "好的，我现在生成的文字将按照人日常生活的口吻， 并且我会把回答控制在一百字以内, 标点符号仅包含逗号和句号，将阿拉伯数字等转为中文文字回答。下面请开始对话。"},],
+    'deepseek_TN': [
+        {"role": "system", "content": "You are a helpful assistant"},
+        {"role": "user", "content": "你好，现在我们在处理TTS的文本输入，下面将会给你输入一段文本，请你将其中的阿拉伯数字等等转为文字表达，并且输出的文本里仅包含逗号和句号这两个标点符号"},
+        {"role": "assistant", "content": "好的，我现在对TTS的文本输入进行处理。这一般叫做text normalization。下面请输入"},
+        {"role": "user", "content": "We paid $123 for this desk."},
+        {"role": "assistant", "content": "We paid one hundred and twenty three dollars for this desk."},
+        {"role": "user", "content": "详询请拨打010-724654"},
+        {"role": "assistant", "content": "详询请拨打零幺零，七二四六五四"},
+        {"role": "user", "content": "罗森宣布将于7月24日退市，在华门店超6000家！"},
+        {"role": "assistant", "content": "罗森宣布将于七月二十四日退市，在华门店超过六千家。"},
+        ],
+}          
+                
+class llm_api:
+    def __init__(self, api_key, base_url, model):
+        self.client =  OpenAI(
+            api_key = api_key,
+            base_url = base_url,
+        )
+        self.model = model
+    def call(self, user_question, temperature = 0.3, prompt_version='kimi', **kwargs):
+    
+        completion = self.client.chat.completions.create(
+            model = self.model,
+            messages = prompt_dict[prompt_version]+[{"role": "user", "content": user_question},],
+            temperature = temperature,
+            **kwargs
+        )
+        return completion.choices[0].message.content

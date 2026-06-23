@@ -1,1 +1,368 @@
-aW1wb3J0IHN5cwppbXBvcnQgbWF0aAoKaW1wb3J0IHRvcmNoCmZyb20gdG9yY2ggaW1wb3J0IG5uCmZyb20gdG9yY2gubm4gaW1wb3J0IGZ1bmN0aW9uYWwgYXMgRgpmcm9tIHRvcmNoLmF1dG9ncmFkIGltcG9ydCBGdW5jdGlvbgpmcm9tIHRvcmNoLm5uLnV0aWxzLnNwZWN0cmFsX25vcm0gaW1wb3J0IHNwZWN0cmFsX25vcm0gYXMgU3BlY3RyYWxOb3JtCgoKY2xhc3MgTGF5ZXJOb3JtMmQobm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBuX291dCwgYWZmaW5lPVRydWUpOgogICAgICAgIHN1cGVyKExheWVyTm9ybTJkLCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgc2VsZi5uX291dCA9IG5fb3V0CiAgICAgICAgc2VsZi5hZmZpbmUgPSBhZmZpbmUKCiAgICAgICAgaWYgc2VsZi5hZmZpbmU6CiAgICAgICAgICBzZWxmLndlaWdodCA9IG5uLlBhcmFtZXRlcih0b3JjaC5vbmVzKG5fb3V0LCAxLCAxKSkKICAgICAgICAgIHNlbGYuYmlhcyA9IG5uLlBhcmFtZXRlcih0b3JjaC56ZXJvcyhuX291dCwgMSwgMSkpCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCk6CiAgICAgICAgbm9ybWFsaXplZF9zaGFwZSA9IHguc2l6ZSgpWzE6XQogICAgICAgIGlmIHNlbGYuYWZmaW5lOgogICAgICAgICAgcmV0dXJuIEYubGF5ZXJfbm9ybSh4LCBub3JtYWxpemVkX3NoYXBlLCBcCiAgICAgICAgICAgICAgc2VsZi53ZWlnaHQuZXhwYW5kKG5vcm1hbGl6ZWRfc2hhcGUpLCAKICAgICAgICAgICAgICBzZWxmLmJpYXMuZXhwYW5kKG5vcm1hbGl6ZWRfc2hhcGUpKQogICAgICAgICAgICAgIAogICAgICAgIGVsc2U6CiAgICAgICAgICByZXR1cm4gRi5sYXllcl9ub3JtKHgsIG5vcm1hbGl6ZWRfc2hhcGUpICAKCmNsYXNzIEFEQUlOSG91cmdsYXNzKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgaW1hZ2VfbmMsIHBvc2VfbmMsIG5nZiwgaW1nX2YsIGVuY29kZXJfbGF5ZXJzLCBkZWNvZGVyX2xheWVycywgbm9ubGluZWFyaXR5LCB1c2Vfc3BlY3QpOgogICAgICAgIHN1cGVyKEFEQUlOSG91cmdsYXNzLCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgc2VsZi5lbmNvZGVyID0gQURBSU5FbmNvZGVyKGltYWdlX25jLCBwb3NlX25jLCBuZ2YsIGltZ19mLCBlbmNvZGVyX2xheWVycywgbm9ubGluZWFyaXR5LCB1c2Vfc3BlY3QpCiAgICAgICAgc2VsZi5kZWNvZGVyID0gQURBSU5EZWNvZGVyKHBvc2VfbmMsIG5nZiwgaW1nX2YsIGVuY29kZXJfbGF5ZXJzLCBkZWNvZGVyX2xheWVycywgVHJ1ZSwgbm9ubGluZWFyaXR5LCB1c2Vfc3BlY3QpCiAgICAgICAgc2VsZi5vdXRwdXRfbmMgPSBzZWxmLmRlY29kZXIub3V0cHV0X25jCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCwgeik6CiAgICAgICAgcmV0dXJuIHNlbGYuZGVjb2RlcihzZWxmLmVuY29kZXIoeCwgeiksIHopICAgICAgICAgICAgICAgICAKCgoKY2xhc3MgQURBSU5FbmNvZGVyKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgaW1hZ2VfbmMsIHBvc2VfbmMsIG5nZiwgaW1nX2YsIGxheWVycywgbm9ubGluZWFyaXR5PW5uLkxlYWt5UmVMVSgpLCB1c2Vfc3BlY3Q9RmFsc2UpOgogICAgICAgIHN1cGVyKEFEQUlORW5jb2Rlciwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYubGF5ZXJzID0gbGF5ZXJzCiAgICAgICAgc2VsZi5pbnB1dF9sYXllciA9IG5uLkNvbnYyZChpbWFnZV9uYywgbmdmLCBrZXJuZWxfc2l6ZT03LCBzdHJpZGU9MSwgcGFkZGluZz0zKQogICAgICAgIGZvciBpIGluIHJhbmdlKGxheWVycyk6CiAgICAgICAgICAgIGluX2NoYW5uZWxzID0gbWluKG5nZiAqICgyKippKSwgaW1nX2YpCiAgICAgICAgICAgIG91dF9jaGFubmVscyA9IG1pbihuZ2YgKigyKiooaSsxKSksIGltZ19mKQogICAgICAgICAgICBtb2RlbCA9IEFEQUlORW5jb2RlckJsb2NrKGluX2NoYW5uZWxzLCBvdXRfY2hhbm5lbHMsIHBvc2VfbmMsIG5vbmxpbmVhcml0eSwgdXNlX3NwZWN0KQogICAgICAgICAgICBzZXRhdHRyKHNlbGYsICdlbmNvZGVyJyArIHN0cihpKSwgbW9kZWwpCiAgICAgICAgc2VsZi5vdXRwdXRfbmMgPSBvdXRfY2hhbm5lbHMKICAgICAgICAKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgsIHopOgogICAgICAgIG91dCA9IHNlbGYuaW5wdXRfbGF5ZXIoeCkKICAgICAgICBvdXRfbGlzdCA9IFtvdXRdCiAgICAgICAgZm9yIGkgaW4gcmFuZ2Uoc2VsZi5sYXllcnMpOgogICAgICAgICAgICBtb2RlbCA9IGdldGF0dHIoc2VsZiwgJ2VuY29kZXInICsgc3RyKGkpKQogICAgICAgICAgICBvdXQgPSBtb2RlbChvdXQsIHopCiAgICAgICAgICAgIG91dF9saXN0LmFwcGVuZChvdXQpCiAgICAgICAgcmV0dXJuIG91dF9saXN0CiAgICAgICAgCmNsYXNzIEFEQUlORGVjb2Rlcihubi5Nb2R1bGUpOgogICAgIiIiZG9jc3RyaW5nIGZvciBBREFJTkRlY29kZXIiIiIKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBwb3NlX25jLCBuZ2YsIGltZ19mLCBlbmNvZGVyX2xheWVycywgZGVjb2Rlcl9sYXllcnMsIHNraXBfY29ubmVjdD1UcnVlLCAKICAgICAgICAgICAgICAgICBub25saW5lYXJpdHk9bm4uTGVha3lSZUxVKCksIHVzZV9zcGVjdD1GYWxzZSk6CgogICAgICAgIHN1cGVyKEFEQUlORGVjb2Rlciwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYuZW5jb2Rlcl9sYXllcnMgPSBlbmNvZGVyX2xheWVycwogICAgICAgIHNlbGYuZGVjb2Rlcl9sYXllcnMgPSBkZWNvZGVyX2xheWVycwogICAgICAgIHNlbGYuc2tpcF9jb25uZWN0ID0gc2tpcF9jb25uZWN0CiAgICAgICAgdXNlX3RyYW5zcG9zZSA9IFRydWUKCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UoZW5jb2Rlcl9sYXllcnMtZGVjb2Rlcl9sYXllcnMsIGVuY29kZXJfbGF5ZXJzKVs6Oi0xXToKICAgICAgICAgICAgaW5fY2hhbm5lbHMgPSBtaW4obmdmICogKDIqKihpKzEpKSwgaW1nX2YpCiAgICAgICAgICAgIGluX2NoYW5uZWxzID0gaW5fY2hhbm5lbHMqMiBpZiBpICE9IChlbmNvZGVyX2xheWVycy0xKSBhbmQgc2VsZi5za2lwX2Nvbm5lY3QgZWxzZSBpbl9jaGFubmVscwogICAgICAgICAgICBvdXRfY2hhbm5lbHMgPSBtaW4obmdmICogKDIqKmkpLCBpbWdfZikKICAgICAgICAgICAgbW9kZWwgPSBBREFJTkRlY29kZXJCbG9jayhpbl9jaGFubmVscywgb3V0X2NoYW5uZWxzLCBvdXRfY2hhbm5lbHMsIHBvc2VfbmMsIHVzZV90cmFuc3Bvc2UsIG5vbmxpbmVhcml0eSwgdXNlX3NwZWN0KQogICAgICAgICAgICBzZXRhdHRyKHNlbGYsICdkZWNvZGVyJyArIHN0cihpKSwgbW9kZWwpCgogICAgICAgIHNlbGYub3V0cHV0X25jID0gb3V0X2NoYW5uZWxzKjIgaWYgc2VsZi5za2lwX2Nvbm5lY3QgZWxzZSBvdXRfY2hhbm5lbHMKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4LCB6KToKICAgICAgICBvdXQgPSB4LnBvcCgpIGlmIHNlbGYuc2tpcF9jb25uZWN0IGVsc2UgeAogICAgICAgIGZvciBpIGluIHJhbmdlKHNlbGYuZW5jb2Rlcl9sYXllcnMtc2VsZi5kZWNvZGVyX2xheWVycywgc2VsZi5lbmNvZGVyX2xheWVycylbOjotMV06CiAgICAgICAgICAgIG1vZGVsID0gZ2V0YXR0cihzZWxmLCAnZGVjb2RlcicgKyBzdHIoaSkpCiAgICAgICAgICAgIG91dCA9IG1vZGVsKG91dCwgeikKICAgICAgICAgICAgb3V0ID0gdG9yY2guY2F0KFtvdXQsIHgucG9wKCldLCAxKSBpZiBzZWxmLnNraXBfY29ubmVjdCBlbHNlIG91dAogICAgICAgIHJldHVybiBvdXQKCmNsYXNzIEFEQUlORW5jb2RlckJsb2NrKG5uLk1vZHVsZSk6ICAgICAgIAogICAgZGVmIF9faW5pdF9fKHNlbGYsIGlucHV0X25jLCBvdXRwdXRfbmMsIGZlYXR1cmVfbmMsIG5vbmxpbmVhcml0eT1ubi5MZWFreVJlTFUoKSwgdXNlX3NwZWN0PUZhbHNlKToKICAgICAgICBzdXBlcihBREFJTkVuY29kZXJCbG9jaywgc2VsZikuX19pbml0X18oKQogICAgICAgIGt3YXJnc19kb3duID0geydrZXJuZWxfc2l6ZSc6IDQsICdzdHJpZGUnOiAyLCAncGFkZGluZyc6IDF9CiAgICAgICAga3dhcmdzX2ZpbmUgPSB7J2tlcm5lbF9zaXplJzogMywgJ3N0cmlkZSc6IDEsICdwYWRkaW5nJzogMX0KCiAgICAgICAgc2VsZi5jb252XzAgPSBzcGVjdHJhbF9ub3JtKG5uLkNvbnYyZChpbnB1dF9uYywgIG91dHB1dF9uYywgKiprd2FyZ3NfZG93biksIHVzZV9zcGVjdCkKICAgICAgICBzZWxmLmNvbnZfMSA9IHNwZWN0cmFsX25vcm0obm4uQ29udjJkKG91dHB1dF9uYywgb3V0cHV0X25jLCAqKmt3YXJnc19maW5lKSwgdXNlX3NwZWN0KQoKCiAgICAgICAgc2VsZi5ub3JtXzAgPSBBREFJTihpbnB1dF9uYywgZmVhdHVyZV9uYykKICAgICAgICBzZWxmLm5vcm1fMSA9IEFEQUlOKG91dHB1dF9uYywgZmVhdHVyZV9uYykKICAgICAgICBzZWxmLmFjdHZuID0gbm9ubGluZWFyaXR5CgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCwgeik6CiAgICAgICAgeCA9IHNlbGYuY29udl8wKHNlbGYuYWN0dm4oc2VsZi5ub3JtXzAoeCwgeikpKQogICAgICAgIHggPSBzZWxmLmNvbnZfMShzZWxmLmFjdHZuKHNlbGYubm9ybV8xKHgsIHopKSkKICAgICAgICByZXR1cm4geAoKY2xhc3MgQURBSU5EZWNvZGVyQmxvY2sobm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbnB1dF9uYywgb3V0cHV0X25jLCBoaWRkZW5fbmMsIGZlYXR1cmVfbmMsIHVzZV90cmFuc3Bvc2U9VHJ1ZSwgbm9ubGluZWFyaXR5PW5uLkxlYWt5UmVMVSgpLCB1c2Vfc3BlY3Q9RmFsc2UpOgogICAgICAgIHN1cGVyKEFEQUlORGVjb2RlckJsb2NrLCBzZWxmKS5fX2luaXRfXygpICAgICAgICAKICAgICAgICAjIEF0dHJpYnV0ZXMKICAgICAgICBzZWxmLmFjdHZuID0gbm9ubGluZWFyaXR5CiAgICAgICAgaGlkZGVuX25jID0gbWluKGlucHV0X25jLCBvdXRwdXRfbmMpIGlmIGhpZGRlbl9uYyBpcyBOb25lIGVsc2UgaGlkZGVuX25jCgogICAgICAgIGt3YXJnc19maW5lID0geydrZXJuZWxfc2l6ZSc6MywgJ3N0cmlkZSc6MSwgJ3BhZGRpbmcnOjF9CiAgICAgICAgaWYgdXNlX3RyYW5zcG9zZToKICAgICAgICAgICAga3dhcmdzX3VwID0geydrZXJuZWxfc2l6ZSc6MywgJ3N0cmlkZSc6MiwgJ3BhZGRpbmcnOjEsICdvdXRwdXRfcGFkZGluZyc6MX0KICAgICAgICBlbHNlOgogICAgICAgICAgICBrd2FyZ3NfdXAgPSB7J2tlcm5lbF9zaXplJzozLCAnc3RyaWRlJzoxLCAncGFkZGluZyc6MX0KCiAgICAgICAgIyBjcmVhdGUgY29udiBsYXllcnMKICAgICAgICBzZWxmLmNvbnZfMCA9IHNwZWN0cmFsX25vcm0obm4uQ29udjJkKGlucHV0X25jLCBoaWRkZW5fbmMsICoqa3dhcmdzX2ZpbmUpLCB1c2Vfc3BlY3QpCiAgICAgICAgaWYgdXNlX3RyYW5zcG9zZToKICAgICAgICAgICAgc2VsZi5jb252XzEgPSBzcGVjdHJhbF9ub3JtKG5uLkNvbnZUcmFuc3Bvc2UyZChoaWRkZW5fbmMsIG91dHB1dF9uYywgKiprd2FyZ3NfdXApLCB1c2Vfc3BlY3QpCiAgICAgICAgICAgIHNlbGYuY29udl9zID0gc3BlY3RyYWxfbm9ybShubi5Db252VHJhbnNwb3NlMmQoaW5wdXRfbmMsIG91dHB1dF9uYywgKiprd2FyZ3NfdXApLCB1c2Vfc3BlY3QpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2VsZi5jb252XzEgPSBubi5TZXF1ZW50aWFsKHNwZWN0cmFsX25vcm0obm4uQ29udjJkKGhpZGRlbl9uYywgb3V0cHV0X25jLCAqKmt3YXJnc191cCksIHVzZV9zcGVjdCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBubi5VcHNhbXBsZShzY2FsZV9mYWN0b3I9MikpCiAgICAgICAgICAgIHNlbGYuY29udl9zID0gbm4uU2VxdWVudGlhbChzcGVjdHJhbF9ub3JtKG5uLkNvbnYyZChpbnB1dF9uYywgb3V0cHV0X25jLCAqKmt3YXJnc191cCksIHVzZV9zcGVjdCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBubi5VcHNhbXBsZShzY2FsZV9mYWN0b3I9MikpCiAgICAgICAgIyBkZWZpbmUgbm9ybWFsaXphdGlvbiBsYXllcnMKICAgICAgICBzZWxmLm5vcm1fMCA9IEFEQUlOKGlucHV0X25jLCBmZWF0dXJlX25jKQogICAgICAgIHNlbGYubm9ybV8xID0gQURBSU4oaGlkZGVuX25jLCBmZWF0dXJlX25jKQogICAgICAgIHNlbGYubm9ybV9zID0gQURBSU4oaW5wdXRfbmMsIGZlYXR1cmVfbmMpCiAgICAgICAgCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4LCB6KToKICAgICAgICB4X3MgPSBzZWxmLnNob3J0Y3V0KHgsIHopCiAgICAgICAgZHggPSBzZWxmLmNvbnZfMChzZWxmLmFjdHZuKHNlbGYubm9ybV8wKHgsIHopKSkKICAgICAgICBkeCA9IHNlbGYuY29udl8xKHNlbGYuYWN0dm4oc2VsZi5ub3JtXzEoZHgsIHopKSkKICAgICAgICBvdXQgPSB4X3MgKyBkeAogICAgICAgIHJldHVybiBvdXQKCiAgICBkZWYgc2hvcnRjdXQoc2VsZiwgeCwgeik6CiAgICAgICAgeF9zID0gc2VsZi5jb252X3Moc2VsZi5hY3R2bihzZWxmLm5vcm1fcyh4LCB6KSkpCiAgICAgICAgcmV0dXJuIHhfcyAgICAgICAgICAgICAgCgoKZGVmIHNwZWN0cmFsX25vcm0obW9kdWxlLCB1c2Vfc3BlY3Q9VHJ1ZSk6CiAgICAiIiJ1c2Ugc3BlY3RyYWwgbm9ybWFsIGxheWVyIHRvIHN0YWJsZSB0aGUgdHJhaW5pbmcgcHJvY2VzcyIiIgogICAgaWYgdXNlX3NwZWN0OgogICAgICAgIHJldHVybiBTcGVjdHJhbE5vcm0obW9kdWxlKQogICAgZWxzZToKICAgICAgICByZXR1cm4gbW9kdWxlCgoKY2xhc3MgQURBSU4obm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBub3JtX25jLCBmZWF0dXJlX25jKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCkKCiAgICAgICAgc2VsZi5wYXJhbV9mcmVlX25vcm0gPSBubi5JbnN0YW5jZU5vcm0yZChub3JtX25jLCBhZmZpbmU9RmFsc2UpCgogICAgICAgIG5oaWRkZW4gPSAxMjgKICAgICAgICB1c2VfYmlhcz1UcnVlCgogICAgICAgIHNlbGYubWxwX3NoYXJlZCA9IG5uLlNlcXVlbnRpYWwoCiAgICAgICAgICAgIG5uLkxpbmVhcihmZWF0dXJlX25jLCBuaGlkZGVuLCBiaWFzPXVzZV9iaWFzKSwgICAgICAgICAgICAKICAgICAgICAgICAgbm4uUmVMVSgpCiAgICAgICAgKQogICAgICAgIHNlbGYubWxwX2dhbW1hID0gbm4uTGluZWFyKG5oaWRkZW4sIG5vcm1fbmMsIGJpYXM9dXNlX2JpYXMpICAgIAogICAgICAgIHNlbGYubWxwX2JldGEgPSBubi5MaW5lYXIobmhpZGRlbiwgbm9ybV9uYywgYmlhcz11c2VfYmlhcykgICAgCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCwgZmVhdHVyZSk6CgogICAgICAgICMgUGFydCAxLiBnZW5lcmF0ZSBwYXJhbWV0ZXItZnJlZSBub3JtYWxpemVkIGFjdGl2YXRpb25zCiAgICAgICAgbm9ybWFsaXplZCA9IHNlbGYucGFyYW1fZnJlZV9ub3JtKHgpCgogICAgICAgICMgUGFydCAyLiBwcm9kdWNlIHNjYWxpbmcgYW5kIGJpYXMgY29uZGl0aW9uZWQgb24gZmVhdHVyZQogICAgICAgIGZlYXR1cmUgPSBmZWF0dXJlLnZpZXcoZmVhdHVyZS5zaXplKDApLCAtMSkKICAgICAgICBhY3R2ID0gc2VsZi5tbHBfc2hhcmVkKGZlYXR1cmUpCiAgICAgICAgZ2FtbWEgPSBzZWxmLm1scF9nYW1tYShhY3R2KQogICAgICAgIGJldGEgPSBzZWxmLm1scF9iZXRhKGFjdHYpCgogICAgICAgICMgYXBwbHkgc2NhbGUgYW5kIGJpYXMKICAgICAgICBnYW1tYSA9IGdhbW1hLnZpZXcoKmdhbW1hLnNpemUoKVs6Ml0sIDEsMSkKICAgICAgICBiZXRhID0gYmV0YS52aWV3KCpiZXRhLnNpemUoKVs6Ml0sIDEsMSkKICAgICAgICBvdXQgPSBub3JtYWxpemVkICogKDEgKyBnYW1tYSkgKyBiZXRhCiAgICAgICAgcmV0dXJuIG91dAoKCmNsYXNzIEZpbmVFbmNvZGVyKG5uLk1vZHVsZSk6CiAgICAiIiJkb2NzdHJpbmcgZm9yIEVuY29kZXIiIiIKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbWFnZV9uYywgbmdmLCBpbWdfZiwgbGF5ZXJzLCBub3JtX2xheWVyPW5uLkJhdGNoTm9ybTJkLCBub25saW5lYXJpdHk9bm4uTGVha3lSZUxVKCksIHVzZV9zcGVjdD1GYWxzZSk6CiAgICAgICAgc3VwZXIoRmluZUVuY29kZXIsIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLmxheWVycyA9IGxheWVycwogICAgICAgIHNlbGYuZmlyc3QgPSBGaXJzdEJsb2NrMmQoaW1hZ2VfbmMsIG5nZiwgbm9ybV9sYXllciwgbm9ubGluZWFyaXR5LCB1c2Vfc3BlY3QpCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UobGF5ZXJzKToKICAgICAgICAgICAgaW5fY2hhbm5lbHMgPSBtaW4obmdmKigyKippKSwgaW1nX2YpCiAgICAgICAgICAgIG91dF9jaGFubmVscyA9IG1pbihuZ2YqKDIqKihpKzEpKSwgaW1nX2YpCiAgICAgICAgICAgIG1vZGVsID0gRG93bkJsb2NrMmQoaW5fY2hhbm5lbHMsIG91dF9jaGFubmVscywgbm9ybV9sYXllciwgbm9ubGluZWFyaXR5LCB1c2Vfc3BlY3QpCiAgICAgICAgICAgIHNldGF0dHIoc2VsZiwgJ2Rvd24nICsgc3RyKGkpLCBtb2RlbCkKICAgICAgICBzZWxmLm91dHB1dF9uYyA9IG91dF9jaGFubmVscwoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIHggPSBzZWxmLmZpcnN0KHgpCiAgICAgICAgb3V0PVt4XQogICAgICAgIGZvciBpIGluIHJhbmdlKHNlbGYubGF5ZXJzKToKICAgICAgICAgICAgbW9kZWwgPSBnZXRhdHRyKHNlbGYsICdkb3duJytzdHIoaSkpCiAgICAgICAgICAgIHggPSBtb2RlbCh4KQogICAgICAgICAgICBvdXQuYXBwZW5kKHgpCiAgICAgICAgcmV0dXJuIG91dAoKY2xhc3MgRmluZURlY29kZXIobm4uTW9kdWxlKToKICAgICIiImRvY3N0cmluZyBmb3IgRmluZURlY29kZXIiIiIKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbWFnZV9uYywgZmVhdHVyZV9uYywgbmdmLCBpbWdfZiwgbGF5ZXJzLCBudW1fYmxvY2ssIG5vcm1fbGF5ZXI9bm4uQmF0Y2hOb3JtMmQsIG5vbmxpbmVhcml0eT1ubi5MZWFreVJlTFUoKSwgdXNlX3NwZWN0PUZhbHNlKToKICAgICAgICBzdXBlcihGaW5lRGVjb2Rlciwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYubGF5ZXJzID0gbGF5ZXJzCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UobGF5ZXJzKVs6Oi0xXToKICAgICAgICAgICAgaW5fY2hhbm5lbHMgPSBtaW4obmdmKigyKiooaSsxKSksIGltZ19mKQogICAgICAgICAgICBvdXRfY2hhbm5lbHMgPSBtaW4obmdmKigyKippKSwgaW1nX2YpCiAgICAgICAgICAgIHVwID0gVXBCbG9jazJkKGluX2NoYW5uZWxzLCBvdXRfY2hhbm5lbHMsIG5vcm1fbGF5ZXIsIG5vbmxpbmVhcml0eSwgdXNlX3NwZWN0KQogICAgICAgICAgICByZXMgPSBGaW5lQURBSU5SZXNCbG9ja3MobnVtX2Jsb2NrLCBpbl9jaGFubmVscywgZmVhdHVyZV9uYywgbm9ybV9sYXllciwgbm9ubGluZWFyaXR5LCB1c2Vfc3BlY3QpCiAgICAgICAgICAgIGp1bXAgPSBKdW1wKG91dF9jaGFubmVscywgbm9ybV9sYXllciwgbm9ubGluZWFyaXR5LCB1c2Vfc3BlY3QpCgogICAgICAgICAgICBzZXRhdHRyKHNlbGYsICd1cCcgKyBzdHIoaSksIHVwKQogICAgICAgICAgICBzZXRhdHRyKHNlbGYsICdyZXMnICsgc3RyKGkpLCByZXMpICAgICAgICAgICAgCiAgICAgICAgICAgIHNldGF0dHIoc2VsZiwgJ2p1bXAnICsgc3RyKGkpLCBqdW1wKQoKICAgICAgICBzZWxmLmZpbmFsID0gRmluYWxCbG9jazJkKG91dF9jaGFubmVscywgaW1hZ2VfbmMsIHVzZV9zcGVjdCwgJ3RhbmgnKQoKICAgICAgICBzZWxmLm91dHB1dF9uYyA9IG91dF9jaGFubmVscwoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgsIHopOgogICAgICAgIG91dCA9IHgucG9wKCkKICAgICAgICBmb3IgaSBpbiByYW5nZShzZWxmLmxheWVycylbOjotMV06CiAgICAgICAgICAgIHJlc19tb2RlbCA9IGdldGF0dHIoc2VsZiwgJ3JlcycgKyBzdHIoaSkpCiAgICAgICAgICAgIHVwX21vZGVsID0gZ2V0YXR0cihzZWxmLCAndXAnICsgc3RyKGkpKQogICAgICAgICAgICBqdW1wX21vZGVsID0gZ2V0YXR0cihzZWxmLCAnanVtcCcgKyBzdHIoaSkpCiAgICAgICAgICAgIG91dCA9IHJlc19tb2RlbChvdXQsIHopCiAgICAgICAgICAgIG91dCA9IHVwX21vZGVsKG91dCkKICAgICAgICAgICAgb3V0ID0ganVtcF9tb2RlbCh4LnBvcCgpKSArIG91dAogICAgICAgIG91dF9pbWFnZSA9IHNlbGYuZmluYWwob3V0KQogICAgICAgIHJldHVybiBvdXRfaW1hZ2UKCmNsYXNzIEZpcnN0QmxvY2syZChubi5Nb2R1bGUpOgogICAgIiIiCiAgICBEb3duc2FtcGxpbmcgYmxvY2sgZm9yIHVzZSBpbiBlbmNvZGVyLgogICAgIiIiCiAgICBkZWYgX19pbml0X18oc2VsZiwgaW5wdXRfbmMsIG91dHB1dF9uYywgbm9ybV9sYXllcj1ubi5CYXRjaE5vcm0yZCwgbm9ubGluZWFyaXR5PW5uLkxlYWt5UmVMVSgpLCB1c2Vfc3BlY3Q9RmFsc2UpOgogICAgICAgIHN1cGVyKEZpcnN0QmxvY2syZCwgc2VsZikuX19pbml0X18oKQogICAgICAgIGt3YXJncyA9IHsna2VybmVsX3NpemUnOiA3LCAnc3RyaWRlJzogMSwgJ3BhZGRpbmcnOiAzfQogICAgICAgIGNvbnYgPSBzcGVjdHJhbF9ub3JtKG5uLkNvbnYyZChpbnB1dF9uYywgb3V0cHV0X25jLCAqKmt3YXJncyksIHVzZV9zcGVjdCkKCiAgICAgICAgaWYgdHlwZShub3JtX2xheWVyKSA9PSB0eXBlKE5vbmUpOgogICAgICAgICAgICBzZWxmLm1vZGVsID0gbm4uU2VxdWVudGlhbChjb252LCBub25saW5lYXJpdHkpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2VsZi5tb2RlbCA9IG5uLlNlcXVlbnRpYWwoY29udiwgbm9ybV9sYXllcihvdXRwdXRfbmMpLCBub25saW5lYXJpdHkpCgoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIG91dCA9IHNlbGYubW9kZWwoeCkKICAgICAgICByZXR1cm4gb3V0ICAKCmNsYXNzIERvd25CbG9jazJkKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgaW5wdXRfbmMsIG91dHB1dF9uYywgbm9ybV9sYXllcj1ubi5CYXRjaE5vcm0yZCwgbm9ubGluZWFyaXR5PW5uLkxlYWt5UmVMVSgpLCB1c2Vfc3BlY3Q9RmFsc2UpOgogICAgICAgIHN1cGVyKERvd25CbG9jazJkLCBzZWxmKS5fX2luaXRfXygpCgoKICAgICAgICBrd2FyZ3MgPSB7J2tlcm5lbF9zaXplJzogMywgJ3N0cmlkZSc6IDEsICdwYWRkaW5nJzogMX0KICAgICAgICBjb252ID0gc3BlY3RyYWxfbm9ybShubi5Db252MmQoaW5wdXRfbmMsIG91dHB1dF9uYywgKiprd2FyZ3MpLCB1c2Vfc3BlY3QpCiAgICAgICAgcG9vbCA9IG5uLkF2Z1Bvb2wyZChrZXJuZWxfc2l6ZT0oMiwgMikpCgogICAgICAgIGlmIHR5cGUobm9ybV9sYXllcikgPT0gdHlwZShOb25lKToKICAgICAgICAgICAgc2VsZi5tb2RlbCA9IG5uLlNlcXVlbnRpYWwoY29udiwgbm9ubGluZWFyaXR5LCBwb29sKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHNlbGYubW9kZWwgPSBubi5TZXF1ZW50aWFsKGNvbnYsIG5vcm1fbGF5ZXIob3V0cHV0X25jKSwgbm9ubGluZWFyaXR5LCBwb29sKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIG91dCA9IHNlbGYubW9kZWwoeCkKICAgICAgICByZXR1cm4gb3V0IAoKY2xhc3MgVXBCbG9jazJkKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgaW5wdXRfbmMsIG91dHB1dF9uYywgbm9ybV9sYXllcj1ubi5CYXRjaE5vcm0yZCwgbm9ubGluZWFyaXR5PW5uLkxlYWt5UmVMVSgpLCB1c2Vfc3BlY3Q9RmFsc2UpOgogICAgICAgIHN1cGVyKFVwQmxvY2syZCwgc2VsZikuX19pbml0X18oKQogICAgICAgIGt3YXJncyA9IHsna2VybmVsX3NpemUnOiAzLCAnc3RyaWRlJzogMSwgJ3BhZGRpbmcnOiAxfQogICAgICAgIGNvbnYgPSBzcGVjdHJhbF9ub3JtKG5uLkNvbnYyZChpbnB1dF9uYywgb3V0cHV0X25jLCAqKmt3YXJncyksIHVzZV9zcGVjdCkKICAgICAgICBpZiB0eXBlKG5vcm1fbGF5ZXIpID09IHR5cGUoTm9uZSk6CiAgICAgICAgICAgIHNlbGYubW9kZWwgPSBubi5TZXF1ZW50aWFsKGNvbnYsIG5vbmxpbmVhcml0eSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBzZWxmLm1vZGVsID0gbm4uU2VxdWVudGlhbChjb252LCBub3JtX2xheWVyKG91dHB1dF9uYyksIG5vbmxpbmVhcml0eSkKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4KToKICAgICAgICBvdXQgPSBzZWxmLm1vZGVsKEYuaW50ZXJwb2xhdGUoeCwgc2NhbGVfZmFjdG9yPTIpKQogICAgICAgIHJldHVybiBvdXQKCmNsYXNzIEZpbmVBREFJTlJlc0Jsb2Nrcyhubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG51bV9ibG9jaywgaW5wdXRfbmMsIGZlYXR1cmVfbmMsIG5vcm1fbGF5ZXI9bm4uQmF0Y2hOb3JtMmQsIG5vbmxpbmVhcml0eT1ubi5MZWFreVJlTFUoKSwgdXNlX3NwZWN0PUZhbHNlKToKICAgICAgICBzdXBlcihGaW5lQURBSU5SZXNCbG9ja3MsIHNlbGYpLl9faW5pdF9fKCkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgIHNlbGYubnVtX2Jsb2NrID0gbnVtX2Jsb2NrCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UobnVtX2Jsb2NrKToKICAgICAgICAgICAgbW9kZWwgPSBGaW5lQURBSU5SZXNCbG9jazJkKGlucHV0X25jLCBmZWF0dXJlX25jLCBub3JtX2xheWVyLCBub25saW5lYXJpdHksIHVzZV9zcGVjdCkKICAgICAgICAgICAgc2V0YXR0cihzZWxmLCAncmVzJytzdHIoaSksIG1vZGVsKQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgsIHopOgogICAgICAgIGZvciBpIGluIHJhbmdlKHNlbGYubnVtX2Jsb2NrKToKICAgICAgICAgICAgbW9kZWwgPSBnZXRhdHRyKHNlbGYsICdyZXMnK3N0cihpKSkKICAgICAgICAgICAgeCA9IG1vZGVsKHgsIHopCiAgICAgICAgcmV0dXJuIHggICAgIAoKY2xhc3MgSnVtcChubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGlucHV0X25jLCBub3JtX2xheWVyPW5uLkJhdGNoTm9ybTJkLCBub25saW5lYXJpdHk9bm4uTGVha3lSZUxVKCksIHVzZV9zcGVjdD1GYWxzZSk6CiAgICAgICAgc3VwZXIoSnVtcCwgc2VsZikuX19pbml0X18oKQogICAgICAgIGt3YXJncyA9IHsna2VybmVsX3NpemUnOiAzLCAnc3RyaWRlJzogMSwgJ3BhZGRpbmcnOiAxfQogICAgICAgIGNvbnYgPSBzcGVjdHJhbF9ub3JtKG5uLkNvbnYyZChpbnB1dF9uYywgaW5wdXRfbmMsICoqa3dhcmdzKSwgdXNlX3NwZWN0KQoKICAgICAgICBpZiB0eXBlKG5vcm1fbGF5ZXIpID09IHR5cGUoTm9uZSk6CiAgICAgICAgICAgIHNlbGYubW9kZWwgPSBubi5TZXF1ZW50aWFsKGNvbnYsIG5vbmxpbmVhcml0eSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBzZWxmLm1vZGVsID0gbm4uU2VxdWVudGlhbChjb252LCBub3JtX2xheWVyKGlucHV0X25jKSwgbm9ubGluZWFyaXR5KQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIG91dCA9IHNlbGYubW9kZWwoeCkKICAgICAgICByZXR1cm4gb3V0ICAgICAgICAgIAoKY2xhc3MgRmluZUFEQUlOUmVzQmxvY2syZChubi5Nb2R1bGUpOgogICAgIiIiCiAgICBEZWZpbmUgYW4gUmVzaWR1YWwgYmxvY2sgZm9yIGRpZmZlcmVudCB0eXBlcwogICAgIiIiCiAgICBkZWYgX19pbml0X18oc2VsZiwgaW5wdXRfbmMsIGZlYXR1cmVfbmMsIG5vcm1fbGF5ZXI9bm4uQmF0Y2hOb3JtMmQsIG5vbmxpbmVhcml0eT1ubi5MZWFreVJlTFUoKSwgdXNlX3NwZWN0PUZhbHNlKToKICAgICAgICBzdXBlcihGaW5lQURBSU5SZXNCbG9jazJkLCBzZWxmKS5fX2luaXRfXygpCgogICAgICAgIGt3YXJncyA9IHsna2VybmVsX3NpemUnOiAzLCAnc3RyaWRlJzogMSwgJ3BhZGRpbmcnOiAxfQoKICAgICAgICBzZWxmLmNvbnYxID0gc3BlY3RyYWxfbm9ybShubi5Db252MmQoaW5wdXRfbmMsIGlucHV0X25jLCAqKmt3YXJncyksIHVzZV9zcGVjdCkKICAgICAgICBzZWxmLmNvbnYyID0gc3BlY3RyYWxfbm9ybShubi5Db252MmQoaW5wdXRfbmMsIGlucHV0X25jLCAqKmt3YXJncyksIHVzZV9zcGVjdCkKICAgICAgICBzZWxmLm5vcm0xID0gQURBSU4oaW5wdXRfbmMsIGZlYXR1cmVfbmMpCiAgICAgICAgc2VsZi5ub3JtMiA9IEFEQUlOKGlucHV0X25jLCBmZWF0dXJlX25jKQoKICAgICAgICBzZWxmLmFjdHZuID0gbm9ubGluZWFyaXR5CgoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgsIHopOgogICAgICAgIGR4ID0gc2VsZi5hY3R2bihzZWxmLm5vcm0xKHNlbGYuY29udjEoeCksIHopKQogICAgICAgIGR4ID0gc2VsZi5ub3JtMihzZWxmLmNvbnYyKHgpLCB6KQogICAgICAgIG91dCA9IGR4ICsgeAogICAgICAgIHJldHVybiBvdXQgICAgICAgIAoKY2xhc3MgRmluYWxCbG9jazJkKG5uLk1vZHVsZSk6CiAgICAiIiIKICAgIERlZmluZSB0aGUgb3V0cHV0IGxheWVyCiAgICAiIiIKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbnB1dF9uYywgb3V0cHV0X25jLCB1c2Vfc3BlY3Q9RmFsc2UsIHRhbmhfb3Jfc2lnbW9pZD0ndGFuaCcpOgogICAgICAgIHN1cGVyKEZpbmFsQmxvY2syZCwgc2VsZikuX19pbml0X18oKQoKICAgICAgICBrd2FyZ3MgPSB7J2tlcm5lbF9zaXplJzogNywgJ3N0cmlkZSc6IDEsICdwYWRkaW5nJzozfQogICAgICAgIGNvbnYgPSBzcGVjdHJhbF9ub3JtKG5uLkNvbnYyZChpbnB1dF9uYywgb3V0cHV0X25jLCAqKmt3YXJncyksIHVzZV9zcGVjdCkKCiAgICAgICAgaWYgdGFuaF9vcl9zaWdtb2lkID09ICdzaWdtb2lkJzoKICAgICAgICAgICAgb3V0X25vbmxpbmVhcml0eSA9IG5uLlNpZ21vaWQoKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIG91dF9ub25saW5lYXJpdHkgPSBubi5UYW5oKCkgICAgICAgICAgICAKCiAgICAgICAgc2VsZi5tb2RlbCA9IG5uLlNlcXVlbnRpYWwoY29udiwgb3V0X25vbmxpbmVhcml0eSkKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIG91dCA9IHNlbGYubW9kZWwoeCkKICAgICAgICByZXR1cm4gb3V0ICAgICAgICAgIA==
+import sys
+import math
+
+import torch
+from torch import nn
+from torch.nn import functional as F
+from torch.autograd import Function
+from torch.nn.utils.spectral_norm import spectral_norm as SpectralNorm
+
+
+class LayerNorm2d(nn.Module):
+    def __init__(self, n_out, affine=True):
+        super(LayerNorm2d, self).__init__()
+        self.n_out = n_out
+        self.affine = affine
+
+        if self.affine:
+          self.weight = nn.Parameter(torch.ones(n_out, 1, 1))
+          self.bias = nn.Parameter(torch.zeros(n_out, 1, 1))
+
+    def forward(self, x):
+        normalized_shape = x.size()[1:]
+        if self.affine:
+          return F.layer_norm(x, normalized_shape, \
+              self.weight.expand(normalized_shape), 
+              self.bias.expand(normalized_shape))
+              
+        else:
+          return F.layer_norm(x, normalized_shape)  
+
+class ADAINHourglass(nn.Module):
+    def __init__(self, image_nc, pose_nc, ngf, img_f, encoder_layers, decoder_layers, nonlinearity, use_spect):
+        super(ADAINHourglass, self).__init__()
+        self.encoder = ADAINEncoder(image_nc, pose_nc, ngf, img_f, encoder_layers, nonlinearity, use_spect)
+        self.decoder = ADAINDecoder(pose_nc, ngf, img_f, encoder_layers, decoder_layers, True, nonlinearity, use_spect)
+        self.output_nc = self.decoder.output_nc
+
+    def forward(self, x, z):
+        return self.decoder(self.encoder(x, z), z)                 
+
+
+
+class ADAINEncoder(nn.Module):
+    def __init__(self, image_nc, pose_nc, ngf, img_f, layers, nonlinearity=nn.LeakyReLU(), use_spect=False):
+        super(ADAINEncoder, self).__init__()
+        self.layers = layers
+        self.input_layer = nn.Conv2d(image_nc, ngf, kernel_size=7, stride=1, padding=3)
+        for i in range(layers):
+            in_channels = min(ngf * (2**i), img_f)
+            out_channels = min(ngf *(2**(i+1)), img_f)
+            model = ADAINEncoderBlock(in_channels, out_channels, pose_nc, nonlinearity, use_spect)
+            setattr(self, 'encoder' + str(i), model)
+        self.output_nc = out_channels
+        
+    def forward(self, x, z):
+        out = self.input_layer(x)
+        out_list = [out]
+        for i in range(self.layers):
+            model = getattr(self, 'encoder' + str(i))
+            out = model(out, z)
+            out_list.append(out)
+        return out_list
+        
+class ADAINDecoder(nn.Module):
+    """docstring for ADAINDecoder"""
+    def __init__(self, pose_nc, ngf, img_f, encoder_layers, decoder_layers, skip_connect=True, 
+                 nonlinearity=nn.LeakyReLU(), use_spect=False):
+
+        super(ADAINDecoder, self).__init__()
+        self.encoder_layers = encoder_layers
+        self.decoder_layers = decoder_layers
+        self.skip_connect = skip_connect
+        use_transpose = True
+
+        for i in range(encoder_layers-decoder_layers, encoder_layers)[::-1]:
+            in_channels = min(ngf * (2**(i+1)), img_f)
+            in_channels = in_channels*2 if i != (encoder_layers-1) and self.skip_connect else in_channels
+            out_channels = min(ngf * (2**i), img_f)
+            model = ADAINDecoderBlock(in_channels, out_channels, out_channels, pose_nc, use_transpose, nonlinearity, use_spect)
+            setattr(self, 'decoder' + str(i), model)
+
+        self.output_nc = out_channels*2 if self.skip_connect else out_channels
+
+    def forward(self, x, z):
+        out = x.pop() if self.skip_connect else x
+        for i in range(self.encoder_layers-self.decoder_layers, self.encoder_layers)[::-1]:
+            model = getattr(self, 'decoder' + str(i))
+            out = model(out, z)
+            out = torch.cat([out, x.pop()], 1) if self.skip_connect else out
+        return out
+
+class ADAINEncoderBlock(nn.Module):       
+    def __init__(self, input_nc, output_nc, feature_nc, nonlinearity=nn.LeakyReLU(), use_spect=False):
+        super(ADAINEncoderBlock, self).__init__()
+        kwargs_down = {'kernel_size': 4, 'stride': 2, 'padding': 1}
+        kwargs_fine = {'kernel_size': 3, 'stride': 1, 'padding': 1}
+
+        self.conv_0 = spectral_norm(nn.Conv2d(input_nc,  output_nc, **kwargs_down), use_spect)
+        self.conv_1 = spectral_norm(nn.Conv2d(output_nc, output_nc, **kwargs_fine), use_spect)
+
+
+        self.norm_0 = ADAIN(input_nc, feature_nc)
+        self.norm_1 = ADAIN(output_nc, feature_nc)
+        self.actvn = nonlinearity
+
+    def forward(self, x, z):
+        x = self.conv_0(self.actvn(self.norm_0(x, z)))
+        x = self.conv_1(self.actvn(self.norm_1(x, z)))
+        return x
+
+class ADAINDecoderBlock(nn.Module):
+    def __init__(self, input_nc, output_nc, hidden_nc, feature_nc, use_transpose=True, nonlinearity=nn.LeakyReLU(), use_spect=False):
+        super(ADAINDecoderBlock, self).__init__()        
+        # Attributes
+        self.actvn = nonlinearity
+        hidden_nc = min(input_nc, output_nc) if hidden_nc is None else hidden_nc
+
+        kwargs_fine = {'kernel_size':3, 'stride':1, 'padding':1}
+        if use_transpose:
+            kwargs_up = {'kernel_size':3, 'stride':2, 'padding':1, 'output_padding':1}
+        else:
+            kwargs_up = {'kernel_size':3, 'stride':1, 'padding':1}
+
+        # create conv layers
+        self.conv_0 = spectral_norm(nn.Conv2d(input_nc, hidden_nc, **kwargs_fine), use_spect)
+        if use_transpose:
+            self.conv_1 = spectral_norm(nn.ConvTranspose2d(hidden_nc, output_nc, **kwargs_up), use_spect)
+            self.conv_s = spectral_norm(nn.ConvTranspose2d(input_nc, output_nc, **kwargs_up), use_spect)
+        else:
+            self.conv_1 = nn.Sequential(spectral_norm(nn.Conv2d(hidden_nc, output_nc, **kwargs_up), use_spect),
+                                        nn.Upsample(scale_factor=2))
+            self.conv_s = nn.Sequential(spectral_norm(nn.Conv2d(input_nc, output_nc, **kwargs_up), use_spect),
+                                        nn.Upsample(scale_factor=2))
+        # define normalization layers
+        self.norm_0 = ADAIN(input_nc, feature_nc)
+        self.norm_1 = ADAIN(hidden_nc, feature_nc)
+        self.norm_s = ADAIN(input_nc, feature_nc)
+        
+    def forward(self, x, z):
+        x_s = self.shortcut(x, z)
+        dx = self.conv_0(self.actvn(self.norm_0(x, z)))
+        dx = self.conv_1(self.actvn(self.norm_1(dx, z)))
+        out = x_s + dx
+        return out
+
+    def shortcut(self, x, z):
+        x_s = self.conv_s(self.actvn(self.norm_s(x, z)))
+        return x_s              
+
+
+def spectral_norm(module, use_spect=True):
+    """use spectral normal layer to stable the training process"""
+    if use_spect:
+        return SpectralNorm(module)
+    else:
+        return module
+
+
+class ADAIN(nn.Module):
+    def __init__(self, norm_nc, feature_nc):
+        super().__init__()
+
+        self.param_free_norm = nn.InstanceNorm2d(norm_nc, affine=False)
+
+        nhidden = 128
+        use_bias=True
+
+        self.mlp_shared = nn.Sequential(
+            nn.Linear(feature_nc, nhidden, bias=use_bias),            
+            nn.ReLU()
+        )
+        self.mlp_gamma = nn.Linear(nhidden, norm_nc, bias=use_bias)    
+        self.mlp_beta = nn.Linear(nhidden, norm_nc, bias=use_bias)    
+
+    def forward(self, x, feature):
+
+        # Part 1. generate parameter-free normalized activations
+        normalized = self.param_free_norm(x)
+
+        # Part 2. produce scaling and bias conditioned on feature
+        feature = feature.view(feature.size(0), -1)
+        actv = self.mlp_shared(feature)
+        gamma = self.mlp_gamma(actv)
+        beta = self.mlp_beta(actv)
+
+        # apply scale and bias
+        gamma = gamma.view(*gamma.size()[:2], 1,1)
+        beta = beta.view(*beta.size()[:2], 1,1)
+        out = normalized * (1 + gamma) + beta
+        return out
+
+
+class FineEncoder(nn.Module):
+    """docstring for Encoder"""
+    def __init__(self, image_nc, ngf, img_f, layers, norm_layer=nn.BatchNorm2d, nonlinearity=nn.LeakyReLU(), use_spect=False):
+        super(FineEncoder, self).__init__()
+        self.layers = layers
+        self.first = FirstBlock2d(image_nc, ngf, norm_layer, nonlinearity, use_spect)
+        for i in range(layers):
+            in_channels = min(ngf*(2**i), img_f)
+            out_channels = min(ngf*(2**(i+1)), img_f)
+            model = DownBlock2d(in_channels, out_channels, norm_layer, nonlinearity, use_spect)
+            setattr(self, 'down' + str(i), model)
+        self.output_nc = out_channels
+
+    def forward(self, x):
+        x = self.first(x)
+        out=[x]
+        for i in range(self.layers):
+            model = getattr(self, 'down'+str(i))
+            x = model(x)
+            out.append(x)
+        return out
+
+class FineDecoder(nn.Module):
+    """docstring for FineDecoder"""
+    def __init__(self, image_nc, feature_nc, ngf, img_f, layers, num_block, norm_layer=nn.BatchNorm2d, nonlinearity=nn.LeakyReLU(), use_spect=False):
+        super(FineDecoder, self).__init__()
+        self.layers = layers
+        for i in range(layers)[::-1]:
+            in_channels = min(ngf*(2**(i+1)), img_f)
+            out_channels = min(ngf*(2**i), img_f)
+            up = UpBlock2d(in_channels, out_channels, norm_layer, nonlinearity, use_spect)
+            res = FineADAINResBlocks(num_block, in_channels, feature_nc, norm_layer, nonlinearity, use_spect)
+            jump = Jump(out_channels, norm_layer, nonlinearity, use_spect)
+
+            setattr(self, 'up' + str(i), up)
+            setattr(self, 'res' + str(i), res)            
+            setattr(self, 'jump' + str(i), jump)
+
+        self.final = FinalBlock2d(out_channels, image_nc, use_spect, 'tanh')
+
+        self.output_nc = out_channels
+
+    def forward(self, x, z):
+        out = x.pop()
+        for i in range(self.layers)[::-1]:
+            res_model = getattr(self, 'res' + str(i))
+            up_model = getattr(self, 'up' + str(i))
+            jump_model = getattr(self, 'jump' + str(i))
+            out = res_model(out, z)
+            out = up_model(out)
+            out = jump_model(x.pop()) + out
+        out_image = self.final(out)
+        return out_image
+
+class FirstBlock2d(nn.Module):
+    """
+    Downsampling block for use in encoder.
+    """
+    def __init__(self, input_nc, output_nc, norm_layer=nn.BatchNorm2d, nonlinearity=nn.LeakyReLU(), use_spect=False):
+        super(FirstBlock2d, self).__init__()
+        kwargs = {'kernel_size': 7, 'stride': 1, 'padding': 3}
+        conv = spectral_norm(nn.Conv2d(input_nc, output_nc, **kwargs), use_spect)
+
+        if type(norm_layer) == type(None):
+            self.model = nn.Sequential(conv, nonlinearity)
+        else:
+            self.model = nn.Sequential(conv, norm_layer(output_nc), nonlinearity)
+
+
+    def forward(self, x):
+        out = self.model(x)
+        return out  
+
+class DownBlock2d(nn.Module):
+    def __init__(self, input_nc, output_nc, norm_layer=nn.BatchNorm2d, nonlinearity=nn.LeakyReLU(), use_spect=False):
+        super(DownBlock2d, self).__init__()
+
+
+        kwargs = {'kernel_size': 3, 'stride': 1, 'padding': 1}
+        conv = spectral_norm(nn.Conv2d(input_nc, output_nc, **kwargs), use_spect)
+        pool = nn.AvgPool2d(kernel_size=(2, 2))
+
+        if type(norm_layer) == type(None):
+            self.model = nn.Sequential(conv, nonlinearity, pool)
+        else:
+            self.model = nn.Sequential(conv, norm_layer(output_nc), nonlinearity, pool)
+
+    def forward(self, x):
+        out = self.model(x)
+        return out 
+
+class UpBlock2d(nn.Module):
+    def __init__(self, input_nc, output_nc, norm_layer=nn.BatchNorm2d, nonlinearity=nn.LeakyReLU(), use_spect=False):
+        super(UpBlock2d, self).__init__()
+        kwargs = {'kernel_size': 3, 'stride': 1, 'padding': 1}
+        conv = spectral_norm(nn.Conv2d(input_nc, output_nc, **kwargs), use_spect)
+        if type(norm_layer) == type(None):
+            self.model = nn.Sequential(conv, nonlinearity)
+        else:
+            self.model = nn.Sequential(conv, norm_layer(output_nc), nonlinearity)
+
+    def forward(self, x):
+        out = self.model(F.interpolate(x, scale_factor=2))
+        return out
+
+class FineADAINResBlocks(nn.Module):
+    def __init__(self, num_block, input_nc, feature_nc, norm_layer=nn.BatchNorm2d, nonlinearity=nn.LeakyReLU(), use_spect=False):
+        super(FineADAINResBlocks, self).__init__()                                
+        self.num_block = num_block
+        for i in range(num_block):
+            model = FineADAINResBlock2d(input_nc, feature_nc, norm_layer, nonlinearity, use_spect)
+            setattr(self, 'res'+str(i), model)
+
+    def forward(self, x, z):
+        for i in range(self.num_block):
+            model = getattr(self, 'res'+str(i))
+            x = model(x, z)
+        return x     
+
+class Jump(nn.Module):
+    def __init__(self, input_nc, norm_layer=nn.BatchNorm2d, nonlinearity=nn.LeakyReLU(), use_spect=False):
+        super(Jump, self).__init__()
+        kwargs = {'kernel_size': 3, 'stride': 1, 'padding': 1}
+        conv = spectral_norm(nn.Conv2d(input_nc, input_nc, **kwargs), use_spect)
+
+        if type(norm_layer) == type(None):
+            self.model = nn.Sequential(conv, nonlinearity)
+        else:
+            self.model = nn.Sequential(conv, norm_layer(input_nc), nonlinearity)
+
+    def forward(self, x):
+        out = self.model(x)
+        return out          
+
+class FineADAINResBlock2d(nn.Module):
+    """
+    Define an Residual block for different types
+    """
+    def __init__(self, input_nc, feature_nc, norm_layer=nn.BatchNorm2d, nonlinearity=nn.LeakyReLU(), use_spect=False):
+        super(FineADAINResBlock2d, self).__init__()
+
+        kwargs = {'kernel_size': 3, 'stride': 1, 'padding': 1}
+
+        self.conv1 = spectral_norm(nn.Conv2d(input_nc, input_nc, **kwargs), use_spect)
+        self.conv2 = spectral_norm(nn.Conv2d(input_nc, input_nc, **kwargs), use_spect)
+        self.norm1 = ADAIN(input_nc, feature_nc)
+        self.norm2 = ADAIN(input_nc, feature_nc)
+
+        self.actvn = nonlinearity
+
+
+    def forward(self, x, z):
+        dx = self.actvn(self.norm1(self.conv1(x), z))
+        dx = self.norm2(self.conv2(x), z)
+        out = dx + x
+        return out        
+
+class FinalBlock2d(nn.Module):
+    """
+    Define the output layer
+    """
+    def __init__(self, input_nc, output_nc, use_spect=False, tanh_or_sigmoid='tanh'):
+        super(FinalBlock2d, self).__init__()
+
+        kwargs = {'kernel_size': 7, 'stride': 1, 'padding':3}
+        conv = spectral_norm(nn.Conv2d(input_nc, output_nc, **kwargs), use_spect)
+
+        if tanh_or_sigmoid == 'sigmoid':
+            out_nonlinearity = nn.Sigmoid()
+        else:
+            out_nonlinearity = nn.Tanh()            
+
+        self.model = nn.Sequential(conv, out_nonlinearity)
+    def forward(self, x):
+        out = self.model(x)
+        return out          

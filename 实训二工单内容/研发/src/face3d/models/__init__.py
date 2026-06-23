@@ -1,1 +1,67 @@
-IiIiVGhpcyBwYWNrYWdlIGNvbnRhaW5zIG1vZHVsZXMgcmVsYXRlZCB0byBvYmplY3RpdmUgZnVuY3Rpb25zLCBvcHRpbWl6YXRpb25zLCBhbmQgbmV0d29yayBhcmNoaXRlY3R1cmVzLgoKVG8gYWRkIGEgY3VzdG9tIG1vZGVsIGNsYXNzIGNhbGxlZCAnZHVtbXknLCB5b3UgbmVlZCB0byBhZGQgYSBmaWxlIGNhbGxlZCAnZHVtbXlfbW9kZWwucHknIGFuZCBkZWZpbmUgYSBzdWJjbGFzcyBEdW1teU1vZGVsIGluaGVyaXRlZCBmcm9tIEJhc2VNb2RlbC4KWW91IG5lZWQgdG8gaW1wbGVtZW50IHRoZSBmb2xsb3dpbmcgZml2ZSBmdW5jdGlvbnM6CiAgICAtLSA8X19pbml0X18+OiAgICAgICAgICAgICAgICAgICAgICBpbml0aWFsaXplIHRoZSBjbGFzczsgZmlyc3QgY2FsbCBCYXNlTW9kZWwuX19pbml0X18oc2VsZiwgb3B0KS4KICAgIC0tIDxzZXRfaW5wdXQ+OiAgICAgICAgICAgICAgICAgICAgIHVucGFjayBkYXRhIGZyb20gZGF0YXNldCBhbmQgYXBwbHkgcHJlcHJvY2Vzc2luZy4KICAgIC0tIDxmb3J3YXJkPjogICAgICAgICAgICAgICAgICAgICAgIHByb2R1Y2UgaW50ZXJtZWRpYXRlIHJlc3VsdHMuCiAgICAtLSA8b3B0aW1pemVfcGFyYW1ldGVycz46ICAgICAgICAgICBjYWxjdWxhdGUgbG9zcywgZ3JhZGllbnRzLCBhbmQgdXBkYXRlIG5ldHdvcmsgd2VpZ2h0cy4KICAgIC0tIDxtb2RpZnlfY29tbWFuZGxpbmVfb3B0aW9ucz46ICAgIChvcHRpb25hbGx5KSBhZGQgbW9kZWwtc3BlY2lmaWMgb3B0aW9ucyBhbmQgc2V0IGRlZmF1bHQgb3B0aW9ucy4KCkluIHRoZSBmdW5jdGlvbiA8X19pbml0X18+LCB5b3UgbmVlZCB0byBkZWZpbmUgZm91ciBsaXN0czoKICAgIC0tIHNlbGYubG9zc19uYW1lcyAoc3RyIGxpc3QpOiAgICAgICAgICBzcGVjaWZ5IHRoZSB0cmFpbmluZyBsb3NzZXMgdGhhdCB5b3Ugd2FudCB0byBwbG90IGFuZCBzYXZlLgogICAgLS0gc2VsZi5tb2RlbF9uYW1lcyAoc3RyIGxpc3QpOiAgICAgICAgIGRlZmluZSBuZXR3b3JrcyB1c2VkIGluIG91ciB0cmFpbmluZy4KICAgIC0tIHNlbGYudmlzdWFsX25hbWVzIChzdHIgbGlzdCk6ICAgICAgICBzcGVjaWZ5IHRoZSBpbWFnZXMgdGhhdCB5b3Ugd2FudCB0byBkaXNwbGF5IGFuZCBzYXZlLgogICAgLS0gc2VsZi5vcHRpbWl6ZXJzIChvcHRpbWl6ZXIgbGlzdCk6ICAgIGRlZmluZSBhbmQgaW5pdGlhbGl6ZSBvcHRpbWl6ZXJzLiBZb3UgY2FuIGRlZmluZSBvbmUgb3B0aW1pemVyIGZvciBlYWNoIG5ldHdvcmsuIElmIHR3byBuZXR3b3JrcyBhcmUgdXBkYXRlZCBhdCB0aGUgc2FtZSB0aW1lLCB5b3UgY2FuIHVzZSBpdGVydG9vbHMuY2hhaW4gdG8gZ3JvdXAgdGhlbS4gU2VlIGN5Y2xlX2dhbl9tb2RlbC5weSBmb3IgYW4gdXNhZ2UuCgpOb3cgeW91IGNhbiB1c2UgdGhlIG1vZGVsIGNsYXNzIGJ5IHNwZWNpZnlpbmcgZmxhZyAnLS1tb2RlbCBkdW1teScuClNlZSBvdXIgdGVtcGxhdGUgbW9kZWwgY2xhc3MgJ3RlbXBsYXRlX21vZGVsLnB5JyBmb3IgbW9yZSBkZXRhaWxzLgoiIiIKCmltcG9ydCBpbXBvcnRsaWIKZnJvbSBzcmMuZmFjZTNkLm1vZGVscy5iYXNlX21vZGVsIGltcG9ydCBCYXNlTW9kZWwKCgpkZWYgZmluZF9tb2RlbF91c2luZ19uYW1lKG1vZGVsX25hbWUpOgogICAgIiIiSW1wb3J0IHRoZSBtb2R1bGUgIm1vZGVscy9bbW9kZWxfbmFtZV1fbW9kZWwucHkiLgoKICAgIEluIHRoZSBmaWxlLCB0aGUgY2xhc3MgY2FsbGVkIERhdGFzZXROYW1lTW9kZWwoKSB3aWxsCiAgICBiZSBpbnN0YW50aWF0ZWQuIEl0IGhhcyB0byBiZSBhIHN1YmNsYXNzIG9mIEJhc2VNb2RlbCwKICAgIGFuZCBpdCBpcyBjYXNlLWluc2Vuc2l0aXZlLgogICAgIiIiCiAgICBtb2RlbF9maWxlbmFtZSA9ICJmYWNlM2QubW9kZWxzLiIgKyBtb2RlbF9uYW1lICsgIl9tb2RlbCIKICAgIG1vZGVsbGliID0gaW1wb3J0bGliLmltcG9ydF9tb2R1bGUobW9kZWxfZmlsZW5hbWUpCiAgICBtb2RlbCA9IE5vbmUKICAgIHRhcmdldF9tb2RlbF9uYW1lID0gbW9kZWxfbmFtZS5yZXBsYWNlKCdfJywgJycpICsgJ21vZGVsJwogICAgZm9yIG5hbWUsIGNscyBpbiBtb2RlbGxpYi5fX2RpY3RfXy5pdGVtcygpOgogICAgICAgIGlmIG5hbWUubG93ZXIoKSA9PSB0YXJnZXRfbW9kZWxfbmFtZS5sb3dlcigpIFwKICAgICAgICAgICBhbmQgaXNzdWJjbGFzcyhjbHMsIEJhc2VNb2RlbCk6CiAgICAgICAgICAgIG1vZGVsID0gY2xzCgogICAgaWYgbW9kZWwgaXMgTm9uZToKICAgICAgICBwcmludCgiSW4gJXMucHksIHRoZXJlIHNob3VsZCBiZSBhIHN1YmNsYXNzIG9mIEJhc2VNb2RlbCB3aXRoIGNsYXNzIG5hbWUgdGhhdCBtYXRjaGVzICVzIGluIGxvd2VyY2FzZS4iICUgKG1vZGVsX2ZpbGVuYW1lLCB0YXJnZXRfbW9kZWxfbmFtZSkpCiAgICAgICAgZXhpdCgwKQoKICAgIHJldHVybiBtb2RlbAoKCmRlZiBnZXRfb3B0aW9uX3NldHRlcihtb2RlbF9uYW1lKToKICAgICIiIlJldHVybiB0aGUgc3RhdGljIG1ldGhvZCA8bW9kaWZ5X2NvbW1hbmRsaW5lX29wdGlvbnM+IG9mIHRoZSBtb2RlbCBjbGFzcy4iIiIKICAgIG1vZGVsX2NsYXNzID0gZmluZF9tb2RlbF91c2luZ19uYW1lKG1vZGVsX25hbWUpCiAgICByZXR1cm4gbW9kZWxfY2xhc3MubW9kaWZ5X2NvbW1hbmRsaW5lX29wdGlvbnMKCgpkZWYgY3JlYXRlX21vZGVsKG9wdCk6CiAgICAiIiJDcmVhdGUgYSBtb2RlbCBnaXZlbiB0aGUgb3B0aW9uLgoKICAgIFRoaXMgZnVuY3Rpb24gd2FycHMgdGhlIGNsYXNzIEN1c3RvbURhdGFzZXREYXRhTG9hZGVyLgogICAgVGhpcyBpcyB0aGUgbWFpbiBpbnRlcmZhY2UgYmV0d2VlbiB0aGlzIHBhY2thZ2UgYW5kICd0cmFpbi5weScvJ3Rlc3QucHknCgogICAgRXhhbXBsZToKICAgICAgICA+Pj4gZnJvbSBtb2RlbHMgaW1wb3J0IGNyZWF0ZV9tb2RlbAogICAgICAgID4+PiBtb2RlbCA9IGNyZWF0ZV9tb2RlbChvcHQpCiAgICAiIiIKICAgIG1vZGVsID0gZmluZF9tb2RlbF91c2luZ19uYW1lKG9wdC5tb2RlbCkKICAgIGluc3RhbmNlID0gbW9kZWwob3B0KQogICAgcHJpbnQoIm1vZGVsIFslc10gd2FzIGNyZWF0ZWQiICUgdHlwZShpbnN0YW5jZSkuX19uYW1lX18pCiAgICByZXR1cm4gaW5zdGFuY2UK
+"""This package contains modules related to objective functions, optimizations, and network architectures.
+
+To add a custom model class called 'dummy', you need to add a file called 'dummy_model.py' and define a subclass DummyModel inherited from BaseModel.
+You need to implement the following five functions:
+    -- <__init__>:                      initialize the class; first call BaseModel.__init__(self, opt).
+    -- <set_input>:                     unpack data from dataset and apply preprocessing.
+    -- <forward>:                       produce intermediate results.
+    -- <optimize_parameters>:           calculate loss, gradients, and update network weights.
+    -- <modify_commandline_options>:    (optionally) add model-specific options and set default options.
+
+In the function <__init__>, you need to define four lists:
+    -- self.loss_names (str list):          specify the training losses that you want to plot and save.
+    -- self.model_names (str list):         define networks used in our training.
+    -- self.visual_names (str list):        specify the images that you want to display and save.
+    -- self.optimizers (optimizer list):    define and initialize optimizers. You can define one optimizer for each network. If two networks are updated at the same time, you can use itertools.chain to group them. See cycle_gan_model.py for an usage.
+
+Now you can use the model class by specifying flag '--model dummy'.
+See our template model class 'template_model.py' for more details.
+"""
+
+import importlib
+from src.face3d.models.base_model import BaseModel
+
+
+def find_model_using_name(model_name):
+    """Import the module "models/[model_name]_model.py".
+
+    In the file, the class called DatasetNameModel() will
+    be instantiated. It has to be a subclass of BaseModel,
+    and it is case-insensitive.
+    """
+    model_filename = "face3d.models." + model_name + "_model"
+    modellib = importlib.import_module(model_filename)
+    model = None
+    target_model_name = model_name.replace('_', '') + 'model'
+    for name, cls in modellib.__dict__.items():
+        if name.lower() == target_model_name.lower() \
+           and issubclass(cls, BaseModel):
+            model = cls
+
+    if model is None:
+        print("In %s.py, there should be a subclass of BaseModel with class name that matches %s in lowercase." % (model_filename, target_model_name))
+        exit(0)
+
+    return model
+
+
+def get_option_setter(model_name):
+    """Return the static method <modify_commandline_options> of the model class."""
+    model_class = find_model_using_name(model_name)
+    return model_class.modify_commandline_options
+
+
+def create_model(opt):
+    """Create a model given the option.
+
+    This function warps the class CustomDatasetDataLoader.
+    This is the main interface between this package and 'train.py'/'test.py'
+
+    Example:
+        >>> from models import create_model
+        >>> model = create_model(opt)
+    """
+    model = find_model_using_name(opt.model)
+    instance = model(opt)
+    print("model [%s] was created" % type(instance).__name__)
+    return instance

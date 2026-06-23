@@ -1,1 +1,116 @@
-IiIiVGhpcyBwYWNrYWdlIGluY2x1ZGVzIGFsbCB0aGUgbW9kdWxlcyByZWxhdGVkIHRvIGRhdGEgbG9hZGluZyBhbmQgcHJlcHJvY2Vzc2luZwoKIFRvIGFkZCBhIGN1c3RvbSBkYXRhc2V0IGNsYXNzIGNhbGxlZCAnZHVtbXknLCB5b3UgbmVlZCB0byBhZGQgYSBmaWxlIGNhbGxlZCAnZHVtbXlfZGF0YXNldC5weScgYW5kIGRlZmluZSBhIHN1YmNsYXNzICdEdW1teURhdGFzZXQnIGluaGVyaXRlZCBmcm9tIEJhc2VEYXRhc2V0LgogWW91IG5lZWQgdG8gaW1wbGVtZW50IGZvdXIgZnVuY3Rpb25zOgogICAgLS0gPF9faW5pdF9fPjogICAgICAgICAgICAgICAgICAgICAgaW5pdGlhbGl6ZSB0aGUgY2xhc3MsIGZpcnN0IGNhbGwgQmFzZURhdGFzZXQuX19pbml0X18oc2VsZiwgb3B0KS4KICAgIC0tIDxfX2xlbl9fPjogICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB0aGUgc2l6ZSBvZiBkYXRhc2V0LgogICAgLS0gPF9fZ2V0aXRlbV9fPjogICAgICAgICAgICAgICAgICAgZ2V0IGEgZGF0YSBwb2ludCBmcm9tIGRhdGEgbG9hZGVyLgogICAgLS0gPG1vZGlmeV9jb21tYW5kbGluZV9vcHRpb25zPjogICAgKG9wdGlvbmFsbHkpIGFkZCBkYXRhc2V0LXNwZWNpZmljIG9wdGlvbnMgYW5kIHNldCBkZWZhdWx0IG9wdGlvbnMuCgpOb3cgeW91IGNhbiB1c2UgdGhlIGRhdGFzZXQgY2xhc3MgYnkgc3BlY2lmeWluZyBmbGFnICctLWRhdGFzZXRfbW9kZSBkdW1teScuClNlZSBvdXIgdGVtcGxhdGUgZGF0YXNldCBjbGFzcyAndGVtcGxhdGVfZGF0YXNldC5weScgZm9yIG1vcmUgZGV0YWlscy4KIiIiCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgaW1wb3J0bGliCmltcG9ydCB0b3JjaC51dGlscy5kYXRhCmZyb20gZmFjZTNkLmRhdGEuYmFzZV9kYXRhc2V0IGltcG9ydCBCYXNlRGF0YXNldAoKCmRlZiBmaW5kX2RhdGFzZXRfdXNpbmdfbmFtZShkYXRhc2V0X25hbWUpOgogICAgIiIiSW1wb3J0IHRoZSBtb2R1bGUgImRhdGEvW2RhdGFzZXRfbmFtZV1fZGF0YXNldC5weSIuCgogICAgSW4gdGhlIGZpbGUsIHRoZSBjbGFzcyBjYWxsZWQgRGF0YXNldE5hbWVEYXRhc2V0KCkgd2lsbAogICAgYmUgaW5zdGFudGlhdGVkLiBJdCBoYXMgdG8gYmUgYSBzdWJjbGFzcyBvZiBCYXNlRGF0YXNldCwKICAgIGFuZCBpdCBpcyBjYXNlLWluc2Vuc2l0aXZlLgogICAgIiIiCiAgICBkYXRhc2V0X2ZpbGVuYW1lID0gImRhdGEuIiArIGRhdGFzZXRfbmFtZSArICJfZGF0YXNldCIKICAgIGRhdGFzZXRsaWIgPSBpbXBvcnRsaWIuaW1wb3J0X21vZHVsZShkYXRhc2V0X2ZpbGVuYW1lKQoKICAgIGRhdGFzZXQgPSBOb25lCiAgICB0YXJnZXRfZGF0YXNldF9uYW1lID0gZGF0YXNldF9uYW1lLnJlcGxhY2UoJ18nLCAnJykgKyAnZGF0YXNldCcKICAgIGZvciBuYW1lLCBjbHMgaW4gZGF0YXNldGxpYi5fX2RpY3RfXy5pdGVtcygpOgogICAgICAgIGlmIG5hbWUubG93ZXIoKSA9PSB0YXJnZXRfZGF0YXNldF9uYW1lLmxvd2VyKCkgXAogICAgICAgICAgIGFuZCBpc3N1YmNsYXNzKGNscywgQmFzZURhdGFzZXQpOgogICAgICAgICAgICBkYXRhc2V0ID0gY2xzCgogICAgaWYgZGF0YXNldCBpcyBOb25lOgogICAgICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IoIkluICVzLnB5LCB0aGVyZSBzaG91bGQgYmUgYSBzdWJjbGFzcyBvZiBCYXNlRGF0YXNldCB3aXRoIGNsYXNzIG5hbWUgdGhhdCBtYXRjaGVzICVzIGluIGxvd2VyY2FzZS4iICUgKGRhdGFzZXRfZmlsZW5hbWUsIHRhcmdldF9kYXRhc2V0X25hbWUpKQoKICAgIHJldHVybiBkYXRhc2V0CgoKZGVmIGdldF9vcHRpb25fc2V0dGVyKGRhdGFzZXRfbmFtZSk6CiAgICAiIiJSZXR1cm4gdGhlIHN0YXRpYyBtZXRob2QgPG1vZGlmeV9jb21tYW5kbGluZV9vcHRpb25zPiBvZiB0aGUgZGF0YXNldCBjbGFzcy4iIiIKICAgIGRhdGFzZXRfY2xhc3MgPSBmaW5kX2RhdGFzZXRfdXNpbmdfbmFtZShkYXRhc2V0X25hbWUpCiAgICByZXR1cm4gZGF0YXNldF9jbGFzcy5tb2RpZnlfY29tbWFuZGxpbmVfb3B0aW9ucwoKCmRlZiBjcmVhdGVfZGF0YXNldChvcHQsIHJhbms9MCk6CiAgICAiIiJDcmVhdGUgYSBkYXRhc2V0IGdpdmVuIHRoZSBvcHRpb24uCgogICAgVGhpcyBmdW5jdGlvbiB3cmFwcyB0aGUgY2xhc3MgQ3VzdG9tRGF0YXNldERhdGFMb2FkZXIuCiAgICAgICAgVGhpcyBpcyB0aGUgbWFpbiBpbnRlcmZhY2UgYmV0d2VlbiB0aGlzIHBhY2thZ2UgYW5kICd0cmFpbi5weScvJ3Rlc3QucHknCgogICAgRXhhbXBsZToKICAgICAgICA+Pj4gZnJvbSBkYXRhIGltcG9ydCBjcmVhdGVfZGF0YXNldAogICAgICAgID4+PiBkYXRhc2V0ID0gY3JlYXRlX2RhdGFzZXQob3B0KQogICAgIiIiCiAgICBkYXRhX2xvYWRlciA9IEN1c3RvbURhdGFzZXREYXRhTG9hZGVyKG9wdCwgcmFuaz1yYW5rKQogICAgZGF0YXNldCA9IGRhdGFfbG9hZGVyLmxvYWRfZGF0YSgpCiAgICByZXR1cm4gZGF0YXNldAoKY2xhc3MgQ3VzdG9tRGF0YXNldERhdGFMb2FkZXIoKToKICAgICIiIldyYXBwZXIgY2xhc3Mgb2YgRGF0YXNldCBjbGFzcyB0aGF0IHBlcmZvcm1zIG11bHRpLXRocmVhZGVkIGRhdGEgbG9hZGluZyIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBvcHQsIHJhbms9MCk6CiAgICAgICAgIiIiSW5pdGlhbGl6ZSB0aGlzIGNsYXNzCgogICAgICAgIFN0ZXAgMTogY3JlYXRlIGEgZGF0YXNldCBpbnN0YW5jZSBnaXZlbiB0aGUgbmFtZSBbZGF0YXNldF9tb2RlXQogICAgICAgIFN0ZXAgMjogY3JlYXRlIGEgbXVsdGktdGhyZWFkZWQgZGF0YSBsb2FkZXIuCiAgICAgICAgIiIiCiAgICAgICAgc2VsZi5vcHQgPSBvcHQKICAgICAgICBkYXRhc2V0X2NsYXNzID0gZmluZF9kYXRhc2V0X3VzaW5nX25hbWUob3B0LmRhdGFzZXRfbW9kZSkKICAgICAgICBzZWxmLmRhdGFzZXQgPSBkYXRhc2V0X2NsYXNzKG9wdCkKICAgICAgICBzZWxmLnNhbXBsZXIgPSBOb25lCiAgICAgICAgcHJpbnQoInJhbmsgJWQgJXMgZGF0YXNldCBbJXNdIHdhcyBjcmVhdGVkIiAlIChyYW5rLCBzZWxmLmRhdGFzZXQubmFtZSwgdHlwZShzZWxmLmRhdGFzZXQpLl9fbmFtZV9fKSkKICAgICAgICBpZiBvcHQudXNlX2RkcCBhbmQgb3B0LmlzVHJhaW46CiAgICAgICAgICAgIHdvcmxkX3NpemUgPSBvcHQud29ybGRfc2l6ZQogICAgICAgICAgICBzZWxmLnNhbXBsZXIgPSB0b3JjaC51dGlscy5kYXRhLmRpc3RyaWJ1dGVkLkRpc3RyaWJ1dGVkU2FtcGxlcigKICAgICAgICAgICAgICAgICAgICBzZWxmLmRhdGFzZXQsCiAgICAgICAgICAgICAgICAgICAgbnVtX3JlcGxpY2FzPXdvcmxkX3NpemUsCiAgICAgICAgICAgICAgICAgICAgcmFuaz1yYW5rLAogICAgICAgICAgICAgICAgICAgIHNodWZmbGU9bm90IG9wdC5zZXJpYWxfYmF0Y2hlcwogICAgICAgICAgICAgICAgKQogICAgICAgICAgICBzZWxmLmRhdGFsb2FkZXIgPSB0b3JjaC51dGlscy5kYXRhLkRhdGFMb2FkZXIoCiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuZGF0YXNldCwKICAgICAgICAgICAgICAgICAgICAgICAgc2FtcGxlcj1zZWxmLnNhbXBsZXIsCiAgICAgICAgICAgICAgICAgICAgICAgIG51bV93b3JrZXJzPWludChvcHQubnVtX3RocmVhZHMgLyB3b3JsZF9zaXplKSwgCiAgICAgICAgICAgICAgICAgICAgICAgIGJhdGNoX3NpemU9aW50KG9wdC5iYXRjaF9zaXplIC8gd29ybGRfc2l6ZSksIAogICAgICAgICAgICAgICAgICAgICAgICBkcm9wX2xhc3Q9VHJ1ZSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBzZWxmLmRhdGFsb2FkZXIgPSB0b3JjaC51dGlscy5kYXRhLkRhdGFMb2FkZXIoCiAgICAgICAgICAgICAgICBzZWxmLmRhdGFzZXQsCiAgICAgICAgICAgICAgICBiYXRjaF9zaXplPW9wdC5iYXRjaF9zaXplLAogICAgICAgICAgICAgICAgc2h1ZmZsZT0obm90IG9wdC5zZXJpYWxfYmF0Y2hlcykgYW5kIG9wdC5pc1RyYWluLAogICAgICAgICAgICAgICAgbnVtX3dvcmtlcnM9aW50KG9wdC5udW1fdGhyZWFkcyksCiAgICAgICAgICAgICAgICBkcm9wX2xhc3Q9VHJ1ZQogICAgICAgICAgICApCgogICAgZGVmIHNldF9lcG9jaChzZWxmLCBlcG9jaCk6CiAgICAgICAgc2VsZi5kYXRhc2V0LmN1cnJlbnRfZXBvY2ggPSBlcG9jaAogICAgICAgIGlmIHNlbGYuc2FtcGxlciBpcyBub3QgTm9uZToKICAgICAgICAgICAgc2VsZi5zYW1wbGVyLnNldF9lcG9jaChlcG9jaCkKCiAgICBkZWYgbG9hZF9kYXRhKHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmCgogICAgZGVmIF9fbGVuX18oc2VsZik6CiAgICAgICAgIiIiUmV0dXJuIHRoZSBudW1iZXIgb2YgZGF0YSBpbiB0aGUgZGF0YXNldCIiIgogICAgICAgIHJldHVybiBtaW4obGVuKHNlbGYuZGF0YXNldCksIHNlbGYub3B0Lm1heF9kYXRhc2V0X3NpemUpCgogICAgZGVmIF9faXRlcl9fKHNlbGYpOgogICAgICAgICIiIlJldHVybiBhIGJhdGNoIG9mIGRhdGEiIiIKICAgICAgICBmb3IgaSwgZGF0YSBpbiBlbnVtZXJhdGUoc2VsZi5kYXRhbG9hZGVyKToKICAgICAgICAgICAgaWYgaSAqIHNlbGYub3B0LmJhdGNoX3NpemUgPj0gc2VsZi5vcHQubWF4X2RhdGFzZXRfc2l6ZToKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgIHlpZWxkIGRhdGEK
+"""This package includes all the modules related to data loading and preprocessing
+
+ To add a custom dataset class called 'dummy', you need to add a file called 'dummy_dataset.py' and define a subclass 'DummyDataset' inherited from BaseDataset.
+ You need to implement four functions:
+    -- <__init__>:                      initialize the class, first call BaseDataset.__init__(self, opt).
+    -- <__len__>:                       return the size of dataset.
+    -- <__getitem__>:                   get a data point from data loader.
+    -- <modify_commandline_options>:    (optionally) add dataset-specific options and set default options.
+
+Now you can use the dataset class by specifying flag '--dataset_mode dummy'.
+See our template dataset class 'template_dataset.py' for more details.
+"""
+import numpy as np
+import importlib
+import torch.utils.data
+from face3d.data.base_dataset import BaseDataset
+
+
+def find_dataset_using_name(dataset_name):
+    """Import the module "data/[dataset_name]_dataset.py".
+
+    In the file, the class called DatasetNameDataset() will
+    be instantiated. It has to be a subclass of BaseDataset,
+    and it is case-insensitive.
+    """
+    dataset_filename = "data." + dataset_name + "_dataset"
+    datasetlib = importlib.import_module(dataset_filename)
+
+    dataset = None
+    target_dataset_name = dataset_name.replace('_', '') + 'dataset'
+    for name, cls in datasetlib.__dict__.items():
+        if name.lower() == target_dataset_name.lower() \
+           and issubclass(cls, BaseDataset):
+            dataset = cls
+
+    if dataset is None:
+        raise NotImplementedError("In %s.py, there should be a subclass of BaseDataset with class name that matches %s in lowercase." % (dataset_filename, target_dataset_name))
+
+    return dataset
+
+
+def get_option_setter(dataset_name):
+    """Return the static method <modify_commandline_options> of the dataset class."""
+    dataset_class = find_dataset_using_name(dataset_name)
+    return dataset_class.modify_commandline_options
+
+
+def create_dataset(opt, rank=0):
+    """Create a dataset given the option.
+
+    This function wraps the class CustomDatasetDataLoader.
+        This is the main interface between this package and 'train.py'/'test.py'
+
+    Example:
+        >>> from data import create_dataset
+        >>> dataset = create_dataset(opt)
+    """
+    data_loader = CustomDatasetDataLoader(opt, rank=rank)
+    dataset = data_loader.load_data()
+    return dataset
+
+class CustomDatasetDataLoader():
+    """Wrapper class of Dataset class that performs multi-threaded data loading"""
+
+    def __init__(self, opt, rank=0):
+        """Initialize this class
+
+        Step 1: create a dataset instance given the name [dataset_mode]
+        Step 2: create a multi-threaded data loader.
+        """
+        self.opt = opt
+        dataset_class = find_dataset_using_name(opt.dataset_mode)
+        self.dataset = dataset_class(opt)
+        self.sampler = None
+        print("rank %d %s dataset [%s] was created" % (rank, self.dataset.name, type(self.dataset).__name__))
+        if opt.use_ddp and opt.isTrain:
+            world_size = opt.world_size
+            self.sampler = torch.utils.data.distributed.DistributedSampler(
+                    self.dataset,
+                    num_replicas=world_size,
+                    rank=rank,
+                    shuffle=not opt.serial_batches
+                )
+            self.dataloader = torch.utils.data.DataLoader(
+                        self.dataset,
+                        sampler=self.sampler,
+                        num_workers=int(opt.num_threads / world_size), 
+                        batch_size=int(opt.batch_size / world_size), 
+                        drop_last=True)
+        else:
+            self.dataloader = torch.utils.data.DataLoader(
+                self.dataset,
+                batch_size=opt.batch_size,
+                shuffle=(not opt.serial_batches) and opt.isTrain,
+                num_workers=int(opt.num_threads),
+                drop_last=True
+            )
+
+    def set_epoch(self, epoch):
+        self.dataset.current_epoch = epoch
+        if self.sampler is not None:
+            self.sampler.set_epoch(epoch)
+
+    def load_data(self):
+        return self
+
+    def __len__(self):
+        """Return the number of data in the dataset"""
+        return min(len(self.dataset), self.opt.max_dataset_size)
+
+    def __iter__(self):
+        """Return a batch of data"""
+        for i, data in enumerate(self.dataloader):
+            if i * self.opt.batch_size >= self.opt.max_dataset_size:
+                break
+            yield data

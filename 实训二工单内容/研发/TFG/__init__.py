@@ -1,1 +1,13 @@
-ZnJvbSAuU2FkVGFsa2VyIGltcG9ydCBTYWRUYWxrZXIKZnJvbSAuV2F2MkxpcCBpbXBvcnQgV2F2MkxpcApmcm9tIC5XYXYyTGlwdjIgaW1wb3J0IFdhdjJMaXB2Mgp0cnk6CiAgICBmcm9tIC5OZVJGVGFsayBpbXBvcnQgTmVSRlRhbGsKZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgcHJpbnQoIk5lUkZUYWxr5a+85YWl5aSx6LSl77yM5Y6f5Zug77yaIiwgZSkKICAgIHByaW50KCLkvb/nlKhOZVJGVGFsa+WJjemcgOimgeWuieijheWvueW6lOeahOeOr+WigyIpCnRyeToKICAgIGZyb20gLk11c2VUYWxrIGltcG9ydCBNdXNlVGFsa19SZWFsVGltZQpleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICBwcmludCgiTXVzZVRhbGvlr7zlhaXlpLHotKXvvIzljp/lm6DvvJoiLCBlKQogICAgcHJpbnQoIuS9v+eUqE11c2VUYWxr5YmN6ZyA6KaB5a6J6KOF5a+55bqU55qE546v5aKDIik=
+from .SadTalker import SadTalker
+from .Wav2Lip import Wav2Lip
+from .Wav2Lipv2 import Wav2Lipv2
+try:
+    from .NeRFTalk import NeRFTalk
+except Exception as e:
+    print("NeRFTalk导入失败，原因：", e)
+    print("使用NeRFTalk前需要安装对应的环境")
+try:
+    from .MuseTalk import MuseTalk_RealTime
+except Exception as e:
+    print("MuseTalk导入失败，原因：", e)
+    print("使用MuseTalk前需要安装对应的环境")

@@ -1,1 +1,1 @@
-ZnJvbSAuY29yZSBpbXBvcnQgQ2hhdA==
+from .core import Chat

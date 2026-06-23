@@ -1,1 +1,31 @@
-IyMgRXZhbCBvbiBJQ0NWMjAyMS1NRlIKCmNvbWluZyBzb29uLgoKCiMjIEV2YWwgSUpCQwpZb3UgY2FuIGV2YWwgaWpiYyB3aXRoIHB5dG9yY2ggb3Igb25ueC4KCgoxLiBFdmFsIElKQkMgV2l0aCBPbm54CmBgYHNoZWxsCkNVREFfVklTSUJMRV9ERVZJQ0VTPTAgcHl0aG9uIG9ubnhfaWpiYy5weSAtLW1vZGVsLXJvb3QgbXMxbXYzX2FyY2ZhY2VfcjUwIC0taW1hZ2UtcGF0aCBJSkJfcmVsZWFzZS9JSkJDIC0tcmVzdWx0LWRpciBtczFtdjNfYXJjZmFjZV9yNTAKYGBgCgoyLiBFdmFsIElKQkMgV2l0aCBQeXRvcmNoCmBgYHNoZWxsCkNVREFfVklTSUJMRV9ERVZJQ0VTPTAsMSBweXRob24gZXZhbF9pamJjLnB5IFwKLS1tb2RlbC1wcmVmaXggbXMxbXYzX2FyY2ZhY2VfcjUwL2JhY2tib25lLnB0aCBcCi0taW1hZ2UtcGF0aCBJSkJfcmVsZWFzZS9JSkJDIFwKLS1yZXN1bHQtZGlyIG1zMW12M19hcmNmYWNlX3I1MCBcCi0tYmF0Y2gtc2l6ZSAxMjggXAotLWpvYiBtczFtdjNfYXJjZmFjZV9yNTAgXAotLXRhcmdldCBJSkJDIFwKLS1uZXR3b3JrIGlyZXNuZXQ1MApgYGAKCiMjIEluZmVyZW5jZQoKYGBgc2hlbGwKcHl0aG9uIGluZmVyZW5jZS5weSAtLXdlaWdodCBtczFtdjNfYXJjZmFjZV9yNTAvYmFja2JvbmUucHRoIC0tbmV0d29yayByNTAKYGBgCg==
+## Eval on ICCV2021-MFR
+
+coming soon.
+
+
+## Eval IJBC
+You can eval ijbc with pytorch or onnx.
+
+
+1. Eval IJBC With Onnx
+```shell
+CUDA_VISIBLE_DEVICES=0 python onnx_ijbc.py --model-root ms1mv3_arcface_r50 --image-path IJB_release/IJBC --result-dir ms1mv3_arcface_r50
+```
+
+2. Eval IJBC With Pytorch
+```shell
+CUDA_VISIBLE_DEVICES=0,1 python eval_ijbc.py \
+--model-prefix ms1mv3_arcface_r50/backbone.pth \
+--image-path IJB_release/IJBC \
+--result-dir ms1mv3_arcface_r50 \
+--batch-size 128 \
+--job ms1mv3_arcface_r50 \
+--target IJBC \
+--network iresnet50
+```
+
+## Inference
+
+```shell
+python inference.py --weight ms1mv3_arcface_r50/backbone.pth --network r50
+```

@@ -1,1 +1,36 @@
-IyBPcGVuU1NMIENlcnRpZmljYXRlIGZvciBIVFRQUwoKV2hlbiBsYXVuY2hpbmcgR3JhZGlvIGxvY2FsbHksIHlvdSBtYXkgZW5jb3VudGVyIEhUVFBTLXJlbGF0ZWQgaXNzdWVzIGxpa2UgbWljcm9waG9uZSBhY2Nlc3MgYmVpbmcgYmxvY2tlZC4gVG8gcmVzb2x2ZSB0aGlzLCB5b3UgY2FuIHVzZSBPcGVuU1NMIHRvIGNvbmZpZ3VyZSBIVFRQUy4KCiMjIEdlbmVyYXRlIENlcnRpZmljYXRlIGFuZCBLZXkKClVzZSBPcGVuU1NMIHRvIGdlbmVyYXRlIGEgc2VsZi1zaWduZWQgY2VydGlmaWNhdGUgYW5kIHByaXZhdGUga2V5OgoKYGBgCm9wZW5zc2wgcmVxIC14NTA5IC1uZXdrZXkgcnNhOjQwOTYgLWtleW91dCBrZXkucGVtIC1vdXQgY2VydC5wZW0gLXNoYTI1NiAtZGF5cyAzNjUgLW5vZGVzCmBgYAoKVGhpcyB3aWxsIGdlbmVyYXRlIGBjZXJ0LnBlbWAgYW5kIGBrZXkucGVtYCBpbiB0aGUgY3VycmVudCBkaXJlY3RvcnkuCgojIyBMYXVuY2ggR3JhZGlvIHdpdGggSFRUUFMKCkxhdW5jaCBHcmFkaW8gYnkgc3BlY2lmeWluZyB0aGUgY2VydGlmaWNhdGUgYW5kIGtleTogCgpgYGBweXRob24KZGVtby5sYXVuY2goCiAgc2VydmVyX25hbWU9IjAuMC4wLjAiLAogIHNzbF9jZXJ0ZmlsZT0iL3BhdGgvdG8vY2VydC5wZW0iLCAKICBzc2xfa2V5ZmlsZT0iL3BhdGgvdG8va2V5LnBlbSIKKQpgYGAKCkJ5IHByb3ZpZGluZyB0aGUgU1NMIGNlcnRpZmljYXRlIGFuZCBrZXksIEdyYWRpbyB3aWxsIGxhdW5jaCBhbiBIVFRQUyBzZXJ2ZXIgaW5zdGVhZCBvZiBIVFRQLgoKVGhlIGJlbmVmaXRzIG9mIEhUVFBTIGluY2x1ZGU6CgotIEVuYWJsaW5nIGJyb3dzZXIgZmVhdHVyZXMgbGlrZSBtaWNyb3Bob25lIGFjY2VzcwotIEF2b2lkaW5nIG1peGVkIGNvbnRlbnQgaXNzdWVzCi0gRW5jcnlwdGVkIGNvbW11bmljYXRpb24KCkluIHN1bW1hcnksIGdlbmVyYXRpbmcgYSBzZWxmLXNpZ25lZCBjZXJ0aWZpY2F0ZSB3aXRoIE9wZW5TU0wgYW5kIHByb3ZpZGluZyBpdCB0byBHcmFkaW8gZW5hYmxlcyBsYXVuY2hpbmcgYSBsb2NhbCBIVFRQUyBzZXJ2ZXIsIHJlc29sdmluZyBsaW1pdGF0aW9ucyBsaWtlIG1pY3JvcGhvbmUgYmxvY2tpbmcuIFRoaXMgaW1wcm92ZXMgdGhlIHVzZXIgZXhwZXJpZW5jZSB3aGVuIGludGVyYWN0aW5nIHdpdGggdGhlIG1vZGVsLgoK
+# OpenSSL Certificate for HTTPS
+
+When launching Gradio locally, you may encounter HTTPS-related issues like microphone access being blocked. To resolve this, you can use OpenSSL to configure HTTPS.
+
+## Generate Certificate and Key
+
+Use OpenSSL to generate a self-signed certificate and private key:
+
+```
+openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes
+```
+
+This will generate `cert.pem` and `key.pem` in the current directory.
+
+## Launch Gradio with HTTPS
+
+Launch Gradio by specifying the certificate and key: 
+
+```python
+demo.launch(
+  server_name="0.0.0.0",
+  ssl_certfile="/path/to/cert.pem", 
+  ssl_keyfile="/path/to/key.pem"
+)
+```
+
+By providing the SSL certificate and key, Gradio will launch an HTTPS server instead of HTTP.
+
+The benefits of HTTPS include:
+
+- Enabling browser features like microphone access
+- Avoiding mixed content issues
+- Encrypted communication
+
+In summary, generating a self-signed certificate with OpenSSL and providing it to Gradio enables launching a local HTTPS server, resolving limitations like microphone blocking. This improves the user experience when interacting with the model.
+

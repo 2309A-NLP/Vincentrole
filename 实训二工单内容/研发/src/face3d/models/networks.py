@@ -1,1 +1,521 @@
-IiIiVGhpcyBzY3JpcHQgZGVmaW5lcyBkZWVwIG5ldXJhbCBuZXR3b3JrcyBmb3IgRGVlcDNERmFjZVJlY29uX3B5dG9yY2gKIiIiCgppbXBvcnQgb3MKaW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCB0b3JjaC5ubi5mdW5jdGlvbmFsIGFzIEYKZnJvbSB0b3JjaC5ubiBpbXBvcnQgaW5pdAppbXBvcnQgZnVuY3Rvb2xzCmZyb20gdG9yY2gub3B0aW0gaW1wb3J0IGxyX3NjaGVkdWxlcgppbXBvcnQgdG9yY2gKZnJvbSB0b3JjaCBpbXBvcnQgVGVuc29yCmltcG9ydCB0b3JjaC5ubiBhcyBubgp0cnk6CiAgICBmcm9tIHRvcmNoLmh1YiBpbXBvcnQgbG9hZF9zdGF0ZV9kaWN0X2Zyb21fdXJsCmV4Y2VwdCBJbXBvcnRFcnJvcjoKICAgIGZyb20gdG9yY2gudXRpbHMubW9kZWxfem9vIGltcG9ydCBsb2FkX3VybCBhcyBsb2FkX3N0YXRlX2RpY3RfZnJvbV91cmwKZnJvbSB0eXBpbmcgaW1wb3J0IFR5cGUsIEFueSwgQ2FsbGFibGUsIFVuaW9uLCBMaXN0LCBPcHRpb25hbApmcm9tIC5hcmNmYWNlX3RvcmNoLmJhY2tib25lcyBpbXBvcnQgZ2V0X21vZGVsCmZyb20ga29ybmlhLmdlb21ldHJ5IGltcG9ydCB3YXJwX2FmZmluZQoKZGVmIHJlc2l6ZV9uX2Nyb3AoaW1hZ2UsIE0sIGRzaXplPTExMik6CiAgICAjIGltYWdlOiAoYiwgYywgaCwgdykKICAgICMgTSAgIDogIChiLCAyLCAzKQogICAgcmV0dXJuIHdhcnBfYWZmaW5lKGltYWdlLCBNLCBkc2l6ZT0oZHNpemUsIGRzaXplKSwgYWxpZ25fY29ybmVycz1UcnVlKQoKZGVmIGZpbHRlcl9zdGF0ZV9kaWN0KHN0YXRlX2RpY3QsIHJlbW92ZV9uYW1lPSdmYycpOgogICAgbmV3X3N0YXRlX2RpY3QgPSB7fQogICAgZm9yIGtleSBpbiBzdGF0ZV9kaWN0OgogICAgICAgIGlmIHJlbW92ZV9uYW1lIGluIGtleToKICAgICAgICAgICAgY29udGludWUKICAgICAgICBuZXdfc3RhdGVfZGljdFtrZXldID0gc3RhdGVfZGljdFtrZXldCiAgICByZXR1cm4gbmV3X3N0YXRlX2RpY3QKCmRlZiBnZXRfc2NoZWR1bGVyKG9wdGltaXplciwgb3B0KToKICAgICIiIlJldHVybiBhIGxlYXJuaW5nIHJhdGUgc2NoZWR1bGVyCgogICAgUGFyYW1ldGVyczoKICAgICAgICBvcHRpbWl6ZXIgICAgICAgICAgLS0gdGhlIG9wdGltaXplciBvZiB0aGUgbmV0d29yawogICAgICAgIG9wdCAob3B0aW9uIGNsYXNzKSAtLSBzdG9yZXMgYWxsIHRoZSBleHBlcmltZW50IGZsYWdzOyBuZWVkcyB0byBiZSBhIHN1YmNsYXNzIG9mIEJhc2VPcHRpb25z77yO44CACiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9wdC5scl9wb2xpY3kgaXMgdGhlIG5hbWUgb2YgbGVhcm5pbmcgcmF0ZSBwb2xpY3k6IGxpbmVhciB8IHN0ZXAgfCBwbGF0ZWF1IHwgY29zaW5lCgogICAgRm9yIG90aGVyIHNjaGVkdWxlcnMgKHN0ZXAsIHBsYXRlYXUsIGFuZCBjb3NpbmUpLCB3ZSB1c2UgdGhlIGRlZmF1bHQgUHlUb3JjaCBzY2hlZHVsZXJzLgogICAgU2VlIGh0dHBzOi8vcHl0b3JjaC5vcmcvZG9jcy9zdGFibGUvb3B0aW0uaHRtbCBmb3IgbW9yZSBkZXRhaWxzLgogICAgIiIiCiAgICBpZiBvcHQubHJfcG9saWN5ID09ICdsaW5lYXInOgogICAgICAgIGRlZiBsYW1iZGFfcnVsZShlcG9jaCk6CiAgICAgICAgICAgIGxyX2wgPSAxLjAgLSBtYXgoMCwgZXBvY2ggKyBvcHQuZXBvY2hfY291bnQgLSBvcHQubl9lcG9jaHMpIC8gZmxvYXQob3B0Lm5fZXBvY2hzICsgMSkKICAgICAgICAgICAgcmV0dXJuIGxyX2wKICAgICAgICBzY2hlZHVsZXIgPSBscl9zY2hlZHVsZXIuTGFtYmRhTFIob3B0aW1pemVyLCBscl9sYW1iZGE9bGFtYmRhX3J1bGUpCiAgICBlbGlmIG9wdC5scl9wb2xpY3kgPT0gJ3N0ZXAnOgogICAgICAgIHNjaGVkdWxlciA9IGxyX3NjaGVkdWxlci5TdGVwTFIob3B0aW1pemVyLCBzdGVwX3NpemU9b3B0LmxyX2RlY2F5X2Vwb2NocywgZ2FtbWE9MC4yKQogICAgZWxpZiBvcHQubHJfcG9saWN5ID09ICdwbGF0ZWF1JzoKICAgICAgICBzY2hlZHVsZXIgPSBscl9zY2hlZHVsZXIuUmVkdWNlTFJPblBsYXRlYXUob3B0aW1pemVyLCBtb2RlPSdtaW4nLCBmYWN0b3I9MC4yLCB0aHJlc2hvbGQ9MC4wMSwgcGF0aWVuY2U9NSkKICAgIGVsaWYgb3B0LmxyX3BvbGljeSA9PSAnY29zaW5lJzoKICAgICAgICBzY2hlZHVsZXIgPSBscl9zY2hlZHVsZXIuQ29zaW5lQW5uZWFsaW5nTFIob3B0aW1pemVyLCBUX21heD1vcHQubl9lcG9jaHMsIGV0YV9taW49MCkKICAgIGVsc2U6CiAgICAgICAgcmV0dXJuIE5vdEltcGxlbWVudGVkRXJyb3IoJ2xlYXJuaW5nIHJhdGUgcG9saWN5IFslc10gaXMgbm90IGltcGxlbWVudGVkJywgb3B0LmxyX3BvbGljeSkKICAgIHJldHVybiBzY2hlZHVsZXIKCgpkZWYgZGVmaW5lX25ldF9yZWNvbihuZXRfcmVjb24sIHVzZV9sYXN0X2ZjPUZhbHNlLCBpbml0X3BhdGg9Tm9uZSk6CiAgICByZXR1cm4gUmVjb25OZXRXcmFwcGVyKG5ldF9yZWNvbiwgdXNlX2xhc3RfZmM9dXNlX2xhc3RfZmMsIGluaXRfcGF0aD1pbml0X3BhdGgpCgpkZWYgZGVmaW5lX25ldF9yZWNvZyhuZXRfcmVjb2csIHByZXRyYWluZWRfcGF0aD1Ob25lKToKICAgIG5ldCA9IFJlY29nTmV0V3JhcHBlcihuZXRfcmVjb2c9bmV0X3JlY29nLCBwcmV0cmFpbmVkX3BhdGg9cHJldHJhaW5lZF9wYXRoKQogICAgbmV0LmV2YWwoKQogICAgcmV0dXJuIG5ldAoKY2xhc3MgUmVjb25OZXRXcmFwcGVyKG5uLk1vZHVsZSk6CiAgICBmY19kaW09MjU3CiAgICBkZWYgX19pbml0X18oc2VsZiwgbmV0X3JlY29uLCB1c2VfbGFzdF9mYz1GYWxzZSwgaW5pdF9wYXRoPU5vbmUpOgogICAgICAgIHN1cGVyKFJlY29uTmV0V3JhcHBlciwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYudXNlX2xhc3RfZmMgPSB1c2VfbGFzdF9mYwogICAgICAgIGlmIG5ldF9yZWNvbiBub3QgaW4gZnVuY19kaWN0OgogICAgICAgICAgICByZXR1cm4gIE5vdEltcGxlbWVudGVkRXJyb3IoJ25ldHdvcmsgWyVzXSBpcyBub3QgaW1wbGVtZW50ZWQnLCBuZXRfcmVjb24pCiAgICAgICAgZnVuYywgbGFzdF9kaW0gPSBmdW5jX2RpY3RbbmV0X3JlY29uXQogICAgICAgIGJhY2tib25lID0gZnVuYyh1c2VfbGFzdF9mYz11c2VfbGFzdF9mYywgbnVtX2NsYXNzZXM9c2VsZi5mY19kaW0pCiAgICAgICAgaWYgaW5pdF9wYXRoIGFuZCBvcy5wYXRoLmlzZmlsZShpbml0X3BhdGgpOgogICAgICAgICAgICBzdGF0ZV9kaWN0ID0gZmlsdGVyX3N0YXRlX2RpY3QodG9yY2gubG9hZChpbml0X3BhdGgsIG1hcF9sb2NhdGlvbj0nY3B1JykpCiAgICAgICAgICAgIGJhY2tib25lLmxvYWRfc3RhdGVfZGljdChzdGF0ZV9kaWN0KQogICAgICAgICAgICBwcmludCgibG9hZGluZyBpbml0IG5ldF9yZWNvbiAlcyBmcm9tICVzIiAlKG5ldF9yZWNvbiwgaW5pdF9wYXRoKSkKICAgICAgICBzZWxmLmJhY2tib25lID0gYmFja2JvbmUKICAgICAgICBpZiBub3QgdXNlX2xhc3RfZmM6CiAgICAgICAgICAgIHNlbGYuZmluYWxfbGF5ZXJzID0gbm4uTW9kdWxlTGlzdChbCiAgICAgICAgICAgICAgICBjb252MXgxKGxhc3RfZGltLCA4MCwgYmlhcz1UcnVlKSwgIyBpZCBsYXllcgogICAgICAgICAgICAgICAgY29udjF4MShsYXN0X2RpbSwgNjQsIGJpYXM9VHJ1ZSksICMgZXhwIGxheWVyCiAgICAgICAgICAgICAgICBjb252MXgxKGxhc3RfZGltLCA4MCwgYmlhcz1UcnVlKSwgIyB0ZXggbGF5ZXIKICAgICAgICAgICAgICAgIGNvbnYxeDEobGFzdF9kaW0sIDMsIGJpYXM9VHJ1ZSksICAjIGFuZ2xlIGxheWVyCiAgICAgICAgICAgICAgICBjb252MXgxKGxhc3RfZGltLCAyNywgYmlhcz1UcnVlKSwgIyBnYW1tYSBsYXllcgogICAgICAgICAgICAgICAgY29udjF4MShsYXN0X2RpbSwgMiwgYmlhcz1UcnVlKSwgICMgdHgsIHR5CiAgICAgICAgICAgICAgICBjb252MXgxKGxhc3RfZGltLCAxLCBiaWFzPVRydWUpICAgIyB0egogICAgICAgICAgICBdKQogICAgICAgICAgICBmb3IgbSBpbiBzZWxmLmZpbmFsX2xheWVyczoKICAgICAgICAgICAgICAgIG5uLmluaXQuY29uc3RhbnRfKG0ud2VpZ2h0LCAwLikKICAgICAgICAgICAgICAgIG5uLmluaXQuY29uc3RhbnRfKG0uYmlhcywgMC4pCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeCk6CiAgICAgICAgeCA9IHNlbGYuYmFja2JvbmUoeCkKICAgICAgICBpZiBub3Qgc2VsZi51c2VfbGFzdF9mYzoKICAgICAgICAgICAgb3V0cHV0ID0gW10KICAgICAgICAgICAgZm9yIGxheWVyIGluIHNlbGYuZmluYWxfbGF5ZXJzOgogICAgICAgICAgICAgICAgb3V0cHV0LmFwcGVuZChsYXllcih4KSkKICAgICAgICAgICAgeCA9IHRvcmNoLmZsYXR0ZW4odG9yY2guY2F0KG91dHB1dCwgZGltPTEpLCAxKQogICAgICAgIHJldHVybiB4CgoKY2xhc3MgUmVjb2dOZXRXcmFwcGVyKG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgbmV0X3JlY29nLCBwcmV0cmFpbmVkX3BhdGg9Tm9uZSwgaW5wdXRfc2l6ZT0xMTIpOgogICAgICAgIHN1cGVyKFJlY29nTmV0V3JhcHBlciwgc2VsZikuX19pbml0X18oKQogICAgICAgIG5ldCA9IGdldF9tb2RlbChuYW1lPW5ldF9yZWNvZywgZnAxNj1GYWxzZSkKICAgICAgICBpZiBwcmV0cmFpbmVkX3BhdGg6CiAgICAgICAgICAgIHN0YXRlX2RpY3QgPSB0b3JjaC5sb2FkKHByZXRyYWluZWRfcGF0aCwgbWFwX2xvY2F0aW9uPSdjcHUnKQogICAgICAgICAgICBuZXQubG9hZF9zdGF0ZV9kaWN0KHN0YXRlX2RpY3QpCiAgICAgICAgICAgIHByaW50KCJsb2FkaW5nIHByZXRyYWluZWQgbmV0X3JlY29nICVzIGZyb20gJXMiICUobmV0X3JlY29nLCBwcmV0cmFpbmVkX3BhdGgpKQogICAgICAgIGZvciBwYXJhbSBpbiBuZXQucGFyYW1ldGVycygpOgogICAgICAgICAgICBwYXJhbS5yZXF1aXJlc19ncmFkID0gRmFsc2UKICAgICAgICBzZWxmLm5ldCA9IG5ldAogICAgICAgIHNlbGYucHJlcHJvY2VzcyA9IGxhbWJkYSB4OiAyICogeCAtIDEKICAgICAgICBzZWxmLmlucHV0X3NpemU9aW5wdXRfc2l6ZQogICAgICAgIAogICAgZGVmIGZvcndhcmQoc2VsZiwgaW1hZ2UsIE0pOgogICAgICAgIGltYWdlID0gc2VsZi5wcmVwcm9jZXNzKHJlc2l6ZV9uX2Nyb3AoaW1hZ2UsIE0sIHNlbGYuaW5wdXRfc2l6ZSkpCiAgICAgICAgaWRfZmVhdHVyZSA9IEYubm9ybWFsaXplKHNlbGYubmV0KGltYWdlKSwgZGltPS0xLCBwPTIpCiAgICAgICAgcmV0dXJuIGlkX2ZlYXR1cmUKCgojIGFkYXB0ZWQgZnJvbSBodHRwczovL2dpdGh1Yi5jb20vcHl0b3JjaC92aXNpb24vZWRpdC9tYXN0ZXIvdG9yY2h2aXNpb24vbW9kZWxzL3Jlc25ldC5weQpfX2FsbF9fID0gWydSZXNOZXQnLCAncmVzbmV0MTgnLCAncmVzbmV0MzQnLCAncmVzbmV0NTAnLCAncmVzbmV0MTAxJywKICAgICAgICAgICAncmVzbmV0MTUyJywgJ3Jlc25leHQ1MF8zMng0ZCcsICdyZXNuZXh0MTAxXzMyeDhkJywKICAgICAgICAgICAnd2lkZV9yZXNuZXQ1MF8yJywgJ3dpZGVfcmVzbmV0MTAxXzInXQoKCm1vZGVsX3VybHMgPSB7CiAgICAncmVzbmV0MTgnOiAnaHR0cHM6Ly9kb3dubG9hZC5weXRvcmNoLm9yZy9tb2RlbHMvcmVzbmV0MTgtZjM3MDcyZmQucHRoJywKICAgICdyZXNuZXQzNCc6ICdodHRwczovL2Rvd25sb2FkLnB5dG9yY2gub3JnL21vZGVscy9yZXNuZXQzNC1iNjI3YTU5My5wdGgnLAogICAgJ3Jlc25ldDUwJzogJ2h0dHBzOi8vZG93bmxvYWQucHl0b3JjaC5vcmcvbW9kZWxzL3Jlc25ldDUwLTA2NzZiYTYxLnB0aCcsCiAgICAncmVzbmV0MTAxJzogJ2h0dHBzOi8vZG93bmxvYWQucHl0b3JjaC5vcmcvbW9kZWxzL3Jlc25ldDEwMS02M2ZlMjIyNy5wdGgnLAogICAgJ3Jlc25ldDE1Mic6ICdodHRwczovL2Rvd25sb2FkLnB5dG9yY2gub3JnL21vZGVscy9yZXNuZXQxNTItMzk0ZjljNDUucHRoJywKICAgICdyZXNuZXh0NTBfMzJ4NGQnOiAnaHR0cHM6Ly9kb3dubG9hZC5weXRvcmNoLm9yZy9tb2RlbHMvcmVzbmV4dDUwXzMyeDRkLTdjZGY0NTg3LnB0aCcsCiAgICAncmVzbmV4dDEwMV8zMng4ZCc6ICdodHRwczovL2Rvd25sb2FkLnB5dG9yY2gub3JnL21vZGVscy9yZXNuZXh0MTAxXzMyeDhkLThiYTU2ZmY1LnB0aCcsCiAgICAnd2lkZV9yZXNuZXQ1MF8yJzogJ2h0dHBzOi8vZG93bmxvYWQucHl0b3JjaC5vcmcvbW9kZWxzL3dpZGVfcmVzbmV0NTBfMi05NWZhY2E0ZC5wdGgnLAogICAgJ3dpZGVfcmVzbmV0MTAxXzInOiAnaHR0cHM6Ly9kb3dubG9hZC5weXRvcmNoLm9yZy9tb2RlbHMvd2lkZV9yZXNuZXQxMDFfMi0zMmVlMTE1Ni5wdGgnLAp9CgoKZGVmIGNvbnYzeDMoaW5fcGxhbmVzOiBpbnQsIG91dF9wbGFuZXM6IGludCwgc3RyaWRlOiBpbnQgPSAxLCBncm91cHM6IGludCA9IDEsIGRpbGF0aW9uOiBpbnQgPSAxKSAtPiBubi5Db252MmQ6CiAgICAiIiIzeDMgY29udm9sdXRpb24gd2l0aCBwYWRkaW5nIiIiCiAgICByZXR1cm4gbm4uQ29udjJkKGluX3BsYW5lcywgb3V0X3BsYW5lcywga2VybmVsX3NpemU9Mywgc3RyaWRlPXN0cmlkZSwKICAgICAgICAgICAgICAgICAgICAgcGFkZGluZz1kaWxhdGlvbiwgZ3JvdXBzPWdyb3VwcywgYmlhcz1GYWxzZSwgZGlsYXRpb249ZGlsYXRpb24pCgoKZGVmIGNvbnYxeDEoaW5fcGxhbmVzOiBpbnQsIG91dF9wbGFuZXM6IGludCwgc3RyaWRlOiBpbnQgPSAxLCBiaWFzOiBib29sID0gRmFsc2UpIC0+IG5uLkNvbnYyZDoKICAgICIiIjF4MSBjb252b2x1dGlvbiIiIgogICAgcmV0dXJuIG5uLkNvbnYyZChpbl9wbGFuZXMsIG91dF9wbGFuZXMsIGtlcm5lbF9zaXplPTEsIHN0cmlkZT1zdHJpZGUsIGJpYXM9YmlhcykKCgpjbGFzcyBCYXNpY0Jsb2NrKG5uLk1vZHVsZSk6CiAgICBleHBhbnNpb246IGludCA9IDEKCiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBpbnBsYW5lczogaW50LAogICAgICAgIHBsYW5lczogaW50LAogICAgICAgIHN0cmlkZTogaW50ID0gMSwKICAgICAgICBkb3duc2FtcGxlOiBPcHRpb25hbFtubi5Nb2R1bGVdID0gTm9uZSwKICAgICAgICBncm91cHM6IGludCA9IDEsCiAgICAgICAgYmFzZV93aWR0aDogaW50ID0gNjQsCiAgICAgICAgZGlsYXRpb246IGludCA9IDEsCiAgICAgICAgbm9ybV9sYXllcjogT3B0aW9uYWxbQ2FsbGFibGVbLi4uLCBubi5Nb2R1bGVdXSA9IE5vbmUKICAgICkgLT4gTm9uZToKICAgICAgICBzdXBlcihCYXNpY0Jsb2NrLCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgaWYgbm9ybV9sYXllciBpcyBOb25lOgogICAgICAgICAgICBub3JtX2xheWVyID0gbm4uQmF0Y2hOb3JtMmQKICAgICAgICBpZiBncm91cHMgIT0gMSBvciBiYXNlX3dpZHRoICE9IDY0OgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCdCYXNpY0Jsb2NrIG9ubHkgc3VwcG9ydHMgZ3JvdXBzPTEgYW5kIGJhc2Vfd2lkdGg9NjQnKQogICAgICAgIGlmIGRpbGF0aW9uID4gMToKICAgICAgICAgICAgcmFpc2UgTm90SW1wbGVtZW50ZWRFcnJvcigiRGlsYXRpb24gPiAxIG5vdCBzdXBwb3J0ZWQgaW4gQmFzaWNCbG9jayIpCiAgICAgICAgIyBCb3RoIHNlbGYuY29udjEgYW5kIHNlbGYuZG93bnNhbXBsZSBsYXllcnMgZG93bnNhbXBsZSB0aGUgaW5wdXQgd2hlbiBzdHJpZGUgIT0gMQogICAgICAgIHNlbGYuY29udjEgPSBjb252M3gzKGlucGxhbmVzLCBwbGFuZXMsIHN0cmlkZSkKICAgICAgICBzZWxmLmJuMSA9IG5vcm1fbGF5ZXIocGxhbmVzKQogICAgICAgIHNlbGYucmVsdSA9IG5uLlJlTFUoaW5wbGFjZT1UcnVlKQogICAgICAgIHNlbGYuY29udjIgPSBjb252M3gzKHBsYW5lcywgcGxhbmVzKQogICAgICAgIHNlbGYuYm4yID0gbm9ybV9sYXllcihwbGFuZXMpCiAgICAgICAgc2VsZi5kb3duc2FtcGxlID0gZG93bnNhbXBsZQogICAgICAgIHNlbGYuc3RyaWRlID0gc3RyaWRlCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeDogVGVuc29yKSAtPiBUZW5zb3I6CiAgICAgICAgaWRlbnRpdHkgPSB4CgogICAgICAgIG91dCA9IHNlbGYuY29udjEoeCkKICAgICAgICBvdXQgPSBzZWxmLmJuMShvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5yZWx1KG91dCkKCiAgICAgICAgb3V0ID0gc2VsZi5jb252MihvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5ibjIob3V0KQoKICAgICAgICBpZiBzZWxmLmRvd25zYW1wbGUgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIGlkZW50aXR5ID0gc2VsZi5kb3duc2FtcGxlKHgpCgogICAgICAgIG91dCArPSBpZGVudGl0eQogICAgICAgIG91dCA9IHNlbGYucmVsdShvdXQpCgogICAgICAgIHJldHVybiBvdXQKCgpjbGFzcyBCb3R0bGVuZWNrKG5uLk1vZHVsZSk6CiAgICAjIEJvdHRsZW5lY2sgaW4gdG9yY2h2aXNpb24gcGxhY2VzIHRoZSBzdHJpZGUgZm9yIGRvd25zYW1wbGluZyBhdCAzeDMgY29udm9sdXRpb24oc2VsZi5jb252MikKICAgICMgd2hpbGUgb3JpZ2luYWwgaW1wbGVtZW50YXRpb24gcGxhY2VzIHRoZSBzdHJpZGUgYXQgdGhlIGZpcnN0IDF4MSBjb252b2x1dGlvbihzZWxmLmNvbnYxKQogICAgIyBhY2NvcmRpbmcgdG8gIkRlZXAgcmVzaWR1YWwgbGVhcm5pbmcgZm9yIGltYWdlIHJlY29nbml0aW9uImh0dHBzOi8vYXJ4aXYub3JnL2Ficy8xNTEyLjAzMzg1LgogICAgIyBUaGlzIHZhcmlhbnQgaXMgYWxzbyBrbm93biBhcyBSZXNOZXQgVjEuNSBhbmQgaW1wcm92ZXMgYWNjdXJhY3kgYWNjb3JkaW5nIHRvCiAgICAjIGh0dHBzOi8vbmdjLm52aWRpYS5jb20vY2F0YWxvZy9tb2RlbC1zY3JpcHRzL252aWRpYTpyZXNuZXRfNTBfdjFfNV9mb3JfcHl0b3JjaC4KCiAgICBleHBhbnNpb246IGludCA9IDQKCiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBpbnBsYW5lczogaW50LAogICAgICAgIHBsYW5lczogaW50LAogICAgICAgIHN0cmlkZTogaW50ID0gMSwKICAgICAgICBkb3duc2FtcGxlOiBPcHRpb25hbFtubi5Nb2R1bGVdID0gTm9uZSwKICAgICAgICBncm91cHM6IGludCA9IDEsCiAgICAgICAgYmFzZV93aWR0aDogaW50ID0gNjQsCiAgICAgICAgZGlsYXRpb246IGludCA9IDEsCiAgICAgICAgbm9ybV9sYXllcjogT3B0aW9uYWxbQ2FsbGFibGVbLi4uLCBubi5Nb2R1bGVdXSA9IE5vbmUKICAgICkgLT4gTm9uZToKICAgICAgICBzdXBlcihCb3R0bGVuZWNrLCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgaWYgbm9ybV9sYXllciBpcyBOb25lOgogICAgICAgICAgICBub3JtX2xheWVyID0gbm4uQmF0Y2hOb3JtMmQKICAgICAgICB3aWR0aCA9IGludChwbGFuZXMgKiAoYmFzZV93aWR0aCAvIDY0LikpICogZ3JvdXBzCiAgICAgICAgIyBCb3RoIHNlbGYuY29udjIgYW5kIHNlbGYuZG93bnNhbXBsZSBsYXllcnMgZG93bnNhbXBsZSB0aGUgaW5wdXQgd2hlbiBzdHJpZGUgIT0gMQogICAgICAgIHNlbGYuY29udjEgPSBjb252MXgxKGlucGxhbmVzLCB3aWR0aCkKICAgICAgICBzZWxmLmJuMSA9IG5vcm1fbGF5ZXIod2lkdGgpCiAgICAgICAgc2VsZi5jb252MiA9IGNvbnYzeDMod2lkdGgsIHdpZHRoLCBzdHJpZGUsIGdyb3VwcywgZGlsYXRpb24pCiAgICAgICAgc2VsZi5ibjIgPSBub3JtX2xheWVyKHdpZHRoKQogICAgICAgIHNlbGYuY29udjMgPSBjb252MXgxKHdpZHRoLCBwbGFuZXMgKiBzZWxmLmV4cGFuc2lvbikKICAgICAgICBzZWxmLmJuMyA9IG5vcm1fbGF5ZXIocGxhbmVzICogc2VsZi5leHBhbnNpb24pCiAgICAgICAgc2VsZi5yZWx1ID0gbm4uUmVMVShpbnBsYWNlPVRydWUpCiAgICAgICAgc2VsZi5kb3duc2FtcGxlID0gZG93bnNhbXBsZQogICAgICAgIHNlbGYuc3RyaWRlID0gc3RyaWRlCgogICAgZGVmIGZvcndhcmQoc2VsZiwgeDogVGVuc29yKSAtPiBUZW5zb3I6CiAgICAgICAgaWRlbnRpdHkgPSB4CgogICAgICAgIG91dCA9IHNlbGYuY29udjEoeCkKICAgICAgICBvdXQgPSBzZWxmLmJuMShvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5yZWx1KG91dCkKCiAgICAgICAgb3V0ID0gc2VsZi5jb252MihvdXQpCiAgICAgICAgb3V0ID0gc2VsZi5ibjIob3V0KQogICAgICAgIG91dCA9IHNlbGYucmVsdShvdXQpCgogICAgICAgIG91dCA9IHNlbGYuY29udjMob3V0KQogICAgICAgIG91dCA9IHNlbGYuYm4zKG91dCkKCiAgICAgICAgaWYgc2VsZi5kb3duc2FtcGxlIGlzIG5vdCBOb25lOgogICAgICAgICAgICBpZGVudGl0eSA9IHNlbGYuZG93bnNhbXBsZSh4KQoKICAgICAgICBvdXQgKz0gaWRlbnRpdHkKICAgICAgICBvdXQgPSBzZWxmLnJlbHUob3V0KQoKICAgICAgICByZXR1cm4gb3V0CgoKY2xhc3MgUmVzTmV0KG5uLk1vZHVsZSk6CgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgYmxvY2s6IFR5cGVbVW5pb25bQmFzaWNCbG9jaywgQm90dGxlbmVja11dLAogICAgICAgIGxheWVyczogTGlzdFtpbnRdLAogICAgICAgIG51bV9jbGFzc2VzOiBpbnQgPSAxMDAwLAogICAgICAgIHplcm9faW5pdF9yZXNpZHVhbDogYm9vbCA9IEZhbHNlLAogICAgICAgIHVzZV9sYXN0X2ZjOiBib29sID0gRmFsc2UsCiAgICAgICAgZ3JvdXBzOiBpbnQgPSAxLAogICAgICAgIHdpZHRoX3Blcl9ncm91cDogaW50ID0gNjQsCiAgICAgICAgcmVwbGFjZV9zdHJpZGVfd2l0aF9kaWxhdGlvbjogT3B0aW9uYWxbTGlzdFtib29sXV0gPSBOb25lLAogICAgICAgIG5vcm1fbGF5ZXI6IE9wdGlvbmFsW0NhbGxhYmxlWy4uLiwgbm4uTW9kdWxlXV0gPSBOb25lCiAgICApIC0+IE5vbmU6CiAgICAgICAgc3VwZXIoUmVzTmV0LCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgaWYgbm9ybV9sYXllciBpcyBOb25lOgogICAgICAgICAgICBub3JtX2xheWVyID0gbm4uQmF0Y2hOb3JtMmQKICAgICAgICBzZWxmLl9ub3JtX2xheWVyID0gbm9ybV9sYXllcgoKICAgICAgICBzZWxmLmlucGxhbmVzID0gNjQKICAgICAgICBzZWxmLmRpbGF0aW9uID0gMQogICAgICAgIGlmIHJlcGxhY2Vfc3RyaWRlX3dpdGhfZGlsYXRpb24gaXMgTm9uZToKICAgICAgICAgICAgIyBlYWNoIGVsZW1lbnQgaW4gdGhlIHR1cGxlIGluZGljYXRlcyBpZiB3ZSBzaG91bGQgcmVwbGFjZQogICAgICAgICAgICAjIHRoZSAyeDIgc3RyaWRlIHdpdGggYSBkaWxhdGVkIGNvbnZvbHV0aW9uIGluc3RlYWQKICAgICAgICAgICAgcmVwbGFjZV9zdHJpZGVfd2l0aF9kaWxhdGlvbiA9IFtGYWxzZSwgRmFsc2UsIEZhbHNlXQogICAgICAgIGlmIGxlbihyZXBsYWNlX3N0cmlkZV93aXRoX2RpbGF0aW9uKSAhPSAzOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJyZXBsYWNlX3N0cmlkZV93aXRoX2RpbGF0aW9uIHNob3VsZCBiZSBOb25lICIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAib3IgYSAzLWVsZW1lbnQgdHVwbGUsIGdvdCB7fSIuZm9ybWF0KHJlcGxhY2Vfc3RyaWRlX3dpdGhfZGlsYXRpb24pKQogICAgICAgIHNlbGYudXNlX2xhc3RfZmMgPSB1c2VfbGFzdF9mYwogICAgICAgIHNlbGYuZ3JvdXBzID0gZ3JvdXBzCiAgICAgICAgc2VsZi5iYXNlX3dpZHRoID0gd2lkdGhfcGVyX2dyb3VwCiAgICAgICAgc2VsZi5jb252MSA9IG5uLkNvbnYyZCgzLCBzZWxmLmlucGxhbmVzLCBrZXJuZWxfc2l6ZT03LCBzdHJpZGU9MiwgcGFkZGluZz0zLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmlhcz1GYWxzZSkKICAgICAgICBzZWxmLmJuMSA9IG5vcm1fbGF5ZXIoc2VsZi5pbnBsYW5lcykKICAgICAgICBzZWxmLnJlbHUgPSBubi5SZUxVKGlucGxhY2U9VHJ1ZSkKICAgICAgICBzZWxmLm1heHBvb2wgPSBubi5NYXhQb29sMmQoa2VybmVsX3NpemU9Mywgc3RyaWRlPTIsIHBhZGRpbmc9MSkKICAgICAgICBzZWxmLmxheWVyMSA9IHNlbGYuX21ha2VfbGF5ZXIoYmxvY2ssIDY0LCBsYXllcnNbMF0pCiAgICAgICAgc2VsZi5sYXllcjIgPSBzZWxmLl9tYWtlX2xheWVyKGJsb2NrLCAxMjgsIGxheWVyc1sxXSwgc3RyaWRlPTIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpbGF0ZT1yZXBsYWNlX3N0cmlkZV93aXRoX2RpbGF0aW9uWzBdKQogICAgICAgIHNlbGYubGF5ZXIzID0gc2VsZi5fbWFrZV9sYXllcihibG9jaywgMjU2LCBsYXllcnNbMl0sIHN0cmlkZT0yLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaWxhdGU9cmVwbGFjZV9zdHJpZGVfd2l0aF9kaWxhdGlvblsxXSkKICAgICAgICBzZWxmLmxheWVyNCA9IHNlbGYuX21ha2VfbGF5ZXIoYmxvY2ssIDUxMiwgbGF5ZXJzWzNdLCBzdHJpZGU9MiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlsYXRlPXJlcGxhY2Vfc3RyaWRlX3dpdGhfZGlsYXRpb25bMl0pCiAgICAgICAgc2VsZi5hdmdwb29sID0gbm4uQWRhcHRpdmVBdmdQb29sMmQoKDEsIDEpKQogICAgICAgIAogICAgICAgIGlmIHNlbGYudXNlX2xhc3RfZmM6CiAgICAgICAgICAgIHNlbGYuZmMgPSBubi5MaW5lYXIoNTEyICogYmxvY2suZXhwYW5zaW9uLCBudW1fY2xhc3NlcykKCiAgICAgICAgZm9yIG0gaW4gc2VsZi5tb2R1bGVzKCk6CiAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UobSwgbm4uQ29udjJkKToKICAgICAgICAgICAgICAgIG5uLmluaXQua2FpbWluZ19ub3JtYWxfKG0ud2VpZ2h0LCBtb2RlPSdmYW5fb3V0Jywgbm9ubGluZWFyaXR5PSdyZWx1JykKICAgICAgICAgICAgZWxpZiBpc2luc3RhbmNlKG0sIChubi5CYXRjaE5vcm0yZCwgbm4uR3JvdXBOb3JtKSk6CiAgICAgICAgICAgICAgICBubi5pbml0LmNvbnN0YW50XyhtLndlaWdodCwgMSkKICAgICAgICAgICAgICAgIG5uLmluaXQuY29uc3RhbnRfKG0uYmlhcywgMCkKCgoKICAgICAgICAjIFplcm8taW5pdGlhbGl6ZSB0aGUgbGFzdCBCTiBpbiBlYWNoIHJlc2lkdWFsIGJyYW5jaCwKICAgICAgICAjIHNvIHRoYXQgdGhlIHJlc2lkdWFsIGJyYW5jaCBzdGFydHMgd2l0aCB6ZXJvcywgYW5kIGVhY2ggcmVzaWR1YWwgYmxvY2sgYmVoYXZlcyBsaWtlIGFuIGlkZW50aXR5LgogICAgICAgICMgVGhpcyBpbXByb3ZlcyB0aGUgbW9kZWwgYnkgMC4yfjAuMyUgYWNjb3JkaW5nIHRvIGh0dHBzOi8vYXJ4aXYub3JnL2Ficy8xNzA2LjAyNjc3CiAgICAgICAgaWYgemVyb19pbml0X3Jlc2lkdWFsOgogICAgICAgICAgICBmb3IgbSBpbiBzZWxmLm1vZHVsZXMoKToKICAgICAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UobSwgQm90dGxlbmVjayk6CiAgICAgICAgICAgICAgICAgICAgbm4uaW5pdC5jb25zdGFudF8obS5ibjMud2VpZ2h0LCAwKSAgIyB0eXBlOiBpZ25vcmVbYXJnLXR5cGVdCiAgICAgICAgICAgICAgICBlbGlmIGlzaW5zdGFuY2UobSwgQmFzaWNCbG9jayk6CiAgICAgICAgICAgICAgICAgICAgbm4uaW5pdC5jb25zdGFudF8obS5ibjIud2VpZ2h0LCAwKSAgIyB0eXBlOiBpZ25vcmVbYXJnLXR5cGVdCgogICAgZGVmIF9tYWtlX2xheWVyKHNlbGYsIGJsb2NrOiBUeXBlW1VuaW9uW0Jhc2ljQmxvY2ssIEJvdHRsZW5lY2tdXSwgcGxhbmVzOiBpbnQsIGJsb2NrczogaW50LAogICAgICAgICAgICAgICAgICAgIHN0cmlkZTogaW50ID0gMSwgZGlsYXRlOiBib29sID0gRmFsc2UpIC0+IG5uLlNlcXVlbnRpYWw6CiAgICAgICAgbm9ybV9sYXllciA9IHNlbGYuX25vcm1fbGF5ZXIKICAgICAgICBkb3duc2FtcGxlID0gTm9uZQogICAgICAgIHByZXZpb3VzX2RpbGF0aW9uID0gc2VsZi5kaWxhdGlvbgogICAgICAgIGlmIGRpbGF0ZToKICAgICAgICAgICAgc2VsZi5kaWxhdGlvbiAqPSBzdHJpZGUKICAgICAgICAgICAgc3RyaWRlID0gMQogICAgICAgIGlmIHN0cmlkZSAhPSAxIG9yIHNlbGYuaW5wbGFuZXMgIT0gcGxhbmVzICogYmxvY2suZXhwYW5zaW9uOgogICAgICAgICAgICBkb3duc2FtcGxlID0gbm4uU2VxdWVudGlhbCgKICAgICAgICAgICAgICAgIGNvbnYxeDEoc2VsZi5pbnBsYW5lcywgcGxhbmVzICogYmxvY2suZXhwYW5zaW9uLCBzdHJpZGUpLAogICAgICAgICAgICAgICAgbm9ybV9sYXllcihwbGFuZXMgKiBibG9jay5leHBhbnNpb24pLAogICAgICAgICAgICApCgogICAgICAgIGxheWVycyA9IFtdCiAgICAgICAgbGF5ZXJzLmFwcGVuZChibG9jayhzZWxmLmlucGxhbmVzLCBwbGFuZXMsIHN0cmlkZSwgZG93bnNhbXBsZSwgc2VsZi5ncm91cHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLmJhc2Vfd2lkdGgsIHByZXZpb3VzX2RpbGF0aW9uLCBub3JtX2xheWVyKSkKICAgICAgICBzZWxmLmlucGxhbmVzID0gcGxhbmVzICogYmxvY2suZXhwYW5zaW9uCiAgICAgICAgZm9yIF8gaW4gcmFuZ2UoMSwgYmxvY2tzKToKICAgICAgICAgICAgbGF5ZXJzLmFwcGVuZChibG9jayhzZWxmLmlucGxhbmVzLCBwbGFuZXMsIGdyb3Vwcz1zZWxmLmdyb3VwcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYXNlX3dpZHRoPXNlbGYuYmFzZV93aWR0aCwgZGlsYXRpb249c2VsZi5kaWxhdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBub3JtX2xheWVyPW5vcm1fbGF5ZXIpKQoKICAgICAgICByZXR1cm4gbm4uU2VxdWVudGlhbCgqbGF5ZXJzKQoKICAgIGRlZiBfZm9yd2FyZF9pbXBsKHNlbGYsIHg6IFRlbnNvcikgLT4gVGVuc29yOgogICAgICAgICMgU2VlIG5vdGUgW1RvcmNoU2NyaXB0IHN1cGVyKCldCiAgICAgICAgeCA9IHNlbGYuY29udjEoeCkKICAgICAgICB4ID0gc2VsZi5ibjEoeCkKICAgICAgICB4ID0gc2VsZi5yZWx1KHgpCiAgICAgICAgeCA9IHNlbGYubWF4cG9vbCh4KQoKICAgICAgICB4ID0gc2VsZi5sYXllcjEoeCkKICAgICAgICB4ID0gc2VsZi5sYXllcjIoeCkKICAgICAgICB4ID0gc2VsZi5sYXllcjMoeCkKICAgICAgICB4ID0gc2VsZi5sYXllcjQoeCkKCiAgICAgICAgeCA9IHNlbGYuYXZncG9vbCh4KQogICAgICAgIGlmIHNlbGYudXNlX2xhc3RfZmM6CiAgICAgICAgICAgIHggPSB0b3JjaC5mbGF0dGVuKHgsIDEpCiAgICAgICAgICAgIHggPSBzZWxmLmZjKHgpCiAgICAgICAgcmV0dXJuIHgKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4OiBUZW5zb3IpIC0+IFRlbnNvcjoKICAgICAgICByZXR1cm4gc2VsZi5fZm9yd2FyZF9pbXBsKHgpCgoKZGVmIF9yZXNuZXQoCiAgICBhcmNoOiBzdHIsCiAgICBibG9jazogVHlwZVtVbmlvbltCYXNpY0Jsb2NrLCBCb3R0bGVuZWNrXV0sCiAgICBsYXllcnM6IExpc3RbaW50XSwKICAgIHByZXRyYWluZWQ6IGJvb2wsCiAgICBwcm9ncmVzczogYm9vbCwKICAgICoqa3dhcmdzOiBBbnkKKSAtPiBSZXNOZXQ6CiAgICBtb2RlbCA9IFJlc05ldChibG9jaywgbGF5ZXJzLCAqKmt3YXJncykKICAgIGlmIHByZXRyYWluZWQ6CiAgICAgICAgc3RhdGVfZGljdCA9IGxvYWRfc3RhdGVfZGljdF9mcm9tX3VybChtb2RlbF91cmxzW2FyY2hdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJvZ3Jlc3M9cHJvZ3Jlc3MpCiAgICAgICAgbW9kZWwubG9hZF9zdGF0ZV9kaWN0KHN0YXRlX2RpY3QpCiAgICByZXR1cm4gbW9kZWwKCgpkZWYgcmVzbmV0MTgocHJldHJhaW5lZDogYm9vbCA9IEZhbHNlLCBwcm9ncmVzczogYm9vbCA9IFRydWUsICoqa3dhcmdzOiBBbnkpIC0+IFJlc05ldDoKICAgIHIiIiJSZXNOZXQtMTggbW9kZWwgZnJvbQogICAgYCJEZWVwIFJlc2lkdWFsIExlYXJuaW5nIGZvciBJbWFnZSBSZWNvZ25pdGlvbiIgPGh0dHBzOi8vYXJ4aXYub3JnL3BkZi8xNTEyLjAzMzg1LnBkZj5gXy4KCiAgICBBcmdzOgogICAgICAgIHByZXRyYWluZWQgKGJvb2wpOiBJZiBUcnVlLCByZXR1cm5zIGEgbW9kZWwgcHJlLXRyYWluZWQgb24gSW1hZ2VOZXQKICAgICAgICBwcm9ncmVzcyAoYm9vbCk6IElmIFRydWUsIGRpc3BsYXlzIGEgcHJvZ3Jlc3MgYmFyIG9mIHRoZSBkb3dubG9hZCB0byBzdGRlcnIKICAgICIiIgogICAgcmV0dXJuIF9yZXNuZXQoJ3Jlc25ldDE4JywgQmFzaWNCbG9jaywgWzIsIDIsIDIsIDJdLCBwcmV0cmFpbmVkLCBwcm9ncmVzcywKICAgICAgICAgICAgICAgICAgICoqa3dhcmdzKQoKCmRlZiByZXNuZXQzNChwcmV0cmFpbmVkOiBib29sID0gRmFsc2UsIHByb2dyZXNzOiBib29sID0gVHJ1ZSwgKiprd2FyZ3M6IEFueSkgLT4gUmVzTmV0OgogICAgciIiIlJlc05ldC0zNCBtb2RlbCBmcm9tCiAgICBgIkRlZXAgUmVzaWR1YWwgTGVhcm5pbmcgZm9yIEltYWdlIFJlY29nbml0aW9uIiA8aHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzE1MTIuMDMzODUucGRmPmBfLgoKICAgIEFyZ3M6CiAgICAgICAgcHJldHJhaW5lZCAoYm9vbCk6IElmIFRydWUsIHJldHVybnMgYSBtb2RlbCBwcmUtdHJhaW5lZCBvbiBJbWFnZU5ldAogICAgICAgIHByb2dyZXNzIChib29sKTogSWYgVHJ1ZSwgZGlzcGxheXMgYSBwcm9ncmVzcyBiYXIgb2YgdGhlIGRvd25sb2FkIHRvIHN0ZGVycgogICAgIiIiCiAgICByZXR1cm4gX3Jlc25ldCgncmVzbmV0MzQnLCBCYXNpY0Jsb2NrLCBbMywgNCwgNiwgM10sIHByZXRyYWluZWQsIHByb2dyZXNzLAogICAgICAgICAgICAgICAgICAgKiprd2FyZ3MpCgoKZGVmIHJlc25ldDUwKHByZXRyYWluZWQ6IGJvb2wgPSBGYWxzZSwgcHJvZ3Jlc3M6IGJvb2wgPSBUcnVlLCAqKmt3YXJnczogQW55KSAtPiBSZXNOZXQ6CiAgICByIiIiUmVzTmV0LTUwIG1vZGVsIGZyb20KICAgIGAiRGVlcCBSZXNpZHVhbCBMZWFybmluZyBmb3IgSW1hZ2UgUmVjb2duaXRpb24iIDxodHRwczovL2FyeGl2Lm9yZy9wZGYvMTUxMi4wMzM4NS5wZGY+YF8uCgogICAgQXJnczoKICAgICAgICBwcmV0cmFpbmVkIChib29sKTogSWYgVHJ1ZSwgcmV0dXJucyBhIG1vZGVsIHByZS10cmFpbmVkIG9uIEltYWdlTmV0CiAgICAgICAgcHJvZ3Jlc3MgKGJvb2wpOiBJZiBUcnVlLCBkaXNwbGF5cyBhIHByb2dyZXNzIGJhciBvZiB0aGUgZG93bmxvYWQgdG8gc3RkZXJyCiAgICAiIiIKICAgIHJldHVybiBfcmVzbmV0KCdyZXNuZXQ1MCcsIEJvdHRsZW5lY2ssIFszLCA0LCA2LCAzXSwgcHJldHJhaW5lZCwgcHJvZ3Jlc3MsCiAgICAgICAgICAgICAgICAgICAqKmt3YXJncykKCgpkZWYgcmVzbmV0MTAxKHByZXRyYWluZWQ6IGJvb2wgPSBGYWxzZSwgcHJvZ3Jlc3M6IGJvb2wgPSBUcnVlLCAqKmt3YXJnczogQW55KSAtPiBSZXNOZXQ6CiAgICByIiIiUmVzTmV0LTEwMSBtb2RlbCBmcm9tCiAgICBgIkRlZXAgUmVzaWR1YWwgTGVhcm5pbmcgZm9yIEltYWdlIFJlY29nbml0aW9uIiA8aHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzE1MTIuMDMzODUucGRmPmBfLgoKICAgIEFyZ3M6CiAgICAgICAgcHJldHJhaW5lZCAoYm9vbCk6IElmIFRydWUsIHJldHVybnMgYSBtb2RlbCBwcmUtdHJhaW5lZCBvbiBJbWFnZU5ldAogICAgICAgIHByb2dyZXNzIChib29sKTogSWYgVHJ1ZSwgZGlzcGxheXMgYSBwcm9ncmVzcyBiYXIgb2YgdGhlIGRvd25sb2FkIHRvIHN0ZGVycgogICAgIiIiCiAgICByZXR1cm4gX3Jlc25ldCgncmVzbmV0MTAxJywgQm90dGxlbmVjaywgWzMsIDQsIDIzLCAzXSwgcHJldHJhaW5lZCwgcHJvZ3Jlc3MsCiAgICAgICAgICAgICAgICAgICAqKmt3YXJncykKCgpkZWYgcmVzbmV0MTUyKHByZXRyYWluZWQ6IGJvb2wgPSBGYWxzZSwgcHJvZ3Jlc3M6IGJvb2wgPSBUcnVlLCAqKmt3YXJnczogQW55KSAtPiBSZXNOZXQ6CiAgICByIiIiUmVzTmV0LTE1MiBtb2RlbCBmcm9tCiAgICBgIkRlZXAgUmVzaWR1YWwgTGVhcm5pbmcgZm9yIEltYWdlIFJlY29nbml0aW9uIiA8aHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzE1MTIuMDMzODUucGRmPmBfLgoKICAgIEFyZ3M6CiAgICAgICAgcHJldHJhaW5lZCAoYm9vbCk6IElmIFRydWUsIHJldHVybnMgYSBtb2RlbCBwcmUtdHJhaW5lZCBvbiBJbWFnZU5ldAogICAgICAgIHByb2dyZXNzIChib29sKTogSWYgVHJ1ZSwgZGlzcGxheXMgYSBwcm9ncmVzcyBiYXIgb2YgdGhlIGRvd25sb2FkIHRvIHN0ZGVycgogICAgIiIiCiAgICByZXR1cm4gX3Jlc25ldCgncmVzbmV0MTUyJywgQm90dGxlbmVjaywgWzMsIDgsIDM2LCAzXSwgcHJldHJhaW5lZCwgcHJvZ3Jlc3MsCiAgICAgICAgICAgICAgICAgICAqKmt3YXJncykKCgpkZWYgcmVzbmV4dDUwXzMyeDRkKHByZXRyYWluZWQ6IGJvb2wgPSBGYWxzZSwgcHJvZ3Jlc3M6IGJvb2wgPSBUcnVlLCAqKmt3YXJnczogQW55KSAtPiBSZXNOZXQ6CiAgICByIiIiUmVzTmVYdC01MCAzMng0ZCBtb2RlbCBmcm9tCiAgICBgIkFnZ3JlZ2F0ZWQgUmVzaWR1YWwgVHJhbnNmb3JtYXRpb24gZm9yIERlZXAgTmV1cmFsIE5ldHdvcmtzIiA8aHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzE2MTEuMDU0MzEucGRmPmBfLgoKICAgIEFyZ3M6CiAgICAgICAgcHJldHJhaW5lZCAoYm9vbCk6IElmIFRydWUsIHJldHVybnMgYSBtb2RlbCBwcmUtdHJhaW5lZCBvbiBJbWFnZU5ldAogICAgICAgIHByb2dyZXNzIChib29sKTogSWYgVHJ1ZSwgZGlzcGxheXMgYSBwcm9ncmVzcyBiYXIgb2YgdGhlIGRvd25sb2FkIHRvIHN0ZGVycgogICAgIiIiCiAgICBrd2FyZ3NbJ2dyb3VwcyddID0gMzIKICAgIGt3YXJnc1snd2lkdGhfcGVyX2dyb3VwJ10gPSA0CiAgICByZXR1cm4gX3Jlc25ldCgncmVzbmV4dDUwXzMyeDRkJywgQm90dGxlbmVjaywgWzMsIDQsIDYsIDNdLAogICAgICAgICAgICAgICAgICAgcHJldHJhaW5lZCwgcHJvZ3Jlc3MsICoqa3dhcmdzKQoKCmRlZiByZXNuZXh0MTAxXzMyeDhkKHByZXRyYWluZWQ6IGJvb2wgPSBGYWxzZSwgcHJvZ3Jlc3M6IGJvb2wgPSBUcnVlLCAqKmt3YXJnczogQW55KSAtPiBSZXNOZXQ6CiAgICByIiIiUmVzTmVYdC0xMDEgMzJ4OGQgbW9kZWwgZnJvbQogICAgYCJBZ2dyZWdhdGVkIFJlc2lkdWFsIFRyYW5zZm9ybWF0aW9uIGZvciBEZWVwIE5ldXJhbCBOZXR3b3JrcyIgPGh0dHBzOi8vYXJ4aXYub3JnL3BkZi8xNjExLjA1NDMxLnBkZj5gXy4KCiAgICBBcmdzOgogICAgICAgIHByZXRyYWluZWQgKGJvb2wpOiBJZiBUcnVlLCByZXR1cm5zIGEgbW9kZWwgcHJlLXRyYWluZWQgb24gSW1hZ2VOZXQKICAgICAgICBwcm9ncmVzcyAoYm9vbCk6IElmIFRydWUsIGRpc3BsYXlzIGEgcHJvZ3Jlc3MgYmFyIG9mIHRoZSBkb3dubG9hZCB0byBzdGRlcnIKICAgICIiIgogICAga3dhcmdzWydncm91cHMnXSA9IDMyCiAgICBrd2FyZ3NbJ3dpZHRoX3Blcl9ncm91cCddID0gOAogICAgcmV0dXJuIF9yZXNuZXQoJ3Jlc25leHQxMDFfMzJ4OGQnLCBCb3R0bGVuZWNrLCBbMywgNCwgMjMsIDNdLAogICAgICAgICAgICAgICAgICAgcHJldHJhaW5lZCwgcHJvZ3Jlc3MsICoqa3dhcmdzKQoKCmRlZiB3aWRlX3Jlc25ldDUwXzIocHJldHJhaW5lZDogYm9vbCA9IEZhbHNlLCBwcm9ncmVzczogYm9vbCA9IFRydWUsICoqa3dhcmdzOiBBbnkpIC0+IFJlc05ldDoKICAgIHIiIiJXaWRlIFJlc05ldC01MC0yIG1vZGVsIGZyb20KICAgIGAiV2lkZSBSZXNpZHVhbCBOZXR3b3JrcyIgPGh0dHBzOi8vYXJ4aXYub3JnL3BkZi8xNjA1LjA3MTQ2LnBkZj5gXy4KCiAgICBUaGUgbW9kZWwgaXMgdGhlIHNhbWUgYXMgUmVzTmV0IGV4Y2VwdCBmb3IgdGhlIGJvdHRsZW5lY2sgbnVtYmVyIG9mIGNoYW5uZWxzCiAgICB3aGljaCBpcyB0d2ljZSBsYXJnZXIgaW4gZXZlcnkgYmxvY2suIFRoZSBudW1iZXIgb2YgY2hhbm5lbHMgaW4gb3V0ZXIgMXgxCiAgICBjb252b2x1dGlvbnMgaXMgdGhlIHNhbWUsIGUuZy4gbGFzdCBibG9jayBpbiBSZXNOZXQtNTAgaGFzIDIwNDgtNTEyLTIwNDgKICAgIGNoYW5uZWxzLCBhbmQgaW4gV2lkZSBSZXNOZXQtNTAtMiBoYXMgMjA0OC0xMDI0LTIwNDguCgogICAgQXJnczoKICAgICAgICBwcmV0cmFpbmVkIChib29sKTogSWYgVHJ1ZSwgcmV0dXJucyBhIG1vZGVsIHByZS10cmFpbmVkIG9uIEltYWdlTmV0CiAgICAgICAgcHJvZ3Jlc3MgKGJvb2wpOiBJZiBUcnVlLCBkaXNwbGF5cyBhIHByb2dyZXNzIGJhciBvZiB0aGUgZG93bmxvYWQgdG8gc3RkZXJyCiAgICAiIiIKICAgIGt3YXJnc1snd2lkdGhfcGVyX2dyb3VwJ10gPSA2NCAqIDIKICAgIHJldHVybiBfcmVzbmV0KCd3aWRlX3Jlc25ldDUwXzInLCBCb3R0bGVuZWNrLCBbMywgNCwgNiwgM10sCiAgICAgICAgICAgICAgICAgICBwcmV0cmFpbmVkLCBwcm9ncmVzcywgKiprd2FyZ3MpCgoKZGVmIHdpZGVfcmVzbmV0MTAxXzIocHJldHJhaW5lZDogYm9vbCA9IEZhbHNlLCBwcm9ncmVzczogYm9vbCA9IFRydWUsICoqa3dhcmdzOiBBbnkpIC0+IFJlc05ldDoKICAgIHIiIiJXaWRlIFJlc05ldC0xMDEtMiBtb2RlbCBmcm9tCiAgICBgIldpZGUgUmVzaWR1YWwgTmV0d29ya3MiIDxodHRwczovL2FyeGl2Lm9yZy9wZGYvMTYwNS4wNzE0Ni5wZGY+YF8uCgogICAgVGhlIG1vZGVsIGlzIHRoZSBzYW1lIGFzIFJlc05ldCBleGNlcHQgZm9yIHRoZSBib3R0bGVuZWNrIG51bWJlciBvZiBjaGFubmVscwogICAgd2hpY2ggaXMgdHdpY2UgbGFyZ2VyIGluIGV2ZXJ5IGJsb2NrLiBUaGUgbnVtYmVyIG9mIGNoYW5uZWxzIGluIG91dGVyIDF4MQogICAgY29udm9sdXRpb25zIGlzIHRoZSBzYW1lLCBlLmcuIGxhc3QgYmxvY2sgaW4gUmVzTmV0LTUwIGhhcyAyMDQ4LTUxMi0yMDQ4CiAgICBjaGFubmVscywgYW5kIGluIFdpZGUgUmVzTmV0LTUwLTIgaGFzIDIwNDgtMTAyNC0yMDQ4LgoKICAgIEFyZ3M6CiAgICAgICAgcHJldHJhaW5lZCAoYm9vbCk6IElmIFRydWUsIHJldHVybnMgYSBtb2RlbCBwcmUtdHJhaW5lZCBvbiBJbWFnZU5ldAogICAgICAgIHByb2dyZXNzIChib29sKTogSWYgVHJ1ZSwgZGlzcGxheXMgYSBwcm9ncmVzcyBiYXIgb2YgdGhlIGRvd25sb2FkIHRvIHN0ZGVycgogICAgIiIiCiAgICBrd2FyZ3NbJ3dpZHRoX3Blcl9ncm91cCddID0gNjQgKiAyCiAgICByZXR1cm4gX3Jlc25ldCgnd2lkZV9yZXNuZXQxMDFfMicsIEJvdHRsZW5lY2ssIFszLCA0LCAyMywgM10sCiAgICAgICAgICAgICAgICAgICBwcmV0cmFpbmVkLCBwcm9ncmVzcywgKiprd2FyZ3MpCgoKZnVuY19kaWN0ID0gewogICAgJ3Jlc25ldDE4JzogKHJlc25ldDE4LCA1MTIpLAogICAgJ3Jlc25ldDUwJzogKHJlc25ldDUwLCAyMDQ4KQp9Cg==
+"""This script defines deep neural networks for Deep3DFaceRecon_pytorch
+"""
+
+import os
+import numpy as np
+import torch.nn.functional as F
+from torch.nn import init
+import functools
+from torch.optim import lr_scheduler
+import torch
+from torch import Tensor
+import torch.nn as nn
+try:
+    from torch.hub import load_state_dict_from_url
+except ImportError:
+    from torch.utils.model_zoo import load_url as load_state_dict_from_url
+from typing import Type, Any, Callable, Union, List, Optional
+from .arcface_torch.backbones import get_model
+from kornia.geometry import warp_affine
+
+def resize_n_crop(image, M, dsize=112):
+    # image: (b, c, h, w)
+    # M   :  (b, 2, 3)
+    return warp_affine(image, M, dsize=(dsize, dsize), align_corners=True)
+
+def filter_state_dict(state_dict, remove_name='fc'):
+    new_state_dict = {}
+    for key in state_dict:
+        if remove_name in key:
+            continue
+        new_state_dict[key] = state_dict[key]
+    return new_state_dict
+
+def get_scheduler(optimizer, opt):
+    """Return a learning rate scheduler
+
+    Parameters:
+        optimizer          -- the optimizer of the network
+        opt (option class) -- stores all the experiment flags; needs to be a subclass of BaseOptions．　
+                              opt.lr_policy is the name of learning rate policy: linear | step | plateau | cosine
+
+    For other schedulers (step, plateau, and cosine), we use the default PyTorch schedulers.
+    See https://pytorch.org/docs/stable/optim.html for more details.
+    """
+    if opt.lr_policy == 'linear':
+        def lambda_rule(epoch):
+            lr_l = 1.0 - max(0, epoch + opt.epoch_count - opt.n_epochs) / float(opt.n_epochs + 1)
+            return lr_l
+        scheduler = lr_scheduler.LambdaLR(optimizer, lr_lambda=lambda_rule)
+    elif opt.lr_policy == 'step':
+        scheduler = lr_scheduler.StepLR(optimizer, step_size=opt.lr_decay_epochs, gamma=0.2)
+    elif opt.lr_policy == 'plateau':
+        scheduler = lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.2, threshold=0.01, patience=5)
+    elif opt.lr_policy == 'cosine':
+        scheduler = lr_scheduler.CosineAnnealingLR(optimizer, T_max=opt.n_epochs, eta_min=0)
+    else:
+        return NotImplementedError('learning rate policy [%s] is not implemented', opt.lr_policy)
+    return scheduler
+
+
+def define_net_recon(net_recon, use_last_fc=False, init_path=None):
+    return ReconNetWrapper(net_recon, use_last_fc=use_last_fc, init_path=init_path)
+
+def define_net_recog(net_recog, pretrained_path=None):
+    net = RecogNetWrapper(net_recog=net_recog, pretrained_path=pretrained_path)
+    net.eval()
+    return net
+
+class ReconNetWrapper(nn.Module):
+    fc_dim=257
+    def __init__(self, net_recon, use_last_fc=False, init_path=None):
+        super(ReconNetWrapper, self).__init__()
+        self.use_last_fc = use_last_fc
+        if net_recon not in func_dict:
+            return  NotImplementedError('network [%s] is not implemented', net_recon)
+        func, last_dim = func_dict[net_recon]
+        backbone = func(use_last_fc=use_last_fc, num_classes=self.fc_dim)
+        if init_path and os.path.isfile(init_path):
+            state_dict = filter_state_dict(torch.load(init_path, map_location='cpu'))
+            backbone.load_state_dict(state_dict)
+            print("loading init net_recon %s from %s" %(net_recon, init_path))
+        self.backbone = backbone
+        if not use_last_fc:
+            self.final_layers = nn.ModuleList([
+                conv1x1(last_dim, 80, bias=True), # id layer
+                conv1x1(last_dim, 64, bias=True), # exp layer
+                conv1x1(last_dim, 80, bias=True), # tex layer
+                conv1x1(last_dim, 3, bias=True),  # angle layer
+                conv1x1(last_dim, 27, bias=True), # gamma layer
+                conv1x1(last_dim, 2, bias=True),  # tx, ty
+                conv1x1(last_dim, 1, bias=True)   # tz
+            ])
+            for m in self.final_layers:
+                nn.init.constant_(m.weight, 0.)
+                nn.init.constant_(m.bias, 0.)
+
+    def forward(self, x):
+        x = self.backbone(x)
+        if not self.use_last_fc:
+            output = []
+            for layer in self.final_layers:
+                output.append(layer(x))
+            x = torch.flatten(torch.cat(output, dim=1), 1)
+        return x
+
+
+class RecogNetWrapper(nn.Module):
+    def __init__(self, net_recog, pretrained_path=None, input_size=112):
+        super(RecogNetWrapper, self).__init__()
+        net = get_model(name=net_recog, fp16=False)
+        if pretrained_path:
+            state_dict = torch.load(pretrained_path, map_location='cpu')
+            net.load_state_dict(state_dict)
+            print("loading pretrained net_recog %s from %s" %(net_recog, pretrained_path))
+        for param in net.parameters():
+            param.requires_grad = False
+        self.net = net
+        self.preprocess = lambda x: 2 * x - 1
+        self.input_size=input_size
+        
+    def forward(self, image, M):
+        image = self.preprocess(resize_n_crop(image, M, self.input_size))
+        id_feature = F.normalize(self.net(image), dim=-1, p=2)
+        return id_feature
+
+
+# adapted from https://github.com/pytorch/vision/edit/master/torchvision/models/resnet.py
+__all__ = ['ResNet', 'resnet18', 'resnet34', 'resnet50', 'resnet101',
+           'resnet152', 'resnext50_32x4d', 'resnext101_32x8d',
+           'wide_resnet50_2', 'wide_resnet101_2']
+
+
+model_urls = {
+    'resnet18': 'https://download.pytorch.org/models/resnet18-f37072fd.pth',
+    'resnet34': 'https://download.pytorch.org/models/resnet34-b627a593.pth',
+    'resnet50': 'https://download.pytorch.org/models/resnet50-0676ba61.pth',
+    'resnet101': 'https://download.pytorch.org/models/resnet101-63fe2227.pth',
+    'resnet152': 'https://download.pytorch.org/models/resnet152-394f9c45.pth',
+    'resnext50_32x4d': 'https://download.pytorch.org/models/resnext50_32x4d-7cdf4587.pth',
+    'resnext101_32x8d': 'https://download.pytorch.org/models/resnext101_32x8d-8ba56ff5.pth',
+    'wide_resnet50_2': 'https://download.pytorch.org/models/wide_resnet50_2-95faca4d.pth',
+    'wide_resnet101_2': 'https://download.pytorch.org/models/wide_resnet101_2-32ee1156.pth',
+}
+
+
+def conv3x3(in_planes: int, out_planes: int, stride: int = 1, groups: int = 1, dilation: int = 1) -> nn.Conv2d:
+    """3x3 convolution with padding"""
+    return nn.Conv2d(in_planes, out_planes, kernel_size=3, stride=stride,
+                     padding=dilation, groups=groups, bias=False, dilation=dilation)
+
+
+def conv1x1(in_planes: int, out_planes: int, stride: int = 1, bias: bool = False) -> nn.Conv2d:
+    """1x1 convolution"""
+    return nn.Conv2d(in_planes, out_planes, kernel_size=1, stride=stride, bias=bias)
+
+
+class BasicBlock(nn.Module):
+    expansion: int = 1
+
+    def __init__(
+        self,
+        inplanes: int,
+        planes: int,
+        stride: int = 1,
+        downsample: Optional[nn.Module] = None,
+        groups: int = 1,
+        base_width: int = 64,
+        dilation: int = 1,
+        norm_layer: Optional[Callable[..., nn.Module]] = None
+    ) -> None:
+        super(BasicBlock, self).__init__()
+        if norm_layer is None:
+            norm_layer = nn.BatchNorm2d
+        if groups != 1 or base_width != 64:
+            raise ValueError('BasicBlock only supports groups=1 and base_width=64')
+        if dilation > 1:
+            raise NotImplementedError("Dilation > 1 not supported in BasicBlock")
+        # Both self.conv1 and self.downsample layers downsample the input when stride != 1
+        self.conv1 = conv3x3(inplanes, planes, stride)
+        self.bn1 = norm_layer(planes)
+        self.relu = nn.ReLU(inplace=True)
+        self.conv2 = conv3x3(planes, planes)
+        self.bn2 = norm_layer(planes)
+        self.downsample = downsample
+        self.stride = stride
+
+    def forward(self, x: Tensor) -> Tensor:
+        identity = x
+
+        out = self.conv1(x)
+        out = self.bn1(out)
+        out = self.relu(out)
+
+        out = self.conv2(out)
+        out = self.bn2(out)
+
+        if self.downsample is not None:
+            identity = self.downsample(x)
+
+        out += identity
+        out = self.relu(out)
+
+        return out
+
+
+class Bottleneck(nn.Module):
+    # Bottleneck in torchvision places the stride for downsampling at 3x3 convolution(self.conv2)
+    # while original implementation places the stride at the first 1x1 convolution(self.conv1)
+    # according to "Deep residual learning for image recognition"https://arxiv.org/abs/1512.03385.
+    # This variant is also known as ResNet V1.5 and improves accuracy according to
+    # https://ngc.nvidia.com/catalog/model-scripts/nvidia:resnet_50_v1_5_for_pytorch.
+
+    expansion: int = 4
+
+    def __init__(
+        self,
+        inplanes: int,
+        planes: int,
+        stride: int = 1,
+        downsample: Optional[nn.Module] = None,
+        groups: int = 1,
+        base_width: int = 64,
+        dilation: int = 1,
+        norm_layer: Optional[Callable[..., nn.Module]] = None
+    ) -> None:
+        super(Bottleneck, self).__init__()
+        if norm_layer is None:
+            norm_layer = nn.BatchNorm2d
+        width = int(planes * (base_width / 64.)) * groups
+        # Both self.conv2 and self.downsample layers downsample the input when stride != 1
+        self.conv1 = conv1x1(inplanes, width)
+        self.bn1 = norm_layer(width)
+        self.conv2 = conv3x3(width, width, stride, groups, dilation)
+        self.bn2 = norm_layer(width)
+        self.conv3 = conv1x1(width, planes * self.expansion)
+        self.bn3 = norm_layer(planes * self.expansion)
+        self.relu = nn.ReLU(inplace=True)
+        self.downsample = downsample
+        self.stride = stride
+
+    def forward(self, x: Tensor) -> Tensor:
+        identity = x
+
+        out = self.conv1(x)
+        out = self.bn1(out)
+        out = self.relu(out)
+
+        out = self.conv2(out)
+        out = self.bn2(out)
+        out = self.relu(out)
+
+        out = self.conv3(out)
+        out = self.bn3(out)
+
+        if self.downsample is not None:
+            identity = self.downsample(x)
+
+        out += identity
+        out = self.relu(out)
+
+        return out
+
+
+class ResNet(nn.Module):
+
+    def __init__(
+        self,
+        block: Type[Union[BasicBlock, Bottleneck]],
+        layers: List[int],
+        num_classes: int = 1000,
+        zero_init_residual: bool = False,
+        use_last_fc: bool = False,
+        groups: int = 1,
+        width_per_group: int = 64,
+        replace_stride_with_dilation: Optional[List[bool]] = None,
+        norm_layer: Optional[Callable[..., nn.Module]] = None
+    ) -> None:
+        super(ResNet, self).__init__()
+        if norm_layer is None:
+            norm_layer = nn.BatchNorm2d
+        self._norm_layer = norm_layer
+
+        self.inplanes = 64
+        self.dilation = 1
+        if replace_stride_with_dilation is None:
+            # each element in the tuple indicates if we should replace
+            # the 2x2 stride with a dilated convolution instead
+            replace_stride_with_dilation = [False, False, False]
+        if len(replace_stride_with_dilation) != 3:
+            raise ValueError("replace_stride_with_dilation should be None "
+                             "or a 3-element tuple, got {}".format(replace_stride_with_dilation))
+        self.use_last_fc = use_last_fc
+        self.groups = groups
+        self.base_width = width_per_group
+        self.conv1 = nn.Conv2d(3, self.inplanes, kernel_size=7, stride=2, padding=3,
+                               bias=False)
+        self.bn1 = norm_layer(self.inplanes)
+        self.relu = nn.ReLU(inplace=True)
+        self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
+        self.layer1 = self._make_layer(block, 64, layers[0])
+        self.layer2 = self._make_layer(block, 128, layers[1], stride=2,
+                                       dilate=replace_stride_with_dilation[0])
+        self.layer3 = self._make_layer(block, 256, layers[2], stride=2,
+                                       dilate=replace_stride_with_dilation[1])
+        self.layer4 = self._make_layer(block, 512, layers[3], stride=2,
+                                       dilate=replace_stride_with_dilation[2])
+        self.avgpool = nn.AdaptiveAvgPool2d((1, 1))
+        
+        if self.use_last_fc:
+            self.fc = nn.Linear(512 * block.expansion, num_classes)
+
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d):
+                nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+            elif isinstance(m, (nn.BatchNorm2d, nn.GroupNorm)):
+                nn.init.constant_(m.weight, 1)
+                nn.init.constant_(m.bias, 0)
+
+
+
+        # Zero-initialize the last BN in each residual branch,
+        # so that the residual branch starts with zeros, and each residual block behaves like an identity.
+        # This improves the model by 0.2~0.3% according to https://arxiv.org/abs/1706.02677
+        if zero_init_residual:
+            for m in self.modules():
+                if isinstance(m, Bottleneck):
+                    nn.init.constant_(m.bn3.weight, 0)  # type: ignore[arg-type]
+                elif isinstance(m, BasicBlock):
+                    nn.init.constant_(m.bn2.weight, 0)  # type: ignore[arg-type]
+
+    def _make_layer(self, block: Type[Union[BasicBlock, Bottleneck]], planes: int, blocks: int,
+                    stride: int = 1, dilate: bool = False) -> nn.Sequential:
+        norm_layer = self._norm_layer
+        downsample = None
+        previous_dilation = self.dilation
+        if dilate:
+            self.dilation *= stride
+            stride = 1
+        if stride != 1 or self.inplanes != planes * block.expansion:
+            downsample = nn.Sequential(
+                conv1x1(self.inplanes, planes * block.expansion, stride),
+                norm_layer(planes * block.expansion),
+            )
+
+        layers = []
+        layers.append(block(self.inplanes, planes, stride, downsample, self.groups,
+                            self.base_width, previous_dilation, norm_layer))
+        self.inplanes = planes * block.expansion
+        for _ in range(1, blocks):
+            layers.append(block(self.inplanes, planes, groups=self.groups,
+                                base_width=self.base_width, dilation=self.dilation,
+                                norm_layer=norm_layer))
+
+        return nn.Sequential(*layers)
+
+    def _forward_impl(self, x: Tensor) -> Tensor:
+        # See note [TorchScript super()]
+        x = self.conv1(x)
+        x = self.bn1(x)
+        x = self.relu(x)
+        x = self.maxpool(x)
+
+        x = self.layer1(x)
+        x = self.layer2(x)
+        x = self.layer3(x)
+        x = self.layer4(x)
+
+        x = self.avgpool(x)
+        if self.use_last_fc:
+            x = torch.flatten(x, 1)
+            x = self.fc(x)
+        return x
+
+    def forward(self, x: Tensor) -> Tensor:
+        return self._forward_impl(x)
+
+
+def _resnet(
+    arch: str,
+    block: Type[Union[BasicBlock, Bottleneck]],
+    layers: List[int],
+    pretrained: bool,
+    progress: bool,
+    **kwargs: Any
+) -> ResNet:
+    model = ResNet(block, layers, **kwargs)
+    if pretrained:
+        state_dict = load_state_dict_from_url(model_urls[arch],
+                                              progress=progress)
+        model.load_state_dict(state_dict)
+    return model
+
+
+def resnet18(pretrained: bool = False, progress: bool = True, **kwargs: Any) -> ResNet:
+    r"""ResNet-18 model from
+    `"Deep Residual Learning for Image Recognition" <https://arxiv.org/pdf/1512.03385.pdf>`_.
+
+    Args:
+        pretrained (bool): If True, returns a model pre-trained on ImageNet
+        progress (bool): If True, displays a progress bar of the download to stderr
+    """
+    return _resnet('resnet18', BasicBlock, [2, 2, 2, 2], pretrained, progress,
+                   **kwargs)
+
+
+def resnet34(pretrained: bool = False, progress: bool = True, **kwargs: Any) -> ResNet:
+    r"""ResNet-34 model from
+    `"Deep Residual Learning for Image Recognition" <https://arxiv.org/pdf/1512.03385.pdf>`_.
+
+    Args:
+        pretrained (bool): If True, returns a model pre-trained on ImageNet
+        progress (bool): If True, displays a progress bar of the download to stderr
+    """
+    return _resnet('resnet34', BasicBlock, [3, 4, 6, 3], pretrained, progress,
+                   **kwargs)
+
+
+def resnet50(pretrained: bool = False, progress: bool = True, **kwargs: Any) -> ResNet:
+    r"""ResNet-50 model from
+    `"Deep Residual Learning for Image Recognition" <https://arxiv.org/pdf/1512.03385.pdf>`_.
+
+    Args:
+        pretrained (bool): If True, returns a model pre-trained on ImageNet
+        progress (bool): If True, displays a progress bar of the download to stderr
+    """
+    return _resnet('resnet50', Bottleneck, [3, 4, 6, 3], pretrained, progress,
+                   **kwargs)
+
+
+def resnet101(pretrained: bool = False, progress: bool = True, **kwargs: Any) -> ResNet:
+    r"""ResNet-101 model from
+    `"Deep Residual Learning for Image Recognition" <https://arxiv.org/pdf/1512.03385.pdf>`_.
+
+    Args:
+        pretrained (bool): If True, returns a model pre-trained on ImageNet
+        progress (bool): If True, displays a progress bar of the download to stderr
+    """
+    return _resnet('resnet101', Bottleneck, [3, 4, 23, 3], pretrained, progress,
+                   **kwargs)
+
+
+def resnet152(pretrained: bool = False, progress: bool = True, **kwargs: Any) -> ResNet:
+    r"""ResNet-152 model from
+    `"Deep Residual Learning for Image Recognition" <https://arxiv.org/pdf/1512.03385.pdf>`_.
+
+    Args:
+        pretrained (bool): If True, returns a model pre-trained on ImageNet
+        progress (bool): If True, displays a progress bar of the download to stderr
+    """
+    return _resnet('resnet152', Bottleneck, [3, 8, 36, 3], pretrained, progress,
+                   **kwargs)
+
+
+def resnext50_32x4d(pretrained: bool = False, progress: bool = True, **kwargs: Any) -> ResNet:
+    r"""ResNeXt-50 32x4d model from
+    `"Aggregated Residual Transformation for Deep Neural Networks" <https://arxiv.org/pdf/1611.05431.pdf>`_.
+
+    Args:
+        pretrained (bool): If True, returns a model pre-trained on ImageNet
+        progress (bool): If True, displays a progress bar of the download to stderr
+    """
+    kwargs['groups'] = 32
+    kwargs['width_per_group'] = 4
+    return _resnet('resnext50_32x4d', Bottleneck, [3, 4, 6, 3],
+                   pretrained, progress, **kwargs)
+
+
+def resnext101_32x8d(pretrained: bool = False, progress: bool = True, **kwargs: Any) -> ResNet:
+    r"""ResNeXt-101 32x8d model from
+    `"Aggregated Residual Transformation for Deep Neural Networks" <https://arxiv.org/pdf/1611.05431.pdf>`_.
+
+    Args:
+        pretrained (bool): If True, returns a model pre-trained on ImageNet
+        progress (bool): If True, displays a progress bar of the download to stderr
+    """
+    kwargs['groups'] = 32
+    kwargs['width_per_group'] = 8
+    return _resnet('resnext101_32x8d', Bottleneck, [3, 4, 23, 3],
+                   pretrained, progress, **kwargs)
+
+
+def wide_resnet50_2(pretrained: bool = False, progress: bool = True, **kwargs: Any) -> ResNet:
+    r"""Wide ResNet-50-2 model from
+    `"Wide Residual Networks" <https://arxiv.org/pdf/1605.07146.pdf>`_.
+
+    The model is the same as ResNet except for the bottleneck number of channels
+    which is twice larger in every block. The number of channels in outer 1x1
+    convolutions is the same, e.g. last block in ResNet-50 has 2048-512-2048
+    channels, and in Wide ResNet-50-2 has 2048-1024-2048.
+
+    Args:
+        pretrained (bool): If True, returns a model pre-trained on ImageNet
+        progress (bool): If True, displays a progress bar of the download to stderr
+    """
+    kwargs['width_per_group'] = 64 * 2
+    return _resnet('wide_resnet50_2', Bottleneck, [3, 4, 6, 3],
+                   pretrained, progress, **kwargs)
+
+
+def wide_resnet101_2(pretrained: bool = False, progress: bool = True, **kwargs: Any) -> ResNet:
+    r"""Wide ResNet-101-2 model from
+    `"Wide Residual Networks" <https://arxiv.org/pdf/1605.07146.pdf>`_.
+
+    The model is the same as ResNet except for the bottleneck number of channels
+    which is twice larger in every block. The number of channels in outer 1x1
+    convolutions is the same, e.g. last block in ResNet-50 has 2048-512-2048
+    channels, and in Wide ResNet-50-2 has 2048-1024-2048.
+
+    Args:
+        pretrained (bool): If True, returns a model pre-trained on ImageNet
+        progress (bool): If True, displays a progress bar of the download to stderr
+    """
+    kwargs['width_per_group'] = 64 * 2
+    return _resnet('wide_resnet101_2', Bottleneck, [3, 4, 23, 3],
+                   pretrained, progress, **kwargs)
+
+
+func_dict = {
+    'resnet18': (resnet18, 512),
+    'resnet50': (resnet50, 2048)
+}

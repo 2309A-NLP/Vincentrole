@@ -1,1 +1,72 @@
-aW1wb3J0IGxpYnJvc2EKaW1wb3J0IGdyYWRpbyBhcyBncgpmcm9tIEVkZ2VUVFMgaW1wb3J0IEVkZ2VUVFMKaW1wb3J0IG9zCnRpdGxlID0gIlRUUyBXZWJVSSIKdHRzID0gRWRnZVRUUygpCgpkZWYgZ2VuZXJhdGVBdWRpbyh0ZXh0LCB2b2ljZSwgcmF0ZSwgdm9sdW1lLCBwaXRjaCk6CiAgICBhdWRpb19maWxlLCBzdWJfZmlsZSA9IHR0cy5wcmVkaWN0KHRleHQsIHZvaWNlLCByYXRlLCB2b2x1bWUsIHBpdGNoLCAib3V0cHV0LndhdiIsICJvdXRwdXQuc3J0IikKICAgIHByaW50KHRleHQsIGF1ZGlvX2ZpbGUsIHN1Yl9maWxlKQogICAgYXVkaW8sIHNyID0gbGlicm9zYS5sb2FkKHBhdGg9YXVkaW9fZmlsZSkKICAgIHJldHVybiBnci5tYWtlX3dhdmVmb3JtKAogICAgICAgICAgICAgICAgYXVkaW89YXVkaW9fZmlsZSwKICAgICAgICAgICAgKSwoc3IsIGF1ZGlvKQoKCmRlZiBtYWluKCk6CiAgICB3aXRoIGdyLkJsb2Nrcyh0aXRsZT10aXRsZSkgYXMgZGVtbzoKICAgICAgICB3aXRoIGdyLlJvdygpOgogICAgICAgICAgICBnci5IVE1MKCI8Y2VudGVyPjxoMT5UVFMgV2ViVUk8L2gxPjwvY2VudGVyPiIpCiAgICAgICAgd2l0aCBnci5Sb3coKToKICAgICAgICAgICAgd2l0aCBnci5Db2x1bW4oKToKICAgICAgICAgICAgICAgIHRleHQgPSBnci5UZXh0KGxhYmVsID0gIlRleHQgdG8gYmUgc3Bva2VuIikKICAgICAgICAgICAgICAgIHZvaWNlID0gZ3IuRHJvcGRvd24odHRzLlNVUFBPUlRFRF9WT0lDRSwgbGFiZWw9IlZvaWNlIHRvIGJlIHVzZWQiLCB2YWx1ZSA9ICd6aC1DTi1YaWFveGlhb05ldXJhbCcpCiAgICAgICAgICAgICAgICB3aXRoIGdyLkFjY29yZGlvbigiQWR2YW5jZWQgU2V0dGluZ3MiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3Blbj1UcnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlzaWJsZT1UcnVlKSBhcyBwYXJhbWV0ZXJfYXJ0aWNsZToKICAgICAgICAgICAgICAgICAgICByYXRlID0gZ3IuU2xpZGVyKG1pbmltdW09LTEwMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heGltdW09MTAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9MCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZXA9MS4wLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWw9J1JhdGUnKQogICAgICAgICAgICAgICAgICAgIHZvbHVtZSA9IGdyLlNsaWRlcihtaW5pbXVtPTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4aW11bT0xMDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9MTAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZXA9MSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJlbD0nVm9sdW1lJykKICAgICAgICAgICAgICAgICAgICBwaXRjaCA9IGdyLlNsaWRlcihtaW5pbXVtPS0xMDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhpbXVtPTEwMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGVwPTEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJlbD0nUGl0Y2gnKQoKICAgICAgICAgICAgd2l0aCBnci5Db2x1bW4oKToKICAgICAgICAgICAgICAgIHZpZGVvID0gZ3IuVmlkZW8obGFiZWw9IldhdmVmb3JtIFZpc3VhbCIpCiAgICAgICAgICAgICAgICBhdWRpbyA9IGdyLkF1ZGlvKGxhYmVsID0gIkF1ZGlvIGZpbGUiKQogICAgICAgICAgICAKICAgICAgICBnZW5lcmF0ZSA9IGdyLkJ1dHRvbigiR2VuZXJhdGUgQXVkaW8iLCB2YXJpYW50PSJwcmltYXJ5IikKICAgICAgICBnZW5lcmF0ZS5jbGljayhnZW5lcmF0ZUF1ZGlvLCAKICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRzPVt0ZXh0LCB2b2ljZSwgcmF0ZSwgdm9sdW1lLCBwaXRjaF0sIAogICAgICAgICAgICAgICAgICAgICAgICBvdXRwdXRzPVt2aWRlbywgYXVkaW9dLAogICAgICAgICAgICAgICAgICAgICAgICApIAogICAgICAgIGdyLk1hcmtkb3duKCIjIyBUZXh0IEV4YW1wbGVzIikKICAgICAgICBnci5FeGFtcGxlcygKICAgICAgICAgICAgZXhhbXBsZXM9WwogICAgICAgICAgICAgICAgWyflpKflrrblpb3vvIzlvojpq5jlhbTorqTor4bkvaDku6zvvIEnLCd6aC1DTi1YaWFveGlhb05ldXJhbCddLAogICAgICAgICAgICAgICAgWyfjgb/jgarjgZXjgpPjgIHjgZPjgpPjgavjgaHjga/vvIHjgYrkvJrjgYTjgafjgY3jgablrInjgZfjgYTjgafjgZnvvIEnLCdqYS1KUC1OYW5hbWlOZXVyYWwnXSwKICAgICAgICAgICAgICAgIFsnaGVsbG8sIE5pY2UgdG8gbWVldCB5b3UhJywnZW4tVVMtUm9nZXJOZXVyYWwnXQogICAgICAgICAgICBdLAogICAgICAgICAgICBmbj1nZW5lcmF0ZUF1ZGlvLAogICAgICAgICAgICBpbnB1dHM9W3RleHQsIHZvaWNlXSwKICAgICAgICAgICAgb3V0cHV0cz1bdmlkZW8sIGF1ZGlvXSwKICAgICAgICApCiAgICByZXR1cm4gZGVtbwoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGltcG9ydCBhcmdwYXJzZQogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1zZXJ2ZXJfcG9ydCIsIHR5cGU9aW50LCBkZWZhdWx0PTc4NjApCiAgICBvcHQgPSBwYXJzZXIucGFyc2VfYXJncygpCiAgICBkZW1vID0gbWFpbigpCiAgICBkZW1vLmxhdW5jaChzZXJ2ZXJfcG9ydD1vcHQuc2VydmVyX3BvcnQp
+import librosa
+import gradio as gr
+from EdgeTTS import EdgeTTS
+import os
+title = "TTS WebUI"
+tts = EdgeTTS()
+
+def generateAudio(text, voice, rate, volume, pitch):
+    audio_file, sub_file = tts.predict(text, voice, rate, volume, pitch, "output.wav", "output.srt")
+    print(text, audio_file, sub_file)
+    audio, sr = librosa.load(path=audio_file)
+    return gr.make_waveform(
+                audio=audio_file,
+            ),(sr, audio)
+
+
+def main():
+    with gr.Blocks(title=title) as demo:
+        with gr.Row():
+            gr.HTML("<center><h1>TTS WebUI</h1></center>")
+        with gr.Row():
+            with gr.Column():
+                text = gr.Text(label = "Text to be spoken")
+                voice = gr.Dropdown(tts.SUPPORTED_VOICE, label="Voice to be used", value = 'zh-CN-XiaoxiaoNeural')
+                with gr.Accordion("Advanced Settings",
+                                        open=True,
+                                        visible=True) as parameter_article:
+                    rate = gr.Slider(minimum=-100,
+                                        maximum=100,
+                                        value=0,
+                                        step=1.0,
+                                        label='Rate')
+                    volume = gr.Slider(minimum=0,
+                                            maximum=100,
+                                            value=100,
+                                            step=1,
+                                            label='Volume')
+                    pitch = gr.Slider(minimum=-100,
+                                        maximum=100,
+                                        value=0,
+                                        step=1,
+                                        label='Pitch')
+
+            with gr.Column():
+                video = gr.Video(label="Waveform Visual")
+                audio = gr.Audio(label = "Audio file")
+            
+        generate = gr.Button("Generate Audio", variant="primary")
+        generate.click(generateAudio, 
+                        inputs=[text, voice, rate, volume, pitch], 
+                        outputs=[video, audio],
+                        ) 
+        gr.Markdown("## Text Examples")
+        gr.Examples(
+            examples=[
+                ['大家好，很高兴认识你们！','zh-CN-XiaoxiaoNeural'],
+                ['みなさん、こんにちは！お会いできて嬉しいです！','ja-JP-NanamiNeural'],
+                ['hello, Nice to meet you!','en-US-RogerNeural']
+            ],
+            fn=generateAudio,
+            inputs=[text, voice],
+            outputs=[video, audio],
+        )
+    return demo
+
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--server_port", type=int, default=7860)
+    opt = parser.parse_args()
+    demo = main()
+    demo.launch(server_port=opt.server_port)

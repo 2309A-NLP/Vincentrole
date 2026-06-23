@@ -1,1 +1,126 @@
-IiIiVGhpcyBzY3JpcHQgaXMgdGhlIGRpZmZlcmVudGlhYmxlIHJlbmRlcmVyIGZvciBEZWVwM0RGYWNlUmVjb25fcHl0b3JjaAogICAgQXR0ZW50aW9uLCBhbnRpYWxpYXNpbmcgc3RlcCBpcyBtaXNzaW5nIGluIGN1cnJlbnQgdmVyc2lvbi4KIiIiCmltcG9ydCBweXRvcmNoM2Qub3BzCmltcG9ydCB0b3JjaAppbXBvcnQgdG9yY2gubm4uZnVuY3Rpb25hbCBhcyBGCmltcG9ydCBrb3JuaWEKZnJvbSBrb3JuaWEuZ2VvbWV0cnkuY2FtZXJhIGltcG9ydCBwaXhlbDJjYW0KaW1wb3J0IG51bXB5IGFzIG5wCmZyb20gdHlwaW5nIGltcG9ydCBMaXN0CmZyb20gc2NpcHkuaW8gaW1wb3J0IGxvYWRtYXQKZnJvbSB0b3JjaCBpbXBvcnQgbm4KCmZyb20gcHl0b3JjaDNkLnN0cnVjdHVyZXMgaW1wb3J0IE1lc2hlcwpmcm9tIHB5dG9yY2gzZC5yZW5kZXJlciBpbXBvcnQgKAogICAgbG9va19hdF92aWV3X3RyYW5zZm9ybSwKICAgIEZvVlBlcnNwZWN0aXZlQ2FtZXJhcywKICAgIERpcmVjdGlvbmFsTGlnaHRzLAogICAgUmFzdGVyaXphdGlvblNldHRpbmdzLAogICAgTWVzaFJlbmRlcmVyLAogICAgTWVzaFJhc3Rlcml6ZXIsCiAgICBTb2Z0UGhvbmdTaGFkZXIsCiAgICBUZXh0dXJlc1VWLAopCgojIGRlZiBuZGNfcHJvamVjdGlvbih4PTAuMSwgbj0xLjAsIGY9NTAuMCk6CiMgICAgIHJldHVybiBucC5hcnJheShbW24veCwgICAgMCwgICAgICAgICAgICAwLCAgICAgICAgICAgICAgMF0sCiMgICAgICAgICAgICAgICAgICAgICAgWyAgMCwgbi8teCwgICAgICAgICAgICAwLCAgICAgICAgICAgICAgMF0sCiMgICAgICAgICAgICAgICAgICAgICAgWyAgMCwgICAgMCwgLShmK24pLyhmLW4pLCAtKDIqZipuKS8oZi1uKV0sCiMgICAgICAgICAgICAgICAgICAgICAgWyAgMCwgICAgMCwgICAgICAgICAgIC0xLCAgICAgICAgICAgICAgMF1dKS5hc3R5cGUobnAuZmxvYXQzMikKCmNsYXNzIE1lc2hSZW5kZXJlcihubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsCiAgICAgICAgICAgICAgICByYXN0ZXJpemVfZm92LAogICAgICAgICAgICAgICAgem5lYXI9MC4xLAogICAgICAgICAgICAgICAgemZhcj0xMCwgCiAgICAgICAgICAgICAgICByYXN0ZXJpemVfc2l6ZT0yMjQpOgogICAgICAgIHN1cGVyKE1lc2hSZW5kZXJlciwgc2VsZikuX19pbml0X18oKQoKICAgICAgICAjIHggPSBucC50YW4obnAuZGVnMnJhZChyYXN0ZXJpemVfZm92ICogMC41KSkgKiB6bmVhcgogICAgICAgICMgc2VsZi5uZGNfcHJvaiA9IHRvcmNoLnRlbnNvcihuZGNfcHJvamVjdGlvbih4PXgsIG49em5lYXIsIGY9emZhcikpLm1hdG11bCgKICAgICAgICAjICAgICAgICAgdG9yY2guZGlhZyh0b3JjaC50ZW5zb3IoWzEuLCAtMSwgLTEsIDFdKSkpCiAgICAgICAgc2VsZi5yYXN0ZXJpemVfc2l6ZSA9IHJhc3Rlcml6ZV9zaXplCiAgICAgICAgc2VsZi5mb3YgPSByYXN0ZXJpemVfZm92CiAgICAgICAgc2VsZi56bmVhciA9IHpuZWFyCiAgICAgICAgc2VsZi56ZmFyID0gemZhcgoKICAgICAgICBzZWxmLnJhc3Rlcml6ZXIgPSBOb25lCiAgICAKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHZlcnRleCwgdHJpLCBmZWF0PU5vbmUpOgogICAgICAgICIiIgogICAgICAgIFJldHVybjoKICAgICAgICAgICAgbWFzayAgICAgICAgICAgICAgIC0tIHRvcmNoLnRlbnNvciwgc2l6ZSAoQiwgMSwgSCwgVykKICAgICAgICAgICAgZGVwdGggICAgICAgICAgICAgIC0tIHRvcmNoLnRlbnNvciwgc2l6ZSAoQiwgMSwgSCwgVykKICAgICAgICAgICAgZmVhdHVyZXMob3B0aW9uYWwpIC0tIHRvcmNoLnRlbnNvciwgc2l6ZSAoQiwgQywgSCwgVykgaWYgZmVhdCBpcyBub3QgTm9uZQoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICB2ZXJ0ZXggICAgICAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCBOLCAzKQogICAgICAgICAgICB0cmkgICAgICAgICAgICAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCBNLCAzKSBvciAoTSwgMyksIHRyaWFuZ2xlcwogICAgICAgICAgICBmZWF0KG9wdGlvbmFsKSAgLS0gdG9yY2gudGVuc29yLCBzaXplIChCLCBOICxDKSwgZmVhdHVyZXMKICAgICAgICAiIiIKICAgICAgICBkZXZpY2UgPSB2ZXJ0ZXguZGV2aWNlCiAgICAgICAgcnNpemUgPSBpbnQoc2VsZi5yYXN0ZXJpemVfc2l6ZSkKICAgICAgICAjIG5kY19wcm9qID0gc2VsZi5uZGNfcHJvai50byhkZXZpY2UpCiAgICAgICAgIyB0cmFucyB0byBob21vZ2VuZW91cyBjb29yZGluYXRlcyBvZiAzZCB2ZXJ0aWNlcywgdGhlIGRpcmVjdGlvbiBvZiB5IGlzIHRoZSBzYW1lIGFzIHYKICAgICAgICBpZiB2ZXJ0ZXguc2hhcGVbLTFdID09IDM6CiAgICAgICAgICAgIHZlcnRleCA9IHRvcmNoLmNhdChbdmVydGV4LCB0b3JjaC5vbmVzKFsqdmVydGV4LnNoYXBlWzoyXSwgMV0pLnRvKGRldmljZSldLCBkaW09LTEpCiAgICAgICAgICAgIHZlcnRleFsuLi4sIDBdID0gLXZlcnRleFsuLi4sIDBdCgoKICAgICAgICAjIHZlcnRleF9uZGMgPSB2ZXJ0ZXggQCBuZGNfcHJvai50KCkKICAgICAgICBpZiBzZWxmLnJhc3Rlcml6ZXIgaXMgTm9uZToKICAgICAgICAgICAgc2VsZi5yYXN0ZXJpemVyID0gTWVzaFJhc3Rlcml6ZXIoKQogICAgICAgICAgICBwcmludCgiY3JlYXRlIHJhc3Rlcml6ZXIgb24gZGV2aWNlIGN1ZGE6JWQiJWRldmljZS5pbmRleCkKICAgICAgICAKICAgICAgICAjIHJhbmdlcyA9IE5vbmUKICAgICAgICAjIGlmIGlzaW5zdGFuY2UodHJpLCBMaXN0KSBvciBsZW4odHJpLnNoYXBlKSA9PSAzOgogICAgICAgICMgICAgIHZ1bSA9IHZlcnRleF9uZGMuc2hhcGVbMV0KICAgICAgICAjICAgICBmbnVtID0gdG9yY2gudGVuc29yKFtmLnNoYXBlWzBdIGZvciBmIGluIHRyaV0pLnVuc3F1ZWV6ZSgxKS50byhkZXZpY2UpCiAgICAgICAgIyAgICAgZnN0YXJ0aWR4ID0gdG9yY2guY3Vtc3VtKGZudW0sIGRpbT0wKSAtIGZudW0KICAgICAgICAjICAgICByYW5nZXMgPSB0b3JjaC5jYXQoW2ZzdGFydGlkeCwgZm51bV0sIGF4aXM9MSkudHlwZSh0b3JjaC5pbnQzMikuY3B1KCkKICAgICAgICAjICAgICBmb3IgaSBpbiByYW5nZSh0cmkuc2hhcGVbMF0pOgogICAgICAgICMgICAgICAgICB0cmlbaV0gPSB0cmlbaV0gKyBpKnZ1bQogICAgICAgICMgICAgIHZlcnRleF9uZGMgPSB0b3JjaC5jYXQodmVydGV4X25kYywgZGltPTApCiAgICAgICAgIyAgICAgdHJpID0gdG9yY2guY2F0KHRyaSwgZGltPTApCgogICAgICAgICMgZm9yIHJhbmdlX21vZGUgdmV0ZXg6IFtCKk4sIDRdLCB0cmk6IFtCKk0sIDNdLCBmb3IgaW5zdGFuY2VfbW9kZSB2ZXRleDogW0IsIE4sIDRdLCB0cmk6IFtNLCAzXQogICAgICAgIHRyaSA9IHRyaS50eXBlKHRvcmNoLmludDMyKS5jb250aWd1b3VzKCkKCiAgICAgICAgIyByYXN0ZXJpemUKICAgICAgICBjYW1lcmFzID0gRm9WUGVyc3BlY3RpdmVDYW1lcmFzKAogICAgICAgICAgICBkZXZpY2U9ZGV2aWNlLAogICAgICAgICAgICBmb3Y9c2VsZi5mb3YsCiAgICAgICAgICAgIHpuZWFyPXNlbGYuem5lYXIsCiAgICAgICAgICAgIHpmYXI9c2VsZi56ZmFyLAogICAgICAgICkKCiAgICAgICAgcmFzdGVyX3NldHRpbmdzID0gUmFzdGVyaXphdGlvblNldHRpbmdzKAogICAgICAgICAgICBpbWFnZV9zaXplPXJzaXplCiAgICAgICAgKQoKICAgICAgICAjIHByaW50KHZlcnRleC5zaGFwZSwgdHJpLnNoYXBlKQogICAgICAgIG1lc2ggPSBNZXNoZXModmVydGV4LmNvbnRpZ3VvdXMoKVsuLi4sOjNdLCB0cmkudW5zcXVlZXplKDApLnJlcGVhdCgodmVydGV4LnNoYXBlWzBdLDEsMSkpKQoKICAgICAgICBmcmFnbWVudHMgPSBzZWxmLnJhc3Rlcml6ZXIobWVzaCwgY2FtZXJhcyA9IGNhbWVyYXMsIHJhc3Rlcl9zZXR0aW5ncyA9IHJhc3Rlcl9zZXR0aW5ncykKICAgICAgICByYXN0X291dCA9IGZyYWdtZW50cy5waXhfdG9fZmFjZS5zcXVlZXplKC0xKQogICAgICAgIGRlcHRoID0gZnJhZ21lbnRzLnpidWYKCiAgICAgICAgIyByZW5kZXIgZGVwdGgKICAgICAgICBkZXB0aCA9IGRlcHRoLnBlcm11dGUoMCwgMywgMSwgMikKICAgICAgICBtYXNrID0gKHJhc3Rfb3V0ID4gMCkuZmxvYXQoKS51bnNxdWVlemUoMSkKICAgICAgICBkZXB0aCA9IG1hc2sgKiBkZXB0aAogICAgICAgIAoKICAgICAgICBpbWFnZSA9IE5vbmUKICAgICAgICBpZiBmZWF0IGlzIG5vdCBOb25lOgogICAgICAgICAgICBhdHRyaWJ1dGVzID0gZmVhdC5yZXNoYXBlKC0xLDMpW21lc2guZmFjZXNfcGFja2VkKCldCiAgICAgICAgICAgIGltYWdlID0gcHl0b3JjaDNkLm9wcy5pbnRlcnBvbGF0ZV9mYWNlX2F0dHJpYnV0ZXMoZnJhZ21lbnRzLnBpeF90b19mYWNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmcmFnbWVudHMuYmFyeV9jb29yZHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJpYnV0ZXMpCiAgICAgICAgICAgICMgcHJpbnQoaW1hZ2Uuc2hhcGUpCiAgICAgICAgICAgIGltYWdlID0gaW1hZ2Uuc3F1ZWV6ZSgtMikucGVybXV0ZSgwLCAzLCAxLCAyKQogICAgICAgICAgICBpbWFnZSA9IG1hc2sgKiBpbWFnZQogICAgICAgIAogICAgICAgIHJldHVybiBtYXNrLCBkZXB0aCwgaW1hZ2UKCg==
+"""This script is the differentiable renderer for Deep3DFaceRecon_pytorch
+    Attention, antialiasing step is missing in current version.
+"""
+import pytorch3d.ops
+import torch
+import torch.nn.functional as F
+import kornia
+from kornia.geometry.camera import pixel2cam
+import numpy as np
+from typing import List
+from scipy.io import loadmat
+from torch import nn
+
+from pytorch3d.structures import Meshes
+from pytorch3d.renderer import (
+    look_at_view_transform,
+    FoVPerspectiveCameras,
+    DirectionalLights,
+    RasterizationSettings,
+    MeshRenderer,
+    MeshRasterizer,
+    SoftPhongShader,
+    TexturesUV,
+)
+
+# def ndc_projection(x=0.1, n=1.0, f=50.0):
+#     return np.array([[n/x,    0,            0,              0],
+#                      [  0, n/-x,            0,              0],
+#                      [  0,    0, -(f+n)/(f-n), -(2*f*n)/(f-n)],
+#                      [  0,    0,           -1,              0]]).astype(np.float32)
+
+class MeshRenderer(nn.Module):
+    def __init__(self,
+                rasterize_fov,
+                znear=0.1,
+                zfar=10, 
+                rasterize_size=224):
+        super(MeshRenderer, self).__init__()
+
+        # x = np.tan(np.deg2rad(rasterize_fov * 0.5)) * znear
+        # self.ndc_proj = torch.tensor(ndc_projection(x=x, n=znear, f=zfar)).matmul(
+        #         torch.diag(torch.tensor([1., -1, -1, 1])))
+        self.rasterize_size = rasterize_size
+        self.fov = rasterize_fov
+        self.znear = znear
+        self.zfar = zfar
+
+        self.rasterizer = None
+    
+    def forward(self, vertex, tri, feat=None):
+        """
+        Return:
+            mask               -- torch.tensor, size (B, 1, H, W)
+            depth              -- torch.tensor, size (B, 1, H, W)
+            features(optional) -- torch.tensor, size (B, C, H, W) if feat is not None
+
+        Parameters:
+            vertex          -- torch.tensor, size (B, N, 3)
+            tri             -- torch.tensor, size (B, M, 3) or (M, 3), triangles
+            feat(optional)  -- torch.tensor, size (B, N ,C), features
+        """
+        device = vertex.device
+        rsize = int(self.rasterize_size)
+        # ndc_proj = self.ndc_proj.to(device)
+        # trans to homogeneous coordinates of 3d vertices, the direction of y is the same as v
+        if vertex.shape[-1] == 3:
+            vertex = torch.cat([vertex, torch.ones([*vertex.shape[:2], 1]).to(device)], dim=-1)
+            vertex[..., 0] = -vertex[..., 0]
+
+
+        # vertex_ndc = vertex @ ndc_proj.t()
+        if self.rasterizer is None:
+            self.rasterizer = MeshRasterizer()
+            print("create rasterizer on device cuda:%d"%device.index)
+        
+        # ranges = None
+        # if isinstance(tri, List) or len(tri.shape) == 3:
+        #     vum = vertex_ndc.shape[1]
+        #     fnum = torch.tensor([f.shape[0] for f in tri]).unsqueeze(1).to(device)
+        #     fstartidx = torch.cumsum(fnum, dim=0) - fnum
+        #     ranges = torch.cat([fstartidx, fnum], axis=1).type(torch.int32).cpu()
+        #     for i in range(tri.shape[0]):
+        #         tri[i] = tri[i] + i*vum
+        #     vertex_ndc = torch.cat(vertex_ndc, dim=0)
+        #     tri = torch.cat(tri, dim=0)
+
+        # for range_mode vetex: [B*N, 4], tri: [B*M, 3], for instance_mode vetex: [B, N, 4], tri: [M, 3]
+        tri = tri.type(torch.int32).contiguous()
+
+        # rasterize
+        cameras = FoVPerspectiveCameras(
+            device=device,
+            fov=self.fov,
+            znear=self.znear,
+            zfar=self.zfar,
+        )
+
+        raster_settings = RasterizationSettings(
+            image_size=rsize
+        )
+
+        # print(vertex.shape, tri.shape)
+        mesh = Meshes(vertex.contiguous()[...,:3], tri.unsqueeze(0).repeat((vertex.shape[0],1,1)))
+
+        fragments = self.rasterizer(mesh, cameras = cameras, raster_settings = raster_settings)
+        rast_out = fragments.pix_to_face.squeeze(-1)
+        depth = fragments.zbuf
+
+        # render depth
+        depth = depth.permute(0, 3, 1, 2)
+        mask = (rast_out > 0).float().unsqueeze(1)
+        depth = mask * depth
+        
+
+        image = None
+        if feat is not None:
+            attributes = feat.reshape(-1,3)[mesh.faces_packed()]
+            image = pytorch3d.ops.interpolate_face_attributes(fragments.pix_to_face,
+                                                      fragments.bary_coords,
+                                                      attributes)
+            # print(image.shape)
+            image = image.squeeze(-2).permute(0, 3, 1, 2)
+            image = mask * image
+        
+        return mask, depth, image
+

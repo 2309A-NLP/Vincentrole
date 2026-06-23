@@ -1,1 +1,130 @@
-aW1wb3J0IGxvZ2dpbmcKaW1wb3J0IGdsb2IKZnJvbSB0cWRtIGltcG9ydCB0cWRtCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgdG9yY2gKaW1wb3J0IGN2MgoKCmNsYXNzIEZhY2VEZXRlY3RvcihvYmplY3QpOgogICAgIiIiQW4gYWJzdHJhY3QgY2xhc3MgcmVwcmVzZW50aW5nIGEgZmFjZSBkZXRlY3Rvci4KCiAgICBBbnkgb3RoZXIgZmFjZSBkZXRlY3Rpb24gaW1wbGVtZW50YXRpb24gbXVzdCBzdWJjbGFzcyBpdC4gQWxsIHN1YmNsYXNzZXMKICAgIG11c3QgaW1wbGVtZW50IGBgZGV0ZWN0X2Zyb21faW1hZ2VgYCwgdGhhdCByZXR1cm4gYSBsaXN0IG9mIGRldGVjdGVkCiAgICBib3VuZGluZyBib3hlcy4gT3B0aW9uYWxseSwgZm9yIHNwZWVkIGNvbnNpZGVyYXRpb25zIGRldGVjdCBmcm9tIHBhdGggaXMKICAgIHJlY29tbWVuZGVkLgogICAgIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGRldmljZSwgdmVyYm9zZSk6CiAgICAgICAgc2VsZi5kZXZpY2UgPSBkZXZpY2UKICAgICAgICBzZWxmLnZlcmJvc2UgPSB2ZXJib3NlCgogICAgICAgIGlmIHZlcmJvc2U6CiAgICAgICAgICAgIGlmICdjcHUnIGluIGRldmljZToKICAgICAgICAgICAgICAgIGxvZ2dlciA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQogICAgICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoIkRldGVjdGlvbiBydW5uaW5nIG9uIENQVSwgdGhpcyBtYXkgYmUgcG90ZW50aWFsbHkgc2xvdy4iKQoKICAgICAgICBpZiAnY3B1JyBub3QgaW4gZGV2aWNlIGFuZCAnY3VkYScgbm90IGluIGRldmljZToKICAgICAgICAgICAgaWYgdmVyYm9zZToKICAgICAgICAgICAgICAgIGxvZ2dlci5lcnJvcigiRXhwZWN0ZWQgdmFsdWVzIGZvciBkZXZpY2UgYXJlOiB7Y3B1LCBjdWRhfSBidXQgZ290OiAlcyIsIGRldmljZSkKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcgoKICAgIGRlZiBkZXRlY3RfZnJvbV9pbWFnZShzZWxmLCB0ZW5zb3Jfb3JfcGF0aCk6CiAgICAgICAgIiIiRGV0ZWN0cyBmYWNlcyBpbiBhIGdpdmVuIGltYWdlLgoKICAgICAgICBUaGlzIGZ1bmN0aW9uIGRldGVjdHMgdGhlIGZhY2VzIHByZXNlbnQgaW4gYSBwcm92aWRlZCBCR1IodXN1YWxseSkKICAgICAgICBpbWFnZS4gVGhlIGlucHV0IGNhbiBiZSBlaXRoZXIgdGhlIGltYWdlIGl0c2VsZiBvciB0aGUgcGF0aCB0byBpdC4KCiAgICAgICAgQXJndW1lbnRzOgogICAgICAgICAgICB0ZW5zb3Jfb3JfcGF0aCB7bnVtcHkubmRhcnJheSwgdG9yY2gudGVuc29yIG9yIHN0cmluZ30gLS0gdGhlIHBhdGgKICAgICAgICAgICAgdG8gYW4gaW1hZ2Ugb3IgdGhlIGltYWdlIGl0c2VsZi4KCiAgICAgICAgRXhhbXBsZTo6CgogICAgICAgICAgICA+Pj4gcGF0aF90b19pbWFnZSA9ICdkYXRhL2ltYWdlXzAxLmpwZycKICAgICAgICAgICAgLi4uICAgZGV0ZWN0ZWRfZmFjZXMgPSBkZXRlY3RfZnJvbV9pbWFnZShwYXRoX3RvX2ltYWdlKQogICAgICAgICAgICBbQSBsaXN0IG9mIGJvdW5kaW5nIGJveGVzICh4MSwgeTEsIHgyLCB5MildCiAgICAgICAgICAgID4+PiBpbWFnZSA9IGN2Mi5pbXJlYWQocGF0aF90b19pbWFnZSkKICAgICAgICAgICAgLi4uICAgZGV0ZWN0ZWRfZmFjZXMgPSBkZXRlY3RfZnJvbV9pbWFnZShpbWFnZSkKICAgICAgICAgICAgW0EgbGlzdCBvZiBib3VuZGluZyBib3hlcyAoeDEsIHkxLCB4MiwgeTIpXQoKICAgICAgICAiIiIKICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yCgogICAgZGVmIGRldGVjdF9mcm9tX2RpcmVjdG9yeShzZWxmLCBwYXRoLCBleHRlbnNpb25zPVsnLmpwZycsICcucG5nJ10sIHJlY3Vyc2l2ZT1GYWxzZSwgc2hvd19wcm9ncmVzc19iYXI9VHJ1ZSk6CiAgICAgICAgIiIiRGV0ZWN0cyBmYWNlcyBmcm9tIGFsbCB0aGUgaW1hZ2VzIHByZXNlbnQgaW4gYSBnaXZlbiBkaXJlY3RvcnkuCgogICAgICAgIEFyZ3VtZW50czoKICAgICAgICAgICAgcGF0aCB7c3RyaW5nfSAtLSBhIHN0cmluZyBjb250YWluaW5nIGEgcGF0aCB0aGF0IHBvaW50cyB0byB0aGUgZm9sZGVyIGNvbnRhaW5pbmcgdGhlIGltYWdlcwoKICAgICAgICBLZXl3b3JkIEFyZ3VtZW50czoKICAgICAgICAgICAgZXh0ZW5zaW9ucyB7bGlzdH0gLS0gbGlzdCBvZiBzdHJpbmcgY29udGFpbmluZyB0aGUgZXh0ZW5zaW9ucyB0byBiZQogICAgICAgICAgICBjb25zaWRlciBpbiB0aGUgZm9sbG93aW5nIGZvcm1hdDogYGAuZXh0ZW5zaW9uX25hbWVgYCAoZGVmYXVsdDoKICAgICAgICAgICAge1snLmpwZycsICcucG5nJ119KSByZWN1cnNpdmUge2Jvb2x9IC0tIG9wdGlvbiB3aGVyZXZlciB0byBzY2FuIHRoZQogICAgICAgICAgICBmb2xkZXIgcmVjdXJzaXZlbHkgKGRlZmF1bHQ6IHtGYWxzZX0pIHNob3dfcHJvZ3Jlc3NfYmFyIHtib29sfSAtLQogICAgICAgICAgICBkaXNwbGF5IGEgcHJvZ3Jlc3NiYXIgKGRlZmF1bHQ6IHtUcnVlfSkKCiAgICAgICAgRXhhbXBsZToKICAgICAgICA+Pj4gZGlyZWN0b3J5ID0gJ2RhdGEnCiAgICAgICAgLi4uICAgZGV0ZWN0ZWRfZmFjZXMgPSBkZXRlY3RfZnJvbV9kaXJlY3RvcnkoZGlyZWN0b3J5KQogICAgICAgIHtBIGRpY3Rpb25hcnkgb2YgW2xpc3RzIGNvbnRhaW5pbmcgYm91bmRpbmcgYm94ZXMoeDEsIHkxLCB4MiwgeTIpXX0KCiAgICAgICAgIiIiCiAgICAgICAgaWYgc2VsZi52ZXJib3NlOgogICAgICAgICAgICBsb2dnZXIgPSBsb2dnaW5nLmdldExvZ2dlcihfX25hbWVfXykKCiAgICAgICAgaWYgbGVuKGV4dGVuc2lvbnMpID09IDA6CiAgICAgICAgICAgIGlmIHNlbGYudmVyYm9zZToKICAgICAgICAgICAgICAgIGxvZ2dlci5lcnJvcigiRXhwZWN0ZWQgYXQgbGlzdCBvbmUgZXh0ZW5zaW9uLCBidXQgbm9uZSB3YXMgcmVjZWl2ZWQuIikKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcgoKICAgICAgICBpZiBzZWxmLnZlcmJvc2U6CiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJDb25zdHJ1Y3RpbmcgdGhlIGxpc3Qgb2YgaW1hZ2VzLiIpCiAgICAgICAgYWRkaXRpb25hbF9wYXR0ZXJuID0gJy8qKi8qJyBpZiByZWN1cnNpdmUgZWxzZSAnLyonCiAgICAgICAgZmlsZXMgPSBbXQogICAgICAgIGZvciBleHRlbnNpb24gaW4gZXh0ZW5zaW9uczoKICAgICAgICAgICAgZmlsZXMuZXh0ZW5kKGdsb2IuZ2xvYihwYXRoICsgYWRkaXRpb25hbF9wYXR0ZXJuICsgZXh0ZW5zaW9uLCByZWN1cnNpdmU9cmVjdXJzaXZlKSkKCiAgICAgICAgaWYgc2VsZi52ZXJib3NlOgogICAgICAgICAgICBsb2dnZXIuaW5mbygiRmluaXNoZWQgc2VhcmNoaW5nIGZvciBpbWFnZXMuICVzIGltYWdlcyBmb3VuZCIsIGxlbihmaWxlcykpCiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJQcmVwYXJpbmcgdG8gcnVuIHRoZSBkZXRlY3Rpb24uIikKCiAgICAgICAgcHJlZGljdGlvbnMgPSB7fQogICAgICAgIGZvciBpbWFnZV9wYXRoIGluIHRxZG0oZmlsZXMsIGRpc2FibGU9bm90IHNob3dfcHJvZ3Jlc3NfYmFyKToKICAgICAgICAgICAgaWYgc2VsZi52ZXJib3NlOgogICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oIlJ1bm5pbmcgdGhlIGZhY2UgZGV0ZWN0b3Igb24gaW1hZ2U6ICVzIiwgaW1hZ2VfcGF0aCkKICAgICAgICAgICAgcHJlZGljdGlvbnNbaW1hZ2VfcGF0aF0gPSBzZWxmLmRldGVjdF9mcm9tX2ltYWdlKGltYWdlX3BhdGgpCgogICAgICAgIGlmIHNlbGYudmVyYm9zZToKICAgICAgICAgICAgbG9nZ2VyLmluZm8oIlRoZSBkZXRlY3RvciB3YXMgc3VjY2Vzc2Z1bGx5IHJ1biBvbiBhbGwgJXMgaW1hZ2VzIiwgbGVuKGZpbGVzKSkKCiAgICAgICAgcmV0dXJuIHByZWRpY3Rpb25zCgogICAgQHByb3BlcnR5CiAgICBkZWYgcmVmZXJlbmNlX3NjYWxlKHNlbGYpOgogICAgICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IKCiAgICBAcHJvcGVydHkKICAgIGRlZiByZWZlcmVuY2VfeF9zaGlmdChzZWxmKToKICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yCgogICAgQHByb3BlcnR5CiAgICBkZWYgcmVmZXJlbmNlX3lfc2hpZnQoc2VsZik6CiAgICAgICAgcmFpc2UgTm90SW1wbGVtZW50ZWRFcnJvcgoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiB0ZW5zb3Jfb3JfcGF0aF90b19uZGFycmF5KHRlbnNvcl9vcl9wYXRoLCByZ2I9VHJ1ZSk6CiAgICAgICAgIiIiQ29udmVydCBwYXRoIChyZXByZXNlbnRlZCBhcyBhIHN0cmluZykgb3IgdG9yY2gudGVuc29yIHRvIGEgbnVtcHkubmRhcnJheQoKICAgICAgICBBcmd1bWVudHM6CiAgICAgICAgICAgIHRlbnNvcl9vcl9wYXRoIHtudW1weS5uZGFycmF5LCB0b3JjaC50ZW5zb3Igb3Igc3RyaW5nfSAtLSBwYXRoIHRvIHRoZSBpbWFnZSwgb3IgdGhlIGltYWdlIGl0c2VsZgogICAgICAgICIiIgogICAgICAgIGlmIGlzaW5zdGFuY2UodGVuc29yX29yX3BhdGgsIHN0cik6CiAgICAgICAgICAgIHJldHVybiBjdjIuaW1yZWFkKHRlbnNvcl9vcl9wYXRoKSBpZiBub3QgcmdiIGVsc2UgY3YyLmltcmVhZCh0ZW5zb3Jfb3JfcGF0aClbLi4uLCA6Oi0xXQogICAgICAgIGVsaWYgdG9yY2guaXNfdGVuc29yKHRlbnNvcl9vcl9wYXRoKToKICAgICAgICAgICAgIyBDYWxsIGNwdSBpbiBjYXNlIGl0cyBjb21pbmcgZnJvbSBjdWRhCiAgICAgICAgICAgIHJldHVybiB0ZW5zb3Jfb3JfcGF0aC5jcHUoKS5udW1weSgpWy4uLiwgOjotMV0uY29weSgpIGlmIG5vdCByZ2IgZWxzZSB0ZW5zb3Jfb3JfcGF0aC5jcHUoKS5udW1weSgpCiAgICAgICAgZWxpZiBpc2luc3RhbmNlKHRlbnNvcl9vcl9wYXRoLCBucC5uZGFycmF5KToKICAgICAgICAgICAgcmV0dXJuIHRlbnNvcl9vcl9wYXRoWy4uLiwgOjotMV0uY29weSgpIGlmIG5vdCByZ2IgZWxzZSB0ZW5zb3Jfb3JfcGF0aAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJhaXNlIFR5cGVFcnJvcgo=
+import logging
+import glob
+from tqdm import tqdm
+import numpy as np
+import torch
+import cv2
+
+
+class FaceDetector(object):
+    """An abstract class representing a face detector.
+
+    Any other face detection implementation must subclass it. All subclasses
+    must implement ``detect_from_image``, that return a list of detected
+    bounding boxes. Optionally, for speed considerations detect from path is
+    recommended.
+    """
+
+    def __init__(self, device, verbose):
+        self.device = device
+        self.verbose = verbose
+
+        if verbose:
+            if 'cpu' in device:
+                logger = logging.getLogger(__name__)
+                logger.warning("Detection running on CPU, this may be potentially slow.")
+
+        if 'cpu' not in device and 'cuda' not in device:
+            if verbose:
+                logger.error("Expected values for device are: {cpu, cuda} but got: %s", device)
+            raise ValueError
+
+    def detect_from_image(self, tensor_or_path):
+        """Detects faces in a given image.
+
+        This function detects the faces present in a provided BGR(usually)
+        image. The input can be either the image itself or the path to it.
+
+        Arguments:
+            tensor_or_path {numpy.ndarray, torch.tensor or string} -- the path
+            to an image or the image itself.
+
+        Example::
+
+            >>> path_to_image = 'data/image_01.jpg'
+            ...   detected_faces = detect_from_image(path_to_image)
+            [A list of bounding boxes (x1, y1, x2, y2)]
+            >>> image = cv2.imread(path_to_image)
+            ...   detected_faces = detect_from_image(image)
+            [A list of bounding boxes (x1, y1, x2, y2)]
+
+        """
+        raise NotImplementedError
+
+    def detect_from_directory(self, path, extensions=['.jpg', '.png'], recursive=False, show_progress_bar=True):
+        """Detects faces from all the images present in a given directory.
+
+        Arguments:
+            path {string} -- a string containing a path that points to the folder containing the images
+
+        Keyword Arguments:
+            extensions {list} -- list of string containing the extensions to be
+            consider in the following format: ``.extension_name`` (default:
+            {['.jpg', '.png']}) recursive {bool} -- option wherever to scan the
+            folder recursively (default: {False}) show_progress_bar {bool} --
+            display a progressbar (default: {True})
+
+        Example:
+        >>> directory = 'data'
+        ...   detected_faces = detect_from_directory(directory)
+        {A dictionary of [lists containing bounding boxes(x1, y1, x2, y2)]}
+
+        """
+        if self.verbose:
+            logger = logging.getLogger(__name__)
+
+        if len(extensions) == 0:
+            if self.verbose:
+                logger.error("Expected at list one extension, but none was received.")
+            raise ValueError
+
+        if self.verbose:
+            logger.info("Constructing the list of images.")
+        additional_pattern = '/**/*' if recursive else '/*'
+        files = []
+        for extension in extensions:
+            files.extend(glob.glob(path + additional_pattern + extension, recursive=recursive))
+
+        if self.verbose:
+            logger.info("Finished searching for images. %s images found", len(files))
+            logger.info("Preparing to run the detection.")
+
+        predictions = {}
+        for image_path in tqdm(files, disable=not show_progress_bar):
+            if self.verbose:
+                logger.info("Running the face detector on image: %s", image_path)
+            predictions[image_path] = self.detect_from_image(image_path)
+
+        if self.verbose:
+            logger.info("The detector was successfully run on all %s images", len(files))
+
+        return predictions
+
+    @property
+    def reference_scale(self):
+        raise NotImplementedError
+
+    @property
+    def reference_x_shift(self):
+        raise NotImplementedError
+
+    @property
+    def reference_y_shift(self):
+        raise NotImplementedError
+
+    @staticmethod
+    def tensor_or_path_to_ndarray(tensor_or_path, rgb=True):
+        """Convert path (represented as a string) or torch.tensor to a numpy.ndarray
+
+        Arguments:
+            tensor_or_path {numpy.ndarray, torch.tensor or string} -- path to the image, or the image itself
+        """
+        if isinstance(tensor_or_path, str):
+            return cv2.imread(tensor_or_path) if not rgb else cv2.imread(tensor_or_path)[..., ::-1]
+        elif torch.is_tensor(tensor_or_path):
+            # Call cpu in case its coming from cuda
+            return tensor_or_path.cpu().numpy()[..., ::-1].copy() if not rgb else tensor_or_path.cpu().numpy()
+        elif isinstance(tensor_or_path, np.ndarray):
+            return tensor_or_path[..., ::-1].copy() if not rgb else tensor_or_path
+        else:
+            raise TypeError

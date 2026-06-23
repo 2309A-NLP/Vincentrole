@@ -1,1 +1,1 @@
-VGhlIGNvZGUgZm9yIEZhY2UgRGV0ZWN0aW9uIGluIHRoaXMgZm9sZGVyIGhhcyBiZWVuIHRha2VuIGZyb20gdGhlIHdvbmRlcmZ1bCBbZmFjZV9hbGlnbm1lbnRdKGh0dHBzOi8vZ2l0aHViLmNvbS8xYWRyaWFuYi9mYWNlLWFsaWdubWVudCkgcmVwb3NpdG9yeS4gVGhpcyBoYXMgYmVlbiBtb2RpZmllZCB0byB0YWtlIGJhdGNoZXMgb2YgZmFjZXMgYXQgYSB0aW1lLiA=
+The code for Face Detection in this folder has been taken from the wonderful [face_alignment](https://github.com/1adrianb/face-alignment) repository. This has been modified to take batches of faces at a time. 

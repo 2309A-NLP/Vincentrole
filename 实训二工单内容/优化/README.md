@@ -1,1 +1,13 @@
-IyDkvJjljJborrDlvZUKCiMjIOW3sui/m+ihjOeahOS8mOWMlueahAoKMS4gKipXZWJVSSDooaXkuIEqKiAtIHBhdGNoX3dlYnVpLnB5IC8gcGF0Y2gyX3dlYnVpLnB5IOeUqOS6juS/ruWkjSBXZWJVSSDlhbzlrrnmgKfpl67popgKMi4gKirljLvnlpcgUkFHIOmbhuaIkCoqIC0g6YCa6L+HIGJnZS1zbWFsbC16aCDlkJHph4/ljJbljLvnlpfpl67nrZTlupPvvIzlnKggTGlubHktVGFsa2VyIOS4reWunueOsOWMu+eWl+efpeivhuajgOe0ouWinuW8uueUn+aIkAozLiAqKuS4gOmUruWQr+WKqOiEmuacrCoqIC0gc3RhcnRfcmFnLnNoIOaVtOWQiOS6huaJgOaciee7hOS7tu+8jOWQjuWPsOS4gOmUruWQr+WKqAoKIyMg5b6F5LyY5YyW6aG555uuCgotIOaooeWei+WKoOi9vemAn+W6puS8mOWMlgotIOaYvuWtmOWNoOeUqOS8mOWMlgotIOWMu+eWl+mXruetlOWHhuehrueOh+aPkOWNhwotIOWkmui9ruWvueivneS4iuS4i+aWh+euoeeQhgo=
+# 优化记录
+
+## 已进行的优化
+
+1. **WebUI 补丁** - patch_webui.py / patch2_webui.py 用于修复 WebUI 兼容性问题
+2. **医疗 RAG 集成** - 通过 bge-small-zh 向量化医疗问答库
+3. **一键启动脚本** - start_rag.sh 后台一键启动
+
+## 待优化项目
+
+- 模型加载速度优化
+- 显存占用优化
+- 医疗问答准确率提升

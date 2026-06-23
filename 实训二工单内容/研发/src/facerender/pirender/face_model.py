@@ -1,1 +1,178 @@
-aW1wb3J0IGZ1bmN0b29scwppbXBvcnQgdG9yY2gKaW1wb3J0IHRvcmNoLm5uIGFzIG5uCmZyb20gLmJhc2VfZnVuY3Rpb24gaW1wb3J0IExheWVyTm9ybTJkLCBBREFJTkhvdXJnbGFzcywgRmluZUVuY29kZXIsIEZpbmVEZWNvZGVyCgpkZWYgY29udmVydF9mbG93X3RvX2RlZm9ybWF0aW9uKGZsb3cpOgogICAgciIiImNvbnZlcnQgZmxvdyBmaWVsZHMgdG8gZGVmb3JtYXRpb25zLgoKICAgIEFyZ3M6CiAgICAgICAgZmxvdyAodGVuc29yKTogRmxvdyBmaWVsZCBvYnRhaW5lZCBieSB0aGUgbW9kZWwKICAgIFJldHVybnM6CiAgICAgICAgZGVmb3JtYXRpb24gKHRlbnNvcik6IFRoZSBkZWZvcm1hdGlvbiB1c2VkIGZvciB3YXJwcGluZwogICAgIiIiCiAgICBiLGMsaCx3ID0gZmxvdy5zaGFwZQogICAgZmxvd19ub3JtID0gMiAqIHRvcmNoLmNhdChbZmxvd1s6LDoxLC4uLl0vKHctMSksZmxvd1s6LDE6LC4uLl0vKGgtMSldLCAxKQogICAgZ3JpZCA9IG1ha2VfY29vcmRpbmF0ZV9ncmlkKGZsb3cpCiAgICBkZWZvcm1hdGlvbiA9IGdyaWQgKyBmbG93X25vcm0ucGVybXV0ZSgwLDIsMywxKQogICAgcmV0dXJuIGRlZm9ybWF0aW9uCgpkZWYgbWFrZV9jb29yZGluYXRlX2dyaWQoZmxvdyk6CiAgICByIiIib2J0YWluIGNvb3JkaW5hdGUgZ3JpZCB3aXRoIHRoZSBzYW1lIHNpemUgYXMgdGhlIGZsb3cgZmlsZWQuCgogICAgQXJnczoKICAgICAgICBmbG93ICh0ZW5zb3IpOiBGbG93IGZpZWxkIG9idGFpbmVkIGJ5IHRoZSBtb2RlbAogICAgUmV0dXJuczoKICAgICAgICBncmlkICh0ZW5zb3IpOiBUaGUgZ3JpZCB3aXRoIHRoZSBzYW1lIHNpemUgYXMgdGhlIGlucHV0IGZsb3cKICAgICIiIiAgICAKICAgIGIsYyxoLHcgPSBmbG93LnNoYXBlCgogICAgeCA9IHRvcmNoLmFyYW5nZSh3KS50byhmbG93KQogICAgeSA9IHRvcmNoLmFyYW5nZShoKS50byhmbG93KQoKICAgIHggPSAoMiAqICh4IC8gKHcgLSAxKSkgLSAxKQogICAgeSA9ICgyICogKHkgLyAoaCAtIDEpKSAtIDEpCgogICAgeXkgPSB5LnZpZXcoLTEsIDEpLnJlcGVhdCgxLCB3KQogICAgeHggPSB4LnZpZXcoMSwgLTEpLnJlcGVhdChoLCAxKQoKICAgIG1lc2hlZCA9IHRvcmNoLmNhdChbeHgudW5zcXVlZXplXygyKSwgeXkudW5zcXVlZXplXygyKV0sIDIpCiAgICBtZXNoZWQgPSBtZXNoZWQuZXhwYW5kKGIsIC0xLCAtMSwgLTEpCiAgICByZXR1cm4gbWVzaGVkICAgIAoKICAgIApkZWYgd2FycF9pbWFnZShzb3VyY2VfaW1hZ2UsIGRlZm9ybWF0aW9uKToKICAgIHIiIiJ3YXJwIHRoZSBpbnB1dCBpbWFnZSBhY2NvcmRpbmcgdG8gdGhlIGRlZm9ybWF0aW9uCgogICAgQXJnczoKICAgICAgICBzb3VyY2VfaW1hZ2UgKHRlbnNvcik6IHNvdXJjZSBpbWFnZXMgdG8gYmUgd2FycHBlZAogICAgICAgIGRlZm9ybWF0aW9uICh0ZW5zb3IpOiBkZWZvcm1hdGlvbnMgdXNlZCB0byB3YXJwIHRoZSBpbWFnZXM7IHZhbHVlIGluIHJhbmdlICgtMSwgMSkKICAgIFJldHVybnM6CiAgICAgICAgb3V0cHV0ICh0ZW5zb3IpOiB0aGUgd2FycHBlZCBpbWFnZXMKICAgICIiIiAKICAgIF8sIGhfb2xkLCB3X29sZCwgXyA9IGRlZm9ybWF0aW9uLnNoYXBlCiAgICBfLCBfLCBoLCB3ID0gc291cmNlX2ltYWdlLnNoYXBlCiAgICBpZiBoX29sZCAhPSBoIG9yIHdfb2xkICE9IHc6CiAgICAgICAgZGVmb3JtYXRpb24gPSBkZWZvcm1hdGlvbi5wZXJtdXRlKDAsIDMsIDEsIDIpCiAgICAgICAgZGVmb3JtYXRpb24gPSB0b3JjaC5ubi5mdW5jdGlvbmFsLmludGVycG9sYXRlKGRlZm9ybWF0aW9uLCBzaXplPShoLCB3KSwgbW9kZT0nYmlsaW5lYXInKQogICAgICAgIGRlZm9ybWF0aW9uID0gZGVmb3JtYXRpb24ucGVybXV0ZSgwLCAyLCAzLCAxKQogICAgcmV0dXJuIHRvcmNoLm5uLmZ1bmN0aW9uYWwuZ3JpZF9zYW1wbGUoc291cmNlX2ltYWdlLCBkZWZvcm1hdGlvbikgCgoKY2xhc3MgRmFjZUdlbmVyYXRvcihubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsIAogICAgICAgIG1hcHBpbmdfbmV0LCAKICAgICAgICB3YXJwcGluZ19uZXQsIAogICAgICAgIGVkaXRpbmdfbmV0LCAKICAgICAgICBjb21tb24KICAgICAgICApOiAgCiAgICAgICAgc3VwZXIoRmFjZUdlbmVyYXRvciwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYubWFwcGluZ19uZXQgPSBNYXBwaW5nTmV0KCoqbWFwcGluZ19uZXQpCiAgICAgICAgc2VsZi53YXJwcGluZ19uZXQgPSBXYXJwaW5nTmV0KCoqd2FycHBpbmdfbmV0LCAqKmNvbW1vbikKICAgICAgICBzZWxmLmVkaXRpbmdfbmV0ID0gRWRpdGluZ05ldCgqKmVkaXRpbmdfbmV0LCAqKmNvbW1vbikKIAogICAgZGVmIGZvcndhcmQoCiAgICAgICAgc2VsZiwgCiAgICAgICAgaW5wdXRfaW1hZ2UsIAogICAgICAgIGRyaXZpbmdfc291cmNlLCAKICAgICAgICBzdGFnZT1Ob25lCiAgICAgICAgKToKICAgICAgICBpZiBzdGFnZSA9PSAnd2FycCc6CiAgICAgICAgICAgIGRlc2NyaXB0b3IgPSBzZWxmLm1hcHBpbmdfbmV0KGRyaXZpbmdfc291cmNlKQogICAgICAgICAgICBvdXRwdXQgPSBzZWxmLndhcnBwaW5nX25ldChpbnB1dF9pbWFnZSwgZGVzY3JpcHRvcikKICAgICAgICBlbHNlOgogICAgICAgICAgICBkZXNjcmlwdG9yID0gc2VsZi5tYXBwaW5nX25ldChkcml2aW5nX3NvdXJjZSkKICAgICAgICAgICAgb3V0cHV0ID0gc2VsZi53YXJwcGluZ19uZXQoaW5wdXRfaW1hZ2UsIGRlc2NyaXB0b3IpCiAgICAgICAgICAgIG91dHB1dFsnZmFrZV9pbWFnZSddID0gc2VsZi5lZGl0aW5nX25ldChpbnB1dF9pbWFnZSwgb3V0cHV0Wyd3YXJwX2ltYWdlJ10sIGRlc2NyaXB0b3IpCiAgICAgICAgcmV0dXJuIG91dHB1dAoKY2xhc3MgTWFwcGluZ05ldChubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGNvZWZmX25jLCBkZXNjcmlwdG9yX25jLCBsYXllcik6CiAgICAgICAgc3VwZXIoIE1hcHBpbmdOZXQsIHNlbGYpLl9faW5pdF9fKCkKCiAgICAgICAgc2VsZi5sYXllciA9IGxheWVyCiAgICAgICAgbm9ubGluZWFyaXR5ID0gbm4uTGVha3lSZUxVKDAuMSkKCiAgICAgICAgc2VsZi5maXJzdCA9IG5uLlNlcXVlbnRpYWwoCiAgICAgICAgICAgIHRvcmNoLm5uLkNvbnYxZChjb2VmZl9uYywgZGVzY3JpcHRvcl9uYywga2VybmVsX3NpemU9NywgcGFkZGluZz0wLCBiaWFzPVRydWUpKQoKICAgICAgICBmb3IgaSBpbiByYW5nZShsYXllcik6CiAgICAgICAgICAgIG5ldCA9IG5uLlNlcXVlbnRpYWwobm9ubGluZWFyaXR5LAogICAgICAgICAgICAgICAgdG9yY2gubm4uQ29udjFkKGRlc2NyaXB0b3JfbmMsIGRlc2NyaXB0b3JfbmMsIGtlcm5lbF9zaXplPTMsIHBhZGRpbmc9MCwgZGlsYXRpb249MykpCiAgICAgICAgICAgIHNldGF0dHIoc2VsZiwgJ2VuY29kZXInICsgc3RyKGkpLCBuZXQpICAgCgogICAgICAgIHNlbGYucG9vbGluZyA9IG5uLkFkYXB0aXZlQXZnUG9vbDFkKDEpCiAgICAgICAgc2VsZi5vdXRwdXRfbmMgPSBkZXNjcmlwdG9yX25jCgogICAgZGVmIGZvcndhcmQoc2VsZiwgaW5wdXRfM2RtbSk6CiAgICAgICAgb3V0ID0gc2VsZi5maXJzdChpbnB1dF8zZG1tKQogICAgICAgIGZvciBpIGluIHJhbmdlKHNlbGYubGF5ZXIpOgogICAgICAgICAgICBtb2RlbCA9IGdldGF0dHIoc2VsZiwgJ2VuY29kZXInICsgc3RyKGkpKQogICAgICAgICAgICBvdXQgPSBtb2RlbChvdXQpICsgb3V0WzosOiwzOi0zXQogICAgICAgIG91dCA9IHNlbGYucG9vbGluZyhvdXQpCiAgICAgICAgcmV0dXJuIG91dCAgIAoKY2xhc3MgV2FycGluZ05ldChubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsIAogICAgICAgIGltYWdlX25jLCAKICAgICAgICBkZXNjcmlwdG9yX25jLCAKICAgICAgICBiYXNlX25jLCAKICAgICAgICBtYXhfbmMsIAogICAgICAgIGVuY29kZXJfbGF5ZXIsIAogICAgICAgIGRlY29kZXJfbGF5ZXIsIAogICAgICAgIHVzZV9zcGVjdAogICAgICAgICk6CiAgICAgICAgc3VwZXIoIFdhcnBpbmdOZXQsIHNlbGYpLl9faW5pdF9fKCkKCiAgICAgICAgbm9ubGluZWFyaXR5ID0gbm4uTGVha3lSZUxVKDAuMSkKICAgICAgICBub3JtX2xheWVyID0gZnVuY3Rvb2xzLnBhcnRpYWwoTGF5ZXJOb3JtMmQsIGFmZmluZT1UcnVlKSAKICAgICAgICBrd2FyZ3MgPSB7J25vbmxpbmVhcml0eSc6bm9ubGluZWFyaXR5LCAndXNlX3NwZWN0Jzp1c2Vfc3BlY3R9CgogICAgICAgIHNlbGYuZGVzY3JpcHRvcl9uYyA9IGRlc2NyaXB0b3JfbmMgCiAgICAgICAgc2VsZi5ob3VyZ2xhc3MgPSBBREFJTkhvdXJnbGFzcyhpbWFnZV9uYywgc2VsZi5kZXNjcmlwdG9yX25jLCBiYXNlX25jLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhfbmMsIGVuY29kZXJfbGF5ZXIsIGRlY29kZXJfbGF5ZXIsICoqa3dhcmdzKQoKICAgICAgICBzZWxmLmZsb3dfb3V0ID0gbm4uU2VxdWVudGlhbChub3JtX2xheWVyKHNlbGYuaG91cmdsYXNzLm91dHB1dF9uYyksIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vbmxpbmVhcml0eSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBubi5Db252MmQoc2VsZi5ob3VyZ2xhc3Mub3V0cHV0X25jLCAyLCBrZXJuZWxfc2l6ZT03LCBzdHJpZGU9MSwgcGFkZGluZz0zKSkKCiAgICAgICAgc2VsZi5wb29sID0gbm4uQWRhcHRpdmVBdmdQb29sMmQoMSkKCiAgICBkZWYgZm9yd2FyZChzZWxmLCBpbnB1dF9pbWFnZSwgZGVzY3JpcHRvcik6CiAgICAgICAgZmluYWxfb3V0cHV0PXt9CiAgICAgICAgb3V0cHV0ID0gc2VsZi5ob3VyZ2xhc3MoaW5wdXRfaW1hZ2UsIGRlc2NyaXB0b3IpCiAgICAgICAgZmluYWxfb3V0cHV0WydmbG93X2ZpZWxkJ10gPSBzZWxmLmZsb3dfb3V0KG91dHB1dCkKCiAgICAgICAgZGVmb3JtYXRpb24gPSBjb252ZXJ0X2Zsb3dfdG9fZGVmb3JtYXRpb24oZmluYWxfb3V0cHV0WydmbG93X2ZpZWxkJ10pCiAgICAgICAgZmluYWxfb3V0cHV0Wyd3YXJwX2ltYWdlJ10gPSB3YXJwX2ltYWdlKGlucHV0X2ltYWdlLCBkZWZvcm1hdGlvbikKICAgICAgICByZXR1cm4gZmluYWxfb3V0cHV0CgoKY2xhc3MgRWRpdGluZ05ldChubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsIAogICAgICAgIGltYWdlX25jLCAKICAgICAgICBkZXNjcmlwdG9yX25jLCAKICAgICAgICBsYXllciwgCiAgICAgICAgYmFzZV9uYywgCiAgICAgICAgbWF4X25jLCAKICAgICAgICBudW1fcmVzX2Jsb2NrcywgCiAgICAgICAgdXNlX3NwZWN0KTogIAogICAgICAgIHN1cGVyKEVkaXRpbmdOZXQsIHNlbGYpLl9faW5pdF9fKCkKCiAgICAgICAgbm9ubGluZWFyaXR5ID0gbm4uTGVha3lSZUxVKDAuMSkKICAgICAgICBub3JtX2xheWVyID0gZnVuY3Rvb2xzLnBhcnRpYWwoTGF5ZXJOb3JtMmQsIGFmZmluZT1UcnVlKSAKICAgICAgICBrd2FyZ3MgPSB7J25vcm1fbGF5ZXInOm5vcm1fbGF5ZXIsICdub25saW5lYXJpdHknOm5vbmxpbmVhcml0eSwgJ3VzZV9zcGVjdCc6dXNlX3NwZWN0fQogICAgICAgIHNlbGYuZGVzY3JpcHRvcl9uYyA9IGRlc2NyaXB0b3JfbmMKCiAgICAgICAgIyBlbmNvZGVyIHBhcnQKICAgICAgICBzZWxmLmVuY29kZXIgPSBGaW5lRW5jb2RlcihpbWFnZV9uYyoyLCBiYXNlX25jLCBtYXhfbmMsIGxheWVyLCAqKmt3YXJncykKICAgICAgICBzZWxmLmRlY29kZXIgPSBGaW5lRGVjb2RlcihpbWFnZV9uYywgc2VsZi5kZXNjcmlwdG9yX25jLCBiYXNlX25jLCBtYXhfbmMsIGxheWVyLCBudW1fcmVzX2Jsb2NrcywgKiprd2FyZ3MpCgogICAgZGVmIGZvcndhcmQoc2VsZiwgaW5wdXRfaW1hZ2UsIHdhcnBfaW1hZ2UsIGRlc2NyaXB0b3IpOgogICAgICAgIHggPSB0b3JjaC5jYXQoW2lucHV0X2ltYWdlLCB3YXJwX2ltYWdlXSwgMSkKICAgICAgICB4ID0gc2VsZi5lbmNvZGVyKHgpCiAgICAgICAgZ2VuX2ltYWdlID0gc2VsZi5kZWNvZGVyKHgsIGRlc2NyaXB0b3IpCiAgICAgICAgcmV0dXJuIGdlbl9pbWFnZQo=
+import functools
+import torch
+import torch.nn as nn
+from .base_function import LayerNorm2d, ADAINHourglass, FineEncoder, FineDecoder
+
+def convert_flow_to_deformation(flow):
+    r"""convert flow fields to deformations.
+
+    Args:
+        flow (tensor): Flow field obtained by the model
+    Returns:
+        deformation (tensor): The deformation used for warpping
+    """
+    b,c,h,w = flow.shape
+    flow_norm = 2 * torch.cat([flow[:,:1,...]/(w-1),flow[:,1:,...]/(h-1)], 1)
+    grid = make_coordinate_grid(flow)
+    deformation = grid + flow_norm.permute(0,2,3,1)
+    return deformation
+
+def make_coordinate_grid(flow):
+    r"""obtain coordinate grid with the same size as the flow filed.
+
+    Args:
+        flow (tensor): Flow field obtained by the model
+    Returns:
+        grid (tensor): The grid with the same size as the input flow
+    """    
+    b,c,h,w = flow.shape
+
+    x = torch.arange(w).to(flow)
+    y = torch.arange(h).to(flow)
+
+    x = (2 * (x / (w - 1)) - 1)
+    y = (2 * (y / (h - 1)) - 1)
+
+    yy = y.view(-1, 1).repeat(1, w)
+    xx = x.view(1, -1).repeat(h, 1)
+
+    meshed = torch.cat([xx.unsqueeze_(2), yy.unsqueeze_(2)], 2)
+    meshed = meshed.expand(b, -1, -1, -1)
+    return meshed    
+
+    
+def warp_image(source_image, deformation):
+    r"""warp the input image according to the deformation
+
+    Args:
+        source_image (tensor): source images to be warpped
+        deformation (tensor): deformations used to warp the images; value in range (-1, 1)
+    Returns:
+        output (tensor): the warpped images
+    """ 
+    _, h_old, w_old, _ = deformation.shape
+    _, _, h, w = source_image.shape
+    if h_old != h or w_old != w:
+        deformation = deformation.permute(0, 3, 1, 2)
+        deformation = torch.nn.functional.interpolate(deformation, size=(h, w), mode='bilinear')
+        deformation = deformation.permute(0, 2, 3, 1)
+    return torch.nn.functional.grid_sample(source_image, deformation) 
+
+
+class FaceGenerator(nn.Module):
+    def __init__(
+        self, 
+        mapping_net, 
+        warpping_net, 
+        editing_net, 
+        common
+        ):  
+        super(FaceGenerator, self).__init__()
+        self.mapping_net = MappingNet(**mapping_net)
+        self.warpping_net = WarpingNet(**warpping_net, **common)
+        self.editing_net = EditingNet(**editing_net, **common)
+ 
+    def forward(
+        self, 
+        input_image, 
+        driving_source, 
+        stage=None
+        ):
+        if stage == 'warp':
+            descriptor = self.mapping_net(driving_source)
+            output = self.warpping_net(input_image, descriptor)
+        else:
+            descriptor = self.mapping_net(driving_source)
+            output = self.warpping_net(input_image, descriptor)
+            output['fake_image'] = self.editing_net(input_image, output['warp_image'], descriptor)
+        return output
+
+class MappingNet(nn.Module):
+    def __init__(self, coeff_nc, descriptor_nc, layer):
+        super( MappingNet, self).__init__()
+
+        self.layer = layer
+        nonlinearity = nn.LeakyReLU(0.1)
+
+        self.first = nn.Sequential(
+            torch.nn.Conv1d(coeff_nc, descriptor_nc, kernel_size=7, padding=0, bias=True))
+
+        for i in range(layer):
+            net = nn.Sequential(nonlinearity,
+                torch.nn.Conv1d(descriptor_nc, descriptor_nc, kernel_size=3, padding=0, dilation=3))
+            setattr(self, 'encoder' + str(i), net)   
+
+        self.pooling = nn.AdaptiveAvgPool1d(1)
+        self.output_nc = descriptor_nc
+
+    def forward(self, input_3dmm):
+        out = self.first(input_3dmm)
+        for i in range(self.layer):
+            model = getattr(self, 'encoder' + str(i))
+            out = model(out) + out[:,:,3:-3]
+        out = self.pooling(out)
+        return out   
+
+class WarpingNet(nn.Module):
+    def __init__(
+        self, 
+        image_nc, 
+        descriptor_nc, 
+        base_nc, 
+        max_nc, 
+        encoder_layer, 
+        decoder_layer, 
+        use_spect
+        ):
+        super( WarpingNet, self).__init__()
+
+        nonlinearity = nn.LeakyReLU(0.1)
+        norm_layer = functools.partial(LayerNorm2d, affine=True) 
+        kwargs = {'nonlinearity':nonlinearity, 'use_spect':use_spect}
+
+        self.descriptor_nc = descriptor_nc 
+        self.hourglass = ADAINHourglass(image_nc, self.descriptor_nc, base_nc,
+                                       max_nc, encoder_layer, decoder_layer, **kwargs)
+
+        self.flow_out = nn.Sequential(norm_layer(self.hourglass.output_nc), 
+                                      nonlinearity,
+                                      nn.Conv2d(self.hourglass.output_nc, 2, kernel_size=7, stride=1, padding=3))
+
+        self.pool = nn.AdaptiveAvgPool2d(1)
+
+    def forward(self, input_image, descriptor):
+        final_output={}
+        output = self.hourglass(input_image, descriptor)
+        final_output['flow_field'] = self.flow_out(output)
+
+        deformation = convert_flow_to_deformation(final_output['flow_field'])
+        final_output['warp_image'] = warp_image(input_image, deformation)
+        return final_output
+
+
+class EditingNet(nn.Module):
+    def __init__(
+        self, 
+        image_nc, 
+        descriptor_nc, 
+        layer, 
+        base_nc, 
+        max_nc, 
+        num_res_blocks, 
+        use_spect):  
+        super(EditingNet, self).__init__()
+
+        nonlinearity = nn.LeakyReLU(0.1)
+        norm_layer = functools.partial(LayerNorm2d, affine=True) 
+        kwargs = {'norm_layer':norm_layer, 'nonlinearity':nonlinearity, 'use_spect':use_spect}
+        self.descriptor_nc = descriptor_nc
+
+        # encoder part
+        self.encoder = FineEncoder(image_nc*2, base_nc, max_nc, layer, **kwargs)
+        self.decoder = FineDecoder(image_nc, self.descriptor_nc, base_nc, max_nc, layer, num_res_blocks, **kwargs)
+
+    def forward(self, input_image, warp_image, descriptor):
+        x = torch.cat([input_image, warp_image], 1)
+        x = self.encoder(x)
+        gen_image = self.decoder(x, descriptor)
+        return gen_image

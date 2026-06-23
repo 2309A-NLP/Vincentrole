@@ -1,1 +1,137 @@
-aW1wb3J0IG9zCmltcG9ydCB0b3JjaCAKCgpmcm9tIHRxZG0gaW1wb3J0IHRxZG0KCmZyb20gc3JjLnV0aWxzLnZpZGVvaW8gaW1wb3J0IGxvYWRfdmlkZW9fdG9fY3YyCgppbXBvcnQgY3YyCgoKY2xhc3MgR2VuZXJhdG9yV2l0aExlbihvYmplY3QpOgogICAgIiIiIEZyb20gaHR0cHM6Ly9zdGFja292ZXJmbG93LmNvbS9hLzc0NjA5MjkgIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGdlbiwgbGVuZ3RoKToKICAgICAgICBzZWxmLmdlbiA9IGdlbgogICAgICAgIHNlbGYubGVuZ3RoID0gbGVuZ3RoCgogICAgZGVmIF9fbGVuX18oc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYubGVuZ3RoCgogICAgZGVmIF9faXRlcl9fKHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmLmdlbgoKZGVmIGVuaGFuY2VyX2xpc3QoaW1hZ2VzLCBtZXRob2Q9J2dmcGdhbicsIGJnX3Vwc2FtcGxlcj0ncmVhbGVzcmdhbicpOgogICAgZ2VuID0gZW5oYW5jZXJfZ2VuZXJhdG9yX25vX2xlbihpbWFnZXMsIG1ldGhvZD1tZXRob2QsIGJnX3Vwc2FtcGxlcj1iZ191cHNhbXBsZXIpCiAgICByZXR1cm4gbGlzdChnZW4pCgpkZWYgZW5oYW5jZXJfZ2VuZXJhdG9yX3dpdGhfbGVuKGltYWdlcywgbWV0aG9kPSdnZnBnYW4nLCBiZ191cHNhbXBsZXI9J3JlYWxlc3JnYW4nKToKICAgICIiIiBQcm92aWRlIGEgZ2VuZXJhdG9yIHdpdGggYSBfX2xlbl9fIG1ldGhvZCBzbyB0aGF0IGl0IGNhbiBwYXNzZWQgdG8gZnVuY3Rpb25zIHRoYXQKICAgIGNhbGwgbGVuKCkiIiIKCiAgICBpZiBvcy5wYXRoLmlzZmlsZShpbWFnZXMpOiAjIGhhbmRsZSB2aWRlbyB0byBpbWFnZXMKICAgICAgICAjIFRPRE86IENyZWF0ZSBhIGdlbmVyYXRvciB2ZXJzaW9uIG9mIGxvYWRfdmlkZW9fdG9fY3YyCiAgICAgICAgaW1hZ2VzID0gbG9hZF92aWRlb190b19jdjIoaW1hZ2VzKQoKICAgIGdlbiA9IGVuaGFuY2VyX2dlbmVyYXRvcl9ub19sZW4oaW1hZ2VzLCBtZXRob2Q9bWV0aG9kLCBiZ191cHNhbXBsZXI9YmdfdXBzYW1wbGVyKQogICAgZ2VuX3dpdGhfbGVuID0gR2VuZXJhdG9yV2l0aExlbihnZW4sIGxlbihpbWFnZXMpKQogICAgcmV0dXJuIGdlbl93aXRoX2xlbgoKZGVmIGVuaGFuY2VyX2dlbmVyYXRvcl9ub19sZW4oaW1hZ2VzLCBtZXRob2Q9J2dmcGdhbicsIGJnX3Vwc2FtcGxlcj0ncmVhbGVzcmdhbicpOgogICAgIiIiIFByb3ZpZGUgYSBnZW5lcmF0b3IgZnVuY3Rpb24gc28gdGhhdCBhbGwgb2YgdGhlIGVuaGFuY2VkIGltYWdlcyBkb24ndCBuZWVkCiAgICB0byBiZSBzdG9yZWQgaW4gbWVtb3J5IGF0IHRoZSBzYW1lIHRpbWUuIFRoaXMgY2FuIHNhdmUgdG9ucyBvZiBSQU0gY29tcGFyZWQgdG8KICAgIHRoZSBlbmhhbmNlciBmdW5jdGlvbi4gIiIiCiAgICB0cnk6CiAgICAgICAgZnJvbSBnZnBnYW4gaW1wb3J0IEdGUEdBTmVyCiAgICBleGNlcHQgSW1wb3J0RXJyb3I6CiAgICAgICAgcHJpbnQoIkdGUEdBTiBsaWJyYXJ5IG5vdCBmb3VuZC4gSW5zdGFsbGluZy4uLiIpCiAgICAgICAgdHJ5OgogICAgICAgICAgICAjIFVzZSBwaXAgdG8gaW5zdGFsbCB0aGUgbGlicmFyeQogICAgICAgICAgICBpbXBvcnQgc3VicHJvY2VzcwogICAgICAgICAgICBzdWJwcm9jZXNzLmNoZWNrX2NhbGwoWyJwaXAiLCAiaW5zdGFsbCIsICJnZnBnYW4iXSkKICAgICAgICAgICAgCiAgICAgICAgICAgICMgUmV0cnkgdGhlIGltcG9ydCBhZnRlciBpbnN0YWxsYXRpb24KICAgICAgICAgICAgZnJvbSBnZnBnYW4gaW1wb3J0IEdGUEdBTmVyCiAgICAgICAgICAgIHByaW50KCJHRlBHQU4gbGlicmFyeSBpbnN0YWxsZWQgc3VjY2Vzc2Z1bGx5ISIpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBwcmludChmIkZhaWxlZCB0byBpbnN0YWxsIEdGUEdBTiBsaWJyYXJ5LiBFcnJvcjoge2V9IikKICAgICAgICAgICAgIyBIYW5kbGUgdGhlIGVycm9yIG9yIHJhaXNlIGl0IGFnYWluIGlmIG5lZWRlZAogICAgICAgIAogICAgcHJpbnQoJ2ZhY2UgZW5oYW5jZXIuLi4uJykKICAgIGlmIG5vdCBpc2luc3RhbmNlKGltYWdlcywgbGlzdCkgYW5kIG9zLnBhdGguaXNmaWxlKGltYWdlcyk6ICMgaGFuZGxlIHZpZGVvIHRvIGltYWdlcwogICAgICAgIGltYWdlcyA9IGxvYWRfdmlkZW9fdG9fY3YyKGltYWdlcykKCiAgICAjIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSBzZXQgdXAgR0ZQR0FOIHJlc3RvcmVyIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgaWYgIG1ldGhvZCA9PSAnZ2ZwZ2FuJzoKICAgICAgICBhcmNoID0gJ2NsZWFuJwogICAgICAgIGNoYW5uZWxfbXVsdGlwbGllciA9IDIKICAgICAgICBtb2RlbF9uYW1lID0gJ0dGUEdBTnYxLjQnCiAgICAgICAgdXJsID0gJ2h0dHBzOi8vZ2l0aHViLmNvbS9UZW5jZW50QVJDL0dGUEdBTi9yZWxlYXNlcy9kb3dubG9hZC92MS4zLjAvR0ZQR0FOdjEuNC5wdGgnCiAgICBlbGlmIG1ldGhvZCA9PSAnUmVzdG9yZUZvcm1lcic6CiAgICAgICAgYXJjaCA9ICdSZXN0b3JlRm9ybWVyJwogICAgICAgIGNoYW5uZWxfbXVsdGlwbGllciA9IDIKICAgICAgICBtb2RlbF9uYW1lID0gJ1Jlc3RvcmVGb3JtZXInCiAgICAgICAgdXJsID0gJ2h0dHBzOi8vZ2l0aHViLmNvbS9UZW5jZW50QVJDL0dGUEdBTi9yZWxlYXNlcy9kb3dubG9hZC92MS4zLjQvUmVzdG9yZUZvcm1lci5wdGgnCiAgICBlbGlmIG1ldGhvZCA9PSAnY29kZWZvcm1lcic6ICMgVE9ETzoKICAgICAgICBhcmNoID0gJ0NvZGVGb3JtZXInCiAgICAgICAgY2hhbm5lbF9tdWx0aXBsaWVyID0gMgogICAgICAgIG1vZGVsX25hbWUgPSAnQ29kZUZvcm1lcicKICAgICAgICB1cmwgPSAnaHR0cHM6Ly9naXRodWIuY29tL3NjemhvdS9Db2RlRm9ybWVyL3JlbGVhc2VzL2Rvd25sb2FkL3YwLjEuMC9jb2RlZm9ybWVyLnB0aCcKICAgIGVsc2U6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmJ1dyb25nIG1vZGVsIHZlcnNpb24ge21ldGhvZH0uJykKCgogICAgIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gc2V0IHVwIGJhY2tncm91bmQgdXBzYW1wbGVyIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgaWYgYmdfdXBzYW1wbGVyID09ICdyZWFsZXNyZ2FuJzoKICAgICAgICBpZiBub3QgdG9yY2guY3VkYS5pc19hdmFpbGFibGUoKTogICMgQ1BVCiAgICAgICAgICAgIGltcG9ydCB3YXJuaW5ncwogICAgICAgICAgICB3YXJuaW5ncy53YXJuKCdUaGUgdW5vcHRpbWl6ZWQgUmVhbEVTUkdBTiBpcyBzbG93IG9uIENQVS4gV2UgZG8gbm90IHVzZSBpdC4gJwogICAgICAgICAgICAgICAgICAgICAgICAgICdJZiB5b3UgcmVhbGx5IHdhbnQgdG8gdXNlIGl0LCBwbGVhc2UgbW9kaWZ5IHRoZSBjb3JyZXNwb25kaW5nIGNvZGVzLicpCiAgICAgICAgICAgIGJnX3Vwc2FtcGxlciA9IE5vbmUKICAgICAgICBlbHNlOgogICAgICAgICAgICBmcm9tIGJhc2ljc3IuYXJjaHMucnJkYm5ldF9hcmNoIGltcG9ydCBSUkRCTmV0CiAgICAgICAgICAgIGZyb20gcmVhbGVzcmdhbiBpbXBvcnQgUmVhbEVTUkdBTmVyCiAgICAgICAgICAgIG1vZGVsID0gUlJEQk5ldChudW1faW5fY2g9MywgbnVtX291dF9jaD0zLCBudW1fZmVhdD02NCwgbnVtX2Jsb2NrPTIzLCBudW1fZ3Jvd19jaD0zMiwgc2NhbGU9MikKICAgICAgICAgICAgYmdfdXBzYW1wbGVyID0gUmVhbEVTUkdBTmVyKAogICAgICAgICAgICAgICAgc2NhbGU9MiwKICAgICAgICAgICAgICAgIG1vZGVsX3BhdGg9J2h0dHBzOi8vZ2l0aHViLmNvbS94aW5udGFvL1JlYWwtRVNSR0FOL3JlbGVhc2VzL2Rvd25sb2FkL3YwLjIuMS9SZWFsRVNSR0FOX3gycGx1cy5wdGgnLAogICAgICAgICAgICAgICAgbW9kZWw9bW9kZWwsCiAgICAgICAgICAgICAgICB0aWxlPTQwMCwKICAgICAgICAgICAgICAgIHRpbGVfcGFkPTEwLAogICAgICAgICAgICAgICAgcHJlX3BhZD0wLAogICAgICAgICAgICAgICAgaGFsZj1UcnVlKSAgIyBuZWVkIHRvIHNldCBGYWxzZSBpbiBDUFUgbW9kZQogICAgZWxzZToKICAgICAgICBiZ191cHNhbXBsZXIgPSBOb25lCgogICAgIyBkZXRlcm1pbmUgbW9kZWwgcGF0aHMKICAgIG1vZGVsX3BhdGggPSBvcy5wYXRoLmpvaW4oJ2dmcGdhbi93ZWlnaHRzJywgbW9kZWxfbmFtZSArICcucHRoJykKICAgIAogICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKG1vZGVsX3BhdGgpOgogICAgICAgIG1vZGVsX3BhdGggPSBvcy5wYXRoLmpvaW4oJ2NoZWNrcG9pbnRzJywgbW9kZWxfbmFtZSArICcucHRoJykKICAgIAogICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKG1vZGVsX3BhdGgpOgogICAgICAgICMgZG93bmxvYWQgcHJlLXRyYWluZWQgbW9kZWxzIGZyb20gdXJsCiAgICAgICAgbW9kZWxfcGF0aCA9IHVybAoKICAgIHJlc3RvcmVyID0gR0ZQR0FOZXIoCiAgICAgICAgbW9kZWxfcGF0aD1tb2RlbF9wYXRoLAogICAgICAgIHVwc2NhbGU9MiwKICAgICAgICBhcmNoPWFyY2gsCiAgICAgICAgY2hhbm5lbF9tdWx0aXBsaWVyPWNoYW5uZWxfbXVsdGlwbGllciwKICAgICAgICBiZ191cHNhbXBsZXI9YmdfdXBzYW1wbGVyKQoKICAgICMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHJlc3RvcmUgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICBmb3IgaWR4IGluIHRxZG0ocmFuZ2UobGVuKGltYWdlcykpLCAnRmFjZSBFbmhhbmNlcjonKToKICAgICAgICAKICAgICAgICBpbWcgPSBjdjIuY3Z0Q29sb3IoaW1hZ2VzW2lkeF0sIGN2Mi5DT0xPUl9SR0IyQkdSKQogICAgICAgIAogICAgICAgICMgcmVzdG9yZSBmYWNlcyBhbmQgYmFja2dyb3VuZCBpZiBuZWNlc3NhcnkKICAgICAgICBjcm9wcGVkX2ZhY2VzLCByZXN0b3JlZF9mYWNlcywgcl9pbWcgPSByZXN0b3Jlci5lbmhhbmNlKAogICAgICAgICAgICBpbWcsCiAgICAgICAgICAgIGhhc19hbGlnbmVkPUZhbHNlLAogICAgICAgICAgICBvbmx5X2NlbnRlcl9mYWNlPUZhbHNlLAogICAgICAgICAgICBwYXN0ZV9iYWNrPVRydWUpCiAgICAgICAgCiAgICAgICAgcl9pbWcgPSBjdjIuY3Z0Q29sb3Iocl9pbWcsIGN2Mi5DT0xPUl9CR1IyUkdCKQogICAgICAgIHlpZWxkIHJfaW1nCg==
+import os
+import torch 
+
+
+from tqdm import tqdm
+
+from src.utils.videoio import load_video_to_cv2
+
+import cv2
+
+
+class GeneratorWithLen(object):
+    """ From https://stackoverflow.com/a/7460929 """
+
+    def __init__(self, gen, length):
+        self.gen = gen
+        self.length = length
+
+    def __len__(self):
+        return self.length
+
+    def __iter__(self):
+        return self.gen
+
+def enhancer_list(images, method='gfpgan', bg_upsampler='realesrgan'):
+    gen = enhancer_generator_no_len(images, method=method, bg_upsampler=bg_upsampler)
+    return list(gen)
+
+def enhancer_generator_with_len(images, method='gfpgan', bg_upsampler='realesrgan'):
+    """ Provide a generator with a __len__ method so that it can passed to functions that
+    call len()"""
+
+    if os.path.isfile(images): # handle video to images
+        # TODO: Create a generator version of load_video_to_cv2
+        images = load_video_to_cv2(images)
+
+    gen = enhancer_generator_no_len(images, method=method, bg_upsampler=bg_upsampler)
+    gen_with_len = GeneratorWithLen(gen, len(images))
+    return gen_with_len
+
+def enhancer_generator_no_len(images, method='gfpgan', bg_upsampler='realesrgan'):
+    """ Provide a generator function so that all of the enhanced images don't need
+    to be stored in memory at the same time. This can save tons of RAM compared to
+    the enhancer function. """
+    try:
+        from gfpgan import GFPGANer
+    except ImportError:
+        print("GFPGAN library not found. Installing...")
+        try:
+            # Use pip to install the library
+            import subprocess
+            subprocess.check_call(["pip", "install", "gfpgan"])
+            
+            # Retry the import after installation
+            from gfpgan import GFPGANer
+            print("GFPGAN library installed successfully!")
+        except Exception as e:
+            print(f"Failed to install GFPGAN library. Error: {e}")
+            # Handle the error or raise it again if needed
+        
+    print('face enhancer....')
+    if not isinstance(images, list) and os.path.isfile(images): # handle video to images
+        images = load_video_to_cv2(images)
+
+    # ------------------------ set up GFPGAN restorer ------------------------
+    if  method == 'gfpgan':
+        arch = 'clean'
+        channel_multiplier = 2
+        model_name = 'GFPGANv1.4'
+        url = 'https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth'
+    elif method == 'RestoreFormer':
+        arch = 'RestoreFormer'
+        channel_multiplier = 2
+        model_name = 'RestoreFormer'
+        url = 'https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/RestoreFormer.pth'
+    elif method == 'codeformer': # TODO:
+        arch = 'CodeFormer'
+        channel_multiplier = 2
+        model_name = 'CodeFormer'
+        url = 'https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth'
+    else:
+        raise ValueError(f'Wrong model version {method}.')
+
+
+    # ------------------------ set up background upsampler ------------------------
+    if bg_upsampler == 'realesrgan':
+        if not torch.cuda.is_available():  # CPU
+            import warnings
+            warnings.warn('The unoptimized RealESRGAN is slow on CPU. We do not use it. '
+                          'If you really want to use it, please modify the corresponding codes.')
+            bg_upsampler = None
+        else:
+            from basicsr.archs.rrdbnet_arch import RRDBNet
+            from realesrgan import RealESRGANer
+            model = RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32, scale=2)
+            bg_upsampler = RealESRGANer(
+                scale=2,
+                model_path='https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth',
+                model=model,
+                tile=400,
+                tile_pad=10,
+                pre_pad=0,
+                half=True)  # need to set False in CPU mode
+    else:
+        bg_upsampler = None
+
+    # determine model paths
+    model_path = os.path.join('gfpgan/weights', model_name + '.pth')
+    
+    if not os.path.isfile(model_path):
+        model_path = os.path.join('checkpoints', model_name + '.pth')
+    
+    if not os.path.isfile(model_path):
+        # download pre-trained models from url
+        model_path = url
+
+    restorer = GFPGANer(
+        model_path=model_path,
+        upscale=2,
+        arch=arch,
+        channel_multiplier=channel_multiplier,
+        bg_upsampler=bg_upsampler)
+
+    # ------------------------ restore ------------------------
+    for idx in tqdm(range(len(images)), 'Face Enhancer:'):
+        
+        img = cv2.cvtColor(images[idx], cv2.COLOR_RGB2BGR)
+        
+        # restore faces and background if necessary
+        cropped_faces, restored_faces, r_img = restorer.enhance(
+            img,
+            has_aligned=False,
+            only_center_face=False,
+            paste_back=True)
+        
+        r_img = cv2.cvtColor(r_img, cv2.COLOR_BGR2RGB)
+        yield r_img

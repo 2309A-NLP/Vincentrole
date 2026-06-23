@@ -1,1 +1,78 @@
-ZnJvbSB0cmFuc2Zvcm1lcnMgaW1wb3J0IEF1dG9Nb2RlbEZvckNhdXNhbExNLCBBdXRvVG9rZW5pemVyCgpjbGFzcyBMTE1UZW1wbGF0ZToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBtb2RlbF9uYW1lX29yX3BhdGgsIG1vZGU9J29mZmxpbmUnKToKICAgICAgICAiIiIKICAgICAgICDliJ3lp4vljJZMTE3mqKHmnb8KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgbW9kZWxfbmFtZV9vcl9wYXRoIChzdHIpOiDmqKHlnovlkI3np7DmiJbot6/lvoQKICAgICAgICAgICAgbW9kZSAoc3RyLCBvcHRpb25hbCk6IOaooeW8j++8jCdvZmZsaW5lJ+ihqOekuuemu+e6v+aooeW8j++8jCdhcGkn6KGo56S65L2/55SoQVBJ5qih5byP44CC6buY6K6k5Li6J29mZmxpbmUn44CCCiAgICAgICAgIiIiCiAgICAgICAgc2VsZi5tb2RlID0gbW9kZQogICAgICAgICMg5qih5Z6L5Yid5aeL5YyWCiAgICAgICAgc2VsZi5tb2RlbCwgc2VsZi50b2tlbml6ZXIgPSBzZWxmLmluaXRfbW9kZWwobW9kZWxfbmFtZV9vcl9wYXRoKQogICAgICAgIHNlbGYuaGlzdG9yeSA9IE5vbmUKICAgIAogICAgZGVmIGluaXRfbW9kZWwoc2VsZiwgbW9kZWxfbmFtZV9vcl9wYXRoKToKICAgICAgICAiIiIKICAgICAgICDliJ3lp4vljJbor63oqIDmqKHlnosKCiAgICAgICAgQXJnczoKICAgICAgICAgICAgbW9kZWxfbmFtZV9vcl9wYXRoIChzdHIpOiDmqKHlnovlkI3np7DmiJbot6/lvoQKCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgbW9kZWw6IOWKoOi9veeahOivreiogOaooeWeiwogICAgICAgICAgICB0b2tlbml6ZXI6IOWKoOi9veeahHRva2VuaXplcgogICAgICAgICIiIgogICAgICAgICMgVE9ETzog5qih5Z6L5Yqg6L29CiAgICAgICAgbW9kZWwgPSBBdXRvTW9kZWxGb3JDYXVzYWxMTS5mcm9tX3ByZXRyYWluZWQobW9kZWxfbmFtZV9vcl9wYXRoLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXZpY2VfbWFwPSJhdXRvIiwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ1c3RfcmVtb3RlX2NvZGU9VHJ1ZSkuZXZhbCgpCiAgICAgICAgdG9rZW5pemVyID0gQXV0b1Rva2VuaXplci5mcm9tX3ByZXRyYWluZWQobW9kZWxfbmFtZV9vcl9wYXRoLCB0cnVzdF9yZW1vdGVfY29kZT1UcnVlKQogICAgICAgIHJldHVybiBtb2RlbCwgdG9rZW5pemVyICAgCiAgICAKICAgIGRlZiBnZW5lcmF0ZShzZWxmLCBwcm9tcHQsIHN5c3RlbV9wcm9tcHQ9IiIpOgogICAgICAgICIiIgogICAgICAgIOeUn+aIkOWvueivneWTjeW6lAoKICAgICAgICBBcmdzOgogICAgICAgICAgICBwcm9tcHQgKHN0cik6IOWvueivneeahOaPkOekugogICAgICAgICAgICBzeXN0ZW1fcHJvbXB0IChzdHIsIG9wdGlvbmFsKTog57O757uf5o+Q56S644CC6buY6K6k5Li6IiLjgIIKCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgc3RyOiDlr7nor53lk43lupQKICAgICAgICAiIiIKICAgICAgICAjIFRPRE86IOaooeWei+mihOa1iwogICAgICAgICMg6L+Z5LiA5Z2X6ZyA6KaB5bCk5YW25rOo5oSP77yM6L+Z6YeM55qE5qih5p2/5piv5YCf6Ym05LqGSHVnZ2luZ0ZhY2XkuIrnmoTkuIDkupvmjqjnkIbmqKHmnb/vvIzpnIDopoHmoLnmja7oh6rlt7HnmoTmqKHlnovov5vooYzosIPmlbQKICAgICAgICAjIOi/memHjOeahOaooeadv+S4u+imgeaYr+S4uuS6huaWueS+v+iwg+ivle+8jOWboOS4uuaooeWei+mihOa1i+eahOaXtuWAme+8jOS8muacieW+iOWkmuS4jeWQjOeahOi+k+WFpe+8jOaJgOS7peWPr+S7peagueaNruiHquW3seeahOaooeWei+i/m+ihjOiwg+aVtAogICAgICAgIGlmIHNlbGYubW9kZSAhPSAnYXBpJzoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcmVzcG9uc2UsIHNlbGYuaGlzdG9yeSA9IHNlbGYubW9kZWwuY2hhdChzZWxmLnRva2VuaXplciwgcHJvbXB0LCBoaXN0b3J5PXNlbGYuaGlzdG9yeSwgc3lzdGVtID0gc3lzdGVtX3Byb21wdCkKICAgICAgICAgICAgICAgIHJldHVybiByZXNwb25zZQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgICAgICBwcmludChlKQogICAgICAgICAgICAgICAgcmV0dXJuICLlr7nkuI3otbfvvIzkvaDnmoTor7fmsYLlh7rplJnkuobvvIzor7flho3mrKHlsJ3or5XjgIJcblNvcnJ5LCB5b3VyIHJlcXVlc3QgaGFzIGVuY291bnRlcmVkIGFuIGVycm9yLiBQbGVhc2UgdHJ5IGFnYWluLlxuIgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBzZWxmLnByZWRpY3RfYXBpKHByb21wdCkKICAgIAogICAgZGVmIHByZWRpY3RfYXBpKHNlbGYsIHByb21wdCk6CiAgICAgICAgIiIiCiAgICAgICAg5L2/55SoQVBJ6aKE5rWL5a+56K+d5ZON5bqUCgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIHByb21wdCAoc3RyKTog5a+56K+d55qE5o+Q56S6CgogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIHN0cjog5a+56K+d5ZON5bqUCiAgICAgICAgIiIiCiAgICAgICAgJycn5pqC5pe25LiN5YaZYXBp54mI5pysLOS4jkxpbmx5LWFwaeebuOexu+S8vCzmhJ/lhbTotqPlj6/ku6Xlrp7njrDkuIDkuIsnJycKICAgICAgICBwYXNzIAogICAgCiAgICBkZWYgY2hhdChzZWxmLCBzeXN0ZW1fcHJvbXB0LCBtZXNzYWdlKToKICAgICAgICByZXNwb25zZSA9IHNlbGYuZ2VuZXJhdGUobWVzc2FnZSwgc3lzdGVtX3Byb21wdCkKICAgICAgICBzZWxmLmhpc3RvcnkuYXBwZW5kKChtZXNzYWdlLCByZXNwb25zZSkpCiAgICAgICAgcmV0dXJuIHJlc3BvbnNlLCBzZWxmLmhpc3RvcnkKICAgIAogICAgZGVmIGNsZWFyX2hpc3Rvcnkoc2VsZik6CiAgICAgICAgc2VsZi5oaXN0b3J5ID0gW10K
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+class LLMTemplate:
+    def __init__(self, model_name_or_path, mode='offline'):
+        """
+        初始化LLM模板
+
+        Args:
+            model_name_or_path (str): 模型名称或路径
+            mode (str, optional): 模式，'offline'表示离线模式，'api'表示使用API模式。默认为'offline'。
+        """
+        self.mode = mode
+        # 模型初始化
+        self.model, self.tokenizer = self.init_model(model_name_or_path)
+        self.history = None
+    
+    def init_model(self, model_name_or_path):
+        """
+        初始化语言模型
+
+        Args:
+            model_name_or_path (str): 模型名称或路径
+
+        Returns:
+            model: 加载的语言模型
+            tokenizer: 加载的tokenizer
+        """
+        # TODO: 模型加载
+        model = AutoModelForCausalLM.from_pretrained(model_name_or_path, 
+                                                     device_map="auto", 
+                                                     trust_remote_code=True).eval()
+        tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, trust_remote_code=True)
+        return model, tokenizer   
+    
+    def generate(self, prompt, system_prompt=""):
+        """
+        生成对话响应
+
+        Args:
+            prompt (str): 对话的提示
+            system_prompt (str, optional): 系统提示。默认为""。
+
+        Returns:
+            str: 对话响应
+        """
+        # TODO: 模型预测
+        # 这一块需要尤其注意，这里的模板是借鉴了HuggingFace上的一些推理模板，需要根据自己的模型进行调整
+        # 这里的模板主要是为了方便调试，因为模型预测的时候，会有很多不同的输入，所以可以根据自己的模型进行调整
+        if self.mode != 'api':
+            try:
+                response, self.history = self.model.chat(self.tokenizer, prompt, history=self.history, system = system_prompt)
+                return response
+            except Exception as e:
+                print(e)
+                return "对不起，你的请求出错了，请再次尝试。\nSorry, your request has encountered an error. Please try again.\n"
+        else:
+            return self.predict_api(prompt)
+    
+    def predict_api(self, prompt):
+        """
+        使用API预测对话响应
+
+        Args:
+            prompt (str): 对话的提示
+
+        Returns:
+            str: 对话响应
+        """
+        '''暂时不写api版本,与Linly-api相类似,感兴趣可以实现一下'''
+        pass 
+    
+    def chat(self, system_prompt, message):
+        response = self.generate(message, system_prompt)
+        self.history.append((message, response))
+        return response, self.history
+    
+    def clear_history(self):
+        self.history = []

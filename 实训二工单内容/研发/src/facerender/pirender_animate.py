@@ -1,1 +1,130 @@
-aW1wb3J0IG9zCmltcG9ydCBjdjIKZnJvbSB0cWRtIGltcG9ydCB0cWRtCmltcG9ydCB5YW1sCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgd2FybmluZ3MKZnJvbSBza2ltYWdlIGltcG9ydCBpbWdfYXNfdWJ5dGUKaW1wb3J0IHNhZmV0ZW5zb3JzCmltcG9ydCBzYWZldGVuc29ycy50b3JjaCAKd2FybmluZ3MuZmlsdGVyd2FybmluZ3MoJ2lnbm9yZScpCgoKaW1wb3J0IGltYWdlaW8KaW1wb3J0IHRvcmNoCgpmcm9tIHNyYy5mYWNlcmVuZGVyLnBpcmVuZGVyLmNvbmZpZyBpbXBvcnQgQ29uZmlnCmZyb20gc3JjLmZhY2VyZW5kZXIucGlyZW5kZXIuZmFjZV9tb2RlbCBpbXBvcnQgRmFjZUdlbmVyYXRvcgoKZnJvbSBweWR1YiBpbXBvcnQgQXVkaW9TZWdtZW50IApmcm9tIHNyYy51dGlscy5mYWNlX2VuaGFuY2VyIGltcG9ydCBlbmhhbmNlcl9nZW5lcmF0b3Jfd2l0aF9sZW4sIGVuaGFuY2VyX2xpc3QKZnJvbSBzcmMudXRpbHMucGFzdGVfcGljIGltcG9ydCBwYXN0ZV9waWMKZnJvbSBzcmMudXRpbHMudmlkZW9pbyBpbXBvcnQgc2F2ZV92aWRlb193aXRoX3dhdGVybWFyawoKdHJ5OgogICAgaW1wb3J0IHdlYnVpICAjIGluIHdlYnVpCiAgICBpbl93ZWJ1aSA9IFRydWUKZXhjZXB0OgogICAgaW5fd2VidWkgPSBGYWxzZQoKY2xhc3MgQW5pbWF0ZUZyb21Db2VmZl9QSVJlbmRlcigpOgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzYWR0YWxrZXJfcGF0aCwgZGV2aWNlKToKCiAgICAgICAgb3B0ID0gQ29uZmlnKHNhZHRhbGtlcl9wYXRoWydwaXJlbmRlcl95YW1sX3BhdGgnXSwgTm9uZSwgaXNfdHJhaW49RmFsc2UpCiAgICAgICAgb3B0LmRldmljZSA9IGRldmljZQogICAgICAgIHNlbGYubmV0X0dfZW1hID0gRmFjZUdlbmVyYXRvcigqKm9wdC5nZW4ucGFyYW0pLnRvKG9wdC5kZXZpY2UpCiAgICAgICAgY2hlY2twb2ludF9wYXRoID0gc2FkdGFsa2VyX3BhdGhbJ3BpcmVuZGVyX2NoZWNrcG9pbnQnXQogICAgICAgIGNoZWNrcG9pbnQgPSB0b3JjaC5sb2FkKGNoZWNrcG9pbnRfcGF0aCwgbWFwX2xvY2F0aW9uPWxhbWJkYSBzdG9yYWdlLCBsb2M6IHN0b3JhZ2UpCiAgICAgICAgc2VsZi5uZXRfR19lbWEubG9hZF9zdGF0ZV9kaWN0KGNoZWNrcG9pbnRbJ25ldF9HX2VtYSddLCBzdHJpY3Q9RmFsc2UpCiAgICAgICAgcHJpbnQoJ2xvYWQgW25ldF9HXSBhbmQgW25ldF9HX2VtYV0gZnJvbSB7fScuZm9ybWF0KGNoZWNrcG9pbnRfcGF0aCkpCiAgICAgICAgc2VsZi5uZXRfRyA9IHNlbGYubmV0X0dfZW1hLmV2YWwoKQogICAgICAgIHNlbGYuZGV2aWNlID0gZGV2aWNlCiAgICAKCiAgICBkZWYgZ2VuZXJhdGUoc2VsZiwgeCwgdmlkZW9fc2F2ZV9kaXIsIHBpY19wYXRoLCBjcm9wX2luZm8sIGVuaGFuY2VyPU5vbmUsIGJhY2tncm91bmRfZW5oYW5jZXI9Tm9uZSwgcHJlcHJvY2Vzcz0nY3JvcCcsIGltZ19zaXplPTI1Nik6CgogICAgICAgIHNvdXJjZV9pbWFnZT14Wydzb3VyY2VfaW1hZ2UnXS50eXBlKHRvcmNoLkZsb2F0VGVuc29yKQogICAgICAgIHNvdXJjZV9zZW1hbnRpY3M9eFsnc291cmNlX3NlbWFudGljcyddLnR5cGUodG9yY2guRmxvYXRUZW5zb3IpCiAgICAgICAgdGFyZ2V0X3NlbWFudGljcz14Wyd0YXJnZXRfc2VtYW50aWNzX2xpc3QnXS50eXBlKHRvcmNoLkZsb2F0VGVuc29yKSAKICAgICAgICBzb3VyY2VfaW1hZ2U9c291cmNlX2ltYWdlLnRvKHNlbGYuZGV2aWNlKQogICAgICAgIHNvdXJjZV9zZW1hbnRpY3M9c291cmNlX3NlbWFudGljcy50byhzZWxmLmRldmljZSkKICAgICAgICB0YXJnZXRfc2VtYW50aWNzPXRhcmdldF9zZW1hbnRpY3MudG8oc2VsZi5kZXZpY2UpCiAgICAgICAgZnJhbWVfbnVtID0geFsnZnJhbWVfbnVtJ10KICAgICAgICAKICAgICAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICAgICAgcHJlZGljdGlvbnNfdmlkZW8gPSBbXQogICAgICAgICAgICBmb3IgaSBpbiB0cWRtKHJhbmdlKHRhcmdldF9zZW1hbnRpY3Muc2hhcGVbMV0pLCAnRmFjZVJlbmRlcjonKToKICAgICAgICAgICAgICAgICBwcmVkaWN0aW9uc192aWRlby5hcHBlbmQoc2VsZi5uZXRfRyhzb3VyY2VfaW1hZ2UsIHRhcmdldF9zZW1hbnRpY3NbOiwgaV0pWydmYWtlX2ltYWdlJ10pCiAgICAgICAgCiAgICAgICAgcHJlZGljdGlvbnNfdmlkZW8gPSB0b3JjaC5zdGFjayhwcmVkaWN0aW9uc192aWRlbywgZGltPTEpCiAgICAgICAgcHJlZGljdGlvbnNfdmlkZW8gPSBwcmVkaWN0aW9uc192aWRlby5yZXNoYXBlKCgtMSwpK3ByZWRpY3Rpb25zX3ZpZGVvLnNoYXBlWzI6XSkKCiAgICAgICAgdmlkZW8gPSBbXQogICAgICAgIGZvciBpZHggaW4gcmFuZ2UobGVuKHByZWRpY3Rpb25zX3ZpZGVvKSk6CiAgICAgICAgICAgIGltYWdlID0gcHJlZGljdGlvbnNfdmlkZW9baWR4XQogICAgICAgICAgICBpbWFnZSA9IG5wLnRyYW5zcG9zZShpbWFnZS5kYXRhLmNwdSgpLm51bXB5KCksIFsxLCAyLCAwXSkuYXN0eXBlKG5wLmZsb2F0MzIpCiAgICAgICAgICAgIHZpZGVvLmFwcGVuZChpbWFnZSkKICAgICAgICByZXN1bHQgPSBpbWdfYXNfdWJ5dGUodmlkZW8pCgogICAgICAgICMjIyB0aGUgZ2VuZXJhdGVkIHZpZGVvIGlzIDI1NngyNTYsIHNvIHdlIGtlZXAgdGhlIGFzcGVjdCByYXRpbywgCiAgICAgICAgb3JpZ2luYWxfc2l6ZSA9IGNyb3BfaW5mb1swXQogICAgICAgIGlmIG9yaWdpbmFsX3NpemU6CiAgICAgICAgICAgIHJlc3VsdCA9IFsgY3YyLnJlc2l6ZShyZXN1bHRfaSwoaW1nX3NpemUsIGludChpbWdfc2l6ZSAqIG9yaWdpbmFsX3NpemVbMV0vb3JpZ2luYWxfc2l6ZVswXSkgKSkgZm9yIHJlc3VsdF9pIGluIHJlc3VsdCBdCiAgICAgICAgCiAgICAgICAgdmlkZW9fbmFtZSA9IHhbJ3ZpZGVvX25hbWUnXSAgKyAnLm1wNCcKICAgICAgICBwYXRoID0gb3MucGF0aC5qb2luKHZpZGVvX3NhdmVfZGlyLCAndGVtcF8nK3ZpZGVvX25hbWUpCiAgICAgICAgCiAgICAgICAgaW1hZ2Vpby5taW1zYXZlKHBhdGgsIHJlc3VsdCwgIGZwcz1mbG9hdCgyNSkpCgogICAgICAgIGF2X3BhdGggPSBvcy5wYXRoLmpvaW4odmlkZW9fc2F2ZV9kaXIsIHZpZGVvX25hbWUpCiAgICAgICAgcmV0dXJuX3BhdGggPSBhdl9wYXRoIAogICAgICAgIAogICAgICAgIGF1ZGlvX3BhdGggPSAgeFsnYXVkaW9fcGF0aCddIAogICAgICAgIGF1ZGlvX25hbWUgPSBvcy5wYXRoLnNwbGl0ZXh0KG9zLnBhdGguc3BsaXQoYXVkaW9fcGF0aClbLTFdKVswXQogICAgICAgIG5ld19hdWRpb19wYXRoID0gb3MucGF0aC5qb2luKHZpZGVvX3NhdmVfZGlyLCBhdWRpb19uYW1lKycud2F2JykKICAgICAgICBzdGFydF90aW1lID0gMAogICAgICAgICMgY29nIHdpbGwgbm90IGtlZXAgdGhlIC5tcDMgZmlsZW5hbWUKICAgICAgICBzb3VuZCA9IEF1ZGlvU2VnbWVudC5mcm9tX2ZpbGUoYXVkaW9fcGF0aCkKICAgICAgICBmcmFtZXMgPSBmcmFtZV9udW0gCiAgICAgICAgZW5kX3RpbWUgPSBzdGFydF90aW1lICsgZnJhbWVzKjEvMjUqMTAwMAogICAgICAgIHdvcmQxPXNvdW5kLnNldF9mcmFtZV9yYXRlKDE2MDAwKQogICAgICAgIHdvcmQgPSB3b3JkMVtzdGFydF90aW1lOmVuZF90aW1lXQogICAgICAgIHdvcmQuZXhwb3J0KG5ld19hdWRpb19wYXRoLCBmb3JtYXQ9IndhdiIpCgogICAgICAgIHNhdmVfdmlkZW9fd2l0aF93YXRlcm1hcmsocGF0aCwgbmV3X2F1ZGlvX3BhdGgsIGF2X3BhdGgsIHdhdGVybWFyaz0gRmFsc2UpCiAgICAgICAgcHJpbnQoZidUaGUgZ2VuZXJhdGVkIHZpZGVvIGlzIG5hbWVkIHt2aWRlb19zYXZlX2Rpcn0ve3ZpZGVvX25hbWV9JykgCgogICAgICAgIGlmICdmdWxsJyBpbiBwcmVwcm9jZXNzLmxvd2VyKCk6CiAgICAgICAgICAgICMgb25seSBhZGQgd2F0ZXJtYXJrIHRvIHRoZSBmdWxsIGltYWdlLgogICAgICAgICAgICB2aWRlb19uYW1lX2Z1bGwgPSB4Wyd2aWRlb19uYW1lJ10gICsgJ19mdWxsLm1wNCcKICAgICAgICAgICAgZnVsbF92aWRlb19wYXRoID0gb3MucGF0aC5qb2luKHZpZGVvX3NhdmVfZGlyLCB2aWRlb19uYW1lX2Z1bGwpCiAgICAgICAgICAgIHJldHVybl9wYXRoID0gZnVsbF92aWRlb19wYXRoCiAgICAgICAgICAgIHBhc3RlX3BpYyhwYXRoLCBwaWNfcGF0aCwgY3JvcF9pbmZvLCBuZXdfYXVkaW9fcGF0aCwgZnVsbF92aWRlb19wYXRoLCBleHRlbmRlZF9jcm9wPSBUcnVlIGlmICdleHQnIGluIHByZXByb2Nlc3MubG93ZXIoKSBlbHNlIEZhbHNlKQogICAgICAgICAgICBwcmludChmJ1RoZSBnZW5lcmF0ZWQgdmlkZW8gaXMgbmFtZWQge3ZpZGVvX3NhdmVfZGlyfS97dmlkZW9fbmFtZV9mdWxsfScpIAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGZ1bGxfdmlkZW9fcGF0aCA9IGF2X3BhdGggCgogICAgICAgICMjIyMgcGFzdGUgYmFjayB0aGVuIGVuaGFuY2VycwogICAgICAgIGlmIGVuaGFuY2VyOgogICAgICAgICAgICB2aWRlb19uYW1lX2VuaGFuY2VyID0geFsndmlkZW9fbmFtZSddICArICdfZW5oYW5jZWQubXA0JwogICAgICAgICAgICBlbmhhbmNlZF9wYXRoID0gb3MucGF0aC5qb2luKHZpZGVvX3NhdmVfZGlyLCAndGVtcF8nK3ZpZGVvX25hbWVfZW5oYW5jZXIpCiAgICAgICAgICAgIGF2X3BhdGhfZW5oYW5jZXIgPSBvcy5wYXRoLmpvaW4odmlkZW9fc2F2ZV9kaXIsIHZpZGVvX25hbWVfZW5oYW5jZXIpIAogICAgICAgICAgICByZXR1cm5fcGF0aCA9IGF2X3BhdGhfZW5oYW5jZXIKCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGVuaGFuY2VkX2ltYWdlc19nZW5fd2l0aF9sZW4gPSBlbmhhbmNlcl9nZW5lcmF0b3Jfd2l0aF9sZW4oZnVsbF92aWRlb19wYXRoLCBtZXRob2Q9ZW5oYW5jZXIsIGJnX3Vwc2FtcGxlcj1iYWNrZ3JvdW5kX2VuaGFuY2VyKQogICAgICAgICAgICAgICAgaW1hZ2Vpby5taW1zYXZlKGVuaGFuY2VkX3BhdGgsIGVuaGFuY2VkX2ltYWdlc19nZW5fd2l0aF9sZW4sIGZwcz1mbG9hdCgyNSkpCiAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgIGVuaGFuY2VkX2ltYWdlc19nZW5fd2l0aF9sZW4gPSBlbmhhbmNlcl9saXN0KGZ1bGxfdmlkZW9fcGF0aCwgbWV0aG9kPWVuaGFuY2VyLCBiZ191cHNhbXBsZXI9YmFja2dyb3VuZF9lbmhhbmNlcikKICAgICAgICAgICAgICAgIGltYWdlaW8ubWltc2F2ZShlbmhhbmNlZF9wYXRoLCBlbmhhbmNlZF9pbWFnZXNfZ2VuX3dpdGhfbGVuLCBmcHM9ZmxvYXQoMjUpKQogICAgICAgICAgICAKICAgICAgICAgICAgc2F2ZV92aWRlb193aXRoX3dhdGVybWFyayhlbmhhbmNlZF9wYXRoLCBuZXdfYXVkaW9fcGF0aCwgYXZfcGF0aF9lbmhhbmNlciwgd2F0ZXJtYXJrPSBGYWxzZSkKICAgICAgICAgICAgcHJpbnQoZidUaGUgZ2VuZXJhdGVkIHZpZGVvIGlzIG5hbWVkIHt2aWRlb19zYXZlX2Rpcn0ve3ZpZGVvX25hbWVfZW5oYW5jZXJ9JykKICAgICAgICAgICAgb3MucmVtb3ZlKGVuaGFuY2VkX3BhdGgpCgogICAgICAgIG9zLnJlbW92ZShwYXRoKQogICAgICAgIG9zLnJlbW92ZShuZXdfYXVkaW9fcGF0aCkKCiAgICAgICAgcmV0dXJuIHJldHVybl9wYXRoCgo=
+import os
+import cv2
+from tqdm import tqdm
+import yaml
+import numpy as np
+import warnings
+from skimage import img_as_ubyte
+import safetensors
+import safetensors.torch 
+warnings.filterwarnings('ignore')
+
+
+import imageio
+import torch
+
+from src.facerender.pirender.config import Config
+from src.facerender.pirender.face_model import FaceGenerator
+
+from pydub import AudioSegment 
+from src.utils.face_enhancer import enhancer_generator_with_len, enhancer_list
+from src.utils.paste_pic import paste_pic
+from src.utils.videoio import save_video_with_watermark
+
+try:
+    import webui  # in webui
+    in_webui = True
+except:
+    in_webui = False
+
+class AnimateFromCoeff_PIRender():
+
+    def __init__(self, sadtalker_path, device):
+
+        opt = Config(sadtalker_path['pirender_yaml_path'], None, is_train=False)
+        opt.device = device
+        self.net_G_ema = FaceGenerator(**opt.gen.param).to(opt.device)
+        checkpoint_path = sadtalker_path['pirender_checkpoint']
+        checkpoint = torch.load(checkpoint_path, map_location=lambda storage, loc: storage)
+        self.net_G_ema.load_state_dict(checkpoint['net_G_ema'], strict=False)
+        print('load [net_G] and [net_G_ema] from {}'.format(checkpoint_path))
+        self.net_G = self.net_G_ema.eval()
+        self.device = device
+    
+
+    def generate(self, x, video_save_dir, pic_path, crop_info, enhancer=None, background_enhancer=None, preprocess='crop', img_size=256):
+
+        source_image=x['source_image'].type(torch.FloatTensor)
+        source_semantics=x['source_semantics'].type(torch.FloatTensor)
+        target_semantics=x['target_semantics_list'].type(torch.FloatTensor) 
+        source_image=source_image.to(self.device)
+        source_semantics=source_semantics.to(self.device)
+        target_semantics=target_semantics.to(self.device)
+        frame_num = x['frame_num']
+        
+        with torch.no_grad():
+            predictions_video = []
+            for i in tqdm(range(target_semantics.shape[1]), 'FaceRender:'):
+                 predictions_video.append(self.net_G(source_image, target_semantics[:, i])['fake_image'])
+        
+        predictions_video = torch.stack(predictions_video, dim=1)
+        predictions_video = predictions_video.reshape((-1,)+predictions_video.shape[2:])
+
+        video = []
+        for idx in range(len(predictions_video)):
+            image = predictions_video[idx]
+            image = np.transpose(image.data.cpu().numpy(), [1, 2, 0]).astype(np.float32)
+            video.append(image)
+        result = img_as_ubyte(video)
+
+        ### the generated video is 256x256, so we keep the aspect ratio, 
+        original_size = crop_info[0]
+        if original_size:
+            result = [ cv2.resize(result_i,(img_size, int(img_size * original_size[1]/original_size[0]) )) for result_i in result ]
+        
+        video_name = x['video_name']  + '.mp4'
+        path = os.path.join(video_save_dir, 'temp_'+video_name)
+        
+        imageio.mimsave(path, result,  fps=float(25))
+
+        av_path = os.path.join(video_save_dir, video_name)
+        return_path = av_path 
+        
+        audio_path =  x['audio_path'] 
+        audio_name = os.path.splitext(os.path.split(audio_path)[-1])[0]
+        new_audio_path = os.path.join(video_save_dir, audio_name+'.wav')
+        start_time = 0
+        # cog will not keep the .mp3 filename
+        sound = AudioSegment.from_file(audio_path)
+        frames = frame_num 
+        end_time = start_time + frames*1/25*1000
+        word1=sound.set_frame_rate(16000)
+        word = word1[start_time:end_time]
+        word.export(new_audio_path, format="wav")
+
+        save_video_with_watermark(path, new_audio_path, av_path, watermark= False)
+        print(f'The generated video is named {video_save_dir}/{video_name}') 
+
+        if 'full' in preprocess.lower():
+            # only add watermark to the full image.
+            video_name_full = x['video_name']  + '_full.mp4'
+            full_video_path = os.path.join(video_save_dir, video_name_full)
+            return_path = full_video_path
+            paste_pic(path, pic_path, crop_info, new_audio_path, full_video_path, extended_crop= True if 'ext' in preprocess.lower() else False)
+            print(f'The generated video is named {video_save_dir}/{video_name_full}') 
+        else:
+            full_video_path = av_path 
+
+        #### paste back then enhancers
+        if enhancer:
+            video_name_enhancer = x['video_name']  + '_enhanced.mp4'
+            enhanced_path = os.path.join(video_save_dir, 'temp_'+video_name_enhancer)
+            av_path_enhancer = os.path.join(video_save_dir, video_name_enhancer) 
+            return_path = av_path_enhancer
+
+            try:
+                enhanced_images_gen_with_len = enhancer_generator_with_len(full_video_path, method=enhancer, bg_upsampler=background_enhancer)
+                imageio.mimsave(enhanced_path, enhanced_images_gen_with_len, fps=float(25))
+            except:
+                enhanced_images_gen_with_len = enhancer_list(full_video_path, method=enhancer, bg_upsampler=background_enhancer)
+                imageio.mimsave(enhanced_path, enhanced_images_gen_with_len, fps=float(25))
+            
+            save_video_with_watermark(enhanced_path, new_audio_path, av_path_enhancer, watermark= False)
+            print(f'The generated video is named {video_save_dir}/{video_name_enhancer}')
+            os.remove(enhanced_path)
+
+        os.remove(path)
+        os.remove(new_audio_path)
+
+        return return_path
+

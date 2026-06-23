@@ -1,1 +1,176 @@
-aW1wb3J0IHRvcmNoCmZyb20gdG9yY2ggaW1wb3J0IG5uCgphc3NlcnQgdG9yY2guX192ZXJzaW9uX18gPj0gIjEuOC4xIgpmcm9tIHRvcmNoLnV0aWxzLmNoZWNrcG9pbnQgaW1wb3J0IGNoZWNrcG9pbnRfc2VxdWVudGlhbAoKX19hbGxfXyA9IFsnaXJlc25ldDIwNjAnXQoKCmRlZiBjb252M3gzKGluX3BsYW5lcywgb3V0X3BsYW5lcywgc3RyaWRlPTEsIGdyb3Vwcz0xLCBkaWxhdGlvbj0xKToKICAgICIiIjN4MyBjb252b2x1dGlvbiB3aXRoIHBhZGRpbmciIiIKICAgIHJldHVybiBubi5Db252MmQoaW5fcGxhbmVzLAogICAgICAgICAgICAgICAgICAgICBvdXRfcGxhbmVzLAogICAgICAgICAgICAgICAgICAgICBrZXJuZWxfc2l6ZT0zLAogICAgICAgICAgICAgICAgICAgICBzdHJpZGU9c3RyaWRlLAogICAgICAgICAgICAgICAgICAgICBwYWRkaW5nPWRpbGF0aW9uLAogICAgICAgICAgICAgICAgICAgICBncm91cHM9Z3JvdXBzLAogICAgICAgICAgICAgICAgICAgICBiaWFzPUZhbHNlLAogICAgICAgICAgICAgICAgICAgICBkaWxhdGlvbj1kaWxhdGlvbikKCgpkZWYgY29udjF4MShpbl9wbGFuZXMsIG91dF9wbGFuZXMsIHN0cmlkZT0xKToKICAgICIiIjF4MSBjb252b2x1dGlvbiIiIgogICAgcmV0dXJuIG5uLkNvbnYyZChpbl9wbGFuZXMsCiAgICAgICAgICAgICAgICAgICAgIG91dF9wbGFuZXMsCiAgICAgICAgICAgICAgICAgICAgIGtlcm5lbF9zaXplPTEsCiAgICAgICAgICAgICAgICAgICAgIHN0cmlkZT1zdHJpZGUsCiAgICAgICAgICAgICAgICAgICAgIGJpYXM9RmFsc2UpCgoKY2xhc3MgSUJhc2ljQmxvY2sobm4uTW9kdWxlKToKICAgIGV4cGFuc2lvbiA9IDEKCiAgICBkZWYgX19pbml0X18oc2VsZiwgaW5wbGFuZXMsIHBsYW5lcywgc3RyaWRlPTEsIGRvd25zYW1wbGU9Tm9uZSwKICAgICAgICAgICAgICAgICBncm91cHM9MSwgYmFzZV93aWR0aD02NCwgZGlsYXRpb249MSk6CiAgICAgICAgc3VwZXIoSUJhc2ljQmxvY2ssIHNlbGYpLl9faW5pdF9fKCkKICAgICAgICBpZiBncm91cHMgIT0gMSBvciBiYXNlX3dpZHRoICE9IDY0OgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCdCYXNpY0Jsb2NrIG9ubHkgc3VwcG9ydHMgZ3JvdXBzPTEgYW5kIGJhc2Vfd2lkdGg9NjQnKQogICAgICAgIGlmIGRpbGF0aW9uID4gMToKICAgICAgICAgICAgcmFpc2UgTm90SW1wbGVtZW50ZWRFcnJvcigiRGlsYXRpb24gPiAxIG5vdCBzdXBwb3J0ZWQgaW4gQmFzaWNCbG9jayIpCiAgICAgICAgc2VsZi5ibjEgPSBubi5CYXRjaE5vcm0yZChpbnBsYW5lcywgZXBzPTFlLTA1LCApCiAgICAgICAgc2VsZi5jb252MSA9IGNvbnYzeDMoaW5wbGFuZXMsIHBsYW5lcykKICAgICAgICBzZWxmLmJuMiA9IG5uLkJhdGNoTm9ybTJkKHBsYW5lcywgZXBzPTFlLTA1LCApCiAgICAgICAgc2VsZi5wcmVsdSA9IG5uLlBSZUxVKHBsYW5lcykKICAgICAgICBzZWxmLmNvbnYyID0gY29udjN4MyhwbGFuZXMsIHBsYW5lcywgc3RyaWRlKQogICAgICAgIHNlbGYuYm4zID0gbm4uQmF0Y2hOb3JtMmQocGxhbmVzLCBlcHM9MWUtMDUsICkKICAgICAgICBzZWxmLmRvd25zYW1wbGUgPSBkb3duc2FtcGxlCiAgICAgICAgc2VsZi5zdHJpZGUgPSBzdHJpZGUKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4KToKICAgICAgICBpZGVudGl0eSA9IHgKICAgICAgICBvdXQgPSBzZWxmLmJuMSh4KQogICAgICAgIG91dCA9IHNlbGYuY29udjEob3V0KQogICAgICAgIG91dCA9IHNlbGYuYm4yKG91dCkKICAgICAgICBvdXQgPSBzZWxmLnByZWx1KG91dCkKICAgICAgICBvdXQgPSBzZWxmLmNvbnYyKG91dCkKICAgICAgICBvdXQgPSBzZWxmLmJuMyhvdXQpCiAgICAgICAgaWYgc2VsZi5kb3duc2FtcGxlIGlzIG5vdCBOb25lOgogICAgICAgICAgICBpZGVudGl0eSA9IHNlbGYuZG93bnNhbXBsZSh4KQogICAgICAgIG91dCArPSBpZGVudGl0eQogICAgICAgIHJldHVybiBvdXQKCgpjbGFzcyBJUmVzTmV0KG5uLk1vZHVsZSk6CiAgICBmY19zY2FsZSA9IDcgKiA3CgogICAgZGVmIF9faW5pdF9fKHNlbGYsCiAgICAgICAgICAgICAgICAgYmxvY2ssIGxheWVycywgZHJvcG91dD0wLCBudW1fZmVhdHVyZXM9NTEyLCB6ZXJvX2luaXRfcmVzaWR1YWw9RmFsc2UsCiAgICAgICAgICAgICAgICAgZ3JvdXBzPTEsIHdpZHRoX3Blcl9ncm91cD02NCwgcmVwbGFjZV9zdHJpZGVfd2l0aF9kaWxhdGlvbj1Ob25lLCBmcDE2PUZhbHNlKToKICAgICAgICBzdXBlcihJUmVzTmV0LCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgc2VsZi5mcDE2ID0gZnAxNgogICAgICAgIHNlbGYuaW5wbGFuZXMgPSA2NAogICAgICAgIHNlbGYuZGlsYXRpb24gPSAxCiAgICAgICAgaWYgcmVwbGFjZV9zdHJpZGVfd2l0aF9kaWxhdGlvbiBpcyBOb25lOgogICAgICAgICAgICByZXBsYWNlX3N0cmlkZV93aXRoX2RpbGF0aW9uID0gW0ZhbHNlLCBGYWxzZSwgRmFsc2VdCiAgICAgICAgaWYgbGVuKHJlcGxhY2Vfc3RyaWRlX3dpdGhfZGlsYXRpb24pICE9IDM6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoInJlcGxhY2Vfc3RyaWRlX3dpdGhfZGlsYXRpb24gc2hvdWxkIGJlIE5vbmUgIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICJvciBhIDMtZWxlbWVudCB0dXBsZSwgZ290IHt9Ii5mb3JtYXQocmVwbGFjZV9zdHJpZGVfd2l0aF9kaWxhdGlvbikpCiAgICAgICAgc2VsZi5ncm91cHMgPSBncm91cHMKICAgICAgICBzZWxmLmJhc2Vfd2lkdGggPSB3aWR0aF9wZXJfZ3JvdXAKICAgICAgICBzZWxmLmNvbnYxID0gbm4uQ29udjJkKDMsIHNlbGYuaW5wbGFuZXMsIGtlcm5lbF9zaXplPTMsIHN0cmlkZT0xLCBwYWRkaW5nPTEsIGJpYXM9RmFsc2UpCiAgICAgICAgc2VsZi5ibjEgPSBubi5CYXRjaE5vcm0yZChzZWxmLmlucGxhbmVzLCBlcHM9MWUtMDUpCiAgICAgICAgc2VsZi5wcmVsdSA9IG5uLlBSZUxVKHNlbGYuaW5wbGFuZXMpCiAgICAgICAgc2VsZi5sYXllcjEgPSBzZWxmLl9tYWtlX2xheWVyKGJsb2NrLCA2NCwgbGF5ZXJzWzBdLCBzdHJpZGU9MikKICAgICAgICBzZWxmLmxheWVyMiA9IHNlbGYuX21ha2VfbGF5ZXIoYmxvY2ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDEyOCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGF5ZXJzWzFdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJpZGU9MiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlsYXRlPXJlcGxhY2Vfc3RyaWRlX3dpdGhfZGlsYXRpb25bMF0pCiAgICAgICAgc2VsZi5sYXllcjMgPSBzZWxmLl9tYWtlX2xheWVyKGJsb2NrLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyNTYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxheWVyc1syXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RyaWRlPTIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpbGF0ZT1yZXBsYWNlX3N0cmlkZV93aXRoX2RpbGF0aW9uWzFdKQogICAgICAgIHNlbGYubGF5ZXI0ID0gc2VsZi5fbWFrZV9sYXllcihibG9jaywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTEyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYXllcnNbM10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0cmlkZT0yLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaWxhdGU9cmVwbGFjZV9zdHJpZGVfd2l0aF9kaWxhdGlvblsyXSkKICAgICAgICBzZWxmLmJuMiA9IG5uLkJhdGNoTm9ybTJkKDUxMiAqIGJsb2NrLmV4cGFuc2lvbiwgZXBzPTFlLTA1LCApCiAgICAgICAgc2VsZi5kcm9wb3V0ID0gbm4uRHJvcG91dChwPWRyb3BvdXQsIGlucGxhY2U9VHJ1ZSkKICAgICAgICBzZWxmLmZjID0gbm4uTGluZWFyKDUxMiAqIGJsb2NrLmV4cGFuc2lvbiAqIHNlbGYuZmNfc2NhbGUsIG51bV9mZWF0dXJlcykKICAgICAgICBzZWxmLmZlYXR1cmVzID0gbm4uQmF0Y2hOb3JtMWQobnVtX2ZlYXR1cmVzLCBlcHM9MWUtMDUpCiAgICAgICAgbm4uaW5pdC5jb25zdGFudF8oc2VsZi5mZWF0dXJlcy53ZWlnaHQsIDEuMCkKICAgICAgICBzZWxmLmZlYXR1cmVzLndlaWdodC5yZXF1aXJlc19ncmFkID0gRmFsc2UKCiAgICAgICAgZm9yIG0gaW4gc2VsZi5tb2R1bGVzKCk6CiAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UobSwgbm4uQ29udjJkKToKICAgICAgICAgICAgICAgIG5uLmluaXQubm9ybWFsXyhtLndlaWdodCwgMCwgMC4xKQogICAgICAgICAgICBlbGlmIGlzaW5zdGFuY2UobSwgKG5uLkJhdGNoTm9ybTJkLCBubi5Hcm91cE5vcm0pKToKICAgICAgICAgICAgICAgIG5uLmluaXQuY29uc3RhbnRfKG0ud2VpZ2h0LCAxKQogICAgICAgICAgICAgICAgbm4uaW5pdC5jb25zdGFudF8obS5iaWFzLCAwKQoKICAgICAgICBpZiB6ZXJvX2luaXRfcmVzaWR1YWw6CiAgICAgICAgICAgIGZvciBtIGluIHNlbGYubW9kdWxlcygpOgogICAgICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShtLCBJQmFzaWNCbG9jayk6CiAgICAgICAgICAgICAgICAgICAgbm4uaW5pdC5jb25zdGFudF8obS5ibjIud2VpZ2h0LCAwKQoKICAgIGRlZiBfbWFrZV9sYXllcihzZWxmLCBibG9jaywgcGxhbmVzLCBibG9ja3MsIHN0cmlkZT0xLCBkaWxhdGU9RmFsc2UpOgogICAgICAgIGRvd25zYW1wbGUgPSBOb25lCiAgICAgICAgcHJldmlvdXNfZGlsYXRpb24gPSBzZWxmLmRpbGF0aW9uCiAgICAgICAgaWYgZGlsYXRlOgogICAgICAgICAgICBzZWxmLmRpbGF0aW9uICo9IHN0cmlkZQogICAgICAgICAgICBzdHJpZGUgPSAxCiAgICAgICAgaWYgc3RyaWRlICE9IDEgb3Igc2VsZi5pbnBsYW5lcyAhPSBwbGFuZXMgKiBibG9jay5leHBhbnNpb246CiAgICAgICAgICAgIGRvd25zYW1wbGUgPSBubi5TZXF1ZW50aWFsKAogICAgICAgICAgICAgICAgY29udjF4MShzZWxmLmlucGxhbmVzLCBwbGFuZXMgKiBibG9jay5leHBhbnNpb24sIHN0cmlkZSksCiAgICAgICAgICAgICAgICBubi5CYXRjaE5vcm0yZChwbGFuZXMgKiBibG9jay5leHBhbnNpb24sIGVwcz0xZS0wNSwgKSwKICAgICAgICAgICAgKQogICAgICAgIGxheWVycyA9IFtdCiAgICAgICAgbGF5ZXJzLmFwcGVuZCgKICAgICAgICAgICAgYmxvY2soc2VsZi5pbnBsYW5lcywgcGxhbmVzLCBzdHJpZGUsIGRvd25zYW1wbGUsIHNlbGYuZ3JvdXBzLAogICAgICAgICAgICAgICAgICBzZWxmLmJhc2Vfd2lkdGgsIHByZXZpb3VzX2RpbGF0aW9uKSkKICAgICAgICBzZWxmLmlucGxhbmVzID0gcGxhbmVzICogYmxvY2suZXhwYW5zaW9uCiAgICAgICAgZm9yIF8gaW4gcmFuZ2UoMSwgYmxvY2tzKToKICAgICAgICAgICAgbGF5ZXJzLmFwcGVuZCgKICAgICAgICAgICAgICAgIGJsb2NrKHNlbGYuaW5wbGFuZXMsCiAgICAgICAgICAgICAgICAgICAgICBwbGFuZXMsCiAgICAgICAgICAgICAgICAgICAgICBncm91cHM9c2VsZi5ncm91cHMsCiAgICAgICAgICAgICAgICAgICAgICBiYXNlX3dpZHRoPXNlbGYuYmFzZV93aWR0aCwKICAgICAgICAgICAgICAgICAgICAgIGRpbGF0aW9uPXNlbGYuZGlsYXRpb24pKQoKICAgICAgICByZXR1cm4gbm4uU2VxdWVudGlhbCgqbGF5ZXJzKQoKICAgIGRlZiBjaGVja3BvaW50KHNlbGYsIGZ1bmMsIG51bV9zZWcsIHgpOgogICAgICAgIGlmIHNlbGYudHJhaW5pbmc6CiAgICAgICAgICAgIHJldHVybiBjaGVja3BvaW50X3NlcXVlbnRpYWwoZnVuYywgbnVtX3NlZywgeCkKICAgICAgICBlbHNlOgogICAgICAgICAgICByZXR1cm4gZnVuYyh4KQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIHdpdGggdG9yY2guY3VkYS5hbXAuYXV0b2Nhc3Qoc2VsZi5mcDE2KToKICAgICAgICAgICAgeCA9IHNlbGYuY29udjEoeCkKICAgICAgICAgICAgeCA9IHNlbGYuYm4xKHgpCiAgICAgICAgICAgIHggPSBzZWxmLnByZWx1KHgpCiAgICAgICAgICAgIHggPSBzZWxmLmxheWVyMSh4KQogICAgICAgICAgICB4ID0gc2VsZi5jaGVja3BvaW50KHNlbGYubGF5ZXIyLCAyMCwgeCkKICAgICAgICAgICAgeCA9IHNlbGYuY2hlY2twb2ludChzZWxmLmxheWVyMywgMTAwLCB4KQogICAgICAgICAgICB4ID0gc2VsZi5sYXllcjQoeCkKICAgICAgICAgICAgeCA9IHNlbGYuYm4yKHgpCiAgICAgICAgICAgIHggPSB0b3JjaC5mbGF0dGVuKHgsIDEpCiAgICAgICAgICAgIHggPSBzZWxmLmRyb3BvdXQoeCkKICAgICAgICB4ID0gc2VsZi5mYyh4LmZsb2F0KCkgaWYgc2VsZi5mcDE2IGVsc2UgeCkKICAgICAgICB4ID0gc2VsZi5mZWF0dXJlcyh4KQogICAgICAgIHJldHVybiB4CgoKZGVmIF9pcmVzbmV0KGFyY2gsIGJsb2NrLCBsYXllcnMsIHByZXRyYWluZWQsIHByb2dyZXNzLCAqKmt3YXJncyk6CiAgICBtb2RlbCA9IElSZXNOZXQoYmxvY2ssIGxheWVycywgKiprd2FyZ3MpCiAgICBpZiBwcmV0cmFpbmVkOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoKQogICAgcmV0dXJuIG1vZGVsCgoKZGVmIGlyZXNuZXQyMDYwKHByZXRyYWluZWQ9RmFsc2UsIHByb2dyZXNzPVRydWUsICoqa3dhcmdzKToKICAgIHJldHVybiBfaXJlc25ldCgnaXJlc25ldDIwNjAnLCBJQmFzaWNCbG9jaywgWzMsIDEyOCwgMTAyNCAtIDEyOCwgM10sIHByZXRyYWluZWQsIHByb2dyZXNzLCAqKmt3YXJncykK
+import torch
+from torch import nn
+
+assert torch.__version__ >= "1.8.1"
+from torch.utils.checkpoint import checkpoint_sequential
+
+__all__ = ['iresnet2060']
+
+
+def conv3x3(in_planes, out_planes, stride=1, groups=1, dilation=1):
+    """3x3 convolution with padding"""
+    return nn.Conv2d(in_planes,
+                     out_planes,
+                     kernel_size=3,
+                     stride=stride,
+                     padding=dilation,
+                     groups=groups,
+                     bias=False,
+                     dilation=dilation)
+
+
+def conv1x1(in_planes, out_planes, stride=1):
+    """1x1 convolution"""
+    return nn.Conv2d(in_planes,
+                     out_planes,
+                     kernel_size=1,
+                     stride=stride,
+                     bias=False)
+
+
+class IBasicBlock(nn.Module):
+    expansion = 1
+
+    def __init__(self, inplanes, planes, stride=1, downsample=None,
+                 groups=1, base_width=64, dilation=1):
+        super(IBasicBlock, self).__init__()
+        if groups != 1 or base_width != 64:
+            raise ValueError('BasicBlock only supports groups=1 and base_width=64')
+        if dilation > 1:
+            raise NotImplementedError("Dilation > 1 not supported in BasicBlock")
+        self.bn1 = nn.BatchNorm2d(inplanes, eps=1e-05, )
+        self.conv1 = conv3x3(inplanes, planes)
+        self.bn2 = nn.BatchNorm2d(planes, eps=1e-05, )
+        self.prelu = nn.PReLU(planes)
+        self.conv2 = conv3x3(planes, planes, stride)
+        self.bn3 = nn.BatchNorm2d(planes, eps=1e-05, )
+        self.downsample = downsample
+        self.stride = stride
+
+    def forward(self, x):
+        identity = x
+        out = self.bn1(x)
+        out = self.conv1(out)
+        out = self.bn2(out)
+        out = self.prelu(out)
+        out = self.conv2(out)
+        out = self.bn3(out)
+        if self.downsample is not None:
+            identity = self.downsample(x)
+        out += identity
+        return out
+
+
+class IResNet(nn.Module):
+    fc_scale = 7 * 7
+
+    def __init__(self,
+                 block, layers, dropout=0, num_features=512, zero_init_residual=False,
+                 groups=1, width_per_group=64, replace_stride_with_dilation=None, fp16=False):
+        super(IResNet, self).__init__()
+        self.fp16 = fp16
+        self.inplanes = 64
+        self.dilation = 1
+        if replace_stride_with_dilation is None:
+            replace_stride_with_dilation = [False, False, False]
+        if len(replace_stride_with_dilation) != 3:
+            raise ValueError("replace_stride_with_dilation should be None "
+                             "or a 3-element tuple, got {}".format(replace_stride_with_dilation))
+        self.groups = groups
+        self.base_width = width_per_group
+        self.conv1 = nn.Conv2d(3, self.inplanes, kernel_size=3, stride=1, padding=1, bias=False)
+        self.bn1 = nn.BatchNorm2d(self.inplanes, eps=1e-05)
+        self.prelu = nn.PReLU(self.inplanes)
+        self.layer1 = self._make_layer(block, 64, layers[0], stride=2)
+        self.layer2 = self._make_layer(block,
+                                       128,
+                                       layers[1],
+                                       stride=2,
+                                       dilate=replace_stride_with_dilation[0])
+        self.layer3 = self._make_layer(block,
+                                       256,
+                                       layers[2],
+                                       stride=2,
+                                       dilate=replace_stride_with_dilation[1])
+        self.layer4 = self._make_layer(block,
+                                       512,
+                                       layers[3],
+                                       stride=2,
+                                       dilate=replace_stride_with_dilation[2])
+        self.bn2 = nn.BatchNorm2d(512 * block.expansion, eps=1e-05, )
+        self.dropout = nn.Dropout(p=dropout, inplace=True)
+        self.fc = nn.Linear(512 * block.expansion * self.fc_scale, num_features)
+        self.features = nn.BatchNorm1d(num_features, eps=1e-05)
+        nn.init.constant_(self.features.weight, 1.0)
+        self.features.weight.requires_grad = False
+
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d):
+                nn.init.normal_(m.weight, 0, 0.1)
+            elif isinstance(m, (nn.BatchNorm2d, nn.GroupNorm)):
+                nn.init.constant_(m.weight, 1)
+                nn.init.constant_(m.bias, 0)
+
+        if zero_init_residual:
+            for m in self.modules():
+                if isinstance(m, IBasicBlock):
+                    nn.init.constant_(m.bn2.weight, 0)
+
+    def _make_layer(self, block, planes, blocks, stride=1, dilate=False):
+        downsample = None
+        previous_dilation = self.dilation
+        if dilate:
+            self.dilation *= stride
+            stride = 1
+        if stride != 1 or self.inplanes != planes * block.expansion:
+            downsample = nn.Sequential(
+                conv1x1(self.inplanes, planes * block.expansion, stride),
+                nn.BatchNorm2d(planes * block.expansion, eps=1e-05, ),
+            )
+        layers = []
+        layers.append(
+            block(self.inplanes, planes, stride, downsample, self.groups,
+                  self.base_width, previous_dilation))
+        self.inplanes = planes * block.expansion
+        for _ in range(1, blocks):
+            layers.append(
+                block(self.inplanes,
+                      planes,
+                      groups=self.groups,
+                      base_width=self.base_width,
+                      dilation=self.dilation))
+
+        return nn.Sequential(*layers)
+
+    def checkpoint(self, func, num_seg, x):
+        if self.training:
+            return checkpoint_sequential(func, num_seg, x)
+        else:
+            return func(x)
+
+    def forward(self, x):
+        with torch.cuda.amp.autocast(self.fp16):
+            x = self.conv1(x)
+            x = self.bn1(x)
+            x = self.prelu(x)
+            x = self.layer1(x)
+            x = self.checkpoint(self.layer2, 20, x)
+            x = self.checkpoint(self.layer3, 100, x)
+            x = self.layer4(x)
+            x = self.bn2(x)
+            x = torch.flatten(x, 1)
+            x = self.dropout(x)
+        x = self.fc(x.float() if self.fp16 else x)
+        x = self.features(x)
+        return x
+
+
+def _iresnet(arch, block, layers, pretrained, progress, **kwargs):
+    model = IResNet(block, layers, **kwargs)
+    if pretrained:
+        raise ValueError()
+    return model
+
+
+def iresnet2060(pretrained=False, progress=True, **kwargs):
+    return _iresnet('iresnet2060', IBasicBlock, [3, 128, 1024 - 128, 3], pretrained, progress, **kwargs)

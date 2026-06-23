@@ -1,1 +1,31 @@
-aW1wb3J0IHNodXRpbAppbXBvcnQgdXVpZAppbXBvcnQgc3VicHJvY2VzcwppbXBvcnQgb3MKCmltcG9ydCBjdjIKCmRlZiBsb2FkX3ZpZGVvX3RvX2N2MihpbnB1dF9wYXRoKToKICAgIHZpZGVvX3N0cmVhbSA9IGN2Mi5WaWRlb0NhcHR1cmUoaW5wdXRfcGF0aCkKICAgIGZwcyA9IHZpZGVvX3N0cmVhbS5nZXQoY3YyLkNBUF9QUk9QX0ZQUykKICAgIGZ1bGxfZnJhbWVzID0gW10gCiAgICB3aGlsZSAxOgogICAgICAgIHN0aWxsX3JlYWRpbmcsIGZyYW1lID0gdmlkZW9fc3RyZWFtLnJlYWQoKQogICAgICAgIGlmIG5vdCBzdGlsbF9yZWFkaW5nOgogICAgICAgICAgICB2aWRlb19zdHJlYW0ucmVsZWFzZSgpCiAgICAgICAgICAgIGJyZWFrIAogICAgICAgIGZ1bGxfZnJhbWVzLmFwcGVuZChjdjIuY3Z0Q29sb3IoZnJhbWUsIGN2Mi5DT0xPUl9CR1IyUkdCKSkKICAgIHJldHVybiBmdWxsX2ZyYW1lcwoKZGVmIHNhdmVfdmlkZW9fd2l0aF93YXRlcm1hcmsodmlkZW8sIGF1ZGlvLCBzYXZlX3BhdGgsIHdhdGVybWFyaz1GYWxzZSk6CiAgICB0ZW1wX2ZpbGUgPSBzdHIodXVpZC51dWlkNCgpKSsnLm1wNCcKICAgICMgb3Muc3lzdGVtKGNtZCkKICAgIHRyeToKICAgICAgICBjbWQgPSByJ2ZmbXBlZyAteSAtaGlkZV9iYW5uZXIgLWxvZ2xldmVsIGVycm9yIC1pICIlcyIgLWkgIiVzIiAtdmNvZGVjIGgyNjQgIiVzIicgJSAodmlkZW8sIGF1ZGlvLCB0ZW1wX2ZpbGUpCiAgICAgICAgc3VicHJvY2Vzcy5ydW4oY21kLCBzaGVsbD1UcnVlLCBjaGVjaz1UcnVlLCBzdGRvdXQ9c3VicHJvY2Vzcy5QSVBFLCBzdGRlcnI9c3VicHJvY2Vzcy5QSVBFKQogICAgZXhjZXB0OgogICAgICAgIGNtZCA9IHInZmZtcGVnIC15IC1oaWRlX2Jhbm5lciAtbG9nbGV2ZWwgZXJyb3IgLWkgIiVzIiAtaSAiJXMiIC12Y29kZWMgY29weSAiJXMiJyAlICh2aWRlbywgYXVkaW8sIHRlbXBfZmlsZSkKICAgICAgICBzdWJwcm9jZXNzLnJ1bihjbWQsIHNoZWxsPVRydWUsIGNoZWNrPVRydWUsIHN0ZG91dD1zdWJwcm9jZXNzLlBJUEUsIHN0ZGVycj1zdWJwcm9jZXNzLlBJUEUpCiAgICBpZiBub3Qgb3MucGF0aC5leGlzdHModGVtcF9maWxlKToKICAgICAgICBwcmludCgiRkZtcGVnIGVycm9yIikKICAgIHNodXRpbC5tb3ZlKHRlbXBfZmlsZSwgc2F2ZV9wYXRoKQ==
+import shutil
+import uuid
+import subprocess
+import os
+
+import cv2
+
+def load_video_to_cv2(input_path):
+    video_stream = cv2.VideoCapture(input_path)
+    fps = video_stream.get(cv2.CAP_PROP_FPS)
+    full_frames = [] 
+    while 1:
+        still_reading, frame = video_stream.read()
+        if not still_reading:
+            video_stream.release()
+            break 
+        full_frames.append(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+    return full_frames
+
+def save_video_with_watermark(video, audio, save_path, watermark=False):
+    temp_file = str(uuid.uuid4())+'.mp4'
+    # os.system(cmd)
+    try:
+        cmd = r'ffmpeg -y -hide_banner -loglevel error -i "%s" -i "%s" -vcodec h264 "%s"' % (video, audio, temp_file)
+        subprocess.run(cmd, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    except:
+        cmd = r'ffmpeg -y -hide_banner -loglevel error -i "%s" -i "%s" -vcodec copy "%s"' % (video, audio, temp_file)
+        subprocess.run(cmd, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if not os.path.exists(temp_file):
+        print("FFmpeg error")
+    shutil.move(temp_file, save_path)

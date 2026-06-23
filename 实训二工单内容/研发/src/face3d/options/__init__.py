@@ -1,1 +1,1 @@
-IiIiVGhpcyBwYWNrYWdlIG9wdGlvbnMgaW5jbHVkZXMgb3B0aW9uIG1vZHVsZXM6IHRyYWluaW5nIG9wdGlvbnMsIHRlc3Qgb3B0aW9ucywgYW5kIGJhc2ljIG9wdGlvbnMgKHVzZWQgaW4gYm90aCB0cmFpbmluZyBhbmQgdGVzdCkuIiIiCg==
+"""This package options includes option modules: training options, test options, and basic options (used in both training and test)."""

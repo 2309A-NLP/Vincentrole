@@ -1,1 +1,66 @@
-aW1wb3J0IG9zLCBzeXMKc3lzLnBhdGguYXBwZW5kKCdDb3N5Vm9pY2UvdGhpcmRfcGFydHkvTWF0Y2hhLVRUUycpCnN5cy5wYXRoLmFwcGVuZCgnQ29zeVZvaWNlLycpCmltcG9ydCB0b3JjaApmcm9tIGNvc3l2b2ljZS5jbGkuY29zeXZvaWNlIGltcG9ydCBDb3N5Vm9pY2UKZnJvbSBjb3N5dm9pY2UudXRpbHMuZmlsZV91dGlscyBpbXBvcnQgbG9hZF93YXYsIHNwZWVkX2NoYW5nZQppbXBvcnQgbGlicm9zYQppbXBvcnQgdG9yY2hhdWRpbwoKY2xhc3MgQ29zeVZvaWNlVFRTOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG1vZGVsX3BhdGgpOgogICAgICAgIHNlbGYubW9kZWxfcGF0aCA9IG1vZGVsX3BhdGgKICAgICAgICBzZWxmLm1vZGVsID0gQ29zeVZvaWNlKG1vZGVsX3BhdGgpCiAgICAgICAgCiAgICAjIFNGVCB1c2FnZQogICAgZGVmIHByZWRpY3Rfc2Z0KHNlbGYsIHRleHQsIHNwa3MsIHNhdmVfcGF0aD0nc2Z0LndhdicsIHNwZWVkX2ZhY3RvciA9IDEuMCk6CiAgICAgICAgYXNzZXJ0IHNwa3MgaW4gc2VsZi5tb2RlbC5saXN0X2F2YWxpYWJsZV9zcGtzKCkgYW5kICdTRlQnIGluIHNlbGYubW9kZWxfcGF0aAogICAgICAgIG91dHB1dCA9IHNlbGYubW9kZWwuaW5mZXJlbmNlX3NmdCh0ZXh0LCBzcGtzKQogICAgICAgIGlmIHNwZWVkX2ZhY3RvciAhPSAxLjA6CiAgICAgICAgICAgIG91dHB1dFsndHRzX3NwZWVjaCddID0gc2VsZi5zcGVlZF9jaGFuZ2Uob3V0cHV0Wyd0dHNfc3BlZWNoJ10sIHNwZWVkID0gc3BlZWRfZmFjdG9yKQogICAgICAgIHRvcmNoYXVkaW8uc2F2ZShzYXZlX3BhdGgsIG91dHB1dFsndHRzX3NwZWVjaCddLCAyMjA1MCkKICAgICAgICByZXR1cm4gc2F2ZV9wYXRoCgogICAgZGVmIHByZWRpY3RfemVyb19zaG90KHNlbGYsIHRleHQsIHByb21wdF90ZXh0LCBwcm9tcHRfc3BlZWNoLCBzYXZlX3BhdGg9J3plcm9fc2hvdC53YXYnLCBzcGVlZF9mYWN0b3IgPSAxLjApOgogICAgICAgIHByb21wdF9zcGVlY2hfMTZrID0gc2VsZi5wb3N0cHJvY2Vzcyhsb2FkX3dhdihwcm9tcHRfc3BlZWNoLCAxNjAwMCkpCiAgICAgICAgb3V0cHV0ID0gc2VsZi5tb2RlbC5pbmZlcmVuY2VfemVyb19zaG90KHRleHQsIHByb21wdF90ZXh0LCBwcm9tcHRfc3BlZWNoXzE2aykKICAgICAgICBpZiBzcGVlZF9mYWN0b3IgIT0gMS4wOgogICAgICAgICAgICBvdXRwdXRbJ3R0c19zcGVlY2gnXSA9IHNlbGYuc3BlZWRfY2hhbmdlKG91dHB1dFsndHRzX3NwZWVjaCddLCBzcGVlZCA9IHNwZWVkX2ZhY3RvcikKICAgICAgICB0b3JjaGF1ZGlvLnNhdmUoc2F2ZV9wYXRoLCBvdXRwdXRbJ3R0c19zcGVlY2gnXSwgMjIwNTApCiAgICAgICAgcmV0dXJuIHNhdmVfcGF0aAoKICAgIGRlZiBwcmVkaWN0X2Nyb3NzX2xpbmd1YWwoc2VsZixwcm9tcHRfdGV4dCwgcHJvbXB0X3NwZWVjaCwgc2F2ZV9wYXRoPSdjcm9zc19saW5ndWFsLndhdicsIHNwZWVkX2ZhY3RvciA9IDEuMCk6CiAgICAgICAgcHJvbXB0X3NwZWVjaF8xNmsgPSBzZWxmLnBvc3Rwcm9jZXNzKGxvYWRfd2F2KHByb21wdF9zcGVlY2gsIDE2MDAwKSkKICAgICAgICBvdXRwdXQgPSBzZWxmLm1vZGVsLmluZmVyZW5jZV9jcm9zc19saW5ndWFsKHByb21wdF90ZXh0LCBwcm9tcHRfc3BlZWNoXzE2aykKICAgICAgICBpZiBzcGVlZF9mYWN0b3IgIT0gMS4wOgogICAgICAgICAgICBvdXRwdXRbJ3R0c19zcGVlY2gnXSA9IHNlbGYuc3BlZWRfY2hhbmdlKG91dHB1dFsndHRzX3NwZWVjaCddLCBzcGVlZCA9IHNwZWVkX2ZhY3RvcikKICAgICAgICB0b3JjaGF1ZGlvLnNhdmUoc2F2ZV9wYXRoLCBvdXRwdXRbJ3R0c19zcGVlY2gnXSwgMjIwNTApCiAgICAgICAgcmV0dXJuIHNhdmVfcGF0aAoKICAgIGRlZiBzcGVlZF9jaGFuZ2Uoc2VsZiwgd2F2LCB0YXJnZXRfc3IgPSAyMjA1MCwgc3BlZWQ9MS4wKToKICAgICAgICByZXR1cm4gc3BlZWRfY2hhbmdlKHdhdiwgdGFyZ2V0X3NyLCBzdHIoc3BlZWQpKQoKCiAgICBkZWYgcG9zdHByb2Nlc3Moc2VsZiwgc3BlZWNoLCB0b3BfZGI9NjAsIGhvcF9sZW5ndGg9MjIwLCB3aW5fbGVuZ3RoPTQ0MCwgdGFyZ2V0X3NyPTIyMDUwKToKICAgICAgICBtYXhfdmFsID0gMC44CiAgICAgICAgc3BlZWNoLCBfID0gbGlicm9zYS5lZmZlY3RzLnRyaW0oCiAgICAgICAgICAgIHNwZWVjaCwgdG9wX2RiPXRvcF9kYiwKICAgICAgICAgICAgZnJhbWVfbGVuZ3RoPXdpbl9sZW5ndGgsCiAgICAgICAgICAgIGhvcF9sZW5ndGg9aG9wX2xlbmd0aAogICAgICAgICkKICAgICAgICBpZiBzcGVlY2guYWJzKCkubWF4KCkgPiBtYXhfdmFsOgogICAgICAgICAgICBzcGVlY2ggPSBzcGVlY2ggLyBzcGVlY2guYWJzKCkubWF4KCkgKiBtYXhfdmFsCiAgICAgICAgc3BlZWNoID0gdG9yY2guY29uY2F0KFtzcGVlY2gsIHRvcmNoLnplcm9zKDEsIGludCh0YXJnZXRfc3IgKiAwLjIpKV0sIGRpbT0xKQogICAgICAgIHJldHVybiBzcGVlY2gKICAgIAppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgIyBTRlQgbW9kZWwgZXhhbXBsZQogICAgY29zeXZvaWNlX3NmdCA9IENvc3lWb2ljZVRUUygnY2hlY2twb2ludHMvQ29zeVZvaWNlX2NrcHQvQ29zeVZvaWNlLTMwME0tU0ZUJykKICAgIHByaW50KGNvc3l2b2ljZV9zZnQubW9kZWwubGlzdF9hdmFsaWFibGVfc3BrcygpKQogICAgY29zeXZvaWNlX3NmdC5wcmVkaWN0X3NmdCgn5L2g5aW977yM5oiR5piv6YCa5LmJ55Sf5oiQ5byP6K+t6Z+z5aSn5qih5Z6L77yM6K+36Zeu5pyJ5LuA5LmI5Y+v5Lul5biu5oKo55qE5ZCX77yfJywgJ+S4reaWh+WlsycsIHNhdmVfcGF0aD0nc2Z0X291dHB1dC53YXYnKQoKICAgICMgWmVyby1zaG90IG1vZGVsIGV4YW1wbGUKICAgIGNvc3l2b2ljZV96ZXJvX3Nob3QgPSBDb3N5Vm9pY2VUVFMoJ2NoZWNrcG9pbnRzL0Nvc3lWb2ljZV9ja3B0L0Nvc3lWb2ljZS0zMDBNJykKICAgIHByb21wdF9zcGVlY2ggPSAnemVyb19zaG90X3Byb21wdC53YXYnCiAgICBjb3N5dm9pY2VfemVyb19zaG90LnByZWRpY3RfemVyb19zaG90KCfmlLbliLDlpb3lj4vku47ov5zmlrnlr4TmnaXnmoTnlJ/ml6XnpLznianvvIzpgqPku73mhI/lpJbnmoTmg4rllpzkuI7mt7Hmt7HnmoTnpZ3npo/orqnmiJHlv4PkuK3lhYXmu6HkuobnlJzonJznmoTlv6vkuZDvvIznrJHlrrnlpoLoirHlhL/oiKznu73mlL7jgIInLCAn5biM5pyb5L2g5Lul5ZCO6IO95aSf5YGa55qE5q+U5oiR6L+Y5aW95ZGm44CCJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJvbXB0X3NwZWVjaCwgc2F2ZV9wYXRoPSd6ZXJvX3Nob3Rfb3V0cHV0Lndhdicp
+import os, sys
+sys.path.append('CosyVoice/third_party/Matcha-TTS')
+sys.path.append('CosyVoice/')
+import torch
+from cosyvoice.cli.cosyvoice import CosyVoice
+from cosyvoice.utils.file_utils import load_wav, speed_change
+import librosa
+import torchaudio
+
+class CosyVoiceTTS:
+    def __init__(self, model_path):
+        self.model_path = model_path
+        self.model = CosyVoice(model_path)
+        
+    # SFT usage
+    def predict_sft(self, text, spks, save_path='sft.wav', speed_factor = 1.0):
+        assert spks in self.model.list_avaliable_spks() and 'SFT' in self.model_path
+        output = self.model.inference_sft(text, spks)
+        if speed_factor != 1.0:
+            output['tts_speech'] = self.speed_change(output['tts_speech'], speed = speed_factor)
+        torchaudio.save(save_path, output['tts_speech'], 22050)
+        return save_path
+
+    def predict_zero_shot(self, text, prompt_text, prompt_speech, save_path='zero_shot.wav', speed_factor = 1.0):
+        prompt_speech_16k = self.postprocess(load_wav(prompt_speech, 16000))
+        output = self.model.inference_zero_shot(text, prompt_text, prompt_speech_16k)
+        if speed_factor != 1.0:
+            output['tts_speech'] = self.speed_change(output['tts_speech'], speed = speed_factor)
+        torchaudio.save(save_path, output['tts_speech'], 22050)
+        return save_path
+
+    def predict_cross_lingual(self,prompt_text, prompt_speech, save_path='cross_lingual.wav', speed_factor = 1.0):
+        prompt_speech_16k = self.postprocess(load_wav(prompt_speech, 16000))
+        output = self.model.inference_cross_lingual(prompt_text, prompt_speech_16k)
+        if speed_factor != 1.0:
+            output['tts_speech'] = self.speed_change(output['tts_speech'], speed = speed_factor)
+        torchaudio.save(save_path, output['tts_speech'], 22050)
+        return save_path
+
+    def speed_change(self, wav, target_sr = 22050, speed=1.0):
+        return speed_change(wav, target_sr, str(speed))
+
+
+    def postprocess(self, speech, top_db=60, hop_length=220, win_length=440, target_sr=22050):
+        max_val = 0.8
+        speech, _ = librosa.effects.trim(
+            speech, top_db=top_db,
+            frame_length=win_length,
+            hop_length=hop_length
+        )
+        if speech.abs().max() > max_val:
+            speech = speech / speech.abs().max() * max_val
+        speech = torch.concat([speech, torch.zeros(1, int(target_sr * 0.2))], dim=1)
+        return speech
+    
+if __name__ == "__main__":
+    # SFT model example
+    cosyvoice_sft = CosyVoiceTTS('checkpoints/CosyVoice_ckpt/CosyVoice-300M-SFT')
+    print(cosyvoice_sft.model.list_avaliable_spks())
+    cosyvoice_sft.predict_sft('你好，我是通义生成式语音大模型，请问有什么可以帮您的吗？', '中文女', save_path='sft_output.wav')
+
+    # Zero-shot model example
+    cosyvoice_zero_shot = CosyVoiceTTS('checkpoints/CosyVoice_ckpt/CosyVoice-300M')
+    prompt_speech = 'zero_shot_prompt.wav'
+    cosyvoice_zero_shot.predict_zero_shot('收到好友从远方寄来的生日礼物，那份意外的惊喜与深深的祝福让我心中充满了甜蜜的快乐，笑容如花儿般绽放。', '希望你以后能够做的比我还好呦。',
+                                          prompt_speech, save_path='zero_shot_output.wav')

@@ -1,1 +1,72 @@
-IyBjb2Rpbmc6IHV0Zi04CgppbXBvcnQgb3MKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgppbXBvcnQgbWF0cGxvdGxpYi5weXBsb3QgYXMgcGx0CmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgcGFuZGFzIGFzIHBkCmZyb20gbWVucG8udmlzdWFsaXplLnZpZXdtYXRwbG90bGliIGltcG9ydCBzYW1wbGVfY29sb3Vyc19mcm9tX2NvbG91cm1hcApmcm9tIHByZXR0eXRhYmxlIGltcG9ydCBQcmV0dHlUYWJsZQpmcm9tIHNrbGVhcm4ubWV0cmljcyBpbXBvcnQgcm9jX2N1cnZlLCBhdWMKCmltYWdlX3BhdGggPSAiL2RhdGEvYW54aWFuZy9JSkJfcmVsZWFzZS9JSkJDIgpmaWxlcyA9IFsKICAgICAgICAiLi9tczFtdjNfYXJjZmFjZV9yMTAwL21zMW12M19hcmNmYWNlX3IxMDAvaWpiYy5ucHkiCl0KCgpkZWYgcmVhZF90ZW1wbGF0ZV9wYWlyX2xpc3QocGF0aCk6CiAgICBwYWlycyA9IHBkLnJlYWRfY3N2KHBhdGgsIHNlcD0nICcsIGhlYWRlcj1Ob25lKS52YWx1ZXMKICAgIHQxID0gcGFpcnNbOiwgMF0uYXN0eXBlKG5wLmludCkKICAgIHQyID0gcGFpcnNbOiwgMV0uYXN0eXBlKG5wLmludCkKICAgIGxhYmVsID0gcGFpcnNbOiwgMl0uYXN0eXBlKG5wLmludCkKICAgIHJldHVybiB0MSwgdDIsIGxhYmVsCgoKcDEsIHAyLCBsYWJlbCA9IHJlYWRfdGVtcGxhdGVfcGFpcl9saXN0KAogICAgb3MucGF0aC5qb2luKCclcy9tZXRhJyAlIGltYWdlX3BhdGgsCiAgICAgICAgICAgICAgICAgJyVzX3RlbXBsYXRlX3BhaXJfbGFiZWwudHh0JyAlICdpamJjJykpCgptZXRob2RzID0gW10Kc2NvcmVzID0gW10KZm9yIGZpbGUgaW4gZmlsZXM6CiAgICBtZXRob2RzLmFwcGVuZChmaWxlLnNwbGl0KCcvJylbLTJdKQogICAgc2NvcmVzLmFwcGVuZChucC5sb2FkKGZpbGUpKQoKbWV0aG9kcyA9IG5wLmFycmF5KG1ldGhvZHMpCnNjb3JlcyA9IGRpY3QoemlwKG1ldGhvZHMsIHNjb3JlcykpCmNvbG91cnMgPSBkaWN0KAogICAgemlwKG1ldGhvZHMsIHNhbXBsZV9jb2xvdXJzX2Zyb21fY29sb3VybWFwKG1ldGhvZHMuc2hhcGVbMF0sICdTZXQyJykpKQp4X2xhYmVscyA9IFsxMCAqKiAtNiwgMTAgKiogLTUsIDEwICoqIC00LCAxMCAqKiAtMywgMTAgKiogLTIsIDEwICoqIC0xXQp0cHJfZnByX3RhYmxlID0gUHJldHR5VGFibGUoWydNZXRob2RzJ10gKyBbc3RyKHgpIGZvciB4IGluIHhfbGFiZWxzXSkKZmlnID0gcGx0LmZpZ3VyZSgpCmZvciBtZXRob2QgaW4gbWV0aG9kczoKICAgIGZwciwgdHByLCBfID0gcm9jX2N1cnZlKGxhYmVsLCBzY29yZXNbbWV0aG9kXSkKICAgIHJvY19hdWMgPSBhdWMoZnByLCB0cHIpCiAgICBmcHIgPSBucC5mbGlwdWQoZnByKQogICAgdHByID0gbnAuZmxpcHVkKHRwcikgICMgc2VsZWN0IGxhcmdlc3QgdHByIGF0IHNhbWUgZnByCiAgICBwbHQucGxvdChmcHIsCiAgICAgICAgICAgICB0cHIsCiAgICAgICAgICAgICBjb2xvcj1jb2xvdXJzW21ldGhvZF0sCiAgICAgICAgICAgICBsdz0xLAogICAgICAgICAgICAgbGFiZWw9KCdbJXMgKEFVQyA9ICUwLjRmICUlKV0nICUKICAgICAgICAgICAgICAgICAgICAobWV0aG9kLnNwbGl0KCctJylbLTFdLCByb2NfYXVjICogMTAwKSkpCiAgICB0cHJfZnByX3JvdyA9IFtdCiAgICB0cHJfZnByX3Jvdy5hcHBlbmQoIiVzLSVzIiAlIChtZXRob2QsICJJSkJDIikpCiAgICBmb3IgZnByX2l0ZXIgaW4gbnAuYXJhbmdlKGxlbih4X2xhYmVscykpOgogICAgICAgIF8sIG1pbl9pbmRleCA9IG1pbigKICAgICAgICAgICAgbGlzdCh6aXAoYWJzKGZwciAtIHhfbGFiZWxzW2Zwcl9pdGVyXSksIHJhbmdlKGxlbihmcHIpKSkpKQogICAgICAgIHRwcl9mcHJfcm93LmFwcGVuZCgnJS4yZicgJSAodHByW21pbl9pbmRleF0gKiAxMDApKQogICAgdHByX2Zwcl90YWJsZS5hZGRfcm93KHRwcl9mcHJfcm93KQpwbHQueGxpbShbMTAgKiogLTYsIDAuMV0pCnBsdC55bGltKFswLjMsIDEuMF0pCnBsdC5ncmlkKGxpbmVzdHlsZT0nLS0nLCBsaW5ld2lkdGg9MSkKcGx0Lnh0aWNrcyh4X2xhYmVscykKcGx0Lnl0aWNrcyhucC5saW5zcGFjZSgwLjMsIDEuMCwgOCwgZW5kcG9pbnQ9VHJ1ZSkpCnBsdC54c2NhbGUoJ2xvZycpCnBsdC54bGFiZWwoJ0ZhbHNlIFBvc2l0aXZlIFJhdGUnKQpwbHQueWxhYmVsKCdUcnVlIFBvc2l0aXZlIFJhdGUnKQpwbHQudGl0bGUoJ1JPQyBvbiBJSkInKQpwbHQubGVnZW5kKGxvYz0ibG93ZXIgcmlnaHQiKQpwcmludCh0cHJfZnByX3RhYmxlKQo=
+# coding: utf-8
+
+import os
+from pathlib import Path
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from menpo.visualize.viewmatplotlib import sample_colours_from_colourmap
+from prettytable import PrettyTable
+from sklearn.metrics import roc_curve, auc
+
+image_path = "/data/anxiang/IJB_release/IJBC"
+files = [
+        "./ms1mv3_arcface_r100/ms1mv3_arcface_r100/ijbc.npy"
+]
+
+
+def read_template_pair_list(path):
+    pairs = pd.read_csv(path, sep=' ', header=None).values
+    t1 = pairs[:, 0].astype(np.int)
+    t2 = pairs[:, 1].astype(np.int)
+    label = pairs[:, 2].astype(np.int)
+    return t1, t2, label
+
+
+p1, p2, label = read_template_pair_list(
+    os.path.join('%s/meta' % image_path,
+                 '%s_template_pair_label.txt' % 'ijbc'))
+
+methods = []
+scores = []
+for file in files:
+    methods.append(file.split('/')[-2])
+    scores.append(np.load(file))
+
+methods = np.array(methods)
+scores = dict(zip(methods, scores))
+colours = dict(
+    zip(methods, sample_colours_from_colourmap(methods.shape[0], 'Set2')))
+x_labels = [10 ** -6, 10 ** -5, 10 ** -4, 10 ** -3, 10 ** -2, 10 ** -1]
+tpr_fpr_table = PrettyTable(['Methods'] + [str(x) for x in x_labels])
+fig = plt.figure()
+for method in methods:
+    fpr, tpr, _ = roc_curve(label, scores[method])
+    roc_auc = auc(fpr, tpr)
+    fpr = np.flipud(fpr)
+    tpr = np.flipud(tpr)  # select largest tpr at same fpr
+    plt.plot(fpr,
+             tpr,
+             color=colours[method],
+             lw=1,
+             label=('[%s (AUC = %0.4f %%)]' %
+                    (method.split('-')[-1], roc_auc * 100)))
+    tpr_fpr_row = []
+    tpr_fpr_row.append("%s-%s" % (method, "IJBC"))
+    for fpr_iter in np.arange(len(x_labels)):
+        _, min_index = min(
+            list(zip(abs(fpr - x_labels[fpr_iter]), range(len(fpr)))))
+        tpr_fpr_row.append('%.2f' % (tpr[min_index] * 100))
+    tpr_fpr_table.add_row(tpr_fpr_row)
+plt.xlim([10 ** -6, 0.1])
+plt.ylim([0.3, 1.0])
+plt.grid(linestyle='--', linewidth=1)
+plt.xticks(x_labels)
+plt.yticks(np.linspace(0.3, 1.0, 8, endpoint=True))
+plt.xscale('log')
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.title('ROC on IJB')
+plt.legend(loc="lower right")
+print(tpr_fpr_table)

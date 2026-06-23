@@ -1,1 +1,100 @@
-IiIiTW9kZWwgY2xhc3MgdGVtcGxhdGUKClRoaXMgbW9kdWxlIHByb3ZpZGVzIGEgdGVtcGxhdGUgZm9yIHVzZXJzIHRvIGltcGxlbWVudCBjdXN0b20gbW9kZWxzLgpZb3UgY2FuIHNwZWNpZnkgJy0tbW9kZWwgdGVtcGxhdGUnIHRvIHVzZSB0aGlzIG1vZGVsLgpUaGUgY2xhc3MgbmFtZSBzaG91bGQgYmUgY29uc2lzdGVudCB3aXRoIGJvdGggdGhlIGZpbGVuYW1lIGFuZCBpdHMgbW9kZWwgb3B0aW9uLgpUaGUgZmlsZW5hbWUgc2hvdWxkIGJlIDxtb2RlbD5fZGF0YXNldC5weQpUaGUgY2xhc3MgbmFtZSBzaG91bGQgYmUgPE1vZGVsPkRhdGFzZXQucHkKSXQgaW1wbGVtZW50cyBhIHNpbXBsZSBpbWFnZS10by1pbWFnZSB0cmFuc2xhdGlvbiBiYXNlbGluZSBiYXNlZCBvbiByZWdyZXNzaW9uIGxvc3MuCkdpdmVuIGlucHV0LW91dHB1dCBwYWlycyAoZGF0YV9BLCBkYXRhX0IpLCBpdCBsZWFybnMgYSBuZXR3b3JrIG5ldEcgdGhhdCBjYW4gbWluaW1pemUgdGhlIGZvbGxvd2luZyBMMSBsb3NzOgogICAgbWluXzxuZXRHPiB8fG5ldEcoZGF0YV9BKSAtIGRhdGFfQnx8XzEKWW91IG5lZWQgdG8gaW1wbGVtZW50IHRoZSBmb2xsb3dpbmcgZnVuY3Rpb25zOgogICAgPG1vZGlmeV9jb21tYW5kbGluZV9vcHRpb25zPjrjgIBBZGQgbW9kZWwtc3BlY2lmaWMgb3B0aW9ucyBhbmQgcmV3cml0ZSBkZWZhdWx0IHZhbHVlcyBmb3IgZXhpc3Rpbmcgb3B0aW9ucy4KICAgIDxfX2luaXRfXz46IEluaXRpYWxpemUgdGhpcyBtb2RlbCBjbGFzcy4KICAgIDxzZXRfaW5wdXQ+OiBVbnBhY2sgaW5wdXQgZGF0YSBhbmQgcGVyZm9ybSBkYXRhIHByZS1wcm9jZXNzaW5nLgogICAgPGZvcndhcmQ+OiBSdW4gZm9yd2FyZCBwYXNzLiBUaGlzIHdpbGwgYmUgY2FsbGVkIGJ5IGJvdGggPG9wdGltaXplX3BhcmFtZXRlcnM+IGFuZCA8dGVzdD4uCiAgICA8b3B0aW1pemVfcGFyYW1ldGVycz46IFVwZGF0ZSBuZXR3b3JrIHdlaWdodHM7IGl0IHdpbGwgYmUgY2FsbGVkIGluIGV2ZXJ5IHRyYWluaW5nIGl0ZXJhdGlvbi4KIiIiCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgdG9yY2gKZnJvbSAuYmFzZV9tb2RlbCBpbXBvcnQgQmFzZU1vZGVsCmZyb20gLiBpbXBvcnQgbmV0d29ya3MKCgpjbGFzcyBUZW1wbGF0ZU1vZGVsKEJhc2VNb2RlbCk6CiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgbW9kaWZ5X2NvbW1hbmRsaW5lX29wdGlvbnMocGFyc2VyLCBpc190cmFpbj1UcnVlKToKICAgICAgICAiIiJBZGQgbmV3IG1vZGVsLXNwZWNpZmljIG9wdGlvbnMgYW5kIHJld3JpdGUgZGVmYXVsdCB2YWx1ZXMgZm9yIGV4aXN0aW5nIG9wdGlvbnMuCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIHBhcnNlciAtLSB0aGUgb3B0aW9uIHBhcnNlcgogICAgICAgICAgICBpc190cmFpbiAtLSBpZiBpdCBpcyB0cmFpbmluZyBwaGFzZSBvciB0ZXN0IHBoYXNlLiBZb3UgY2FuIHVzZSB0aGlzIGZsYWcgdG8gYWRkIHRyYWluaW5nLXNwZWNpZmljIG9yIHRlc3Qtc3BlY2lmaWMgb3B0aW9ucy4KCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgdGhlIG1vZGlmaWVkIHBhcnNlci4KICAgICAgICAiIiIKICAgICAgICBwYXJzZXIuc2V0X2RlZmF1bHRzKGRhdGFzZXRfbW9kZT0nYWxpZ25lZCcpICAjIFlvdSBjYW4gcmV3cml0ZSBkZWZhdWx0IHZhbHVlcyBmb3IgdGhpcyBtb2RlbC4gRm9yIGV4YW1wbGUsIHRoaXMgbW9kZWwgdXN1YWxseSB1c2VzIGFsaWduZWQgZGF0YXNldCBhcyBpdHMgZGF0YXNldC4KICAgICAgICBpZiBpc190cmFpbjoKICAgICAgICAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1sYW1iZGFfcmVncmVzc2lvbicsIHR5cGU9ZmxvYXQsIGRlZmF1bHQ9MS4wLCBoZWxwPSd3ZWlnaHQgZm9yIHRoZSByZWdyZXNzaW9uIGxvc3MnKSAgIyBZb3UgY2FuIGRlZmluZSBuZXcgYXJndW1lbnRzIGZvciB0aGlzIG1vZGVsLgoKICAgICAgICByZXR1cm4gcGFyc2VyCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG9wdCk6CiAgICAgICAgIiIiSW5pdGlhbGl6ZSB0aGlzIG1vZGVsIGNsYXNzLgoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBvcHQgLS0gdHJhaW5pbmcvdGVzdCBvcHRpb25zCgogICAgICAgIEEgZmV3IHRoaW5ncyBjYW4gYmUgZG9uZSBoZXJlLgogICAgICAgIC0gKHJlcXVpcmVkKSBjYWxsIHRoZSBpbml0aWFsaXphdGlvbiBmdW5jdGlvbiBvZiBCYXNlTW9kZWwKICAgICAgICAtIGRlZmluZSBsb3NzIGZ1bmN0aW9uLCB2aXN1YWxpemF0aW9uIGltYWdlcywgbW9kZWwgbmFtZXMsIGFuZCBvcHRpbWl6ZXJzCiAgICAgICAgIiIiCiAgICAgICAgQmFzZU1vZGVsLl9faW5pdF9fKHNlbGYsIG9wdCkgICMgY2FsbCB0aGUgaW5pdGlhbGl6YXRpb24gbWV0aG9kIG9mIEJhc2VNb2RlbAogICAgICAgICMgc3BlY2lmeSB0aGUgdHJhaW5pbmcgbG9zc2VzIHlvdSB3YW50IHRvIHByaW50IG91dC4gVGhlIHByb2dyYW0gd2lsbCBjYWxsIGJhc2VfbW9kZWwuZ2V0X2N1cnJlbnRfbG9zc2VzIHRvIHBsb3QgdGhlIGxvc3NlcyB0byB0aGUgY29uc29sZSBhbmQgc2F2ZSB0aGVtIHRvIHRoZSBkaXNrLgogICAgICAgIHNlbGYubG9zc19uYW1lcyA9IFsnbG9zc19HJ10KICAgICAgICAjIHNwZWNpZnkgdGhlIGltYWdlcyB5b3Ugd2FudCB0byBzYXZlIGFuZCBkaXNwbGF5LiBUaGUgcHJvZ3JhbSB3aWxsIGNhbGwgYmFzZV9tb2RlbC5nZXRfY3VycmVudF92aXN1YWxzIHRvIHNhdmUgYW5kIGRpc3BsYXkgdGhlc2UgaW1hZ2VzLgogICAgICAgIHNlbGYudmlzdWFsX25hbWVzID0gWydkYXRhX0EnLCAnZGF0YV9CJywgJ291dHB1dCddCiAgICAgICAgIyBzcGVjaWZ5IHRoZSBtb2RlbHMgeW91IHdhbnQgdG8gc2F2ZSB0byB0aGUgZGlzay4gVGhlIHByb2dyYW0gd2lsbCBjYWxsIGJhc2VfbW9kZWwuc2F2ZV9uZXR3b3JrcyBhbmQgYmFzZV9tb2RlbC5sb2FkX25ldHdvcmtzIHRvIHNhdmUgYW5kIGxvYWQgbmV0d29ya3MuCiAgICAgICAgIyB5b3UgY2FuIHVzZSBvcHQuaXNUcmFpbiB0byBzcGVjaWZ5IGRpZmZlcmVudCBiZWhhdmlvcnMgZm9yIHRyYWluaW5nIGFuZCB0ZXN0LiBGb3IgZXhhbXBsZSwgc29tZSBuZXR3b3JrcyB3aWxsIG5vdCBiZSB1c2VkIGR1cmluZyB0ZXN0LCBhbmQgeW91IGRvbid0IG5lZWQgdG8gbG9hZCB0aGVtLgogICAgICAgIHNlbGYubW9kZWxfbmFtZXMgPSBbJ0cnXQogICAgICAgICMgZGVmaW5lIG5ldHdvcmtzOyB5b3UgY2FuIHVzZSBvcHQuaXNUcmFpbiB0byBzcGVjaWZ5IGRpZmZlcmVudCBiZWhhdmlvcnMgZm9yIHRyYWluaW5nIGFuZCB0ZXN0LgogICAgICAgIHNlbGYubmV0RyA9IG5ldHdvcmtzLmRlZmluZV9HKG9wdC5pbnB1dF9uYywgb3B0Lm91dHB1dF9uYywgb3B0Lm5nZiwgb3B0Lm5ldEcsIGdwdV9pZHM9c2VsZi5ncHVfaWRzKQogICAgICAgIGlmIHNlbGYuaXNUcmFpbjogICMgb25seSBkZWZpbmVkIGR1cmluZyB0cmFpbmluZyB0aW1lCiAgICAgICAgICAgICMgZGVmaW5lIHlvdXIgbG9zcyBmdW5jdGlvbnMuIFlvdSBjYW4gdXNlIGxvc3NlcyBwcm92aWRlZCBieSB0b3JjaC5ubiBzdWNoIGFzIHRvcmNoLm5uLkwxTG9zcy4KICAgICAgICAgICAgIyBXZSBhbHNvIHByb3ZpZGUgYSBHQU5Mb3NzIGNsYXNzICJuZXR3b3Jrcy5HQU5Mb3NzIi4gc2VsZi5jcml0ZXJpb25HQU4gPSBuZXR3b3Jrcy5HQU5Mb3NzKCkudG8oc2VsZi5kZXZpY2UpCiAgICAgICAgICAgIHNlbGYuY3JpdGVyaW9uTG9zcyA9IHRvcmNoLm5uLkwxTG9zcygpCiAgICAgICAgICAgICMgZGVmaW5lIGFuZCBpbml0aWFsaXplIG9wdGltaXplcnMuIFlvdSBjYW4gZGVmaW5lIG9uZSBvcHRpbWl6ZXIgZm9yIGVhY2ggbmV0d29yay4KICAgICAgICAgICAgIyBJZiB0d28gbmV0d29ya3MgYXJlIHVwZGF0ZWQgYXQgdGhlIHNhbWUgdGltZSwgeW91IGNhbiB1c2UgaXRlcnRvb2xzLmNoYWluIHRvIGdyb3VwIHRoZW0uIFNlZSBjeWNsZV9nYW5fbW9kZWwucHkgZm9yIGFuIGV4YW1wbGUuCiAgICAgICAgICAgIHNlbGYub3B0aW1pemVyID0gdG9yY2gub3B0aW0uQWRhbShzZWxmLm5ldEcucGFyYW1ldGVycygpLCBscj1vcHQubHIsIGJldGFzPShvcHQuYmV0YTEsIDAuOTk5KSkKICAgICAgICAgICAgc2VsZi5vcHRpbWl6ZXJzID0gW3NlbGYub3B0aW1pemVyXQoKICAgICAgICAjIE91ciBwcm9ncmFtIHdpbGwgYXV0b21hdGljYWxseSBjYWxsIDxtb2RlbC5zZXR1cD4gdG8gZGVmaW5lIHNjaGVkdWxlcnMsIGxvYWQgbmV0d29ya3MsIGFuZCBwcmludCBuZXR3b3JrcwoKICAgIGRlZiBzZXRfaW5wdXQoc2VsZiwgaW5wdXQpOgogICAgICAgICIiIlVucGFjayBpbnB1dCBkYXRhIGZyb20gdGhlIGRhdGFsb2FkZXIgYW5kIHBlcmZvcm0gbmVjZXNzYXJ5IHByZS1wcm9jZXNzaW5nIHN0ZXBzLgoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBpbnB1dDogYSBkaWN0aW9uYXJ5IHRoYXQgY29udGFpbnMgdGhlIGRhdGEgaXRzZWxmIGFuZCBpdHMgbWV0YWRhdGEgaW5mb3JtYXRpb24uCiAgICAgICAgIiIiCiAgICAgICAgQXRvQiA9IHNlbGYub3B0LmRpcmVjdGlvbiA9PSAnQXRvQicgICMgdXNlIDxkaXJlY3Rpb24+IHRvIHN3YXAgZGF0YV9BIGFuZCBkYXRhX0IKICAgICAgICBzZWxmLmRhdGFfQSA9IGlucHV0WydBJyBpZiBBdG9CIGVsc2UgJ0InXS50byhzZWxmLmRldmljZSkgICMgZ2V0IGltYWdlIGRhdGEgQQogICAgICAgIHNlbGYuZGF0YV9CID0gaW5wdXRbJ0InIGlmIEF0b0IgZWxzZSAnQSddLnRvKHNlbGYuZGV2aWNlKSAgIyBnZXQgaW1hZ2UgZGF0YSBCCiAgICAgICAgc2VsZi5pbWFnZV9wYXRocyA9IGlucHV0WydBX3BhdGhzJyBpZiBBdG9CIGVsc2UgJ0JfcGF0aHMnXSAgIyBnZXQgaW1hZ2UgcGF0aHMKCiAgICBkZWYgZm9yd2FyZChzZWxmKToKICAgICAgICAiIiJSdW4gZm9yd2FyZCBwYXNzLiBUaGlzIHdpbGwgYmUgY2FsbGVkIGJ5IGJvdGggZnVuY3Rpb25zIDxvcHRpbWl6ZV9wYXJhbWV0ZXJzPiBhbmQgPHRlc3Q+LiIiIgogICAgICAgIHNlbGYub3V0cHV0ID0gc2VsZi5uZXRHKHNlbGYuZGF0YV9BKSAgIyBnZW5lcmF0ZSBvdXRwdXQgaW1hZ2UgZ2l2ZW4gdGhlIGlucHV0IGRhdGFfQQoKICAgIGRlZiBiYWNrd2FyZChzZWxmKToKICAgICAgICAiIiJDYWxjdWxhdGUgbG9zc2VzLCBncmFkaWVudHMsIGFuZCB1cGRhdGUgbmV0d29yayB3ZWlnaHRzOyBjYWxsZWQgaW4gZXZlcnkgdHJhaW5pbmcgaXRlcmF0aW9uIiIiCiAgICAgICAgIyBjYWN1bGF0ZSB0aGUgaW50ZXJtZWRpYXRlIHJlc3VsdHMgaWYgbmVjZXNzYXJ5OyBoZXJlIHNlbGYub3V0cHV0IGhhcyBiZWVuIGNvbXB1dGVkIGR1cmluZyBmdW5jdGlvbiA8Zm9yd2FyZD4KICAgICAgICAjIGNhbGN1bGF0ZSBsb3NzIGdpdmVuIHRoZSBpbnB1dCBhbmQgaW50ZXJtZWRpYXRlIHJlc3VsdHMKICAgICAgICBzZWxmLmxvc3NfRyA9IHNlbGYuY3JpdGVyaW9uTG9zcyhzZWxmLm91dHB1dCwgc2VsZi5kYXRhX0IpICogc2VsZi5vcHQubGFtYmRhX3JlZ3Jlc3Npb24KICAgICAgICBzZWxmLmxvc3NfRy5iYWNrd2FyZCgpICAgICAgICMgY2FsY3VsYXRlIGdyYWRpZW50cyBvZiBuZXR3b3JrIEcgdy5yLnQuIGxvc3NfRwoKICAgIGRlZiBvcHRpbWl6ZV9wYXJhbWV0ZXJzKHNlbGYpOgogICAgICAgICIiIlVwZGF0ZSBuZXR3b3JrIHdlaWdodHM7IGl0IHdpbGwgYmUgY2FsbGVkIGluIGV2ZXJ5IHRyYWluaW5nIGl0ZXJhdGlvbi4iIiIKICAgICAgICBzZWxmLmZvcndhcmQoKSAgICAgICAgICAgICAgICMgZmlyc3QgY2FsbCBmb3J3YXJkIHRvIGNhbGN1bGF0ZSBpbnRlcm1lZGlhdGUgcmVzdWx0cwogICAgICAgIHNlbGYub3B0aW1pemVyLnplcm9fZ3JhZCgpICAgIyBjbGVhciBuZXR3b3JrIEcncyBleGlzdGluZyBncmFkaWVudHMKICAgICAgICBzZWxmLmJhY2t3YXJkKCkgICAgICAgICAgICAgICMgY2FsY3VsYXRlIGdyYWRpZW50cyBmb3IgbmV0d29yayBHCiAgICAgICAgc2VsZi5vcHRpbWl6ZXIuc3RlcCgpICAgICAgICAjIHVwZGF0ZSBncmFkaWVudHMgZm9yIG5ldHdvcmsgRwo=
+"""Model class template
+
+This module provides a template for users to implement custom models.
+You can specify '--model template' to use this model.
+The class name should be consistent with both the filename and its model option.
+The filename should be <model>_dataset.py
+The class name should be <Model>Dataset.py
+It implements a simple image-to-image translation baseline based on regression loss.
+Given input-output pairs (data_A, data_B), it learns a network netG that can minimize the following L1 loss:
+    min_<netG> ||netG(data_A) - data_B||_1
+You need to implement the following functions:
+    <modify_commandline_options>:　Add model-specific options and rewrite default values for existing options.
+    <__init__>: Initialize this model class.
+    <set_input>: Unpack input data and perform data pre-processing.
+    <forward>: Run forward pass. This will be called by both <optimize_parameters> and <test>.
+    <optimize_parameters>: Update network weights; it will be called in every training iteration.
+"""
+import numpy as np
+import torch
+from .base_model import BaseModel
+from . import networks
+
+
+class TemplateModel(BaseModel):
+    @staticmethod
+    def modify_commandline_options(parser, is_train=True):
+        """Add new model-specific options and rewrite default values for existing options.
+
+        Parameters:
+            parser -- the option parser
+            is_train -- if it is training phase or test phase. You can use this flag to add training-specific or test-specific options.
+
+        Returns:
+            the modified parser.
+        """
+        parser.set_defaults(dataset_mode='aligned')  # You can rewrite default values for this model. For example, this model usually uses aligned dataset as its dataset.
+        if is_train:
+            parser.add_argument('--lambda_regression', type=float, default=1.0, help='weight for the regression loss')  # You can define new arguments for this model.
+
+        return parser
+
+    def __init__(self, opt):
+        """Initialize this model class.
+
+        Parameters:
+            opt -- training/test options
+
+        A few things can be done here.
+        - (required) call the initialization function of BaseModel
+        - define loss function, visualization images, model names, and optimizers
+        """
+        BaseModel.__init__(self, opt)  # call the initialization method of BaseModel
+        # specify the training losses you want to print out. The program will call base_model.get_current_losses to plot the losses to the console and save them to the disk.
+        self.loss_names = ['loss_G']
+        # specify the images you want to save and display. The program will call base_model.get_current_visuals to save and display these images.
+        self.visual_names = ['data_A', 'data_B', 'output']
+        # specify the models you want to save to the disk. The program will call base_model.save_networks and base_model.load_networks to save and load networks.
+        # you can use opt.isTrain to specify different behaviors for training and test. For example, some networks will not be used during test, and you don't need to load them.
+        self.model_names = ['G']
+        # define networks; you can use opt.isTrain to specify different behaviors for training and test.
+        self.netG = networks.define_G(opt.input_nc, opt.output_nc, opt.ngf, opt.netG, gpu_ids=self.gpu_ids)
+        if self.isTrain:  # only defined during training time
+            # define your loss functions. You can use losses provided by torch.nn such as torch.nn.L1Loss.
+            # We also provide a GANLoss class "networks.GANLoss". self.criterionGAN = networks.GANLoss().to(self.device)
+            self.criterionLoss = torch.nn.L1Loss()
+            # define and initialize optimizers. You can define one optimizer for each network.
+            # If two networks are updated at the same time, you can use itertools.chain to group them. See cycle_gan_model.py for an example.
+            self.optimizer = torch.optim.Adam(self.netG.parameters(), lr=opt.lr, betas=(opt.beta1, 0.999))
+            self.optimizers = [self.optimizer]
+
+        # Our program will automatically call <model.setup> to define schedulers, load networks, and print networks
+
+    def set_input(self, input):
+        """Unpack input data from the dataloader and perform necessary pre-processing steps.
+
+        Parameters:
+            input: a dictionary that contains the data itself and its metadata information.
+        """
+        AtoB = self.opt.direction == 'AtoB'  # use <direction> to swap data_A and data_B
+        self.data_A = input['A' if AtoB else 'B'].to(self.device)  # get image data A
+        self.data_B = input['B' if AtoB else 'A'].to(self.device)  # get image data B
+        self.image_paths = input['A_paths' if AtoB else 'B_paths']  # get image paths
+
+    def forward(self):
+        """Run forward pass. This will be called by both functions <optimize_parameters> and <test>."""
+        self.output = self.netG(self.data_A)  # generate output image given the input data_A
+
+    def backward(self):
+        """Calculate losses, gradients, and update network weights; called in every training iteration"""
+        # caculate the intermediate results if necessary; here self.output has been computed during function <forward>
+        # calculate loss given the input and intermediate results
+        self.loss_G = self.criterionLoss(self.output, self.data_B) * self.opt.lambda_regression
+        self.loss_G.backward()       # calculate gradients of network G w.r.t. loss_G
+
+    def optimize_parameters(self):
+        """Update network weights; it will be called in every training iteration."""
+        self.forward()               # first call forward to calculate intermediate results
+        self.optimizer.zero_grad()   # clear network G's existing gradients
+        self.backward()              # calculate gradients for network G
+        self.optimizer.step()        # update gradients for network G

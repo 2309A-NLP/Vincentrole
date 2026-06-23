@@ -1,1 +1,313 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBwcmludF9mdW5jdGlvbgppbXBvcnQgb3MKaW1wb3J0IHN5cwppbXBvcnQgdGltZQppbXBvcnQgdG9yY2gKaW1wb3J0IG1hdGgKaW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCBjdjIKCgpkZWYgX2dhdXNzaWFuKAogICAgICAgIHNpemU9Mywgc2lnbWE9MC4yNSwgYW1wbGl0dWRlPTEsIG5vcm1hbGl6ZT1GYWxzZSwgd2lkdGg9Tm9uZSwKICAgICAgICBoZWlnaHQ9Tm9uZSwgc2lnbWFfaG9yej1Ob25lLCBzaWdtYV92ZXJ0PU5vbmUsIG1lYW5faG9yej0wLjUsCiAgICAgICAgbWVhbl92ZXJ0PTAuNSk6CiAgICAjIGhhbmRsZSBzb21lIGRlZmF1bHRzCiAgICBpZiB3aWR0aCBpcyBOb25lOgogICAgICAgIHdpZHRoID0gc2l6ZQogICAgaWYgaGVpZ2h0IGlzIE5vbmU6CiAgICAgICAgaGVpZ2h0ID0gc2l6ZQogICAgaWYgc2lnbWFfaG9yeiBpcyBOb25lOgogICAgICAgIHNpZ21hX2hvcnogPSBzaWdtYQogICAgaWYgc2lnbWFfdmVydCBpcyBOb25lOgogICAgICAgIHNpZ21hX3ZlcnQgPSBzaWdtYQogICAgY2VudGVyX3ggPSBtZWFuX2hvcnogKiB3aWR0aCArIDAuNQogICAgY2VudGVyX3kgPSBtZWFuX3ZlcnQgKiBoZWlnaHQgKyAwLjUKICAgIGdhdXNzID0gbnAuZW1wdHkoKGhlaWdodCwgd2lkdGgpLCBkdHlwZT1ucC5mbG9hdDMyKQogICAgIyBnZW5lcmF0ZSBrZXJuZWwKICAgIGZvciBpIGluIHJhbmdlKGhlaWdodCk6CiAgICAgICAgZm9yIGogaW4gcmFuZ2Uod2lkdGgpOgogICAgICAgICAgICBnYXVzc1tpXVtqXSA9IGFtcGxpdHVkZSAqIG1hdGguZXhwKC0obWF0aC5wb3coKGogKyAxIC0gY2VudGVyX3gpIC8gKAogICAgICAgICAgICAgICAgc2lnbWFfaG9yeiAqIHdpZHRoKSwgMikgLyAyLjAgKyBtYXRoLnBvdygoaSArIDEgLSBjZW50ZXJfeSkgLyAoc2lnbWFfdmVydCAqIGhlaWdodCksIDIpIC8gMi4wKSkKICAgIGlmIG5vcm1hbGl6ZToKICAgICAgICBnYXVzcyA9IGdhdXNzIC8gbnAuc3VtKGdhdXNzKQogICAgcmV0dXJuIGdhdXNzCgoKZGVmIGRyYXdfZ2F1c3NpYW4oaW1hZ2UsIHBvaW50LCBzaWdtYSk6CiAgICAjIENoZWNrIGlmIHRoZSBnYXVzc2lhbiBpcyBpbnNpZGUKICAgIHVsID0gW21hdGguZmxvb3IocG9pbnRbMF0gLSAzICogc2lnbWEpLCBtYXRoLmZsb29yKHBvaW50WzFdIC0gMyAqIHNpZ21hKV0KICAgIGJyID0gW21hdGguZmxvb3IocG9pbnRbMF0gKyAzICogc2lnbWEpLCBtYXRoLmZsb29yKHBvaW50WzFdICsgMyAqIHNpZ21hKV0KICAgIGlmICh1bFswXSA+IGltYWdlLnNoYXBlWzFdIG9yIHVsWzFdID4gaW1hZ2Uuc2hhcGVbMF0gb3IgYnJbMF0gPCAxIG9yIGJyWzFdIDwgMSk6CiAgICAgICAgcmV0dXJuIGltYWdlCiAgICBzaXplID0gNiAqIHNpZ21hICsgMQogICAgZyA9IF9nYXVzc2lhbihzaXplKQogICAgZ194ID0gW2ludChtYXgoMSwgLXVsWzBdKSksIGludChtaW4oYnJbMF0sIGltYWdlLnNoYXBlWzFdKSkgLSBpbnQobWF4KDEsIHVsWzBdKSkgKyBpbnQobWF4KDEsIC11bFswXSkpXQogICAgZ195ID0gW2ludChtYXgoMSwgLXVsWzFdKSksIGludChtaW4oYnJbMV0sIGltYWdlLnNoYXBlWzBdKSkgLSBpbnQobWF4KDEsIHVsWzFdKSkgKyBpbnQobWF4KDEsIC11bFsxXSkpXQogICAgaW1nX3ggPSBbaW50KG1heCgxLCB1bFswXSkpLCBpbnQobWluKGJyWzBdLCBpbWFnZS5zaGFwZVsxXSkpXQogICAgaW1nX3kgPSBbaW50KG1heCgxLCB1bFsxXSkpLCBpbnQobWluKGJyWzFdLCBpbWFnZS5zaGFwZVswXSkpXQogICAgYXNzZXJ0IChnX3hbMF0gPiAwIGFuZCBnX3lbMV0gPiAwKQogICAgaW1hZ2VbaW1nX3lbMF0gLSAxOmltZ195WzFdLCBpbWdfeFswXSAtIDE6aW1nX3hbMV0KICAgICAgICAgIF0gPSBpbWFnZVtpbWdfeVswXSAtIDE6aW1nX3lbMV0sIGltZ194WzBdIC0gMTppbWdfeFsxXV0gKyBnW2dfeVswXSAtIDE6Z195WzFdLCBnX3hbMF0gLSAxOmdfeFsxXV0KICAgIGltYWdlW2ltYWdlID4gMV0gPSAxCiAgICByZXR1cm4gaW1hZ2UKCgpkZWYgdHJhbnNmb3JtKHBvaW50LCBjZW50ZXIsIHNjYWxlLCByZXNvbHV0aW9uLCBpbnZlcnQ9RmFsc2UpOgogICAgIiIiR2VuZXJhdGUgYW5kIGFmZmluZSB0cmFuc2Zvcm1hdGlvbiBtYXRyaXguCgogICAgR2l2ZW4gYSBzZXQgb2YgcG9pbnRzLCBhIGNlbnRlciwgYSBzY2FsZSBhbmQgYSB0YXJnZXIgcmVzb2x1dGlvbiwgdGhlCiAgICBmdW5jdGlvbiBnZW5lcmF0ZXMgYW5kIGFmZmluZSB0cmFuc2Zvcm1hdGlvbiBtYXRyaXguIElmIGludmVydCBpcyBgYFRydWVgYAogICAgaXQgd2lsbCBwcm9kdWNlIHRoZSBpbnZlcnNlIHRyYW5zZm9ybWF0aW9uLgoKICAgIEFyZ3VtZW50czoKICAgICAgICBwb2ludCB7dG9yY2gudGVuc29yfSAtLSB0aGUgaW5wdXQgMkQgcG9pbnQKICAgICAgICBjZW50ZXIge3RvcmNoLnRlbnNvciBvciBudW1weS5hcnJheX0gLS0gdGhlIGNlbnRlciBhcm91bmQgd2hpY2ggdG8gcGVyZm9ybSB0aGUgdHJhbnNmb3JtYXRpb25zCiAgICAgICAgc2NhbGUge2Zsb2F0fSAtLSB0aGUgc2NhbGUgb2YgdGhlIGZhY2Uvb2JqZWN0CiAgICAgICAgcmVzb2x1dGlvbiB7ZmxvYXR9IC0tIHRoZSBvdXRwdXQgcmVzb2x1dGlvbgoKICAgIEtleXdvcmQgQXJndW1lbnRzOgogICAgICAgIGludmVydCB7Ym9vbH0gLS0gZGVmaW5lIHdoZXJldmVyIHRoZSBmdW5jdGlvbiBzaG91bGQgcHJvZHVjZSB0aGUgZGlyZWN0IG9yIHRoZQogICAgICAgIGludmVyc2UgdHJhbnNmb3JtYXRpb24gbWF0cml4IChkZWZhdWx0OiB7RmFsc2V9KQogICAgIiIiCiAgICBfcHQgPSB0b3JjaC5vbmVzKDMpCiAgICBfcHRbMF0gPSBwb2ludFswXQogICAgX3B0WzFdID0gcG9pbnRbMV0KCiAgICBoID0gMjAwLjAgKiBzY2FsZQogICAgdCA9IHRvcmNoLmV5ZSgzKQogICAgdFswLCAwXSA9IHJlc29sdXRpb24gLyBoCiAgICB0WzEsIDFdID0gcmVzb2x1dGlvbiAvIGgKICAgIHRbMCwgMl0gPSByZXNvbHV0aW9uICogKC1jZW50ZXJbMF0gLyBoICsgMC41KQogICAgdFsxLCAyXSA9IHJlc29sdXRpb24gKiAoLWNlbnRlclsxXSAvIGggKyAwLjUpCgogICAgaWYgaW52ZXJ0OgogICAgICAgIHQgPSB0b3JjaC5pbnZlcnNlKHQpCgogICAgbmV3X3BvaW50ID0gKHRvcmNoLm1hdG11bCh0LCBfcHQpKVswOjJdCgogICAgcmV0dXJuIG5ld19wb2ludC5pbnQoKQoKCmRlZiBjcm9wKGltYWdlLCBjZW50ZXIsIHNjYWxlLCByZXNvbHV0aW9uPTI1Ni4wKToKICAgICIiIkNlbnRlciBjcm9wcyBhbiBpbWFnZSBvciBzZXQgb2YgaGVhdG1hcHMKCiAgICBBcmd1bWVudHM6CiAgICAgICAgaW1hZ2Uge251bXB5LmFycmF5fSAtLSBhbiByZ2IgaW1hZ2UKICAgICAgICBjZW50ZXIge251bXB5LmFycmF5fSAtLSB0aGUgY2VudGVyIG9mIHRoZSBvYmplY3QsIHVzdWFsbHkgdGhlIHNhbWUgYXMgb2YgdGhlIGJvdW5kaW5nIGJveAogICAgICAgIHNjYWxlIHtmbG9hdH0gLS0gc2NhbGUgb2YgdGhlIGZhY2UKCiAgICBLZXl3b3JkIEFyZ3VtZW50czoKICAgICAgICByZXNvbHV0aW9uIHtmbG9hdH0gLS0gdGhlIHNpemUgb2YgdGhlIG91dHB1dCBjcm9wcGVkIGltYWdlIChkZWZhdWx0OiB7MjU2LjB9KQoKICAgIFJldHVybnM6CiAgICAgICAgW3R5cGVdIC0tIFtkZXNjcmlwdGlvbl0KICAgICIiIiAgIyBDcm9wIGFyb3VuZCB0aGUgY2VudGVyIHBvaW50CiAgICAiIiIgQ3JvcHMgdGhlIGltYWdlIGFyb3VuZCB0aGUgY2VudGVyLiBJbnB1dCBpcyBleHBlY3RlZCB0byBiZSBhbiBucC5uZGFycmF5ICIiIgogICAgdWwgPSB0cmFuc2Zvcm0oWzEsIDFdLCBjZW50ZXIsIHNjYWxlLCByZXNvbHV0aW9uLCBUcnVlKQogICAgYnIgPSB0cmFuc2Zvcm0oW3Jlc29sdXRpb24sIHJlc29sdXRpb25dLCBjZW50ZXIsIHNjYWxlLCByZXNvbHV0aW9uLCBUcnVlKQogICAgIyBwYWQgPSBtYXRoLmNlaWwodG9yY2gubm9ybSgodWwgLSBicikuZmxvYXQoKSkgLyAyLjAgLSAoYnJbMF0gLSB1bFswXSkgLyAyLjApCiAgICBpZiBpbWFnZS5uZGltID4gMjoKICAgICAgICBuZXdEaW0gPSBucC5hcnJheShbYnJbMV0gLSB1bFsxXSwgYnJbMF0gLSB1bFswXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2Uuc2hhcGVbMl1dLCBkdHlwZT1ucC5pbnQzMikKICAgICAgICBuZXdJbWcgPSBucC56ZXJvcyhuZXdEaW0sIGR0eXBlPW5wLnVpbnQ4KQogICAgZWxzZToKICAgICAgICBuZXdEaW0gPSBucC5hcnJheShbYnJbMV0gLSB1bFsxXSwgYnJbMF0gLSB1bFswXV0sIGR0eXBlPW5wLmludCkKICAgICAgICBuZXdJbWcgPSBucC56ZXJvcyhuZXdEaW0sIGR0eXBlPW5wLnVpbnQ4KQogICAgaHQgPSBpbWFnZS5zaGFwZVswXQogICAgd2QgPSBpbWFnZS5zaGFwZVsxXQogICAgbmV3WCA9IG5wLmFycmF5KAogICAgICAgIFttYXgoMSwgLXVsWzBdICsgMSksIG1pbihiclswXSwgd2QpIC0gdWxbMF1dLCBkdHlwZT1ucC5pbnQzMikKICAgIG5ld1kgPSBucC5hcnJheSgKICAgICAgICBbbWF4KDEsIC11bFsxXSArIDEpLCBtaW4oYnJbMV0sIGh0KSAtIHVsWzFdXSwgZHR5cGU9bnAuaW50MzIpCiAgICBvbGRYID0gbnAuYXJyYXkoW21heCgxLCB1bFswXSArIDEpLCBtaW4oYnJbMF0sIHdkKV0sIGR0eXBlPW5wLmludDMyKQogICAgb2xkWSA9IG5wLmFycmF5KFttYXgoMSwgdWxbMV0gKyAxKSwgbWluKGJyWzFdLCBodCldLCBkdHlwZT1ucC5pbnQzMikKICAgIG5ld0ltZ1tuZXdZWzBdIC0gMTpuZXdZWzFdLCBuZXdYWzBdIC0gMTpuZXdYWzFdCiAgICAgICAgICAgXSA9IGltYWdlW29sZFlbMF0gLSAxOm9sZFlbMV0sIG9sZFhbMF0gLSAxOm9sZFhbMV0sIDpdCiAgICBuZXdJbWcgPSBjdjIucmVzaXplKG5ld0ltZywgZHNpemU9KGludChyZXNvbHV0aW9uKSwgaW50KHJlc29sdXRpb24pKSwKICAgICAgICAgICAgICAgICAgICAgICAgaW50ZXJwb2xhdGlvbj1jdjIuSU5URVJfTElORUFSKQogICAgcmV0dXJuIG5ld0ltZwoKCmRlZiBnZXRfcHJlZHNfZnJvbWhtKGhtLCBjZW50ZXI9Tm9uZSwgc2NhbGU9Tm9uZSk6CiAgICAiIiJPYnRhaW4gKHgseSkgY29vcmRpbmF0ZXMgZ2l2ZW4gYSBzZXQgb2YgTiBoZWF0bWFwcy4gSWYgdGhlIGNlbnRlcgogICAgYW5kIHRoZSBzY2FsZSBpcyBwcm92aWRlZCB0aGUgZnVuY3Rpb24gd2lsbCByZXR1cm4gdGhlIHBvaW50cyBhbHNvIGluCiAgICB0aGUgb3JpZ2luYWwgY29vcmRpbmF0ZSBmcmFtZS4KCiAgICBBcmd1bWVudHM6CiAgICAgICAgaG0ge3RvcmNoLnRlbnNvcn0gLS0gdGhlIHByZWRpY3RlZCBoZWF0bWFwcywgb2Ygc2hhcGUgW0IsIE4sIFcsIEhdCgogICAgS2V5d29yZCBBcmd1bWVudHM6CiAgICAgICAgY2VudGVyIHt0b3JjaC50ZW5zb3J9IC0tIHRoZSBjZW50ZXIgb2YgdGhlIGJvdW5kaW5nIGJveCAoZGVmYXVsdDoge05vbmV9KQogICAgICAgIHNjYWxlIHtmbG9hdH0gLS0gZmFjZSBzY2FsZSAoZGVmYXVsdDoge05vbmV9KQogICAgIiIiCiAgICBtYXgsIGlkeCA9IHRvcmNoLm1heCgKICAgICAgICBobS52aWV3KGhtLnNpemUoMCksIGhtLnNpemUoMSksIGhtLnNpemUoMikgKiBobS5zaXplKDMpKSwgMikKICAgIGlkeCArPSAxCiAgICBwcmVkcyA9IGlkeC52aWV3KGlkeC5zaXplKDApLCBpZHguc2l6ZSgxKSwgMSkucmVwZWF0KDEsIDEsIDIpLmZsb2F0KCkKICAgIHByZWRzWy4uLiwgMF0uYXBwbHlfKGxhbWJkYSB4OiAoeCAtIDEpICUgaG0uc2l6ZSgzKSArIDEpCiAgICBwcmVkc1suLi4sIDFdLmFkZF8oLTEpLmRpdl8oaG0uc2l6ZSgyKSkuZmxvb3JfKCkuYWRkXygxKQoKICAgIGZvciBpIGluIHJhbmdlKHByZWRzLnNpemUoMCkpOgogICAgICAgIGZvciBqIGluIHJhbmdlKHByZWRzLnNpemUoMSkpOgogICAgICAgICAgICBobV8gPSBobVtpLCBqLCA6XQogICAgICAgICAgICBwWCwgcFkgPSBpbnQocHJlZHNbaSwgaiwgMF0pIC0gMSwgaW50KHByZWRzW2ksIGosIDFdKSAtIDEKICAgICAgICAgICAgaWYgcFggPiAwIGFuZCBwWCA8IDYzIGFuZCBwWSA+IDAgYW5kIHBZIDwgNjM6CiAgICAgICAgICAgICAgICBkaWZmID0gdG9yY2guRmxvYXRUZW5zb3IoCiAgICAgICAgICAgICAgICAgICAgW2htX1twWSwgcFggKyAxXSAtIGhtX1twWSwgcFggLSAxXSwKICAgICAgICAgICAgICAgICAgICAgaG1fW3BZICsgMSwgcFhdIC0gaG1fW3BZIC0gMSwgcFhdXSkKICAgICAgICAgICAgICAgIHByZWRzW2ksIGpdLmFkZF8oZGlmZi5zaWduXygpLm11bF8oLjI1KSkKCiAgICBwcmVkcy5hZGRfKC0uNSkKCiAgICBwcmVkc19vcmlnID0gdG9yY2guemVyb3MocHJlZHMuc2l6ZSgpKQogICAgaWYgY2VudGVyIGlzIG5vdCBOb25lIGFuZCBzY2FsZSBpcyBub3QgTm9uZToKICAgICAgICBmb3IgaSBpbiByYW5nZShobS5zaXplKDApKToKICAgICAgICAgICAgZm9yIGogaW4gcmFuZ2UoaG0uc2l6ZSgxKSk6CiAgICAgICAgICAgICAgICBwcmVkc19vcmlnW2ksIGpdID0gdHJhbnNmb3JtKAogICAgICAgICAgICAgICAgICAgIHByZWRzW2ksIGpdLCBjZW50ZXIsIHNjYWxlLCBobS5zaXplKDIpLCBUcnVlKQoKICAgIHJldHVybiBwcmVkcywgcHJlZHNfb3JpZwoKZGVmIGdldF9wcmVkc19mcm9taG1fYmF0Y2goaG0sIGNlbnRlcnM9Tm9uZSwgc2NhbGVzPU5vbmUpOgogICAgIiIiT2J0YWluICh4LHkpIGNvb3JkaW5hdGVzIGdpdmVuIGEgc2V0IG9mIE4gaGVhdG1hcHMuIElmIHRoZSBjZW50ZXJzCiAgICBhbmQgdGhlIHNjYWxlcyBpcyBwcm92aWRlZCB0aGUgZnVuY3Rpb24gd2lsbCByZXR1cm4gdGhlIHBvaW50cyBhbHNvIGluCiAgICB0aGUgb3JpZ2luYWwgY29vcmRpbmF0ZSBmcmFtZS4KCiAgICBBcmd1bWVudHM6CiAgICAgICAgaG0ge3RvcmNoLnRlbnNvcn0gLS0gdGhlIHByZWRpY3RlZCBoZWF0bWFwcywgb2Ygc2hhcGUgW0IsIE4sIFcsIEhdCgogICAgS2V5d29yZCBBcmd1bWVudHM6CiAgICAgICAgY2VudGVycyB7dG9yY2gudGVuc29yfSAtLSB0aGUgY2VudGVycyBvZiB0aGUgYm91bmRpbmcgYm94IChkZWZhdWx0OiB7Tm9uZX0pCiAgICAgICAgc2NhbGVzIHtmbG9hdH0gLS0gZmFjZSBzY2FsZXMgKGRlZmF1bHQ6IHtOb25lfSkKICAgICIiIgogICAgbWF4LCBpZHggPSB0b3JjaC5tYXgoCiAgICAgICAgaG0udmlldyhobS5zaXplKDApLCBobS5zaXplKDEpLCBobS5zaXplKDIpICogaG0uc2l6ZSgzKSksIDIpCiAgICBpZHggKz0gMQogICAgcHJlZHMgPSBpZHgudmlldyhpZHguc2l6ZSgwKSwgaWR4LnNpemUoMSksIDEpLnJlcGVhdCgxLCAxLCAyKS5mbG9hdCgpCiAgICBwcmVkc1suLi4sIDBdLmFwcGx5XyhsYW1iZGEgeDogKHggLSAxKSAlIGhtLnNpemUoMykgKyAxKQogICAgcHJlZHNbLi4uLCAxXS5hZGRfKC0xKS5kaXZfKGhtLnNpemUoMikpLmZsb29yXygpLmFkZF8oMSkKCiAgICBmb3IgaSBpbiByYW5nZShwcmVkcy5zaXplKDApKToKICAgICAgICBmb3IgaiBpbiByYW5nZShwcmVkcy5zaXplKDEpKToKICAgICAgICAgICAgaG1fID0gaG1baSwgaiwgOl0KICAgICAgICAgICAgcFgsIHBZID0gaW50KHByZWRzW2ksIGosIDBdKSAtIDEsIGludChwcmVkc1tpLCBqLCAxXSkgLSAxCiAgICAgICAgICAgIGlmIHBYID4gMCBhbmQgcFggPCA2MyBhbmQgcFkgPiAwIGFuZCBwWSA8IDYzOgogICAgICAgICAgICAgICAgZGlmZiA9IHRvcmNoLkZsb2F0VGVuc29yKAogICAgICAgICAgICAgICAgICAgIFtobV9bcFksIHBYICsgMV0gLSBobV9bcFksIHBYIC0gMV0sCiAgICAgICAgICAgICAgICAgICAgIGhtX1twWSArIDEsIHBYXSAtIGhtX1twWSAtIDEsIHBYXV0pCiAgICAgICAgICAgICAgICBwcmVkc1tpLCBqXS5hZGRfKGRpZmYuc2lnbl8oKS5tdWxfKC4yNSkpCgogICAgcHJlZHMuYWRkXygtLjUpCgogICAgcHJlZHNfb3JpZyA9IHRvcmNoLnplcm9zKHByZWRzLnNpemUoKSkKICAgIGlmIGNlbnRlcnMgaXMgbm90IE5vbmUgYW5kIHNjYWxlcyBpcyBub3QgTm9uZToKICAgICAgICBmb3IgaSBpbiByYW5nZShobS5zaXplKDApKToKICAgICAgICAgICAgZm9yIGogaW4gcmFuZ2UoaG0uc2l6ZSgxKSk6CiAgICAgICAgICAgICAgICBwcmVkc19vcmlnW2ksIGpdID0gdHJhbnNmb3JtKAogICAgICAgICAgICAgICAgICAgIHByZWRzW2ksIGpdLCBjZW50ZXJzW2ldLCBzY2FsZXNbaV0sIGhtLnNpemUoMiksIFRydWUpCgogICAgcmV0dXJuIHByZWRzLCBwcmVkc19vcmlnCgpkZWYgc2h1ZmZsZV9scihwYXJ0cywgcGFpcnM9Tm9uZSk6CiAgICAiIiJTaHVmZmxlIHRoZSBwb2ludHMgbGVmdC1yaWdodCBhY2NvcmRpbmcgdG8gdGhlIGF4aXMgb2Ygc3ltbWV0cnkKICAgIG9mIHRoZSBvYmplY3QuCgogICAgQXJndW1lbnRzOgogICAgICAgIHBhcnRzIHt0b3JjaC50ZW5zb3J9IC0tIGEgM0Qgb3IgNEQgb2JqZWN0IGNvbnRhaW5pbmcgdGhlCiAgICAgICAgaGVhdG1hcHMuCgogICAgS2V5d29yZCBBcmd1bWVudHM6CiAgICAgICAgcGFpcnMge2xpc3Qgb2YgaW50ZWdlcnN9IC0tIFtvcmRlciBvZiB0aGUgZmxpcHBlZCBwb2ludHNdIChkZWZhdWx0OiB7Tm9uZX0pCiAgICAiIiIKICAgIGlmIHBhaXJzIGlzIE5vbmU6CiAgICAgICAgcGFpcnMgPSBbMTYsIDE1LCAxNCwgMTMsIDEyLCAxMSwgMTAsIDksIDgsIDcsIDYsIDUsIDQsIDMsIDIsIDEsIDAsCiAgICAgICAgICAgICAgICAgMjYsIDI1LCAyNCwgMjMsIDIyLCAyMSwgMjAsIDE5LCAxOCwgMTcsIDI3LCAyOCwgMjksIDMwLCAzNSwKICAgICAgICAgICAgICAgICAzNCwgMzMsIDMyLCAzMSwgNDUsIDQ0LCA0MywgNDIsIDQ3LCA0NiwgMzksIDM4LCAzNywgMzYsIDQxLAogICAgICAgICAgICAgICAgIDQwLCA1NCwgNTMsIDUyLCA1MSwgNTAsIDQ5LCA0OCwgNTksIDU4LCA1NywgNTYsIDU1LCA2NCwgNjMsCiAgICAgICAgICAgICAgICAgNjIsIDYxLCA2MCwgNjcsIDY2LCA2NV0KICAgIGlmIHBhcnRzLm5kaW1lbnNpb24oKSA9PSAzOgogICAgICAgIHBhcnRzID0gcGFydHNbcGFpcnMsIC4uLl0KICAgIGVsc2U6CiAgICAgICAgcGFydHMgPSBwYXJ0c1s6LCBwYWlycywgLi4uXQoKICAgIHJldHVybiBwYXJ0cwoKCmRlZiBmbGlwKHRlbnNvciwgaXNfbGFiZWw9RmFsc2UpOgogICAgIiIiRmxpcCBhbiBpbWFnZSBvciBhIHNldCBvZiBoZWF0bWFwcyBsZWZ0LXJpZ2h0CgogICAgQXJndW1lbnRzOgogICAgICAgIHRlbnNvciB7bnVtcHkuYXJyYXkgb3IgdG9yY2gudGVuc29yfSAtLSBbdGhlIGlucHV0IGltYWdlIG9yIGhlYXRtYXBzXQoKICAgIEtleXdvcmQgQXJndW1lbnRzOgogICAgICAgIGlzX2xhYmVsIHtib29sfSAtLSBbZGVub3RlIHdoZXJldmVyIHRoZSBpbnB1dCBpcyBhbiBpbWFnZSBvciBhIHNldCBvZiBoZWF0bWFwcyBdIChkZWZhdWx0OiB7RmFsc2V9KQogICAgIiIiCiAgICBpZiBub3QgdG9yY2guaXNfdGVuc29yKHRlbnNvcik6CiAgICAgICAgdGVuc29yID0gdG9yY2guZnJvbV9udW1weSh0ZW5zb3IpCgogICAgaWYgaXNfbGFiZWw6CiAgICAgICAgdGVuc29yID0gc2h1ZmZsZV9scih0ZW5zb3IpLmZsaXAodGVuc29yLm5kaW1lbnNpb24oKSAtIDEpCiAgICBlbHNlOgogICAgICAgIHRlbnNvciA9IHRlbnNvci5mbGlwKHRlbnNvci5uZGltZW5zaW9uKCkgLSAxKQoKICAgIHJldHVybiB0ZW5zb3IKCiMgRnJvbSBweXpvbGliL3BhdGhzLnB5IChodHRwczovL2JpdGJ1Y2tldC5vcmcvcHl6by9weXpvbGliL3NyYy90aXAvcGF0aHMucHkpCgoKZGVmIGFwcGRhdGFfZGlyKGFwcG5hbWU9Tm9uZSwgcm9hbWluZz1GYWxzZSk6CiAgICAiIiIgYXBwZGF0YV9kaXIoYXBwbmFtZT1Ob25lLCByb2FtaW5nPUZhbHNlKQoKICAgIEdldCB0aGUgcGF0aCB0byB0aGUgYXBwbGljYXRpb24gZGlyZWN0b3J5LCB3aGVyZSBhcHBsaWNhdGlvbnMgYXJlIGFsbG93ZWQKICAgIHRvIHdyaXRlIHVzZXIgc3BlY2lmaWMgZmlsZXMgKGUuZy4gY29uZmlndXJhdGlvbnMpLiBGb3Igbm9uLXVzZXIgc3BlY2lmaWMKICAgIGRhdGEsIGNvbnNpZGVyIHVzaW5nIGNvbW1vbl9hcHBkYXRhX2RpcigpLgogICAgSWYgYXBwbmFtZSBpcyBnaXZlbiwgYSBzdWJkaXIgaXMgYXBwZW5kZWQgKGFuZCBjcmVhdGVkIGlmIG5lY2Vzc2FyeSkuCiAgICBJZiByb2FtaW5nIGlzIFRydWUsIHdpbGwgcHJlZmVyIGEgcm9hbWluZyBkaXJlY3RvcnkgKFdpbmRvd3MgVmlzdGEvNykuCiAgICAiIiIKCiAgICAjIERlZmluZSBkZWZhdWx0IHVzZXIgZGlyZWN0b3J5CiAgICB1c2VyRGlyID0gb3MuZ2V0ZW52KCdGQUNFQUxJR05NRU5UX1VTRVJESVInLCBOb25lKQogICAgaWYgdXNlckRpciBpcyBOb25lOgogICAgICAgIHVzZXJEaXIgPSBvcy5wYXRoLmV4cGFuZHVzZXIoJ34nKQogICAgICAgIGlmIG5vdCBvcy5wYXRoLmlzZGlyKHVzZXJEaXIpOiAgIyBwcmFnbWE6IG5vIGNvdmVyCiAgICAgICAgICAgIHVzZXJEaXIgPSAnL3Zhci90bXAnICAjIGlzc3VlICM1NAoKICAgICMgR2V0IHN5c3RlbSBhcHAgZGF0YSBkaXIKICAgIHBhdGggPSBOb25lCiAgICBpZiBzeXMucGxhdGZvcm0uc3RhcnRzd2l0aCgnd2luJyk6CiAgICAgICAgcGF0aDEsIHBhdGgyID0gb3MuZ2V0ZW52KCdMT0NBTEFQUERBVEEnKSwgb3MuZ2V0ZW52KCdBUFBEQVRBJykKICAgICAgICBwYXRoID0gKHBhdGgyIG9yIHBhdGgxKSBpZiByb2FtaW5nIGVsc2UgKHBhdGgxIG9yIHBhdGgyKQogICAgZWxpZiBzeXMucGxhdGZvcm0uc3RhcnRzd2l0aCgnZGFyd2luJyk6CiAgICAgICAgcGF0aCA9IG9zLnBhdGguam9pbih1c2VyRGlyLCAnTGlicmFyeScsICdBcHBsaWNhdGlvbiBTdXBwb3J0JykKICAgICMgT24gTGludXggYW5kIGFzIGZhbGxiYWNrCiAgICBpZiBub3QgKHBhdGggYW5kIG9zLnBhdGguaXNkaXIocGF0aCkpOgogICAgICAgIHBhdGggPSB1c2VyRGlyCgogICAgIyBNYXliZSB3ZSBzaG91bGQgc3RvcmUgdGhpbmdzIGxvY2FsIHRvIHRoZSBleGVjdXRhYmxlIChpbiBjYXNlIG9mIGEKICAgICMgcG9ydGFibGUgZGlzdHJvIG9yIGEgZnJvemVuIGFwcGxpY2F0aW9uIHRoYXQgd2FudHMgdG8gYmUgcG9ydGFibGUpCiAgICBwcmVmaXggPSBzeXMucHJlZml4CiAgICBpZiBnZXRhdHRyKHN5cywgJ2Zyb3plbicsIE5vbmUpOgogICAgICAgIHByZWZpeCA9IG9zLnBhdGguYWJzcGF0aChvcy5wYXRoLmRpcm5hbWUoc3lzLmV4ZWN1dGFibGUpKQogICAgZm9yIHJlbGRpciBpbiAoJ3NldHRpbmdzJywgJy4uL3NldHRpbmdzJyk6CiAgICAgICAgbG9jYWxwYXRoID0gb3MucGF0aC5hYnNwYXRoKG9zLnBhdGguam9pbihwcmVmaXgsIHJlbGRpcikpCiAgICAgICAgaWYgb3MucGF0aC5pc2Rpcihsb2NhbHBhdGgpOiAgIyBwcmFnbWE6IG5vIGNvdmVyCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIG9wZW4ob3MucGF0aC5qb2luKGxvY2FscGF0aCwgJ3Rlc3Qud3JpdGUnKSwgJ3diJykuY2xvc2UoKQogICAgICAgICAgICAgICAgb3MucmVtb3ZlKG9zLnBhdGguam9pbihsb2NhbHBhdGgsICd0ZXN0LndyaXRlJykpCiAgICAgICAgICAgIGV4Y2VwdCBJT0Vycm9yOgogICAgICAgICAgICAgICAgcGFzcyAgIyBXZSBjYW5ub3Qgd3JpdGUgaW4gdGhpcyBkaXJlY3RvcnkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHBhdGggPSBsb2NhbHBhdGgKICAgICAgICAgICAgICAgIGJyZWFrCgogICAgIyBHZXQgcGF0aCBzcGVjaWZpYyBmb3IgdGhpcyBhcHAKICAgIGlmIGFwcG5hbWU6CiAgICAgICAgaWYgcGF0aCA9PSB1c2VyRGlyOgogICAgICAgICAgICBhcHBuYW1lID0gJy4nICsgYXBwbmFtZS5sc3RyaXAoJy4nKSAgIyBNYWtlIGl0IGEgaGlkZGVuIGRpcmVjdG9yeQogICAgICAgIHBhdGggPSBvcy5wYXRoLmpvaW4ocGF0aCwgYXBwbmFtZSkKICAgICAgICBpZiBub3Qgb3MucGF0aC5pc2RpcihwYXRoKTogICMgcHJhZ21hOiBubyBjb3ZlcgogICAgICAgICAgICBvcy5ta2RpcihwYXRoKQoKICAgICMgRG9uZQogICAgcmV0dXJuIHBhdGgK
+from __future__ import print_function
+import os
+import sys
+import time
+import torch
+import math
+import numpy as np
+import cv2
+
+
+def _gaussian(
+        size=3, sigma=0.25, amplitude=1, normalize=False, width=None,
+        height=None, sigma_horz=None, sigma_vert=None, mean_horz=0.5,
+        mean_vert=0.5):
+    # handle some defaults
+    if width is None:
+        width = size
+    if height is None:
+        height = size
+    if sigma_horz is None:
+        sigma_horz = sigma
+    if sigma_vert is None:
+        sigma_vert = sigma
+    center_x = mean_horz * width + 0.5
+    center_y = mean_vert * height + 0.5
+    gauss = np.empty((height, width), dtype=np.float32)
+    # generate kernel
+    for i in range(height):
+        for j in range(width):
+            gauss[i][j] = amplitude * math.exp(-(math.pow((j + 1 - center_x) / (
+                sigma_horz * width), 2) / 2.0 + math.pow((i + 1 - center_y) / (sigma_vert * height), 2) / 2.0))
+    if normalize:
+        gauss = gauss / np.sum(gauss)
+    return gauss
+
+
+def draw_gaussian(image, point, sigma):
+    # Check if the gaussian is inside
+    ul = [math.floor(point[0] - 3 * sigma), math.floor(point[1] - 3 * sigma)]
+    br = [math.floor(point[0] + 3 * sigma), math.floor(point[1] + 3 * sigma)]
+    if (ul[0] > image.shape[1] or ul[1] > image.shape[0] or br[0] < 1 or br[1] < 1):
+        return image
+    size = 6 * sigma + 1
+    g = _gaussian(size)
+    g_x = [int(max(1, -ul[0])), int(min(br[0], image.shape[1])) - int(max(1, ul[0])) + int(max(1, -ul[0]))]
+    g_y = [int(max(1, -ul[1])), int(min(br[1], image.shape[0])) - int(max(1, ul[1])) + int(max(1, -ul[1]))]
+    img_x = [int(max(1, ul[0])), int(min(br[0], image.shape[1]))]
+    img_y = [int(max(1, ul[1])), int(min(br[1], image.shape[0]))]
+    assert (g_x[0] > 0 and g_y[1] > 0)
+    image[img_y[0] - 1:img_y[1], img_x[0] - 1:img_x[1]
+          ] = image[img_y[0] - 1:img_y[1], img_x[0] - 1:img_x[1]] + g[g_y[0] - 1:g_y[1], g_x[0] - 1:g_x[1]]
+    image[image > 1] = 1
+    return image
+
+
+def transform(point, center, scale, resolution, invert=False):
+    """Generate and affine transformation matrix.
+
+    Given a set of points, a center, a scale and a targer resolution, the
+    function generates and affine transformation matrix. If invert is ``True``
+    it will produce the inverse transformation.
+
+    Arguments:
+        point {torch.tensor} -- the input 2D point
+        center {torch.tensor or numpy.array} -- the center around which to perform the transformations
+        scale {float} -- the scale of the face/object
+        resolution {float} -- the output resolution
+
+    Keyword Arguments:
+        invert {bool} -- define wherever the function should produce the direct or the
+        inverse transformation matrix (default: {False})
+    """
+    _pt = torch.ones(3)
+    _pt[0] = point[0]
+    _pt[1] = point[1]
+
+    h = 200.0 * scale
+    t = torch.eye(3)
+    t[0, 0] = resolution / h
+    t[1, 1] = resolution / h
+    t[0, 2] = resolution * (-center[0] / h + 0.5)
+    t[1, 2] = resolution * (-center[1] / h + 0.5)
+
+    if invert:
+        t = torch.inverse(t)
+
+    new_point = (torch.matmul(t, _pt))[0:2]
+
+    return new_point.int()
+
+
+def crop(image, center, scale, resolution=256.0):
+    """Center crops an image or set of heatmaps
+
+    Arguments:
+        image {numpy.array} -- an rgb image
+        center {numpy.array} -- the center of the object, usually the same as of the bounding box
+        scale {float} -- scale of the face
+
+    Keyword Arguments:
+        resolution {float} -- the size of the output cropped image (default: {256.0})
+
+    Returns:
+        [type] -- [description]
+    """  # Crop around the center point
+    """ Crops the image around the center. Input is expected to be an np.ndarray """
+    ul = transform([1, 1], center, scale, resolution, True)
+    br = transform([resolution, resolution], center, scale, resolution, True)
+    # pad = math.ceil(torch.norm((ul - br).float()) / 2.0 - (br[0] - ul[0]) / 2.0)
+    if image.ndim > 2:
+        newDim = np.array([br[1] - ul[1], br[0] - ul[0],
+                           image.shape[2]], dtype=np.int32)
+        newImg = np.zeros(newDim, dtype=np.uint8)
+    else:
+        newDim = np.array([br[1] - ul[1], br[0] - ul[0]], dtype=np.int)
+        newImg = np.zeros(newDim, dtype=np.uint8)
+    ht = image.shape[0]
+    wd = image.shape[1]
+    newX = np.array(
+        [max(1, -ul[0] + 1), min(br[0], wd) - ul[0]], dtype=np.int32)
+    newY = np.array(
+        [max(1, -ul[1] + 1), min(br[1], ht) - ul[1]], dtype=np.int32)
+    oldX = np.array([max(1, ul[0] + 1), min(br[0], wd)], dtype=np.int32)
+    oldY = np.array([max(1, ul[1] + 1), min(br[1], ht)], dtype=np.int32)
+    newImg[newY[0] - 1:newY[1], newX[0] - 1:newX[1]
+           ] = image[oldY[0] - 1:oldY[1], oldX[0] - 1:oldX[1], :]
+    newImg = cv2.resize(newImg, dsize=(int(resolution), int(resolution)),
+                        interpolation=cv2.INTER_LINEAR)
+    return newImg
+
+
+def get_preds_fromhm(hm, center=None, scale=None):
+    """Obtain (x,y) coordinates given a set of N heatmaps. If the center
+    and the scale is provided the function will return the points also in
+    the original coordinate frame.
+
+    Arguments:
+        hm {torch.tensor} -- the predicted heatmaps, of shape [B, N, W, H]
+
+    Keyword Arguments:
+        center {torch.tensor} -- the center of the bounding box (default: {None})
+        scale {float} -- face scale (default: {None})
+    """
+    max, idx = torch.max(
+        hm.view(hm.size(0), hm.size(1), hm.size(2) * hm.size(3)), 2)
+    idx += 1
+    preds = idx.view(idx.size(0), idx.size(1), 1).repeat(1, 1, 2).float()
+    preds[..., 0].apply_(lambda x: (x - 1) % hm.size(3) + 1)
+    preds[..., 1].add_(-1).div_(hm.size(2)).floor_().add_(1)
+
+    for i in range(preds.size(0)):
+        for j in range(preds.size(1)):
+            hm_ = hm[i, j, :]
+            pX, pY = int(preds[i, j, 0]) - 1, int(preds[i, j, 1]) - 1
+            if pX > 0 and pX < 63 and pY > 0 and pY < 63:
+                diff = torch.FloatTensor(
+                    [hm_[pY, pX + 1] - hm_[pY, pX - 1],
+                     hm_[pY + 1, pX] - hm_[pY - 1, pX]])
+                preds[i, j].add_(diff.sign_().mul_(.25))
+
+    preds.add_(-.5)
+
+    preds_orig = torch.zeros(preds.size())
+    if center is not None and scale is not None:
+        for i in range(hm.size(0)):
+            for j in range(hm.size(1)):
+                preds_orig[i, j] = transform(
+                    preds[i, j], center, scale, hm.size(2), True)
+
+    return preds, preds_orig
+
+def get_preds_fromhm_batch(hm, centers=None, scales=None):
+    """Obtain (x,y) coordinates given a set of N heatmaps. If the centers
+    and the scales is provided the function will return the points also in
+    the original coordinate frame.
+
+    Arguments:
+        hm {torch.tensor} -- the predicted heatmaps, of shape [B, N, W, H]
+
+    Keyword Arguments:
+        centers {torch.tensor} -- the centers of the bounding box (default: {None})
+        scales {float} -- face scales (default: {None})
+    """
+    max, idx = torch.max(
+        hm.view(hm.size(0), hm.size(1), hm.size(2) * hm.size(3)), 2)
+    idx += 1
+    preds = idx.view(idx.size(0), idx.size(1), 1).repeat(1, 1, 2).float()
+    preds[..., 0].apply_(lambda x: (x - 1) % hm.size(3) + 1)
+    preds[..., 1].add_(-1).div_(hm.size(2)).floor_().add_(1)
+
+    for i in range(preds.size(0)):
+        for j in range(preds.size(1)):
+            hm_ = hm[i, j, :]
+            pX, pY = int(preds[i, j, 0]) - 1, int(preds[i, j, 1]) - 1
+            if pX > 0 and pX < 63 and pY > 0 and pY < 63:
+                diff = torch.FloatTensor(
+                    [hm_[pY, pX + 1] - hm_[pY, pX - 1],
+                     hm_[pY + 1, pX] - hm_[pY - 1, pX]])
+                preds[i, j].add_(diff.sign_().mul_(.25))
+
+    preds.add_(-.5)
+
+    preds_orig = torch.zeros(preds.size())
+    if centers is not None and scales is not None:
+        for i in range(hm.size(0)):
+            for j in range(hm.size(1)):
+                preds_orig[i, j] = transform(
+                    preds[i, j], centers[i], scales[i], hm.size(2), True)
+
+    return preds, preds_orig
+
+def shuffle_lr(parts, pairs=None):
+    """Shuffle the points left-right according to the axis of symmetry
+    of the object.
+
+    Arguments:
+        parts {torch.tensor} -- a 3D or 4D object containing the
+        heatmaps.
+
+    Keyword Arguments:
+        pairs {list of integers} -- [order of the flipped points] (default: {None})
+    """
+    if pairs is None:
+        pairs = [16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0,
+                 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 27, 28, 29, 30, 35,
+                 34, 33, 32, 31, 45, 44, 43, 42, 47, 46, 39, 38, 37, 36, 41,
+                 40, 54, 53, 52, 51, 50, 49, 48, 59, 58, 57, 56, 55, 64, 63,
+                 62, 61, 60, 67, 66, 65]
+    if parts.ndimension() == 3:
+        parts = parts[pairs, ...]
+    else:
+        parts = parts[:, pairs, ...]
+
+    return parts
+
+
+def flip(tensor, is_label=False):
+    """Flip an image or a set of heatmaps left-right
+
+    Arguments:
+        tensor {numpy.array or torch.tensor} -- [the input image or heatmaps]
+
+    Keyword Arguments:
+        is_label {bool} -- [denote wherever the input is an image or a set of heatmaps ] (default: {False})
+    """
+    if not torch.is_tensor(tensor):
+        tensor = torch.from_numpy(tensor)
+
+    if is_label:
+        tensor = shuffle_lr(tensor).flip(tensor.ndimension() - 1)
+    else:
+        tensor = tensor.flip(tensor.ndimension() - 1)
+
+    return tensor
+
+# From pyzolib/paths.py (https://bitbucket.org/pyzo/pyzolib/src/tip/paths.py)
+
+
+def appdata_dir(appname=None, roaming=False):
+    """ appdata_dir(appname=None, roaming=False)
+
+    Get the path to the application directory, where applications are allowed
+    to write user specific files (e.g. configurations). For non-user specific
+    data, consider using common_appdata_dir().
+    If appname is given, a subdir is appended (and created if necessary).
+    If roaming is True, will prefer a roaming directory (Windows Vista/7).
+    """
+
+    # Define default user directory
+    userDir = os.getenv('FACEALIGNMENT_USERDIR', None)
+    if userDir is None:
+        userDir = os.path.expanduser('~')
+        if not os.path.isdir(userDir):  # pragma: no cover
+            userDir = '/var/tmp'  # issue #54
+
+    # Get system app data dir
+    path = None
+    if sys.platform.startswith('win'):
+        path1, path2 = os.getenv('LOCALAPPDATA'), os.getenv('APPDATA')
+        path = (path2 or path1) if roaming else (path1 or path2)
+    elif sys.platform.startswith('darwin'):
+        path = os.path.join(userDir, 'Library', 'Application Support')
+    # On Linux and as fallback
+    if not (path and os.path.isdir(path)):
+        path = userDir
+
+    # Maybe we should store things local to the executable (in case of a
+    # portable distro or a frozen application that wants to be portable)
+    prefix = sys.prefix
+    if getattr(sys, 'frozen', None):
+        prefix = os.path.abspath(os.path.dirname(sys.executable))
+    for reldir in ('settings', '../settings'):
+        localpath = os.path.abspath(os.path.join(prefix, reldir))
+        if os.path.isdir(localpath):  # pragma: no cover
+            try:
+                open(os.path.join(localpath, 'test.write'), 'wb').close()
+                os.remove(os.path.join(localpath, 'test.write'))
+            except IOError:
+                pass  # We cannot write in this directory
+            else:
+                path = localpath
+                break
+
+    # Get path specific for this app
+    if appname:
+        if path == userDir:
+            appname = '.' + appname.lstrip('.')  # Make it a hidden directory
+        path = os.path.join(path, appname)
+        if not os.path.isdir(path):  # pragma: no cover
+            os.mkdir(path)
+
+    # Done
+    return path

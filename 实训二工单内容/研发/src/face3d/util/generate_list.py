@@ -1,1 +1,34 @@
-IiIiVGhpcyBzY3JpcHQgaXMgdG8gZ2VuZXJhdGUgdHJhaW5pbmcgbGlzdCBmaWxlcyBmb3IgRGVlcDNERmFjZVJlY29uX3B5dG9yY2gKIiIiCgppbXBvcnQgb3MKCiMgc2F2ZSBwYXRoIHRvIHRyYWluaW5nIGRhdGEKZGVmIHdyaXRlX2xpc3QobG1zX2xpc3QsIGltZ3NfbGlzdCwgbXNrc19saXN0LCBtb2RlPSd0cmFpbicsc2F2ZV9mb2xkZXI9J2RhdGFsaXN0Jywgc2F2ZV9uYW1lPScnKToKICAgIHNhdmVfcGF0aCA9IG9zLnBhdGguam9pbihzYXZlX2ZvbGRlciwgbW9kZSkKICAgIGlmIG5vdCBvcy5wYXRoLmlzZGlyKHNhdmVfcGF0aCk6CiAgICAgICAgb3MubWFrZWRpcnMoc2F2ZV9wYXRoKQogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihzYXZlX3BhdGgsIHNhdmVfbmFtZSArICdsYW5kbWFya3MudHh0JyksICd3JykgYXMgZmQ6CiAgICAgICAgZmQud3JpdGVsaW5lcyhbaSArICdcbicgZm9yIGkgaW4gbG1zX2xpc3RdKQoKICAgIHdpdGggb3Blbihvcy5wYXRoLmpvaW4oc2F2ZV9wYXRoLCBzYXZlX25hbWUgKyAnaW1hZ2VzLnR4dCcpLCAndycpIGFzIGZkOgogICAgICAgIGZkLndyaXRlbGluZXMoW2kgKyAnXG4nIGZvciBpIGluIGltZ3NfbGlzdF0pCgogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihzYXZlX3BhdGgsIHNhdmVfbmFtZSArICdtYXNrcy50eHQnKSwgJ3cnKSBhcyBmZDoKICAgICAgICBmZC53cml0ZWxpbmVzKFtpICsgJ1xuJyBmb3IgaSBpbiBtc2tzX2xpc3RdKSAgIAoKIyBjaGVjayBpZiB0aGUgcGF0aCBpcyB2YWxpZApkZWYgY2hlY2tfbGlzdChybG1zX2xpc3QsIHJpbWdzX2xpc3QsIHJtc2tzX2xpc3QpOgogICAgbG1zX2xpc3QsIGltZ3NfbGlzdCwgbXNrc19saXN0ID0gW10sIFtdLCBbXQogICAgZm9yIGkgaW4gcmFuZ2UobGVuKHJsbXNfbGlzdCkpOgogICAgICAgIGZsYWcgPSAnZmFsc2UnCiAgICAgICAgbG1fcGF0aCA9IHJsbXNfbGlzdFtpXQogICAgICAgIGltX3BhdGggPSByaW1nc19saXN0W2ldCiAgICAgICAgbXNrX3BhdGggPSBybXNrc19saXN0W2ldCiAgICAgICAgaWYgb3MucGF0aC5pc2ZpbGUobG1fcGF0aCkgYW5kIG9zLnBhdGguaXNmaWxlKGltX3BhdGgpIGFuZCBvcy5wYXRoLmlzZmlsZShtc2tfcGF0aCk6CiAgICAgICAgICAgIGZsYWcgPSAndHJ1ZScKICAgICAgICAgICAgbG1zX2xpc3QuYXBwZW5kKHJsbXNfbGlzdFtpXSkKICAgICAgICAgICAgaW1nc19saXN0LmFwcGVuZChyaW1nc19saXN0W2ldKQogICAgICAgICAgICBtc2tzX2xpc3QuYXBwZW5kKHJtc2tzX2xpc3RbaV0pCiAgICAgICAgcHJpbnQoaSwgcmxtc19saXN0W2ldLCBmbGFnKQogICAgcmV0dXJuIGxtc19saXN0LCBpbWdzX2xpc3QsIG1za3NfbGlzdAo=
+"""This script is to generate training list files for Deep3DFaceRecon_pytorch
+"""
+
+import os
+
+# save path to training data
+def write_list(lms_list, imgs_list, msks_list, mode='train',save_folder='datalist', save_name=''):
+    save_path = os.path.join(save_folder, mode)
+    if not os.path.isdir(save_path):
+        os.makedirs(save_path)
+    with open(os.path.join(save_path, save_name + 'landmarks.txt'), 'w') as fd:
+        fd.writelines([i + '\n' for i in lms_list])
+
+    with open(os.path.join(save_path, save_name + 'images.txt'), 'w') as fd:
+        fd.writelines([i + '\n' for i in imgs_list])
+
+    with open(os.path.join(save_path, save_name + 'masks.txt'), 'w') as fd:
+        fd.writelines([i + '\n' for i in msks_list])   
+
+# check if the path is valid
+def check_list(rlms_list, rimgs_list, rmsks_list):
+    lms_list, imgs_list, msks_list = [], [], []
+    for i in range(len(rlms_list)):
+        flag = 'false'
+        lm_path = rlms_list[i]
+        im_path = rimgs_list[i]
+        msk_path = rmsks_list[i]
+        if os.path.isfile(lm_path) and os.path.isfile(im_path) and os.path.isfile(msk_path):
+            flag = 'true'
+            lms_list.append(rlms_list[i])
+            imgs_list.append(rimgs_list[i])
+            msks_list.append(rmsks_list[i])
+        print(i, rlms_list[i], flag)
+    return lms_list, imgs_list, msks_list

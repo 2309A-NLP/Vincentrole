@@ -1,1 +1,121 @@
-ZnJvbSB0b3JjaCBpbXBvcnQgbm4KaW1wb3J0IHRvcmNoLm5uLmZ1bmN0aW9uYWwgYXMgRgppbXBvcnQgdG9yY2gKZnJvbSBzcmMuZmFjZXJlbmRlci5tb2R1bGVzLnV0aWwgaW1wb3J0IEhvdXJnbGFzcywgbWFrZV9jb29yZGluYXRlX2dyaWQsIGtwMmdhdXNzaWFuCgpmcm9tIHNyYy5mYWNlcmVuZGVyLnN5bmNfYmF0Y2hub3JtIGltcG9ydCBTeW5jaHJvbml6ZWRCYXRjaE5vcm0zZCBhcyBCYXRjaE5vcm0zZAoKCmNsYXNzIERlbnNlTW90aW9uTmV0d29yayhubi5Nb2R1bGUpOgogICAgIiIiCiAgICBNb2R1bGUgdGhhdCBwcmVkaWN0aW5nIGEgZGVuc2UgbW90aW9uIGZyb20gc3BhcnNlIG1vdGlvbiByZXByZXNlbnRhdGlvbiBnaXZlbiBieSBrcF9zb3VyY2UgYW5kIGtwX2RyaXZpbmcKICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBibG9ja19leHBhbnNpb24sIG51bV9ibG9ja3MsIG1heF9mZWF0dXJlcywgbnVtX2twLCBmZWF0dXJlX2NoYW5uZWwsIHJlc2hhcGVfZGVwdGgsIGNvbXByZXNzLAogICAgICAgICAgICAgICAgIGVzdGltYXRlX29jY2x1c2lvbl9tYXA9RmFsc2UpOgogICAgICAgIHN1cGVyKERlbnNlTW90aW9uTmV0d29yaywgc2VsZikuX19pbml0X18oKQogICAgICAgICMgc2VsZi5ob3VyZ2xhc3MgPSBIb3VyZ2xhc3MoYmxvY2tfZXhwYW5zaW9uPWJsb2NrX2V4cGFuc2lvbiwgaW5fZmVhdHVyZXM9KG51bV9rcCsxKSooZmVhdHVyZV9jaGFubmVsKzEpLCBtYXhfZmVhdHVyZXM9bWF4X2ZlYXR1cmVzLCBudW1fYmxvY2tzPW51bV9ibG9ja3MpCiAgICAgICAgc2VsZi5ob3VyZ2xhc3MgPSBIb3VyZ2xhc3MoYmxvY2tfZXhwYW5zaW9uPWJsb2NrX2V4cGFuc2lvbiwgaW5fZmVhdHVyZXM9KG51bV9rcCsxKSooY29tcHJlc3MrMSksIG1heF9mZWF0dXJlcz1tYXhfZmVhdHVyZXMsIG51bV9ibG9ja3M9bnVtX2Jsb2NrcykKCiAgICAgICAgc2VsZi5tYXNrID0gbm4uQ29udjNkKHNlbGYuaG91cmdsYXNzLm91dF9maWx0ZXJzLCBudW1fa3AgKyAxLCBrZXJuZWxfc2l6ZT03LCBwYWRkaW5nPTMpCgogICAgICAgIHNlbGYuY29tcHJlc3MgPSBubi5Db252M2QoZmVhdHVyZV9jaGFubmVsLCBjb21wcmVzcywga2VybmVsX3NpemU9MSkKICAgICAgICBzZWxmLm5vcm0gPSBCYXRjaE5vcm0zZChjb21wcmVzcywgYWZmaW5lPVRydWUpCgogICAgICAgIGlmIGVzdGltYXRlX29jY2x1c2lvbl9tYXA6CiAgICAgICAgICAgICMgc2VsZi5vY2NsdXNpb24gPSBubi5Db252MmQocmVzaGFwZV9jaGFubmVsKnJlc2hhcGVfZGVwdGgsIDEsIGtlcm5lbF9zaXplPTcsIHBhZGRpbmc9MykKICAgICAgICAgICAgc2VsZi5vY2NsdXNpb24gPSBubi5Db252MmQoc2VsZi5ob3VyZ2xhc3Mub3V0X2ZpbHRlcnMqcmVzaGFwZV9kZXB0aCwgMSwga2VybmVsX3NpemU9NywgcGFkZGluZz0zKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHNlbGYub2NjbHVzaW9uID0gTm9uZQoKICAgICAgICBzZWxmLm51bV9rcCA9IG51bV9rcAoKCiAgICBkZWYgY3JlYXRlX3NwYXJzZV9tb3Rpb25zKHNlbGYsIGZlYXR1cmUsIGtwX2RyaXZpbmcsIGtwX3NvdXJjZSk6CiAgICAgICAgYnMsIF8sIGQsIGgsIHcgPSBmZWF0dXJlLnNoYXBlCiAgICAgICAgaWRlbnRpdHlfZ3JpZCA9IG1ha2VfY29vcmRpbmF0ZV9ncmlkKChkLCBoLCB3KSwgdHlwZT1rcF9zb3VyY2VbJ3ZhbHVlJ10udHlwZSgpKQogICAgICAgIGlkZW50aXR5X2dyaWQgPSBpZGVudGl0eV9ncmlkLnZpZXcoMSwgMSwgZCwgaCwgdywgMykKICAgICAgICBjb29yZGluYXRlX2dyaWQgPSBpZGVudGl0eV9ncmlkIC0ga3BfZHJpdmluZ1sndmFsdWUnXS52aWV3KGJzLCBzZWxmLm51bV9rcCwgMSwgMSwgMSwgMykKICAgICAgICAKICAgICAgICAjIGlmICdqYWNvYmlhbicgaW4ga3BfZHJpdmluZzoKICAgICAgICBpZiAnamFjb2JpYW4nIGluIGtwX2RyaXZpbmcgYW5kIGtwX2RyaXZpbmdbJ2phY29iaWFuJ10gaXMgbm90IE5vbmU6CiAgICAgICAgICAgIGphY29iaWFuID0gdG9yY2gubWF0bXVsKGtwX3NvdXJjZVsnamFjb2JpYW4nXSwgdG9yY2guaW52ZXJzZShrcF9kcml2aW5nWydqYWNvYmlhbiddKSkKICAgICAgICAgICAgamFjb2JpYW4gPSBqYWNvYmlhbi51bnNxdWVlemUoLTMpLnVuc3F1ZWV6ZSgtMykudW5zcXVlZXplKC0zKQogICAgICAgICAgICBqYWNvYmlhbiA9IGphY29iaWFuLnJlcGVhdCgxLCAxLCBkLCBoLCB3LCAxLCAxKQogICAgICAgICAgICBjb29yZGluYXRlX2dyaWQgPSB0b3JjaC5tYXRtdWwoamFjb2JpYW4sIGNvb3JkaW5hdGVfZ3JpZC51bnNxdWVlemUoLTEpKQogICAgICAgICAgICBjb29yZGluYXRlX2dyaWQgPSBjb29yZGluYXRlX2dyaWQuc3F1ZWV6ZSgtMSkgICAgICAgICAgICAgICAgICAKCgogICAgICAgIGRyaXZpbmdfdG9fc291cmNlID0gY29vcmRpbmF0ZV9ncmlkICsga3Bfc291cmNlWyd2YWx1ZSddLnZpZXcoYnMsIHNlbGYubnVtX2twLCAxLCAxLCAxLCAzKSAgICAjIChicywgbnVtX2twLCBkLCBoLCB3LCAzKQoKICAgICAgICAjYWRkaW5nIGJhY2tncm91bmQgZmVhdHVyZQogICAgICAgIGlkZW50aXR5X2dyaWQgPSBpZGVudGl0eV9ncmlkLnJlcGVhdChicywgMSwgMSwgMSwgMSwgMSkKICAgICAgICBzcGFyc2VfbW90aW9ucyA9IHRvcmNoLmNhdChbaWRlbnRpdHlfZ3JpZCwgZHJpdmluZ190b19zb3VyY2VdLCBkaW09MSkgICAgICAgICAgICAgICAgI2JzIG51bV9rcCsxIGQgaCB3IDMKICAgICAgICAKICAgICAgICAjIHNwYXJzZV9tb3Rpb25zID0gZHJpdmluZ190b19zb3VyY2UKCiAgICAgICAgcmV0dXJuIHNwYXJzZV9tb3Rpb25zCgogICAgZGVmIGNyZWF0ZV9kZWZvcm1lZF9mZWF0dXJlKHNlbGYsIGZlYXR1cmUsIHNwYXJzZV9tb3Rpb25zKToKICAgICAgICBicywgXywgZCwgaCwgdyA9IGZlYXR1cmUuc2hhcGUKICAgICAgICBmZWF0dXJlX3JlcGVhdCA9IGZlYXR1cmUudW5zcXVlZXplKDEpLnVuc3F1ZWV6ZSgxKS5yZXBlYXQoMSwgc2VsZi5udW1fa3ArMSwgMSwgMSwgMSwgMSwgMSkgICAgICAjIChicywgbnVtX2twKzEsIDEsIGMsIGQsIGgsIHcpCiAgICAgICAgZmVhdHVyZV9yZXBlYXQgPSBmZWF0dXJlX3JlcGVhdC52aWV3KGJzICogKHNlbGYubnVtX2twKzEpLCAtMSwgZCwgaCwgdykgICAgICAgICAgICAgICAgICAgICAgICAgIyAoYnMqKG51bV9rcCsxKSwgYywgZCwgaCwgdykKICAgICAgICBzcGFyc2VfbW90aW9ucyA9IHNwYXJzZV9tb3Rpb25zLnZpZXcoKGJzICogKHNlbGYubnVtX2twKzEpLCBkLCBoLCB3LCAtMSkpICAgICAgICAgICAgICAgICAgICAgICAjIChicyoobnVtX2twKzEpLCBkLCBoLCB3LCAzKSAhISEhCiAgICAgICAgc3BhcnNlX2RlZm9ybWVkID0gRi5ncmlkX3NhbXBsZShmZWF0dXJlX3JlcGVhdCwgc3BhcnNlX21vdGlvbnMpCiAgICAgICAgc3BhcnNlX2RlZm9ybWVkID0gc3BhcnNlX2RlZm9ybWVkLnZpZXcoKGJzLCBzZWxmLm51bV9rcCsxLCAtMSwgZCwgaCwgdykpICAgICAgICAgICAgICAgICAgICAgICAgIyAoYnMsIG51bV9rcCsxLCBjLCBkLCBoLCB3KQogICAgICAgIHJldHVybiBzcGFyc2VfZGVmb3JtZWQKCiAgICBkZWYgY3JlYXRlX2hlYXRtYXBfcmVwcmVzZW50YXRpb25zKHNlbGYsIGZlYXR1cmUsIGtwX2RyaXZpbmcsIGtwX3NvdXJjZSk6CiAgICAgICAgc3BhdGlhbF9zaXplID0gZmVhdHVyZS5zaGFwZVszOl0KICAgICAgICBnYXVzc2lhbl9kcml2aW5nID0ga3AyZ2F1c3NpYW4oa3BfZHJpdmluZywgc3BhdGlhbF9zaXplPXNwYXRpYWxfc2l6ZSwga3BfdmFyaWFuY2U9MC4wMSkKICAgICAgICBnYXVzc2lhbl9zb3VyY2UgPSBrcDJnYXVzc2lhbihrcF9zb3VyY2UsIHNwYXRpYWxfc2l6ZT1zcGF0aWFsX3NpemUsIGtwX3ZhcmlhbmNlPTAuMDEpCiAgICAgICAgaGVhdG1hcCA9IGdhdXNzaWFuX2RyaXZpbmcgLSBnYXVzc2lhbl9zb3VyY2UKCiAgICAgICAgIyBhZGRpbmcgYmFja2dyb3VuZCBmZWF0dXJlCiAgICAgICAgemVyb3MgPSB0b3JjaC56ZXJvcyhoZWF0bWFwLnNoYXBlWzBdLCAxLCBzcGF0aWFsX3NpemVbMF0sIHNwYXRpYWxfc2l6ZVsxXSwgc3BhdGlhbF9zaXplWzJdKS50eXBlKGhlYXRtYXAudHlwZSgpKQogICAgICAgIGhlYXRtYXAgPSB0b3JjaC5jYXQoW3plcm9zLCBoZWF0bWFwXSwgZGltPTEpCiAgICAgICAgaGVhdG1hcCA9IGhlYXRtYXAudW5zcXVlZXplKDIpICAgICAgICAgIyAoYnMsIG51bV9rcCsxLCAxLCBkLCBoLCB3KQogICAgICAgIHJldHVybiBoZWF0bWFwCgogICAgZGVmIGZvcndhcmQoc2VsZiwgZmVhdHVyZSwga3BfZHJpdmluZywga3Bfc291cmNlKToKICAgICAgICBicywgXywgZCwgaCwgdyA9IGZlYXR1cmUuc2hhcGUKCiAgICAgICAgZmVhdHVyZSA9IHNlbGYuY29tcHJlc3MoZmVhdHVyZSkKICAgICAgICBmZWF0dXJlID0gc2VsZi5ub3JtKGZlYXR1cmUpCiAgICAgICAgZmVhdHVyZSA9IEYucmVsdShmZWF0dXJlKQoKICAgICAgICBvdXRfZGljdCA9IGRpY3QoKQogICAgICAgIHNwYXJzZV9tb3Rpb24gPSBzZWxmLmNyZWF0ZV9zcGFyc2VfbW90aW9ucyhmZWF0dXJlLCBrcF9kcml2aW5nLCBrcF9zb3VyY2UpCiAgICAgICAgZGVmb3JtZWRfZmVhdHVyZSA9IHNlbGYuY3JlYXRlX2RlZm9ybWVkX2ZlYXR1cmUoZmVhdHVyZSwgc3BhcnNlX21vdGlvbikKCiAgICAgICAgaGVhdG1hcCA9IHNlbGYuY3JlYXRlX2hlYXRtYXBfcmVwcmVzZW50YXRpb25zKGRlZm9ybWVkX2ZlYXR1cmUsIGtwX2RyaXZpbmcsIGtwX3NvdXJjZSkKCiAgICAgICAgaW5wdXRfID0gdG9yY2guY2F0KFtoZWF0bWFwLCBkZWZvcm1lZF9mZWF0dXJlXSwgZGltPTIpCiAgICAgICAgaW5wdXRfID0gaW5wdXRfLnZpZXcoYnMsIC0xLCBkLCBoLCB3KQoKICAgICAgICAjIGlucHV0ID0gZGVmb3JtZWRfZmVhdHVyZS52aWV3KGJzLCAtMSwgZCwgaCwgdykgICAgICAjIChicywgbnVtX2twKzEgKiBjLCBkLCBoLCB3KQoKICAgICAgICBwcmVkaWN0aW9uID0gc2VsZi5ob3VyZ2xhc3MoaW5wdXRfKQoKCiAgICAgICAgbWFzayA9IHNlbGYubWFzayhwcmVkaWN0aW9uKQogICAgICAgIG1hc2sgPSBGLnNvZnRtYXgobWFzaywgZGltPTEpCiAgICAgICAgb3V0X2RpY3RbJ21hc2snXSA9IG1hc2sKICAgICAgICBtYXNrID0gbWFzay51bnNxdWVlemUoMikgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgKGJzLCBudW1fa3ArMSwgMSwgZCwgaCwgdykKICAgICAgICAKICAgICAgICB6ZXJvc19tYXNrID0gdG9yY2guemVyb3NfbGlrZShtYXNrKSAgIAogICAgICAgIG1hc2sgPSB0b3JjaC53aGVyZShtYXNrIDwgMWUtMywgemVyb3NfbWFzaywgbWFzaykgCgogICAgICAgIHNwYXJzZV9tb3Rpb24gPSBzcGFyc2VfbW90aW9uLnBlcm11dGUoMCwgMSwgNSwgMiwgMywgNCkgICAgIyAoYnMsIG51bV9rcCsxLCAzLCBkLCBoLCB3KQogICAgICAgIGRlZm9ybWF0aW9uID0gKHNwYXJzZV9tb3Rpb24gKiBtYXNrKS5zdW0oZGltPTEpICAgICAgICAgICAgIyAoYnMsIDMsIGQsIGgsIHcpCiAgICAgICAgZGVmb3JtYXRpb24gPSBkZWZvcm1hdGlvbi5wZXJtdXRlKDAsIDIsIDMsIDQsIDEpICAgICAgICAgICAjIChicywgZCwgaCwgdywgMykKCiAgICAgICAgb3V0X2RpY3RbJ2RlZm9ybWF0aW9uJ10gPSBkZWZvcm1hdGlvbgoKICAgICAgICBpZiBzZWxmLm9jY2x1c2lvbjoKICAgICAgICAgICAgYnMsIGMsIGQsIGgsIHcgPSBwcmVkaWN0aW9uLnNoYXBlCiAgICAgICAgICAgIHByZWRpY3Rpb24gPSBwcmVkaWN0aW9uLnZpZXcoYnMsIC0xLCBoLCB3KQogICAgICAgICAgICBvY2NsdXNpb25fbWFwID0gdG9yY2guc2lnbW9pZChzZWxmLm9jY2x1c2lvbihwcmVkaWN0aW9uKSkKICAgICAgICAgICAgb3V0X2RpY3RbJ29jY2x1c2lvbl9tYXAnXSA9IG9jY2x1c2lvbl9tYXAKCiAgICAgICAgcmV0dXJuIG91dF9kaWN0Cg==
+from torch import nn
+import torch.nn.functional as F
+import torch
+from src.facerender.modules.util import Hourglass, make_coordinate_grid, kp2gaussian
+
+from src.facerender.sync_batchnorm import SynchronizedBatchNorm3d as BatchNorm3d
+
+
+class DenseMotionNetwork(nn.Module):
+    """
+    Module that predicting a dense motion from sparse motion representation given by kp_source and kp_driving
+    """
+
+    def __init__(self, block_expansion, num_blocks, max_features, num_kp, feature_channel, reshape_depth, compress,
+                 estimate_occlusion_map=False):
+        super(DenseMotionNetwork, self).__init__()
+        # self.hourglass = Hourglass(block_expansion=block_expansion, in_features=(num_kp+1)*(feature_channel+1), max_features=max_features, num_blocks=num_blocks)
+        self.hourglass = Hourglass(block_expansion=block_expansion, in_features=(num_kp+1)*(compress+1), max_features=max_features, num_blocks=num_blocks)
+
+        self.mask = nn.Conv3d(self.hourglass.out_filters, num_kp + 1, kernel_size=7, padding=3)
+
+        self.compress = nn.Conv3d(feature_channel, compress, kernel_size=1)
+        self.norm = BatchNorm3d(compress, affine=True)
+
+        if estimate_occlusion_map:
+            # self.occlusion = nn.Conv2d(reshape_channel*reshape_depth, 1, kernel_size=7, padding=3)
+            self.occlusion = nn.Conv2d(self.hourglass.out_filters*reshape_depth, 1, kernel_size=7, padding=3)
+        else:
+            self.occlusion = None
+
+        self.num_kp = num_kp
+
+
+    def create_sparse_motions(self, feature, kp_driving, kp_source):
+        bs, _, d, h, w = feature.shape
+        identity_grid = make_coordinate_grid((d, h, w), type=kp_source['value'].type())
+        identity_grid = identity_grid.view(1, 1, d, h, w, 3)
+        coordinate_grid = identity_grid - kp_driving['value'].view(bs, self.num_kp, 1, 1, 1, 3)
+        
+        # if 'jacobian' in kp_driving:
+        if 'jacobian' in kp_driving and kp_driving['jacobian'] is not None:
+            jacobian = torch.matmul(kp_source['jacobian'], torch.inverse(kp_driving['jacobian']))
+            jacobian = jacobian.unsqueeze(-3).unsqueeze(-3).unsqueeze(-3)
+            jacobian = jacobian.repeat(1, 1, d, h, w, 1, 1)
+            coordinate_grid = torch.matmul(jacobian, coordinate_grid.unsqueeze(-1))
+            coordinate_grid = coordinate_grid.squeeze(-1)                  
+
+
+        driving_to_source = coordinate_grid + kp_source['value'].view(bs, self.num_kp, 1, 1, 1, 3)    # (bs, num_kp, d, h, w, 3)
+
+        #adding background feature
+        identity_grid = identity_grid.repeat(bs, 1, 1, 1, 1, 1)
+        sparse_motions = torch.cat([identity_grid, driving_to_source], dim=1)                #bs num_kp+1 d h w 3
+        
+        # sparse_motions = driving_to_source
+
+        return sparse_motions
+
+    def create_deformed_feature(self, feature, sparse_motions):
+        bs, _, d, h, w = feature.shape
+        feature_repeat = feature.unsqueeze(1).unsqueeze(1).repeat(1, self.num_kp+1, 1, 1, 1, 1, 1)      # (bs, num_kp+1, 1, c, d, h, w)
+        feature_repeat = feature_repeat.view(bs * (self.num_kp+1), -1, d, h, w)                         # (bs*(num_kp+1), c, d, h, w)
+        sparse_motions = sparse_motions.view((bs * (self.num_kp+1), d, h, w, -1))                       # (bs*(num_kp+1), d, h, w, 3) !!!!
+        sparse_deformed = F.grid_sample(feature_repeat, sparse_motions)
+        sparse_deformed = sparse_deformed.view((bs, self.num_kp+1, -1, d, h, w))                        # (bs, num_kp+1, c, d, h, w)
+        return sparse_deformed
+
+    def create_heatmap_representations(self, feature, kp_driving, kp_source):
+        spatial_size = feature.shape[3:]
+        gaussian_driving = kp2gaussian(kp_driving, spatial_size=spatial_size, kp_variance=0.01)
+        gaussian_source = kp2gaussian(kp_source, spatial_size=spatial_size, kp_variance=0.01)
+        heatmap = gaussian_driving - gaussian_source
+
+        # adding background feature
+        zeros = torch.zeros(heatmap.shape[0], 1, spatial_size[0], spatial_size[1], spatial_size[2]).type(heatmap.type())
+        heatmap = torch.cat([zeros, heatmap], dim=1)
+        heatmap = heatmap.unsqueeze(2)         # (bs, num_kp+1, 1, d, h, w)
+        return heatmap
+
+    def forward(self, feature, kp_driving, kp_source):
+        bs, _, d, h, w = feature.shape
+
+        feature = self.compress(feature)
+        feature = self.norm(feature)
+        feature = F.relu(feature)
+
+        out_dict = dict()
+        sparse_motion = self.create_sparse_motions(feature, kp_driving, kp_source)
+        deformed_feature = self.create_deformed_feature(feature, sparse_motion)
+
+        heatmap = self.create_heatmap_representations(deformed_feature, kp_driving, kp_source)
+
+        input_ = torch.cat([heatmap, deformed_feature], dim=2)
+        input_ = input_.view(bs, -1, d, h, w)
+
+        # input = deformed_feature.view(bs, -1, d, h, w)      # (bs, num_kp+1 * c, d, h, w)
+
+        prediction = self.hourglass(input_)
+
+
+        mask = self.mask(prediction)
+        mask = F.softmax(mask, dim=1)
+        out_dict['mask'] = mask
+        mask = mask.unsqueeze(2)                                   # (bs, num_kp+1, 1, d, h, w)
+        
+        zeros_mask = torch.zeros_like(mask)   
+        mask = torch.where(mask < 1e-3, zeros_mask, mask) 
+
+        sparse_motion = sparse_motion.permute(0, 1, 5, 2, 3, 4)    # (bs, num_kp+1, 3, d, h, w)
+        deformation = (sparse_motion * mask).sum(dim=1)            # (bs, 3, d, h, w)
+        deformation = deformation.permute(0, 2, 3, 4, 1)           # (bs, d, h, w, 3)
+
+        out_dict['deformation'] = deformation
+
+        if self.occlusion:
+            bs, c, d, h, w = prediction.shape
+            prediction = prediction.view(bs, -1, h, w)
+            occlusion_map = torch.sigmoid(self.occlusion(prediction))
+            out_dict['occlusion_map'] = occlusion_map
+
+        return out_dict

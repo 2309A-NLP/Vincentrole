@@ -1,1 +1,316 @@
-IiIiVGhpcyBzY3JpcHQgZGVmaW5lcyB0aGUgYmFzZSBuZXR3b3JrIG1vZGVsIGZvciBEZWVwM0RGYWNlUmVjb25fcHl0b3JjaAoiIiIKCmltcG9ydCBvcwppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IHRvcmNoCmZyb20gY29sbGVjdGlvbnMgaW1wb3J0IE9yZGVyZWREaWN0CmZyb20gYWJjIGltcG9ydCBBQkMsIGFic3RyYWN0bWV0aG9kCmZyb20gLiBpbXBvcnQgbmV0d29ya3MKCgpjbGFzcyBCYXNlTW9kZWwoQUJDKToKICAgICIiIlRoaXMgY2xhc3MgaXMgYW4gYWJzdHJhY3QgYmFzZSBjbGFzcyAoQUJDKSBmb3IgbW9kZWxzLgogICAgVG8gY3JlYXRlIGEgc3ViY2xhc3MsIHlvdSBuZWVkIHRvIGltcGxlbWVudCB0aGUgZm9sbG93aW5nIGZpdmUgZnVuY3Rpb25zOgogICAgICAgIC0tIDxfX2luaXRfXz46ICAgICAgICAgICAgICAgICAgICAgIGluaXRpYWxpemUgdGhlIGNsYXNzOyBmaXJzdCBjYWxsIEJhc2VNb2RlbC5fX2luaXRfXyhzZWxmLCBvcHQpLgogICAgICAgIC0tIDxzZXRfaW5wdXQ+OiAgICAgICAgICAgICAgICAgICAgIHVucGFjayBkYXRhIGZyb20gZGF0YXNldCBhbmQgYXBwbHkgcHJlcHJvY2Vzc2luZy4KICAgICAgICAtLSA8Zm9yd2FyZD46ICAgICAgICAgICAgICAgICAgICAgICBwcm9kdWNlIGludGVybWVkaWF0ZSByZXN1bHRzLgogICAgICAgIC0tIDxvcHRpbWl6ZV9wYXJhbWV0ZXJzPjogICAgICAgICAgIGNhbGN1bGF0ZSBsb3NzZXMsIGdyYWRpZW50cywgYW5kIHVwZGF0ZSBuZXR3b3JrIHdlaWdodHMuCiAgICAgICAgLS0gPG1vZGlmeV9jb21tYW5kbGluZV9vcHRpb25zPjogICAgKG9wdGlvbmFsbHkpIGFkZCBtb2RlbC1zcGVjaWZpYyBvcHRpb25zIGFuZCBzZXQgZGVmYXVsdCBvcHRpb25zLgogICAgIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG9wdCk6CiAgICAgICAgIiIiSW5pdGlhbGl6ZSB0aGUgQmFzZU1vZGVsIGNsYXNzLgoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICBvcHQgKE9wdGlvbiBjbGFzcyktLSBzdG9yZXMgYWxsIHRoZSBleHBlcmltZW50IGZsYWdzOyBuZWVkcyB0byBiZSBhIHN1YmNsYXNzIG9mIEJhc2VPcHRpb25zCgogICAgICAgIFdoZW4gY3JlYXRpbmcgeW91ciBjdXN0b20gY2xhc3MsIHlvdSBuZWVkIHRvIGltcGxlbWVudCB5b3VyIG93biBpbml0aWFsaXphdGlvbi4KICAgICAgICBJbiB0aGlzIGZ1Y250aW9uLCB5b3Ugc2hvdWxkIGZpcnN0IGNhbGwgPEJhc2VNb2RlbC5fX2luaXRfXyhzZWxmLCBvcHQpPgogICAgICAgIFRoZW4sIHlvdSBuZWVkIHRvIGRlZmluZSBmb3VyIGxpc3RzOgogICAgICAgICAgICAtLSBzZWxmLmxvc3NfbmFtZXMgKHN0ciBsaXN0KTogICAgICAgICAgc3BlY2lmeSB0aGUgdHJhaW5pbmcgbG9zc2VzIHRoYXQgeW91IHdhbnQgdG8gcGxvdCBhbmQgc2F2ZS4KICAgICAgICAgICAgLS0gc2VsZi5tb2RlbF9uYW1lcyAoc3RyIGxpc3QpOiAgICAgICAgIHNwZWNpZnkgdGhlIGltYWdlcyB0aGF0IHlvdSB3YW50IHRvIGRpc3BsYXkgYW5kIHNhdmUuCiAgICAgICAgICAgIC0tIHNlbGYudmlzdWFsX25hbWVzIChzdHIgbGlzdCk6ICAgICAgICBkZWZpbmUgbmV0d29ya3MgdXNlZCBpbiBvdXIgdHJhaW5pbmcuCiAgICAgICAgICAgIC0tIHNlbGYub3B0aW1pemVycyAob3B0aW1pemVyIGxpc3QpOiAgICBkZWZpbmUgYW5kIGluaXRpYWxpemUgb3B0aW1pemVycy4gWW91IGNhbiBkZWZpbmUgb25lIG9wdGltaXplciBmb3IgZWFjaCBuZXR3b3JrLiBJZiB0d28gbmV0d29ya3MgYXJlIHVwZGF0ZWQgYXQgdGhlIHNhbWUgdGltZSwgeW91IGNhbiB1c2UgaXRlcnRvb2xzLmNoYWluIHRvIGdyb3VwIHRoZW0uIFNlZSBjeWNsZV9nYW5fbW9kZWwucHkgZm9yIGFuIGV4YW1wbGUuCiAgICAgICAgIiIiCiAgICAgICAgc2VsZi5vcHQgPSBvcHQKICAgICAgICBzZWxmLmlzVHJhaW4gPSBGYWxzZQogICAgICAgIHNlbGYuZGV2aWNlID0gdG9yY2guZGV2aWNlKCdjcHUnKSAKICAgICAgICBzZWxmLnNhdmVfZGlyID0gIiAiICMgb3MucGF0aC5qb2luKG9wdC5jaGVja3BvaW50c19kaXIsIG9wdC5uYW1lKSAgIyBzYXZlIGFsbCB0aGUgY2hlY2twb2ludHMgdG8gc2F2ZV9kaXIKICAgICAgICBzZWxmLmxvc3NfbmFtZXMgPSBbXQogICAgICAgIHNlbGYubW9kZWxfbmFtZXMgPSBbXQogICAgICAgIHNlbGYudmlzdWFsX25hbWVzID0gW10KICAgICAgICBzZWxmLnBhcmFsbGVsX25hbWVzID0gW10KICAgICAgICBzZWxmLm9wdGltaXplcnMgPSBbXQogICAgICAgIHNlbGYuaW1hZ2VfcGF0aHMgPSBbXQogICAgICAgIHNlbGYubWV0cmljID0gMCAgIyB1c2VkIGZvciBsZWFybmluZyByYXRlIHBvbGljeSAncGxhdGVhdScKCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgZGljdF9ncmFkX2hvb2tfZmFjdG9yeShhZGRfZnVuYz1sYW1iZGEgeDogeCk6CiAgICAgICAgc2F2ZWRfZGljdCA9IGRpY3QoKQoKICAgICAgICBkZWYgaG9va19nZW4obmFtZSk6CiAgICAgICAgICAgIGRlZiBncmFkX2hvb2soZ3JhZCk6CiAgICAgICAgICAgICAgICBzYXZlZF92YWxzID0gYWRkX2Z1bmMoZ3JhZCkKICAgICAgICAgICAgICAgIHNhdmVkX2RpY3RbbmFtZV0gPSBzYXZlZF92YWxzCiAgICAgICAgICAgIHJldHVybiBncmFkX2hvb2sKICAgICAgICByZXR1cm4gaG9va19nZW4sIHNhdmVkX2RpY3QKCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgbW9kaWZ5X2NvbW1hbmRsaW5lX29wdGlvbnMocGFyc2VyLCBpc190cmFpbik6CiAgICAgICAgIiIiQWRkIG5ldyBtb2RlbC1zcGVjaWZpYyBvcHRpb25zLCBhbmQgcmV3cml0ZSBkZWZhdWx0IHZhbHVlcyBmb3IgZXhpc3Rpbmcgb3B0aW9ucy4KCiAgICAgICAgUGFyYW1ldGVyczoKICAgICAgICAgICAgcGFyc2VyICAgICAgICAgIC0tIG9yaWdpbmFsIG9wdGlvbiBwYXJzZXIKICAgICAgICAgICAgaXNfdHJhaW4gKGJvb2wpIC0tIHdoZXRoZXIgdHJhaW5pbmcgcGhhc2Ugb3IgdGVzdCBwaGFzZS4gWW91IGNhbiB1c2UgdGhpcyBmbGFnIHRvIGFkZCB0cmFpbmluZy1zcGVjaWZpYyBvciB0ZXN0LXNwZWNpZmljIG9wdGlvbnMuCgogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIHRoZSBtb2RpZmllZCBwYXJzZXIuCiAgICAgICAgIiIiCiAgICAgICAgcmV0dXJuIHBhcnNlcgoKICAgIEBhYnN0cmFjdG1ldGhvZAogICAgZGVmIHNldF9pbnB1dChzZWxmLCBpbnB1dCk6CiAgICAgICAgIiIiVW5wYWNrIGlucHV0IGRhdGEgZnJvbSB0aGUgZGF0YWxvYWRlciBhbmQgcGVyZm9ybSBuZWNlc3NhcnkgcHJlLXByb2Nlc3Npbmcgc3RlcHMuCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIGlucHV0IChkaWN0KTogaW5jbHVkZXMgdGhlIGRhdGEgaXRzZWxmIGFuZCBpdHMgbWV0YWRhdGEgaW5mb3JtYXRpb24uCiAgICAgICAgIiIiCiAgICAgICAgcGFzcwoKICAgIEBhYnN0cmFjdG1ldGhvZAogICAgZGVmIGZvcndhcmQoc2VsZik6CiAgICAgICAgIiIiUnVuIGZvcndhcmQgcGFzczsgY2FsbGVkIGJ5IGJvdGggZnVuY3Rpb25zIDxvcHRpbWl6ZV9wYXJhbWV0ZXJzPiBhbmQgPHRlc3Q+LiIiIgogICAgICAgIHBhc3MKCiAgICBAYWJzdHJhY3RtZXRob2QKICAgIGRlZiBvcHRpbWl6ZV9wYXJhbWV0ZXJzKHNlbGYpOgogICAgICAgICIiIkNhbGN1bGF0ZSBsb3NzZXMsIGdyYWRpZW50cywgYW5kIHVwZGF0ZSBuZXR3b3JrIHdlaWdodHM7IGNhbGxlZCBpbiBldmVyeSB0cmFpbmluZyBpdGVyYXRpb24iIiIKICAgICAgICBwYXNzCgogICAgZGVmIHNldHVwKHNlbGYsIG9wdCk6CiAgICAgICAgIiIiTG9hZCBhbmQgcHJpbnQgbmV0d29ya3M7IGNyZWF0ZSBzY2hlZHVsZXJzCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIG9wdCAoT3B0aW9uIGNsYXNzKSAtLSBzdG9yZXMgYWxsIHRoZSBleHBlcmltZW50IGZsYWdzOyBuZWVkcyB0byBiZSBhIHN1YmNsYXNzIG9mIEJhc2VPcHRpb25zCiAgICAgICAgIiIiCiAgICAgICAgaWYgc2VsZi5pc1RyYWluOgogICAgICAgICAgICBzZWxmLnNjaGVkdWxlcnMgPSBbbmV0d29ya3MuZ2V0X3NjaGVkdWxlcihvcHRpbWl6ZXIsIG9wdCkgZm9yIG9wdGltaXplciBpbiBzZWxmLm9wdGltaXplcnNdCiAgICAgICAgCiAgICAgICAgaWYgbm90IHNlbGYuaXNUcmFpbiBvciBvcHQuY29udGludWVfdHJhaW46CiAgICAgICAgICAgIGxvYWRfc3VmZml4ID0gb3B0LmVwb2NoCiAgICAgICAgICAgIHNlbGYubG9hZF9uZXR3b3Jrcyhsb2FkX3N1ZmZpeCkKIAogICAgICAgICAgICAKICAgICAgICAjIHNlbGYucHJpbnRfbmV0d29ya3Mob3B0LnZlcmJvc2UpCgogICAgZGVmIHBhcmFsbGVsaXplKHNlbGYsIGNvbnZlcnRfc3luY19iYXRjaG5vcm09VHJ1ZSk6CiAgICAgICAgaWYgbm90IHNlbGYub3B0LnVzZV9kZHA6CiAgICAgICAgICAgIGZvciBuYW1lIGluIHNlbGYucGFyYWxsZWxfbmFtZXM6CiAgICAgICAgICAgICAgICBpZiBpc2luc3RhbmNlKG5hbWUsIHN0cik6CiAgICAgICAgICAgICAgICAgICAgbW9kdWxlID0gZ2V0YXR0cihzZWxmLCBuYW1lKQogICAgICAgICAgICAgICAgICAgIHNldGF0dHIoc2VsZiwgbmFtZSwgbW9kdWxlLnRvKHNlbGYuZGV2aWNlKSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBmb3IgbmFtZSBpbiBzZWxmLm1vZGVsX25hbWVzOgogICAgICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShuYW1lLCBzdHIpOgogICAgICAgICAgICAgICAgICAgIG1vZHVsZSA9IGdldGF0dHIoc2VsZiwgbmFtZSkKICAgICAgICAgICAgICAgICAgICBpZiBjb252ZXJ0X3N5bmNfYmF0Y2hub3JtOgogICAgICAgICAgICAgICAgICAgICAgICBtb2R1bGUgPSB0b3JjaC5ubi5TeW5jQmF0Y2hOb3JtLmNvbnZlcnRfc3luY19iYXRjaG5vcm0obW9kdWxlKQogICAgICAgICAgICAgICAgICAgIHNldGF0dHIoc2VsZiwgbmFtZSwgdG9yY2gubm4ucGFyYWxsZWwuRGlzdHJpYnV0ZWREYXRhUGFyYWxsZWwobW9kdWxlLnRvKHNlbGYuZGV2aWNlKSwKICAgICAgICAgICAgICAgICAgICAgICAgZGV2aWNlX2lkcz1bc2VsZi5kZXZpY2UuaW5kZXhdLCAKICAgICAgICAgICAgICAgICAgICAgICAgZmluZF91bnVzZWRfcGFyYW1ldGVycz1UcnVlLCBicm9hZGNhc3RfYnVmZmVycz1UcnVlKSkKICAgICAgICAgICAgCiAgICAgICAgICAgICMgRGlzdHJpYnV0ZWREYXRhUGFyYWxsZWwgaXMgbm90IG5lZWRlZCB3aGVuIGEgbW9kdWxlIGRvZXNuJ3QgaGF2ZSBhbnkgcGFyYW1ldGVyIHRoYXQgcmVxdWlyZXMgYSBncmFkaWVudC4KICAgICAgICAgICAgZm9yIG5hbWUgaW4gc2VsZi5wYXJhbGxlbF9uYW1lczoKICAgICAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UobmFtZSwgc3RyKSBhbmQgbmFtZSBub3QgaW4gc2VsZi5tb2RlbF9uYW1lczoKICAgICAgICAgICAgICAgICAgICBtb2R1bGUgPSBnZXRhdHRyKHNlbGYsIG5hbWUpCiAgICAgICAgICAgICAgICAgICAgc2V0YXR0cihzZWxmLCBuYW1lLCBtb2R1bGUudG8oc2VsZi5kZXZpY2UpKQogICAgICAgICAgICAKICAgICAgICAjIHB1dCBzdGF0ZV9kaWN0IG9mIG9wdGltaXplciB0byBncHUgZGV2aWNlCiAgICAgICAgaWYgc2VsZi5vcHQucGhhc2UgIT0gJ3Rlc3QnOgogICAgICAgICAgICBpZiBzZWxmLm9wdC5jb250aW51ZV90cmFpbjoKICAgICAgICAgICAgICAgIGZvciBvcHRpbSBpbiBzZWxmLm9wdGltaXplcnM6CiAgICAgICAgICAgICAgICAgICAgZm9yIHN0YXRlIGluIG9wdGltLnN0YXRlLnZhbHVlcygpOgogICAgICAgICAgICAgICAgICAgICAgICBmb3IgaywgdiBpbiBzdGF0ZS5pdGVtcygpOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgaXNpbnN0YW5jZSh2LCB0b3JjaC5UZW5zb3IpOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRlW2tdID0gdi50byhzZWxmLmRldmljZSkKCiAgICBkZWYgZGF0YV9kZXBlbmRlbnRfaW5pdGlhbGl6ZShzZWxmLCBkYXRhKToKICAgICAgICBwYXNzCgogICAgZGVmIHRyYWluKHNlbGYpOgogICAgICAgICIiIk1ha2UgbW9kZWxzIHRyYWluIG1vZGUiIiIKICAgICAgICBmb3IgbmFtZSBpbiBzZWxmLm1vZGVsX25hbWVzOgogICAgICAgICAgICBpZiBpc2luc3RhbmNlKG5hbWUsIHN0cik6CiAgICAgICAgICAgICAgICBuZXQgPSBnZXRhdHRyKHNlbGYsIG5hbWUpCiAgICAgICAgICAgICAgICBuZXQudHJhaW4oKQoKICAgIGRlZiBldmFsKHNlbGYpOgogICAgICAgICIiIk1ha2UgbW9kZWxzIGV2YWwgbW9kZSIiIgogICAgICAgIGZvciBuYW1lIGluIHNlbGYubW9kZWxfbmFtZXM6CiAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UobmFtZSwgc3RyKToKICAgICAgICAgICAgICAgIG5ldCA9IGdldGF0dHIoc2VsZiwgbmFtZSkKICAgICAgICAgICAgICAgIG5ldC5ldmFsKCkKCiAgICBkZWYgdGVzdChzZWxmKToKICAgICAgICAiIiJGb3J3YXJkIGZ1bmN0aW9uIHVzZWQgaW4gdGVzdCB0aW1lLgoKICAgICAgICBUaGlzIGZ1bmN0aW9uIHdyYXBzIDxmb3J3YXJkPiBmdW5jdGlvbiBpbiBub19ncmFkKCkgc28gd2UgZG9uJ3Qgc2F2ZSBpbnRlcm1lZGlhdGUgc3RlcHMgZm9yIGJhY2twcm9wCiAgICAgICAgSXQgYWxzbyBjYWxscyA8Y29tcHV0ZV92aXN1YWxzPiB0byBwcm9kdWNlIGFkZGl0aW9uYWwgdmlzdWFsaXphdGlvbiByZXN1bHRzCiAgICAgICAgIiIiCiAgICAgICAgd2l0aCB0b3JjaC5ub19ncmFkKCk6CiAgICAgICAgICAgIHNlbGYuZm9yd2FyZCgpCiAgICAgICAgICAgIHNlbGYuY29tcHV0ZV92aXN1YWxzKCkKCiAgICBkZWYgY29tcHV0ZV92aXN1YWxzKHNlbGYpOgogICAgICAgICIiIkNhbGN1bGF0ZSBhZGRpdGlvbmFsIG91dHB1dCBpbWFnZXMgZm9yIHZpc2RvbSBhbmQgSFRNTCB2aXN1YWxpemF0aW9uIiIiCiAgICAgICAgcGFzcwoKICAgIGRlZiBnZXRfaW1hZ2VfcGF0aHMoc2VsZiwgbmFtZT0nQScpOgogICAgICAgICIiIiBSZXR1cm4gaW1hZ2UgcGF0aHMgdGhhdCBhcmUgdXNlZCB0byBsb2FkIGN1cnJlbnQgZGF0YSIiIgogICAgICAgIHJldHVybiBzZWxmLmltYWdlX3BhdGhzIGlmIG5hbWUgPT0nQScgZWxzZSBzZWxmLmltYWdlX3BhdGhzX0IKCiAgICBkZWYgdXBkYXRlX2xlYXJuaW5nX3JhdGUoc2VsZik6CiAgICAgICAgIiIiVXBkYXRlIGxlYXJuaW5nIHJhdGVzIGZvciBhbGwgdGhlIG5ldHdvcmtzOyBjYWxsZWQgYXQgdGhlIGVuZCBvZiBldmVyeSBlcG9jaCIiIgogICAgICAgIGZvciBzY2hlZHVsZXIgaW4gc2VsZi5zY2hlZHVsZXJzOgogICAgICAgICAgICBpZiBzZWxmLm9wdC5scl9wb2xpY3kgPT0gJ3BsYXRlYXUnOgogICAgICAgICAgICAgICAgc2NoZWR1bGVyLnN0ZXAoc2VsZi5tZXRyaWMpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBzY2hlZHVsZXIuc3RlcCgpCgogICAgICAgIGxyID0gc2VsZi5vcHRpbWl6ZXJzWzBdLnBhcmFtX2dyb3Vwc1swXVsnbHInXQogICAgICAgIHByaW50KCdsZWFybmluZyByYXRlID0gJS43ZicgJSBscikKCiAgICBkZWYgZ2V0X2N1cnJlbnRfdmlzdWFscyhzZWxmKToKICAgICAgICAiIiJSZXR1cm4gdmlzdWFsaXphdGlvbiBpbWFnZXMuIHRyYWluLnB5IHdpbGwgZGlzcGxheSB0aGVzZSBpbWFnZXMgd2l0aCB2aXNkb20sIGFuZCBzYXZlIHRoZSBpbWFnZXMgdG8gYSBIVE1MIiIiCiAgICAgICAgdmlzdWFsX3JldCA9IE9yZGVyZWREaWN0KCkKICAgICAgICBmb3IgbmFtZSBpbiBzZWxmLnZpc3VhbF9uYW1lczoKICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShuYW1lLCBzdHIpOgogICAgICAgICAgICAgICAgdmlzdWFsX3JldFtuYW1lXSA9IGdldGF0dHIoc2VsZiwgbmFtZSlbOiwgOjMsIC4uLl0KICAgICAgICByZXR1cm4gdmlzdWFsX3JldAoKICAgIGRlZiBnZXRfY3VycmVudF9sb3NzZXMoc2VsZik6CiAgICAgICAgIiIiUmV0dXJuIHRyYW5pbmcgbG9zc2VzIC8gZXJyb3JzLiB0cmFpbi5weSB3aWxsIHByaW50IG91dCB0aGVzZSBlcnJvcnMgb24gY29uc29sZSwgYW5kIHNhdmUgdGhlbSB0byBhIGZpbGUiIiIKICAgICAgICBlcnJvcnNfcmV0ID0gT3JkZXJlZERpY3QoKQogICAgICAgIGZvciBuYW1lIGluIHNlbGYubG9zc19uYW1lczoKICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShuYW1lLCBzdHIpOgogICAgICAgICAgICAgICAgZXJyb3JzX3JldFtuYW1lXSA9IGZsb2F0KGdldGF0dHIoc2VsZiwgJ2xvc3NfJyArIG5hbWUpKSAgIyBmbG9hdCguLi4pIHdvcmtzIGZvciBib3RoIHNjYWxhciB0ZW5zb3IgYW5kIGZsb2F0IG51bWJlcgogICAgICAgIHJldHVybiBlcnJvcnNfcmV0CgogICAgZGVmIHNhdmVfbmV0d29ya3Moc2VsZiwgZXBvY2gpOgogICAgICAgICIiIlNhdmUgYWxsIHRoZSBuZXR3b3JrcyB0byB0aGUgZGlzay4KCiAgICAgICAgUGFyYW1ldGVyczoKICAgICAgICAgICAgZXBvY2ggKGludCkgLS0gY3VycmVudCBlcG9jaDsgdXNlZCBpbiB0aGUgZmlsZSBuYW1lICclc19uZXRfJXMucHRoJyAlIChlcG9jaCwgbmFtZSkKICAgICAgICAiIiIKICAgICAgICBpZiBub3Qgb3MucGF0aC5pc2RpcihzZWxmLnNhdmVfZGlyKToKICAgICAgICAgICAgb3MubWFrZWRpcnMoc2VsZi5zYXZlX2RpcikKCiAgICAgICAgc2F2ZV9maWxlbmFtZSA9ICdlcG9jaF8lcy5wdGgnICUgKGVwb2NoKQogICAgICAgIHNhdmVfcGF0aCA9IG9zLnBhdGguam9pbihzZWxmLnNhdmVfZGlyLCBzYXZlX2ZpbGVuYW1lKQogICAgICAgIAogICAgICAgIHNhdmVfZGljdCA9IHt9CiAgICAgICAgZm9yIG5hbWUgaW4gc2VsZi5tb2RlbF9uYW1lczoKICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShuYW1lLCBzdHIpOgogICAgICAgICAgICAgICAgbmV0ID0gZ2V0YXR0cihzZWxmLCBuYW1lKQogICAgICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShuZXQsIHRvcmNoLm5uLkRhdGFQYXJhbGxlbCkgb3IgaXNpbnN0YW5jZShuZXQsCiAgICAgICAgICAgICAgICAgICAgICAgIHRvcmNoLm5uLnBhcmFsbGVsLkRpc3RyaWJ1dGVkRGF0YVBhcmFsbGVsKToKICAgICAgICAgICAgICAgICAgICBuZXQgPSBuZXQubW9kdWxlCiAgICAgICAgICAgICAgICBzYXZlX2RpY3RbbmFtZV0gPSBuZXQuc3RhdGVfZGljdCgpCiAgICAgICAgICAgICAgICAKCiAgICAgICAgZm9yIGksIG9wdGltIGluIGVudW1lcmF0ZShzZWxmLm9wdGltaXplcnMpOgogICAgICAgICAgICBzYXZlX2RpY3RbJ29wdF8lMDJkJyVpXSA9IG9wdGltLnN0YXRlX2RpY3QoKQoKICAgICAgICBmb3IgaSwgc2NoZWQgaW4gZW51bWVyYXRlKHNlbGYuc2NoZWR1bGVycyk6CiAgICAgICAgICAgIHNhdmVfZGljdFsnc2NoZWRfJTAyZCclaV0gPSBzY2hlZC5zdGF0ZV9kaWN0KCkKICAgICAgICAKICAgICAgICB0b3JjaC5zYXZlKHNhdmVfZGljdCwgc2F2ZV9wYXRoKQoKICAgIGRlZiBfX3BhdGNoX2luc3RhbmNlX25vcm1fc3RhdGVfZGljdChzZWxmLCBzdGF0ZV9kaWN0LCBtb2R1bGUsIGtleXMsIGk9MCk6CiAgICAgICAgIiIiRml4IEluc3RhbmNlTm9ybSBjaGVja3BvaW50cyBpbmNvbXBhdGliaWxpdHkgKHByaW9yIHRvIDAuNCkiIiIKICAgICAgICBrZXkgPSBrZXlzW2ldCiAgICAgICAgaWYgaSArIDEgPT0gbGVuKGtleXMpOiAgIyBhdCB0aGUgZW5kLCBwb2ludGluZyB0byBhIHBhcmFtZXRlci9idWZmZXIKICAgICAgICAgICAgaWYgbW9kdWxlLl9fY2xhc3NfXy5fX25hbWVfXy5zdGFydHN3aXRoKCdJbnN0YW5jZU5vcm0nKSBhbmQgXAogICAgICAgICAgICAgICAgICAgIChrZXkgPT0gJ3J1bm5pbmdfbWVhbicgb3Iga2V5ID09ICdydW5uaW5nX3ZhcicpOgogICAgICAgICAgICAgICAgaWYgZ2V0YXR0cihtb2R1bGUsIGtleSkgaXMgTm9uZToKICAgICAgICAgICAgICAgICAgICBzdGF0ZV9kaWN0LnBvcCgnLicuam9pbihrZXlzKSkKICAgICAgICAgICAgaWYgbW9kdWxlLl9fY2xhc3NfXy5fX25hbWVfXy5zdGFydHN3aXRoKCdJbnN0YW5jZU5vcm0nKSBhbmQgXAogICAgICAgICAgICAgICAoa2V5ID09ICdudW1fYmF0Y2hlc190cmFja2VkJyk6CiAgICAgICAgICAgICAgICBzdGF0ZV9kaWN0LnBvcCgnLicuam9pbihrZXlzKSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBzZWxmLl9fcGF0Y2hfaW5zdGFuY2Vfbm9ybV9zdGF0ZV9kaWN0KHN0YXRlX2RpY3QsIGdldGF0dHIobW9kdWxlLCBrZXkpLCBrZXlzLCBpICsgMSkKCiAgICBkZWYgbG9hZF9uZXR3b3JrcyhzZWxmLCBlcG9jaCk6CiAgICAgICAgIiIiTG9hZCBhbGwgdGhlIG5ldHdvcmtzIGZyb20gdGhlIGRpc2suCgogICAgICAgIFBhcmFtZXRlcnM6CiAgICAgICAgICAgIGVwb2NoIChpbnQpIC0tIGN1cnJlbnQgZXBvY2g7IHVzZWQgaW4gdGhlIGZpbGUgbmFtZSAnJXNfbmV0XyVzLnB0aCcgJSAoZXBvY2gsIG5hbWUpCiAgICAgICAgIiIiCiAgICAgICAgaWYgc2VsZi5vcHQuaXNUcmFpbiBhbmQgc2VsZi5vcHQucHJldHJhaW5lZF9uYW1lIGlzIG5vdCBOb25lOgogICAgICAgICAgICBsb2FkX2RpciA9IG9zLnBhdGguam9pbihzZWxmLm9wdC5jaGVja3BvaW50c19kaXIsIHNlbGYub3B0LnByZXRyYWluZWRfbmFtZSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBsb2FkX2RpciA9IHNlbGYuc2F2ZV9kaXIgICAgCiAgICAgICAgbG9hZF9maWxlbmFtZSA9ICdlcG9jaF8lcy5wdGgnICUgKGVwb2NoKQogICAgICAgIGxvYWRfcGF0aCA9IG9zLnBhdGguam9pbihsb2FkX2RpciwgbG9hZF9maWxlbmFtZSkKICAgICAgICBzdGF0ZV9kaWN0ID0gdG9yY2gubG9hZChsb2FkX3BhdGgsIG1hcF9sb2NhdGlvbj1zZWxmLmRldmljZSkKICAgICAgICBwcmludCgnbG9hZGluZyB0aGUgbW9kZWwgZnJvbSAlcycgJSBsb2FkX3BhdGgpCgogICAgICAgIGZvciBuYW1lIGluIHNlbGYubW9kZWxfbmFtZXM6CiAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UobmFtZSwgc3RyKToKICAgICAgICAgICAgICAgIG5ldCA9IGdldGF0dHIoc2VsZiwgbmFtZSkKICAgICAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UobmV0LCB0b3JjaC5ubi5EYXRhUGFyYWxsZWwpOgogICAgICAgICAgICAgICAgICAgIG5ldCA9IG5ldC5tb2R1bGUKICAgICAgICAgICAgICAgIG5ldC5sb2FkX3N0YXRlX2RpY3Qoc3RhdGVfZGljdFtuYW1lXSkKICAgICAgICAKICAgICAgICBpZiBzZWxmLm9wdC5waGFzZSAhPSAndGVzdCc6CiAgICAgICAgICAgIGlmIHNlbGYub3B0LmNvbnRpbnVlX3RyYWluOgogICAgICAgICAgICAgICAgcHJpbnQoJ2xvYWRpbmcgdGhlIG9wdGltIGZyb20gJXMnICUgbG9hZF9wYXRoKQogICAgICAgICAgICAgICAgZm9yIGksIG9wdGltIGluIGVudW1lcmF0ZShzZWxmLm9wdGltaXplcnMpOgogICAgICAgICAgICAgICAgICAgIG9wdGltLmxvYWRfc3RhdGVfZGljdChzdGF0ZV9kaWN0WydvcHRfJTAyZCclaV0pCgogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIHByaW50KCdsb2FkaW5nIHRoZSBzY2hlZCBmcm9tICVzJyAlIGxvYWRfcGF0aCkKICAgICAgICAgICAgICAgICAgICBmb3IgaSwgc2NoZWQgaW4gZW51bWVyYXRlKHNlbGYuc2NoZWR1bGVycyk6CiAgICAgICAgICAgICAgICAgICAgICAgIHNjaGVkLmxvYWRfc3RhdGVfZGljdChzdGF0ZV9kaWN0WydzY2hlZF8lMDJkJyVpXSkKICAgICAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgICAgICBwcmludCgnRmFpbGVkIHRvIGxvYWQgc2NoZWR1bGVycywgc2V0IHNjaGVkdWxlcnMgYWNjb3JkaW5nIHRvIGVwb2NoIGNvdW50IG1hbnVhbGx5JykKICAgICAgICAgICAgICAgICAgICBmb3IgaSwgc2NoZWQgaW4gZW51bWVyYXRlKHNlbGYuc2NoZWR1bGVycyk6CiAgICAgICAgICAgICAgICAgICAgICAgIHNjaGVkLmxhc3RfZXBvY2ggPSBzZWxmLm9wdC5lcG9jaF9jb3VudCAtIDEKICAgICAgICAgICAgICAgICAgICAKCiAgICAgICAgICAgIAoKICAgIGRlZiBwcmludF9uZXR3b3JrcyhzZWxmLCB2ZXJib3NlKToKICAgICAgICAiIiJQcmludCB0aGUgdG90YWwgbnVtYmVyIG9mIHBhcmFtZXRlcnMgaW4gdGhlIG5ldHdvcmsgYW5kIChpZiB2ZXJib3NlKSBuZXR3b3JrIGFyY2hpdGVjdHVyZQoKICAgICAgICBQYXJhbWV0ZXJzOgogICAgICAgICAgICB2ZXJib3NlIChib29sKSAtLSBpZiB2ZXJib3NlOiBwcmludCB0aGUgbmV0d29yayBhcmNoaXRlY3R1cmUKICAgICAgICAiIiIKICAgICAgICBwcmludCgnLS0tLS0tLS0tLSBOZXR3b3JrcyBpbml0aWFsaXplZCAtLS0tLS0tLS0tLS0tJykKICAgICAgICBmb3IgbmFtZSBpbiBzZWxmLm1vZGVsX25hbWVzOgogICAgICAgICAgICBpZiBpc2luc3RhbmNlKG5hbWUsIHN0cik6CiAgICAgICAgICAgICAgICBuZXQgPSBnZXRhdHRyKHNlbGYsIG5hbWUpCiAgICAgICAgICAgICAgICBudW1fcGFyYW1zID0gMAogICAgICAgICAgICAgICAgZm9yIHBhcmFtIGluIG5ldC5wYXJhbWV0ZXJzKCk6CiAgICAgICAgICAgICAgICAgICAgbnVtX3BhcmFtcyArPSBwYXJhbS5udW1lbCgpCiAgICAgICAgICAgICAgICBpZiB2ZXJib3NlOgogICAgICAgICAgICAgICAgICAgIHByaW50KG5ldCkKICAgICAgICAgICAgICAgIHByaW50KCdbTmV0d29yayAlc10gVG90YWwgbnVtYmVyIG9mIHBhcmFtZXRlcnMgOiAlLjNmIE0nICUgKG5hbWUsIG51bV9wYXJhbXMgLyAxZTYpKQogICAgICAgIHByaW50KCctLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLScpCgogICAgZGVmIHNldF9yZXF1aXJlc19ncmFkKHNlbGYsIG5ldHMsIHJlcXVpcmVzX2dyYWQ9RmFsc2UpOgogICAgICAgICIiIlNldCByZXF1aWVzX2dyYWQ9RmFzbGUgZm9yIGFsbCB0aGUgbmV0d29ya3MgdG8gYXZvaWQgdW5uZWNlc3NhcnkgY29tcHV0YXRpb25zCiAgICAgICAgUGFyYW1ldGVyczoKICAgICAgICAgICAgbmV0cyAobmV0d29yayBsaXN0KSAgIC0tIGEgbGlzdCBvZiBuZXR3b3JrcwogICAgICAgICAgICByZXF1aXJlc19ncmFkIChib29sKSAgLS0gd2hldGhlciB0aGUgbmV0d29ya3MgcmVxdWlyZSBncmFkaWVudHMgb3Igbm90CiAgICAgICAgIiIiCiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UobmV0cywgbGlzdCk6CiAgICAgICAgICAgIG5ldHMgPSBbbmV0c10KICAgICAgICBmb3IgbmV0IGluIG5ldHM6CiAgICAgICAgICAgIGlmIG5ldCBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgIGZvciBwYXJhbSBpbiBuZXQucGFyYW1ldGVycygpOgogICAgICAgICAgICAgICAgICAgIHBhcmFtLnJlcXVpcmVzX2dyYWQgPSByZXF1aXJlc19ncmFkCgogICAgZGVmIGdlbmVyYXRlX3Zpc3VhbHNfZm9yX2V2YWx1YXRpb24oc2VsZiwgZGF0YSwgbW9kZSk6CiAgICAgICAgcmV0dXJuIHt9Cg==
+"""This script defines the base network model for Deep3DFaceRecon_pytorch
+"""
+
+import os
+import numpy as np
+import torch
+from collections import OrderedDict
+from abc import ABC, abstractmethod
+from . import networks
+
+
+class BaseModel(ABC):
+    """This class is an abstract base class (ABC) for models.
+    To create a subclass, you need to implement the following five functions:
+        -- <__init__>:                      initialize the class; first call BaseModel.__init__(self, opt).
+        -- <set_input>:                     unpack data from dataset and apply preprocessing.
+        -- <forward>:                       produce intermediate results.
+        -- <optimize_parameters>:           calculate losses, gradients, and update network weights.
+        -- <modify_commandline_options>:    (optionally) add model-specific options and set default options.
+    """
+
+    def __init__(self, opt):
+        """Initialize the BaseModel class.
+
+        Parameters:
+            opt (Option class)-- stores all the experiment flags; needs to be a subclass of BaseOptions
+
+        When creating your custom class, you need to implement your own initialization.
+        In this fucntion, you should first call <BaseModel.__init__(self, opt)>
+        Then, you need to define four lists:
+            -- self.loss_names (str list):          specify the training losses that you want to plot and save.
+            -- self.model_names (str list):         specify the images that you want to display and save.
+            -- self.visual_names (str list):        define networks used in our training.
+            -- self.optimizers (optimizer list):    define and initialize optimizers. You can define one optimizer for each network. If two networks are updated at the same time, you can use itertools.chain to group them. See cycle_gan_model.py for an example.
+        """
+        self.opt = opt
+        self.isTrain = False
+        self.device = torch.device('cpu') 
+        self.save_dir = " " # os.path.join(opt.checkpoints_dir, opt.name)  # save all the checkpoints to save_dir
+        self.loss_names = []
+        self.model_names = []
+        self.visual_names = []
+        self.parallel_names = []
+        self.optimizers = []
+        self.image_paths = []
+        self.metric = 0  # used for learning rate policy 'plateau'
+
+    @staticmethod
+    def dict_grad_hook_factory(add_func=lambda x: x):
+        saved_dict = dict()
+
+        def hook_gen(name):
+            def grad_hook(grad):
+                saved_vals = add_func(grad)
+                saved_dict[name] = saved_vals
+            return grad_hook
+        return hook_gen, saved_dict
+
+    @staticmethod
+    def modify_commandline_options(parser, is_train):
+        """Add new model-specific options, and rewrite default values for existing options.
+
+        Parameters:
+            parser          -- original option parser
+            is_train (bool) -- whether training phase or test phase. You can use this flag to add training-specific or test-specific options.
+
+        Returns:
+            the modified parser.
+        """
+        return parser
+
+    @abstractmethod
+    def set_input(self, input):
+        """Unpack input data from the dataloader and perform necessary pre-processing steps.
+
+        Parameters:
+            input (dict): includes the data itself and its metadata information.
+        """
+        pass
+
+    @abstractmethod
+    def forward(self):
+        """Run forward pass; called by both functions <optimize_parameters> and <test>."""
+        pass
+
+    @abstractmethod
+    def optimize_parameters(self):
+        """Calculate losses, gradients, and update network weights; called in every training iteration"""
+        pass
+
+    def setup(self, opt):
+        """Load and print networks; create schedulers
+
+        Parameters:
+            opt (Option class) -- stores all the experiment flags; needs to be a subclass of BaseOptions
+        """
+        if self.isTrain:
+            self.schedulers = [networks.get_scheduler(optimizer, opt) for optimizer in self.optimizers]
+        
+        if not self.isTrain or opt.continue_train:
+            load_suffix = opt.epoch
+            self.load_networks(load_suffix)
+ 
+            
+        # self.print_networks(opt.verbose)
+
+    def parallelize(self, convert_sync_batchnorm=True):
+        if not self.opt.use_ddp:
+            for name in self.parallel_names:
+                if isinstance(name, str):
+                    module = getattr(self, name)
+                    setattr(self, name, module.to(self.device))
+        else:
+            for name in self.model_names:
+                if isinstance(name, str):
+                    module = getattr(self, name)
+                    if convert_sync_batchnorm:
+                        module = torch.nn.SyncBatchNorm.convert_sync_batchnorm(module)
+                    setattr(self, name, torch.nn.parallel.DistributedDataParallel(module.to(self.device),
+                        device_ids=[self.device.index], 
+                        find_unused_parameters=True, broadcast_buffers=True))
+            
+            # DistributedDataParallel is not needed when a module doesn't have any parameter that requires a gradient.
+            for name in self.parallel_names:
+                if isinstance(name, str) and name not in self.model_names:
+                    module = getattr(self, name)
+                    setattr(self, name, module.to(self.device))
+            
+        # put state_dict of optimizer to gpu device
+        if self.opt.phase != 'test':
+            if self.opt.continue_train:
+                for optim in self.optimizers:
+                    for state in optim.state.values():
+                        for k, v in state.items():
+                            if isinstance(v, torch.Tensor):
+                                state[k] = v.to(self.device)
+
+    def data_dependent_initialize(self, data):
+        pass
+
+    def train(self):
+        """Make models train mode"""
+        for name in self.model_names:
+            if isinstance(name, str):
+                net = getattr(self, name)
+                net.train()
+
+    def eval(self):
+        """Make models eval mode"""
+        for name in self.model_names:
+            if isinstance(name, str):
+                net = getattr(self, name)
+                net.eval()
+
+    def test(self):
+        """Forward function used in test time.
+
+        This function wraps <forward> function in no_grad() so we don't save intermediate steps for backprop
+        It also calls <compute_visuals> to produce additional visualization results
+        """
+        with torch.no_grad():
+            self.forward()
+            self.compute_visuals()
+
+    def compute_visuals(self):
+        """Calculate additional output images for visdom and HTML visualization"""
+        pass
+
+    def get_image_paths(self, name='A'):
+        """ Return image paths that are used to load current data"""
+        return self.image_paths if name =='A' else self.image_paths_B
+
+    def update_learning_rate(self):
+        """Update learning rates for all the networks; called at the end of every epoch"""
+        for scheduler in self.schedulers:
+            if self.opt.lr_policy == 'plateau':
+                scheduler.step(self.metric)
+            else:
+                scheduler.step()
+
+        lr = self.optimizers[0].param_groups[0]['lr']
+        print('learning rate = %.7f' % lr)
+
+    def get_current_visuals(self):
+        """Return visualization images. train.py will display these images with visdom, and save the images to a HTML"""
+        visual_ret = OrderedDict()
+        for name in self.visual_names:
+            if isinstance(name, str):
+                visual_ret[name] = getattr(self, name)[:, :3, ...]
+        return visual_ret
+
+    def get_current_losses(self):
+        """Return traning losses / errors. train.py will print out these errors on console, and save them to a file"""
+        errors_ret = OrderedDict()
+        for name in self.loss_names:
+            if isinstance(name, str):
+                errors_ret[name] = float(getattr(self, 'loss_' + name))  # float(...) works for both scalar tensor and float number
+        return errors_ret
+
+    def save_networks(self, epoch):
+        """Save all the networks to the disk.
+
+        Parameters:
+            epoch (int) -- current epoch; used in the file name '%s_net_%s.pth' % (epoch, name)
+        """
+        if not os.path.isdir(self.save_dir):
+            os.makedirs(self.save_dir)
+
+        save_filename = 'epoch_%s.pth' % (epoch)
+        save_path = os.path.join(self.save_dir, save_filename)
+        
+        save_dict = {}
+        for name in self.model_names:
+            if isinstance(name, str):
+                net = getattr(self, name)
+                if isinstance(net, torch.nn.DataParallel) or isinstance(net,
+                        torch.nn.parallel.DistributedDataParallel):
+                    net = net.module
+                save_dict[name] = net.state_dict()
+                
+
+        for i, optim in enumerate(self.optimizers):
+            save_dict['opt_%02d'%i] = optim.state_dict()
+
+        for i, sched in enumerate(self.schedulers):
+            save_dict['sched_%02d'%i] = sched.state_dict()
+        
+        torch.save(save_dict, save_path)
+
+    def __patch_instance_norm_state_dict(self, state_dict, module, keys, i=0):
+        """Fix InstanceNorm checkpoints incompatibility (prior to 0.4)"""
+        key = keys[i]
+        if i + 1 == len(keys):  # at the end, pointing to a parameter/buffer
+            if module.__class__.__name__.startswith('InstanceNorm') and \
+                    (key == 'running_mean' or key == 'running_var'):
+                if getattr(module, key) is None:
+                    state_dict.pop('.'.join(keys))
+            if module.__class__.__name__.startswith('InstanceNorm') and \
+               (key == 'num_batches_tracked'):
+                state_dict.pop('.'.join(keys))
+        else:
+            self.__patch_instance_norm_state_dict(state_dict, getattr(module, key), keys, i + 1)
+
+    def load_networks(self, epoch):
+        """Load all the networks from the disk.
+
+        Parameters:
+            epoch (int) -- current epoch; used in the file name '%s_net_%s.pth' % (epoch, name)
+        """
+        if self.opt.isTrain and self.opt.pretrained_name is not None:
+            load_dir = os.path.join(self.opt.checkpoints_dir, self.opt.pretrained_name)
+        else:
+            load_dir = self.save_dir    
+        load_filename = 'epoch_%s.pth' % (epoch)
+        load_path = os.path.join(load_dir, load_filename)
+        state_dict = torch.load(load_path, map_location=self.device)
+        print('loading the model from %s' % load_path)
+
+        for name in self.model_names:
+            if isinstance(name, str):
+                net = getattr(self, name)
+                if isinstance(net, torch.nn.DataParallel):
+                    net = net.module
+                net.load_state_dict(state_dict[name])
+        
+        if self.opt.phase != 'test':
+            if self.opt.continue_train:
+                print('loading the optim from %s' % load_path)
+                for i, optim in enumerate(self.optimizers):
+                    optim.load_state_dict(state_dict['opt_%02d'%i])
+
+                try:
+                    print('loading the sched from %s' % load_path)
+                    for i, sched in enumerate(self.schedulers):
+                        sched.load_state_dict(state_dict['sched_%02d'%i])
+                except:
+                    print('Failed to load schedulers, set schedulers according to epoch count manually')
+                    for i, sched in enumerate(self.schedulers):
+                        sched.last_epoch = self.opt.epoch_count - 1
+                    
+
+            
+
+    def print_networks(self, verbose):
+        """Print the total number of parameters in the network and (if verbose) network architecture
+
+        Parameters:
+            verbose (bool) -- if verbose: print the network architecture
+        """
+        print('---------- Networks initialized -------------')
+        for name in self.model_names:
+            if isinstance(name, str):
+                net = getattr(self, name)
+                num_params = 0
+                for param in net.parameters():
+                    num_params += param.numel()
+                if verbose:
+                    print(net)
+                print('[Network %s] Total number of parameters : %.3f M' % (name, num_params / 1e6))
+        print('-----------------------------------------------')
+
+    def set_requires_grad(self, nets, requires_grad=False):
+        """Set requies_grad=Fasle for all the networks to avoid unnecessary computations
+        Parameters:
+            nets (network list)   -- a list of networks
+            requires_grad (bool)  -- whether the networks require gradients or not
+        """
+        if not isinstance(nets, list):
+            nets = [nets]
+        for net in nets:
+            if net is not None:
+                for param in net.parameters():
+                    param.requires_grad = requires_grad
+
+    def generate_visuals_for_evaluation(self, data, mode):
+        return {}

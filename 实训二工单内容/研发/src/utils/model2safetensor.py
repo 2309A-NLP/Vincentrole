@@ -1,1 +1,141 @@
-aW1wb3J0IHRvcmNoCmltcG9ydCB5YW1sCmltcG9ydCBvcwoKaW1wb3J0IHNhZmV0ZW5zb3JzCmZyb20gc2FmZXRlbnNvcnMudG9yY2ggaW1wb3J0IHNhdmVfZmlsZQpmcm9tIHlhY3MuY29uZmlnIGltcG9ydCBDZmdOb2RlIGFzIENOCmltcG9ydCBzeXMKCnN5cy5wYXRoLmFwcGVuZCgnL2FwZGNlcGhmcy9wcml2YXRlX3NoYWRvd2N1bi9TYWRUYWxrZXInKQoKZnJvbSBzcmMuZmFjZTNkLm1vZGVscyBpbXBvcnQgbmV0d29ya3MKCmZyb20gc3JjLmZhY2VyZW5kZXIubW9kdWxlcy5rZXlwb2ludF9kZXRlY3RvciBpbXBvcnQgSEVFc3RpbWF0b3IsIEtQRGV0ZWN0b3IKZnJvbSBzcmMuZmFjZXJlbmRlci5tb2R1bGVzLm1hcHBpbmcgaW1wb3J0IE1hcHBpbmdOZXQKZnJvbSBzcmMuZmFjZXJlbmRlci5tb2R1bGVzLmdlbmVyYXRvciBpbXBvcnQgT2NjbHVzaW9uQXdhcmVHZW5lcmF0b3IsIE9jY2x1c2lvbkF3YXJlU1BBREVHZW5lcmF0b3IKCmZyb20gc3JjLmF1ZGlvMnBvc2VfbW9kZWxzLmF1ZGlvMnBvc2UgaW1wb3J0IEF1ZGlvMlBvc2UKZnJvbSBzcmMuYXVkaW8yZXhwX21vZGVscy5uZXR3b3JrcyBpbXBvcnQgU2ltcGxlV3JhcHBlclYyIApmcm9tIHNyYy50ZXN0X2F1ZGlvMmNvZWZmIGltcG9ydCBsb2FkX2NwawoKc2l6ZSA9IDI1NgojIyMjIyMjIyMjIyMgZmFjZSB2aWQydmlkCmNvbmZpZ19wYXRoID0gb3MucGF0aC5qb2luKCdzcmMnLCAnY29uZmlnJywgJ2ZhY2VyZW5kZXIueWFtbCcpCmN1cnJlbnRfcm9vdF9wYXRoID0gJy4nCgpwYXRoX29mX25ldF9yZWNvbl9tb2RlbCA9IG9zLnBhdGguam9pbihjdXJyZW50X3Jvb3RfcGF0aCwgJ2NoZWNrcG9pbnRzJywgJ2Vwb2NoXzIwLnB0aCcpCm5ldF9yZWNvbiA9IG5ldHdvcmtzLmRlZmluZV9uZXRfcmVjb24obmV0X3JlY29uPSdyZXNuZXQ1MCcsIHVzZV9sYXN0X2ZjPUZhbHNlLCBpbml0X3BhdGg9JycpCmNoZWNrcG9pbnQgPSB0b3JjaC5sb2FkKHBhdGhfb2ZfbmV0X3JlY29uX21vZGVsLCBtYXBfbG9jYXRpb249J2NwdScpICAgIApuZXRfcmVjb24ubG9hZF9zdGF0ZV9kaWN0KGNoZWNrcG9pbnRbJ25ldF9yZWNvbiddKQoKd2l0aCBvcGVuKGNvbmZpZ19wYXRoKSBhcyBmOgogICAgY29uZmlnID0geWFtbC5zYWZlX2xvYWQoZikKCmdlbmVyYXRvciA9IE9jY2x1c2lvbkF3YXJlU1BBREVHZW5lcmF0b3IoKipjb25maWdbJ21vZGVsX3BhcmFtcyddWydnZW5lcmF0b3JfcGFyYW1zJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKipjb25maWdbJ21vZGVsX3BhcmFtcyddWydjb21tb25fcGFyYW1zJ10pCmtwX2V4dHJhY3RvciA9IEtQRGV0ZWN0b3IoKipjb25maWdbJ21vZGVsX3BhcmFtcyddWydrcF9kZXRlY3Rvcl9wYXJhbXMnXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICoqY29uZmlnWydtb2RlbF9wYXJhbXMnXVsnY29tbW9uX3BhcmFtcyddKQpoZV9lc3RpbWF0b3IgPSBIRUVzdGltYXRvcigqKmNvbmZpZ1snbW9kZWxfcGFyYW1zJ11bJ2hlX2VzdGltYXRvcl9wYXJhbXMnXSwKICAgICAgICAgICAgICAgICAgICAgICAgKipjb25maWdbJ21vZGVsX3BhcmFtcyddWydjb21tb25fcGFyYW1zJ10pCm1hcHBpbmcgPSBNYXBwaW5nTmV0KCoqY29uZmlnWydtb2RlbF9wYXJhbXMnXVsnbWFwcGluZ19wYXJhbXMnXSkKCmRlZiBsb2FkX2Nwa19mYWNldmlkMnZpZChjaGVja3BvaW50X3BhdGgsIGdlbmVyYXRvcj1Ob25lLCBkaXNjcmltaW5hdG9yPU5vbmUsIAogICAgICAgICAgICAgICAgICAgICAgICBrcF9kZXRlY3Rvcj1Ob25lLCBoZV9lc3RpbWF0b3I9Tm9uZSwgb3B0aW1pemVyX2dlbmVyYXRvcj1Ob25lLCAKICAgICAgICAgICAgICAgICAgICAgICAgb3B0aW1pemVyX2Rpc2NyaW1pbmF0b3I9Tm9uZSwgb3B0aW1pemVyX2twX2RldGVjdG9yPU5vbmUsIAogICAgICAgICAgICAgICAgICAgICAgICBvcHRpbWl6ZXJfaGVfZXN0aW1hdG9yPU5vbmUsIGRldmljZT0iY3B1Iik6CgogICAgY2hlY2twb2ludCA9IHRvcmNoLmxvYWQoY2hlY2twb2ludF9wYXRoLCBtYXBfbG9jYXRpb249dG9yY2guZGV2aWNlKGRldmljZSkpCiAgICBpZiBnZW5lcmF0b3IgaXMgbm90IE5vbmU6CiAgICAgICAgZ2VuZXJhdG9yLmxvYWRfc3RhdGVfZGljdChjaGVja3BvaW50WydnZW5lcmF0b3InXSkKICAgIGlmIGtwX2RldGVjdG9yIGlzIG5vdCBOb25lOgogICAgICAgIGtwX2RldGVjdG9yLmxvYWRfc3RhdGVfZGljdChjaGVja3BvaW50WydrcF9kZXRlY3RvciddKQogICAgaWYgaGVfZXN0aW1hdG9yIGlzIG5vdCBOb25lOgogICAgICAgIGhlX2VzdGltYXRvci5sb2FkX3N0YXRlX2RpY3QoY2hlY2twb2ludFsnaGVfZXN0aW1hdG9yJ10pCiAgICBpZiBkaXNjcmltaW5hdG9yIGlzIG5vdCBOb25lOgogICAgICAgIHRyeToKICAgICAgICAgICAgZGlzY3JpbWluYXRvci5sb2FkX3N0YXRlX2RpY3QoY2hlY2twb2ludFsnZGlzY3JpbWluYXRvciddKQogICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgcHJpbnQgKCdObyBkaXNjcmltaW5hdG9yIGluIHRoZSBzdGF0ZS1kaWN0LiBEaWNyaW1pbmF0b3Igd2lsbCBiZSByYW5kb21seSBpbml0aWFsaXplZCcpCiAgICBpZiBvcHRpbWl6ZXJfZ2VuZXJhdG9yIGlzIG5vdCBOb25lOgogICAgICAgIG9wdGltaXplcl9nZW5lcmF0b3IubG9hZF9zdGF0ZV9kaWN0KGNoZWNrcG9pbnRbJ29wdGltaXplcl9nZW5lcmF0b3InXSkKICAgIGlmIG9wdGltaXplcl9kaXNjcmltaW5hdG9yIGlzIG5vdCBOb25lOgogICAgICAgIHRyeToKICAgICAgICAgICAgb3B0aW1pemVyX2Rpc2NyaW1pbmF0b3IubG9hZF9zdGF0ZV9kaWN0KGNoZWNrcG9pbnRbJ29wdGltaXplcl9kaXNjcmltaW5hdG9yJ10pCiAgICAgICAgZXhjZXB0IFJ1bnRpbWVFcnJvciBhcyBlOgogICAgICAgICAgICBwcmludCAoJ05vIGRpc2NyaW1pbmF0b3Igb3B0aW1pemVyIGluIHRoZSBzdGF0ZS1kaWN0LiBPcHRpbWl6ZXIgd2lsbCBiZSBub3QgaW5pdGlhbGl6ZWQnKQogICAgaWYgb3B0aW1pemVyX2twX2RldGVjdG9yIGlzIG5vdCBOb25lOgogICAgICAgIG9wdGltaXplcl9rcF9kZXRlY3Rvci5sb2FkX3N0YXRlX2RpY3QoY2hlY2twb2ludFsnb3B0aW1pemVyX2twX2RldGVjdG9yJ10pCiAgICBpZiBvcHRpbWl6ZXJfaGVfZXN0aW1hdG9yIGlzIG5vdCBOb25lOgogICAgICAgIG9wdGltaXplcl9oZV9lc3RpbWF0b3IubG9hZF9zdGF0ZV9kaWN0KGNoZWNrcG9pbnRbJ29wdGltaXplcl9oZV9lc3RpbWF0b3InXSkKCiAgICByZXR1cm4gY2hlY2twb2ludFsnZXBvY2gnXQoKCmRlZiBsb2FkX2Nwa19mYWNldmlkMnZpZF9zYWZldGVuc29yKGNoZWNrcG9pbnRfcGF0aCwgZ2VuZXJhdG9yPU5vbmUsIAogICAgICAgICAgICAgICAgICAgICAgICBrcF9kZXRlY3Rvcj1Ob25lLCBoZV9lc3RpbWF0b3I9Tm9uZSwgIAogICAgICAgICAgICAgICAgICAgICAgICBkZXZpY2U9ImNwdSIpOgoKICAgIGNoZWNrcG9pbnQgPSBzYWZldGVuc29ycy50b3JjaC5sb2FkX2ZpbGUoY2hlY2twb2ludF9wYXRoKQoKICAgIGlmIGdlbmVyYXRvciBpcyBub3QgTm9uZToKICAgICAgICB4X2dlbmVyYXRvciA9IHt9CiAgICAgICAgZm9yIGssdiBpbiBjaGVja3BvaW50Lml0ZW1zKCk6CiAgICAgICAgICAgIGlmICdnZW5lcmF0b3InIGluIGs6CiAgICAgICAgICAgICAgICB4X2dlbmVyYXRvcltrLnJlcGxhY2UoJ2dlbmVyYXRvci4nLCAnJyldID0gdgogICAgICAgIGdlbmVyYXRvci5sb2FkX3N0YXRlX2RpY3QoeF9nZW5lcmF0b3IpCiAgICBpZiBrcF9kZXRlY3RvciBpcyBub3QgTm9uZToKICAgICAgICB4X2dlbmVyYXRvciA9IHt9CiAgICAgICAgZm9yIGssdiBpbiBjaGVja3BvaW50Lml0ZW1zKCk6CiAgICAgICAgICAgIGlmICdrcF9leHRyYWN0b3InIGluIGs6CiAgICAgICAgICAgICAgICB4X2dlbmVyYXRvcltrLnJlcGxhY2UoJ2twX2V4dHJhY3Rvci4nLCAnJyldID0gdgogICAgICAgIGtwX2RldGVjdG9yLmxvYWRfc3RhdGVfZGljdCh4X2dlbmVyYXRvcikKICAgIGlmIGhlX2VzdGltYXRvciBpcyBub3QgTm9uZToKICAgICAgICB4X2dlbmVyYXRvciA9IHt9CiAgICAgICAgZm9yIGssdiBpbiBjaGVja3BvaW50Lml0ZW1zKCk6CiAgICAgICAgICAgIGlmICdoZV9lc3RpbWF0b3InIGluIGs6CiAgICAgICAgICAgICAgICB4X2dlbmVyYXRvcltrLnJlcGxhY2UoJ2hlX2VzdGltYXRvci4nLCAnJyldID0gdgogICAgICAgIGhlX2VzdGltYXRvci5sb2FkX3N0YXRlX2RpY3QoeF9nZW5lcmF0b3IpCiAgICAKICAgIHJldHVybiBOb25lCgpmcmVlX3ZpZXdfY2hlY2twb2ludCA9ICcvYXBkY2VwaGZzL3ByaXZhdGVfc2hhZG93Y3VuL1NhZFRhbGtlci9jaGVja3BvaW50cy9mYWNldmlkMnZpZF8nK3N0cihzaXplKSsnLW1vZGVsLnB0aC50YXInCmxvYWRfY3BrX2ZhY2V2aWQydmlkKGZyZWVfdmlld19jaGVja3BvaW50LCBrcF9kZXRlY3Rvcj1rcF9leHRyYWN0b3IsIGdlbmVyYXRvcj1nZW5lcmF0b3IsIGhlX2VzdGltYXRvcj1oZV9lc3RpbWF0b3IpCgp3YXYybGlwX2NoZWNrcG9pbnQgPSBvcy5wYXRoLmpvaW4oY3VycmVudF9yb290X3BhdGgsICdjaGVja3BvaW50cycsICd3YXYybGlwLnB0aCcpCgphdWRpbzJwb3NlX2NoZWNrcG9pbnQgPSBvcy5wYXRoLmpvaW4oY3VycmVudF9yb290X3BhdGgsICdjaGVja3BvaW50cycsICdhdWlkbzJwb3NlXzAwMTQwLW1vZGVsLnB0aCcpCmF1ZGlvMnBvc2VfeWFtbF9wYXRoID0gb3MucGF0aC5qb2luKGN1cnJlbnRfcm9vdF9wYXRoLCAnc3JjJywgJ2NvbmZpZycsICdhdWlkbzJwb3NlLnlhbWwnKQoKYXVkaW8yZXhwX2NoZWNrcG9pbnQgPSBvcy5wYXRoLmpvaW4oY3VycmVudF9yb290X3BhdGgsICdjaGVja3BvaW50cycsICdhdWlkbzJleHBfMDAzMDAtbW9kZWwucHRoJykKYXVkaW8yZXhwX3lhbWxfcGF0aCA9IG9zLnBhdGguam9pbihjdXJyZW50X3Jvb3RfcGF0aCwgJ3NyYycsICdjb25maWcnLCAnYXVpZG8yZXhwLnlhbWwnKQoKZmNmZ19wb3NlID0gb3BlbihhdWRpbzJwb3NlX3lhbWxfcGF0aCkKY2ZnX3Bvc2UgPSBDTi5sb2FkX2NmZyhmY2ZnX3Bvc2UpCmNmZ19wb3NlLmZyZWV6ZSgpCmF1ZGlvMnBvc2VfbW9kZWwgPSBBdWRpbzJQb3NlKGNmZ19wb3NlLCB3YXYybGlwX2NoZWNrcG9pbnQpCmF1ZGlvMnBvc2VfbW9kZWwuZXZhbCgpCmxvYWRfY3BrKGF1ZGlvMnBvc2VfY2hlY2twb2ludCwgbW9kZWw9YXVkaW8ycG9zZV9tb2RlbCwgZGV2aWNlPSdjcHUnKQoKIyBsb2FkIGF1ZGlvMmV4cF9tb2RlbApuZXRHID0gU2ltcGxlV3JhcHBlclYyKCkKbmV0Ry5ldmFsKCkKbG9hZF9jcGsoYXVkaW8yZXhwX2NoZWNrcG9pbnQsIG1vZGVsPW5ldEcsIGRldmljZT0nY3B1JykKCmNsYXNzIFNhZFRhbGtlcih0b3JjaC5ubi5Nb2R1bGUpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGtwX2V4dHJhY3RvciwgZ2VuZXJhdG9yLCBuZXRHLCBhdWRpbzJwb3NlLCBmYWNlXzNkcmVjb24pOgogICAgICAgIHN1cGVyKFNhZFRhbGtlciwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYua3BfZXh0cmFjdG9yID0ga3BfZXh0cmFjdG9yCiAgICAgICAgc2VsZi5nZW5lcmF0b3IgPSBnZW5lcmF0b3IKICAgICAgICBzZWxmLmF1ZGlvMmV4cCA9IG5ldEcKICAgICAgICBzZWxmLmF1ZGlvMnBvc2UgPSBhdWRpbzJwb3NlCiAgICAgICAgc2VsZi5mYWNlXzNkcmVjb24gPSBmYWNlXzNkcmVjb24KCgptb2RlbCA9IFNhZFRhbGtlcihrcF9leHRyYWN0b3IsIGdlbmVyYXRvciwgbmV0RywgYXVkaW8ycG9zZV9tb2RlbCwgbmV0X3JlY29uKQoKIyBoZXJlLCB3ZSB3YW50IHRvIGNvbnZlcnQgaXQgdG8gc2FmZXRlbnNvcgpzYXZlX2ZpbGUobW9kZWwuc3RhdGVfZGljdCgpLCAiY2hlY2twb2ludHMvU2FkVGFsa2VyX1YwLjAuMl8iK3N0cihzaXplKSsiLnNhZmV0ZW5zb3JzIikKCiMjIyB0ZXN0CmxvYWRfY3BrX2ZhY2V2aWQydmlkX3NhZmV0ZW5zb3IoJ2NoZWNrcG9pbnRzL1NhZFRhbGtlcl9WMC4wLjJfJytzdHIoc2l6ZSkrJy5zYWZldGVuc29ycycsIGtwX2RldGVjdG9yPWtwX2V4dHJhY3RvciwgZ2VuZXJhdG9yPWdlbmVyYXRvciwgaGVfZXN0aW1hdG9yPU5vbmUp
+import torch
+import yaml
+import os
+
+import safetensors
+from safetensors.torch import save_file
+from yacs.config import CfgNode as CN
+import sys
+
+sys.path.append('/apdcephfs/private_shadowcun/SadTalker')
+
+from src.face3d.models import networks
+
+from src.facerender.modules.keypoint_detector import HEEstimator, KPDetector
+from src.facerender.modules.mapping import MappingNet
+from src.facerender.modules.generator import OcclusionAwareGenerator, OcclusionAwareSPADEGenerator
+
+from src.audio2pose_models.audio2pose import Audio2Pose
+from src.audio2exp_models.networks import SimpleWrapperV2 
+from src.test_audio2coeff import load_cpk
+
+size = 256
+############ face vid2vid
+config_path = os.path.join('src', 'config', 'facerender.yaml')
+current_root_path = '.'
+
+path_of_net_recon_model = os.path.join(current_root_path, 'checkpoints', 'epoch_20.pth')
+net_recon = networks.define_net_recon(net_recon='resnet50', use_last_fc=False, init_path='')
+checkpoint = torch.load(path_of_net_recon_model, map_location='cpu')    
+net_recon.load_state_dict(checkpoint['net_recon'])
+
+with open(config_path) as f:
+    config = yaml.safe_load(f)
+
+generator = OcclusionAwareSPADEGenerator(**config['model_params']['generator_params'],
+                                            **config['model_params']['common_params'])
+kp_extractor = KPDetector(**config['model_params']['kp_detector_params'],
+                            **config['model_params']['common_params'])
+he_estimator = HEEstimator(**config['model_params']['he_estimator_params'],
+                        **config['model_params']['common_params'])
+mapping = MappingNet(**config['model_params']['mapping_params'])
+
+def load_cpk_facevid2vid(checkpoint_path, generator=None, discriminator=None, 
+                        kp_detector=None, he_estimator=None, optimizer_generator=None, 
+                        optimizer_discriminator=None, optimizer_kp_detector=None, 
+                        optimizer_he_estimator=None, device="cpu"):
+
+    checkpoint = torch.load(checkpoint_path, map_location=torch.device(device))
+    if generator is not None:
+        generator.load_state_dict(checkpoint['generator'])
+    if kp_detector is not None:
+        kp_detector.load_state_dict(checkpoint['kp_detector'])
+    if he_estimator is not None:
+        he_estimator.load_state_dict(checkpoint['he_estimator'])
+    if discriminator is not None:
+        try:
+            discriminator.load_state_dict(checkpoint['discriminator'])
+        except:
+            print ('No discriminator in the state-dict. Dicriminator will be randomly initialized')
+    if optimizer_generator is not None:
+        optimizer_generator.load_state_dict(checkpoint['optimizer_generator'])
+    if optimizer_discriminator is not None:
+        try:
+            optimizer_discriminator.load_state_dict(checkpoint['optimizer_discriminator'])
+        except RuntimeError as e:
+            print ('No discriminator optimizer in the state-dict. Optimizer will be not initialized')
+    if optimizer_kp_detector is not None:
+        optimizer_kp_detector.load_state_dict(checkpoint['optimizer_kp_detector'])
+    if optimizer_he_estimator is not None:
+        optimizer_he_estimator.load_state_dict(checkpoint['optimizer_he_estimator'])
+
+    return checkpoint['epoch']
+
+
+def load_cpk_facevid2vid_safetensor(checkpoint_path, generator=None, 
+                        kp_detector=None, he_estimator=None,  
+                        device="cpu"):
+
+    checkpoint = safetensors.torch.load_file(checkpoint_path)
+
+    if generator is not None:
+        x_generator = {}
+        for k,v in checkpoint.items():
+            if 'generator' in k:
+                x_generator[k.replace('generator.', '')] = v
+        generator.load_state_dict(x_generator)
+    if kp_detector is not None:
+        x_generator = {}
+        for k,v in checkpoint.items():
+            if 'kp_extractor' in k:
+                x_generator[k.replace('kp_extractor.', '')] = v
+        kp_detector.load_state_dict(x_generator)
+    if he_estimator is not None:
+        x_generator = {}
+        for k,v in checkpoint.items():
+            if 'he_estimator' in k:
+                x_generator[k.replace('he_estimator.', '')] = v
+        he_estimator.load_state_dict(x_generator)
+    
+    return None
+
+free_view_checkpoint = '/apdcephfs/private_shadowcun/SadTalker/checkpoints/facevid2vid_'+str(size)+'-model.pth.tar'
+load_cpk_facevid2vid(free_view_checkpoint, kp_detector=kp_extractor, generator=generator, he_estimator=he_estimator)
+
+wav2lip_checkpoint = os.path.join(current_root_path, 'checkpoints', 'wav2lip.pth')
+
+audio2pose_checkpoint = os.path.join(current_root_path, 'checkpoints', 'auido2pose_00140-model.pth')
+audio2pose_yaml_path = os.path.join(current_root_path, 'src', 'config', 'auido2pose.yaml')
+
+audio2exp_checkpoint = os.path.join(current_root_path, 'checkpoints', 'auido2exp_00300-model.pth')
+audio2exp_yaml_path = os.path.join(current_root_path, 'src', 'config', 'auido2exp.yaml')
+
+fcfg_pose = open(audio2pose_yaml_path)
+cfg_pose = CN.load_cfg(fcfg_pose)
+cfg_pose.freeze()
+audio2pose_model = Audio2Pose(cfg_pose, wav2lip_checkpoint)
+audio2pose_model.eval()
+load_cpk(audio2pose_checkpoint, model=audio2pose_model, device='cpu')
+
+# load audio2exp_model
+netG = SimpleWrapperV2()
+netG.eval()
+load_cpk(audio2exp_checkpoint, model=netG, device='cpu')
+
+class SadTalker(torch.nn.Module):
+    def __init__(self, kp_extractor, generator, netG, audio2pose, face_3drecon):
+        super(SadTalker, self).__init__()
+        self.kp_extractor = kp_extractor
+        self.generator = generator
+        self.audio2exp = netG
+        self.audio2pose = audio2pose
+        self.face_3drecon = face_3drecon
+
+
+model = SadTalker(kp_extractor, generator, netG, audio2pose_model, net_recon)
+
+# here, we want to convert it to safetensor
+save_file(model.state_dict(), "checkpoints/SadTalker_V0.0.2_"+str(size)+".safetensors")
+
+### test
+load_cpk_facevid2vid_safetensor('checkpoints/SadTalker_V0.0.2_'+str(size)+'.safetensors', kp_detector=kp_extractor, generator=generator, he_estimator=None)

@@ -1,1 +1,407 @@
-IiIiSGVscGVyIGZvciBldmFsdWF0aW9uIG9uIHRoZSBMYWJlbGVkIEZhY2VzIGluIHRoZSBXaWxkIGRhdGFzZXQgCiIiIgoKIyBNSVQgTGljZW5zZQojCiMgQ29weXJpZ2h0IChjKSAyMDE2IERhdmlkIFNhbmRiZXJnCiMKIyBQZXJtaXNzaW9uIGlzIGhlcmVieSBncmFudGVkLCBmcmVlIG9mIGNoYXJnZSwgdG8gYW55IHBlcnNvbiBvYnRhaW5pbmcgYSBjb3B5CiMgb2YgdGhpcyBzb2Z0d2FyZSBhbmQgYXNzb2NpYXRlZCBkb2N1bWVudGF0aW9uIGZpbGVzICh0aGUgIlNvZnR3YXJlIiksIHRvIGRlYWwKIyBpbiB0aGUgU29mdHdhcmUgd2l0aG91dCByZXN0cmljdGlvbiwgaW5jbHVkaW5nIHdpdGhvdXQgbGltaXRhdGlvbiB0aGUgcmlnaHRzCiMgdG8gdXNlLCBjb3B5LCBtb2RpZnksIG1lcmdlLCBwdWJsaXNoLCBkaXN0cmlidXRlLCBzdWJsaWNlbnNlLCBhbmQvb3Igc2VsbAojIGNvcGllcyBvZiB0aGUgU29mdHdhcmUsIGFuZCB0byBwZXJtaXQgcGVyc29ucyB0byB3aG9tIHRoZSBTb2Z0d2FyZSBpcwojIGZ1cm5pc2hlZCB0byBkbyBzbywgc3ViamVjdCB0byB0aGUgZm9sbG93aW5nIGNvbmRpdGlvbnM6CiMKIyBUaGUgYWJvdmUgY29weXJpZ2h0IG5vdGljZSBhbmQgdGhpcyBwZXJtaXNzaW9uIG5vdGljZSBzaGFsbCBiZSBpbmNsdWRlZCBpbiBhbGwKIyBjb3BpZXMgb3Igc3Vic3RhbnRpYWwgcG9ydGlvbnMgb2YgdGhlIFNvZnR3YXJlLgojCiMgVEhFIFNPRlRXQVJFIElTIFBST1ZJREVEICJBUyBJUyIsIFdJVEhPVVQgV0FSUkFOVFkgT0YgQU5ZIEtJTkQsIEVYUFJFU1MgT1IKIyBJTVBMSUVELCBJTkNMVURJTkcgQlVUIE5PVCBMSU1JVEVEIFRPIFRIRSBXQVJSQU5USUVTIE9GIE1FUkNIQU5UQUJJTElUWSwKIyBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRSBBTkQgTk9OSU5GUklOR0VNRU5ULiBJTiBOTyBFVkVOVCBTSEFMTCBUSEUKIyBBVVRIT1JTIE9SIENPUFlSSUdIVCBIT0xERVJTIEJFIExJQUJMRSBGT1IgQU5ZIENMQUlNLCBEQU1BR0VTIE9SIE9USEVSCiMgTElBQklMSVRZLCBXSEVUSEVSIElOIEFOIEFDVElPTiBPRiBDT05UUkFDVCwgVE9SVCBPUiBPVEhFUldJU0UsIEFSSVNJTkcgRlJPTSwKIyBPVVQgT0YgT1IgSU4gQ09OTkVDVElPTiBXSVRIIFRIRSBTT0ZUV0FSRSBPUiBUSEUgVVNFIE9SIE9USEVSIERFQUxJTkdTIElOIFRIRQojIFNPRlRXQVJFLgoKCmltcG9ydCBkYXRldGltZQppbXBvcnQgb3MKaW1wb3J0IHBpY2tsZQoKaW1wb3J0IG14bmV0IGFzIG14CmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgc2tsZWFybgppbXBvcnQgdG9yY2gKZnJvbSBteG5ldCBpbXBvcnQgbmRhcnJheSBhcyBuZApmcm9tIHNjaXB5IGltcG9ydCBpbnRlcnBvbGF0ZQpmcm9tIHNrbGVhcm4uZGVjb21wb3NpdGlvbiBpbXBvcnQgUENBCmZyb20gc2tsZWFybi5tb2RlbF9zZWxlY3Rpb24gaW1wb3J0IEtGb2xkCgoKY2xhc3MgTEZvbGQ6CiAgICBkZWYgX19pbml0X18oc2VsZiwgbl9zcGxpdHM9Miwgc2h1ZmZsZT1GYWxzZSk6CiAgICAgICAgc2VsZi5uX3NwbGl0cyA9IG5fc3BsaXRzCiAgICAgICAgaWYgc2VsZi5uX3NwbGl0cyA+IDE6CiAgICAgICAgICAgIHNlbGYua19mb2xkID0gS0ZvbGQobl9zcGxpdHM9bl9zcGxpdHMsIHNodWZmbGU9c2h1ZmZsZSkKCiAgICBkZWYgc3BsaXQoc2VsZiwgaW5kaWNlcyk6CiAgICAgICAgaWYgc2VsZi5uX3NwbGl0cyA+IDE6CiAgICAgICAgICAgIHJldHVybiBzZWxmLmtfZm9sZC5zcGxpdChpbmRpY2VzKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBbKGluZGljZXMsIGluZGljZXMpXQoKCmRlZiBjYWxjdWxhdGVfcm9jKHRocmVzaG9sZHMsCiAgICAgICAgICAgICAgICAgIGVtYmVkZGluZ3MxLAogICAgICAgICAgICAgICAgICBlbWJlZGRpbmdzMiwKICAgICAgICAgICAgICAgICAgYWN0dWFsX2lzc2FtZSwKICAgICAgICAgICAgICAgICAgbnJvZl9mb2xkcz0xMCwKICAgICAgICAgICAgICAgICAgcGNhPTApOgogICAgYXNzZXJ0IChlbWJlZGRpbmdzMS5zaGFwZVswXSA9PSBlbWJlZGRpbmdzMi5zaGFwZVswXSkKICAgIGFzc2VydCAoZW1iZWRkaW5nczEuc2hhcGVbMV0gPT0gZW1iZWRkaW5nczIuc2hhcGVbMV0pCiAgICBucm9mX3BhaXJzID0gbWluKGxlbihhY3R1YWxfaXNzYW1lKSwgZW1iZWRkaW5nczEuc2hhcGVbMF0pCiAgICBucm9mX3RocmVzaG9sZHMgPSBsZW4odGhyZXNob2xkcykKICAgIGtfZm9sZCA9IExGb2xkKG5fc3BsaXRzPW5yb2ZfZm9sZHMsIHNodWZmbGU9RmFsc2UpCgogICAgdHBycyA9IG5wLnplcm9zKChucm9mX2ZvbGRzLCBucm9mX3RocmVzaG9sZHMpKQogICAgZnBycyA9IG5wLnplcm9zKChucm9mX2ZvbGRzLCBucm9mX3RocmVzaG9sZHMpKQogICAgYWNjdXJhY3kgPSBucC56ZXJvcygobnJvZl9mb2xkcykpCiAgICBpbmRpY2VzID0gbnAuYXJhbmdlKG5yb2ZfcGFpcnMpCgogICAgaWYgcGNhID09IDA6CiAgICAgICAgZGlmZiA9IG5wLnN1YnRyYWN0KGVtYmVkZGluZ3MxLCBlbWJlZGRpbmdzMikKICAgICAgICBkaXN0ID0gbnAuc3VtKG5wLnNxdWFyZShkaWZmKSwgMSkKCiAgICBmb3IgZm9sZF9pZHgsICh0cmFpbl9zZXQsIHRlc3Rfc2V0KSBpbiBlbnVtZXJhdGUoa19mb2xkLnNwbGl0KGluZGljZXMpKToKICAgICAgICBpZiBwY2EgPiAwOgogICAgICAgICAgICBwcmludCgnZG9pbmcgcGNhIG9uJywgZm9sZF9pZHgpCiAgICAgICAgICAgIGVtYmVkMV90cmFpbiA9IGVtYmVkZGluZ3MxW3RyYWluX3NldF0KICAgICAgICAgICAgZW1iZWQyX3RyYWluID0gZW1iZWRkaW5nczJbdHJhaW5fc2V0XQogICAgICAgICAgICBfZW1iZWRfdHJhaW4gPSBucC5jb25jYXRlbmF0ZSgoZW1iZWQxX3RyYWluLCBlbWJlZDJfdHJhaW4pLCBheGlzPTApCiAgICAgICAgICAgIHBjYV9tb2RlbCA9IFBDQShuX2NvbXBvbmVudHM9cGNhKQogICAgICAgICAgICBwY2FfbW9kZWwuZml0KF9lbWJlZF90cmFpbikKICAgICAgICAgICAgZW1iZWQxID0gcGNhX21vZGVsLnRyYW5zZm9ybShlbWJlZGRpbmdzMSkKICAgICAgICAgICAgZW1iZWQyID0gcGNhX21vZGVsLnRyYW5zZm9ybShlbWJlZGRpbmdzMikKICAgICAgICAgICAgZW1iZWQxID0gc2tsZWFybi5wcmVwcm9jZXNzaW5nLm5vcm1hbGl6ZShlbWJlZDEpCiAgICAgICAgICAgIGVtYmVkMiA9IHNrbGVhcm4ucHJlcHJvY2Vzc2luZy5ub3JtYWxpemUoZW1iZWQyKQogICAgICAgICAgICBkaWZmID0gbnAuc3VidHJhY3QoZW1iZWQxLCBlbWJlZDIpCiAgICAgICAgICAgIGRpc3QgPSBucC5zdW0obnAuc3F1YXJlKGRpZmYpLCAxKQoKICAgICAgICAjIEZpbmQgdGhlIGJlc3QgdGhyZXNob2xkIGZvciB0aGUgZm9sZAogICAgICAgIGFjY190cmFpbiA9IG5wLnplcm9zKChucm9mX3RocmVzaG9sZHMpKQogICAgICAgIGZvciB0aHJlc2hvbGRfaWR4LCB0aHJlc2hvbGQgaW4gZW51bWVyYXRlKHRocmVzaG9sZHMpOgogICAgICAgICAgICBfLCBfLCBhY2NfdHJhaW5bdGhyZXNob2xkX2lkeF0gPSBjYWxjdWxhdGVfYWNjdXJhY3koCiAgICAgICAgICAgICAgICB0aHJlc2hvbGQsIGRpc3RbdHJhaW5fc2V0XSwgYWN0dWFsX2lzc2FtZVt0cmFpbl9zZXRdKQogICAgICAgIGJlc3RfdGhyZXNob2xkX2luZGV4ID0gbnAuYXJnbWF4KGFjY190cmFpbikKICAgICAgICBmb3IgdGhyZXNob2xkX2lkeCwgdGhyZXNob2xkIGluIGVudW1lcmF0ZSh0aHJlc2hvbGRzKToKICAgICAgICAgICAgdHByc1tmb2xkX2lkeCwgdGhyZXNob2xkX2lkeF0sIGZwcnNbZm9sZF9pZHgsIHRocmVzaG9sZF9pZHhdLCBfID0gY2FsY3VsYXRlX2FjY3VyYWN5KAogICAgICAgICAgICAgICAgdGhyZXNob2xkLCBkaXN0W3Rlc3Rfc2V0XSwKICAgICAgICAgICAgICAgIGFjdHVhbF9pc3NhbWVbdGVzdF9zZXRdKQogICAgICAgIF8sIF8sIGFjY3VyYWN5W2ZvbGRfaWR4XSA9IGNhbGN1bGF0ZV9hY2N1cmFjeSgKICAgICAgICAgICAgdGhyZXNob2xkc1tiZXN0X3RocmVzaG9sZF9pbmRleF0sIGRpc3RbdGVzdF9zZXRdLAogICAgICAgICAgICBhY3R1YWxfaXNzYW1lW3Rlc3Rfc2V0XSkKCiAgICB0cHIgPSBucC5tZWFuKHRwcnMsIDApCiAgICBmcHIgPSBucC5tZWFuKGZwcnMsIDApCiAgICByZXR1cm4gdHByLCBmcHIsIGFjY3VyYWN5CgoKZGVmIGNhbGN1bGF0ZV9hY2N1cmFjeSh0aHJlc2hvbGQsIGRpc3QsIGFjdHVhbF9pc3NhbWUpOgogICAgcHJlZGljdF9pc3NhbWUgPSBucC5sZXNzKGRpc3QsIHRocmVzaG9sZCkKICAgIHRwID0gbnAuc3VtKG5wLmxvZ2ljYWxfYW5kKHByZWRpY3RfaXNzYW1lLCBhY3R1YWxfaXNzYW1lKSkKICAgIGZwID0gbnAuc3VtKG5wLmxvZ2ljYWxfYW5kKHByZWRpY3RfaXNzYW1lLCBucC5sb2dpY2FsX25vdChhY3R1YWxfaXNzYW1lKSkpCiAgICB0biA9IG5wLnN1bSgKICAgICAgICBucC5sb2dpY2FsX2FuZChucC5sb2dpY2FsX25vdChwcmVkaWN0X2lzc2FtZSksCiAgICAgICAgICAgICAgICAgICAgICAgbnAubG9naWNhbF9ub3QoYWN0dWFsX2lzc2FtZSkpKQogICAgZm4gPSBucC5zdW0obnAubG9naWNhbF9hbmQobnAubG9naWNhbF9ub3QocHJlZGljdF9pc3NhbWUpLCBhY3R1YWxfaXNzYW1lKSkKCiAgICB0cHIgPSAwIGlmICh0cCArIGZuID09IDApIGVsc2UgZmxvYXQodHApIC8gZmxvYXQodHAgKyBmbikKICAgIGZwciA9IDAgaWYgKGZwICsgdG4gPT0gMCkgZWxzZSBmbG9hdChmcCkgLyBmbG9hdChmcCArIHRuKQogICAgYWNjID0gZmxvYXQodHAgKyB0bikgLyBkaXN0LnNpemUKICAgIHJldHVybiB0cHIsIGZwciwgYWNjCgoKZGVmIGNhbGN1bGF0ZV92YWwodGhyZXNob2xkcywKICAgICAgICAgICAgICAgICAgZW1iZWRkaW5nczEsCiAgICAgICAgICAgICAgICAgIGVtYmVkZGluZ3MyLAogICAgICAgICAgICAgICAgICBhY3R1YWxfaXNzYW1lLAogICAgICAgICAgICAgICAgICBmYXJfdGFyZ2V0LAogICAgICAgICAgICAgICAgICBucm9mX2ZvbGRzPTEwKToKICAgIGFzc2VydCAoZW1iZWRkaW5nczEuc2hhcGVbMF0gPT0gZW1iZWRkaW5nczIuc2hhcGVbMF0pCiAgICBhc3NlcnQgKGVtYmVkZGluZ3MxLnNoYXBlWzFdID09IGVtYmVkZGluZ3MyLnNoYXBlWzFdKQogICAgbnJvZl9wYWlycyA9IG1pbihsZW4oYWN0dWFsX2lzc2FtZSksIGVtYmVkZGluZ3MxLnNoYXBlWzBdKQogICAgbnJvZl90aHJlc2hvbGRzID0gbGVuKHRocmVzaG9sZHMpCiAgICBrX2ZvbGQgPSBMRm9sZChuX3NwbGl0cz1ucm9mX2ZvbGRzLCBzaHVmZmxlPUZhbHNlKQoKICAgIHZhbCA9IG5wLnplcm9zKG5yb2ZfZm9sZHMpCiAgICBmYXIgPSBucC56ZXJvcyhucm9mX2ZvbGRzKQoKICAgIGRpZmYgPSBucC5zdWJ0cmFjdChlbWJlZGRpbmdzMSwgZW1iZWRkaW5nczIpCiAgICBkaXN0ID0gbnAuc3VtKG5wLnNxdWFyZShkaWZmKSwgMSkKICAgIGluZGljZXMgPSBucC5hcmFuZ2UobnJvZl9wYWlycykKCiAgICBmb3IgZm9sZF9pZHgsICh0cmFpbl9zZXQsIHRlc3Rfc2V0KSBpbiBlbnVtZXJhdGUoa19mb2xkLnNwbGl0KGluZGljZXMpKToKCiAgICAgICAgIyBGaW5kIHRoZSB0aHJlc2hvbGQgdGhhdCBnaXZlcyBGQVIgPSBmYXJfdGFyZ2V0CiAgICAgICAgZmFyX3RyYWluID0gbnAuemVyb3MobnJvZl90aHJlc2hvbGRzKQogICAgICAgIGZvciB0aHJlc2hvbGRfaWR4LCB0aHJlc2hvbGQgaW4gZW51bWVyYXRlKHRocmVzaG9sZHMpOgogICAgICAgICAgICBfLCBmYXJfdHJhaW5bdGhyZXNob2xkX2lkeF0gPSBjYWxjdWxhdGVfdmFsX2ZhcigKICAgICAgICAgICAgICAgIHRocmVzaG9sZCwgZGlzdFt0cmFpbl9zZXRdLCBhY3R1YWxfaXNzYW1lW3RyYWluX3NldF0pCiAgICAgICAgaWYgbnAubWF4KGZhcl90cmFpbikgPj0gZmFyX3RhcmdldDoKICAgICAgICAgICAgZiA9IGludGVycG9sYXRlLmludGVycDFkKGZhcl90cmFpbiwgdGhyZXNob2xkcywga2luZD0nc2xpbmVhcicpCiAgICAgICAgICAgIHRocmVzaG9sZCA9IGYoZmFyX3RhcmdldCkKICAgICAgICBlbHNlOgogICAgICAgICAgICB0aHJlc2hvbGQgPSAwLjAKCiAgICAgICAgdmFsW2ZvbGRfaWR4XSwgZmFyW2ZvbGRfaWR4XSA9IGNhbGN1bGF0ZV92YWxfZmFyKAogICAgICAgICAgICB0aHJlc2hvbGQsIGRpc3RbdGVzdF9zZXRdLCBhY3R1YWxfaXNzYW1lW3Rlc3Rfc2V0XSkKCiAgICB2YWxfbWVhbiA9IG5wLm1lYW4odmFsKQogICAgZmFyX21lYW4gPSBucC5tZWFuKGZhcikKICAgIHZhbF9zdGQgPSBucC5zdGQodmFsKQogICAgcmV0dXJuIHZhbF9tZWFuLCB2YWxfc3RkLCBmYXJfbWVhbgoKCmRlZiBjYWxjdWxhdGVfdmFsX2Zhcih0aHJlc2hvbGQsIGRpc3QsIGFjdHVhbF9pc3NhbWUpOgogICAgcHJlZGljdF9pc3NhbWUgPSBucC5sZXNzKGRpc3QsIHRocmVzaG9sZCkKICAgIHRydWVfYWNjZXB0ID0gbnAuc3VtKG5wLmxvZ2ljYWxfYW5kKHByZWRpY3RfaXNzYW1lLCBhY3R1YWxfaXNzYW1lKSkKICAgIGZhbHNlX2FjY2VwdCA9IG5wLnN1bSgKICAgICAgICBucC5sb2dpY2FsX2FuZChwcmVkaWN0X2lzc2FtZSwgbnAubG9naWNhbF9ub3QoYWN0dWFsX2lzc2FtZSkpKQogICAgbl9zYW1lID0gbnAuc3VtKGFjdHVhbF9pc3NhbWUpCiAgICBuX2RpZmYgPSBucC5zdW0obnAubG9naWNhbF9ub3QoYWN0dWFsX2lzc2FtZSkpCiAgICAjIHByaW50KHRydWVfYWNjZXB0LCBmYWxzZV9hY2NlcHQpCiAgICAjIHByaW50KG5fc2FtZSwgbl9kaWZmKQogICAgdmFsID0gZmxvYXQodHJ1ZV9hY2NlcHQpIC8gZmxvYXQobl9zYW1lKQogICAgZmFyID0gZmxvYXQoZmFsc2VfYWNjZXB0KSAvIGZsb2F0KG5fZGlmZikKICAgIHJldHVybiB2YWwsIGZhcgoKCmRlZiBldmFsdWF0ZShlbWJlZGRpbmdzLCBhY3R1YWxfaXNzYW1lLCBucm9mX2ZvbGRzPTEwLCBwY2E9MCk6CiAgICAjIENhbGN1bGF0ZSBldmFsdWF0aW9uIG1ldHJpY3MKICAgIHRocmVzaG9sZHMgPSBucC5hcmFuZ2UoMCwgNCwgMC4wMSkKICAgIGVtYmVkZGluZ3MxID0gZW1iZWRkaW5nc1swOjoyXQogICAgZW1iZWRkaW5nczIgPSBlbWJlZGRpbmdzWzE6OjJdCiAgICB0cHIsIGZwciwgYWNjdXJhY3kgPSBjYWxjdWxhdGVfcm9jKHRocmVzaG9sZHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVtYmVkZGluZ3MxLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbWJlZGRpbmdzMiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbnAuYXNhcnJheShhY3R1YWxfaXNzYW1lKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbnJvZl9mb2xkcz1ucm9mX2ZvbGRzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwY2E9cGNhKQogICAgdGhyZXNob2xkcyA9IG5wLmFyYW5nZSgwLCA0LCAwLjAwMSkKICAgIHZhbCwgdmFsX3N0ZCwgZmFyID0gY2FsY3VsYXRlX3ZhbCh0aHJlc2hvbGRzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVtYmVkZGluZ3MxLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVtYmVkZGluZ3MyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5wLmFzYXJyYXkoYWN0dWFsX2lzc2FtZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMWUtMywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBucm9mX2ZvbGRzPW5yb2ZfZm9sZHMpCiAgICByZXR1cm4gdHByLCBmcHIsIGFjY3VyYWN5LCB2YWwsIHZhbF9zdGQsIGZhcgoKQHRvcmNoLm5vX2dyYWQoKQpkZWYgbG9hZF9iaW4ocGF0aCwgaW1hZ2Vfc2l6ZSk6CiAgICB0cnk6CiAgICAgICAgd2l0aCBvcGVuKHBhdGgsICdyYicpIGFzIGY6CiAgICAgICAgICAgIGJpbnMsIGlzc2FtZV9saXN0ID0gcGlja2xlLmxvYWQoZikgICMgcHkyCiAgICBleGNlcHQgVW5pY29kZURlY29kZUVycm9yIGFzIGU6CiAgICAgICAgd2l0aCBvcGVuKHBhdGgsICdyYicpIGFzIGY6CiAgICAgICAgICAgIGJpbnMsIGlzc2FtZV9saXN0ID0gcGlja2xlLmxvYWQoZiwgZW5jb2Rpbmc9J2J5dGVzJykgICMgcHkzCiAgICBkYXRhX2xpc3QgPSBbXQogICAgZm9yIGZsaXAgaW4gWzAsIDFdOgogICAgICAgIGRhdGEgPSB0b3JjaC5lbXB0eSgobGVuKGlzc2FtZV9saXN0KSAqIDIsIDMsIGltYWdlX3NpemVbMF0sIGltYWdlX3NpemVbMV0pKQogICAgICAgIGRhdGFfbGlzdC5hcHBlbmQoZGF0YSkKICAgIGZvciBpZHggaW4gcmFuZ2UobGVuKGlzc2FtZV9saXN0KSAqIDIpOgogICAgICAgIF9iaW4gPSBiaW5zW2lkeF0KICAgICAgICBpbWcgPSBteC5pbWFnZS5pbWRlY29kZShfYmluKQogICAgICAgIGlmIGltZy5zaGFwZVsxXSAhPSBpbWFnZV9zaXplWzBdOgogICAgICAgICAgICBpbWcgPSBteC5pbWFnZS5yZXNpemVfc2hvcnQoaW1nLCBpbWFnZV9zaXplWzBdKQogICAgICAgIGltZyA9IG5kLnRyYW5zcG9zZShpbWcsIGF4ZXM9KDIsIDAsIDEpKQogICAgICAgIGZvciBmbGlwIGluIFswLCAxXToKICAgICAgICAgICAgaWYgZmxpcCA9PSAxOgogICAgICAgICAgICAgICAgaW1nID0gbXgubmRhcnJheS5mbGlwKGRhdGE9aW1nLCBheGlzPTIpCiAgICAgICAgICAgIGRhdGFfbGlzdFtmbGlwXVtpZHhdWzpdID0gdG9yY2guZnJvbV9udW1weShpbWcuYXNudW1weSgpKQogICAgICAgIGlmIGlkeCAlIDEwMDAgPT0gMDoKICAgICAgICAgICAgcHJpbnQoJ2xvYWRpbmcgYmluJywgaWR4KQogICAgcHJpbnQoZGF0YV9saXN0WzBdLnNoYXBlKQogICAgcmV0dXJuIGRhdGFfbGlzdCwgaXNzYW1lX2xpc3QKCkB0b3JjaC5ub19ncmFkKCkKZGVmIHRlc3QoZGF0YV9zZXQsIGJhY2tib25lLCBiYXRjaF9zaXplLCBuZm9sZHM9MTApOgogICAgcHJpbnQoJ3Rlc3RpbmcgdmVyaWZpY2F0aW9uLi4nKQogICAgZGF0YV9saXN0ID0gZGF0YV9zZXRbMF0KICAgIGlzc2FtZV9saXN0ID0gZGF0YV9zZXRbMV0KICAgIGVtYmVkZGluZ3NfbGlzdCA9IFtdCiAgICB0aW1lX2NvbnN1bWVkID0gMC4wCiAgICBmb3IgaSBpbiByYW5nZShsZW4oZGF0YV9saXN0KSk6CiAgICAgICAgZGF0YSA9IGRhdGFfbGlzdFtpXQogICAgICAgIGVtYmVkZGluZ3MgPSBOb25lCiAgICAgICAgYmEgPSAwCiAgICAgICAgd2hpbGUgYmEgPCBkYXRhLnNoYXBlWzBdOgogICAgICAgICAgICBiYiA9IG1pbihiYSArIGJhdGNoX3NpemUsIGRhdGEuc2hhcGVbMF0pCiAgICAgICAgICAgIGNvdW50ID0gYmIgLSBiYQogICAgICAgICAgICBfZGF0YSA9IGRhdGFbYmIgLSBiYXRjaF9zaXplOiBiYl0KICAgICAgICAgICAgdGltZTAgPSBkYXRldGltZS5kYXRldGltZS5ub3coKQogICAgICAgICAgICBpbWcgPSAoKF9kYXRhIC8gMjU1KSAtIDAuNSkgLyAwLjUKICAgICAgICAgICAgbmV0X291dDogdG9yY2guVGVuc29yID0gYmFja2JvbmUoaW1nKQogICAgICAgICAgICBfZW1iZWRkaW5ncyA9IG5ldF9vdXQuZGV0YWNoKCkuY3B1KCkubnVtcHkoKQogICAgICAgICAgICB0aW1lX25vdyA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpCiAgICAgICAgICAgIGRpZmYgPSB0aW1lX25vdyAtIHRpbWUwCiAgICAgICAgICAgIHRpbWVfY29uc3VtZWQgKz0gZGlmZi50b3RhbF9zZWNvbmRzKCkKICAgICAgICAgICAgaWYgZW1iZWRkaW5ncyBpcyBOb25lOgogICAgICAgICAgICAgICAgZW1iZWRkaW5ncyA9IG5wLnplcm9zKChkYXRhLnNoYXBlWzBdLCBfZW1iZWRkaW5ncy5zaGFwZVsxXSkpCiAgICAgICAgICAgIGVtYmVkZGluZ3NbYmE6YmIsIDpdID0gX2VtYmVkZGluZ3NbKGJhdGNoX3NpemUgLSBjb3VudCk6LCA6XQogICAgICAgICAgICBiYSA9IGJiCiAgICAgICAgZW1iZWRkaW5nc19saXN0LmFwcGVuZChlbWJlZGRpbmdzKQoKICAgIF94bm9ybSA9IDAuMAogICAgX3hub3JtX2NudCA9IDAKICAgIGZvciBlbWJlZCBpbiBlbWJlZGRpbmdzX2xpc3Q6CiAgICAgICAgZm9yIGkgaW4gcmFuZ2UoZW1iZWQuc2hhcGVbMF0pOgogICAgICAgICAgICBfZW0gPSBlbWJlZFtpXQogICAgICAgICAgICBfbm9ybSA9IG5wLmxpbmFsZy5ub3JtKF9lbSkKICAgICAgICAgICAgX3hub3JtICs9IF9ub3JtCiAgICAgICAgICAgIF94bm9ybV9jbnQgKz0gMQogICAgX3hub3JtIC89IF94bm9ybV9jbnQKCiAgICBhY2MxID0gMC4wCiAgICBzdGQxID0gMC4wCiAgICBlbWJlZGRpbmdzID0gZW1iZWRkaW5nc19saXN0WzBdICsgZW1iZWRkaW5nc19saXN0WzFdCiAgICBlbWJlZGRpbmdzID0gc2tsZWFybi5wcmVwcm9jZXNzaW5nLm5vcm1hbGl6ZShlbWJlZGRpbmdzKQogICAgcHJpbnQoZW1iZWRkaW5ncy5zaGFwZSkKICAgIHByaW50KCdpbmZlciB0aW1lJywgdGltZV9jb25zdW1lZCkKICAgIF8sIF8sIGFjY3VyYWN5LCB2YWwsIHZhbF9zdGQsIGZhciA9IGV2YWx1YXRlKGVtYmVkZGluZ3MsIGlzc2FtZV9saXN0LCBucm9mX2ZvbGRzPW5mb2xkcykKICAgIGFjYzIsIHN0ZDIgPSBucC5tZWFuKGFjY3VyYWN5KSwgbnAuc3RkKGFjY3VyYWN5KQogICAgcmV0dXJuIGFjYzEsIHN0ZDEsIGFjYzIsIHN0ZDIsIF94bm9ybSwgZW1iZWRkaW5nc19saXN0CgoKZGVmIGR1bXBSKGRhdGFfc2V0LAogICAgICAgICAgYmFja2JvbmUsCiAgICAgICAgICBiYXRjaF9zaXplLAogICAgICAgICAgbmFtZT0nJywKICAgICAgICAgIGRhdGFfZXh0cmE9Tm9uZSwKICAgICAgICAgIGxhYmVsX3NoYXBlPU5vbmUpOgogICAgcHJpbnQoJ2R1bXAgdmVyaWZpY2F0aW9uIGVtYmVkZGluZy4uJykKICAgIGRhdGFfbGlzdCA9IGRhdGFfc2V0WzBdCiAgICBpc3NhbWVfbGlzdCA9IGRhdGFfc2V0WzFdCiAgICBlbWJlZGRpbmdzX2xpc3QgPSBbXQogICAgdGltZV9jb25zdW1lZCA9IDAuMAogICAgZm9yIGkgaW4gcmFuZ2UobGVuKGRhdGFfbGlzdCkpOgogICAgICAgIGRhdGEgPSBkYXRhX2xpc3RbaV0KICAgICAgICBlbWJlZGRpbmdzID0gTm9uZQogICAgICAgIGJhID0gMAogICAgICAgIHdoaWxlIGJhIDwgZGF0YS5zaGFwZVswXToKICAgICAgICAgICAgYmIgPSBtaW4oYmEgKyBiYXRjaF9zaXplLCBkYXRhLnNoYXBlWzBdKQogICAgICAgICAgICBjb3VudCA9IGJiIC0gYmEKCiAgICAgICAgICAgIF9kYXRhID0gbmQuc2xpY2VfYXhpcyhkYXRhLCBheGlzPTAsIGJlZ2luPWJiIC0gYmF0Y2hfc2l6ZSwgZW5kPWJiKQogICAgICAgICAgICB0aW1lMCA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpCiAgICAgICAgICAgIGlmIGRhdGFfZXh0cmEgaXMgTm9uZToKICAgICAgICAgICAgICAgIGRiID0gbXguaW8uRGF0YUJhdGNoKGRhdGE9KF9kYXRhLCksIGxhYmVsPShfbGFiZWwsKSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGRiID0gbXguaW8uRGF0YUJhdGNoKGRhdGE9KF9kYXRhLCBfZGF0YV9leHRyYSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJlbD0oX2xhYmVsLCkpCiAgICAgICAgICAgIG1vZGVsLmZvcndhcmQoZGIsIGlzX3RyYWluPUZhbHNlKQogICAgICAgICAgICBuZXRfb3V0ID0gbW9kZWwuZ2V0X291dHB1dHMoKQogICAgICAgICAgICBfZW1iZWRkaW5ncyA9IG5ldF9vdXRbMF0uYXNudW1weSgpCiAgICAgICAgICAgIHRpbWVfbm93ID0gZGF0ZXRpbWUuZGF0ZXRpbWUubm93KCkKICAgICAgICAgICAgZGlmZiA9IHRpbWVfbm93IC0gdGltZTAKICAgICAgICAgICAgdGltZV9jb25zdW1lZCArPSBkaWZmLnRvdGFsX3NlY29uZHMoKQogICAgICAgICAgICBpZiBlbWJlZGRpbmdzIGlzIE5vbmU6CiAgICAgICAgICAgICAgICBlbWJlZGRpbmdzID0gbnAuemVyb3MoKGRhdGEuc2hhcGVbMF0sIF9lbWJlZGRpbmdzLnNoYXBlWzFdKSkKICAgICAgICAgICAgZW1iZWRkaW5nc1tiYTpiYiwgOl0gPSBfZW1iZWRkaW5nc1soYmF0Y2hfc2l6ZSAtIGNvdW50KTosIDpdCiAgICAgICAgICAgIGJhID0gYmIKICAgICAgICBlbWJlZGRpbmdzX2xpc3QuYXBwZW5kKGVtYmVkZGluZ3MpCiAgICBlbWJlZGRpbmdzID0gZW1iZWRkaW5nc19saXN0WzBdICsgZW1iZWRkaW5nc19saXN0WzFdCiAgICBlbWJlZGRpbmdzID0gc2tsZWFybi5wcmVwcm9jZXNzaW5nLm5vcm1hbGl6ZShlbWJlZGRpbmdzKQogICAgYWN0dWFsX2lzc2FtZSA9IG5wLmFzYXJyYXkoaXNzYW1lX2xpc3QpCiAgICBvdXRuYW1lID0gb3MucGF0aC5qb2luKCd0ZW1wLmJpbicpCiAgICB3aXRoIG9wZW4ob3V0bmFtZSwgJ3diJykgYXMgZjoKICAgICAgICBwaWNrbGUuZHVtcCgoZW1iZWRkaW5ncywgaXNzYW1lX2xpc3QpLAogICAgICAgICAgICAgICAgICAgIGYsCiAgICAgICAgICAgICAgICAgICAgcHJvdG9jb2w9cGlja2xlLkhJR0hFU1RfUFJPVE9DT0wpCgoKIyBpZiBfX25hbWVfXyA9PSAnX19tYWluX18nOgojCiMgICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKGRlc2NyaXB0aW9uPSdkbyB2ZXJpZmljYXRpb24nKQojICAgICAjIGdlbmVyYWwKIyAgICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1kYXRhLWRpcicsIGRlZmF1bHQ9JycsIGhlbHA9JycpCiMgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tbW9kZWwnLAojICAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ9Jy4uL21vZGVsL3NvZnRtYXgsNTAnLAojICAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9J3BhdGggdG8gbG9hZCBtb2RlbC4nKQojICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXRhcmdldCcsCiMgICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdD0nbGZ3LGNmcF9mZixjZnBfZnAsYWdlZGJfMzAnLAojICAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9J3Rlc3QgdGFyZ2V0cy4nKQojICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWdwdScsIGRlZmF1bHQ9MCwgdHlwZT1pbnQsIGhlbHA9J2dwdSBpZCcpCiMgICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tYmF0Y2gtc2l6ZScsIGRlZmF1bHQ9MzIsIHR5cGU9aW50LCBoZWxwPScnKQojICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLW1heCcsIGRlZmF1bHQ9JycsIHR5cGU9c3RyLCBoZWxwPScnKQojICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLW1vZGUnLCBkZWZhdWx0PTAsIHR5cGU9aW50LCBoZWxwPScnKQojICAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLW5mb2xkcycsIGRlZmF1bHQ9MTAsIHR5cGU9aW50LCBoZWxwPScnKQojICAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQojICAgICBpbWFnZV9zaXplID0gWzExMiwgMTEyXQojICAgICBwcmludCgnaW1hZ2Vfc2l6ZScsIGltYWdlX3NpemUpCiMgICAgIGN0eCA9IG14LmdwdShhcmdzLmdwdSkKIyAgICAgbmV0cyA9IFtdCiMgICAgIHZlYyA9IGFyZ3MubW9kZWwuc3BsaXQoJywnKQojICAgICBwcmVmaXggPSBhcmdzLm1vZGVsLnNwbGl0KCcsJylbMF0KIyAgICAgZXBvY2hzID0gW10KIyAgICAgaWYgbGVuKHZlYykgPT0gMToKIyAgICAgICAgIHBkaXIgPSBvcy5wYXRoLmRpcm5hbWUocHJlZml4KQojICAgICAgICAgZm9yIGZuYW1lIGluIG9zLmxpc3RkaXIocGRpcik6CiMgICAgICAgICAgICAgaWYgbm90IGZuYW1lLmVuZHN3aXRoKCcucGFyYW1zJyk6CiMgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiMgICAgICAgICAgICAgX2ZpbGUgPSBvcy5wYXRoLmpvaW4ocGRpciwgZm5hbWUpCiMgICAgICAgICAgICAgaWYgX2ZpbGUuc3RhcnRzd2l0aChwcmVmaXgpOgojICAgICAgICAgICAgICAgICBlcG9jaCA9IGludChmbmFtZS5zcGxpdCgnLicpWzBdLnNwbGl0KCctJylbMV0pCiMgICAgICAgICAgICAgICAgIGVwb2Nocy5hcHBlbmQoZXBvY2gpCiMgICAgICAgICBlcG9jaHMgPSBzb3J0ZWQoZXBvY2hzLCByZXZlcnNlPVRydWUpCiMgICAgICAgICBpZiBsZW4oYXJncy5tYXgpID4gMDoKIyAgICAgICAgICAgICBfbWF4ID0gW2ludCh4KSBmb3IgeCBpbiBhcmdzLm1heC5zcGxpdCgnLCcpXQojICAgICAgICAgICAgIGFzc2VydCBsZW4oX21heCkgPT0gMgojICAgICAgICAgICAgIGlmIGxlbihlcG9jaHMpID4gX21heFsxXToKIyAgICAgICAgICAgICAgICAgZXBvY2hzID0gZXBvY2hzW19tYXhbMF06X21heFsxXV0KIwojICAgICBlbHNlOgojICAgICAgICAgZXBvY2hzID0gW2ludCh4KSBmb3IgeCBpbiB2ZWNbMV0uc3BsaXQoJ3wnKV0KIyAgICAgcHJpbnQoJ21vZGVsIG51bWJlcicsIGxlbihlcG9jaHMpKQojICAgICB0aW1lMCA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpCiMgICAgIGZvciBlcG9jaCBpbiBlcG9jaHM6CiMgICAgICAgICBwcmludCgnbG9hZGluZycsIHByZWZpeCwgZXBvY2gpCiMgICAgICAgICBzeW0sIGFyZ19wYXJhbXMsIGF1eF9wYXJhbXMgPSBteC5tb2RlbC5sb2FkX2NoZWNrcG9pbnQocHJlZml4LCBlcG9jaCkKIyAgICAgICAgICMgYXJnX3BhcmFtcywgYXV4X3BhcmFtcyA9IGNoX2RldihhcmdfcGFyYW1zLCBhdXhfcGFyYW1zLCBjdHgpCiMgICAgICAgICBhbGxfbGF5ZXJzID0gc3ltLmdldF9pbnRlcm5hbHMoKQojICAgICAgICAgc3ltID0gYWxsX2xheWVyc1snZmMxX291dHB1dCddCiMgICAgICAgICBtb2RlbCA9IG14Lm1vZC5Nb2R1bGUoc3ltYm9sPXN5bSwgY29udGV4dD1jdHgsIGxhYmVsX25hbWVzPU5vbmUpCiMgICAgICAgICAjIG1vZGVsLmJpbmQoZGF0YV9zaGFwZXM9WygnZGF0YScsIChhcmdzLmJhdGNoX3NpemUsIDMsIGltYWdlX3NpemVbMF0sIGltYWdlX3NpemVbMV0pKV0sIGxhYmVsX3NoYXBlcz1bKCdzb2Z0bWF4X2xhYmVsJywgKGFyZ3MuYmF0Y2hfc2l6ZSwpKV0pCiMgICAgICAgICBtb2RlbC5iaW5kKGRhdGFfc2hhcGVzPVsoJ2RhdGEnLCAoYXJncy5iYXRjaF9zaXplLCAzLCBpbWFnZV9zaXplWzBdLAojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlX3NpemVbMV0pKV0pCiMgICAgICAgICBtb2RlbC5zZXRfcGFyYW1zKGFyZ19wYXJhbXMsIGF1eF9wYXJhbXMpCiMgICAgICAgICBuZXRzLmFwcGVuZChtb2RlbCkKIyAgICAgdGltZV9ub3cgPSBkYXRldGltZS5kYXRldGltZS5ub3coKQojICAgICBkaWZmID0gdGltZV9ub3cgLSB0aW1lMAojICAgICBwcmludCgnbW9kZWwgbG9hZGluZyB0aW1lJywgZGlmZi50b3RhbF9zZWNvbmRzKCkpCiMKIyAgICAgdmVyX2xpc3QgPSBbXQojICAgICB2ZXJfbmFtZV9saXN0ID0gW10KIyAgICAgZm9yIG5hbWUgaW4gYXJncy50YXJnZXQuc3BsaXQoJywnKToKIyAgICAgICAgIHBhdGggPSBvcy5wYXRoLmpvaW4oYXJncy5kYXRhX2RpciwgbmFtZSArICIuYmluIikKIyAgICAgICAgIGlmIG9zLnBhdGguZXhpc3RzKHBhdGgpOgojICAgICAgICAgICAgIHByaW50KCdsb2FkaW5nLi4gJywgbmFtZSkKIyAgICAgICAgICAgICBkYXRhX3NldCA9IGxvYWRfYmluKHBhdGgsIGltYWdlX3NpemUpCiMgICAgICAgICAgICAgdmVyX2xpc3QuYXBwZW5kKGRhdGFfc2V0KQojICAgICAgICAgICAgIHZlcl9uYW1lX2xpc3QuYXBwZW5kKG5hbWUpCiMKIyAgICAgaWYgYXJncy5tb2RlID09IDA6CiMgICAgICAgICBmb3IgaSBpbiByYW5nZShsZW4odmVyX2xpc3QpKToKIyAgICAgICAgICAgICByZXN1bHRzID0gW10KIyAgICAgICAgICAgICBmb3IgbW9kZWwgaW4gbmV0czoKIyAgICAgICAgICAgICAgICAgYWNjMSwgc3RkMSwgYWNjMiwgc3RkMiwgeG5vcm0sIGVtYmVkZGluZ3NfbGlzdCA9IHRlc3QoCiMgICAgICAgICAgICAgICAgICAgICB2ZXJfbGlzdFtpXSwgbW9kZWwsIGFyZ3MuYmF0Y2hfc2l6ZSwgYXJncy5uZm9sZHMpCiMgICAgICAgICAgICAgICAgIHByaW50KCdbJXNdWE5vcm06ICVmJyAlICh2ZXJfbmFtZV9saXN0W2ldLCB4bm9ybSkpCiMgICAgICAgICAgICAgICAgIHByaW50KCdbJXNdQWNjdXJhY3k6ICUxLjVmKy0lMS41ZicgJSAodmVyX25hbWVfbGlzdFtpXSwgYWNjMSwgc3RkMSkpCiMgICAgICAgICAgICAgICAgIHByaW50KCdbJXNdQWNjdXJhY3ktRmxpcDogJTEuNWYrLSUxLjVmJyAlICh2ZXJfbmFtZV9saXN0W2ldLCBhY2MyLCBzdGQyKSkKIyAgICAgICAgICAgICAgICAgcmVzdWx0cy5hcHBlbmQoYWNjMikKIyAgICAgICAgICAgICBwcmludCgnTWF4IG9mIFslc10gaXMgJTEuNWYnICUgKHZlcl9uYW1lX2xpc3RbaV0sIG5wLm1heChyZXN1bHRzKSkpCiMgICAgIGVsaWYgYXJncy5tb2RlID09IDE6CiMgICAgICAgICByYWlzZSBWYWx1ZUVycm9yCiMgICAgIGVsc2U6CiMgICAgICAgICBtb2RlbCA9IG5ldHNbMF0KIyAgICAgICAgIGR1bXBSKHZlcl9saXN0WzBdLCBtb2RlbCwgYXJncy5iYXRjaF9zaXplLCBhcmdzLnRhcmdldCkK
+"""Helper for evaluation on the Labeled Faces in the Wild dataset 
+"""
+
+# MIT License
+#
+# Copyright (c) 2016 David Sandberg
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+
+import datetime
+import os
+import pickle
+
+import mxnet as mx
+import numpy as np
+import sklearn
+import torch
+from mxnet import ndarray as nd
+from scipy import interpolate
+from sklearn.decomposition import PCA
+from sklearn.model_selection import KFold
+
+
+class LFold:
+    def __init__(self, n_splits=2, shuffle=False):
+        self.n_splits = n_splits
+        if self.n_splits > 1:
+            self.k_fold = KFold(n_splits=n_splits, shuffle=shuffle)
+
+    def split(self, indices):
+        if self.n_splits > 1:
+            return self.k_fold.split(indices)
+        else:
+            return [(indices, indices)]
+
+
+def calculate_roc(thresholds,
+                  embeddings1,
+                  embeddings2,
+                  actual_issame,
+                  nrof_folds=10,
+                  pca=0):
+    assert (embeddings1.shape[0] == embeddings2.shape[0])
+    assert (embeddings1.shape[1] == embeddings2.shape[1])
+    nrof_pairs = min(len(actual_issame), embeddings1.shape[0])
+    nrof_thresholds = len(thresholds)
+    k_fold = LFold(n_splits=nrof_folds, shuffle=False)
+
+    tprs = np.zeros((nrof_folds, nrof_thresholds))
+    fprs = np.zeros((nrof_folds, nrof_thresholds))
+    accuracy = np.zeros((nrof_folds))
+    indices = np.arange(nrof_pairs)
+
+    if pca == 0:
+        diff = np.subtract(embeddings1, embeddings2)
+        dist = np.sum(np.square(diff), 1)
+
+    for fold_idx, (train_set, test_set) in enumerate(k_fold.split(indices)):
+        if pca > 0:
+            print('doing pca on', fold_idx)
+            embed1_train = embeddings1[train_set]
+            embed2_train = embeddings2[train_set]
+            _embed_train = np.concatenate((embed1_train, embed2_train), axis=0)
+            pca_model = PCA(n_components=pca)
+            pca_model.fit(_embed_train)
+            embed1 = pca_model.transform(embeddings1)
+            embed2 = pca_model.transform(embeddings2)
+            embed1 = sklearn.preprocessing.normalize(embed1)
+            embed2 = sklearn.preprocessing.normalize(embed2)
+            diff = np.subtract(embed1, embed2)
+            dist = np.sum(np.square(diff), 1)
+
+        # Find the best threshold for the fold
+        acc_train = np.zeros((nrof_thresholds))
+        for threshold_idx, threshold in enumerate(thresholds):
+            _, _, acc_train[threshold_idx] = calculate_accuracy(
+                threshold, dist[train_set], actual_issame[train_set])
+        best_threshold_index = np.argmax(acc_train)
+        for threshold_idx, threshold in enumerate(thresholds):
+            tprs[fold_idx, threshold_idx], fprs[fold_idx, threshold_idx], _ = calculate_accuracy(
+                threshold, dist[test_set],
+                actual_issame[test_set])
+        _, _, accuracy[fold_idx] = calculate_accuracy(
+            thresholds[best_threshold_index], dist[test_set],
+            actual_issame[test_set])
+
+    tpr = np.mean(tprs, 0)
+    fpr = np.mean(fprs, 0)
+    return tpr, fpr, accuracy
+
+
+def calculate_accuracy(threshold, dist, actual_issame):
+    predict_issame = np.less(dist, threshold)
+    tp = np.sum(np.logical_and(predict_issame, actual_issame))
+    fp = np.sum(np.logical_and(predict_issame, np.logical_not(actual_issame)))
+    tn = np.sum(
+        np.logical_and(np.logical_not(predict_issame),
+                       np.logical_not(actual_issame)))
+    fn = np.sum(np.logical_and(np.logical_not(predict_issame), actual_issame))
+
+    tpr = 0 if (tp + fn == 0) else float(tp) / float(tp + fn)
+    fpr = 0 if (fp + tn == 0) else float(fp) / float(fp + tn)
+    acc = float(tp + tn) / dist.size
+    return tpr, fpr, acc
+
+
+def calculate_val(thresholds,
+                  embeddings1,
+                  embeddings2,
+                  actual_issame,
+                  far_target,
+                  nrof_folds=10):
+    assert (embeddings1.shape[0] == embeddings2.shape[0])
+    assert (embeddings1.shape[1] == embeddings2.shape[1])
+    nrof_pairs = min(len(actual_issame), embeddings1.shape[0])
+    nrof_thresholds = len(thresholds)
+    k_fold = LFold(n_splits=nrof_folds, shuffle=False)
+
+    val = np.zeros(nrof_folds)
+    far = np.zeros(nrof_folds)
+
+    diff = np.subtract(embeddings1, embeddings2)
+    dist = np.sum(np.square(diff), 1)
+    indices = np.arange(nrof_pairs)
+
+    for fold_idx, (train_set, test_set) in enumerate(k_fold.split(indices)):
+
+        # Find the threshold that gives FAR = far_target
+        far_train = np.zeros(nrof_thresholds)
+        for threshold_idx, threshold in enumerate(thresholds):
+            _, far_train[threshold_idx] = calculate_val_far(
+                threshold, dist[train_set], actual_issame[train_set])
+        if np.max(far_train) >= far_target:
+            f = interpolate.interp1d(far_train, thresholds, kind='slinear')
+            threshold = f(far_target)
+        else:
+            threshold = 0.0
+
+        val[fold_idx], far[fold_idx] = calculate_val_far(
+            threshold, dist[test_set], actual_issame[test_set])
+
+    val_mean = np.mean(val)
+    far_mean = np.mean(far)
+    val_std = np.std(val)
+    return val_mean, val_std, far_mean
+
+
+def calculate_val_far(threshold, dist, actual_issame):
+    predict_issame = np.less(dist, threshold)
+    true_accept = np.sum(np.logical_and(predict_issame, actual_issame))
+    false_accept = np.sum(
+        np.logical_and(predict_issame, np.logical_not(actual_issame)))
+    n_same = np.sum(actual_issame)
+    n_diff = np.sum(np.logical_not(actual_issame))
+    # print(true_accept, false_accept)
+    # print(n_same, n_diff)
+    val = float(true_accept) / float(n_same)
+    far = float(false_accept) / float(n_diff)
+    return val, far
+
+
+def evaluate(embeddings, actual_issame, nrof_folds=10, pca=0):
+    # Calculate evaluation metrics
+    thresholds = np.arange(0, 4, 0.01)
+    embeddings1 = embeddings[0::2]
+    embeddings2 = embeddings[1::2]
+    tpr, fpr, accuracy = calculate_roc(thresholds,
+                                       embeddings1,
+                                       embeddings2,
+                                       np.asarray(actual_issame),
+                                       nrof_folds=nrof_folds,
+                                       pca=pca)
+    thresholds = np.arange(0, 4, 0.001)
+    val, val_std, far = calculate_val(thresholds,
+                                      embeddings1,
+                                      embeddings2,
+                                      np.asarray(actual_issame),
+                                      1e-3,
+                                      nrof_folds=nrof_folds)
+    return tpr, fpr, accuracy, val, val_std, far
+
+@torch.no_grad()
+def load_bin(path, image_size):
+    try:
+        with open(path, 'rb') as f:
+            bins, issame_list = pickle.load(f)  # py2
+    except UnicodeDecodeError as e:
+        with open(path, 'rb') as f:
+            bins, issame_list = pickle.load(f, encoding='bytes')  # py3
+    data_list = []
+    for flip in [0, 1]:
+        data = torch.empty((len(issame_list) * 2, 3, image_size[0], image_size[1]))
+        data_list.append(data)
+    for idx in range(len(issame_list) * 2):
+        _bin = bins[idx]
+        img = mx.image.imdecode(_bin)
+        if img.shape[1] != image_size[0]:
+            img = mx.image.resize_short(img, image_size[0])
+        img = nd.transpose(img, axes=(2, 0, 1))
+        for flip in [0, 1]:
+            if flip == 1:
+                img = mx.ndarray.flip(data=img, axis=2)
+            data_list[flip][idx][:] = torch.from_numpy(img.asnumpy())
+        if idx % 1000 == 0:
+            print('loading bin', idx)
+    print(data_list[0].shape)
+    return data_list, issame_list
+
+@torch.no_grad()
+def test(data_set, backbone, batch_size, nfolds=10):
+    print('testing verification..')
+    data_list = data_set[0]
+    issame_list = data_set[1]
+    embeddings_list = []
+    time_consumed = 0.0
+    for i in range(len(data_list)):
+        data = data_list[i]
+        embeddings = None
+        ba = 0
+        while ba < data.shape[0]:
+            bb = min(ba + batch_size, data.shape[0])
+            count = bb - ba
+            _data = data[bb - batch_size: bb]
+            time0 = datetime.datetime.now()
+            img = ((_data / 255) - 0.5) / 0.5
+            net_out: torch.Tensor = backbone(img)
+            _embeddings = net_out.detach().cpu().numpy()
+            time_now = datetime.datetime.now()
+            diff = time_now - time0
+            time_consumed += diff.total_seconds()
+            if embeddings is None:
+                embeddings = np.zeros((data.shape[0], _embeddings.shape[1]))
+            embeddings[ba:bb, :] = _embeddings[(batch_size - count):, :]
+            ba = bb
+        embeddings_list.append(embeddings)
+
+    _xnorm = 0.0
+    _xnorm_cnt = 0
+    for embed in embeddings_list:
+        for i in range(embed.shape[0]):
+            _em = embed[i]
+            _norm = np.linalg.norm(_em)
+            _xnorm += _norm
+            _xnorm_cnt += 1
+    _xnorm /= _xnorm_cnt
+
+    acc1 = 0.0
+    std1 = 0.0
+    embeddings = embeddings_list[0] + embeddings_list[1]
+    embeddings = sklearn.preprocessing.normalize(embeddings)
+    print(embeddings.shape)
+    print('infer time', time_consumed)
+    _, _, accuracy, val, val_std, far = evaluate(embeddings, issame_list, nrof_folds=nfolds)
+    acc2, std2 = np.mean(accuracy), np.std(accuracy)
+    return acc1, std1, acc2, std2, _xnorm, embeddings_list
+
+
+def dumpR(data_set,
+          backbone,
+          batch_size,
+          name='',
+          data_extra=None,
+          label_shape=None):
+    print('dump verification embedding..')
+    data_list = data_set[0]
+    issame_list = data_set[1]
+    embeddings_list = []
+    time_consumed = 0.0
+    for i in range(len(data_list)):
+        data = data_list[i]
+        embeddings = None
+        ba = 0
+        while ba < data.shape[0]:
+            bb = min(ba + batch_size, data.shape[0])
+            count = bb - ba
+
+            _data = nd.slice_axis(data, axis=0, begin=bb - batch_size, end=bb)
+            time0 = datetime.datetime.now()
+            if data_extra is None:
+                db = mx.io.DataBatch(data=(_data,), label=(_label,))
+            else:
+                db = mx.io.DataBatch(data=(_data, _data_extra),
+                                     label=(_label,))
+            model.forward(db, is_train=False)
+            net_out = model.get_outputs()
+            _embeddings = net_out[0].asnumpy()
+            time_now = datetime.datetime.now()
+            diff = time_now - time0
+            time_consumed += diff.total_seconds()
+            if embeddings is None:
+                embeddings = np.zeros((data.shape[0], _embeddings.shape[1]))
+            embeddings[ba:bb, :] = _embeddings[(batch_size - count):, :]
+            ba = bb
+        embeddings_list.append(embeddings)
+    embeddings = embeddings_list[0] + embeddings_list[1]
+    embeddings = sklearn.preprocessing.normalize(embeddings)
+    actual_issame = np.asarray(issame_list)
+    outname = os.path.join('temp.bin')
+    with open(outname, 'wb') as f:
+        pickle.dump((embeddings, issame_list),
+                    f,
+                    protocol=pickle.HIGHEST_PROTOCOL)
+
+
+# if __name__ == '__main__':
+#
+#     parser = argparse.ArgumentParser(description='do verification')
+#     # general
+#     parser.add_argument('--data-dir', default='', help='')
+#     parser.add_argument('--model',
+#                         default='../model/softmax,50',
+#                         help='path to load model.')
+#     parser.add_argument('--target',
+#                         default='lfw,cfp_ff,cfp_fp,agedb_30',
+#                         help='test targets.')
+#     parser.add_argument('--gpu', default=0, type=int, help='gpu id')
+#     parser.add_argument('--batch-size', default=32, type=int, help='')
+#     parser.add_argument('--max', default='', type=str, help='')
+#     parser.add_argument('--mode', default=0, type=int, help='')
+#     parser.add_argument('--nfolds', default=10, type=int, help='')
+#     args = parser.parse_args()
+#     image_size = [112, 112]
+#     print('image_size', image_size)
+#     ctx = mx.gpu(args.gpu)
+#     nets = []
+#     vec = args.model.split(',')
+#     prefix = args.model.split(',')[0]
+#     epochs = []
+#     if len(vec) == 1:
+#         pdir = os.path.dirname(prefix)
+#         for fname in os.listdir(pdir):
+#             if not fname.endswith('.params'):
+#                 continue
+#             _file = os.path.join(pdir, fname)
+#             if _file.startswith(prefix):
+#                 epoch = int(fname.split('.')[0].split('-')[1])
+#                 epochs.append(epoch)
+#         epochs = sorted(epochs, reverse=True)
+#         if len(args.max) > 0:
+#             _max = [int(x) for x in args.max.split(',')]
+#             assert len(_max) == 2
+#             if len(epochs) > _max[1]:
+#                 epochs = epochs[_max[0]:_max[1]]
+#
+#     else:
+#         epochs = [int(x) for x in vec[1].split('|')]
+#     print('model number', len(epochs))
+#     time0 = datetime.datetime.now()
+#     for epoch in epochs:
+#         print('loading', prefix, epoch)
+#         sym, arg_params, aux_params = mx.model.load_checkpoint(prefix, epoch)
+#         # arg_params, aux_params = ch_dev(arg_params, aux_params, ctx)
+#         all_layers = sym.get_internals()
+#         sym = all_layers['fc1_output']
+#         model = mx.mod.Module(symbol=sym, context=ctx, label_names=None)
+#         # model.bind(data_shapes=[('data', (args.batch_size, 3, image_size[0], image_size[1]))], label_shapes=[('softmax_label', (args.batch_size,))])
+#         model.bind(data_shapes=[('data', (args.batch_size, 3, image_size[0],
+#                                           image_size[1]))])
+#         model.set_params(arg_params, aux_params)
+#         nets.append(model)
+#     time_now = datetime.datetime.now()
+#     diff = time_now - time0
+#     print('model loading time', diff.total_seconds())
+#
+#     ver_list = []
+#     ver_name_list = []
+#     for name in args.target.split(','):
+#         path = os.path.join(args.data_dir, name + ".bin")
+#         if os.path.exists(path):
+#             print('loading.. ', name)
+#             data_set = load_bin(path, image_size)
+#             ver_list.append(data_set)
+#             ver_name_list.append(name)
+#
+#     if args.mode == 0:
+#         for i in range(len(ver_list)):
+#             results = []
+#             for model in nets:
+#                 acc1, std1, acc2, std2, xnorm, embeddings_list = test(
+#                     ver_list[i], model, args.batch_size, args.nfolds)
+#                 print('[%s]XNorm: %f' % (ver_name_list[i], xnorm))
+#                 print('[%s]Accuracy: %1.5f+-%1.5f' % (ver_name_list[i], acc1, std1))
+#                 print('[%s]Accuracy-Flip: %1.5f+-%1.5f' % (ver_name_list[i], acc2, std2))
+#                 results.append(acc2)
+#             print('Max of [%s] is %1.5f' % (ver_name_list[i], np.max(results)))
+#     elif args.mode == 1:
+#         raise ValueError
+#     else:
+#         model = nets[0]
+#         dumpR(ver_list[0], model, args.batch_size, args.target)

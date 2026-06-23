@@ -1,1 +1,44 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi5L+u5aSNIGxsbV9jbGFzcyDmnKrlrprkuYkgKyDorqnnlYzpnaIiUXdlbiLpgInpobnkvb/nlKggUXdlblJBR+OAguW5guetieOAgiIiIgppbXBvcnQgc2h1dGlsLCBzeXMKCldFQlVJID0gIi9yb290L0xpbmx5LVRhbGtlci93ZWJ1aS5weSIKc3JjID0gb3BlbihXRUJVSSwgZW5jb2Rpbmc9InV0Zi04IikucmVhZCgpCgojIC0tLSDnvJbovpEx77ya5ZyoIFF3ZW5SQUcg5Yid5aeL5YyW5ZCO6KGl5ZueIGxsbV9jbGFzc++8iOS+m+eVjOmdouWIh+aNouWFtuWug0xMTe+8iSAtLS0KQU5DSE9SID0gJycnICAgIGxsbSA9IFF3ZW5SQUcobW9kZWw9J3F3ZW4tcGx1cycsIHRvcF9rPTMpCiAgICBzdWNjZXNzX3ByaW50KCLlt7LlkK/nlKggUXdlblJBR++8mumAmuS5ieWNg+mXriBxd2VuLXBsdXMgKyDljLvnlpfnn6Xor4blupMoc2NvcmU9NSkgUkFH5qOA57SiIiknJycKQUREID0gQU5DSE9SICsgJycnCiAgICBsbG1fY2xhc3MgPSBMTE0obW9kZT0nb2ZmbGluZScpICAjIOeVjOmdouWIh+aNouWFtuWug0xMTeaXtueUqCcnJwoKIyAtLS0g57yW6L6RMu+8mueVjOmdoiJRd2VuIumAiemhuSDihpIgUXdlblJBR++8iOWNg+mXrkFQSSvnn6Xor4blupPvvIkgLS0tCk9MRF9RV0VOID0gJycnICAgICAgICBlbGlmIG1vZGVsX25hbWUgPT0gJ1F3ZW4nOgogICAgICAgICAgICBsbG0gPSBsbG1fY2xhc3MuaW5pdF9tb2RlbCgnUXdlbicsICdRd2VuL1F3ZW4tMV84Qi1DaGF0JywgcHJlZml4X3Byb21wdD1QUkVGSVhfUFJPTVBUKQogICAgICAgICAgICBnci5JbmZvKCJRd2Vu5qih5Z6L5a+85YWl5oiQ5YqfIiknJycKTkVXX1FXRU4gPSAnJycgICAgICAgIGVsaWYgbW9kZWxfbmFtZSA9PSAnUXdlbic6CiAgICAgICAgICAgIGZyb20gTExNLlF3ZW5SQUcgaW1wb3J0IFF3ZW5SQUcKICAgICAgICAgICAgbGxtID0gUXdlblJBRyhtb2RlbD0ncXdlbi1wbHVzJywgdG9wX2s9MykKICAgICAgICAgICAgZ3IuSW5mbygi6YCa5LmJ5Y2D6ZeuIHF3ZW4tcGx1cyArIOWMu+eWl+efpeivhuW6k1JBRyDlt7LlkK/nlKgiKScnJwoKY2hhbmdlZCA9IEZhbHNlCmlmICJsbG1fY2xhc3MgPSBMTE0obW9kZT0nb2ZmbGluZScpICAjIOeVjOmdouWIh+aNouWFtuWug0xMTeaXtueUqCIgbm90IGluIHNyYzoKICAgIGlmIEFOQ0hPUiBub3QgaW4gc3JjOgogICAgICAgIHByaW50KCIhISDmnKrmib7liLAgUXdlblJBRyDliJ3lp4vljJbplJrngrnvvIzor7fmo4Dmn6Ugd2VidWkucHkiKQogICAgICAgIHN5cy5leGl0KDEpCiAgICBzcmMgPSBzcmMucmVwbGFjZShBTkNIT1IsIEFERCkKICAgIGNoYW5nZWQgPSBUcnVlCgppZiBORVdfUVdFTiBub3QgaW4gc3JjOgogICAgaWYgT0xEX1FXRU4gbm90IGluIHNyYzoKICAgICAgICBwcmludCgiISEg5pyq5om+5YiwIFF3ZW4g5YiG5pSv77yM6K+35qOA5p+lIGxsbV9tb2RlbF9jaGFuZ2UiKQogICAgICAgIHN5cy5leGl0KDEpCiAgICBzcmMgPSBzcmMucmVwbGFjZShPTERfUVdFTiwgTkVXX1FXRU4pCiAgICBjaGFuZ2VkID0gVHJ1ZQoKaWYgbm90IGNoYW5nZWQ6CiAgICBwcmludCgi5bey5piv5pyA5paw77yM5peg6ZyA5L+u5pS5IikKICAgIHN5cy5leGl0KDApCgpzaHV0aWwuY29weShXRUJVSSwgV0VCVUkgKyAiLmJhazIiKQpvcGVuKFdFQlVJLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpLndyaXRlKHNyYykKcHJpbnQoInBhdGNoMiDlrozmiJDvvIzlt7LlpIfku70gd2VidWkucHkuYmFrMiIpCg==
+# -*- coding: utf-8 -*-
+"""修复 llm_class 未定义 + 让界面"Qwen"选项使用 QwenRAG。幂等。"""
+import shutil, sys
+
+WEBUI = "/root/Linly-Talker/webui.py"
+src = open(WEBUI, encoding="utf-8").read()
+
+# --- 编辑1：在 QwenRAG 初始化后补回 llm_class（供界面切换其它LLM） ---
+ANCHOR = '''    llm = QwenRAG(model='qwen-plus', top_k=3)
+    success_print("已启用 QwenRAG：通义千问 qwen-plus + 医疗知识库(score=5) RAG检索")'''
+ADD = ANCHOR + '''
+    llm_class = LLM(mode='offline')  # 界面切换其它LLM时用'''
+
+# --- 编辑2：界面"Qwen"选项 → QwenRAG（千问API+知识库） ---
+OLD_QWEN = '''        elif model_name == 'Qwen':
+            llm = llm_class.init_model('Qwen', 'Qwen/Qwen-1_8B-Chat', prefix_prompt=PREFIX_PROMPT)
+            gr.Info("Qwen模型导入成功")'''
+NEW_QWEN = '''        elif model_name == 'Qwen':
+            from LLM.QwenRAG import QwenRAG
+            llm = QwenRAG(model='qwen-plus', top_k=3)
+            gr.Info("通义千问 qwen-plus + 医疗知识库RAG 已启用")'''
+
+changed = False
+if "llm_class = LLM(mode='offline')  # 界面切换其它LLM时用" not in src:
+    if ANCHOR not in src:
+        print("!! 未找到 QwenRAG 初始化锚点，请检查 webui.py")
+        sys.exit(1)
+    src = src.replace(ANCHOR, ADD)
+    changed = True
+
+if NEW_QWEN not in src:
+    if OLD_QWEN not in src:
+        print("!! 未找到 Qwen 分支，请检查 llm_model_change")
+        sys.exit(1)
+    src = src.replace(OLD_QWEN, NEW_QWEN)
+    changed = True
+
+if not changed:
+    print("已是最新，无需修改")
+    sys.exit(0)
+
+shutil.copy(WEBUI, WEBUI + ".bak2")
+open(WEBUI, "w", encoding="utf-8").write(src)
+print("patch2 完成，已备份 webui.py.bak2")

@@ -1,1 +1,211 @@
-aW1wb3J0IGNvbGxlY3Rpb25zCmltcG9ydCBmdW5jdG9vbHMKaW1wb3J0IG9zCmltcG9ydCByZQoKaW1wb3J0IHlhbWwKCmNsYXNzIEF0dHJEaWN0KGRpY3QpOgogICAgIiIiRGljdCBhcyBhdHRyaWJ1dGUgdHJpY2suIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsICphcmdzLCAqKmt3YXJncyk6CiAgICAgICAgc3VwZXIoQXR0ckRpY3QsIHNlbGYpLl9faW5pdF9fKCphcmdzLCAqKmt3YXJncykKICAgICAgICBzZWxmLl9fZGljdF9fID0gc2VsZgogICAgICAgIGZvciBrZXksIHZhbHVlIGluIHNlbGYuX19kaWN0X18uaXRlbXMoKToKICAgICAgICAgICAgaWYgaXNpbnN0YW5jZSh2YWx1ZSwgZGljdCk6CiAgICAgICAgICAgICAgICBzZWxmLl9fZGljdF9fW2tleV0gPSBBdHRyRGljdCh2YWx1ZSkKICAgICAgICAgICAgZWxpZiBpc2luc3RhbmNlKHZhbHVlLCAobGlzdCwgdHVwbGUpKToKICAgICAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UodmFsdWVbMF0sIGRpY3QpOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX19kaWN0X19ba2V5XSA9IFtBdHRyRGljdChpdGVtKSBmb3IgaXRlbSBpbiB2YWx1ZV0KICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fX2RpY3RfX1trZXldID0gdmFsdWUKCiAgICBkZWYgeWFtbChzZWxmKToKICAgICAgICAiIiJDb252ZXJ0IG9iamVjdCB0byB5YW1sIGRpY3QgYW5kIHJldHVybi4iIiIKICAgICAgICB5YW1sX2RpY3QgPSB7fQogICAgICAgIGZvciBrZXksIHZhbHVlIGluIHNlbGYuX19kaWN0X18uaXRlbXMoKToKICAgICAgICAgICAgaWYgaXNpbnN0YW5jZSh2YWx1ZSwgQXR0ckRpY3QpOgogICAgICAgICAgICAgICAgeWFtbF9kaWN0W2tleV0gPSB2YWx1ZS55YW1sKCkKICAgICAgICAgICAgZWxpZiBpc2luc3RhbmNlKHZhbHVlLCBsaXN0KToKICAgICAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UodmFsdWVbMF0sIEF0dHJEaWN0KToKICAgICAgICAgICAgICAgICAgICBuZXdfbCA9IFtdCiAgICAgICAgICAgICAgICAgICAgZm9yIGl0ZW0gaW4gdmFsdWU6CiAgICAgICAgICAgICAgICAgICAgICAgIG5ld19sLmFwcGVuZChpdGVtLnlhbWwoKSkKICAgICAgICAgICAgICAgICAgICB5YW1sX2RpY3Rba2V5XSA9IG5ld19sCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIHlhbWxfZGljdFtrZXldID0gdmFsdWUKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHlhbWxfZGljdFtrZXldID0gdmFsdWUKICAgICAgICByZXR1cm4geWFtbF9kaWN0CgogICAgZGVmIF9fcmVwcl9fKHNlbGYpOgogICAgICAgICIiIlByaW50IGFsbCB2YXJpYWJsZXMuIiIiCiAgICAgICAgcmV0X3N0ciA9IFtdCiAgICAgICAgZm9yIGtleSwgdmFsdWUgaW4gc2VsZi5fX2RpY3RfXy5pdGVtcygpOgogICAgICAgICAgICBpZiBpc2luc3RhbmNlKHZhbHVlLCBBdHRyRGljdCk6CiAgICAgICAgICAgICAgICByZXRfc3RyLmFwcGVuZCgne306Jy5mb3JtYXQoa2V5KSkKICAgICAgICAgICAgICAgIGNoaWxkX3JldF9zdHIgPSB2YWx1ZS5fX3JlcHJfXygpLnNwbGl0KCdcbicpCiAgICAgICAgICAgICAgICBmb3IgaXRlbSBpbiBjaGlsZF9yZXRfc3RyOgogICAgICAgICAgICAgICAgICAgIHJldF9zdHIuYXBwZW5kKCcgICAgJyArIGl0ZW0pCiAgICAgICAgICAgIGVsaWYgaXNpbnN0YW5jZSh2YWx1ZSwgbGlzdCk6CiAgICAgICAgICAgICAgICBpZiBpc2luc3RhbmNlKHZhbHVlWzBdLCBBdHRyRGljdCk6CiAgICAgICAgICAgICAgICAgICAgcmV0X3N0ci5hcHBlbmQoJ3t9OicuZm9ybWF0KGtleSkpCiAgICAgICAgICAgICAgICAgICAgZm9yIGl0ZW0gaW4gdmFsdWU6CiAgICAgICAgICAgICAgICAgICAgICAgICMgVHJlYXQgYXMgQXR0ckRpY3QgYWJvdmUuCiAgICAgICAgICAgICAgICAgICAgICAgIGNoaWxkX3JldF9zdHIgPSBpdGVtLl9fcmVwcl9fKCkuc3BsaXQoJ1xuJykKICAgICAgICAgICAgICAgICAgICAgICAgZm9yIGl0ZW0gaW4gY2hpbGRfcmV0X3N0cjoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldF9zdHIuYXBwZW5kKCcgICAgJyArIGl0ZW0pCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIHJldF9zdHIuYXBwZW5kKCd7fToge30nLmZvcm1hdChrZXksIHZhbHVlKSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHJldF9zdHIuYXBwZW5kKCd7fToge30nLmZvcm1hdChrZXksIHZhbHVlKSkKICAgICAgICByZXR1cm4gJ1xuJy5qb2luKHJldF9zdHIpCgoKY2xhc3MgQ29uZmlnKEF0dHJEaWN0KToKICAgIHIiIiJDb25maWd1cmF0aW9uIGNsYXNzLiBUaGlzIHNob3VsZCBpbmNsdWRlIGV2ZXJ5IGh1bWFuIHNwZWNpZmlhYmxlCiAgICBoeXBlcnBhcmFtZXRlciB2YWx1ZXMgZm9yIHlvdXIgdHJhaW5pbmcuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGZpbGVuYW1lPU5vbmUsIGFyZ3M9Tm9uZSwgdmVyYm9zZT1GYWxzZSwgaXNfdHJhaW49VHJ1ZSk6CiAgICAgICAgc3VwZXIoQ29uZmlnLCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgIyBTZXQgZGVmYXVsdCBwYXJhbWV0ZXJzLgogICAgICAgICMgTG9nZ2luZy4KCiAgICAgICAgbGFyZ2VfbnVtYmVyID0gMTAwMDAwMDAwMAogICAgICAgIHNlbGYuc25hcHNob3Rfc2F2ZV9pdGVyID0gbGFyZ2VfbnVtYmVyCiAgICAgICAgc2VsZi5zbmFwc2hvdF9zYXZlX2Vwb2NoID0gbGFyZ2VfbnVtYmVyCiAgICAgICAgc2VsZi5zbmFwc2hvdF9zYXZlX3N0YXJ0X2l0ZXIgPSAwCiAgICAgICAgc2VsZi5zbmFwc2hvdF9zYXZlX3N0YXJ0X2Vwb2NoID0gMAogICAgICAgIHNlbGYuaW1hZ2Vfc2F2ZV9pdGVyID0gbGFyZ2VfbnVtYmVyCiAgICAgICAgc2VsZi5ldmFsX2Vwb2NoID0gbGFyZ2VfbnVtYmVyCiAgICAgICAgc2VsZi5zdGFydF9ldmFsX2Vwb2NoID0gbGFyZ2VfbnVtYmVyCiAgICAgICAgc2VsZi5ldmFsX2Vwb2NoID0gbGFyZ2VfbnVtYmVyCiAgICAgICAgc2VsZi5tYXhfZXBvY2ggPSBsYXJnZV9udW1iZXIKICAgICAgICBzZWxmLm1heF9pdGVyID0gbGFyZ2VfbnVtYmVyCiAgICAgICAgc2VsZi5sb2dnaW5nX2l0ZXIgPSAxMDAKICAgICAgICBzZWxmLmltYWdlX3RvX3RlbnNvcmJvYXJkPUZhbHNlCiAgICAgICAgc2VsZi53aGljaF9pdGVyID0gMCAjIGFyZ3Mud2hpY2hfaXRlcgogICAgICAgIHNlbGYucmVzdW1lID0gRmFsc2UKCiAgICAgICAgc2VsZi5jaGVja3BvaW50c19kaXIgPSAnL1VzZXJzL3NoYWRvd2N1bi9Eb3dubG9hZHMvJwogICAgICAgIHNlbGYubmFtZSA9ICdmYWNlJwogICAgICAgIHNlbGYucGhhc2UgPSAndHJhaW4nIGlmIGlzX3RyYWluIGVsc2UgJ3Rlc3QnCgogICAgICAgICMgTmV0d29ya3MuCiAgICAgICAgc2VsZi5nZW4gPSBBdHRyRGljdCh0eXBlPSdnZW5lcmF0b3JzLmR1bW15JykKICAgICAgICBzZWxmLmRpcyA9IEF0dHJEaWN0KHR5cGU9J2Rpc2NyaW1pbmF0b3JzLmR1bW15JykKCiAgICAgICAgIyBPcHRpbWl6ZXJzLgogICAgICAgIHNlbGYuZ2VuX29wdGltaXplciA9IEF0dHJEaWN0KHR5cGU9J2FkYW0nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBscj0wLjAwMDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFkYW1fYmV0YTE9MC4wLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhZGFtX2JldGEyPTAuOTk5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlcHM9MWUtOCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbHJfcG9saWN5PUF0dHJEaWN0KGl0ZXJhdGlvbl9tb2RlPUZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0nc3RlcCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGVwX3NpemU9bGFyZ2VfbnVtYmVyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZ2FtbWE9MSkpCiAgICAgICAgc2VsZi5kaXNfb3B0aW1pemVyID0gQXR0ckRpY3QodHlwZT0nYWRhbScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbHI9MC4wMDAxLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFkYW1fYmV0YTE9MC4wLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFkYW1fYmV0YTI9MC45OTksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXBzPTFlLTgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbHJfcG9saWN5PUF0dHJEaWN0KGl0ZXJhdGlvbl9tb2RlPUZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSdzdGVwJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RlcF9zaXplPWxhcmdlX251bWJlciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZ2FtbWE9MSkpCiAgICAgICAgIyBEYXRhLgogICAgICAgIHNlbGYuZGF0YSA9IEF0dHJEaWN0KG5hbWU9J2R1bW15JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSdkYXRhc2V0cy5pbWFnZXMnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIG51bV93b3JrZXJzPTApCiAgICAgICAgc2VsZi50ZXN0X2RhdGEgPSBBdHRyRGljdChuYW1lPSdkdW1teScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSdkYXRhc2V0cy5pbWFnZXMnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbnVtX3dvcmtlcnM9MCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRlc3Q9QXR0ckRpY3QoaXNfbG1kYj1GYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcm9vdHM9JycsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhdGNoX3NpemU9MSkpCiAgICAgICAgc2VsZi50cmFpbmVyID0gQXR0ckRpY3QoCiAgICAgICAgICAgIG1vZGVsX2F2ZXJhZ2U9RmFsc2UsCiAgICAgICAgICAgIG1vZGVsX2F2ZXJhZ2VfYmV0YT0wLjk5OTksCiAgICAgICAgICAgIG1vZGVsX2F2ZXJhZ2Vfc3RhcnRfaXRlcmF0aW9uPTEwMDAsCiAgICAgICAgICAgIG1vZGVsX2F2ZXJhZ2VfYmF0Y2hfbm9ybV9lc3RpbWF0aW9uX2l0ZXJhdGlvbj0zMCwKICAgICAgICAgICAgbW9kZWxfYXZlcmFnZV9yZW1vdmVfc249VHJ1ZSwKICAgICAgICAgICAgaW1hZ2VfdG9fdGVuc29yYm9hcmQ9RmFsc2UsCiAgICAgICAgICAgIGhwYXJhbV90b190ZW5zb3Jib2FyZD1GYWxzZSwKICAgICAgICAgICAgZGlzdHJpYnV0ZWRfZGF0YV9wYXJhbGxlbD0ncHl0b3JjaCcsCiAgICAgICAgICAgIGRlbGF5X2FsbHJlZHVjZT1UcnVlLAogICAgICAgICAgICBnYW5fcmVsYXRpdmlzdGljPUZhbHNlLAogICAgICAgICAgICBnZW5fc3RlcD0xLAogICAgICAgICAgICBkaXNfc3RlcD0xKQoKICAgICAgICAjICMgQ3Vkbm4uCiAgICAgICAgc2VsZi5jdWRubiA9IEF0dHJEaWN0KGRldGVybWluaXN0aWM9RmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJlbmNobWFyaz1UcnVlKQoKICAgICAgICAjIE90aGVycy4KICAgICAgICBzZWxmLnByZXRyYWluZWRfd2VpZ2h0ID0gJycKICAgICAgICBzZWxmLmluZmVyZW5jZV9hcmdzID0gQXR0ckRpY3QoKQoKCiAgICAgICAgIyBVcGRhdGUgd2l0aCBnaXZlbiBjb25maWd1cmF0aW9ucy4KICAgICAgICBhc3NlcnQgb3MucGF0aC5leGlzdHMoZmlsZW5hbWUpLCAnRmlsZSB7fSBub3QgZXhpc3QuJy5mb3JtYXQoZmlsZW5hbWUpCiAgICAgICAgbG9hZGVyID0geWFtbC5TYWZlTG9hZGVyCiAgICAgICAgbG9hZGVyLmFkZF9pbXBsaWNpdF9yZXNvbHZlcigKICAgICAgICAgICAgdSd0YWc6eWFtbC5vcmcsMjAwMjpmbG9hdCcsCiAgICAgICAgICAgIHJlLmNvbXBpbGUodScnJ14oPzoKICAgICAgICAgICAgIFstK10/KD86WzAtOV1bMC05X10qKVxcLlswLTlfXSooPzpbZUVdWy0rXT9bMC05XSspPwogICAgICAgICAgICB8Wy0rXT8oPzpbMC05XVswLTlfXSopKD86W2VFXVstK10/WzAtOV0rKQogICAgICAgICAgICB8XFwuWzAtOV9dKyg/OltlRV1bLStdWzAtOV0rKT8KICAgICAgICAgICAgfFstK10/WzAtOV1bMC05X10qKD86OlswLTVdP1swLTldKStcXC5bMC05X10qCiAgICAgICAgICAgIHxbLStdP1xcLig/OmluZnxJbmZ8SU5GKQogICAgICAgICAgICB8XFwuKD86bmFufE5hTnxOQU4pKSQnJycsIHJlLlgpLAogICAgICAgICAgICBsaXN0KHUnLSswMTIzNDU2Nzg5LicpKQogICAgICAgIHRyeToKICAgICAgICAgICAgd2l0aCBvcGVuKGZpbGVuYW1lLCAncicpIGFzIGY6CiAgICAgICAgICAgICAgICBjZmdfZGljdCA9IHlhbWwubG9hZChmLCBMb2FkZXI9bG9hZGVyKQogICAgICAgIGV4Y2VwdCBFbnZpcm9ubWVudEVycm9yOgogICAgICAgICAgICBwcmludCgnUGxlYXNlIGNoZWNrIHRoZSBmaWxlIHdpdGggbmFtZSBvZiAiJXMiJywgZmlsZW5hbWUpCiAgICAgICAgcmVjdXJzaXZlX3VwZGF0ZShzZWxmLCBjZmdfZGljdCkKCiAgICAgICAgIyBQdXQgY29tbW9uIG9wdHMgaW4gYm90aCBnZW4gYW5kIGRpcy4KICAgICAgICBpZiAnY29tbW9uJyBpbiBjZmdfZGljdDoKICAgICAgICAgICAgc2VsZi5jb21tb24gPSBBdHRyRGljdCgqKmNmZ19kaWN0Wydjb21tb24nXSkKICAgICAgICAgICAgc2VsZi5nZW4uY29tbW9uID0gc2VsZi5jb21tb24KICAgICAgICAgICAgc2VsZi5kaXMuY29tbW9uID0gc2VsZi5jb21tb24KCgogICAgICAgIGlmIHZlcmJvc2U6CiAgICAgICAgICAgIHByaW50KCcgY29uZmlnICcuY2VudGVyKDgwLCAnLScpKQogICAgICAgICAgICBwcmludChzZWxmLl9fcmVwcl9fKCkpCiAgICAgICAgICAgIHByaW50KCcnLmNlbnRlcig4MCwgJy0nKSkKCgpkZWYgcnNldGF0dHIob2JqLCBhdHRyLCB2YWwpOgogICAgIiIiUmVjdXJzaXZlbHkgZmluZCBvYmplY3QgYW5kIHNldCB2YWx1ZSIiIgogICAgcHJlLCBfLCBwb3N0ID0gYXR0ci5ycGFydGl0aW9uKCcuJykKICAgIHJldHVybiBzZXRhdHRyKHJnZXRhdHRyKG9iaiwgcHJlKSBpZiBwcmUgZWxzZSBvYmosIHBvc3QsIHZhbCkKCgpkZWYgcmdldGF0dHIob2JqLCBhdHRyLCAqYXJncyk6CiAgICAiIiJSZWN1cnNpdmVseSBmaW5kIG9iamVjdCBhbmQgcmV0dXJuIHZhbHVlIiIiCgogICAgZGVmIF9nZXRhdHRyKG9iaiwgYXR0cik6CiAgICAgICAgciIiIkdldCBhdHRyaWJ1dGUuIiIiCiAgICAgICAgcmV0dXJuIGdldGF0dHIob2JqLCBhdHRyLCAqYXJncykKCiAgICByZXR1cm4gZnVuY3Rvb2xzLnJlZHVjZShfZ2V0YXR0ciwgW29ial0gKyBhdHRyLnNwbGl0KCcuJykpCgoKZGVmIHJlY3Vyc2l2ZV91cGRhdGUoZCwgdSk6CiAgICAiIiJSZWN1cnNpdmVseSB1cGRhdGUgQXR0ckRpY3QgZCB3aXRoIEF0dHJEaWN0IHUiIiIKICAgIGZvciBrZXksIHZhbHVlIGluIHUuaXRlbXMoKToKICAgICAgICBpZiBpc2luc3RhbmNlKHZhbHVlLCBjb2xsZWN0aW9ucy5hYmMuTWFwcGluZyk6CiAgICAgICAgICAgIGQuX19kaWN0X19ba2V5XSA9IHJlY3Vyc2l2ZV91cGRhdGUoZC5nZXQoa2V5LCBBdHRyRGljdCh7fSkpLCB2YWx1ZSkKICAgICAgICBlbGlmIGlzaW5zdGFuY2UodmFsdWUsIChsaXN0LCB0dXBsZSkpOgogICAgICAgICAgICBpZiBpc2luc3RhbmNlKHZhbHVlWzBdLCBkaWN0KToKICAgICAgICAgICAgICAgIGQuX19kaWN0X19ba2V5XSA9IFtBdHRyRGljdChpdGVtKSBmb3IgaXRlbSBpbiB2YWx1ZV0KICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGQuX19kaWN0X19ba2V5XSA9IHZhbHVlCiAgICAgICAgZWxzZToKICAgICAgICAgICAgZC5fX2RpY3RfX1trZXldID0gdmFsdWUKICAgIHJldHVybiBkCg==
+import collections
+import functools
+import os
+import re
+
+import yaml
+
+class AttrDict(dict):
+    """Dict as attribute trick."""
+
+    def __init__(self, *args, **kwargs):
+        super(AttrDict, self).__init__(*args, **kwargs)
+        self.__dict__ = self
+        for key, value in self.__dict__.items():
+            if isinstance(value, dict):
+                self.__dict__[key] = AttrDict(value)
+            elif isinstance(value, (list, tuple)):
+                if isinstance(value[0], dict):
+                    self.__dict__[key] = [AttrDict(item) for item in value]
+                else:
+                    self.__dict__[key] = value
+
+    def yaml(self):
+        """Convert object to yaml dict and return."""
+        yaml_dict = {}
+        for key, value in self.__dict__.items():
+            if isinstance(value, AttrDict):
+                yaml_dict[key] = value.yaml()
+            elif isinstance(value, list):
+                if isinstance(value[0], AttrDict):
+                    new_l = []
+                    for item in value:
+                        new_l.append(item.yaml())
+                    yaml_dict[key] = new_l
+                else:
+                    yaml_dict[key] = value
+            else:
+                yaml_dict[key] = value
+        return yaml_dict
+
+    def __repr__(self):
+        """Print all variables."""
+        ret_str = []
+        for key, value in self.__dict__.items():
+            if isinstance(value, AttrDict):
+                ret_str.append('{}:'.format(key))
+                child_ret_str = value.__repr__().split('\n')
+                for item in child_ret_str:
+                    ret_str.append('    ' + item)
+            elif isinstance(value, list):
+                if isinstance(value[0], AttrDict):
+                    ret_str.append('{}:'.format(key))
+                    for item in value:
+                        # Treat as AttrDict above.
+                        child_ret_str = item.__repr__().split('\n')
+                        for item in child_ret_str:
+                            ret_str.append('    ' + item)
+                else:
+                    ret_str.append('{}: {}'.format(key, value))
+            else:
+                ret_str.append('{}: {}'.format(key, value))
+        return '\n'.join(ret_str)
+
+
+class Config(AttrDict):
+    r"""Configuration class. This should include every human specifiable
+    hyperparameter values for your training."""
+
+    def __init__(self, filename=None, args=None, verbose=False, is_train=True):
+        super(Config, self).__init__()
+        # Set default parameters.
+        # Logging.
+
+        large_number = 1000000000
+        self.snapshot_save_iter = large_number
+        self.snapshot_save_epoch = large_number
+        self.snapshot_save_start_iter = 0
+        self.snapshot_save_start_epoch = 0
+        self.image_save_iter = large_number
+        self.eval_epoch = large_number
+        self.start_eval_epoch = large_number
+        self.eval_epoch = large_number
+        self.max_epoch = large_number
+        self.max_iter = large_number
+        self.logging_iter = 100
+        self.image_to_tensorboard=False
+        self.which_iter = 0 # args.which_iter
+        self.resume = False
+
+        self.checkpoints_dir = '/Users/shadowcun/Downloads/'
+        self.name = 'face'
+        self.phase = 'train' if is_train else 'test'
+
+        # Networks.
+        self.gen = AttrDict(type='generators.dummy')
+        self.dis = AttrDict(type='discriminators.dummy')
+
+        # Optimizers.
+        self.gen_optimizer = AttrDict(type='adam',
+                                    lr=0.0001,
+                                    adam_beta1=0.0,
+                                    adam_beta2=0.999,
+                                    eps=1e-8,
+                                    lr_policy=AttrDict(iteration_mode=False,
+                                                    type='step',
+                                                    step_size=large_number,
+                                                    gamma=1))
+        self.dis_optimizer = AttrDict(type='adam',
+                                lr=0.0001,
+                                adam_beta1=0.0,
+                                adam_beta2=0.999,
+                                eps=1e-8,
+                                lr_policy=AttrDict(iteration_mode=False,
+                                                   type='step',
+                                                   step_size=large_number,
+                                                   gamma=1))
+        # Data.
+        self.data = AttrDict(name='dummy',
+                             type='datasets.images',
+                             num_workers=0)
+        self.test_data = AttrDict(name='dummy',
+                                  type='datasets.images',
+                                  num_workers=0,
+                                  test=AttrDict(is_lmdb=False,
+                                                roots='',
+                                                batch_size=1))
+        self.trainer = AttrDict(
+            model_average=False,
+            model_average_beta=0.9999,
+            model_average_start_iteration=1000,
+            model_average_batch_norm_estimation_iteration=30,
+            model_average_remove_sn=True,
+            image_to_tensorboard=False,
+            hparam_to_tensorboard=False,
+            distributed_data_parallel='pytorch',
+            delay_allreduce=True,
+            gan_relativistic=False,
+            gen_step=1,
+            dis_step=1)
+
+        # # Cudnn.
+        self.cudnn = AttrDict(deterministic=False,
+                              benchmark=True)
+
+        # Others.
+        self.pretrained_weight = ''
+        self.inference_args = AttrDict()
+
+
+        # Update with given configurations.
+        assert os.path.exists(filename), 'File {} not exist.'.format(filename)
+        loader = yaml.SafeLoader
+        loader.add_implicit_resolver(
+            u'tag:yaml.org,2002:float',
+            re.compile(u'''^(?:
+             [-+]?(?:[0-9][0-9_]*)\\.[0-9_]*(?:[eE][-+]?[0-9]+)?
+            |[-+]?(?:[0-9][0-9_]*)(?:[eE][-+]?[0-9]+)
+            |\\.[0-9_]+(?:[eE][-+][0-9]+)?
+            |[-+]?[0-9][0-9_]*(?::[0-5]?[0-9])+\\.[0-9_]*
+            |[-+]?\\.(?:inf|Inf|INF)
+            |\\.(?:nan|NaN|NAN))$''', re.X),
+            list(u'-+0123456789.'))
+        try:
+            with open(filename, 'r') as f:
+                cfg_dict = yaml.load(f, Loader=loader)
+        except EnvironmentError:
+            print('Please check the file with name of "%s"', filename)
+        recursive_update(self, cfg_dict)
+
+        # Put common opts in both gen and dis.
+        if 'common' in cfg_dict:
+            self.common = AttrDict(**cfg_dict['common'])
+            self.gen.common = self.common
+            self.dis.common = self.common
+
+
+        if verbose:
+            print(' config '.center(80, '-'))
+            print(self.__repr__())
+            print(''.center(80, '-'))
+
+
+def rsetattr(obj, attr, val):
+    """Recursively find object and set value"""
+    pre, _, post = attr.rpartition('.')
+    return setattr(rgetattr(obj, pre) if pre else obj, post, val)
+
+
+def rgetattr(obj, attr, *args):
+    """Recursively find object and return value"""
+
+    def _getattr(obj, attr):
+        r"""Get attribute."""
+        return getattr(obj, attr, *args)
+
+    return functools.reduce(_getattr, [obj] + attr.split('.'))
+
+
+def recursive_update(d, u):
+    """Recursively update AttrDict d with AttrDict u"""
+    for key, value in u.items():
+        if isinstance(value, collections.abc.Mapping):
+            d.__dict__[key] = recursive_update(d.get(key, AttrDict({})), value)
+        elif isinstance(value, (list, tuple)):
+            if isinstance(value[0], dict):
+                d.__dict__[key] = [AttrDict(item) for item in value]
+            else:
+                d.__dict__[key] = value
+        else:
+            d.__dict__[key] = value
+    return d

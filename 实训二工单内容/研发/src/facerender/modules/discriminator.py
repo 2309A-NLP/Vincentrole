@@ -1,1 +1,90 @@
-ZnJvbSB0b3JjaCBpbXBvcnQgbm4KaW1wb3J0IHRvcmNoLm5uLmZ1bmN0aW9uYWwgYXMgRgpmcm9tIGZhY2VyZW5kZXIubW9kdWxlcy51dGlsIGltcG9ydCBrcDJnYXVzc2lhbgppbXBvcnQgdG9yY2gKCgpjbGFzcyBEb3duQmxvY2syZChubi5Nb2R1bGUpOgogICAgIiIiCiAgICBTaW1wbGUgYmxvY2sgZm9yIHByb2Nlc3NpbmcgdmlkZW8gKGVuY29kZXIpLgogICAgIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGluX2ZlYXR1cmVzLCBvdXRfZmVhdHVyZXMsIG5vcm09RmFsc2UsIGtlcm5lbF9zaXplPTQsIHBvb2w9RmFsc2UsIHNuPUZhbHNlKToKICAgICAgICBzdXBlcihEb3duQmxvY2syZCwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYuY29udiA9IG5uLkNvbnYyZChpbl9jaGFubmVscz1pbl9mZWF0dXJlcywgb3V0X2NoYW5uZWxzPW91dF9mZWF0dXJlcywga2VybmVsX3NpemU9a2VybmVsX3NpemUpCgogICAgICAgIGlmIHNuOgogICAgICAgICAgICBzZWxmLmNvbnYgPSBubi51dGlscy5zcGVjdHJhbF9ub3JtKHNlbGYuY29udikKCiAgICAgICAgaWYgbm9ybToKICAgICAgICAgICAgc2VsZi5ub3JtID0gbm4uSW5zdGFuY2VOb3JtMmQob3V0X2ZlYXR1cmVzLCBhZmZpbmU9VHJ1ZSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBzZWxmLm5vcm0gPSBOb25lCiAgICAgICAgc2VsZi5wb29sID0gcG9vbAoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIG91dCA9IHgKICAgICAgICBvdXQgPSBzZWxmLmNvbnYob3V0KQogICAgICAgIGlmIHNlbGYubm9ybToKICAgICAgICAgICAgb3V0ID0gc2VsZi5ub3JtKG91dCkKICAgICAgICBvdXQgPSBGLmxlYWt5X3JlbHUob3V0LCAwLjIpCiAgICAgICAgaWYgc2VsZi5wb29sOgogICAgICAgICAgICBvdXQgPSBGLmF2Z19wb29sMmQob3V0LCAoMiwgMikpCiAgICAgICAgcmV0dXJuIG91dAoKCmNsYXNzIERpc2NyaW1pbmF0b3Iobm4uTW9kdWxlKToKICAgICIiIgogICAgRGlzY3JpbWluYXRvciBzaW1pbGFyIHRvIFBpeDJQaXgKICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBudW1fY2hhbm5lbHM9MywgYmxvY2tfZXhwYW5zaW9uPTY0LCBudW1fYmxvY2tzPTQsIG1heF9mZWF0dXJlcz01MTIsCiAgICAgICAgICAgICAgICAgc249RmFsc2UsICoqa3dhcmdzKToKICAgICAgICBzdXBlcihEaXNjcmltaW5hdG9yLCBzZWxmKS5fX2luaXRfXygpCgogICAgICAgIGRvd25fYmxvY2tzID0gW10KICAgICAgICBmb3IgaSBpbiByYW5nZShudW1fYmxvY2tzKToKICAgICAgICAgICAgZG93bl9ibG9ja3MuYXBwZW5kKAogICAgICAgICAgICAgICAgRG93bkJsb2NrMmQobnVtX2NoYW5uZWxzIGlmIGkgPT0gMCBlbHNlIG1pbihtYXhfZmVhdHVyZXMsIGJsb2NrX2V4cGFuc2lvbiAqICgyICoqIGkpKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbihtYXhfZmVhdHVyZXMsIGJsb2NrX2V4cGFuc2lvbiAqICgyICoqIChpICsgMSkpKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vcm09KGkgIT0gMCksIGtlcm5lbF9zaXplPTQsIHBvb2w9KGkgIT0gbnVtX2Jsb2NrcyAtIDEpLCBzbj1zbikpCgogICAgICAgIHNlbGYuZG93bl9ibG9ja3MgPSBubi5Nb2R1bGVMaXN0KGRvd25fYmxvY2tzKQogICAgICAgIHNlbGYuY29udiA9IG5uLkNvbnYyZChzZWxmLmRvd25fYmxvY2tzWy0xXS5jb252Lm91dF9jaGFubmVscywgb3V0X2NoYW5uZWxzPTEsIGtlcm5lbF9zaXplPTEpCiAgICAgICAgaWYgc246CiAgICAgICAgICAgIHNlbGYuY29udiA9IG5uLnV0aWxzLnNwZWN0cmFsX25vcm0oc2VsZi5jb252KQoKICAgIGRlZiBmb3J3YXJkKHNlbGYsIHgpOgogICAgICAgIGZlYXR1cmVfbWFwcyA9IFtdCiAgICAgICAgb3V0ID0geAoKICAgICAgICBmb3IgZG93bl9ibG9jayBpbiBzZWxmLmRvd25fYmxvY2tzOgogICAgICAgICAgICBmZWF0dXJlX21hcHMuYXBwZW5kKGRvd25fYmxvY2sob3V0KSkKICAgICAgICAgICAgb3V0ID0gZmVhdHVyZV9tYXBzWy0xXQogICAgICAgIHByZWRpY3Rpb25fbWFwID0gc2VsZi5jb252KG91dCkKCiAgICAgICAgcmV0dXJuIGZlYXR1cmVfbWFwcywgcHJlZGljdGlvbl9tYXAKCgpjbGFzcyBNdWx0aVNjYWxlRGlzY3JpbWluYXRvcihubi5Nb2R1bGUpOgogICAgIiIiCiAgICBNdWx0aS1zY2FsZSAoc2NhbGUpIGRpc2NyaW1pbmF0b3IKICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzY2FsZXM9KCksICoqa3dhcmdzKToKICAgICAgICBzdXBlcihNdWx0aVNjYWxlRGlzY3JpbWluYXRvciwgc2VsZikuX19pbml0X18oKQogICAgICAgIHNlbGYuc2NhbGVzID0gc2NhbGVzCiAgICAgICAgZGlzY3MgPSB7fQogICAgICAgIGZvciBzY2FsZSBpbiBzY2FsZXM6CiAgICAgICAgICAgIGRpc2NzW3N0cihzY2FsZSkucmVwbGFjZSgnLicsICctJyldID0gRGlzY3JpbWluYXRvcigqKmt3YXJncykKICAgICAgICBzZWxmLmRpc2NzID0gbm4uTW9kdWxlRGljdChkaXNjcykKCiAgICBkZWYgZm9yd2FyZChzZWxmLCB4KToKICAgICAgICBvdXRfZGljdCA9IHt9CiAgICAgICAgZm9yIHNjYWxlLCBkaXNjIGluIHNlbGYuZGlzY3MuaXRlbXMoKToKICAgICAgICAgICAgc2NhbGUgPSBzdHIoc2NhbGUpLnJlcGxhY2UoJy0nLCAnLicpCiAgICAgICAgICAgIGtleSA9ICdwcmVkaWN0aW9uXycgKyBzY2FsZQogICAgICAgICAgICBmZWF0dXJlX21hcHMsIHByZWRpY3Rpb25fbWFwID0gZGlzYyh4W2tleV0pCiAgICAgICAgICAgIG91dF9kaWN0WydmZWF0dXJlX21hcHNfJyArIHNjYWxlXSA9IGZlYXR1cmVfbWFwcwogICAgICAgICAgICBvdXRfZGljdFsncHJlZGljdGlvbl9tYXBfJyArIHNjYWxlXSA9IHByZWRpY3Rpb25fbWFwCiAgICAgICAgcmV0dXJuIG91dF9kaWN0Cg==
+from torch import nn
+import torch.nn.functional as F
+from facerender.modules.util import kp2gaussian
+import torch
+
+
+class DownBlock2d(nn.Module):
+    """
+    Simple block for processing video (encoder).
+    """
+
+    def __init__(self, in_features, out_features, norm=False, kernel_size=4, pool=False, sn=False):
+        super(DownBlock2d, self).__init__()
+        self.conv = nn.Conv2d(in_channels=in_features, out_channels=out_features, kernel_size=kernel_size)
+
+        if sn:
+            self.conv = nn.utils.spectral_norm(self.conv)
+
+        if norm:
+            self.norm = nn.InstanceNorm2d(out_features, affine=True)
+        else:
+            self.norm = None
+        self.pool = pool
+
+    def forward(self, x):
+        out = x
+        out = self.conv(out)
+        if self.norm:
+            out = self.norm(out)
+        out = F.leaky_relu(out, 0.2)
+        if self.pool:
+            out = F.avg_pool2d(out, (2, 2))
+        return out
+
+
+class Discriminator(nn.Module):
+    """
+    Discriminator similar to Pix2Pix
+    """
+
+    def __init__(self, num_channels=3, block_expansion=64, num_blocks=4, max_features=512,
+                 sn=False, **kwargs):
+        super(Discriminator, self).__init__()
+
+        down_blocks = []
+        for i in range(num_blocks):
+            down_blocks.append(
+                DownBlock2d(num_channels if i == 0 else min(max_features, block_expansion * (2 ** i)),
+                            min(max_features, block_expansion * (2 ** (i + 1))),
+                            norm=(i != 0), kernel_size=4, pool=(i != num_blocks - 1), sn=sn))
+
+        self.down_blocks = nn.ModuleList(down_blocks)
+        self.conv = nn.Conv2d(self.down_blocks[-1].conv.out_channels, out_channels=1, kernel_size=1)
+        if sn:
+            self.conv = nn.utils.spectral_norm(self.conv)
+
+    def forward(self, x):
+        feature_maps = []
+        out = x
+
+        for down_block in self.down_blocks:
+            feature_maps.append(down_block(out))
+            out = feature_maps[-1]
+        prediction_map = self.conv(out)
+
+        return feature_maps, prediction_map
+
+
+class MultiScaleDiscriminator(nn.Module):
+    """
+    Multi-scale (scale) discriminator
+    """
+
+    def __init__(self, scales=(), **kwargs):
+        super(MultiScaleDiscriminator, self).__init__()
+        self.scales = scales
+        discs = {}
+        for scale in scales:
+            discs[str(scale).replace('.', '-')] = Discriminator(**kwargs)
+        self.discs = nn.ModuleDict(discs)
+
+    def forward(self, x):
+        out_dict = {}
+        for scale, disc in self.discs.items():
+            scale = str(scale).replace('-', '.')
+            key = 'prediction_' + scale
+            feature_maps, prediction_map = disc(x[key])
+            out_dict['feature_maps_' + scale] = feature_maps
+            out_dict['prediction_map_' + scale] = prediction_map
+        return out_dict

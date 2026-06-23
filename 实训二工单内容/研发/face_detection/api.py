@@ -1,1 +1,79 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBwcmludF9mdW5jdGlvbgppbXBvcnQgb3MKaW1wb3J0IHRvcmNoCmZyb20gdG9yY2gudXRpbHMubW9kZWxfem9vIGltcG9ydCBsb2FkX3VybApmcm9tIGVudW0gaW1wb3J0IEVudW0KaW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCBjdjIKdHJ5OgogICAgaW1wb3J0IHVybGxpYi5yZXF1ZXN0IGFzIHJlcXVlc3RfZmlsZQpleGNlcHQgQmFzZUV4Y2VwdGlvbjoKICAgIGltcG9ydCB1cmxsaWIgYXMgcmVxdWVzdF9maWxlCgpmcm9tIC5tb2RlbHMgaW1wb3J0IEZBTiwgUmVzTmV0RGVwdGgKZnJvbSAudXRpbHMgaW1wb3J0ICoKCgpjbGFzcyBMYW5kbWFya3NUeXBlKEVudW0pOgogICAgIiIiRW51bSBjbGFzcyBkZWZpbmluZyB0aGUgdHlwZSBvZiBsYW5kbWFya3MgdG8gZGV0ZWN0LgoKICAgIGBgXzJEYGAgLSB0aGUgZGV0ZWN0ZWQgcG9pbnRzIGBgKHgseSlgYCBhcmUgZGV0ZWN0ZWQgaW4gYSAyRCBzcGFjZSBhbmQgZm9sbG93IHRoZSB2aXNpYmxlIGNvbnRvdXIgb2YgdGhlIGZhY2UKICAgIGBgXzJoYWxmRGBgIC0gdGhpcyBwb2ludHMgcmVwcmVzZW50IHRoZSBwcm9qZWN0aW9uIG9mIHRoZSAzRCBwb2ludHMgaW50byAzRAogICAgYGBfM0RgYCAtIGRldGVjdCB0aGUgcG9pbnRzIGBgKHgseSx6KWBgYCBpbiBhIDNEIHNwYWNlCgogICAgIiIiCiAgICBfMkQgPSAxCiAgICBfMmhhbGZEID0gMgogICAgXzNEID0gMwoKCmNsYXNzIE5ldHdvcmtTaXplKEVudW0pOgogICAgIyBUSU5ZID0gMQogICAgIyBTTUFMTCA9IDIKICAgICMgTUVESVVNID0gMwogICAgTEFSR0UgPSA0CgogICAgZGVmIF9fbmV3X18oY2xzLCB2YWx1ZSk6CiAgICAgICAgbWVtYmVyID0gb2JqZWN0Ll9fbmV3X18oY2xzKQogICAgICAgIG1lbWJlci5fdmFsdWVfID0gdmFsdWUKICAgICAgICByZXR1cm4gbWVtYmVyCgogICAgZGVmIF9faW50X18oc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYudmFsdWUKClJPT1QgPSBvcy5wYXRoLmRpcm5hbWUob3MucGF0aC5hYnNwYXRoKF9fZmlsZV9fKSkKCmNsYXNzIEZhY2VBbGlnbm1lbnQ6CiAgICBkZWYgX19pbml0X18oc2VsZiwgbGFuZG1hcmtzX3R5cGUsIG5ldHdvcmtfc2l6ZT1OZXR3b3JrU2l6ZS5MQVJHRSwKICAgICAgICAgICAgICAgICBkZXZpY2U9J2N1ZGEnLCBmbGlwX2lucHV0PUZhbHNlLCBmYWNlX2RldGVjdG9yPSdzZmQnLCB2ZXJib3NlPUZhbHNlKToKICAgICAgICBzZWxmLmRldmljZSA9IGRldmljZQogICAgICAgIHNlbGYuZmxpcF9pbnB1dCA9IGZsaXBfaW5wdXQKICAgICAgICBzZWxmLmxhbmRtYXJrc190eXBlID0gbGFuZG1hcmtzX3R5cGUKICAgICAgICBzZWxmLnZlcmJvc2UgPSB2ZXJib3NlCgogICAgICAgIG5ldHdvcmtfc2l6ZSA9IGludChuZXR3b3JrX3NpemUpCgogICAgICAgIGlmICdjdWRhJyBpbiBkZXZpY2U6CiAgICAgICAgICAgIHRvcmNoLmJhY2tlbmRzLmN1ZG5uLmJlbmNobWFyayA9IFRydWUKCiAgICAgICAgIyBHZXQgdGhlIGZhY2UgZGV0ZWN0b3IKICAgICAgICBmYWNlX2RldGVjdG9yX21vZHVsZSA9IF9faW1wb3J0X18oJ2ZhY2VfZGV0ZWN0aW9uLmRldGVjdGlvbi4nICsgZmFjZV9kZXRlY3RvciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZ2xvYmFscygpLCBsb2NhbHMoKSwgW2ZhY2VfZGV0ZWN0b3JdLCAwKQogICAgICAgIHNlbGYuZmFjZV9kZXRlY3RvciA9IGZhY2VfZGV0ZWN0b3JfbW9kdWxlLkZhY2VEZXRlY3RvcihkZXZpY2U9ZGV2aWNlLCB2ZXJib3NlPXZlcmJvc2UpCgogICAgZGVmIGdldF9kZXRlY3Rpb25zX2Zvcl9iYXRjaChzZWxmLCBpbWFnZXMpOgogICAgICAgIGltYWdlcyA9IGltYWdlc1suLi4sIDo6LTFdCiAgICAgICAgZGV0ZWN0ZWRfZmFjZXMgPSBzZWxmLmZhY2VfZGV0ZWN0b3IuZGV0ZWN0X2Zyb21fYmF0Y2goaW1hZ2VzLmNvcHkoKSkKICAgICAgICByZXN1bHRzID0gW10KCiAgICAgICAgZm9yIGksIGQgaW4gZW51bWVyYXRlKGRldGVjdGVkX2ZhY2VzKToKICAgICAgICAgICAgaWYgbGVuKGQpID09IDA6CiAgICAgICAgICAgICAgICByZXN1bHRzLmFwcGVuZChOb25lKQogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgZCA9IGRbMF0KICAgICAgICAgICAgZCA9IG5wLmNsaXAoZCwgMCwgTm9uZSkKICAgICAgICAgICAgCiAgICAgICAgICAgIHgxLCB5MSwgeDIsIHkyID0gbWFwKGludCwgZFs6LTFdKQogICAgICAgICAgICByZXN1bHRzLmFwcGVuZCgoeDEsIHkxLCB4MiwgeTIpKQoKICAgICAgICByZXR1cm4gcmVzdWx0cw==
+from __future__ import print_function
+import os
+import torch
+from torch.utils.model_zoo import load_url
+from enum import Enum
+import numpy as np
+import cv2
+try:
+    import urllib.request as request_file
+except BaseException:
+    import urllib as request_file
+
+from .models import FAN, ResNetDepth
+from .utils import *
+
+
+class LandmarksType(Enum):
+    """Enum class defining the type of landmarks to detect.
+
+    ``_2D`` - the detected points ``(x,y)`` are detected in a 2D space and follow the visible contour of the face
+    ``_2halfD`` - this points represent the projection of the 3D points into 3D
+    ``_3D`` - detect the points ``(x,y,z)``` in a 3D space
+
+    """
+    _2D = 1
+    _2halfD = 2
+    _3D = 3
+
+
+class NetworkSize(Enum):
+    # TINY = 1
+    # SMALL = 2
+    # MEDIUM = 3
+    LARGE = 4
+
+    def __new__(cls, value):
+        member = object.__new__(cls)
+        member._value_ = value
+        return member
+
+    def __int__(self):
+        return self.value
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+
+class FaceAlignment:
+    def __init__(self, landmarks_type, network_size=NetworkSize.LARGE,
+                 device='cuda', flip_input=False, face_detector='sfd', verbose=False):
+        self.device = device
+        self.flip_input = flip_input
+        self.landmarks_type = landmarks_type
+        self.verbose = verbose
+
+        network_size = int(network_size)
+
+        if 'cuda' in device:
+            torch.backends.cudnn.benchmark = True
+
+        # Get the face detector
+        face_detector_module = __import__('face_detection.detection.' + face_detector,
+                                          globals(), locals(), [face_detector], 0)
+        self.face_detector = face_detector_module.FaceDetector(device=device, verbose=verbose)
+
+    def get_detections_for_batch(self, images):
+        images = images[..., ::-1]
+        detected_faces = self.face_detector.detect_from_batch(images.copy())
+        results = []
+
+        for i, d in enumerate(detected_faces):
+            if len(d) == 0:
+                results.append(None)
+                continue
+            d = d[0]
+            d = np.clip(d, 0, None)
+            
+            x1, y1, x2, y2 = map(int, d[:-1])
+            results.append((x1, y1, x2, y2))
+
+        return results

@@ -1,1 +1,123 @@
-aW1wb3J0IG9zIAppbXBvcnQgdG9yY2gKaW1wb3J0IG51bXB5IGFzIG5wCmZyb20gc2NpcHkuaW8gaW1wb3J0IHNhdmVtYXQsIGxvYWRtYXQKZnJvbSB5YWNzLmNvbmZpZyBpbXBvcnQgQ2ZnTm9kZSBhcyBDTgpmcm9tIHNjaXB5LnNpZ25hbCBpbXBvcnQgc2F2Z29sX2ZpbHRlcgoKaW1wb3J0IHNhZmV0ZW5zb3JzCmltcG9ydCBzYWZldGVuc29ycy50b3JjaCAKCmZyb20gc3JjLmF1ZGlvMnBvc2VfbW9kZWxzLmF1ZGlvMnBvc2UgaW1wb3J0IEF1ZGlvMlBvc2UKZnJvbSBzcmMuYXVkaW8yZXhwX21vZGVscy5uZXR3b3JrcyBpbXBvcnQgU2ltcGxlV3JhcHBlclYyIApmcm9tIHNyYy5hdWRpbzJleHBfbW9kZWxzLmF1ZGlvMmV4cCBpbXBvcnQgQXVkaW8yRXhwCmZyb20gc3JjLnV0aWxzLnNhZmV0ZW5zb3JfaGVscGVyIGltcG9ydCBsb2FkX3hfZnJvbV9zYWZldGVuc29yICAKCmRlZiBsb2FkX2NwayhjaGVja3BvaW50X3BhdGgsIG1vZGVsPU5vbmUsIG9wdGltaXplcj1Ob25lLCBkZXZpY2U9ImNwdSIpOgogICAgY2hlY2twb2ludCA9IHRvcmNoLmxvYWQoY2hlY2twb2ludF9wYXRoLCBtYXBfbG9jYXRpb249dG9yY2guZGV2aWNlKGRldmljZSkpCiAgICBpZiBtb2RlbCBpcyBub3QgTm9uZToKICAgICAgICBtb2RlbC5sb2FkX3N0YXRlX2RpY3QoY2hlY2twb2ludFsnbW9kZWwnXSkKICAgIGlmIG9wdGltaXplciBpcyBub3QgTm9uZToKICAgICAgICBvcHRpbWl6ZXIubG9hZF9zdGF0ZV9kaWN0KGNoZWNrcG9pbnRbJ29wdGltaXplciddKQoKICAgIHJldHVybiBjaGVja3BvaW50WydlcG9jaCddCgpjbGFzcyBBdWRpbzJDb2VmZigpOgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzYWR0YWxrZXJfcGF0aCwgZGV2aWNlKToKICAgICAgICAjbG9hZCBjb25maWcKICAgICAgICBmY2ZnX3Bvc2UgPSBvcGVuKHNhZHRhbGtlcl9wYXRoWydhdWRpbzJwb3NlX3lhbWxfcGF0aCddKQogICAgICAgIGNmZ19wb3NlID0gQ04ubG9hZF9jZmcoZmNmZ19wb3NlKQogICAgICAgIGNmZ19wb3NlLmZyZWV6ZSgpCiAgICAgICAgZmNmZ19leHAgPSBvcGVuKHNhZHRhbGtlcl9wYXRoWydhdWRpbzJleHBfeWFtbF9wYXRoJ10pCiAgICAgICAgY2ZnX2V4cCA9IENOLmxvYWRfY2ZnKGZjZmdfZXhwKQogICAgICAgIGNmZ19leHAuZnJlZXplKCkKCiAgICAgICAgIyBsb2FkIGF1ZGlvMnBvc2VfbW9kZWwKICAgICAgICBzZWxmLmF1ZGlvMnBvc2VfbW9kZWwgPSBBdWRpbzJQb3NlKGNmZ19wb3NlLCBOb25lLCBkZXZpY2U9ZGV2aWNlKQogICAgICAgIHNlbGYuYXVkaW8ycG9zZV9tb2RlbCA9IHNlbGYuYXVkaW8ycG9zZV9tb2RlbC50byhkZXZpY2UpCiAgICAgICAgc2VsZi5hdWRpbzJwb3NlX21vZGVsLmV2YWwoKQogICAgICAgIGZvciBwYXJhbSBpbiBzZWxmLmF1ZGlvMnBvc2VfbW9kZWwucGFyYW1ldGVycygpOgogICAgICAgICAgICBwYXJhbS5yZXF1aXJlc19ncmFkID0gRmFsc2UgCiAgICAgICAgCiAgICAgICAgdHJ5OgogICAgICAgICAgICBpZiBzYWR0YWxrZXJfcGF0aFsndXNlX3NhZmV0ZW5zb3InXToKICAgICAgICAgICAgICAgIGNoZWNrcG9pbnRzID0gc2FmZXRlbnNvcnMudG9yY2gubG9hZF9maWxlKHNhZHRhbGtlcl9wYXRoWydjaGVja3BvaW50J10pCiAgICAgICAgICAgICAgICBzZWxmLmF1ZGlvMnBvc2VfbW9kZWwubG9hZF9zdGF0ZV9kaWN0KGxvYWRfeF9mcm9tX3NhZmV0ZW5zb3IoY2hlY2twb2ludHMsICdhdWRpbzJwb3NlJykpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBsb2FkX2NwayhzYWR0YWxrZXJfcGF0aFsnYXVkaW8ycG9zZV9jaGVja3BvaW50J10sIG1vZGVsPXNlbGYuYXVkaW8ycG9zZV9tb2RlbCwgZGV2aWNlPWRldmljZSkKICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgIHJhaXNlIEV4Y2VwdGlvbigiRmFpbGVkIGluIGxvYWRpbmcgYXVkaW8ycG9zZV9jaGVja3BvaW50IikKCiAgICAgICAgIyBsb2FkIGF1ZGlvMmV4cF9tb2RlbAogICAgICAgIG5ldEcgPSBTaW1wbGVXcmFwcGVyVjIoKQogICAgICAgIG5ldEcgPSBuZXRHLnRvKGRldmljZSkKICAgICAgICBmb3IgcGFyYW0gaW4gbmV0Ry5wYXJhbWV0ZXJzKCk6CiAgICAgICAgICAgIG5ldEcucmVxdWlyZXNfZ3JhZCA9IEZhbHNlCiAgICAgICAgbmV0Ry5ldmFsKCkKICAgICAgICB0cnk6CiAgICAgICAgICAgIGlmIHNhZHRhbGtlcl9wYXRoWyd1c2Vfc2FmZXRlbnNvciddOgogICAgICAgICAgICAgICAgY2hlY2twb2ludHMgPSBzYWZldGVuc29ycy50b3JjaC5sb2FkX2ZpbGUoc2FkdGFsa2VyX3BhdGhbJ2NoZWNrcG9pbnQnXSkKICAgICAgICAgICAgICAgIG5ldEcubG9hZF9zdGF0ZV9kaWN0KGxvYWRfeF9mcm9tX3NhZmV0ZW5zb3IoY2hlY2twb2ludHMsICdhdWRpbzJleHAnKSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGxvYWRfY3BrKHNhZHRhbGtlcl9wYXRoWydhdWRpbzJleHBfY2hlY2twb2ludCddLCBtb2RlbD1uZXRHLCBkZXZpY2U9ZGV2aWNlKQogICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgcmFpc2UgRXhjZXB0aW9uKCJGYWlsZWQgaW4gbG9hZGluZyBhdWRpbzJleHBfY2hlY2twb2ludCIpCiAgICAgICAgc2VsZi5hdWRpbzJleHBfbW9kZWwgPSBBdWRpbzJFeHAobmV0RywgY2ZnX2V4cCwgZGV2aWNlPWRldmljZSwgcHJlcGFyZV90cmFpbmluZ19sb3NzPUZhbHNlKQogICAgICAgIHNlbGYuYXVkaW8yZXhwX21vZGVsID0gc2VsZi5hdWRpbzJleHBfbW9kZWwudG8oZGV2aWNlKQogICAgICAgIGZvciBwYXJhbSBpbiBzZWxmLmF1ZGlvMmV4cF9tb2RlbC5wYXJhbWV0ZXJzKCk6CiAgICAgICAgICAgIHBhcmFtLnJlcXVpcmVzX2dyYWQgPSBGYWxzZQogICAgICAgIHNlbGYuYXVkaW8yZXhwX21vZGVsLmV2YWwoKQogCiAgICAgICAgc2VsZi5kZXZpY2UgPSBkZXZpY2UKCiAgICBkZWYgZ2VuZXJhdGUoc2VsZiwgYmF0Y2gsIGNvZWZmX3NhdmVfZGlyLCBwb3NlX3N0eWxlLCByZWZfcG9zZV9jb2VmZl9wYXRoPU5vbmUpOgoKICAgICAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICAgICAgI3Rlc3QKICAgICAgICAgICAgcmVzdWx0c19kaWN0X2V4cD0gc2VsZi5hdWRpbzJleHBfbW9kZWwudGVzdChiYXRjaCkKICAgICAgICAgICAgZXhwX3ByZWQgPSByZXN1bHRzX2RpY3RfZXhwWydleHBfY29lZmZfcHJlZCddICAgICAgICAgICAgICAgICAgICAgICAgICNicyBUIDY0CgogICAgICAgICAgICAjZm9yIGNsYXNzX2lkIGluICByYW5nZSgxKToKICAgICAgICAgICAgI2NsYXNzX2lkID0gMCMoaSsxMCklNDUKICAgICAgICAgICAgI2NsYXNzX2lkID0gcmFuZG9tLnJhbmRpbnQoMCw0NikgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICM0NiBzdHlsZXMgY2FuIGJlIHNlbGVjdGVkIAogICAgICAgICAgICBiYXRjaFsnY2xhc3MnXSA9IHRvcmNoLkxvbmdUZW5zb3IoW3Bvc2Vfc3R5bGVdKS50byhzZWxmLmRldmljZSkKICAgICAgICAgICAgcmVzdWx0c19kaWN0X3Bvc2UgPSBzZWxmLmF1ZGlvMnBvc2VfbW9kZWwudGVzdChiYXRjaCkgCiAgICAgICAgICAgIHBvc2VfcHJlZCA9IHJlc3VsdHNfZGljdF9wb3NlWydwb3NlX3ByZWQnXSAgICAgICAgICAgICAgICAgICAgICAgICNicyBUIDYKCiAgICAgICAgICAgIHBvc2VfbGVuID0gcG9zZV9wcmVkLnNoYXBlWzFdCiAgICAgICAgICAgIGlmIHBvc2VfbGVuPDEzOiAKICAgICAgICAgICAgICAgIHBvc2VfbGVuID0gaW50KChwb3NlX2xlbi0xKS8yKSoyKzEKICAgICAgICAgICAgICAgIHBvc2VfcHJlZCA9IHRvcmNoLlRlbnNvcihzYXZnb2xfZmlsdGVyKG5wLmFycmF5KHBvc2VfcHJlZC5jcHUoKSksIHBvc2VfbGVuLCAyLCBheGlzPTEpKS50byhzZWxmLmRldmljZSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHBvc2VfcHJlZCA9IHRvcmNoLlRlbnNvcihzYXZnb2xfZmlsdGVyKG5wLmFycmF5KHBvc2VfcHJlZC5jcHUoKSksIDEzLCAyLCBheGlzPTEpKS50byhzZWxmLmRldmljZSkgCiAgICAgICAgICAgIAogICAgICAgICAgICBjb2VmZnNfcHJlZCA9IHRvcmNoLmNhdCgoZXhwX3ByZWQsIHBvc2VfcHJlZCksIGRpbT0tMSkgICAgICAgICAgICAjYnMgVCA3MAoKICAgICAgICAgICAgY29lZmZzX3ByZWRfbnVtcHkgPSBjb2VmZnNfcHJlZFswXS5jbG9uZSgpLmRldGFjaCgpLmNwdSgpLm51bXB5KCkgCgogICAgICAgICAgICAjIGlmIHJlZl9wb3NlX2NvZWZmX3BhdGggaXMgbm90IE5vbmU6IAogICAgICAgICAgICAgICAgIyAgY29lZmZzX3ByZWRfbnVtcHkgPSBzZWxmLnVzaW5nX3JlZnBvc2UoY29lZmZzX3ByZWRfbnVtcHksIHJlZl9wb3NlX2NvZWZmX3BhdGgpCiAgICAgICAgCiAgICAgICAgICAgICMgc2F2ZW1hdChvcy5wYXRoLmpvaW4oY29lZmZfc2F2ZV9kaXIsICclcyMjJXMubWF0JyUoYmF0Y2hbJ3BpY19uYW1lJ10sIGJhdGNoWydhdWRpb19uYW1lJ10pKSwgIAogICAgICAgICAgICAjICAgICAgICAgeydjb2VmZl8zZG1tJzogY29lZmZzX3ByZWRfbnVtcHl9KQoKICAgICAgICAgICAgcmV0dXJuIGNvZWZmc19wcmVkX251bXB5CiAgICAKICAgIGRlZiB1c2luZ19yZWZwb3NlKHNlbGYsIGNvZWZmc19wcmVkX251bXB5LCByZWZfcG9zZV9jb2VmZl9wYXRoKToKICAgICAgICBudW1fZnJhbWVzID0gY29lZmZzX3ByZWRfbnVtcHkuc2hhcGVbMF0KICAgICAgICByZWZwb3NlX2NvZWZmX2RpY3QgPSBsb2FkbWF0KHJlZl9wb3NlX2NvZWZmX3BhdGgpCiAgICAgICAgcmVmcG9zZV9jb2VmZiA9IHJlZnBvc2VfY29lZmZfZGljdFsnY29lZmZfM2RtbSddWzosNjQ6NzBdCiAgICAgICAgcmVmcG9zZV9udW1fZnJhbWVzID0gcmVmcG9zZV9jb2VmZi5zaGFwZVswXQogICAgICAgIGlmIHJlZnBvc2VfbnVtX2ZyYW1lczxudW1fZnJhbWVzOgogICAgICAgICAgICBkaXYgPSBudW1fZnJhbWVzLy9yZWZwb3NlX251bV9mcmFtZXMKICAgICAgICAgICAgcmUgPSBudW1fZnJhbWVzJXJlZnBvc2VfbnVtX2ZyYW1lcwogICAgICAgICAgICByZWZwb3NlX2NvZWZmX2xpc3QgPSBbcmVmcG9zZV9jb2VmZiBmb3IgaSBpbiByYW5nZShkaXYpXQogICAgICAgICAgICByZWZwb3NlX2NvZWZmX2xpc3QuYXBwZW5kKHJlZnBvc2VfY29lZmZbOnJlLCA6XSkKICAgICAgICAgICAgcmVmcG9zZV9jb2VmZiA9IG5wLmNvbmNhdGVuYXRlKHJlZnBvc2VfY29lZmZfbGlzdCwgYXhpcz0wKQoKICAgICAgICAjIyMjIHJlbGF0aXZlIGhlYWQgcG9zZQogICAgICAgIGNvZWZmc19wcmVkX251bXB5WzosIDY0OjcwXSA9IGNvZWZmc19wcmVkX251bXB5WzosIDY0OjcwXSArICggcmVmcG9zZV9jb2VmZls6bnVtX2ZyYW1lcywgOl0gLSByZWZwb3NlX2NvZWZmWzA6MSwgOl0gKQogICAgICAgIHJldHVybiBjb2VmZnNfcHJlZF9udW1weQoKCg==
+import os 
+import torch
+import numpy as np
+from scipy.io import savemat, loadmat
+from yacs.config import CfgNode as CN
+from scipy.signal import savgol_filter
+
+import safetensors
+import safetensors.torch 
+
+from src.audio2pose_models.audio2pose import Audio2Pose
+from src.audio2exp_models.networks import SimpleWrapperV2 
+from src.audio2exp_models.audio2exp import Audio2Exp
+from src.utils.safetensor_helper import load_x_from_safetensor  
+
+def load_cpk(checkpoint_path, model=None, optimizer=None, device="cpu"):
+    checkpoint = torch.load(checkpoint_path, map_location=torch.device(device))
+    if model is not None:
+        model.load_state_dict(checkpoint['model'])
+    if optimizer is not None:
+        optimizer.load_state_dict(checkpoint['optimizer'])
+
+    return checkpoint['epoch']
+
+class Audio2Coeff():
+
+    def __init__(self, sadtalker_path, device):
+        #load config
+        fcfg_pose = open(sadtalker_path['audio2pose_yaml_path'])
+        cfg_pose = CN.load_cfg(fcfg_pose)
+        cfg_pose.freeze()
+        fcfg_exp = open(sadtalker_path['audio2exp_yaml_path'])
+        cfg_exp = CN.load_cfg(fcfg_exp)
+        cfg_exp.freeze()
+
+        # load audio2pose_model
+        self.audio2pose_model = Audio2Pose(cfg_pose, None, device=device)
+        self.audio2pose_model = self.audio2pose_model.to(device)
+        self.audio2pose_model.eval()
+        for param in self.audio2pose_model.parameters():
+            param.requires_grad = False 
+        
+        try:
+            if sadtalker_path['use_safetensor']:
+                checkpoints = safetensors.torch.load_file(sadtalker_path['checkpoint'])
+                self.audio2pose_model.load_state_dict(load_x_from_safetensor(checkpoints, 'audio2pose'))
+            else:
+                load_cpk(sadtalker_path['audio2pose_checkpoint'], model=self.audio2pose_model, device=device)
+        except:
+            raise Exception("Failed in loading audio2pose_checkpoint")
+
+        # load audio2exp_model
+        netG = SimpleWrapperV2()
+        netG = netG.to(device)
+        for param in netG.parameters():
+            netG.requires_grad = False
+        netG.eval()
+        try:
+            if sadtalker_path['use_safetensor']:
+                checkpoints = safetensors.torch.load_file(sadtalker_path['checkpoint'])
+                netG.load_state_dict(load_x_from_safetensor(checkpoints, 'audio2exp'))
+            else:
+                load_cpk(sadtalker_path['audio2exp_checkpoint'], model=netG, device=device)
+        except:
+            raise Exception("Failed in loading audio2exp_checkpoint")
+        self.audio2exp_model = Audio2Exp(netG, cfg_exp, device=device, prepare_training_loss=False)
+        self.audio2exp_model = self.audio2exp_model.to(device)
+        for param in self.audio2exp_model.parameters():
+            param.requires_grad = False
+        self.audio2exp_model.eval()
+ 
+        self.device = device
+
+    def generate(self, batch, coeff_save_dir, pose_style, ref_pose_coeff_path=None):
+
+        with torch.no_grad():
+            #test
+            results_dict_exp= self.audio2exp_model.test(batch)
+            exp_pred = results_dict_exp['exp_coeff_pred']                         #bs T 64
+
+            #for class_id in  range(1):
+            #class_id = 0#(i+10)%45
+            #class_id = random.randint(0,46)                                   #46 styles can be selected 
+            batch['class'] = torch.LongTensor([pose_style]).to(self.device)
+            results_dict_pose = self.audio2pose_model.test(batch) 
+            pose_pred = results_dict_pose['pose_pred']                        #bs T 6
+
+            pose_len = pose_pred.shape[1]
+            if pose_len<13: 
+                pose_len = int((pose_len-1)/2)*2+1
+                pose_pred = torch.Tensor(savgol_filter(np.array(pose_pred.cpu()), pose_len, 2, axis=1)).to(self.device)
+            else:
+                pose_pred = torch.Tensor(savgol_filter(np.array(pose_pred.cpu()), 13, 2, axis=1)).to(self.device) 
+            
+            coeffs_pred = torch.cat((exp_pred, pose_pred), dim=-1)            #bs T 70
+
+            coeffs_pred_numpy = coeffs_pred[0].clone().detach().cpu().numpy() 
+
+            # if ref_pose_coeff_path is not None: 
+                #  coeffs_pred_numpy = self.using_refpose(coeffs_pred_numpy, ref_pose_coeff_path)
+        
+            # savemat(os.path.join(coeff_save_dir, '%s##%s.mat'%(batch['pic_name'], batch['audio_name'])),  
+            #         {'coeff_3dmm': coeffs_pred_numpy})
+
+            return coeffs_pred_numpy
+    
+    def using_refpose(self, coeffs_pred_numpy, ref_pose_coeff_path):
+        num_frames = coeffs_pred_numpy.shape[0]
+        refpose_coeff_dict = loadmat(ref_pose_coeff_path)
+        refpose_coeff = refpose_coeff_dict['coeff_3dmm'][:,64:70]
+        refpose_num_frames = refpose_coeff.shape[0]
+        if refpose_num_frames<num_frames:
+            div = num_frames//refpose_num_frames
+            re = num_frames%refpose_num_frames
+            refpose_coeff_list = [refpose_coeff for i in range(div)]
+            refpose_coeff_list.append(refpose_coeff[:re, :])
+            refpose_coeff = np.concatenate(refpose_coeff_list, axis=0)
+
+        #### relative head pose
+        coeffs_pred_numpy[:, 64:70] = coeffs_pred_numpy[:, 64:70] + ( refpose_coeff[:num_frames, :] - refpose_coeff[0:1, :] )
+        return coeffs_pred_numpy
+
+

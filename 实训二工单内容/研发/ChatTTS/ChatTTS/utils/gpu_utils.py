@@ -1,1 +1,23 @@
-CmltcG9ydCB0b3JjaAppbXBvcnQgbG9nZ2luZwoKZGVmIHNlbGVjdF9kZXZpY2UobWluX21lbW9yeSA9IDIwNDgpOgogICAgbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCiAgICBpZiB0b3JjaC5jdWRhLmlzX2F2YWlsYWJsZSgpOgogICAgICAgIGF2YWlsYWJsZV9ncHVzID0gW10KICAgICAgICBmb3IgaSBpbiByYW5nZSh0b3JjaC5jdWRhLmRldmljZV9jb3VudCgpKToKICAgICAgICAgICAgcHJvcHMgPSB0b3JjaC5jdWRhLmdldF9kZXZpY2VfcHJvcGVydGllcyhpKQogICAgICAgICAgICBmcmVlX21lbW9yeSA9IHByb3BzLnRvdGFsX21lbW9yeSAtIHRvcmNoLmN1ZGEubWVtb3J5X3Jlc2VydmVkKGkpCiAgICAgICAgICAgIGF2YWlsYWJsZV9ncHVzLmFwcGVuZCgoaSwgZnJlZV9tZW1vcnkpKQogICAgICAgIHNlbGVjdGVkX2dwdSwgbWF4X2ZyZWVfbWVtb3J5ID0gbWF4KGF2YWlsYWJsZV9ncHVzLCBrZXk9bGFtYmRhIHg6IHhbMV0pCiAgICAgICAgZGV2aWNlID0gdG9yY2guZGV2aWNlKGYnY3VkYTp7c2VsZWN0ZWRfZ3B1fScpCiAgICAgICAgZnJlZV9tZW1vcnlfbWIgPSBtYXhfZnJlZV9tZW1vcnkgLyAoMTAyNCAqIDEwMjQpCiAgICAgICAgaWYgZnJlZV9tZW1vcnlfbWIgPCBtaW5fbWVtb3J5OgogICAgICAgICAgICBsb2dnZXIubG9nKGxvZ2dpbmcuV0FSTklORywgZidHUFUge3NlbGVjdGVkX2dwdX0gaGFzIHtyb3VuZChmcmVlX21lbW9yeV9tYiwgMil9IE1CIG1lbW9yeSBsZWZ0LicpCiAgICAgICAgICAgIGRldmljZSA9IHRvcmNoLmRldmljZSgnY3B1JykKICAgIGVsc2U6CiAgICAgICAgbG9nZ2VyLmxvZyhsb2dnaW5nLldBUk5JTkcsIGYnTm8gR1BVIGZvdW5kLCB1c2UgQ1BVIGluc3RlYWQnKQogICAgICAgIGRldmljZSA9IHRvcmNoLmRldmljZSgnY3B1JykKICAgIAogICAgcmV0dXJuIGRldmljZQo=
+
+import torch
+import logging
+
+def select_device(min_memory = 2048):
+    logger = logging.getLogger(__name__)
+    if torch.cuda.is_available():
+        available_gpus = []
+        for i in range(torch.cuda.device_count()):
+            props = torch.cuda.get_device_properties(i)
+            free_memory = props.total_memory - torch.cuda.memory_reserved(i)
+            available_gpus.append((i, free_memory))
+        selected_gpu, max_free_memory = max(available_gpus, key=lambda x: x[1])
+        device = torch.device(f'cuda:{selected_gpu}')
+        free_memory_mb = max_free_memory / (1024 * 1024)
+        if free_memory_mb < min_memory:
+            logger.log(logging.WARNING, f'GPU {selected_gpu} has {round(free_memory_mb, 2)} MB memory left.')
+            device = torch.device('cpu')
+    else:
+        logger.log(logging.WARNING, f'No GPU found, use CPU instead')
+        device = torch.device('cpu')
+    
+    return device

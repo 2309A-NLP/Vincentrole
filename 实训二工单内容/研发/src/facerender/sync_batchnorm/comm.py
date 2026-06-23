@@ -1,1 +1,137 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIyBGaWxlICAgOiBjb21tLnB5CiMgQXV0aG9yIDogSmlheXVhbiBNYW8KIyBFbWFpbCAgOiBtYW9qaWF5dWFuQGdtYWlsLmNvbQojIERhdGUgICA6IDI3LzAxLzIwMTgKIyAKIyBUaGlzIGZpbGUgaXMgcGFydCBvZiBTeW5jaHJvbml6ZWQtQmF0Y2hOb3JtLVB5VG9yY2guCiMgaHR0cHM6Ly9naXRodWIuY29tL3ZhY2FuY3kvU3luY2hyb25pemVkLUJhdGNoTm9ybS1QeVRvcmNoCiMgRGlzdHJpYnV0ZWQgdW5kZXIgTUlUIExpY2Vuc2UuCgppbXBvcnQgcXVldWUKaW1wb3J0IGNvbGxlY3Rpb25zCmltcG9ydCB0aHJlYWRpbmcKCl9fYWxsX18gPSBbJ0Z1dHVyZVJlc3VsdCcsICdTbGF2ZVBpcGUnLCAnU3luY01hc3RlciddCgoKY2xhc3MgRnV0dXJlUmVzdWx0KG9iamVjdCk6CiAgICAiIiJBIHRocmVhZC1zYWZlIGZ1dHVyZSBpbXBsZW1lbnRhdGlvbi4gVXNlZCBvbmx5IGFzIG9uZS10by1vbmUgcGlwZS4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZik6CiAgICAgICAgc2VsZi5fcmVzdWx0ID0gTm9uZQogICAgICAgIHNlbGYuX2xvY2sgPSB0aHJlYWRpbmcuTG9jaygpCiAgICAgICAgc2VsZi5fY29uZCA9IHRocmVhZGluZy5Db25kaXRpb24oc2VsZi5fbG9jaykKCiAgICBkZWYgcHV0KHNlbGYsIHJlc3VsdCk6CiAgICAgICAgd2l0aCBzZWxmLl9sb2NrOgogICAgICAgICAgICBhc3NlcnQgc2VsZi5fcmVzdWx0IGlzIE5vbmUsICdQcmV2aW91cyByZXN1bHQgaGFzXCd0IGJlZW4gZmV0Y2hlZC4nCiAgICAgICAgICAgIHNlbGYuX3Jlc3VsdCA9IHJlc3VsdAogICAgICAgICAgICBzZWxmLl9jb25kLm5vdGlmeSgpCgogICAgZGVmIGdldChzZWxmKToKICAgICAgICB3aXRoIHNlbGYuX2xvY2s6CiAgICAgICAgICAgIGlmIHNlbGYuX3Jlc3VsdCBpcyBOb25lOgogICAgICAgICAgICAgICAgc2VsZi5fY29uZC53YWl0KCkKCiAgICAgICAgICAgIHJlcyA9IHNlbGYuX3Jlc3VsdAogICAgICAgICAgICBzZWxmLl9yZXN1bHQgPSBOb25lCiAgICAgICAgICAgIHJldHVybiByZXMKCgpfTWFzdGVyUmVnaXN0cnkgPSBjb2xsZWN0aW9ucy5uYW1lZHR1cGxlKCdNYXN0ZXJSZWdpc3RyeScsIFsncmVzdWx0J10pCl9TbGF2ZVBpcGVCYXNlID0gY29sbGVjdGlvbnMubmFtZWR0dXBsZSgnX1NsYXZlUGlwZUJhc2UnLCBbJ2lkZW50aWZpZXInLCAncXVldWUnLCAncmVzdWx0J10pCgoKY2xhc3MgU2xhdmVQaXBlKF9TbGF2ZVBpcGVCYXNlKToKICAgICIiIlBpcGUgZm9yIG1hc3Rlci1zbGF2ZSBjb21tdW5pY2F0aW9uLiIiIgoKICAgIGRlZiBydW5fc2xhdmUoc2VsZiwgbXNnKToKICAgICAgICBzZWxmLnF1ZXVlLnB1dCgoc2VsZi5pZGVudGlmaWVyLCBtc2cpKQogICAgICAgIHJldCA9IHNlbGYucmVzdWx0LmdldCgpCiAgICAgICAgc2VsZi5xdWV1ZS5wdXQoVHJ1ZSkKICAgICAgICByZXR1cm4gcmV0CgoKY2xhc3MgU3luY01hc3RlcihvYmplY3QpOgogICAgIiIiQW4gYWJzdHJhY3QgYFN5bmNNYXN0ZXJgIG9iamVjdC4KCiAgICAtIER1cmluZyB0aGUgcmVwbGljYXRpb24sIGFzIHRoZSBkYXRhIHBhcmFsbGVsIHdpbGwgdHJpZ2dlciBhbiBjYWxsYmFjayBvZiBlYWNoIG1vZHVsZSwgYWxsIHNsYXZlIGRldmljZXMgc2hvdWxkCiAgICBjYWxsIGByZWdpc3RlcihpZClgIGFuZCBvYnRhaW4gYW4gYFNsYXZlUGlwZWAgdG8gY29tbXVuaWNhdGUgd2l0aCB0aGUgbWFzdGVyLgogICAgLSBEdXJpbmcgdGhlIGZvcndhcmQgcGFzcywgbWFzdGVyIGRldmljZSBpbnZva2VzIGBydW5fbWFzdGVyYCwgYWxsIG1lc3NhZ2VzIGZyb20gc2xhdmUgZGV2aWNlcyB3aWxsIGJlIGNvbGxlY3RlZCwKICAgIGFuZCBwYXNzZWQgdG8gYSByZWdpc3RlcmVkIGNhbGxiYWNrLgogICAgLSBBZnRlciByZWNlaXZpbmcgdGhlIG1lc3NhZ2VzLCB0aGUgbWFzdGVyIGRldmljZSBzaG91bGQgZ2F0aGVyIHRoZSBpbmZvcm1hdGlvbiBhbmQgZGV0ZXJtaW5lIHRvIG1lc3NhZ2UgcGFzc2VkCiAgICBiYWNrIHRvIGVhY2ggc2xhdmUgZGV2aWNlcy4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBtYXN0ZXJfY2FsbGJhY2spOgogICAgICAgICIiIgoKICAgICAgICBBcmdzOgogICAgICAgICAgICBtYXN0ZXJfY2FsbGJhY2s6IGEgY2FsbGJhY2sgdG8gYmUgaW52b2tlZCBhZnRlciBoYXZpbmcgY29sbGVjdGVkIG1lc3NhZ2VzIGZyb20gc2xhdmUgZGV2aWNlcy4KICAgICAgICAiIiIKICAgICAgICBzZWxmLl9tYXN0ZXJfY2FsbGJhY2sgPSBtYXN0ZXJfY2FsbGJhY2sKICAgICAgICBzZWxmLl9xdWV1ZSA9IHF1ZXVlLlF1ZXVlKCkKICAgICAgICBzZWxmLl9yZWdpc3RyeSA9IGNvbGxlY3Rpb25zLk9yZGVyZWREaWN0KCkKICAgICAgICBzZWxmLl9hY3RpdmF0ZWQgPSBGYWxzZQoKICAgIGRlZiBfX2dldHN0YXRlX18oc2VsZik6CiAgICAgICAgcmV0dXJuIHsnbWFzdGVyX2NhbGxiYWNrJzogc2VsZi5fbWFzdGVyX2NhbGxiYWNrfQoKICAgIGRlZiBfX3NldHN0YXRlX18oc2VsZiwgc3RhdGUpOgogICAgICAgIHNlbGYuX19pbml0X18oc3RhdGVbJ21hc3Rlcl9jYWxsYmFjayddKQoKICAgIGRlZiByZWdpc3Rlcl9zbGF2ZShzZWxmLCBpZGVudGlmaWVyKToKICAgICAgICAiIiIKICAgICAgICBSZWdpc3RlciBhbiBzbGF2ZSBkZXZpY2UuCgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIGlkZW50aWZpZXI6IGFuIGlkZW50aWZpZXIsIHVzdWFsbHkgaXMgdGhlIGRldmljZSBpZC4KCiAgICAgICAgUmV0dXJuczogYSBgU2xhdmVQaXBlYCBvYmplY3Qgd2hpY2ggY2FuIGJlIHVzZWQgdG8gY29tbXVuaWNhdGUgd2l0aCB0aGUgbWFzdGVyIGRldmljZS4KCiAgICAgICAgIiIiCiAgICAgICAgaWYgc2VsZi5fYWN0aXZhdGVkOgogICAgICAgICAgICBhc3NlcnQgc2VsZi5fcXVldWUuZW1wdHkoKSwgJ1F1ZXVlIGlzIG5vdCBjbGVhbiBiZWZvcmUgbmV4dCBpbml0aWFsaXphdGlvbi4nCiAgICAgICAgICAgIHNlbGYuX2FjdGl2YXRlZCA9IEZhbHNlCiAgICAgICAgICAgIHNlbGYuX3JlZ2lzdHJ5LmNsZWFyKCkKICAgICAgICBmdXR1cmUgPSBGdXR1cmVSZXN1bHQoKQogICAgICAgIHNlbGYuX3JlZ2lzdHJ5W2lkZW50aWZpZXJdID0gX01hc3RlclJlZ2lzdHJ5KGZ1dHVyZSkKICAgICAgICByZXR1cm4gU2xhdmVQaXBlKGlkZW50aWZpZXIsIHNlbGYuX3F1ZXVlLCBmdXR1cmUpCgogICAgZGVmIHJ1bl9tYXN0ZXIoc2VsZiwgbWFzdGVyX21zZyk6CiAgICAgICAgIiIiCiAgICAgICAgTWFpbiBlbnRyeSBmb3IgdGhlIG1hc3RlciBkZXZpY2UgaW4gZWFjaCBmb3J3YXJkIHBhc3MuCiAgICAgICAgVGhlIG1lc3NhZ2VzIHdlcmUgZmlyc3QgY29sbGVjdGVkIGZyb20gZWFjaCBkZXZpY2VzIChpbmNsdWRpbmcgdGhlIG1hc3RlciBkZXZpY2UpLCBhbmQgdGhlbgogICAgICAgIGFuIGNhbGxiYWNrIHdpbGwgYmUgaW52b2tlZCB0byBjb21wdXRlIHRoZSBtZXNzYWdlIHRvIGJlIHNlbnQgYmFjayB0byBlYWNoIGRldmljZXMKICAgICAgICAoaW5jbHVkaW5nIHRoZSBtYXN0ZXIgZGV2aWNlKS4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgbWFzdGVyX21zZzogdGhlIG1lc3NhZ2UgdGhhdCB0aGUgbWFzdGVyIHdhbnQgdG8gc2VuZCB0byBpdHNlbGYuIFRoaXMgd2lsbCBiZSBwbGFjZWQgYXMgdGhlIGZpcnN0CiAgICAgICAgICAgIG1lc3NhZ2Ugd2hlbiBjYWxsaW5nIGBtYXN0ZXJfY2FsbGJhY2tgLiBGb3IgZGV0YWlsZWQgdXNhZ2UsIHNlZSBgX1N5bmNocm9uaXplZEJhdGNoTm9ybWAgZm9yIGFuIGV4YW1wbGUuCgogICAgICAgIFJldHVybnM6IHRoZSBtZXNzYWdlIHRvIGJlIHNlbnQgYmFjayB0byB0aGUgbWFzdGVyIGRldmljZS4KCiAgICAgICAgIiIiCiAgICAgICAgc2VsZi5fYWN0aXZhdGVkID0gVHJ1ZQoKICAgICAgICBpbnRlcm1lZGlhdGVzID0gWygwLCBtYXN0ZXJfbXNnKV0KICAgICAgICBmb3IgaSBpbiByYW5nZShzZWxmLm5yX3NsYXZlcyk6CiAgICAgICAgICAgIGludGVybWVkaWF0ZXMuYXBwZW5kKHNlbGYuX3F1ZXVlLmdldCgpKQoKICAgICAgICByZXN1bHRzID0gc2VsZi5fbWFzdGVyX2NhbGxiYWNrKGludGVybWVkaWF0ZXMpCiAgICAgICAgYXNzZXJ0IHJlc3VsdHNbMF1bMF0gPT0gMCwgJ1RoZSBmaXJzdCByZXN1bHQgc2hvdWxkIGJlbG9uZ3MgdG8gdGhlIG1hc3Rlci4nCgogICAgICAgIGZvciBpLCByZXMgaW4gcmVzdWx0czoKICAgICAgICAgICAgaWYgaSA9PSAwOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgc2VsZi5fcmVnaXN0cnlbaV0ucmVzdWx0LnB1dChyZXMpCgogICAgICAgIGZvciBpIGluIHJhbmdlKHNlbGYubnJfc2xhdmVzKToKICAgICAgICAgICAgYXNzZXJ0IHNlbGYuX3F1ZXVlLmdldCgpIGlzIFRydWUKCiAgICAgICAgcmV0dXJuIHJlc3VsdHNbMF1bMV0KCiAgICBAcHJvcGVydHkKICAgIGRlZiBucl9zbGF2ZXMoc2VsZik6CiAgICAgICAgcmV0dXJuIGxlbihzZWxmLl9yZWdpc3RyeSkK
+# -*- coding: utf-8 -*-
+# File   : comm.py
+# Author : Jiayuan Mao
+# Email  : maojiayuan@gmail.com
+# Date   : 27/01/2018
+# 
+# This file is part of Synchronized-BatchNorm-PyTorch.
+# https://github.com/vacancy/Synchronized-BatchNorm-PyTorch
+# Distributed under MIT License.
+
+import queue
+import collections
+import threading
+
+__all__ = ['FutureResult', 'SlavePipe', 'SyncMaster']
+
+
+class FutureResult(object):
+    """A thread-safe future implementation. Used only as one-to-one pipe."""
+
+    def __init__(self):
+        self._result = None
+        self._lock = threading.Lock()
+        self._cond = threading.Condition(self._lock)
+
+    def put(self, result):
+        with self._lock:
+            assert self._result is None, 'Previous result has\'t been fetched.'
+            self._result = result
+            self._cond.notify()
+
+    def get(self):
+        with self._lock:
+            if self._result is None:
+                self._cond.wait()
+
+            res = self._result
+            self._result = None
+            return res
+
+
+_MasterRegistry = collections.namedtuple('MasterRegistry', ['result'])
+_SlavePipeBase = collections.namedtuple('_SlavePipeBase', ['identifier', 'queue', 'result'])
+
+
+class SlavePipe(_SlavePipeBase):
+    """Pipe for master-slave communication."""
+
+    def run_slave(self, msg):
+        self.queue.put((self.identifier, msg))
+        ret = self.result.get()
+        self.queue.put(True)
+        return ret
+
+
+class SyncMaster(object):
+    """An abstract `SyncMaster` object.
+
+    - During the replication, as the data parallel will trigger an callback of each module, all slave devices should
+    call `register(id)` and obtain an `SlavePipe` to communicate with the master.
+    - During the forward pass, master device invokes `run_master`, all messages from slave devices will be collected,
+    and passed to a registered callback.
+    - After receiving the messages, the master device should gather the information and determine to message passed
+    back to each slave devices.
+    """
+
+    def __init__(self, master_callback):
+        """
+
+        Args:
+            master_callback: a callback to be invoked after having collected messages from slave devices.
+        """
+        self._master_callback = master_callback
+        self._queue = queue.Queue()
+        self._registry = collections.OrderedDict()
+        self._activated = False
+
+    def __getstate__(self):
+        return {'master_callback': self._master_callback}
+
+    def __setstate__(self, state):
+        self.__init__(state['master_callback'])
+
+    def register_slave(self, identifier):
+        """
+        Register an slave device.
+
+        Args:
+            identifier: an identifier, usually is the device id.
+
+        Returns: a `SlavePipe` object which can be used to communicate with the master device.
+
+        """
+        if self._activated:
+            assert self._queue.empty(), 'Queue is not clean before next initialization.'
+            self._activated = False
+            self._registry.clear()
+        future = FutureResult()
+        self._registry[identifier] = _MasterRegistry(future)
+        return SlavePipe(identifier, self._queue, future)
+
+    def run_master(self, master_msg):
+        """
+        Main entry for the master device in each forward pass.
+        The messages were first collected from each devices (including the master device), and then
+        an callback will be invoked to compute the message to be sent back to each devices
+        (including the master device).
+
+        Args:
+            master_msg: the message that the master want to send to itself. This will be placed as the first
+            message when calling `master_callback`. For detailed usage, see `_SynchronizedBatchNorm` for an example.
+
+        Returns: the message to be sent back to the master device.
+
+        """
+        self._activated = True
+
+        intermediates = [(0, master_msg)]
+        for i in range(self.nr_slaves):
+            intermediates.append(self._queue.get())
+
+        results = self._master_callback(intermediates)
+        assert results[0][0] == 0, 'The first result should belongs to the master.'
+
+        for i, res in results:
+            if i == 0:
+                continue
+            self._registry[i].result.put(res)
+
+        for i in range(self.nr_slaves):
+            assert self._queue.get() is True
+
+        return results[0][1]
+
+    @property
+    def nr_slaves(self):
+        return len(self._registry)

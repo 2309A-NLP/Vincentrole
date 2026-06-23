@@ -1,1 +1,47 @@
-aW1wb3J0IG51bXB5IGFzIG5wCgppbXBvcnQgdG9yY2gKaW1wb3J0IHRvcmNoLm5uIGFzIG5uCmltcG9ydCB0b3JjaC5ubi5mdW5jdGlvbmFsIGFzIEYKCgpjbGFzcyBNYXBwaW5nTmV0KG5uLk1vZHVsZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgY29lZmZfbmMsIGRlc2NyaXB0b3JfbmMsIGxheWVyLCBudW1fa3AsIG51bV9iaW5zKToKICAgICAgICBzdXBlciggTWFwcGluZ05ldCwgc2VsZikuX19pbml0X18oKQoKICAgICAgICBzZWxmLmxheWVyID0gbGF5ZXIKICAgICAgICBub25saW5lYXJpdHkgPSBubi5MZWFreVJlTFUoMC4xKQoKICAgICAgICBzZWxmLmZpcnN0ID0gbm4uU2VxdWVudGlhbCgKICAgICAgICAgICAgdG9yY2gubm4uQ29udjFkKGNvZWZmX25jLCBkZXNjcmlwdG9yX25jLCBrZXJuZWxfc2l6ZT03LCBwYWRkaW5nPTAsIGJpYXM9VHJ1ZSkpCgogICAgICAgIGZvciBpIGluIHJhbmdlKGxheWVyKToKICAgICAgICAgICAgbmV0ID0gbm4uU2VxdWVudGlhbChub25saW5lYXJpdHksCiAgICAgICAgICAgICAgICB0b3JjaC5ubi5Db252MWQoZGVzY3JpcHRvcl9uYywgZGVzY3JpcHRvcl9uYywga2VybmVsX3NpemU9MywgcGFkZGluZz0wLCBkaWxhdGlvbj0zKSkKICAgICAgICAgICAgc2V0YXR0cihzZWxmLCAnZW5jb2RlcicgKyBzdHIoaSksIG5ldCkgICAKCiAgICAgICAgc2VsZi5wb29saW5nID0gbm4uQWRhcHRpdmVBdmdQb29sMWQoMSkKICAgICAgICBzZWxmLm91dHB1dF9uYyA9IGRlc2NyaXB0b3JfbmMKCiAgICAgICAgc2VsZi5mY19yb2xsID0gbm4uTGluZWFyKGRlc2NyaXB0b3JfbmMsIG51bV9iaW5zKQogICAgICAgIHNlbGYuZmNfcGl0Y2ggPSBubi5MaW5lYXIoZGVzY3JpcHRvcl9uYywgbnVtX2JpbnMpCiAgICAgICAgc2VsZi5mY195YXcgPSBubi5MaW5lYXIoZGVzY3JpcHRvcl9uYywgbnVtX2JpbnMpCiAgICAgICAgc2VsZi5mY190ID0gbm4uTGluZWFyKGRlc2NyaXB0b3JfbmMsIDMpCiAgICAgICAgc2VsZi5mY19leHAgPSBubi5MaW5lYXIoZGVzY3JpcHRvcl9uYywgMypudW1fa3ApCgogICAgZGVmIGZvcndhcmQoc2VsZiwgaW5wdXRfM2RtbSk6CiAgICAgICAgb3V0ID0gc2VsZi5maXJzdChpbnB1dF8zZG1tKQogICAgICAgIGZvciBpIGluIHJhbmdlKHNlbGYubGF5ZXIpOgogICAgICAgICAgICBtb2RlbCA9IGdldGF0dHIoc2VsZiwgJ2VuY29kZXInICsgc3RyKGkpKQogICAgICAgICAgICBvdXQgPSBtb2RlbChvdXQpICsgb3V0WzosOiwzOi0zXQogICAgICAgIG91dCA9IHNlbGYucG9vbGluZyhvdXQpCiAgICAgICAgb3V0ID0gb3V0LnZpZXcob3V0LnNoYXBlWzBdLCAtMSkKICAgICAgICAjcHJpbnQoJ291dDonLCBvdXQuc2hhcGUpCgogICAgICAgIHlhdyA9IHNlbGYuZmNfeWF3KG91dCkKICAgICAgICBwaXRjaCA9IHNlbGYuZmNfcGl0Y2gob3V0KQogICAgICAgIHJvbGwgPSBzZWxmLmZjX3JvbGwob3V0KQogICAgICAgIHQgPSBzZWxmLmZjX3Qob3V0KQogICAgICAgIGV4cCA9IHNlbGYuZmNfZXhwKG91dCkKCiAgICAgICAgcmV0dXJuIHsneWF3JzogeWF3LCAncGl0Y2gnOiBwaXRjaCwgJ3JvbGwnOiByb2xsLCAndCc6IHQsICdleHAnOiBleHB9IA==
+import numpy as np
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+
+class MappingNet(nn.Module):
+    def __init__(self, coeff_nc, descriptor_nc, layer, num_kp, num_bins):
+        super( MappingNet, self).__init__()
+
+        self.layer = layer
+        nonlinearity = nn.LeakyReLU(0.1)
+
+        self.first = nn.Sequential(
+            torch.nn.Conv1d(coeff_nc, descriptor_nc, kernel_size=7, padding=0, bias=True))
+
+        for i in range(layer):
+            net = nn.Sequential(nonlinearity,
+                torch.nn.Conv1d(descriptor_nc, descriptor_nc, kernel_size=3, padding=0, dilation=3))
+            setattr(self, 'encoder' + str(i), net)   
+
+        self.pooling = nn.AdaptiveAvgPool1d(1)
+        self.output_nc = descriptor_nc
+
+        self.fc_roll = nn.Linear(descriptor_nc, num_bins)
+        self.fc_pitch = nn.Linear(descriptor_nc, num_bins)
+        self.fc_yaw = nn.Linear(descriptor_nc, num_bins)
+        self.fc_t = nn.Linear(descriptor_nc, 3)
+        self.fc_exp = nn.Linear(descriptor_nc, 3*num_kp)
+
+    def forward(self, input_3dmm):
+        out = self.first(input_3dmm)
+        for i in range(self.layer):
+            model = getattr(self, 'encoder' + str(i))
+            out = model(out) + out[:,:,3:-3]
+        out = self.pooling(out)
+        out = out.view(out.shape[0], -1)
+        #print('out:', out.shape)
+
+        yaw = self.fc_yaw(out)
+        pitch = self.fc_pitch(out)
+        roll = self.fc_roll(out)
+        t = self.fc_t(out)
+        exp = self.fc_exp(out)
+
+        return {'yaw': yaw, 'pitch': pitch, 'roll': roll, 't': t, 'exp': exp} 

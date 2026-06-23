@@ -1,1 +1,69 @@
-aW1wb3J0IGN2Miwgb3MKaW1wb3J0IG51bXB5IGFzIG5wCmZyb20gdHFkbSBpbXBvcnQgdHFkbQppbXBvcnQgdXVpZAoKZnJvbSBzcmMudXRpbHMudmlkZW9pbyBpbXBvcnQgc2F2ZV92aWRlb193aXRoX3dhdGVybWFyayAKCmRlZiBwYXN0ZV9waWModmlkZW9fcGF0aCwgcGljX3BhdGgsIGNyb3BfaW5mbywgbmV3X2F1ZGlvX3BhdGgsIGZ1bGxfdmlkZW9fcGF0aCwgZXh0ZW5kZWRfY3JvcD1GYWxzZSk6CgogICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKHBpY19wYXRoKToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCdwaWNfcGF0aCBtdXN0IGJlIGEgdmFsaWQgcGF0aCB0byB2aWRlby9pbWFnZSBmaWxlJykKICAgIGVsaWYgcGljX3BhdGguc3BsaXQoJy4nKVstMV0gaW4gWydqcGcnLCAncG5nJywgJ2pwZWcnXToKICAgICAgICAjIGxvYWRlciBmb3IgZmlyc3QgZnJhbWUKICAgICAgICBmdWxsX2ltZyA9IGN2Mi5pbXJlYWQocGljX3BhdGgpCiAgICBlbHNlOgogICAgICAgICMgbG9hZGVyIGZvciB2aWRlb3MKICAgICAgICB2aWRlb19zdHJlYW0gPSBjdjIuVmlkZW9DYXB0dXJlKHBpY19wYXRoKQogICAgICAgIGZwcyA9IHZpZGVvX3N0cmVhbS5nZXQoY3YyLkNBUF9QUk9QX0ZQUykKICAgICAgICBmdWxsX2ZyYW1lcyA9IFtdIAogICAgICAgIHdoaWxlIDE6CiAgICAgICAgICAgIHN0aWxsX3JlYWRpbmcsIGZyYW1lID0gdmlkZW9fc3RyZWFtLnJlYWQoKQogICAgICAgICAgICBpZiBub3Qgc3RpbGxfcmVhZGluZzoKICAgICAgICAgICAgICAgIHZpZGVvX3N0cmVhbS5yZWxlYXNlKCkKICAgICAgICAgICAgICAgIGJyZWFrIAogICAgICAgICAgICBicmVhayAKICAgICAgICBmdWxsX2ltZyA9IGZyYW1lCiAgICBmcmFtZV9oID0gZnVsbF9pbWcuc2hhcGVbMF0KICAgIGZyYW1lX3cgPSBmdWxsX2ltZy5zaGFwZVsxXQoKICAgIHZpZGVvX3N0cmVhbSA9IGN2Mi5WaWRlb0NhcHR1cmUodmlkZW9fcGF0aCkKICAgIGZwcyA9IHZpZGVvX3N0cmVhbS5nZXQoY3YyLkNBUF9QUk9QX0ZQUykKICAgIGNyb3BfZnJhbWVzID0gW10KICAgIHdoaWxlIDE6CiAgICAgICAgc3RpbGxfcmVhZGluZywgZnJhbWUgPSB2aWRlb19zdHJlYW0ucmVhZCgpCiAgICAgICAgaWYgbm90IHN0aWxsX3JlYWRpbmc6CiAgICAgICAgICAgIHZpZGVvX3N0cmVhbS5yZWxlYXNlKCkKICAgICAgICAgICAgYnJlYWsKICAgICAgICBjcm9wX2ZyYW1lcy5hcHBlbmQoZnJhbWUpCiAgICAKICAgIGlmIGxlbihjcm9wX2luZm8pICE9IDM6CiAgICAgICAgcHJpbnQoInlvdSBkaWRuJ3QgY3JvcCB0aGUgaW1hZ2UiKQogICAgICAgIHJldHVybgogICAgZWxzZToKICAgICAgICByX3csIHJfaCA9IGNyb3BfaW5mb1swXQogICAgICAgIGNseCwgY2x5LCBjcngsIGNyeSA9IGNyb3BfaW5mb1sxXQogICAgICAgIGx4LCBseSwgcngsIHJ5ID0gY3JvcF9pbmZvWzJdCiAgICAgICAgbHgsIGx5LCByeCwgcnkgPSBpbnQobHgpLCBpbnQobHkpLCBpbnQocngpLCBpbnQocnkpCiAgICAgICAgIyBveTEsIG95Miwgb3gxLCBveDIgPSBjbHkrbHksIGNseStyeSwgY2x4K2x4LCBjbHgrcngKICAgICAgICAjIG95MSwgb3kyLCBveDEsIG94MiA9IGNseStseSwgY2x5K3J5LCBjbHgrbHgsIGNseCtyeAoKICAgICAgICBpZiBleHRlbmRlZF9jcm9wOgogICAgICAgICAgICBveTEsIG95Miwgb3gxLCBveDIgPSBjbHksIGNyeSwgY2x4LCBjcngKICAgICAgICBlbHNlOgogICAgICAgICAgICBveTEsIG95Miwgb3gxLCBveDIgPSBjbHkrbHksIGNseStyeSwgY2x4K2x4LCBjbHgrcngKCiAgICB0bXBfcGF0aCA9IHN0cih1dWlkLnV1aWQ0KCkpKycubXA0JwogICAgb3V0X3RtcCA9IGN2Mi5WaWRlb1dyaXRlcih0bXBfcGF0aCwgY3YyLlZpZGVvV3JpdGVyX2ZvdXJjYygqJ01QNFYnKSwgZnBzLCAoZnJhbWVfdywgZnJhbWVfaCkpCiAgICBmb3IgY3JvcF9mcmFtZSBpbiB0cWRtKGNyb3BfZnJhbWVzLCAnc2VhbWxlc3NDbG9uZTonKToKICAgICAgICBwID0gY3YyLnJlc2l6ZShjcm9wX2ZyYW1lLmFzdHlwZShucC51aW50OCksIChveDItb3gxLCBveTIgLSBveTEpKSAKCiAgICAgICAgbWFzayA9IDI1NSpucC5vbmVzKHAuc2hhcGUsIHAuZHR5cGUpCiAgICAgICAgbG9jYXRpb24gPSAoKG94MStveDIpIC8vIDIsIChveTErb3kyKSAvLyAyKQogICAgICAgIGdlbl9pbWcgPSBjdjIuc2VhbWxlc3NDbG9uZShwLCBmdWxsX2ltZywgbWFzaywgbG9jYXRpb24sIGN2Mi5OT1JNQUxfQ0xPTkUpCiAgICAgICAgb3V0X3RtcC53cml0ZShnZW5faW1nKQoKICAgIG91dF90bXAucmVsZWFzZSgpCgogICAgc2F2ZV92aWRlb193aXRoX3dhdGVybWFyayh0bXBfcGF0aCwgbmV3X2F1ZGlvX3BhdGgsIGZ1bGxfdmlkZW9fcGF0aCwgd2F0ZXJtYXJrPUZhbHNlKQogICAgb3MucmVtb3ZlKHRtcF9wYXRoKQo=
+import cv2, os
+import numpy as np
+from tqdm import tqdm
+import uuid
+
+from src.utils.videoio import save_video_with_watermark 
+
+def paste_pic(video_path, pic_path, crop_info, new_audio_path, full_video_path, extended_crop=False):
+
+    if not os.path.isfile(pic_path):
+        raise ValueError('pic_path must be a valid path to video/image file')
+    elif pic_path.split('.')[-1] in ['jpg', 'png', 'jpeg']:
+        # loader for first frame
+        full_img = cv2.imread(pic_path)
+    else:
+        # loader for videos
+        video_stream = cv2.VideoCapture(pic_path)
+        fps = video_stream.get(cv2.CAP_PROP_FPS)
+        full_frames = [] 
+        while 1:
+            still_reading, frame = video_stream.read()
+            if not still_reading:
+                video_stream.release()
+                break 
+            break 
+        full_img = frame
+    frame_h = full_img.shape[0]
+    frame_w = full_img.shape[1]
+
+    video_stream = cv2.VideoCapture(video_path)
+    fps = video_stream.get(cv2.CAP_PROP_FPS)
+    crop_frames = []
+    while 1:
+        still_reading, frame = video_stream.read()
+        if not still_reading:
+            video_stream.release()
+            break
+        crop_frames.append(frame)
+    
+    if len(crop_info) != 3:
+        print("you didn't crop the image")
+        return
+    else:
+        r_w, r_h = crop_info[0]
+        clx, cly, crx, cry = crop_info[1]
+        lx, ly, rx, ry = crop_info[2]
+        lx, ly, rx, ry = int(lx), int(ly), int(rx), int(ry)
+        # oy1, oy2, ox1, ox2 = cly+ly, cly+ry, clx+lx, clx+rx
+        # oy1, oy2, ox1, ox2 = cly+ly, cly+ry, clx+lx, clx+rx
+
+        if extended_crop:
+            oy1, oy2, ox1, ox2 = cly, cry, clx, crx
+        else:
+            oy1, oy2, ox1, ox2 = cly+ly, cly+ry, clx+lx, clx+rx
+
+    tmp_path = str(uuid.uuid4())+'.mp4'
+    out_tmp = cv2.VideoWriter(tmp_path, cv2.VideoWriter_fourcc(*'MP4V'), fps, (frame_w, frame_h))
+    for crop_frame in tqdm(crop_frames, 'seamlessClone:'):
+        p = cv2.resize(crop_frame.astype(np.uint8), (ox2-ox1, oy2 - oy1)) 
+
+        mask = 255*np.ones(p.shape, p.dtype)
+        location = ((ox1+ox2) // 2, (oy1+oy2) // 2)
+        gen_img = cv2.seamlessClone(p, full_img, mask, location, cv2.NORMAL_CLONE)
+        out_tmp.write(gen_img)
+
+    out_tmp.release()
+
+    save_video_with_watermark(tmp_path, new_audio_path, full_video_path, watermark=False)
+    os.remove(tmp_path)

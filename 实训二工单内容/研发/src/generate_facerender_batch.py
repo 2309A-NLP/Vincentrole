@@ -1,1 +1,135 @@
-CmltcG9ydCBudW1weSBhcyBucApmcm9tIFBJTCBpbXBvcnQgSW1hZ2UKZnJvbSBza2ltYWdlIGltcG9ydCAgaW1nX2FzX2Zsb2F0MzIsIHRyYW5zZm9ybQppbXBvcnQgdG9yY2gKaW1wb3J0IHNjaXB5LmlvIGFzIHNjaW8KaW1wb3J0IG9zCmRlZiBnZXRfZmFjZXJlbmRlcl9kYXRhKGNvZWZmLCBwaWNfcGF0aCwgZmlyc3RfY29lZmZfcGF0aCwgYXVkaW9fcGF0aCwgCiAgICAgICAgICAgICAgICAgICAgICAgIGJhdGNoX3NpemUsIGlucHV0X3lhd19saXN0PU5vbmUsIGlucHV0X3BpdGNoX2xpc3Q9Tm9uZSwgaW5wdXRfcm9sbF9saXN0PU5vbmUsIAogICAgICAgICAgICAgICAgICAgICAgICBleHByZXNzaW9uX3NjYWxlPTEuMCwgc3RpbGxfbW9kZSA9IEZhbHNlLCBwcmVwcm9jZXNzPSdjcm9wJywgc2l6ZSA9IDI1NiwgZmFjZW1vZGVsPSdmYWNldmlkMnZpZCcpOgoKICAgIHNlbWFudGljX3JhZGl1cyA9IDEzCiAgICB2aWRlb19uYW1lID0gZiJ7b3MucGF0aC5iYXNlbmFtZShwaWNfcGF0aCkuc3BsaXQoJy4nKVswXX1fe29zLnBhdGguYmFzZW5hbWUoYXVkaW9fcGF0aCkuc3BsaXQoJy4nKVswXX0iCiAgICAjIHR4dF9wYXRoID0gb3MucGF0aC5zcGxpdGV4dChjb2VmZl9wYXRoKVswXQoKICAgIGRhdGE9e30KCiAgICBpbWcxID0gSW1hZ2Uub3BlbihwaWNfcGF0aCkKICAgIHNvdXJjZV9pbWFnZSA9IG5wLmFycmF5KGltZzEpCiAgICBzb3VyY2VfaW1hZ2UgPSBpbWdfYXNfZmxvYXQzMihzb3VyY2VfaW1hZ2UpCiAgICBzb3VyY2VfaW1hZ2UgPSB0cmFuc2Zvcm0ucmVzaXplKHNvdXJjZV9pbWFnZSwgKHNpemUsIHNpemUsIDMpKQogICAgc291cmNlX2ltYWdlID0gc291cmNlX2ltYWdlLnRyYW5zcG9zZSgoMiwgMCwgMSkpCiAgICBzb3VyY2VfaW1hZ2VfdHMgPSB0b3JjaC5GbG9hdFRlbnNvcihzb3VyY2VfaW1hZ2UpLnVuc3F1ZWV6ZSgwKQogICAgc291cmNlX2ltYWdlX3RzID0gc291cmNlX2ltYWdlX3RzLnJlcGVhdChiYXRjaF9zaXplLCAxLCAxLCAxKQogICAgZGF0YVsnc291cmNlX2ltYWdlJ10gPSBzb3VyY2VfaW1hZ2VfdHMKIAogICAgc291cmNlX3NlbWFudGljc19kaWN0ID0gc2Npby5sb2FkbWF0KGZpcnN0X2NvZWZmX3BhdGgpCiAgICAjIGdlbmVyYXRlZF9kaWN0ID0gc2Npby5sb2FkbWF0KGNvZWZmX3BhdGgpCgogICAgaWYgJ2Z1bGwnIG5vdCBpbiBwcmVwcm9jZXNzLmxvd2VyKCkgYW5kIGZhY2Vtb2RlbCAhPSAncGlyZW5kZXInOgogICAgICAgIHNvdXJjZV9zZW1hbnRpY3MgPSBzb3VyY2Vfc2VtYW50aWNzX2RpY3RbJ2NvZWZmXzNkbW0nXVs6MSw6NzBdICAgICAgICAgIzEgNzAKICAgICAgICBnZW5lcmF0ZWRfM2RtbSA9IGNvZWZmWzosOjcwXQogICAgZWxzZToKICAgICAgICBzb3VyY2Vfc2VtYW50aWNzID0gc291cmNlX3NlbWFudGljc19kaWN0Wydjb2VmZl8zZG1tJ11bOjEsOjczXSAgICAgICAgICMxIDcwCiAgICAgICAgZ2VuZXJhdGVkXzNkbW0gPSBjb2VmZls6LDo3MF0KCiAgICBzb3VyY2Vfc2VtYW50aWNzX25ldyA9IHRyYW5zZm9ybV9zZW1hbnRpY18xKHNvdXJjZV9zZW1hbnRpY3MsIHNlbWFudGljX3JhZGl1cykKICAgIHNvdXJjZV9zZW1hbnRpY3NfdHMgPSB0b3JjaC5GbG9hdFRlbnNvcihzb3VyY2Vfc2VtYW50aWNzX25ldykudW5zcXVlZXplKDApCiAgICBzb3VyY2Vfc2VtYW50aWNzX3RzID0gc291cmNlX3NlbWFudGljc190cy5yZXBlYXQoYmF0Y2hfc2l6ZSwgMSwgMSkKICAgIGRhdGFbJ3NvdXJjZV9zZW1hbnRpY3MnXSA9IHNvdXJjZV9zZW1hbnRpY3NfdHMKCiAgICAjIHRhcmdldCAKICAgIGdlbmVyYXRlZF8zZG1tWzosIDo2NF0gPSBnZW5lcmF0ZWRfM2RtbVs6LCA6NjRdICogZXhwcmVzc2lvbl9zY2FsZQoKICAgIGlmICdmdWxsJyBpbiBwcmVwcm9jZXNzLmxvd2VyKCkgb3IgZmFjZW1vZGVsID09ICdwaXJlbmRlcic6CiAgICAgICAgZ2VuZXJhdGVkXzNkbW0gPSBucC5jb25jYXRlbmF0ZShbZ2VuZXJhdGVkXzNkbW0sIG5wLnJlcGVhdChzb3VyY2Vfc2VtYW50aWNzWzosNzA6XSwgZ2VuZXJhdGVkXzNkbW0uc2hhcGVbMF0sIGF4aXM9MCldLCBheGlzPTEpCgogICAgaWYgc3RpbGxfbW9kZToKICAgICAgICBnZW5lcmF0ZWRfM2RtbVs6LCA2NDpdID0gbnAucmVwZWF0KHNvdXJjZV9zZW1hbnRpY3NbOiwgNjQ6XSwgZ2VuZXJhdGVkXzNkbW0uc2hhcGVbMF0sIGF4aXM9MCkKCiAgICAjIHdpdGggb3Blbih0eHRfcGF0aCsnLnR4dCcsICd3JykgYXMgZjoKICAgICMgICAgIGZvciBjb2VmZiBpbiBnZW5lcmF0ZWRfM2RtbToKICAgICMgICAgICAgICBmb3IgaSBpbiBjb2VmZjoKICAgICMgICAgICAgICAgICAgZi53cml0ZShzdHIoaSlbOjddICAgKyAnICAnKydcdCcpCiAgICAjICAgICAgICAgZi53cml0ZSgnXG4nKQoKICAgIHRhcmdldF9zZW1hbnRpY3NfbGlzdCA9IFtdIAogICAgZnJhbWVfbnVtID0gZ2VuZXJhdGVkXzNkbW0uc2hhcGVbMF0KICAgIGRhdGFbJ2ZyYW1lX251bSddID0gZnJhbWVfbnVtCiAgICBmb3IgZnJhbWVfaWR4IGluIHJhbmdlKGZyYW1lX251bSk6CiAgICAgICAgdGFyZ2V0X3NlbWFudGljcyA9IHRyYW5zZm9ybV9zZW1hbnRpY190YXJnZXQoZ2VuZXJhdGVkXzNkbW0sIGZyYW1lX2lkeCwgc2VtYW50aWNfcmFkaXVzKQogICAgICAgIHRhcmdldF9zZW1hbnRpY3NfbGlzdC5hcHBlbmQodGFyZ2V0X3NlbWFudGljcykKCiAgICByZW1haW5kZXIgPSBmcmFtZV9udW0lYmF0Y2hfc2l6ZQogICAgaWYgcmVtYWluZGVyIT0wOgogICAgICAgIGZvciBfIGluIHJhbmdlKGJhdGNoX3NpemUtcmVtYWluZGVyKToKICAgICAgICAgICAgdGFyZ2V0X3NlbWFudGljc19saXN0LmFwcGVuZCh0YXJnZXRfc2VtYW50aWNzKQoKICAgIHRhcmdldF9zZW1hbnRpY3NfbnAgPSBucC5hcnJheSh0YXJnZXRfc2VtYW50aWNzX2xpc3QpICAgICAgICAgICAgICNmcmFtZV9udW0gNzAgc2VtYW50aWNfcmFkaXVzKjIrMQogICAgdGFyZ2V0X3NlbWFudGljc19ucCA9IHRhcmdldF9zZW1hbnRpY3NfbnAucmVzaGFwZShiYXRjaF9zaXplLCAtMSwgdGFyZ2V0X3NlbWFudGljc19ucC5zaGFwZVstMl0sIHRhcmdldF9zZW1hbnRpY3NfbnAuc2hhcGVbLTFdKQogICAgZGF0YVsndGFyZ2V0X3NlbWFudGljc19saXN0J10gPSB0b3JjaC5GbG9hdFRlbnNvcih0YXJnZXRfc2VtYW50aWNzX25wKQogICAgZGF0YVsndmlkZW9fbmFtZSddID0gdmlkZW9fbmFtZQogICAgZGF0YVsnYXVkaW9fcGF0aCddID0gYXVkaW9fcGF0aAogICAgCiAgICAjIGlmIGlucHV0X3lhd19saXN0IGlzIG5vdCBOb25lOgogICAgIyAgICAgeWF3X2Nfc2VxID0gZ2VuX2NhbWVyYV9wb3NlKGlucHV0X3lhd19saXN0LCBmcmFtZV9udW0sIGJhdGNoX3NpemUpCiAgICAjICAgICBkYXRhWyd5YXdfY19zZXEnXSA9IHRvcmNoLkZsb2F0VGVuc29yKHlhd19jX3NlcSkKICAgICMgaWYgaW5wdXRfcGl0Y2hfbGlzdCBpcyBub3QgTm9uZToKICAgICMgICAgIHBpdGNoX2Nfc2VxID0gZ2VuX2NhbWVyYV9wb3NlKGlucHV0X3BpdGNoX2xpc3QsIGZyYW1lX251bSwgYmF0Y2hfc2l6ZSkKICAgICMgICAgIGRhdGFbJ3BpdGNoX2Nfc2VxJ10gPSB0b3JjaC5GbG9hdFRlbnNvcihwaXRjaF9jX3NlcSkKICAgICMgaWYgaW5wdXRfcm9sbF9saXN0IGlzIG5vdCBOb25lOgogICAgIyAgICAgcm9sbF9jX3NlcSA9IGdlbl9jYW1lcmFfcG9zZShpbnB1dF9yb2xsX2xpc3QsIGZyYW1lX251bSwgYmF0Y2hfc2l6ZSkgCiAgICAjICAgICBkYXRhWydyb2xsX2Nfc2VxJ10gPSB0b3JjaC5GbG9hdFRlbnNvcihyb2xsX2Nfc2VxKQogCiAgICByZXR1cm4gZGF0YQoKZGVmIHRyYW5zZm9ybV9zZW1hbnRpY18xKHNlbWFudGljLCBzZW1hbnRpY19yYWRpdXMpOgogICAgc2VtYW50aWNfbGlzdCA9ICBbc2VtYW50aWMgZm9yIGkgaW4gcmFuZ2UoMCwgc2VtYW50aWNfcmFkaXVzKjIrMSldCiAgICBjb2VmZl8zZG1tID0gbnAuY29uY2F0ZW5hdGUoc2VtYW50aWNfbGlzdCwgMCkKICAgIHJldHVybiBjb2VmZl8zZG1tLnRyYW5zcG9zZSgxLDApCgpkZWYgdHJhbnNmb3JtX3NlbWFudGljX3RhcmdldChjb2VmZl8zZG1tLCBmcmFtZV9pbmRleCwgc2VtYW50aWNfcmFkaXVzKToKICAgIG51bV9mcmFtZXMgPSBjb2VmZl8zZG1tLnNoYXBlWzBdCiAgICBzZXEgPSBsaXN0KHJhbmdlKGZyYW1lX2luZGV4LSBzZW1hbnRpY19yYWRpdXMsIGZyYW1lX2luZGV4ICsgc2VtYW50aWNfcmFkaXVzKzEpKQogICAgaW5kZXggPSBbIG1pbihtYXgoaXRlbSwgMCksIG51bV9mcmFtZXMtMSkgZm9yIGl0ZW0gaW4gc2VxIF0gCiAgICBjb2VmZl8zZG1tX2cgPSBjb2VmZl8zZG1tW2luZGV4LCA6XQogICAgcmV0dXJuIGNvZWZmXzNkbW1fZy50cmFuc3Bvc2UoMSwwKQoKZGVmIGdlbl9jYW1lcmFfcG9zZShjYW1lcmFfZGVncmVlX2xpc3QsIGZyYW1lX251bSwgYmF0Y2hfc2l6ZSk6CgogICAgbmV3X2RlZ3JlZV9saXN0ID0gW10gCiAgICBpZiBsZW4oY2FtZXJhX2RlZ3JlZV9saXN0KSA9PSAxOgogICAgICAgIGZvciBfIGluIHJhbmdlKGZyYW1lX251bSk6CiAgICAgICAgICAgIG5ld19kZWdyZWVfbGlzdC5hcHBlbmQoY2FtZXJhX2RlZ3JlZV9saXN0WzBdKSAKICAgICAgICByZW1haW5kZXIgPSBmcmFtZV9udW0lYmF0Y2hfc2l6ZQogICAgICAgIGlmIHJlbWFpbmRlciE9MDoKICAgICAgICAgICAgZm9yIF8gaW4gcmFuZ2UoYmF0Y2hfc2l6ZS1yZW1haW5kZXIpOgogICAgICAgICAgICAgICAgbmV3X2RlZ3JlZV9saXN0LmFwcGVuZChuZXdfZGVncmVlX2xpc3RbLTFdKQogICAgICAgIG5ld19kZWdyZWVfbnAgPSBucC5hcnJheShuZXdfZGVncmVlX2xpc3QpLnJlc2hhcGUoYmF0Y2hfc2l6ZSwgLTEpIAogICAgICAgIHJldHVybiBuZXdfZGVncmVlX25wCgogICAgZGVncmVlX3N1bSA9IDAuCiAgICBmb3IgaSwgZGVncmVlIGluIGVudW1lcmF0ZShjYW1lcmFfZGVncmVlX2xpc3RbMTpdKToKICAgICAgICBkZWdyZWVfc3VtICs9IGFicyhkZWdyZWUtY2FtZXJhX2RlZ3JlZV9saXN0W2ldKQogICAgCiAgICBkZWdyZWVfcGVyX2ZyYW1lID0gZGVncmVlX3N1bS8oZnJhbWVfbnVtLTEpCiAgICBmb3IgaSwgZGVncmVlIGluIGVudW1lcmF0ZShjYW1lcmFfZGVncmVlX2xpc3RbMTpdKToKICAgICAgICBkZWdyZWVfbGFzdCA9IGNhbWVyYV9kZWdyZWVfbGlzdFtpXQogICAgICAgIGRlZ3JlZV9zdGVwID0gZGVncmVlX3Blcl9mcmFtZSAqIGFicyhkZWdyZWUtZGVncmVlX2xhc3QpLyhkZWdyZWUtZGVncmVlX2xhc3QpCiAgICAgICAgbmV3X2RlZ3JlZV9saXN0ID0gIG5ld19kZWdyZWVfbGlzdCArIGxpc3QobnAuYXJhbmdlKGRlZ3JlZV9sYXN0LCBkZWdyZWUsIGRlZ3JlZV9zdGVwKSkKICAgIGlmIGxlbihuZXdfZGVncmVlX2xpc3QpID4gZnJhbWVfbnVtOgogICAgICAgIG5ld19kZWdyZWVfbGlzdCA9IG5ld19kZWdyZWVfbGlzdFs6ZnJhbWVfbnVtXQogICAgZWxpZiBsZW4obmV3X2RlZ3JlZV9saXN0KSA8IGZyYW1lX251bToKICAgICAgICBmb3IgXyBpbiByYW5nZShmcmFtZV9udW0tbGVuKG5ld19kZWdyZWVfbGlzdCkpOgogICAgICAgICAgICBuZXdfZGVncmVlX2xpc3QuYXBwZW5kKG5ld19kZWdyZWVfbGlzdFstMV0pCiAgICBwcmludChsZW4obmV3X2RlZ3JlZV9saXN0KSkKICAgIHByaW50KGZyYW1lX251bSkKCiAgICByZW1haW5kZXIgPSBmcmFtZV9udW0lYmF0Y2hfc2l6ZQogICAgaWYgcmVtYWluZGVyIT0wOgogICAgICAgIGZvciBfIGluIHJhbmdlKGJhdGNoX3NpemUtcmVtYWluZGVyKToKICAgICAgICAgICAgbmV3X2RlZ3JlZV9saXN0LmFwcGVuZChuZXdfZGVncmVlX2xpc3RbLTFdKQogICAgbmV3X2RlZ3JlZV9ucCA9IG5wLmFycmF5KG5ld19kZWdyZWVfbGlzdCkucmVzaGFwZShiYXRjaF9zaXplLCAtMSkgCiAgICByZXR1cm4gbmV3X2RlZ3JlZV9ucAogICAgCg==
+
+import numpy as np
+from PIL import Image
+from skimage import  img_as_float32, transform
+import torch
+import scipy.io as scio
+import os
+def get_facerender_data(coeff, pic_path, first_coeff_path, audio_path, 
+                        batch_size, input_yaw_list=None, input_pitch_list=None, input_roll_list=None, 
+                        expression_scale=1.0, still_mode = False, preprocess='crop', size = 256, facemodel='facevid2vid'):
+
+    semantic_radius = 13
+    video_name = f"{os.path.basename(pic_path).split('.')[0]}_{os.path.basename(audio_path).split('.')[0]}"
+    # txt_path = os.path.splitext(coeff_path)[0]
+
+    data={}
+
+    img1 = Image.open(pic_path)
+    source_image = np.array(img1)
+    source_image = img_as_float32(source_image)
+    source_image = transform.resize(source_image, (size, size, 3))
+    source_image = source_image.transpose((2, 0, 1))
+    source_image_ts = torch.FloatTensor(source_image).unsqueeze(0)
+    source_image_ts = source_image_ts.repeat(batch_size, 1, 1, 1)
+    data['source_image'] = source_image_ts
+ 
+    source_semantics_dict = scio.loadmat(first_coeff_path)
+    # generated_dict = scio.loadmat(coeff_path)
+
+    if 'full' not in preprocess.lower() and facemodel != 'pirender':
+        source_semantics = source_semantics_dict['coeff_3dmm'][:1,:70]         #1 70
+        generated_3dmm = coeff[:,:70]
+    else:
+        source_semantics = source_semantics_dict['coeff_3dmm'][:1,:73]         #1 70
+        generated_3dmm = coeff[:,:70]
+
+    source_semantics_new = transform_semantic_1(source_semantics, semantic_radius)
+    source_semantics_ts = torch.FloatTensor(source_semantics_new).unsqueeze(0)
+    source_semantics_ts = source_semantics_ts.repeat(batch_size, 1, 1)
+    data['source_semantics'] = source_semantics_ts
+
+    # target 
+    generated_3dmm[:, :64] = generated_3dmm[:, :64] * expression_scale
+
+    if 'full' in preprocess.lower() or facemodel == 'pirender':
+        generated_3dmm = np.concatenate([generated_3dmm, np.repeat(source_semantics[:,70:], generated_3dmm.shape[0], axis=0)], axis=1)
+
+    if still_mode:
+        generated_3dmm[:, 64:] = np.repeat(source_semantics[:, 64:], generated_3dmm.shape[0], axis=0)
+
+    # with open(txt_path+'.txt', 'w') as f:
+    #     for coeff in generated_3dmm:
+    #         for i in coeff:
+    #             f.write(str(i)[:7]   + '  '+'\t')
+    #         f.write('\n')
+
+    target_semantics_list = [] 
+    frame_num = generated_3dmm.shape[0]
+    data['frame_num'] = frame_num
+    for frame_idx in range(frame_num):
+        target_semantics = transform_semantic_target(generated_3dmm, frame_idx, semantic_radius)
+        target_semantics_list.append(target_semantics)
+
+    remainder = frame_num%batch_size
+    if remainder!=0:
+        for _ in range(batch_size-remainder):
+            target_semantics_list.append(target_semantics)
+
+    target_semantics_np = np.array(target_semantics_list)             #frame_num 70 semantic_radius*2+1
+    target_semantics_np = target_semantics_np.reshape(batch_size, -1, target_semantics_np.shape[-2], target_semantics_np.shape[-1])
+    data['target_semantics_list'] = torch.FloatTensor(target_semantics_np)
+    data['video_name'] = video_name
+    data['audio_path'] = audio_path
+    
+    # if input_yaw_list is not None:
+    #     yaw_c_seq = gen_camera_pose(input_yaw_list, frame_num, batch_size)
+    #     data['yaw_c_seq'] = torch.FloatTensor(yaw_c_seq)
+    # if input_pitch_list is not None:
+    #     pitch_c_seq = gen_camera_pose(input_pitch_list, frame_num, batch_size)
+    #     data['pitch_c_seq'] = torch.FloatTensor(pitch_c_seq)
+    # if input_roll_list is not None:
+    #     roll_c_seq = gen_camera_pose(input_roll_list, frame_num, batch_size) 
+    #     data['roll_c_seq'] = torch.FloatTensor(roll_c_seq)
+ 
+    return data
+
+def transform_semantic_1(semantic, semantic_radius):
+    semantic_list =  [semantic for i in range(0, semantic_radius*2+1)]
+    coeff_3dmm = np.concatenate(semantic_list, 0)
+    return coeff_3dmm.transpose(1,0)
+
+def transform_semantic_target(coeff_3dmm, frame_index, semantic_radius):
+    num_frames = coeff_3dmm.shape[0]
+    seq = list(range(frame_index- semantic_radius, frame_index + semantic_radius+1))
+    index = [ min(max(item, 0), num_frames-1) for item in seq ] 
+    coeff_3dmm_g = coeff_3dmm[index, :]
+    return coeff_3dmm_g.transpose(1,0)
+
+def gen_camera_pose(camera_degree_list, frame_num, batch_size):
+
+    new_degree_list = [] 
+    if len(camera_degree_list) == 1:
+        for _ in range(frame_num):
+            new_degree_list.append(camera_degree_list[0]) 
+        remainder = frame_num%batch_size
+        if remainder!=0:
+            for _ in range(batch_size-remainder):
+                new_degree_list.append(new_degree_list[-1])
+        new_degree_np = np.array(new_degree_list).reshape(batch_size, -1) 
+        return new_degree_np
+
+    degree_sum = 0.
+    for i, degree in enumerate(camera_degree_list[1:]):
+        degree_sum += abs(degree-camera_degree_list[i])
+    
+    degree_per_frame = degree_sum/(frame_num-1)
+    for i, degree in enumerate(camera_degree_list[1:]):
+        degree_last = camera_degree_list[i]
+        degree_step = degree_per_frame * abs(degree-degree_last)/(degree-degree_last)
+        new_degree_list =  new_degree_list + list(np.arange(degree_last, degree, degree_step))
+    if len(new_degree_list) > frame_num:
+        new_degree_list = new_degree_list[:frame_num]
+    elif len(new_degree_list) < frame_num:
+        for _ in range(frame_num-len(new_degree_list)):
+            new_degree_list.append(new_degree_list[-1])
+    print(len(new_degree_list))
+    print(frame_num)
+
+    remainder = frame_num%batch_size
+    if remainder!=0:
+        for _ in range(batch_size-remainder):
+            new_degree_list.append(new_degree_list[-1])
+    new_degree_np = np.array(new_degree_list).reshape(batch_size, -1) 
+    return new_degree_np
+    

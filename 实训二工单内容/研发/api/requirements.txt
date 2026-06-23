@@ -1,1 +1,2 @@
-ZmFzdGFwaQpyZXF1ZXN0cw==
+fastapi
+requests
